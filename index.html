@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morning Brief — 隅室設計早報</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #F7F7F5;
+      --surface:   #FFFFFF;
+      --border:    #E8E8E4;
+      --text:      #1A1A18;
+      --muted:     #6B6B67;
+      --accent:    #2563EB;
+      --accent-bg: #EEF3FF;
+      --star-bg:   #FFFBEB;
+      --star-bd:   #FDE68A;
+      --star-text: #92400E;
+      --tag-en:    #EEF3FF;
+      --tag-zh:    #F0FDF4;
+      --tag-ja:    #FFF7ED;
+      --radius:    12px;
+      --shadow:    0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                   "PingFang TC", "Noto Sans TC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0 16px 80px;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .wrap { max-width: 720px; margin: 0 auto; }
+
+    /* ── Header ── */
+    .header {
+      padding: 48px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+    }
+    .header-brand {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .header h1 { font-size: 26px; font-weight: 700; letter-spacing: -.02em; }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    .tab-btn {
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid transparent;
+      background: transparent;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all .15s;
+      font-family: inherit;
+    }
+    .tab-btn:hover { background: var(--surface); border-color: var(--border); color: var(--text); }
+    .tab-btn.active { background: var(--text); color: #fff; border-color: transparent; }
+    .tab-date { font-size: 11px; opacity: .7; margin-left: 4px; }
+
+    /* ── Loading ── */
+    .loading {
+      padding: 60px 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* ── Section ── */
+    .section { margin-bottom: 48px; }
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Card Base ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      box-shadow: var(--shadow);
+    }
+
+    /* ── Jenny Wen Card ── */
+    .jenny-card {
+      background: var(--star-bg);
+      border-color: var(--star-bd);
+      margin-bottom: 32px;
+      padding: 20px 22px;
+    }
+    .jenny-label {
+      font-size: 11px; font-weight: 700; letter-spacing: .1em;
+      text-transform: uppercase; color: var(--star-text); margin-bottom: 10px;
+    }
+    .jenny-card h2 {
+      font-size: 17px; font-weight: 700; line-height: 1.4;
+      margin-bottom: 10px; letter-spacing: -.01em;
+    }
+    .jenny-card h2 a { color: var(--text); }
+    .jenny-card h2 a:hover { color: var(--accent); text-decoration: none; }
+    .jenny-card p { font-size: 14px; color: #44403C; line-height: 1.65; }
+
+    /* ── Article Card ── */
+    .article-list { display: flex; flex-direction: column; gap: 10px; }
+    .article-card { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; }
+    .article-top { display: flex; align-items: flex-start; gap: 10px; }
+    .article-num { font-size: 12px; font-weight: 600; color: var(--muted); min-width: 20px; padding-top: 2px; }
+    .article-meta { flex: 1; }
+    .article-title { font-size: 15px; font-weight: 600; line-height: 1.4; letter-spacing: -.01em; }
+    .article-title a { color: var(--text); }
+    .article-title a:hover { color: var(--accent); text-decoration: none; }
+    .article-source-row { display: flex; align-items: center; gap: 6px; margin-top: 4px; flex-wrap: wrap; }
+    .article-source { font-size: 12px; color: var(--muted); }
+    .tag {
+      font-size: 10px; font-weight: 600; letter-spacing: .04em;
+      padding: 2px 6px; border-radius: 4px;
+    }
+    .tag-en  { background: var(--tag-en);  color: #1D4ED8; }
+    .tag-zh  { background: var(--tag-zh);  color: #15803D; }
+    .tag-ja  { background: var(--tag-ja);  color: #C2410C; }
+    .tag-up  { background: #FEF9EE; color: #B45309; }
+    .article-summary { font-size: 13.5px; color: var(--muted); line-height: 1.6; padding-left: 30px; }
+
+    /* ── Buzz Box ── */
+    .buzz { margin-top: 16px; background: var(--accent-bg); border-radius: 8px; padding: 14px 16px; }
+    .buzz-label {
+      font-size: 11px; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 6px;
+    }
+    .buzz p { font-size: 13.5px; color: #1E3A8A; line-height: 1.65; }
+
+    /* ── Podcast Card ── */
+    .podcast-card { display: flex; align-items: flex-start; gap: 14px; }
+    .podcast-icon { font-size: 22px; line-height: 1; padding-top: 2px; }
+    .podcast-body h3 { font-size: 15px; font-weight: 600; margin-bottom: 4px; letter-spacing: -.01em; }
+    .podcast-body h3 a { color: var(--text); }
+    .podcast-body h3 a:hover { color: var(--accent); text-decoration: none; }
+    .podcast-body p { font-size: 13.5px; color: var(--muted); line-height: 1.6; }
+
+    /* ── Empty State ── */
+    .empty-state { padding: 40px 0; text-align: center; color: var(--muted); font-size: 14px; }
+
+    @media (max-width: 480px) {
+      .header h1 { font-size: 22px; }
+      .tabs { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <div class="header-brand">隅室設計顧問工作室 · Morning Brief</div>
+    <h1>設計產業早報</h1>
+  </div>
+
+  <!-- 分頁 Tab -->
+  <div class="tabs" id="tabs"></div>
+
+  <!-- 內容區域 -->
+  <div id="content"><div class="loading">載入中…</div></div>
+
+</div>
+
+<script>
+  // 日期格式化：2026-05-14 → 5/14
+  function fmtDate(dateStr) {
+    const [, m, d] = dateStr.split('-');
+    return `${parseInt(m)}/${parseInt(d)}`;
+  }
+
+  // 日期標籤：今天 / 昨天 / 前天
+  function dayLabel(dateStr, index) {
+    const labels = ['今天', '昨天', '前天'];
+    return labels[index] || dateStr;
+  }
+
+  // 語言 tag HTML
+  function langTag(lang) {
+    const cls = lang === 'EN' ? 'tag-en' : lang === '繁中' ? 'tag-zh' : 'tag-ja';
+    return `<span class="tag ${cls}">${lang}</span>`;
+  }
+
+  // 渲染單一天的內容
+  function renderDay(data) {
+    const { jenny_wen, lenny, product, brand } = data;
+
+    let html = '';
+
+    // Jenny Wen
+    if (jenny_wen && jenny_wen.has_content) {
+      html += `
+        <div class="jenny-card card">
+          <div class="jenny-label">⭐ Jenny Wen — Anthropic 首席設計師</div>
+          <h2><a href="${jenny_wen.url}" target="_blank">${jenny_wen.title}</a></h2>
+          <p>${jenny_wen.summary}</p>
+        </div>`;
+    }
+
+    // Product Design
+    html += `<div class="section">`;
+    html += `<div class="section-title">Product Design</div>`;
+    html += `<div class="article-list">`;
+    (product.articles || []).forEach((a, i) => {
+      html += `
+        <div class="article-card card">
+          <div class="article-top">
+            <div class="article-num">0${i + 1}</div>
+            <div class="article-meta">
+              <div class="article-title"><a href="${a.url}" target="_blank">${a.title}</a></div>
+              <div class="article-source-row">
+                <span class="article-source">${a.source}</span>
+                ${langTag(a.lang)}
+                ${a.studio_related ? '<span class="tag tag-up">⚡ 工作室相關</span>' : ''}
+              </div>
+            </div>
+          </div>
+          <div class="article-summary">${a.summary}</div>
+        </div>`;
+    });
+    html += `</div>`;
+    if (product.buzz) {
+      html += `<div class="buzz"><div class="buzz-label">業界聊什麼</div><p>${product.buzz}</p></div>`;
+    }
+    html += `</div>`;
+
+    // Brand
+    html += `<div class="section">`;
+    html += `<div class="section-title">Brand</div>`;
+    html += `<div class="article-list">`;
+    (brand.articles || []).forEach((a, i) => {
+      html += `
+        <div class="article-card card">
+          <div class="article-top">
+            <div class="article-num">0${i + 1}</div>
+            <div class="article-meta">
+              <div class="article-title"><a href="${a.url}" target="_blank">${a.title}</a></div>
+              <div class="article-source-row">
+                <span class="article-source">${a.source}</span>
+                ${langTag(a.lang)}
+                ${a.studio_related ? '<span class="tag tag-up">⚡ 工作室相關</span>' : ''}
+              </div>
+            </div>
+          </div>
+          <div class="article-summary">${a.summary}</div>
+        </div>`;
+    });
+    html += `</div>`;
+    if (brand.buzz) {
+      html += `<div class="buzz"><div class="buzz-label">業界聊什麼</div><p>${brand.buzz}</p></div>`;
+    }
+    html += `</div>`;
+
+    // Lenny's Podcast
+    if (lenny && lenny.has_content) {
+      html += `
+        <div class="section">
+          <div class="section-title">Lenny's Podcast</div>
+          <div class="card podcast-card">
+            <div class="podcast-icon">🎙️</div>
+            <div class="podcast-body">
+              <h3><a href="${lenny.url}" target="_blank">${lenny.title}</a></h3>
+              <p>${lenny.summary}</p>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    return html;
+  }
+
+  // 主程式：載入資料並渲染
+  async function init() {
+    try {
+      // 加上時間戳避免快取
+      const res = await fetch('briefings.json?t=' + Date.now());
+      const briefings = await res.json();
+
+      if (!briefings || briefings.length === 0) {
+        document.getElementById('content').innerHTML =
+          '<div class="empty-state">尚無資料，請等待今日早報更新。</div>';
+        return;
+      }
+
+      // 建立 tab 按鈕
+      const tabsEl = document.getElementById('tabs');
+      briefings.forEach((b, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'tab-btn' + (i === 0 ? ' active' : '');
+        btn.dataset.index = i;
+        btn.innerHTML = `${dayLabel(b.date, i)}<span class="tab-date">${fmtDate(b.date)}</span>`;
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          document.getElementById('content').innerHTML = renderDay(briefings[i]);
+        });
+        tabsEl.appendChild(btn);
+      });
+
+      // 預設顯示第一天
+      document.getElementById('content').innerHTML = renderDay(briefings[0]);
+
+    } catch (e) {
+      document.getElementById('content').innerHTML =
+        '<div class="empty-state">載入失敗，請重新整理頁面。</div>';
+      console.error(e);
+    }
+  }
+
+  init();
+</script>
+</body>
+</html>
