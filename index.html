@@ -53,27 +53,7 @@
       color: var(--muted);
       margin-bottom: 6px;
     }
-    .header-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; }
     .header h1 { font-size: 26px; font-weight: 700; letter-spacing: -.02em; }
-
-    /* ── Update Button ── */
-    .update-wrap { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
-    .update-btn {
-      padding: 7px 16px;
-      border-radius: 20px;
-      border: 1px solid var(--border);
-      background: var(--surface);
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--text);
-      cursor: pointer;
-      transition: all .15s;
-      font-family: inherit;
-      white-space: nowrap;
-    }
-    .update-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
-    .update-btn:disabled { opacity: .5; cursor: not-allowed; }
-    .update-msg { font-size: 11px; color: var(--muted); text-align: right; max-width: 200px; line-height: 1.4; }
 
     /* ── Tabs ── */
     .tabs {
@@ -206,13 +186,7 @@
 
   <div class="header">
     <div class="header-brand">隅室設計顧問工作室 · Morning Brief</div>
-    <div class="header-row">
-      <h1>設計產業早報</h1>
-      <div class="update-wrap">
-        <button class="update-btn" id="update-btn" onclick="triggerUpdate()">↻ 更新早報</button>
-        <div class="update-msg" id="update-msg"></div>
-      </div>
-    </div>
+    <h1>設計產業早報</h1>
   </div>
 
   <!-- 分頁 Tab -->
@@ -224,95 +198,6 @@
 </div>
 
 <script>
-  // ── 更新按鈕設定 ──
-  // 請將下方 YOUR_GITHUB_PAT_HERE 換成你的 GitHub Fine-grained PAT
-  // 建立方式：github.com/settings/tokens → Fine-grained → 選 morning-brief repo → Actions: Read and write
-  const COOLDOWN_MS = 60 * 60 * 1000; // 1 小時內不重複觸發
-  const TOKEN_KEY   = 'morningBriefToken';
-
-  // 讀取存在 localStorage 的 token
-  function getToken() { return localStorage.getItem(TOKEN_KEY) || ''; }
-
-  // 開啟 token 設定 modal
-  function openTokenSetup() {
-    document.getElementById('token-modal').style.display = 'flex';
-    document.getElementById('token-input').value = getToken();
-    setTimeout(() => document.getElementById('token-input').focus(), 50);
-  }
-
-  // 關閉 modal
-  function closeTokenSetup() {
-    document.getElementById('token-modal').style.display = 'none';
-  }
-
-  // 儲存 token
-  function saveToken() {
-    const val = document.getElementById('token-input').value.trim();
-    if (!val) return;
-    localStorage.setItem(TOKEN_KEY, val);
-    closeTokenSetup();
-    document.getElementById('update-msg').textContent = '✓ Token 已儲存';
-    setTimeout(() => { document.getElementById('update-msg').textContent = ''; }, 2000);
-  }
-
-  async function triggerUpdate() {
-    const token = getToken();
-
-    // 沒有 token 就先引導設定
-    if (!token) { openTokenSetup(); return; }
-
-    const btn = document.getElementById('update-btn');
-    const msg = document.getElementById('update-msg');
-
-    // 冷卻時間檢查
-    const lastTrigger = localStorage.getItem('lastBriefingTrigger');
-    const now = Date.now();
-    if (lastTrigger && now - parseInt(lastTrigger) < COOLDOWN_MS) {
-      const minAgo = Math.floor((now - parseInt(lastTrigger)) / 60000);
-      msg.textContent = `${minAgo} 分鐘前已送出，稍後重新整理`;
-      return;
-    }
-
-    btn.disabled = true;
-    btn.textContent = '更新中…';
-    msg.textContent = '';
-
-    try {
-      const res = await fetch(
-        'https://api.github.com/repos/yushidesignstudio/morning-brief/actions/workflows/morning.yml/dispatches',
-        {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${token}`,
-            'Accept': 'application/vnd.github.v3+json',
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ ref: 'main' })
-        }
-      );
-
-      if (res.status === 204) {
-        localStorage.setItem('lastBriefingTrigger', now.toString());
-        btn.textContent = '✓ 已送出';
-        msg.textContent = '約 1–2 分鐘後重新整理即可';
-      } else if (res.status === 401) {
-        // token 失效，引導重新設定
-        localStorage.removeItem(TOKEN_KEY);
-        btn.disabled = false;
-        btn.textContent = '↻ 更新早報';
-        msg.textContent = 'Token 已失效，請重新設定';
-        setTimeout(openTokenSetup, 800);
-      } else {
-        throw new Error(`HTTP ${res.status}`);
-      }
-    } catch (e) {
-      btn.disabled = false;
-      btn.textContent = '↻ 更新早報';
-      msg.textContent = '觸發失敗，請稍後再試';
-      console.error(e);
-    }
-  }
-
   // ── 日期格式化：2026-05-14 → 5/14
   function fmtDate(dateStr) {
     const [, m, d] = dateStr.split('-');
@@ -459,26 +344,5 @@
 
   init();
 </script>
-
-<!-- Token 設定 Modal -->
-<div id="token-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:100; align-items:center; justify-content:center; padding:16px;">
-  <div style="background:#fff; border-radius:16px; padding:28px 24px; max-width:420px; width:100%; box-shadow:0 20px 60px rgba(0,0,0,.2);">
-    <div style="font-size:15px; font-weight:700; margin-bottom:8px;">設定 GitHub Token</div>
-    <div style="font-size:13px; color:#6B6B67; margin-bottom:20px; line-height:1.6;">
-      Token 只會存在你的瀏覽器裡，不會上傳到任何地方。<br>
-      建立方式：<a href="https://github.com/settings/tokens?type=beta" target="_blank">github.com/settings/tokens</a><br>
-      → Fine-grained → 選 <code style="background:#f3f3f0; padding:1px 5px; border-radius:4px;">morning-brief</code> → Actions: Read and write
-    </div>
-    <input id="token-input" type="password"
-      placeholder="github_pat_..."
-      style="width:100%; padding:10px 12px; border:1px solid #E8E8E4; border-radius:8px; font-size:13px; font-family:monospace; margin-bottom:14px; outline:none;"
-      onkeydown="if(event.key==='Enter') saveToken()"
-    />
-    <div style="display:flex; gap:8px; justify-content:flex-end;">
-      <button onclick="closeTokenSetup()" style="padding:8px 16px; border-radius:8px; border:1px solid #E8E8E4; background:#fff; font-size:13px; cursor:pointer; font-family:inherit;">取消</button>
-      <button onclick="saveToken()" style="padding:8px 16px; border-radius:8px; border:none; background:#1A1A18; color:#fff; font-size:13px; font-weight:600; cursor:pointer; font-family:inherit;">儲存</button>
-    </div>
-  </div>
-</div>
 </body>
 </html>
