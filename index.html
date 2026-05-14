@@ -173,6 +173,23 @@
     }
     .expand-btn:hover { text-decoration: underline; }
 
+    /* ── 今日概覽 ── */
+    .overview {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      margin-bottom: 32px;
+      box-shadow: var(--shadow);
+    }
+    .overview-label {
+      font-size: 11px; font-weight: 700; letter-spacing: .1em;
+      text-transform: uppercase; color: var(--muted); margin-bottom: 10px;
+    }
+    .overview-text {
+      font-size: 14.5px; color: var(--text); line-height: 1.75;
+    }
+
     /* ── Buzz Box ── */
     .buzz { margin-top: 16px; background: var(--accent-bg); border-radius: 8px; padding: 14px 16px; }
     .buzz-label {
@@ -246,6 +263,15 @@
     const { jenny_wen, lenny, product, brand } = data;
 
     let html = '';
+
+    // 今日概覽
+    if (data.daily_summary) {
+      html += `
+        <div class="overview">
+          <div class="overview-label">今日概覽</div>
+          <div class="overview-text">${data.daily_summary}</div>
+        </div>`;
+    }
 
     // Jenny Wen
     if (jenny_wen && jenny_wen.has_content) {
