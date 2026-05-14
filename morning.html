@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morning Briefing</title>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #F7F7F5;
+      --surface:   #FFFFFF;
+      --border:    #E8E8E4;
+      --text:      #1A1A18;
+      --muted:     #6B6B67;
+      --accent:    #2563EB;
+      --accent-bg: #EEF3FF;
+      --star-bg:   #FFFBEB;
+      --star-bd:   #FDE68A;
+      --star-text: #92400E;
+      --tag-en:    #EEF3FF;
+      --tag-zh:    #F0FDF4;
+      --tag-ja:    #FFF7ED;
+      --radius:    12px;
+      --shadow:    0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                   "PingFang TC", "Noto Sans TC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0 16px 80px;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Layout ── */
+    .wrap { max-width: 720px; margin: 0 auto; }
+
+    /* ── Header ── */
+    .header {
+      padding: 48px 0 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    .header-meta {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -.02em;
+    }
+
+    /* ── Section ── */
+    .section { margin-bottom: 48px; }
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Card Base ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      box-shadow: var(--shadow);
+    }
+
+    /* ── Jenny Wen Card ── */
+    .jenny-card {
+      background: var(--star-bg);
+      border-color: var(--star-bd);
+      margin-bottom: 32px;
+      padding: 20px 22px;
+    }
+    .jenny-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--star-text);
+      margin-bottom: 10px;
+    }
+    .jenny-card h2 {
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 10px;
+      letter-spacing: -.01em;
+    }
+    .jenny-card p {
+      font-size: 14px;
+      color: #44403C;
+      line-height: 1.65;
+    }
+
+    /* ── Article Card ── */
+    .article-list { display: flex; flex-direction: column; gap: 10px; }
+    .article-card {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 16px 18px;
+    }
+    .article-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .article-num {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      min-width: 20px;
+      padding-top: 2px;
+    }
+    .article-meta { flex: 1; }
+    .article-title {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.4;
+      letter-spacing: -.01em;
+      color: var(--text);
+    }
+    .article-title a { color: var(--text); }
+    .article-title a:hover { color: var(--accent); text-decoration: none; }
+    .article-source-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 4px;
+      flex-wrap: wrap;
+    }
+    .article-source {
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .tag {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .tag-en  { background: var(--tag-en);  color: #1D4ED8; }
+    .tag-zh  { background: var(--tag-zh);  color: #15803D; }
+    .tag-ja  { background: var(--tag-ja);  color: #C2410C; }
+    .tag-up  { background: #FEF9EE; color: #B45309; font-size: 10px; }
+    .article-summary {
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height: 1.6;
+      padding-left: 30px;
+    }
+
+    /* ── Buzz Box ── */
+    .buzz {
+      margin-top: 16px;
+      background: var(--accent-bg);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .buzz-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .buzz p {
+      font-size: 13.5px;
+      color: #1E3A8A;
+      line-height: 1.65;
+    }
+
+    /* ── Podcast Card ── */
+    .podcast-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .podcast-icon {
+      font-size: 22px;
+      line-height: 1;
+      padding-top: 2px;
+    }
+    .podcast-body h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      letter-spacing: -.01em;
+    }
+    .podcast-body p {
+      font-size: 13.5px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      .header h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-meta">Morning Briefing · 2026 年 5 月 14 日</div>
+    <h1>設計產業早報</h1>
+  </div>
+
+  <!-- Jenny Wen 置頂 -->
+  <div class="jenny-card card">
+    <div class="jenny-label">⭐ Jenny Wen — Anthropic 首席設計師</div>
+    <h2>
+      <a href="https://www.lennysnewsletter.com/p/the-design-process-is-dead" target="_blank">
+        The design process is dead. Here's what's replacing it.
+      </a>
+    </h2>
+    <p>
+      傳統設計流程已死。在 Anthropic，工程師可以同時跑多個 Claude agent、幾個小時就出 code，設計師必須跟上這個節奏。她現在要找的設計師分三種：強通才、深度專才、會寫 code 的 prototyper。設計師要像「內部 VC」——辨識出「沒人說得清楚但有能量的點子」，把它翻譯成產品。這集在 Lenny's Podcast 仍持續被大量轉發討論中。
+    </p>
+  </div>
+
+  <!-- Product Design -->
+  <div class="section">
+    <div class="section-title">Product Design</div>
+    <div class="article-list">
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">01</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://medium.com/@uxraspberry/ux-design-2026-from-producing-to-deciding-from-craft-to-operation-e9c7ea6b1803" target="_blank">
+                UX Design 2026+: From producing to deciding, from craft to operation
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">UX Collective / Medium · May 2026</span>
+              <span class="tag tag-en">EN</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          設計師的價值已從「產出什麼」移轉到「決定什麼」。AI 是執行者，但還不會判斷——這才是設計師的護城河。
+        </div>
+      </div>
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">02</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://www.smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/" target="_blank">
+                The UX Designer's Nightmare: When "Production-Ready" Becomes A Design Deliverable
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">Smashing Magazine · Apr 2026</span>
+              <span class="tag tag-en">EN</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          企業開始要求設計直接交付可上線的成品，設計師被推入過去屬於工程師的責任範疇——速度被凌駕於品質之上。
+        </div>
+      </div>
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">03</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://uxdesign.cc/10-ux-design-shifts-you-cant-ignore-in-2026-8f0da1c6741d" target="_blank">
+                10 UX Design Shifts You Can't Ignore in 2026
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">UX Collective</span>
+              <span class="tag tag-en">EN</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          10 個不可忽略的轉變，AI 貫穿全文，重點在「人類判斷力才是設計師最後防線」。
+        </div>
+      </div>
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">04</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://newsletter.uxdesign.cc/p/the-return-of-the-intuitive-designer" target="_blank">
+                The Return of the Intuitive Designer in the Age of AI
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">UX Collective Newsletter</span>
+              <span class="tag tag-en">EN</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          AI 當道反而讓直覺設計師的價值回升，不只靠流程、靠 data，還靠感知力。
+        </div>
+      </div>
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">05</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://uxdesign.cc/how-to-start-a-remote-design-business-from-scratch-6a4aaadb48ea" target="_blank">
+                How to Start a Remote Design Business from Scratch
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">UX Collective</span>
+              <span class="tag tag-en">EN</span>
+              <span class="tag tag-up">⚡ 工作室相關</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          從零建立遠端設計工作室的完整思路，含定位、找客戶、定價策略。
+        </div>
+      </div>
+
+    </div>
+
+    <div class="buzz">
+      <div class="buzz-label">業界聊什麼</div>
+      <p>「生產者」變「決策者」是這週 Product 圈最熱的命題。Jenny Wen 那集持續發酵，設計師和工程師之間的邊界重組是最核心的焦慮——但多數論述都指向同一個結論：判斷力才是設計師的護城河，AI 搶不走。</p>
+    </div>
+  </div>
+
+  <!-- Brand -->
+  <div class="section">
+    <div class="section-title">Brand</div>
+    <div class="article-list">
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">01</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://www.threerooms.com/blog/8-design-trends-shaping-brand-identity-in-2026" target="_blank">
+                8 Design Trends Shaping Brand Identity in 2026
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">Threerooms</span>
+              <span class="tag tag-en">EN</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          動態識別系統（Kinetic Identity）、觸感材質、adaptable logo 正在取代靜態視覺規範。
+        </div>
+      </div>
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">02</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://expup.com/tw/archives/118886" target="_blank">
+                品牌再進化，2026 年十大 LOGO 翻新案例
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">EXP 品牌重塑</span>
+              <span class="tag tag-zh">繁中</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          盤點今年最具代表性的 rebrand，有案例、有分析，適合拿來和客戶討論方向。
+        </div>
+      </div>
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">03</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://expup.com/tw/archives/118924" target="_blank">
+                2026 年 LOGO 設計四大趨勢與設計表現
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">EXP LOGO 設計專家</span>
+              <span class="tag tag-zh">繁中</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          動態化、立體漸變、標準字 logo 三大方向，含實際作品示範。
+        </div>
+      </div>
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">04</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://www.thebrandingjournal.com/2026/01/top-branding-design-trends-2026/" target="_blank">
+                Top Branding & Design Trends for 2026
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">The Branding Journal</span>
+              <span class="tag tag-en">EN</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          從品牌策略視角看視覺趨勢，強調 motion-first 和 human-centered 的對立與融合。
+        </div>
+      </div>
+
+      <div class="article-card card">
+        <div class="article-top">
+          <div class="article-num">05</div>
+          <div class="article-meta">
+            <div class="article-title">
+              <a href="https://www.designmantic.com/blog/design-forecast-2026/" target="_blank">
+                Design Trends 2026: What's Next for Brands and Creators
+              </a>
+            </div>
+            <div class="article-source-row">
+              <span class="article-source">Designmantic</span>
+              <span class="tag tag-en">EN</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-summary">
+          AI 讓視覺同質化加劇後，品牌如何透過「不完美」和「手感」重建辨識度。
+        </div>
+      </div>
+
+    </div>
+
+    <div class="buzz">
+      <div class="buzz-label">業界聊什麼</div>
+      <p>AI 視覺化工具普及後，品牌圈的反彈方向很清晰——愈「人做」的東西愈值錢。粗糙材質、手繪感、有溫度的不完美，正在被當成差異化武器。另一條線是靜態 logo 的式微，動態識別系統開始成為標配需求，這對工作室接案報價的方式也有直接影響。</p>
+    </div>
+  </div>
+
+  <!-- Lenny's Podcast -->
+  <div class="section">
+    <div class="section-title">Lenny's Podcast</div>
+    <div class="card podcast-card">
+      <div class="podcast-icon">🎙️</div>
+      <div class="podcast-body">
+        <h3>
+          <a href="https://www.lennysnewsletter.com/podcast" target="_blank">
+            What Most People Miss About Marketing
+          </a>
+        </h3>
+        <p>嘉賓：Rory Sutherland（Ogilvy UK 副董事長）。用行為經濟學視角拆解行銷，對工作室在提案說服客戶上很有參考價值。</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
