@@ -154,7 +154,24 @@
     .tag-zh  { background: var(--tag-zh);  color: #15803D; }
     .tag-ja  { background: var(--tag-ja);  color: #C2410C; }
     .tag-up  { background: #FEF9EE; color: #B45309; }
-    .article-summary { font-size: 13.5px; color: var(--muted); line-height: 1.6; padding-left: 30px; }
+    /* 摘要預設顯示 4 行，可展開看完整內容 */
+    .article-summary {
+      font-size: 13.5px; color: var(--muted); line-height: 1.6; padding-left: 30px;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .article-summary.expanded {
+      display: block;
+      overflow: visible;
+    }
+    .expand-btn {
+      font-size: 11px; color: var(--accent); background: none; border: none;
+      cursor: pointer; padding: 4px 0 0 30px; font-family: inherit;
+      display: block; text-align: left;
+    }
+    .expand-btn:hover { text-decoration: underline; }
 
     /* ── Buzz Box ── */
     .buzz { margin-top: 16px; background: var(--accent-bg); border-radius: 8px; padding: 14px 16px; }
@@ -198,6 +215,14 @@
 </div>
 
 <script>
+  // 展開 / 收起文章摘要
+  function toggleSummary(id) {
+    const el  = document.getElementById(id);
+    const btn = document.getElementById(id + '-btn');
+    const expanded = el.classList.toggle('expanded');
+    btn.textContent = expanded ? '↑ 收起' : '↓ 展開完整重點';
+  }
+
   // ── 日期格式化：2026-05-14 → 5/14
   function fmtDate(dateStr) {
     const [, m, d] = dateStr.split('-');
@@ -237,6 +262,7 @@
     html += `<div class="section-title">Product Design</div>`;
     html += `<div class="article-list">`;
     (product.articles || []).forEach((a, i) => {
+      const sid = `p-${i}`;
       html += `
         <div class="article-card card">
           <div class="article-top">
@@ -250,7 +276,8 @@
               </div>
             </div>
           </div>
-          <div class="article-summary">${a.summary}</div>
+          <div class="article-summary" id="${sid}">${a.summary}</div>
+          <button class="expand-btn" id="${sid}-btn" onclick="toggleSummary('${sid}')">↓ 展開完整重點</button>
         </div>`;
     });
     html += `</div>`;
@@ -264,6 +291,7 @@
     html += `<div class="section-title">Brand</div>`;
     html += `<div class="article-list">`;
     (brand.articles || []).forEach((a, i) => {
+      const sid = `b-${i}`;
       html += `
         <div class="article-card card">
           <div class="article-top">
@@ -277,7 +305,8 @@
               </div>
             </div>
           </div>
-          <div class="article-summary">${a.summary}</div>
+          <div class="article-summary" id="${sid}">${a.summary}</div>
+          <button class="expand-btn" id="${sid}-btn" onclick="toggleSummary('${sid}')">↓ 展開完整重點</button>
         </div>`;
     });
     html += `</div>`;

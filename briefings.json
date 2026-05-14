@@ -21,7 +21,7 @@
           "source": "UX Collective",
           "lang": "EN",
           "studio_related": true,
-          "summary": "AI coding agent 看得懂你的 code，但不懂你的產品邏輯——設計師提供的 context 才是差距所在。"
+          "summary": "AI coding agent 能讀取整個 codebase、跑 lint、寫 tests，但它完全不知道「這個 button 為什麼放在這裡」或「這個 flow 背後的使用者痛點是什麼」。作者認為，設計師真正的價值不是出 wireframe，而是把 product context 轉譯成 AI 能理解的形式——命名規範、設計原則文件、component 的用途說明。這篇直接給了幾個可以立刻執行的建議：如何寫 Figma 的 component 說明、如何在 PR 描述裡嵌入設計意圖、怎麼建立讓 AI 讀得懂的設計 token 結構。誰能把這個 context gap 補起來，誰就是 AI 時代最難被取代的人。"
         },
         {
           "title": "From products to systems: The agentic AI shift",
@@ -29,7 +29,7 @@
           "source": "UX Collective",
           "lang": "EN",
           "studio_related": false,
-          "summary": "設計師的角色正從「做產品」變成「設計讓 AI agent 運作的系統與規則」。"
+          "summary": "這篇的核心論點是：我們正從「設計一個產品」過渡到「設計一個能生產產品的系統」。以前設計師交付有限的 screens，現在需要設計的是 constraints、rules 和 guardrails，讓 AI agent 在這個框架內自動生成合適的 UI。這個轉變要求設計師更像系統架構師——你的工作不是填滿每一個細節，而是定義什麼能做、什麼不能做、什麼時候 AI 應該尋求人工確認。文章提供了幾個實際的 B2B SaaS 案例說明這個轉變如何發生，以及設計師在其中扮演的新角色。"
         },
         {
           "title": "Agentic AI, design systems & Figma: a practical guide",
@@ -37,7 +37,7 @@
           "source": "UX Collective",
           "lang": "EN",
           "studio_related": false,
-          "summary": "當 AI agent 開始讀取你的 Figma，命名規則與設計系統的結構就直接影響它能不能正確執行。"
+          "summary": "當 AI agent 開始直接讀取你的 Figma 檔案來產出 code，圖層命名就不只是整理習慣，而是決定輸出品質的關鍵變數。作者 Christine Vallaure 給出了可以立刻執行的具體建議：component 命名要語意化（CardContainer 而非 Frame 342）、property 名稱要和實際 code props 對應、page 結構要讓 agent 能自行導航、Variant 的命名邏輯要和工程師的條件判斷一致。這篇是目前看到最接地氣的 Figma + AI agent 操作指南，如果你現在有在用 Claude Code 或 Cursor 開發專案，今天就可以照著調整。"
         },
         {
           "title": "The agentic era of UX",
@@ -45,7 +45,7 @@
           "source": "UX Collective Newsletter",
           "lang": "EN",
           "studio_related": false,
-          "summary": "UX 設計正式進入 agentic 時代——設計的對象不再只是人，還包括代替人行動的 AI agent。"
+          "summary": "UX 設計的對象正在擴大。以前我們設計給「人用的介面」，現在也要設計給「AI agent 代替人操作的介面」——agent 怎麼讀取頁面狀態、怎麼填表單、怎麼在多步驟流程中做決策，都需要設計師提前規劃。這是 UX Collective 創辦人 Fabricio Teixeira 的深度分析，提出了幾個新的設計原則：可預測性優先（agent 需要明確的下一步）、語意化的 UI 結構（讓 agent 能自行理解功能）、以及錯誤恢復設計（agent 做錯時如何讓人輕鬆接手）。這篇適合在設計新產品前讀，它會改變你規劃 information architecture 的方式。"
         },
         {
           "title": "Are we doing UX for AI the right way?",
@@ -53,7 +53,7 @@
           "source": "UX Collective",
           "lang": "EN",
           "studio_related": false,
-          "summary": "挑戰當前 AI 產品設計的方法論，質疑我們是否只是把舊框架套在新科技上。"
+          "summary": "這篇挑戰了一個很少人質疑的假設：我們把舊的 UX 框架（用戶旅程、persona、usability testing）直接套在 AI 產品設計上，但這樣做真的對嗎？作者認為 AI 產品的核心體驗是「不確定性」與「非線性」，而傳統 UX 工具是為「可預測的流程」設計的，兩者本質上不匹配。文章提出了幾個更適合 AI 產品的評估方式：測試「意圖對齊度」而非「任務完成率」、衡量「用戶信任校準」而非「滿意度」、評估「錯誤恢復效率」而非只看成功路徑。讀完會讓你重新思考下次做 AI 功能的 user testing 應該怎麼設計。"
         }
       ],
       "buzz": "Agentic AI 是這幾天 Product 圈最密集討論的核心。設計師的角色正從「做畫面」變成「設計 AI 跑的軌道」——你給 agent 的 context、constraints、命名規則，決定它能不能理解你的產品。「Context engineering」突然成為設計師最需要補的技能。"
@@ -66,7 +66,7 @@
           "source": "It's Nice That",
           "lang": "EN",
           "studio_related": true,
-          "summary": "BBH 44 年來首次 rebrand，用三款定制字型與動態 glyph 系統強調品牌個性——直接回應 AI 讓視覺同質化的危機。"
+          "summary": "廣告公司 BBH 成立 44 年來從未進行過完整品牌更新，這次和 Studio Drama 合作打造三款定制字型，其中一款直接以創辦人的字跡風格為基礎。標誌性的「zag」（BBH 的品牌精神：zagging when others zig）被轉化成一套可動的 glyph 系統，能在各種媒介上彈性應用，而不是一個靜態 logo。整個專案還包含一支短片和完整的 motion design 系統，全部由內部團隊製作。這個案例最值得工作室學習的地方是：品牌識別不是追視覺趨勢，而是把你真正相信的東西具體化——BBH 的「zag」精神 44 年沒變，只是換了更當代的視覺語言來說。"
         },
         {
           "title": "New Frank Lloyd Wright logo highlights \"profound void\" of lost projects",
@@ -74,7 +74,7 @@
           "source": "Dezeen",
           "lang": "EN",
           "studio_related": false,
-          "summary": "以建築師兒時的木積木與簽名紅方塊為靈感，整套視覺系統從歷史中長出來，而非憑空設計。"
+          "summary": "設計師 Order 為 Frank Lloyd Wright Building Conservancy 打造的新視覺識別，策略切入點非常特別：Wright 一生中有大量未建成的計畫，設計師決定把這個「缺席的存在」作為核心概念，logo 的「空白」直接對應那些從未被蓋出來的建築。字型和色彩系統取材自 Wright 兒時玩具積木的幾何形式，以及他建築作品中慣用的磚石材料色調。整套識別的邏輯是：每一個視覺決定都能回溯到 Wright 的人生與哲學，而不是設計師的個人美感。這篇適合在跟遺產型客戶合作時參考——如何從歷史深度中找出視覺語言。"
         },
         {
           "title": "Peet Pienaar designs BLE$$ identity to challenge Western-centric financial branding",
@@ -82,7 +82,7 @@
           "source": "Dezeen",
           "lang": "EN",
           "studio_related": false,
-          "summary": "為南非支付平台打造的視覺識別，刻意挑戰以西方美學為主流的金融品牌設計。"
+          "summary": "南非設計師 Peet Pienaar 為支付平台 BLE$$ 打造的視覺識別，刻意對抗金融品牌慣用的藍色、極簡、「信任感」套路。他融入非洲視覺語言與街頭文化元素，目標是讓南非用戶看到這個品牌時感到「這是我們的東西」，而不是又一個從西方複製過來的 fintech app。這個案例有幾個值得思考的層次：品牌受眾的文化認同如何成為設計的出發點、刻意「不精緻」如何成為差異化的工具、以及設計師如何在商業目標和文化主張之間找到平衡。對工作室承接品牌設計案時，如何幫助客戶找到真正屬於自己的視覺語言，這篇很有啟發。"
         },
         {
           "title": "8 Design Trends Shaping Brand Identity in 2026",
@@ -90,7 +90,7 @@
           "source": "Threerooms",
           "lang": "EN",
           "studio_related": false,
-          "summary": "動態識別系統、觸感材質、adaptive logo 正在取代靜態視覺規範，有案例的趨勢整理。"
+          "summary": "這篇整理了 2026 年品牌識別設計的 8 個方向，每個趨勢都附有實際品牌案例。最值得注意的三個：一是動態識別系統（靜態 logo 已不夠用，識別需要在不同媒介上自適應變形）；二是觸感材質的數位模擬（讓螢幕上的東西看起來可以被觸摸，回應 AI 讓視覺過度光滑的反彈）；三是 context-adaptive logo（同一個品牌識別根據使用場景自動調整形式，例如小尺寸版、動態版、黑白版有不同的設計邏輯而非只是縮放）。這篇適合做 client proposal 時引用，或作為向客戶解釋為何靜態 CI 手冊已經過時的論述依據。"
         },
         {
           "title": "Brand Design Trends 2026: Everything You Need to Know",
@@ -98,7 +98,7 @@
           "source": "Design Monks",
           "lang": "EN",
           "studio_related": false,
-          "summary": "從 AI 反彈、手感回歸到感官品牌，2026 年品牌設計趨勢完整整理。"
+          "summary": "這篇的核心論點是「AI 反彈後的品牌設計走向」。AI 工具讓視覺生產成本趨近於零，反而讓「人工製作的痕跡」變得稀缺而有價值——這是目前品牌圈最重要的結構性轉變。作者預測接下來的品牌競爭不在「精緻程度」，而在「可信度」和「個性」。具體建議包括：在品牌素材裡刻意保留手工製作的不完美、用真實的品牌故事取代視覺噱頭、以及建立跨感官的品牌體驗（聲音、觸感、氣味等非視覺元素將成為差異化點）。對工作室而言，這篇的意義在於：你們做的「人工設計」在 AI 時代反而是賣點，要學會在提案中說清楚這個價值。"
         }
       ],
       "buzz": "品牌圈正在回應「AI 讓一切看起來一樣」的焦慮。BBH 的 rebrand 是最好的示範——44 年老品牌選擇用無法被 AI 複製的東西重塑自己：三款定制字型、深植品牌態度的 glyph 系統。真正有辨識度的識別，靠的還是深挖歷史與個性，不是套趨勢。"
