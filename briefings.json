@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-15",
+    "daily_summary": "今天最值得看的是 Jenny Wen 的 Cowork 實戰教學——她第一次公開了自己在 Anthropic 如何用 AI 整理產品決策，具體到 prompt 怎麼寫、輸出怎麼用，是現在找得到最真實的設計師 AI 工作流案例。Product 側另一個亮點是兩篇設計師定價文章同時出現，說明業界對接案報價的焦慮正在升溫。Brand 側的氣氛是集體的「夠了，不要再安全了」——越來越多創意主管和工作室在押注個性，而不是精緻。",
+    "jenny_wen": {
+      "has_content": true,
+      "title": "Inside Anthropic: Claude Cowork Tutorial from Claude's Head of Design (40 Min)",
+      "url": "https://creatoreconomy.so/p/inside-anthropic-claude-cowork-tutorial-jenny-wen",
+      "summary": "難得的深度實戰教學——Jenny Wen 親自 screen share 展示她在 Anthropic 內部如何使用 Cowork。她的工作流是把雜亂的用戶回饋自動整理成每週一早上的產品優先順序報告，每週自動產出 3 個經過篩選的改進方向。這不是概念介紹，而是完整的 prompt 設計邏輯、輸出格式選擇、以及她如何判斷 AI 輸出品質的思維過程。對想把 AI 真正整進工作流的設計師來說，目前找不到比這更具體的真實案例。"
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Rethinking The Experience Of System Tools",
+          "url": "https://www.smashingmagazine.com/2026/05/rethinking-experience-system-tools/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "重新思考系統工具（後台管理介面、開發者工具、企業內部平台）的設計體驗。傳統上這類工具以功能性優先，視覺體驗常被犧牲，但作者指出使用者每天要花 6-8 小時在這些工具上，糟糕的 UX 直接影響工作效率和心理狀態。文章提出幾個改善方向：資訊密度的重新校準（不是越少越好，而是正確的密度）、狀態回饋的及時性設計、以及如何在不破壞效率的前提下加入視覺層次。對承接 SaaS 或企業內部工具設計案的工作室，這篇很有參考價值。"
+        },
+        {
+          "title": "What should you charge for freelance design work? Let's find out",
+          "url": "https://www.fastcompany.com/91494897/design-pricing-transparency-project-survey-freelance-announcement-aiga-what-to-charge",
+          "source": "Fast Company",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "AIGA 和 Fast Company 聯合發起的設計師定價調查，試圖打破業界定價不透明的文化。報告揭示了明顯的兩極化：追低價接案的設計師費率停滯，而能清楚說明自身價值、建立專業定位的設計師反而持續提高報價。調查問卷涵蓋接案類型、定價方式（時薪 vs 專案制）、以及對目前接案狀態的整體感受。最大的價值是提供了業界實際數字的基準，適合在調整報價前讀，也適合拿來跟客戶討論設計收費的合理性。"
+        },
+        {
+          "title": "Freelance Graphic Designer Rates in 2026: What to Charge for Every Project Type",
+          "url": "https://www.solopricing.com/freelance-graphic-designer-rates-2026",
+          "source": "SoloPricing",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "2026 年自由設計師費率完整整理，按專案類型分類：logo 設計 $500–5,000、完整品牌識別套件 $3,000–20,000、網站設計 $2,500–15,000，中階設計師時薪落在 $75–130/hr。報告最有價值的發現是：最高收費的 20% 設計師跟其他人的差距不在技術，而在「定價自信」和「市場定位」的清晰度。文章附有計算合理費率的公式，並解釋為何按專案收費比按時計費更有利——因為它讓客戶聚焦在成果而不是時間投入。"
+        },
+        {
+          "title": "How To Improve UX In Legacy Systems",
+          "url": "https://www.smashingmagazine.com/2026/04/legacy-systems/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "處理舊系統的 UX 改善是設計師最常遇到但最少有文章系統性討論的挑戰。這篇針對「不能全部砍掉重來」的現實場景：預算有限、技術債沉重、利害關係人對改變有抵抗。作者提出漸進式改善框架：先診斷最高痛點（不是最明顯的問題）、建立改善基準值、以小範圍試驗驗證後再擴大。特別值得注意的是他對「設計師如何跟工程師協商技術限制」的討論，以及如何把設計改善的成效轉化成商業語言說服決策者。"
+        },
+        {
+          "title": "UX And Product Designer's Career Paths In 2026",
+          "url": "https://www.smashingmagazine.com/2026/01/ux-product-designer-career-paths/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "系統性整理 UX 設計師在 2026 年的幾條主要職涯路徑，並附有 Figma 版本的技能自評矩陣。核心論點是：AI 工具的普及讓「全方位設計師」和「深度專才」這兩個極端都更有市場，但中間的「普通 UX 設計師」位置正在被壓縮。報告也分析了在新創、大公司、代理商、自由接案四種工作情境下設計師的不同發展軌跡，以及每條路徑的薪資範圍和技能要求。適合在思考個人定位或下一步發展方向時讀。"
+        }
+      ],
+      "buzz": "今天有兩條主線。一是 AI 實際工作流的整合：Jenny Wen 的 Cowork 教學是現在最具體的設計師 AI 整合案例，不只是概念，是直接可以複製的工作模式。二是定價與定位：兩篇同時在討論自由設計師如何在 AI 時代提高報價——核心論點一致，差異在定位清晰度，不在技術水準。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "How being weird can save branding in 2026",
+          "url": "https://www.creativeboom.com/insight/how-being-weird-can-save-branding-in-2026/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "直接點名 2025 年的品牌設計潮流「讓人失眠地無聊」。設計總監 Bentzion Goldman 的論點是：品牌識別被同質化的「安全感」綁架，大家都在用同一種極簡、同一種色調、同一種排版。他主張 2026 年應該「刻意做奇怪的選擇」，但強調是「有目的的怪」——選一個和品牌個性深度連結的特殊元素，把它推到有點過頭，讓人記住。文章舉了幾個成功案例說明這個策略如何在提案中說服客戶，對工作室提案很有參考價值。"
+        },
+        {
+          "title": "10 trends that creatives are so over in 2026",
+          "url": "https://www.creativeboom.com/insight/10-trends-creatives-are-so-over-in-2026/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "業界設計師集體列出「2026 年最想看到消失的趨勢」。排名最高的幾個：過度使用 AI 生成圖像的品牌素材、無差別的 wordmark logo（每個品牌都變成同款 sans-serif）、強行「永續感」的綠色系視覺、以及毫無個性的 liquid gradient。這篇有趣的地方不在預測趨勢，而是呈現業界的集體疲憊感。對工作室來說，了解同業在迴避什麼，就能知道什麼現在才算真正的差異化。"
+        },
+        {
+          "title": "The biggest brand trends coming in 2026",
+          "url": "https://www.fastcompany.com/91462141/the-biggest-brand-trends-coming-in-2026",
+          "source": "Fast Company",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Fast Company 從商業策略角度切入品牌設計趨勢，比一般趨勢文章更有論據。幾個重點：品牌將更積極地把 AI 的使用「透明化」，因為消費者已開始用是否誠實使用 AI 來判斷品牌可信度；「人的故事」會成為最強的品牌資產，因為它是 AI 無法偽造的；感官品牌（聲音、觸感、氣味識別）會從奢侈品的專利延伸到更多品牌類別。整體適合做品牌策略提案時引用，論述基礎比其他趨勢文章扎實。"
+        },
+        {
+          "title": "Creative leaders reveal their strategic plans for 2026",
+          "url": "https://www.creativeboom.com/insight/creative-leaders-reveal-their-strategic-plans-for-2026/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Creative Boom 訪問多位創意公司負責人談 2026 年的策略方向，幾個共同點值得注意：多數工作室選擇「更少、更深」，放棄通才定位、聚焦 1-2 個專長領域；AI 工具被廣泛採用，但態度是「加速交付但不降低收費」，而不是降價競爭；另外有幾位提到「直接面對終端客戶」的比例在增加，代理商中介的商業模式正在被繞過。對工作室定位和業務策略有直接參考價值，可以拿來跟自己的方向做對照。"
+        },
+        {
+          "title": "8 Branding Trends We're Going to See in 2026",
+          "url": "https://thebrandstrategylab.com/blog/branding-trends-were-going-to-see-this-year/",
+          "source": "The Brand Strategy Lab",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "從品牌策略師角度整理 8 個趨勢，比視覺趨勢文章更著重策略層面的轉變。最值得注意的兩個：「反 scaling 品牌」興起——刻意維持小規模、強調人工、限量的品牌定位正在受高端客戶青睞；以及「品牌一致性的重新定義」，從過去的視覺統一，轉變為跨觸點的「感受一致」——就算每個平台的視覺語言不同，傳遞的情感和態度要一致。這兩個觀點都可以直接作為工作室品牌策略提案的論述框架。"
+        }
+      ],
+      "buzz": "「反安全感」是這幾天品牌圈最響亮的聲音。Creative Boom 連發兩篇，一篇說要刻意做奇怪的選擇，另一篇直接列出業界對「無聊設計」的集體厭倦。背景是 AI 把「精緻」的門檻拉低了，反而讓「有個性、有點怪、有故事」的品牌更稀缺、更有價值。"
+    }
+  },
+  {
     "date": "2026-05-14",
     "daily_summary": "今天兩個圈子的主題都繞著同一個問題：AI 之後，什麼是人做的、什麼不是。Product 側這幾天密集討論的是 Agentic AI——設計師的角色正在從「做畫面」變成「設計 AI 跑的規則」，有一篇 UX Collective 的文章特別值得看：AI 能讀你的 code，但不懂你的產品邏輯，那個 gap 才是設計師的位置。Brand 側的亮點是 BBH 44 年來首次 rebrand，用三款定制字型和動態 glyph 系統回應 AI 同質化的危機——直接示範了「無法被複製」才是工作室最強的提案論述。",
     "jenny_wen": {
