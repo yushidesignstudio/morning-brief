@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-16",
+    "daily_summary": "今天 Product 側有一個新角度：Nielsen Norman Group 最新調查指出設計師最大的挑戰不是技術，而是「如何在組織裡建立影響力」——這個痛點在接案情境裡格外真實，說服客戶接受設計決策本質上就是一種影響力工程。Brand 側今天的焦點從「要不要奇怪」進一步具體化到「怎麼奇怪」：kinetic logo、兒童塗鴉字體、破壞性排版這些過去被視為小眾的選擇，正在成為大型品牌的主流策略，Creative Bloq 和 Envato 都在密集報導這個方向。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Designers' top struggles aren't about design skills — they're about alignment, influence, and navigating org complexity",
+          "url": "https://www.nngroup.com/articles/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "2026 年 5 月最新的 NNGroup 調查揭示一個大家心知肚明卻少人正視的問題：設計師最大的挫折不是做不出好設計，而是讓設計發生影響力的組織政治問題。預算縮減的壓力下，UX 常是第一個被質疑投資價值的職能，設計師需要的不只是設計技能，還要學會用商業語言說服決策者、在利害關係人之間建立信任。對工作室來說這個問題更尖銳——你不是組織內部的人，說服客戶接受設計建議的難度更高。這篇讓人重新思考：設計提案的說服力，本身就是一種需要刻意練習的技能。"
+        },
+        {
+          "title": "State of UX 2026: Design Deeper to Differentiate",
+          "url": "https://www.nngroup.com/articles/state-of-ux-2026/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NNGroup 年度 UX 現況報告，核心論點是「淺層的 UX 已無法帶來競爭優勢，必須往更深的系統性設計走」。隨著 AI 工具讓基本 UX 原則變得容易實現，差異化必須來自更難被複製的地方：深度的用戶研究洞察、跨觸點的體驗設計、組織內部的 UX 成熟度建立。報告也分析了為什麼設計預算會被砍、以及如何用可量化的成效讓設計投資變得「看得見」。適合作為說服客戶投資完整設計流程的論述基礎，數據來源可信度高。"
+        },
+        {
+          "title": "UX/UI in 2026: Why Beautiful Design No Longer Guarantees Success",
+          "url": "https://dev.to/dev_family/uxui-in-2026-why-beautiful-design-no-longer-guarantees-success-1ca2",
+          "source": "DEV Community",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "當 AI 工具讓「好看的設計」變得容易，漂亮本身就不再是賣點——這是這篇的出發點。作者認為 2026 年的 UX 競爭發生在三個新維度：系統行為的設計（不只是畫面）、AI 不確定性的透明化處理（讓用戶知道 AI 在做什麼、為什麼這樣做）、以及多模態互動的整合。結論是設計師必須從「讓東西好看」的心態，轉向「讓系統可信、可預測、可恢復」的系統思維。對工作室而言，這個轉變也代表提案的論述點需要從視覺美感升級到體驗品質與系統邏輯。"
+        },
+        {
+          "title": "15 UI/UX Design Trends Dominating Products in 2026",
+          "url": "https://www.sanjaydey.com/ui-ux-design-trends-2026/",
+          "source": "Sanja Dey",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "整理 15 個 2026 年主導產品設計的 UI/UX 趨勢，幾個特別值得注意：功能性微動畫從點綴變成傳遞系統狀態的核心溝通工具；多模態設計（聲音 + 觸覺 + 視覺協調）從實驗性轉為標準配備；以及 AI 介面的「可預測性設計」——讓使用者清楚知道 AI 下一步會做什麼。整體方向是 UX 的影響力從「畫面層」延伸到「系統行為層」，設計師需要理解 AI 如何做決策，才能設計出真正有效的用戶體驗。"
+        },
+        {
+          "title": "UX/UI Design Trends 2026: 11 Essentials for Designers & Businesses",
+          "url": "https://www.promodo.com/blog/key-ux-ui-design-trends",
+          "source": "Promodo",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "從商業角度切入的 UX 趨勢整理，特別聚焦在「哪些設計決策對業績有直接影響」，適合在跟不熟設計的客戶溝通時使用。幾個重點：無障礙設計在歐洲已從最佳實踐變成法規要求，市場正在快速跟進；語音介面和 AI 助理的 UX 設計成為獨立的設計門類；以及超個人化體驗（根據用戶行為即時調整介面和內容）正在從大平台下放到中小型產品。這篇最大的價值是它提供了把設計投資和商業成效連結起來的論述框架。"
+        }
+      ],
+      "buzz": "今天 Product 圈的核心問題從技術轉向了人：NNGroup 的調查直接說出來——設計師的瓶頸不是做不好，是無法讓好的設計發生影響力。這個問題在工作室情境裡特別尖銳，說服客戶和說服組織內部的決策者，本質上是同一種能力。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Logo and Branding Trends for 2026: Kinetic logos, childlike anarchy, and the death of skin-deep",
+          "url": "https://elements.envato.com/learn/logo-and-branding-trends",
+          "source": "Envato",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Envato 的年度品牌趨勢報告，標題就很直接：「表面工夫的死亡」。三個主軸：Kinetic logo（動態化、有行為的識別取代靜態 logo）、Childlike anarchy（刻意幼稚的手繪字體和塗鴉元素，作為對抗 AI 光滑感的反動）、以及 Authentic brand experiences（真實感勝過精緻感，消費者開始分辨哪些品牌在表演「有溫度」、哪些是真的）。這篇適合作為向客戶解釋「為什麼你的品牌需要個性」的視覺論據。"
+        },
+        {
+          "title": "These logo design trends will define 2026",
+          "url": "https://www.creativebloq.com/design/logos-icons/these-logo-design-trends-will-define-2026",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Creative Bloq 整理 2026 年最具定義性的 logo 趨勢，幾個值得注意：復古字體和現代動態效果的混搭（vintage type + kinetic behavior）成為最多大品牌採用的組合；「刻意不完美」的 logo 設計——手繪感、歪斜、不對稱——正在從新創品牌蔓延到傳統企業；以及 wordmark 的「靈活版本」概念，同一個品牌有多個視覺版本對應不同使用場景，而不是一個死板的主 logo。這篇對正在做品牌識別系統的工作室有直接的操作參考價值。"
+        },
+        {
+          "title": "Breaking rules and bringing joy: top typography trends for 2026",
+          "url": "https://www.creativebloq.com/design/fonts-typography/breaking-rules-and-bringing-joy-top-typography-trends-for-2026",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "2026 年字體趨勢報告，核心主題是「字體不再只是閱讀工具，而是品牌個性的第一承載體」。最受關注的幾個方向：Variable font 的大量普及讓單一字型可以跨多個情境自適應；Expressive serif 的回歸（帶有戲劇性細節的高反差襯線字體）；以及手寫字體的「被策劃的不完美」（不是真的手寫，而是刻意設計成有手寫質感的字型）。這篇特別有用的是它把每個趨勢都連結到「為什麼消費者心理上會對這個產生反應」，不只是說「這個流行」。"
+        },
+        {
+          "title": "This was branding's most dangerous year yet",
+          "url": "https://www.creativebloq.com/design/branding/this-was-brandings-most-dangerous-year-yet",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "回顧 2025 年品牌設計的整體走向：這一年被稱為「最危險的一年」，因為 AI 工具讓大量品牌快速產出視覺，但卻加速了同質化——品牌看起來都差不多，反而讓「辨識度」變得比以往更稀缺、更有價值。文章分析了幾個在這一年中逆勢突圍的品牌，共同特點是：有清晰的立場、願意為視覺個性付出代價（包括接受部分受眾不喜歡）。對工作室來說，這篇提供了一個很好的框架——幫客戶建立「不是所有人都喜歡，但對的人非常喜歡」的品牌策略。"
+        },
+        {
+          "title": "Branding inspiration: design trends for 2026",
+          "url": "https://kota.co.uk/blog/branding-inspiration-brand-design-trends-for-2026",
+          "source": "KOTA",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦設計工作室 KOTA 的 2026 品牌趨勢整理，角度比較實戰——他們本身接品牌案，所以這篇更多是「我們在客戶專案裡實際看到的走向」。幾個重點：深色背景的品牌識別大量回歸，不再是科技公司的專利；客製插圖系統（而非購買圖庫）成為中型品牌的標配需求；以及「跨通路一致性」的定義從視覺統一升級為體驗一致——同樣的品牌個性在每個觸點都要能被感受到，不只是看到。"
+        }
+      ],
+      "buzz": "今天 Brand 側從「概念」走向「操作」。Kinetic logo 和 childlike anarchy 不再只是趨勢關鍵字，已經有足夠的案例支撐它們成為提案時可以直接引用的方向。值得注意的是多個來源都在說同一件事：2025 年 AI 加速了品牌同質化，2026 年的反動是「刻意做出個性」，而個性的代價是接受不被所有人喜歡。"
+    }
+  },
+  {
     "date": "2026-05-15",
     "daily_summary": "今天最值得看的是 Jenny Wen 的 Cowork 實戰教學——她第一次公開了自己在 Anthropic 如何用 AI 整理產品決策，具體到 prompt 怎麼寫、輸出怎麼用，是現在找得到最真實的設計師 AI 工作流案例。Product 側另一個亮點是兩篇設計師定價文章同時出現，說明業界對接案報價的焦慮正在升溫。Brand 側的氣氛是集體的「夠了，不要再安全了」——越來越多創意主管和工作室在押注個性，而不是精緻。",
     "jenny_wen": {
