@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-17",
+    "daily_summary": "今天 Product 側聚焦在 Figma——五月更新帶來 AI agent 直接操作畫布的新能力，設計師用 Claude 建 design system components 的工作流正在快速成熟。值得注意的是「AI 友好的 Figma 結構」開始成為獨立的設計課題：你的 Figma 檔案不只要給人看，也要讓 AI 讀得懂。Brand 側出現一個有趣的雙線：brand tweak（小調整取代大 rebrand）和吉祥物的強勢回歸，聽起來矛盾，但都在回應同一個問題——AI 時代如何建立有溫度、可識別的品牌存在感。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Release notes roundup: May 2026 — Figma Learn",
+          "url": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+          "source": "Figma",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 五月更新的完整整理，最重磅的幾個變動都跟 AI agent 有關：AI 可以直接寫入畫布、建立 components、同步 design tokens；MCP 整合讓 Claude Code 用戶可以透過指令操作 Figma 檔案；design token 的更動可以即時反映在所有 components 上。對現在在用 Claude Code 的設計師來說，這次更新直接改變了 Figma 的角色——它不再只是設計工具，而是 AI agent 可以讀寫的設計資料庫。如果你還沒裝 Figma MCP，這篇是最好的入門起點。"
+        },
+        {
+          "title": "Figma Made a Huge Step Forward in AI Design",
+          "url": "https://dev.to/spookuspookus/figma-made-a-huge-step-forward-in-ai-design-april-2026-1cin",
+          "source": "DEV Community",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "記錄 2026 年 Figma 在 AI 整合上的幾個關鍵轉折：從 2 月起 Claude Code 用戶可以安裝 Figma MCP server 讓 AI 讀取設計稿，一個月後 Figma 進一步開放畫布給 AI agent 直接寫入。這代表設計師現在可以用自然語言指令讓 Claude 在 Figma 裡建 component、調整 layout、生成 variant。這個轉變的意義超出工具升級——它把設計師和 AI 的協作模式從「AI 提供建議、設計師執行」，推進到「AI 直接執行、設計師審查判斷」。"
+        },
+        {
+          "title": "AI to Figma Workflow: Build Design Systems from Claude and OpenAI Outputs",
+          "url": "https://medium.com/@nithin_94885/ai-to-figma-workflow-build-design-systems-from-claude-and-openai-outputs-253f953f023b",
+          "source": "Medium",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "非常實用的操作指南，展示如何把 Claude 產出的 UI 描述直接轉化為 Figma 裡可用的 design system components。核心技巧是：先讓 AI 生成帶有 design token 引用的 HTML/CSS，再透過 Figma plugin 轉成 Figma component，保留 token 結構讓設計師可以直接在 Figma 裡調整。這個工作流對工作室特別有價值——大幅縮短從概念探索到可交付設計稿的時間，同時保持 design system 的一致性。建議直接跟著步驟操作一次。"
+        },
+        {
+          "title": "Design with AI Agents: Manipulating the Figma Canvas via MCP",
+          "url": "https://azukiazusa.dev/en/blog/use-figma-mcp-tool/",
+          "source": "azukiazusa.dev",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "解釋 Figma MCP（Model Context Protocol）如何讓 AI agent 真正「看見」並操作設計稿。作者展示幾個具體場景：讓 Claude 讀取既有 Figma 設計並生成對應 code、讓 AI 根據 code 更動自動同步設計稿、以及讓多個 AI agent 同時協作不同設計區塊。這篇的價值在於幫設計師理解 MCP 不只是工程師的工具——它是設計工作流的關鍵基礎設施，搞懂它才能真正駕馭 AI 設計協作。"
+        },
+        {
+          "title": "Figma, Tokenization & AI-Grade Templatisation",
+          "url": "https://www.francescatabor.com/articles/2026/3/31/figma-tokenization-amp-ai-grade-templatisation",
+          "source": "Francesca Tabor",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "提出一個很有前瞻性的概念：「AI-grade templatisation」——為 AI agent 設計的 Figma 結構，而不只是為人類設計師。作者指出現有的 Figma 文件組織，即使做得很好，仍以人類的視覺邏輯為主。但 AI agent 讀取資訊的方式不同：它更依賴清晰的命名、一致的 token 結構、可預測的 component 層次。這篇是目前針對「如何把 Figma 改造成 AI 友好環境」最系統性的論述——做設計系統的人必讀。"
+        }
+      ],
+      "buzz": "Figma 五月更新讓 AI agent 直接操作畫布這件事正在 Product 圈發酵。核心問題是：當 AI 可以直接在 Figma 裡建 component，設計師從「執行者」變成「審查者」。這週特別值得注意的是「AI 友好的 Figma 結構」開始成為獨立的設計課題——你的命名規則、token 結構、component 層次，不只是整理習慣，而是決定 AI 能不能讀懂你的設計意圖的關鍵。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Welcome to the brand tweak era",
+          "url": "https://www.creativebloq.com/design/branding/welcome-to-the-era-of-the-brand-tweak",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "宣告一個新的品牌策略時代：全面 rebrand 已過時，「brand tweak」才是主流。很多品牌現在選擇調整 logo 比例、更新輔助色系、換一套更現代的排版，而不是砍掉重來。原因有幾個：全面 rebrand 的市場反彈風險愈來愈高、成本沉重，而且在 AI 讓視覺生產變便宜的時代，精準微調比重建更有效率。這個趨勢對工作室的業務策略有直接影響——小幅優化的接案比全面 rebrand 更容易開始談，也更容易讓客戶即時感受到價值，值得把它加進你的服務清單。"
+        },
+        {
+          "title": "The most important branding tool in 2026 isn't what you think",
+          "url": "https://www.creativebloq.com/design/branding/the-most-important-branding-tool-in-2026-isnt-what-you-think",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "標題的答案是吉祥物（mascot）。在 AI 讓品牌可以快速產出無限視覺素材的時代，建立情感連結的能力反而變得稀缺。吉祥物作為品牌的「情感錨點」，可以跨越平台、媒介、甚至文化差異，持續傳遞一致的品牌個性。文章指出 AI 時代的吉祥物和傳統版本不同：必須是動態的、有表情變化的、可以跟 AI chatbot 整合的「活的角色」，而不是靜態圖形。這個觀察對考慮幫客戶建立長期品牌資產的工作室很有啟發。"
+        },
+        {
+          "title": "Why brand mascots are back in business",
+          "url": "https://www.creativeboom.com/insight/why-brand-mascots-are-back-in-business/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "詳細分析吉祥物全面回歸的原因和案例。數據：早期 2026 的研究顯示有活躍吉祥物的品牌，消費者記憶度比沒有的高出 37%。案例：Philadelphia Cream Cheese 在品牌 150 年後首次推出吉祥物 Phillyboy；Duolingo 的貓頭鷹「死亡」事件帶來 25,000% 的社群提及量爆增；Burger King 則反其道而行，「解僱」了自家吉祥物 King。文章結論是：在碎片化的媒體環境裡，吉祥物是品牌的「穿線工具」——認出那個角色，就認出了品牌。這個論點在提案時說服力很強。"
+        },
+        {
+          "title": "It's time to stop judging rebrands so quickly",
+          "url": "https://www.creativebloq.com/design/branding/its-time-to-stop-judging-rebrands-so-quickly",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "挑戰品牌設計圈的一個壞習慣：rebrand 一推出，社群馬上嚴厲批評。作者的論點是：品牌識別需要時間在市場中「活起來」，在文化和曝光中累積後才能判斷成效。文章舉了幾個起初被批評但最後成功的 rebrand（包括 Airbnb 和 Instagram），以及反過來起初被讚揚但失敗的例子。對工作室而言，這篇提供了一個很好的客戶管理框架——提案後如何幫助客戶建立「給時間看」的預期，避免因為初期的社群反應就急著撤回設計決策。"
+        },
+        {
+          "title": "This super subtle rebrand is as smooth as butter",
+          "url": "https://www.creativebloq.com/design/branding/this-super-subtle-rebrand-is-as-smooth-as-butter",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "介紹一個具體的「brand tweak」執行案例，展示微幅更新如何讓識別系統在不驚動大眾的情況下現代化。改動清單：字重微調、logo 視覺重心優化、色彩在數位媒介上的表現改善——每個改動單獨看都不明顯，但整體感受截然不同。這篇最大的價值是清楚示範了「克制的設計決策」：知道什麼要動、什麼不要動，比大幅改變更難做、也更專業。對承接品牌微調案的工作室，這篇提供很好的執行參考和跟客戶溝通的說明方式。"
+        }
+      ],
+      "buzz": "這幾天品牌圈出現有趣的雙線：吉祥物的回歸正在被認真討論（不再只是懷舊），背後邏輯是 AI 大量產出視覺的時代，情感連結成為最難被複製的品牌資產。同時，「brand tweak」也在快速普及，代表客戶對品牌更新的思維正從「大改」轉向「精準微調」。兩個方向都是對 AI 時代的回應：一個靠個性建立存在感，一個靠精準而不是規模。"
+    }
+  },
+  {
     "date": "2026-05-16",
     "daily_summary": "今天 Product 側有一個新角度：Nielsen Norman Group 最新調查指出設計師最大的挑戰不是技術，而是「如何在組織裡建立影響力」——這個痛點在接案情境裡格外真實，說服客戶接受設計決策本質上就是一種影響力工程。Brand 側今天的焦點從「要不要奇怪」進一步具體化到「怎麼奇怪」：kinetic logo、兒童塗鴉字體、破壞性排版這些過去被視為小眾的選擇，正在成為大型品牌的主流策略，Creative Bloq 和 Envato 都在密集報導這個方向。",
     "jenny_wen": {
