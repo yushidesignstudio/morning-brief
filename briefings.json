@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-18",
+    "daily_summary": "今天有 Jenny Wen 的新演講「Craft is Counter-Intuitive」——她用 Anthropic 的實際案例說明為什麼最好的設計成果，往往來自打破你以為正確的設計流程，值得和她的 Lenny's 那集一起看。Product 側今天的核心是 AI agent 的使用者體驗：NNGroup 的 Qwen 研究說明改變用戶的行為習慣才是 AI 產品最難的設計挑戰。Brand 側的焦點是本週的大事件——巴西亞馬遜的歷史性品牌識別，FutureBrand 用河流曲線造字，重新定義了「活的品牌」可以是什麼。",
+    "jenny_wen": {
+      "has_content": true,
+      "title": "Craft is Counter-Intuitive",
+      "url": "https://designx.community/talks/jenny-wen-(design-lead-anthropic)-craft-is-counter-intuitive",
+      "summary": "這場演講是她 Lenny's 那集的完美補充——那集講設計流程的宏觀轉變，這場講的是她自己如何在 Anthropic 的日常工作中實踐「反流程」的設計哲學。幾個反直覺的做法她都有真實案例：直接從高保真開始設計（省掉低保真探索）、在 design crit 上鑽進細節而不是只討論大方向、在最後一刻改設計、身為主管不要迴避親手做細節。她的核心論點是：這些做法在傳統設計流程裡是「禁忌」，但它們卻是讓 Anthropic 設計品質維持在高水準的真正原因。YouTube 也有同場演講的影片版。"
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Designing AI Agents: 4 Lessons from China's Qwen Agent",
+          "url": "https://www.nngroup.com/articles/designing-ai-agents/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NNGroup 針對中國 AI 助理 Qwen 的 agent 功能做了實際用戶研究，結果很值得所有設計師注意。6 位受試者被要求用 Qwen 訂奶茶，5 位一開始直接去開外送 app——因為「用聊天介面下單」這件事本身對他們來說不直覺。這個「discoverability」問題揭示了 AI agent UX 最大的挑戰不是技術，而是打破用戶的行為模式預期。其他三個設計結論：用熟悉的 GUI 模式引導新行為、謹慎設定個人資料存取的邊界、以及在 AI 執行過程中持續保護用戶的自主控制感。這是 2026 年最具體的 AI agent UX 研究，有真實數據支撐。"
+        },
+        {
+          "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
+          "url": "https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "系統性整理設計 AI agent 介面的核心 UX 原則，聚焦三個關鍵維度：Control（用戶隨時可以介入、暫停、修改 AI 的行為）、Consent（AI 在做任何影響用戶的決策前要有明確確認機制）、Accountability（出錯時用戶能清楚知道誰做了什麼決定）。文章附有具體 UI pattern 示範，包括「AI 操作的即時中斷鍵」、「決策歷程的透明顯示」、以及「一鍵還原」的設計邏輯。這是目前最完整的 agentic AI UX 設計指南，提案中可以直接引用。"
+        },
+        {
+          "title": "Agent UX: UI Design for AI Agents in 2026",
+          "url": "https://fuselabcreative.com/ui-design-for-ai-agents/",
+          "source": "Fuselab Creative",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "從設計實務角度整理 AI agent 介面的設計要點，聚焦「如何讓用戶知道 AI 正在做什麼」這個核心問題。幾個具體設計模式：進度透明化（不只是轉圈圈，而是顯示 AI 正在執行哪一步）、可中斷的工作流程（每個步驟結束時給用戶一個確認節點）、以及 agent 的「個性設計」（讓 AI 在操作過程中用一致的語氣回應，建立可預測性和信任感）。這篇適合在正在設計 AI 功能的專案中直接參考。"
+        },
+        {
+          "title": "17 UX/UI Trends for 2026",
+          "url": "https://userguiding.com/blog/ux-ui-trends",
+          "source": "UserGuiding",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "從產品增長角度整理 17 個 UX/UI 趨勢，幾個特別值得注意：「Invisible AI」——AI 的存在感要降到最低，讓用戶感覺是在使用一個更聰明的產品，而不是在跟 AI 說話；「Micro-UX」——競爭力集中在細節的打磨，而不是大功能的新增；「Adaptive UI」——介面根據用戶行為自動調整複雜度，新手看到引導式介面，專家看到精簡版。這篇從商業成效角度談 UX，適合在跟注重 ROI 的客戶溝通設計投資時引用。"
+        },
+        {
+          "title": "Building a Local AI Agent (Part 2): Six UX and UI Design Challenges",
+          "url": "https://dev.to/flo1632/building-a-local-ai-agent-part-2-six-ux-and-ui-design-challenges-50en",
+          "source": "DEV Community",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者在打造自己的本地 AI agent 過程中，歸納出六個實際遭遇的 UX 設計難題。這篇的特殊價值在於第一手視角——不是評論者，而是「自己在開發 AI 產品的設計師」。六個挑戰包括：如何設計 agent 的「思考過程顯示」讓用戶有耐心等待、錯誤發生時的 recovery flow、以及多步驟任務的進度追蹤設計。對未來接 AI 產品設計案的工作室，這篇提供了一個真實的現實場景參考。"
+        }
+      ],
+      "buzz": "AI agent 的 UX 設計這週有了更具體的研究支撐：NNGroup 的 Qwen 研究直接揭示，讓用戶改變行為模式才是最大的設計挑戰，技術能力不是瓶頸，習慣才是。多篇文章都收斂到同一個結論：透明度和可中斷性是 agentic AI 設計最關鍵的元素——用戶不怕 AI 做決策，怕的是看不懂 AI 在做什麼、又無法即時介入。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "The Brazilian Amazon gets historic new brand identity",
+          "url": "https://www.creativereview.co.uk/brazilian-amazon-brand-identity-futurebrand-sao-paulo/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這是本週 Brand 圈最值得聊的案子。FutureBrand São Paulo 為巴西亞馬遜設計了有史以來第一套官方品牌識別——代表覆蓋巴西 60% 領土、居住 2,800 萬人的整個亞馬遜生態系。Logo 的核心概念是從河流的自然曲線提取出字型筆畫，25,000 公里的河網成為識別系統的設計語言來源。這個案例展示了品牌設計服務超越商業目的的可能性：建立地區認同、保護生態、為在地生產者創造「Feito de Amazônia」認證印章帶來實際收入。"
+        },
+        {
+          "title": "How Do You Brand a Living Ecosystem? Brazil's New Amazon Identity Offers an Answer",
+          "url": "https://www.printmag.com/branding-identity-design/how-do-you-brand-a-living-ecosystem-brazils-new-amazon-identity-offers-an-answer/",
+          "source": "PRINT Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "PRINT Magazine 從策略角度分析這個史無前例的設計挑戰。幾個關鍵決策值得細看：為什麼用河流曲線而不是動植物圖案（河流是亞馬遜居民的導航系統，比動植物更能代表「生活在其中」的人文意義）；為什麼邀請亞馬遜九個州的在地藝術家共同創作（識別必須是由內部長出來的，不是外部設計師給的）；以及認證章如何把品牌轉化為在地生產者的實際商業工具。這篇對思考「品牌的真正功能是什麼」很有啟發。"
+        },
+        {
+          "title": "FutureBrand São Paulo's Brand for Brazilian Amazon: A Living Identity",
+          "url": "https://www.designweek.co.uk/futurebrand-creates-a-living-identity-for-the-brazilian-amazon/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Design Week 稱這套識別為「living identity」，強調其有機性和可生長性。識別系統不是封閉的，而是為在地創作者提供一個開放的語言框架——插圖、攝影、字型都有準則，但每個地區、每個創作者都可以在其中加入自己的故事。這個做法挑戰了傳統品牌識別追求「視覺統一」的思維，轉向「文化多樣性中的識別一致性」。對工作室來說，這個案例提供了一個很好的論述框架：品牌識別不是視覺的限制，而是表達的共同語言。"
+        },
+        {
+          "title": "Branding Trends to Watch in 2026: When It's Time to Refresh Your Brand",
+          "url": "https://www.themmachine.com/branding-trends-2026/",
+          "source": "The Marketing Machine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "從企業主視角整理「什麼時候你的品牌需要更新」，這個切入點比純設計趨勢文章更實用。幾個觸發品牌更新的訊號：品牌已無法反映公司的實際能力範圍、目標客群發生轉移、或是品牌視覺在數位媒介上的表現已明顯老化。文章特別強調「品牌更新不一定是全面 rebrand」，有時候調整幾個關鍵觸點就能帶來顯著效果。適合在接案初期和客戶討論更新範圍時拿來引導對話，把決策框架從「要不要改」轉向「改什麼最有效率」。"
+        },
+        {
+          "title": "Top 9 Brand Design Trends that Will Lead the Next Brand Revolution 2026",
+          "url": "https://www.designerpeople.com/blog/brand-design-trends-2026/",
+          "source": "Designer People",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "從「品牌革命」角度整理 9 個最具影響力的 2026 趨勢，幾個特別值得注意：品牌識別開始整合「環境感知」——視覺系統可以根據時間、天氣、地點自動調整；「反 AI 美學」從小眾品牌滲透到主流，刻意展現人工製作的不完美成為差異化賣點；聲音識別（sonic branding）從大品牌下放到中小型品牌，成為完整品牌系統的標配。範圍廣但概念清晰，適合做品牌策略提案前的全面瀏覽。"
+        }
+      ],
+      "buzz": "巴西亞馬遜的品牌識別是本週 Brand 圈的大事。它的意義超越設計本身：第一次有人嚴肅地問「你能幫一個活的生態系建立品牌嗎」，FutureBrand 給出了一個有說服力的答案——用河流本身的語言說話。這個案子也重新定義了「living identity」：不是動態 logo，而是一套讓在地文化可以持續生長的設計語言框架。"
+    }
+  },
+  {
     "date": "2026-05-17",
     "daily_summary": "今天 Product 側聚焦在 Figma——五月更新帶來 AI agent 直接操作畫布的新能力，設計師用 Claude 建 design system components 的工作流正在快速成熟。值得注意的是「AI 友好的 Figma 結構」開始成為獨立的設計課題：你的 Figma 檔案不只要給人看，也要讓 AI 讀得懂。Brand 側出現一個有趣的雙線：brand tweak（小調整取代大 rebrand）和吉祥物的強勢回歸，聽起來矛盾，但都在回應同一個問題——AI 時代如何建立有溫度、可識別的品牌存在感。",
     "jenny_wen": {
