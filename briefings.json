@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-19",
+    "daily_summary": "今天 Product 側出現了一個有趣的三方辯論：Jenny Wen 說設計流程已死，NNGroup 說流程只是被壓縮了，另一篇說設計師正在回歸田野。三個視角放在一起其實不矛盾——AI 加速了執行，但設計的判斷能力反而更重要。Brand 側今天有三個新鮮具體的 rebrand 案同時出現：4Creative 從員工手繪 + 節目視覺建立識別、Lacoste 從品牌歷史檔案找法式氣質、Radio Times 20 年來首次大幅更新。今天適合安靜看品牌案。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Design Process Isn't Dead, It's Compressed",
+          "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "直接回應 Jenny Wen「設計流程已死」的論點，NNGroup 的立場是：有經驗的設計師不是拋棄了流程，而是把流程內化並壓縮——探索、發想、驗證仍然在發生，只是以更快的節奏、更流動的形式進行。AI 工具進一步加速這個壓縮，讓「想到一個 idea 到有東西可以測試」可以在一個下午完成。最關鍵的洞察是：我們稱之為「直覺」的東西，其實是被壓縮和內化的流程——多年的實作讓設計師可以快速跑過這些步驟，而不是靠「感覺」做決策。這個論點把三方辯論的結論統一了：流程沒死，只是形式變了。"
+        },
+        {
+          "title": "Product Designers Are Not Being Replaced. They Are Being Sorted.",
+          "url": "https://medium.com/design-bootcamp/product-designers-are-not-being-replaced-they-are-being-sorted-6e2fb0492ed2",
+          "source": "UX Collective / Medium",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 不是在取代設計師，而是在把設計師分類。能夠用 AI 工具提升自己判斷力和產出速度的設計師，正在和只把 AI 當「更快的 Photoshop」的設計師快速拉開差距。文章把這個分化稱為「sorting」——市場正在自動篩選哪些設計師真的在用 AI 改變工作方式，哪些只是表面上使用。最直接的問題是：你的 AI 工具用法，是在增強你的判斷力，還是只在加快你的執行速度？這篇適合在跟客戶解釋「為什麼設計費不降反升」時作為論述基礎。"
+        },
+        {
+          "title": "The Design Process Is Dead. Designers Are Going Back to the Field.",
+          "url": "https://medium.com/jin-system-architect/the-design-process-is-dead-designers-are-going-back-to-the-field-b87132f7ed57",
+          "source": "Medium",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這篇是對「設計流程已死」的第三種解讀：不是流程死了，也不只是流程被壓縮，而是設計師正在回到最基本的工作——直接去觀察用戶、理解真實情境，而不是在辦公室裡走流程。AI 讓執行層面自動化後，設計師最有價值的貢獻反而是「走出去」——親眼看到用戶怎麼生活，再用 AI 能力快速把觀察轉化為設計。這個視角對思考設計師在 AI 時代的差異化策略很有參考價值：你最不可被取代的能力，是你對真實世界的理解。"
+        },
+        {
+          "title": "Future Of UI UX Design: 2026 Trends & New AI Workflow",
+          "url": "https://motiongility.com/future-of-ui-ux-design/",
+          "source": "Motiongility",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "從工作流程實務角度整理 2026 年 UI/UX 設計的走向，特別著重「AI 整合後的設計工作流長什麼樣子」。幾個值得注意的轉變：wireframing 已基本被 AI 工具接管，設計師的精力移向判斷和調整 AI 輸出；用戶研究的速度加快，但深度研究（ethnographic study、長期追蹤）反而更受重視，因為它是 AI 做不到的；設計師開始更頻繁地直接寫 code 或 prompt code，設計和開發的工作邊界繼續模糊。適合作為重新評估自己工作流程的參考。"
+        },
+        {
+          "title": "Don't Outsource Analysis to AI",
+          "url": "https://www.nngroup.com/videos/dont-outsource-analysis-to-ai/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 可以幫你整理資料、找模式、生成報告，但「分析」這個行為本身不應該被外包。原因是分析不只是提取資訊，而是「在資訊之間建立意義連結」——這個連結來自設計師對情境、用戶、商業目標的理解，這些 AI 沒有。文章舉了幾個例子說明當設計師把分析完全交給 AI 時會遺漏什麼：context-dependent insight、cross-domain connection、以及「這件事為什麼重要」的判斷。這個觀點對決定哪些工作要用 AI、哪些要自己做，有很實際的指導價值。"
+        }
+      ],
+      "buzz": "「設計流程到底死了沒」這週在業界發展成一場跨媒體辯論。Jenny Wen 說死了、NNGroup 說只是被壓縮了、另一篇說設計師正在回歸田野。三個視角放在一起其實不矛盾：傳統僵化的流程確實在消失，但設計的核心能力（理解人、建立判斷、驗證假設）反而因為 AI 加速了執行面，變得更重要、更有價值。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "4Creative cuts out visuals from the UK's most iconic TV shows to make its new identity",
+          "url": "https://www.itsnicethat.com/articles/4creative-rebrand-graphic-design-project-070526",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Channel 4 的內部創意機構 4Creative 推出了一套非常特別的識別系統：把過去幾十年製作的英國最知名電視節目（Great British Bake Off、Peep Show、Educating Yorkshire 等）的視覺元素拆解，重新組合成識別系統的設計語言。更特別的是，每位 4Creative 的成員都手繪了自己版本的「4C」字型，識別系統在使用時隨機輪換這 130 個不同版本。這個做法讓識別本身就是對「集體創作精神」的宣言——你看到的每一次 4C，都來自不同的人。這種「由內部長出來」的邏輯對思考創意工作室的自身品牌很有啟發。"
+        },
+        {
+          "title": "Inside Lacoste's new visual identity",
+          "url": "https://www.creativereview.co.uk/lacoste-new-visual-identity-commission-studio/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Lacoste 聯手 Commission Studio 做了一次「遠比看起來複雜」的品牌刷新。背景是用戶調查發現：多數人認得 Lacoste，但不知道它是法國品牌，定位也模糊（是運動品牌還是時裝品牌？）。這次更新的策略是「強化法式氣質」：新的 serif 字型取材自品牌歷史檔案、鱷魚的紅舌被強化、品牌綠色調回更接近原始的色調、色彩系統加入陶土色（網球場）和米白色（創辦人第一件外套的顏色）。這篇很好地示範了「歷史就是最好的設計語言」——品牌的答案往往在它自己身上。"
+        },
+        {
+          "title": "Radio Times unveils first major rebrand in two decades",
+          "url": "https://www.creativereview.co.uk/radio-times-rebrand-why-projects/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國最老牌的電視節目表雜誌 Radio Times 20 年來第一次大幅品牌更新，由 Why Projects 操刀。這個案子最值得研究的是它面對的挑戰：如何讓一個百年品牌在數位時代仍然相關，同時又不失去老讀者的信任？設計師選擇保留 Radio Times 最具識別性的紅色和傳統字型感，但重新建立整套視覺語言的靈活性，讓它可以在實體雜誌、社群媒體、數位平台上都有一致的存在感。「保留靈魂，更新容器」是這個案子最好的一句總結。"
+        },
+        {
+          "title": "Saint-Urbain develops new brand identity for NYC's West Village",
+          "url": "https://www.creativereview.co.uk/saint-urbain-rebrands-new-york-west-village/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "加拿大設計工作室 Saint-Urbain 為紐約西村打造了新的區域品牌識別。設計師從西村的鵝卵石街道、磚砌建築、以及獨立小店的手寫招牌中提取視覺語言，把「步行尺度的人性感」轉化為識別系統的核心特質。這個案例和上週的巴西亞馬遜識別有呼應——兩個都在問同一個問題：如何讓一個「地方」有識別感，而不是替它安裝一個外來的品牌語言？答案都是一樣：讓地方本身說話，設計師的工作是翻譯，不是創造。"
+        },
+        {
+          "title": "4Creative's 'perpetually unfinished' logo doesn't care for conventionality",
+          "url": "https://www.creativebloq.com/design/branding/4creatives-perpetually-unfinished-logo-doesnt-care-for-conventionality",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Creative Bloq 從設計哲學角度解讀 4Creative 識別的核心概念：「永遠未完成的 logo」。因為 logo 由 130 個不同成員的手繪版本隨機輪換組成，每次看到的 4C 都不一樣——這個不確定性和不完整性本身就是設計意圖，不是設計缺陷。這個想法和傳統品牌識別「追求統一和一致」的邏輯完全相反，但在一個重視個人創作力的創意機構裡，它反而更誠實地反映了品牌的本質。這篇是對「什麼是品牌一致性」這個問題的一個很好的反向思考。"
+        }
+      ],
+      "buzz": "今天三個具體 rebrand 案同時出現，難得可以比較三種不同的更新邏輯：4Creative 從內部找素材、Lacoste 從歷史找語言、Radio Times 從核心資產找方向。共同點是：答案都在品牌自己身上，不是從趨勢借來的。這三個案子放在一起，是目前「如何幫有歷史的品牌做更新」最好的參考集。"
+    }
+  },
+  {
     "date": "2026-05-18",
     "daily_summary": "今天有 Jenny Wen 的新演講「Craft is Counter-Intuitive」——她用 Anthropic 的實際案例說明為什麼最好的設計成果，往往來自打破你以為正確的設計流程，值得和她的 Lenny's 那集一起看。Product 側今天的核心是 AI agent 的使用者體驗：NNGroup 的 Qwen 研究說明改變用戶的行為習慣才是 AI 產品最難的設計挑戰。Brand 側的焦點是本週的大事件——巴西亞馬遜的歷史性品牌識別，FutureBrand 用河流曲線造字，重新定義了「活的品牌」可以是什麼。",
     "jenny_wen": {
