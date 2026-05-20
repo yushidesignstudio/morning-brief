@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-20",
+    "daily_summary": "今天 Product 側聚焦一個對工作室非常實用的主題：設計系統與精簡團隊。NNGroup 新研究和幾篇實戰指南都指向同一件事——AI 工具讓 1 個人可以做到過去 3 個人的設計系統工作量，但前提是你要先把 token 結構打好。Lenny's 最新集 Max Schoening 談的「agency 比技能更重要」，和這週一直在討論的設計師定位問題高度呼應。Brand 側有個有趣的新案：是真正的蘋果（水果）在做 rebrand——如何幫一個日常農產品建立品牌識別感，有意思的挑戰。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)",
+      "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
+      "summary": "Notion 產品主管 Max Schoening 談了一個反直覺的觀點：在 AI 時代，培養 agency（自主驅動、主動出擊的行動力）比培養技能更重要。他的論點是 AI 讓技能門檻下降了，但「知道要做什麼、敢去嘗試」的能力反而更稀缺。幾個值得注意的觀察：Notion 的文化是「drive it like it's stolen」（把每個機會都當作可能失去的）、vibe coding 讓更多軟體被做出來但不代表更好的軟體、以及他的「tiny core」理論——最偉大的產品都有一個極其簡單的核心機制（iPhone 的多點觸控、GitHub 的 pull request、Notion 的 blocks）。這集和設計師定位的討論高度呼應：技術會被 AI 追上，但「主動判斷和採取行動」的能力不會。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Small by Design: The Strength of Lean Design-System Teams",
+          "url": "https://www.nngroup.com/articles/lean-design-system-teams/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 最新研究：多數設計系統團隊只有 2-5 人，即使在大型組織裡平均也只有 9-11 人。精簡的設計系統團隊在策略得當的情況下，可以移動更快、優先順序更清晰，影響力超過自身規模。關鍵做法：把設計系統當「產品」管理（有 roadmap、有版本、有用戶研究）、清楚定義哪些 component 是核心維護的，哪些讓各產品團隊自行擴充；以及建立「採用文化」，讓工程師和設計師都願意用。對工作室最直接的啟示：一個人負責設計系統是完全可行的，只要用對方法。"
+        },
+        {
+          "title": "Design Systems Report 2026",
+          "url": "https://report.zeroheight.com/",
+          "source": "zeroheight",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "zeroheight 年度設計系統調查報告，涵蓋業界最常見的架構、工具選擇、以及團隊組成。幾個值得注意的數據：設計系統最常見的配置仍是 1-2 個專職人員（兼任其他工作）；超過 60% 的受訪團隊表示已在設計系統工作流中使用 AI；「token-first」的設計系統架構正在成為業界標準，讓設計和工程之間的協作更無縫。適合在評估是否該為工作室建立設計系統、以及應該投入多少資源時參考。"
+        },
+        {
+          "title": "Design systems team structure in 2026",
+          "url": "https://learn.thedesignsystem.guide/p/design-systems-team-structure-in",
+          "source": "The Design System Guide",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 對設計系統團隊結構的影響比想像中更大：2023 年需要 3 個人做的事，現在 1 個人加上正確的 AI 工具通常就能完成。文章整理了 2026 年最常見的三種設計系統結構：中央化（一個核心小團隊服務整個組織）、聯邦制（各產品團隊各自維護、中央只定義原則）、以及混合制。對小工作室最實用的建議是：先從 token 系統開始建，不要急著建 component library——token 的投資報酬率最高，而且 AI 工具現在可以根據 token 快速生成 component。"
+        },
+        {
+          "title": "What Is DesignOps? Complete Guide to Scaling Design Teams (2026)",
+          "url": "https://lollypop.design/blog/2026/april/what-is-design-ops-the-complete-guide-to-scaling-design-without-chaos/",
+          "source": "Lollypop Design",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "DesignOps（設計運營）的完整指南，核心是「讓設計工作本身更有系統、更可擴充」。幾個核心面向：工具和工作流的標準化、設計品質的評估機制、以及設計團隊和工程團隊之間的協作協議。對工作室最實用的部分是「設計流程的文件化」——把你做設計的方式記錄下來，不只讓自己的工作更一致，也讓接案的交付物對客戶更透明、更有說服力。隨著接案規模擴大，這件事的重要性會成倍增加，現在開始建立比等到混亂再補救容易得多。"
+        },
+        {
+          "title": "Design Systems from Scratch: A Small Team Playbook",
+          "url": "https://www.fordelstudios.com/research/design-systems-from-scratch-small-teams",
+          "source": "Fordel Studios",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "為 1-3 人的設計團隊設計的設計系統建立指南，切入點非常實用。最有價值的觀察：「2026 年一個人用 AI 工具可以勝過一個 3 人但不用 AI 的團隊——但前提是你底下要有一個真正的設計系統作為基礎，否則 AI 只是在幫你更快地製造不一致。」建立順序建議：先把顏色、字型、間距的 token 建好、再建最常用的 5-10 個 component、最後才考慮完整的 component library。這個順序和直覺相反，但對小團隊最有效率。"
+        }
+      ],
+      "buzz": "設計系統這週成為一個焦點：NNGroup 的新研究和幾篇實戰指南都指向同一件事——AI 工具讓小團隊（甚至 1 個人）可以維護一套真正有效的設計系統，但前提是你要先有正確的結構（尤其是 token）。設計系統不再是大公司的奢侈品，而是精簡工作室保持品質一致性的核心工具。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Yes! Apples rebrands to make the everyday fruit relevant again",
+          "url": "https://www.creativereview.co.uk/yes-apples-rebrand-blurr-bureau/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這個案子的挑戰本身就很有趣：如何幫「蘋果（水果）」這個最日常、最沒有差異化的農產品建立品牌識別？Blurr Bureau 為 Yes! Apples 打造了一套完整的品牌識別，從字型選擇、包裝設計到品牌語氣，目標是讓蘋果從超市貨架上的無差別商品，變成有個性、有故事、讓人願意指名購買的品牌。這個案子對工作室最有啟發的一點是：最難做的品牌設計往往是那些客戶說「我們賣的就是一個很普通的東西」的案子——而恰恰這種挑戰最考驗設計師找出差異化定位的能力。"
+        },
+        {
+          "title": "Annual Awards 2026 Design Shortlist",
+          "url": "https://www.creativereview.co.uk/annual-awards-2026-design-shortlist/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Creative Review 年度設計大獎 2026 的入圍名單正式出爐，涵蓋品牌識別、包裝設計、字型設計、環境設計等多個類別。入圍名單本身就是一份「今年最被業界認可的設計長什麼樣」的參考清單——從中可以看出評審委員認為什麼樣的設計決策值得被記錄和表彰。對工作室來說，這份名單適合快速瀏覽一遍，找出和自己接案方向相關的類別，再深入研究那些入圍作品。"
+        },
+        {
+          "title": "Dezeen teams up with global brands at Clerkenwell Design Week 2026",
+          "url": "https://www.dezeen.com/2026/05/18/clerkenwell-design-week-2026-talks-dezeen-villeroy-boch-andreu-world/",
+          "source": "Dezeen",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Clerkenwell Design Week 2026 於 5 月 19-21 日在倫敦登場，Dezeen 和多個全球品牌（包括 Villeroy & Boch 和 Andreu World）合作舉辦系列講座。這是歐洲最受關注的設計週活動之一，每年吸引大量設計師、品牌方和採購商參與，也是觀察歐洲品牌設計和家居設計方向的重要窗口。今年的主題聚焦在材料創新和永續設計，以及 AI 在產品設計流程中的角色。即使沒辦法親身參加，這週從 Dezeen 的活動報導可以快速了解今年的業界風向。"
+        },
+        {
+          "title": "DEUTZ unveils new global brand identity",
+          "url": "https://www.deutz.com/en/news/press-releases/news-detail/deutz-unveils-new-global-brand-identity/",
+          "source": "DEUTZ AG",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "德國引擎製造商 DEUTZ（成立超過 160 年）推出全新的全球品牌識別。這個案子值得關注的原因不是它的視覺有多搶眼，而是它示範了工業品牌如何在不失去既有客戶信任的前提下完成現代化。新的識別在保留品牌的穩定感和技術權威形象的同時，更新了在數位媒介（網站、社群、APP）上的視覺語言。這類「B2B 工業品牌的現代化更新」在台灣有很多類似的潛在客戶，是值得在提案資料庫中收藏的案例類型。"
+        },
+        {
+          "title": "Northern Design Festival returns in May",
+          "url": "https://www.creativereview.co.uk/northern-design-festival-lancaster-may/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國 Northern Design Festival 在蘭開斯特舉辦，是英格蘭北部規模最大的設計節，今年聚焦在「設計師如何在不確定的經濟環境中保持創作動力與商業生存」。幾個分享者討論了獨立設計工作室的定位策略、如何在接案和自主創作之間找到平衡、以及設計師社群的重要性。這類設計節的報導往往有很多從業者角度的真實分享，而不只是品牌方的宣傳材料，值得在 Creative Review 的完整報導出來後瀏覽一遍。"
+        }
+      ],
+      "buzz": "今天 Brand 側的線索比較分散，但有個共同的底色：如何幫「不性感」的事物建立品牌識別感。不管是蘋果（水果）、老牌工業設備製造商、還是地區性設計節，都在問同一個問題：如何讓本來不引人注意的東西，變得值得被記住。這類挑戰正在成為設計工作室最有價值的服務方向之一。"
+    }
+  },
+  {
     "date": "2026-05-19",
     "daily_summary": "今天 Product 側出現了一個有趣的三方辯論：Jenny Wen 說設計流程已死，NNGroup 說流程只是被壓縮了，另一篇說設計師正在回歸田野。三個視角放在一起其實不矛盾——AI 加速了執行，但設計的判斷能力反而更重要。Brand 側今天有三個新鮮具體的 rebrand 案同時出現：4Creative 從員工手繪 + 節目視覺建立識別、Lacoste 從品牌歷史檔案找法式氣質、Radio Times 20 年來首次大幅更新。今天適合安靜看品牌案。",
     "jenny_wen": {
