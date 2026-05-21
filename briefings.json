@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-21",
+    "daily_summary": "今天 Product 側有一篇很實用的文章：Smashing Magazine 整理了 10 個有數據支撐的 UX ROI 事實，是跟客戶說明設計投資價值的好素材——「頁面慢 1 秒，轉換率降 20%」這類數字說服力很強。另一篇 Smashing Magazine 的無障礙設計文章也值得讀，歐洲法規化趨勢讓這個議題從「最佳實踐」變成「必做」。Brand 側今天的焦點是正在發生的事：Clerkenwell Design Week 2026 今天是最後一天，歐洲設計圈本週的風向報導陸續出現。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Ten Data-Backed Truths Of User Experience ROI",
+          "url": "https://www.smashingmagazine.com/2026/05/data-backed-truths-user-experience-roi/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇整理了 10 個有硬數據支撐的 UX 投資回報事實，是跟客戶說明「為什麼好的設計值得花錢」最有說服力的一份素材。幾個特別有用的數字：頁面慢 1 秒，轉換率降 20%、滿意度降 16%；手機載入從 1 秒延遲到 3 秒，跳出率暴增 32%；Forrester 研究顯示採用用戶測試的企業，三年內顧客留存率提升最高達 10.8%；修復一個設計問題若在原型階段做，比產品上線後再修成本低 100 倍。這份資料適合直接存起來，下次提案時整合進你的開場論述。"
+        },
+        {
+          "title": "How Can We Reclaim Design For Everyone? Nine Personas For Accessibility",
+          "url": "https://www.smashingmagazine.com/category/accessibility/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者 Alan Dalton 提出了 9 個可以在每個設計專案中使用的 persona 框架，幫助設計師在整個設計流程中主動識別無障礙問題，而不是等到最後階段才做「無障礙修正」。這 9 個 persona 涵蓋視覺、聽覺、認知、肢體等不同的障礙情境，讓無障礙設計從一個「額外任務」變成設計思考的一部分。背景值得注意：歐洲的 European Accessibility Act 在 2025 年開始生效，讓無障礙從最佳實踐正式變成法規要求，這個趨勢正在從歐洲蔓延到全球市場。"
+        },
+        {
+          "title": "45+ UX Statistics Nobody is Talking About: Real 2026 Data",
+          "url": "https://arounda.agency/blog/ux-statistics",
+          "source": "Arounda",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "超過 45 個 2026 年實際調查數據的整理，聚焦在那些業界常引用但鮮少有人追溯來源的 UX 統計數字。幾個讓人意外的發現：88% 的用戶在一次糟糕的體驗後不會回來；設計師和工程師比例 1:8 的公司，顧客滿意度平均比 1:25 的公司高出 32%；以及 AI 功能的採用率在「能清楚解釋 AI 在做什麼」的產品中，比不透明的 AI 產品高出 3 倍。這篇的價值在於它每個數字都附了原始研究來源，讓你在提案或報告裡引用時有可信度。"
+        },
+        {
+          "title": "Aligning UX Metrics with Organizational Goals: A Workshop Guide",
+          "url": "https://www.nngroup.com/articles/ux-metrics-goals/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 的工作坊指南，專注在一個很多設計團隊都做不好的事：把設計的成效指標和組織的商業目標連結起來。文章提供了一個可以直接使用的工作坊流程：先讓利害關係人說出他們在意的商業目標，再把這些目標拆解成可以被設計影響的用戶行為指標，最後建立可以定期追蹤的測量機制。對工作室最直接的應用是：在接案的啟動會議上用這個流程，可以讓你和客戶從一開始就對「什麼叫做這個案子成功」有共識，避免交付後的落差。"
+        },
+        {
+          "title": "Clerkenwell Design Week 2026 considers the creation and consumption of design",
+          "url": "https://www.stirworld.com/see-features-clerkenwell-design-week-2026-considers-the-creation-and-consumption-of-design",
+          "source": "Stirworld",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Stirworld 對 Clerkenwell Design Week 2026 的深度報導，今年活動的主題是「設計的創造與消費」——在 AI 大量加速設計生產的時代，重新思考設計師、品牌、和消費者之間的關係。活動呈現了幾個值得注意的趨勢：可持續材料的創新（用倫敦咖啡廢料製成的磚材、土耳其採石場廢料做的磨石子）、以及「未來工作空間」的設計方向——後疫情時代的辦公室設計正在從「有人坐的地方」轉向「值得特地前往的場所」。這是每年觀察歐洲設計趨勢的重要窗口。"
+        }
+      ],
+      "buzz": "今天 Product 側的主題是「如何讓設計的價值被看見」——兩篇有數據支撐的文章都在解決同一個問題：設計師知道好的設計有價值，但如何對說不懂設計的人說清楚？把 UX 的投資連結到可量化的商業結果，是 2026 年設計師最需要的一項非設計技能。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Highlights from the final day of Clerkenwell Design Week 2026",
+          "url": "https://design-milk.com/highlights-from-the-final-day-of-clerkenwell-design-week-2026/",
+          "source": "Design Milk",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Clerkenwell Design Week 今天（5/21）是最後一天，Design Milk 整理了本屆最值得記錄的設計亮點。幾個今年特別突出的方向：品牌展示從「展示產品」轉向「創造體驗」，很多品牌把展示空間變成沉浸式的品牌敘事場景；可持續材料正在從「環保賣點」變成「審美選擇」，設計師開始把回收材料的質感當成一種美學語言；以及工作空間設計的「目的地化」——在家工作讓辦公室必須成為值得特地前往的場所，而不只是工位的集合。"
+        },
+        {
+          "title": "Clerkenwell Design Week 2026: must-see moments",
+          "url": "https://www.elledecoration.co.uk/design/events/a71269940/clerkenwell-design-week-2026-guide/",
+          "source": "Elle Decoration",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Elle Decoration 的 CDW 2026 導覽，從室內設計和品牌展示的角度整理本屆最值得關注的展覽和裝置。今年的主題是材料和感官體驗：觸感、氣味、聲音在展示設計中的比重明顯提升，品牌不再只靠視覺傳遞訊息，而是設計出一種「可以被身體記住」的體驗。這個趨勢和 Brand 圈討論的「感官品牌」方向高度一致——視覺識別是品牌的第一層，但品牌體驗才是留得住的層次。"
+        },
+        {
+          "title": "MillerKnoll at Clerkenwell Design Week 2026: Unveiling Future-Forward Workplace Designs",
+          "url": "https://news.millerknoll.com/2026-05-19-MillerKnoll-Brands-at-Clerkenwell-Design-Week-2026-Unveiling-Future-Forward-Workplace-Designs",
+          "source": "MillerKnoll",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "MillerKnoll（旗下包含 Herman Miller、Knoll 等品牌）在 CDW 2026 的展示以「未來工作空間」為主題，推出了幾個針對不同工作情境設計的新系列。最有意思的觀察是：他們把「適應性」（adaptability）而不是「靈活性」（flexibility）定義為未來辦公室設計的核心——不只是空間可以被重新配置，而是整個環境可以根據使用者的即時需求在行為和氣氛上做出回應。這個品牌在工作空間設計領域的思路，值得在談辦公空間或工作室設計案時參考。"
+        },
+        {
+          "title": "The Best Brand Design Agencies in 2026",
+          "url": "https://www.awesomic.com/blog/brand-design-agencies",
+          "source": "Awesomic",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "2026 年值得關注的品牌設計工作室整理，涵蓋不同規模和專長方向。這篇對工作室有兩個面向的價值：一是競爭者研究（了解同類型工作室在做什麼、怎麼定位自己）；二是潛在合作伙伴的靈感（有些優秀的工作室可能是可以策略合作而非競爭的對象）。報告特別指出 2026 年的趨勢是工作室的「垂直專業化」加速——泛設計工作室愈來愈難競爭，有鮮明行業或美學定位的工作室反而佔上風。"
+        },
+        {
+          "title": "Bisley group unveils 'the layers of design' at Clerkenwell Design Week 2026",
+          "url": "https://www.interiordaily.com/article/9833140/bisley-group-unveils-the-layers-of-design-at-clerkenwell-design-week-2026/",
+          "source": "Interior Daily",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Bisley 在 CDW 2026 的展示以「設計的層次」為主題，探討一個物件從材料到成品的設計決策鏈。展示把每一個設計決策「翻開」給參觀者看，讓人理解好的設計為什麼不只是外觀，而是每一層決策的累積——材料選擇、結構邏輯、使用行為、維護方式。這種「讓設計決策透明化」的展示方式，本身就是一個很好的品牌溝通策略——讓客戶「看見」設計的工作量和思考深度，而不只是看見最終成品。"
+        }
+      ],
+      "buzz": "Clerkenwell Design Week 2026 今天是最後一天，整週的歐洲設計圈風向逐漸清晰：感官體驗設計（觸感、氣味、聲音）從趨勢變成主流展示語言；可持續材料的美學化正在加速；工作空間設計的「目的地化」是今年最有共識的方向。這些趨勢比較慢會反映在台灣市場，但對工作室做國際視野的提案很有參考價值。"
+    }
+  },
+  {
     "date": "2026-05-20",
     "daily_summary": "今天 Product 側聚焦一個對工作室非常實用的主題：設計系統與精簡團隊。NNGroup 新研究和幾篇實戰指南都指向同一件事——AI 工具讓 1 個人可以做到過去 3 個人的設計系統工作量，但前提是你要先把 token 結構打好。Lenny's 最新集 Max Schoening 談的「agency 比技能更重要」，和這週一直在討論的設計師定位問題高度呼應。Brand 側有個有趣的新案：是真正的蘋果（水果）在做 rebrand——如何幫一個日常農產品建立品牌識別感，有意思的挑戰。",
     "jenny_wen": {
