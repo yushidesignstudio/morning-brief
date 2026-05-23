@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-24",
+    "daily_summary": "今天 Product 側有一個清楚的主旋律：AI 工具讓「做設計」普及了，但「設計判斷」反而更難被取代——從空白狀態設計、到 AI 功能的優先順序，UX Collective 幾篇都在拆解同一件事。Brand 側有兩個收穫：OpenAI 品牌大整合是系統收斂的教科書案例，Design Bridge 那篇「品牌系統在不完美世界裡如何存活」對接案工作室有非常直接的實戰參考價值。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The death of the empty state in AI products",
+          "url": "https://uxdesign.cc/the-death-of-the-empty-state-in-ai-products-2026-e11439fbb688",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 產品進入市場的方式幾乎把過去 20 年積累的空白狀態設計知識全數拋棄——用戶打開 app，迎面而來的只有一個 prompt 框，沒有引導、沒有範例、沒有情境說明。作者 Adi Leviim 分析了幾個 AI 產品的第一次使用流失數據，指出 onboarding 危機正在發生。問題的根源是：傳統 app 的空白狀態是可預測的設計問題（用戶還沒有資料），AI 產品的空白狀態是認知問題（用戶不知道要說什麼）。解法不是在 prompt 框旁加一段說明文字，而是重新思考 AI 產品第一次體驗的整個設計框架。"
+        },
+        {
+          "title": "AI made everyone a creator, not a designer",
+          "url": "https://uxdesign.cc/ai-made-everyone-a-creator-not-a-designer-e28deb6e603b",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "生成 AI 壓縮了從意圖到執行的距離——v0、Cursor、Claude Code、Midjourney 讓任何人都可以在幾秒內產出介面、原型和動態概念。作者 Aurélie Radom 問的核心問題是：當「創作」被大眾化之後，「設計」到底還剩什麼？她的答案是：創作者產出，設計師決策——在無限可能的選項中知道為什麼選這個、不選那個，才是設計師真正的稀缺能力。這個論點對正在思考自己在 AI 時代定位的設計師有很直接的參考價值。"
+        },
+        {
+          "title": "UX Design 2026+: From producing to deciding, from craft to operation",
+          "url": "https://medium.com/@uxraspberry/ux-design-2026-from-producing-to-deciding-from-craft-to-operation-e9c7ea6b1803",
+          "source": "UX Collective / Medium",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇提出一個正在發生的角色轉移：設計師從「生產者」變成「決策者」，從 craft（手藝）轉向 operation（操作）。繁瑣的視覺執行愈來愈多被 AI 工具承接，設計師的工作時間正在重心轉移——更少時間在「做出來」，更多時間在「判斷哪個是對的」。作者認為這個轉變的核心挑戰不是技術學習，而是心態調適：接受「不親手做」不等於「放棄設計」。對一個人要扛多個專案的接案設計師而言，這個視角尤其直接。"
+        },
+        {
+          "title": "We built this. Now we own it. The dark side of 'user-friendly' AI.",
+          "url": "https://uxdesign.cc/we-built-this-now-we-own-it-1f8f1ba7c768",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計師花了大量時間把 AI 產品做得更「友善」——更流暢的介面、更引導性的提示、更低的使用門檻。但 Patrizia Bertini 的問題是：當 AI 被設計得太好用，是不是同時在讓用戶放棄了某種自主思考的能力？這篇從設計倫理角度切入，討論「user-friendly」的黑暗面——友善的介面有時候是在幫用戶繞過思考，而設計師是這個過程的共謀。在 AI 產品設計需求快速成長的現在，這篇是一個有價值的反向視角，也是接案時和客戶討論 AI 功能倫理邊界的好素材。"
+        },
+        {
+          "title": "You skipped the first question. Now you're adding AI.",
+          "url": "https://uxdesign.cc/you-skipped-the-first-question-now-youre-adding-ai-e3d70fc80e90",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "在很多產品團隊裡，「加入 AI 功能」已成為解決所有問題的預設答案——用戶留存不好？加 AI 個人化。轉換率低？加 AI 推薦。作者 Adrian Levy 的論點是：這些產品往往連最基本的問題都還沒答清楚，就急著疊 AI。他說的「第一個問題」是：用戶的真正目標是什麼、這個產品為什麼存在？這個切入點對工作室很實用——在提案或顧問階段可以拿來幫客戶釐清「AI 功能到底在解決什麼問題」，也是說服客戶先做清楚策略再做 AI 功能的最好論據之一。"
+        }
+      ],
+      "buzz": "這週 UX Collective 幾乎清一色圍繞同一個焦慮：AI 讓「做設計」變得容易，但「為什麼這樣設計」的判斷力才是沒被稀釋的核心能力。從空白狀態被拋棄、到設計師變成創作者、到加 AI 功能前忘記問基本問題，幾篇文章都在拆解同一個問題：工具加速了，但思考有沒有跟上？對工作室而言，這個討論也是接案提案的核心論點——設計判斷力，才是客戶真正在買的東西。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "The Click's clever university branding puts the 'I' in identity, individual and Imperial College London",
+          "url": "https://www.itsnicethat.com/articles/the-click-imperial-college-london-graphic-design-project-200526",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國品牌工作室 The Click 受 Imperial College London 委託，目標是做出「更有膽識、不只是更大聲」的識別。以「I」為核心的視覺語言同時承載了 identity、individual、Imperial College London 三個意義層次，在高等教育品牌普遍保守的市場裡做出了清晰的差異化。識別的特點是透過「I」字母形態的視覺關聯，讓所有元素產生即時識別感，同時保留足夠彈性應對不同的傳播場景。這個案子示範了「由概念出發的品牌邏輯」——不是先決定好不好看，而是先找到一個有力量的核心語意。"
+        },
+        {
+          "title": "OpenAI's brand refresh subtly signals a new era",
+          "url": "https://www.creativereview.co.uk/openai-brand-refresh/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "OpenAI 最大的品牌挑戰是成長太快——產品線擴張的速度遠超品牌系統的建立速度，導致不同產品之間的視覺語言嚴重不一致。這次整合聯手 Studio Dumbar/Dept 和柏林字型廠牌 ABC Dinamo，核心工作是把散落各產品線的視覺語言收斂成一套系統，並推出訂製字型 OpenAI Sans。新識別的關鍵視覺元素是一個跨尺度使用的「藍色脈衝圓盤」，作為 ChatGPT 語音功能的視覺表徵。這個案例對工作室有兩層啟發：一是快速成長的品牌如何做識別整合，二是 AI 公司的品牌策略正在從「強調技術」轉向「建立人性感」。"
+        },
+        {
+          "title": "How to make brand systems work in an imperfect world",
+          "url": "https://www.creativereview.co.uk/brand-systems-imperfect-world-design-bridge/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "完美的品牌系統在提案時看起來很好，但到了實際執行，就會遇到組織政治、跨部門失控、預算壓力、以及不同承辦窗口的詮釋差異。Design Bridge 的策略師分享了讓品牌系統在混亂中依然有效的幾個核心做法：建立「彈性邊界」而不是「剛性規則」、培養內部品牌大使、以及讓品牌指南從一份 PDF 變成一套活的決策框架。對工作室最直接的啟發是：品牌識別交付不是終點，幫客戶建立可以自行維護的機制，才是真正的設計服務。接案設計師必讀。"
+        },
+        {
+          "title": "Design Bridge and Partners crafts biscuit brand world for Fortnum's",
+          "url": "https://www.creativereview.co.uk/design-bridge-and-partners-biscuitorium-branding-fortnum-and-mason/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Fortnum & Mason 在倫敦旗艦店推出餅乾主題零售空間 The Biscuitorium，Design Bridge and Partners 負責從命名到整套視覺識別的品牌設計。識別的核心是從店內 1964 年老時鐘汲取靈感的圖形元素，讓品牌的歷史感以輕鬆方式出現在包裝、數位媒介和實體空間中。這個案子展示了「品牌世界建構」的完整工作：不只是做一個 logo，而是設計一個可以被延伸、被消費者進入和感受的品牌宇宙。在高端零售品牌競爭激烈的市場，能否建立有獨特質感的品牌語言，往往是決定客人「路過」還是「朝聖」的關鍵。"
+        },
+        {
+          "title": "Can design help FIFA stage its own comeback?",
+          "url": "https://www.creativereview.co.uk/fifa-world-cup-2026-branding-reputation/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "FIFA 因腐敗醜聞在過去十年幾乎失去全球體育迷的信任，2026 世界盃即將在北美登場，這是一個關鍵的形象重建時刻。Creative Review 分析了 FIFA 的品牌挑戰：當一個組織的形象問題是結構性的（不是視覺的），設計能做什麼？核心論點是：設計可以傳遞意圖，但不能取代行動——如果 FIFA 不改變實際行為，再好的識別只會加劇不信任感。這個案例對工作室有一個重要的提醒：當客戶想用「換 logo」解決「形象問題」，作為設計師要有能力分辨哪些問題是設計可以解決的、哪些不是。"
+        }
+      ],
+      "buzz": "這週 Brand 圈有兩條值得注意的線：一是系統層面的討論——OpenAI 品牌整合示範了快速成長的組織如何把視覺語言收斂，Design Bridge 那篇則是給所有做品牌案的設計師最真實的現實感提醒。二是品牌作為「世界建構」的概念：ICL 識別用一個字母說三件事、Fortnum's 的 Biscuitorium 從一口老時鐘長出整個品牌宇宙——好的品牌不是一個 logo，是一套可以持續延伸的語言。"
+    }
+  },
+  {
     "date": "2026-05-21",
     "daily_summary": "今天 Product 側有一篇很實用的文章：Smashing Magazine 整理了 10 個有數據支撐的 UX ROI 事實，是跟客戶說明設計投資價值的好素材——「頁面慢 1 秒，轉換率降 20%」這類數字說服力很強。另一篇 Smashing Magazine 的無障礙設計文章也值得讀，歐洲法規化趨勢讓這個議題從「最佳實踐」變成「必做」。Brand 側今天的焦點是正在發生的事：Clerkenwell Design Week 2026 今天是最後一天，歐洲設計圈本週的風向報導陸續出現。",
     "jenny_wen": {
@@ -209,747 +315,6 @@
         }
       ],
       "buzz": "今天 Brand 側的線索比較分散，但有個共同的底色：如何幫「不性感」的事物建立品牌識別感。不管是蘋果（水果）、老牌工業設備製造商、還是地區性設計節，都在問同一個問題：如何讓本來不引人注意的東西，變得值得被記住。這類挑戰正在成為設計工作室最有價值的服務方向之一。"
-    }
-  },
-  {
-    "date": "2026-05-19",
-    "daily_summary": "今天 Product 側出現了一個有趣的三方辯論：Jenny Wen 說設計流程已死，NNGroup 說流程只是被壓縮了，另一篇說設計師正在回歸田野。三個視角放在一起其實不矛盾——AI 加速了執行，但設計的判斷能力反而更重要。Brand 側今天有三個新鮮具體的 rebrand 案同時出現：4Creative 從員工手繪 + 節目視覺建立識別、Lacoste 從品牌歷史檔案找法式氣質、Radio Times 20 年來首次大幅更新。今天適合安靜看品牌案。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Design Process Isn't Dead, It's Compressed",
-          "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "直接回應 Jenny Wen「設計流程已死」的論點，NNGroup 的立場是：有經驗的設計師不是拋棄了流程，而是把流程內化並壓縮——探索、發想、驗證仍然在發生，只是以更快的節奏、更流動的形式進行。AI 工具進一步加速這個壓縮，讓「想到一個 idea 到有東西可以測試」可以在一個下午完成。最關鍵的洞察是：我們稱之為「直覺」的東西，其實是被壓縮和內化的流程——多年的實作讓設計師可以快速跑過這些步驟，而不是靠「感覺」做決策。這個論點把三方辯論的結論統一了：流程沒死，只是形式變了。"
-        },
-        {
-          "title": "Product Designers Are Not Being Replaced. They Are Being Sorted.",
-          "url": "https://medium.com/design-bootcamp/product-designers-are-not-being-replaced-they-are-being-sorted-6e2fb0492ed2",
-          "source": "UX Collective / Medium",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 不是在取代設計師，而是在把設計師分類。能夠用 AI 工具提升自己判斷力和產出速度的設計師，正在和只把 AI 當「更快的 Photoshop」的設計師快速拉開差距。文章把這個分化稱為「sorting」——市場正在自動篩選哪些設計師真的在用 AI 改變工作方式，哪些只是表面上使用。最直接的問題是：你的 AI 工具用法，是在增強你的判斷力，還是只在加快你的執行速度？這篇適合在跟客戶解釋「為什麼設計費不降反升」時作為論述基礎。"
-        },
-        {
-          "title": "The Design Process Is Dead. Designers Are Going Back to the Field.",
-          "url": "https://medium.com/jin-system-architect/the-design-process-is-dead-designers-are-going-back-to-the-field-b87132f7ed57",
-          "source": "Medium",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇是對「設計流程已死」的第三種解讀：不是流程死了，也不只是流程被壓縮，而是設計師正在回到最基本的工作——直接去觀察用戶、理解真實情境，而不是在辦公室裡走流程。AI 讓執行層面自動化後，設計師最有價值的貢獻反而是「走出去」——親眼看到用戶怎麼生活，再用 AI 能力快速把觀察轉化為設計。這個視角對思考設計師在 AI 時代的差異化策略很有參考價值：你最不可被取代的能力，是你對真實世界的理解。"
-        },
-        {
-          "title": "Future Of UI UX Design: 2026 Trends & New AI Workflow",
-          "url": "https://motiongility.com/future-of-ui-ux-design/",
-          "source": "Motiongility",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "從工作流程實務角度整理 2026 年 UI/UX 設計的走向，特別著重「AI 整合後的設計工作流長什麼樣子」。幾個值得注意的轉變：wireframing 已基本被 AI 工具接管，設計師的精力移向判斷和調整 AI 輸出；用戶研究的速度加快，但深度研究（ethnographic study、長期追蹤）反而更受重視，因為它是 AI 做不到的；設計師開始更頻繁地直接寫 code 或 prompt code，設計和開發的工作邊界繼續模糊。適合作為重新評估自己工作流程的參考。"
-        },
-        {
-          "title": "Don't Outsource Analysis to AI",
-          "url": "https://www.nngroup.com/videos/dont-outsource-analysis-to-ai/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 可以幫你整理資料、找模式、生成報告，但「分析」這個行為本身不應該被外包。原因是分析不只是提取資訊，而是「在資訊之間建立意義連結」——這個連結來自設計師對情境、用戶、商業目標的理解，這些 AI 沒有。文章舉了幾個例子說明當設計師把分析完全交給 AI 時會遺漏什麼：context-dependent insight、cross-domain connection、以及「這件事為什麼重要」的判斷。這個觀點對決定哪些工作要用 AI、哪些要自己做，有很實際的指導價值。"
-        }
-      ],
-      "buzz": "「設計流程到底死了沒」這週在業界發展成一場跨媒體辯論。Jenny Wen 說死了、NNGroup 說只是被壓縮了、另一篇說設計師正在回歸田野。三個視角放在一起其實不矛盾：傳統僵化的流程確實在消失，但設計的核心能力（理解人、建立判斷、驗證假設）反而因為 AI 加速了執行面，變得更重要、更有價值。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "4Creative cuts out visuals from the UK's most iconic TV shows to make its new identity",
-          "url": "https://www.itsnicethat.com/articles/4creative-rebrand-graphic-design-project-070526",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Channel 4 的內部創意機構 4Creative 推出了一套非常特別的識別系統：把過去幾十年製作的英國最知名電視節目（Great British Bake Off、Peep Show、Educating Yorkshire 等）的視覺元素拆解，重新組合成識別系統的設計語言。更特別的是，每位 4Creative 的成員都手繪了自己版本的「4C」字型，識別系統在使用時隨機輪換這 130 個不同版本。這個做法讓識別本身就是對「集體創作精神」的宣言——你看到的每一次 4C，都來自不同的人。這種「由內部長出來」的邏輯對思考創意工作室的自身品牌很有啟發。"
-        },
-        {
-          "title": "Inside Lacoste's new visual identity",
-          "url": "https://www.creativereview.co.uk/lacoste-new-visual-identity-commission-studio/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Lacoste 聯手 Commission Studio 做了一次「遠比看起來複雜」的品牌刷新。背景是用戶調查發現：多數人認得 Lacoste，但不知道它是法國品牌，定位也模糊（是運動品牌還是時裝品牌？）。這次更新的策略是「強化法式氣質」：新的 serif 字型取材自品牌歷史檔案、鱷魚的紅舌被強化、品牌綠色調回更接近原始的色調、色彩系統加入陶土色（網球場）和米白色（創辦人第一件外套的顏色）。這篇很好地示範了「歷史就是最好的設計語言」——品牌的答案往往在它自己身上。"
-        },
-        {
-          "title": "Radio Times unveils first major rebrand in two decades",
-          "url": "https://www.creativereview.co.uk/radio-times-rebrand-why-projects/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國最老牌的電視節目表雜誌 Radio Times 20 年來第一次大幅品牌更新，由 Why Projects 操刀。這個案子最值得研究的是它面對的挑戰：如何讓一個百年品牌在數位時代仍然相關，同時又不失去老讀者的信任？設計師選擇保留 Radio Times 最具識別性的紅色和傳統字型感，但重新建立整套視覺語言的靈活性，讓它可以在實體雜誌、社群媒體、數位平台上都有一致的存在感。「保留靈魂，更新容器」是這個案子最好的一句總結。"
-        },
-        {
-          "title": "Saint-Urbain develops new brand identity for NYC's West Village",
-          "url": "https://www.creativereview.co.uk/saint-urbain-rebrands-new-york-west-village/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "加拿大設計工作室 Saint-Urbain 為紐約西村打造了新的區域品牌識別。設計師從西村的鵝卵石街道、磚砌建築、以及獨立小店的手寫招牌中提取視覺語言，把「步行尺度的人性感」轉化為識別系統的核心特質。這個案例和上週的巴西亞馬遜識別有呼應——兩個都在問同一個問題：如何讓一個「地方」有識別感，而不是替它安裝一個外來的品牌語言？答案都是一樣：讓地方本身說話，設計師的工作是翻譯，不是創造。"
-        },
-        {
-          "title": "4Creative's 'perpetually unfinished' logo doesn't care for conventionality",
-          "url": "https://www.creativebloq.com/design/branding/4creatives-perpetually-unfinished-logo-doesnt-care-for-conventionality",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Creative Bloq 從設計哲學角度解讀 4Creative 識別的核心概念：「永遠未完成的 logo」。因為 logo 由 130 個不同成員的手繪版本隨機輪換組成，每次看到的 4C 都不一樣——這個不確定性和不完整性本身就是設計意圖，不是設計缺陷。這個想法和傳統品牌識別「追求統一和一致」的邏輯完全相反，但在一個重視個人創作力的創意機構裡，它反而更誠實地反映了品牌的本質。這篇是對「什麼是品牌一致性」這個問題的一個很好的反向思考。"
-        }
-      ],
-      "buzz": "今天三個具體 rebrand 案同時出現，難得可以比較三種不同的更新邏輯：4Creative 從內部找素材、Lacoste 從歷史找語言、Radio Times 從核心資產找方向。共同點是：答案都在品牌自己身上，不是從趨勢借來的。這三個案子放在一起，是目前「如何幫有歷史的品牌做更新」最好的參考集。"
-    }
-  },
-  {
-    "date": "2026-05-18",
-    "daily_summary": "今天有 Jenny Wen 的新演講「Craft is Counter-Intuitive」——她用 Anthropic 的實際案例說明為什麼最好的設計成果，往往來自打破你以為正確的設計流程，值得和她的 Lenny's 那集一起看。Product 側今天的核心是 AI agent 的使用者體驗：NNGroup 的 Qwen 研究說明改變用戶的行為習慣才是 AI 產品最難的設計挑戰。Brand 側的焦點是本週的大事件——巴西亞馬遜的歷史性品牌識別，FutureBrand 用河流曲線造字，重新定義了「活的品牌」可以是什麼。",
-    "jenny_wen": {
-      "has_content": true,
-      "title": "Craft is Counter-Intuitive",
-      "url": "https://designx.community/talks/jenny-wen-(design-lead-anthropic)-craft-is-counter-intuitive",
-      "summary": "這場演講是她 Lenny's 那集的完美補充——那集講設計流程的宏觀轉變，這場講的是她自己如何在 Anthropic 的日常工作中實踐「反流程」的設計哲學。幾個反直覺的做法她都有真實案例：直接從高保真開始設計（省掉低保真探索）、在 design crit 上鑽進細節而不是只討論大方向、在最後一刻改設計、身為主管不要迴避親手做細節。她的核心論點是：這些做法在傳統設計流程裡是「禁忌」，但它們卻是讓 Anthropic 設計品質維持在高水準的真正原因。YouTube 也有同場演講的影片版。"
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Designing AI Agents: 4 Lessons from China's Qwen Agent",
-          "url": "https://www.nngroup.com/articles/designing-ai-agents/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NNGroup 針對中國 AI 助理 Qwen 的 agent 功能做了實際用戶研究，結果很值得所有設計師注意。6 位受試者被要求用 Qwen 訂奶茶，5 位一開始直接去開外送 app——因為「用聊天介面下單」這件事本身對他們來說不直覺。這個「discoverability」問題揭示了 AI agent UX 最大的挑戰不是技術，而是打破用戶的行為模式預期。其他三個設計結論：用熟悉的 GUI 模式引導新行為、謹慎設定個人資料存取的邊界、以及在 AI 執行過程中持續保護用戶的自主控制感。這是 2026 年最具體的 AI agent UX 研究，有真實數據支撐。"
-        },
-        {
-          "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
-          "url": "https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "系統性整理設計 AI agent 介面的核心 UX 原則，聚焦三個關鍵維度：Control（用戶隨時可以介入、暫停、修改 AI 的行為）、Consent（AI 在做任何影響用戶的決策前要有明確確認機制）、Accountability（出錯時用戶能清楚知道誰做了什麼決定）。文章附有具體 UI pattern 示範，包括「AI 操作的即時中斷鍵」、「決策歷程的透明顯示」、以及「一鍵還原」的設計邏輯。這是目前最完整的 agentic AI UX 設計指南，提案中可以直接引用。"
-        },
-        {
-          "title": "Agent UX: UI Design for AI Agents in 2026",
-          "url": "https://fuselabcreative.com/ui-design-for-ai-agents/",
-          "source": "Fuselab Creative",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "從設計實務角度整理 AI agent 介面的設計要點，聚焦「如何讓用戶知道 AI 正在做什麼」這個核心問題。幾個具體設計模式：進度透明化（不只是轉圈圈，而是顯示 AI 正在執行哪一步）、可中斷的工作流程（每個步驟結束時給用戶一個確認節點）、以及 agent 的「個性設計」（讓 AI 在操作過程中用一致的語氣回應，建立可預測性和信任感）。這篇適合在正在設計 AI 功能的專案中直接參考。"
-        },
-        {
-          "title": "17 UX/UI Trends for 2026",
-          "url": "https://userguiding.com/blog/ux-ui-trends",
-          "source": "UserGuiding",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "從產品增長角度整理 17 個 UX/UI 趨勢，幾個特別值得注意：「Invisible AI」——AI 的存在感要降到最低，讓用戶感覺是在使用一個更聰明的產品，而不是在跟 AI 說話；「Micro-UX」——競爭力集中在細節的打磨，而不是大功能的新增；「Adaptive UI」——介面根據用戶行為自動調整複雜度，新手看到引導式介面，專家看到精簡版。這篇從商業成效角度談 UX，適合在跟注重 ROI 的客戶溝通設計投資時引用。"
-        },
-        {
-          "title": "Building a Local AI Agent (Part 2): Six UX and UI Design Challenges",
-          "url": "https://dev.to/flo1632/building-a-local-ai-agent-part-2-six-ux-and-ui-design-challenges-50en",
-          "source": "DEV Community",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者在打造自己的本地 AI agent 過程中，歸納出六個實際遭遇的 UX 設計難題。這篇的特殊價值在於第一手視角——不是評論者，而是「自己在開發 AI 產品的設計師」。六個挑戰包括：如何設計 agent 的「思考過程顯示」讓用戶有耐心等待、錯誤發生時的 recovery flow、以及多步驟任務的進度追蹤設計。對未來接 AI 產品設計案的工作室，這篇提供了一個真實的現實場景參考。"
-        }
-      ],
-      "buzz": "AI agent 的 UX 設計這週有了更具體的研究支撐：NNGroup 的 Qwen 研究直接揭示，讓用戶改變行為模式才是最大的設計挑戰，技術能力不是瓶頸，習慣才是。多篇文章都收斂到同一個結論：透明度和可中斷性是 agentic AI 設計最關鍵的元素——用戶不怕 AI 做決策，怕的是看不懂 AI 在做什麼、又無法即時介入。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "The Brazilian Amazon gets historic new brand identity",
-          "url": "https://www.creativereview.co.uk/brazilian-amazon-brand-identity-futurebrand-sao-paulo/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這是本週 Brand 圈最值得聊的案子。FutureBrand São Paulo 為巴西亞馬遜設計了有史以來第一套官方品牌識別——代表覆蓋巴西 60% 領土、居住 2,800 萬人的整個亞馬遜生態系。Logo 的核心概念是從河流的自然曲線提取出字型筆畫，25,000 公里的河網成為識別系統的設計語言來源。這個案例展示了品牌設計服務超越商業目的的可能性：建立地區認同、保護生態、為在地生產者創造「Feito de Amazônia」認證印章帶來實際收入。"
-        },
-        {
-          "title": "How Do You Brand a Living Ecosystem? Brazil's New Amazon Identity Offers an Answer",
-          "url": "https://www.printmag.com/branding-identity-design/how-do-you-brand-a-living-ecosystem-brazils-new-amazon-identity-offers-an-answer/",
-          "source": "PRINT Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "PRINT Magazine 從策略角度分析這個史無前例的設計挑戰。幾個關鍵決策值得細看：為什麼用河流曲線而不是動植物圖案（河流是亞馬遜居民的導航系統，比動植物更能代表「生活在其中」的人文意義）；為什麼邀請亞馬遜九個州的在地藝術家共同創作（識別必須是由內部長出來的，不是外部設計師給的）；以及認證章如何把品牌轉化為在地生產者的實際商業工具。這篇對思考「品牌的真正功能是什麼」很有啟發。"
-        },
-        {
-          "title": "FutureBrand São Paulo's Brand for Brazilian Amazon: A Living Identity",
-          "url": "https://www.designweek.co.uk/futurebrand-creates-a-living-identity-for-the-brazilian-amazon/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Design Week 稱這套識別為「living identity」，強調其有機性和可生長性。識別系統不是封閉的，而是為在地創作者提供一個開放的語言框架——插圖、攝影、字型都有準則，但每個地區、每個創作者都可以在其中加入自己的故事。這個做法挑戰了傳統品牌識別追求「視覺統一」的思維，轉向「文化多樣性中的識別一致性」。對工作室來說，這個案例提供了一個很好的論述框架：品牌識別不是視覺的限制，而是表達的共同語言。"
-        },
-        {
-          "title": "Branding Trends to Watch in 2026: When It's Time to Refresh Your Brand",
-          "url": "https://www.themmachine.com/branding-trends-2026/",
-          "source": "The Marketing Machine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "從企業主視角整理「什麼時候你的品牌需要更新」，這個切入點比純設計趨勢文章更實用。幾個觸發品牌更新的訊號：品牌已無法反映公司的實際能力範圍、目標客群發生轉移、或是品牌視覺在數位媒介上的表現已明顯老化。文章特別強調「品牌更新不一定是全面 rebrand」，有時候調整幾個關鍵觸點就能帶來顯著效果。適合在接案初期和客戶討論更新範圍時拿來引導對話，把決策框架從「要不要改」轉向「改什麼最有效率」。"
-        },
-        {
-          "title": "Top 9 Brand Design Trends that Will Lead the Next Brand Revolution 2026",
-          "url": "https://www.designerpeople.com/blog/brand-design-trends-2026/",
-          "source": "Designer People",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "從「品牌革命」角度整理 9 個最具影響力的 2026 趨勢，幾個特別值得注意：品牌識別開始整合「環境感知」——視覺系統可以根據時間、天氣、地點自動調整；「反 AI 美學」從小眾品牌滲透到主流，刻意展現人工製作的不完美成為差異化賣點；聲音識別（sonic branding）從大品牌下放到中小型品牌，成為完整品牌系統的標配。範圍廣但概念清晰，適合做品牌策略提案前的全面瀏覽。"
-        }
-      ],
-      "buzz": "巴西亞馬遜的品牌識別是本週 Brand 圈的大事。它的意義超越設計本身：第一次有人嚴肅地問「你能幫一個活的生態系建立品牌嗎」，FutureBrand 給出了一個有說服力的答案——用河流本身的語言說話。這個案子也重新定義了「living identity」：不是動態 logo，而是一套讓在地文化可以持續生長的設計語言框架。"
-    }
-  },
-  {
-    "date": "2026-05-17",
-    "daily_summary": "今天 Product 側聚焦在 Figma——五月更新帶來 AI agent 直接操作畫布的新能力，設計師用 Claude 建 design system components 的工作流正在快速成熟。值得注意的是「AI 友好的 Figma 結構」開始成為獨立的設計課題：你的 Figma 檔案不只要給人看，也要讓 AI 讀得懂。Brand 側出現一個有趣的雙線：brand tweak（小調整取代大 rebrand）和吉祥物的強勢回歸，聽起來矛盾，但都在回應同一個問題——AI 時代如何建立有溫度、可識別的品牌存在感。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Release notes roundup: May 2026 — Figma Learn",
-          "url": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
-          "source": "Figma",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 五月更新的完整整理，最重磅的幾個變動都跟 AI agent 有關：AI 可以直接寫入畫布、建立 components、同步 design tokens；MCP 整合讓 Claude Code 用戶可以透過指令操作 Figma 檔案；design token 的更動可以即時反映在所有 components 上。對現在在用 Claude Code 的設計師來說，這次更新直接改變了 Figma 的角色——它不再只是設計工具，而是 AI agent 可以讀寫的設計資料庫。如果你還沒裝 Figma MCP，這篇是最好的入門起點。"
-        },
-        {
-          "title": "Figma Made a Huge Step Forward in AI Design",
-          "url": "https://dev.to/spookuspookus/figma-made-a-huge-step-forward-in-ai-design-april-2026-1cin",
-          "source": "DEV Community",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "記錄 2026 年 Figma 在 AI 整合上的幾個關鍵轉折：從 2 月起 Claude Code 用戶可以安裝 Figma MCP server 讓 AI 讀取設計稿，一個月後 Figma 進一步開放畫布給 AI agent 直接寫入。這代表設計師現在可以用自然語言指令讓 Claude 在 Figma 裡建 component、調整 layout、生成 variant。這個轉變的意義超出工具升級——它把設計師和 AI 的協作模式從「AI 提供建議、設計師執行」，推進到「AI 直接執行、設計師審查判斷」。"
-        },
-        {
-          "title": "AI to Figma Workflow: Build Design Systems from Claude and OpenAI Outputs",
-          "url": "https://medium.com/@nithin_94885/ai-to-figma-workflow-build-design-systems-from-claude-and-openai-outputs-253f953f023b",
-          "source": "Medium",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "非常實用的操作指南，展示如何把 Claude 產出的 UI 描述直接轉化為 Figma 裡可用的 design system components。核心技巧是：先讓 AI 生成帶有 design token 引用的 HTML/CSS，再透過 Figma plugin 轉成 Figma component，保留 token 結構讓設計師可以直接在 Figma 裡調整。這個工作流對工作室特別有價值——大幅縮短從概念探索到可交付設計稿的時間，同時保持 design system 的一致性。建議直接跟著步驟操作一次。"
-        },
-        {
-          "title": "Design with AI Agents: Manipulating the Figma Canvas via MCP",
-          "url": "https://azukiazusa.dev/en/blog/use-figma-mcp-tool/",
-          "source": "azukiazusa.dev",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "解釋 Figma MCP（Model Context Protocol）如何讓 AI agent 真正「看見」並操作設計稿。作者展示幾個具體場景：讓 Claude 讀取既有 Figma 設計並生成對應 code、讓 AI 根據 code 更動自動同步設計稿、以及讓多個 AI agent 同時協作不同設計區塊。這篇的價值在於幫設計師理解 MCP 不只是工程師的工具——它是設計工作流的關鍵基礎設施，搞懂它才能真正駕馭 AI 設計協作。"
-        },
-        {
-          "title": "Figma, Tokenization & AI-Grade Templatisation",
-          "url": "https://www.francescatabor.com/articles/2026/3/31/figma-tokenization-amp-ai-grade-templatisation",
-          "source": "Francesca Tabor",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "提出一個很有前瞻性的概念：「AI-grade templatisation」——為 AI agent 設計的 Figma 結構，而不只是為人類設計師。作者指出現有的 Figma 文件組織，即使做得很好，仍以人類的視覺邏輯為主。但 AI agent 讀取資訊的方式不同：它更依賴清晰的命名、一致的 token 結構、可預測的 component 層次。這篇是目前針對「如何把 Figma 改造成 AI 友好環境」最系統性的論述——做設計系統的人必讀。"
-        }
-      ],
-      "buzz": "Figma 五月更新讓 AI agent 直接操作畫布這件事正在 Product 圈發酵。核心問題是：當 AI 可以直接在 Figma 裡建 component，設計師從「執行者」變成「審查者」。這週特別值得注意的是「AI 友好的 Figma 結構」開始成為獨立的設計課題——你的命名規則、token 結構、component 層次，不只是整理習慣，而是決定 AI 能不能讀懂你的設計意圖的關鍵。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Welcome to the brand tweak era",
-          "url": "https://www.creativebloq.com/design/branding/welcome-to-the-era-of-the-brand-tweak",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "宣告一個新的品牌策略時代：全面 rebrand 已過時，「brand tweak」才是主流。很多品牌現在選擇調整 logo 比例、更新輔助色系、換一套更現代的排版，而不是砍掉重來。原因有幾個：全面 rebrand 的市場反彈風險愈來愈高、成本沉重，而且在 AI 讓視覺生產變便宜的時代，精準微調比重建更有效率。這個趨勢對工作室的業務策略有直接影響——小幅優化的接案比全面 rebrand 更容易開始談，也更容易讓客戶即時感受到價值，值得把它加進你的服務清單。"
-        },
-        {
-          "title": "The most important branding tool in 2026 isn't what you think",
-          "url": "https://www.creativebloq.com/design/branding/the-most-important-branding-tool-in-2026-isnt-what-you-think",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "標題的答案是吉祥物（mascot）。在 AI 讓品牌可以快速產出無限視覺素材的時代，建立情感連結的能力反而變得稀缺。吉祥物作為品牌的「情感錨點」，可以跨越平台、媒介、甚至文化差異，持續傳遞一致的品牌個性。文章指出 AI 時代的吉祥物和傳統版本不同：必須是動態的、有表情變化的、可以跟 AI chatbot 整合的「活的角色」，而不是靜態圖形。這個觀察對考慮幫客戶建立長期品牌資產的工作室很有啟發。"
-        },
-        {
-          "title": "Why brand mascots are back in business",
-          "url": "https://www.creativeboom.com/insight/why-brand-mascots-are-back-in-business/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "詳細分析吉祥物全面回歸的原因和案例。數據：早期 2026 的研究顯示有活躍吉祥物的品牌，消費者記憶度比沒有的高出 37%。案例：Philadelphia Cream Cheese 在品牌 150 年後首次推出吉祥物 Phillyboy；Duolingo 的貓頭鷹「死亡」事件帶來 25,000% 的社群提及量爆增；Burger King 則反其道而行，「解僱」了自家吉祥物 King。文章結論是：在碎片化的媒體環境裡，吉祥物是品牌的「穿線工具」——認出那個角色，就認出了品牌。這個論點在提案時說服力很強。"
-        },
-        {
-          "title": "It's time to stop judging rebrands so quickly",
-          "url": "https://www.creativebloq.com/design/branding/its-time-to-stop-judging-rebrands-so-quickly",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "挑戰品牌設計圈的一個壞習慣：rebrand 一推出，社群馬上嚴厲批評。作者的論點是：品牌識別需要時間在市場中「活起來」，在文化和曝光中累積後才能判斷成效。文章舉了幾個起初被批評但最後成功的 rebrand（包括 Airbnb 和 Instagram），以及反過來起初被讚揚但失敗的例子。對工作室而言，這篇提供了一個很好的客戶管理框架——提案後如何幫助客戶建立「給時間看」的預期，避免因為初期的社群反應就急著撤回設計決策。"
-        },
-        {
-          "title": "This super subtle rebrand is as smooth as butter",
-          "url": "https://www.creativebloq.com/design/branding/this-super-subtle-rebrand-is-as-smooth-as-butter",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "介紹一個具體的「brand tweak」執行案例，展示微幅更新如何讓識別系統在不驚動大眾的情況下現代化。改動清單：字重微調、logo 視覺重心優化、色彩在數位媒介上的表現改善——每個改動單獨看都不明顯，但整體感受截然不同。這篇最大的價值是清楚示範了「克制的設計決策」：知道什麼要動、什麼不要動，比大幅改變更難做、也更專業。對承接品牌微調案的工作室，這篇提供很好的執行參考和跟客戶溝通的說明方式。"
-        }
-      ],
-      "buzz": "這幾天品牌圈出現有趣的雙線：吉祥物的回歸正在被認真討論（不再只是懷舊），背後邏輯是 AI 大量產出視覺的時代，情感連結成為最難被複製的品牌資產。同時，「brand tweak」也在快速普及，代表客戶對品牌更新的思維正從「大改」轉向「精準微調」。兩個方向都是對 AI 時代的回應：一個靠個性建立存在感，一個靠精準而不是規模。"
-    }
-  },
-  {
-    "date": "2026-05-16",
-    "daily_summary": "今天 Product 側有一個新角度：Nielsen Norman Group 最新調查指出設計師最大的挑戰不是技術，而是「如何在組織裡建立影響力」——這個痛點在接案情境裡格外真實，說服客戶接受設計決策本質上就是一種影響力工程。Brand 側今天的焦點從「要不要奇怪」進一步具體化到「怎麼奇怪」：kinetic logo、兒童塗鴉字體、破壞性排版這些過去被視為小眾的選擇，正在成為大型品牌的主流策略，Creative Bloq 和 Envato 都在密集報導這個方向。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Designers' top struggles aren't about design skills — they're about alignment, influence, and navigating org complexity",
-          "url": "https://www.nngroup.com/articles/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "2026 年 5 月最新的 NNGroup 調查揭示一個大家心知肚明卻少人正視的問題：設計師最大的挫折不是做不出好設計，而是讓設計發生影響力的組織政治問題。預算縮減的壓力下，UX 常是第一個被質疑投資價值的職能，設計師需要的不只是設計技能，還要學會用商業語言說服決策者、在利害關係人之間建立信任。對工作室來說這個問題更尖銳——你不是組織內部的人，說服客戶接受設計建議的難度更高。這篇讓人重新思考：設計提案的說服力，本身就是一種需要刻意練習的技能。"
-        },
-        {
-          "title": "State of UX 2026: Design Deeper to Differentiate",
-          "url": "https://www.nngroup.com/articles/state-of-ux-2026/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NNGroup 年度 UX 現況報告，核心論點是「淺層的 UX 已無法帶來競爭優勢，必須往更深的系統性設計走」。隨著 AI 工具讓基本 UX 原則變得容易實現，差異化必須來自更難被複製的地方：深度的用戶研究洞察、跨觸點的體驗設計、組織內部的 UX 成熟度建立。報告也分析了為什麼設計預算會被砍、以及如何用可量化的成效讓設計投資變得「看得見」。適合作為說服客戶投資完整設計流程的論述基礎，數據來源可信度高。"
-        },
-        {
-          "title": "UX/UI in 2026: Why Beautiful Design No Longer Guarantees Success",
-          "url": "https://dev.to/dev_family/uxui-in-2026-why-beautiful-design-no-longer-guarantees-success-1ca2",
-          "source": "DEV Community",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "當 AI 工具讓「好看的設計」變得容易，漂亮本身就不再是賣點——這是這篇的出發點。作者認為 2026 年的 UX 競爭發生在三個新維度：系統行為的設計（不只是畫面）、AI 不確定性的透明化處理（讓用戶知道 AI 在做什麼、為什麼這樣做）、以及多模態互動的整合。結論是設計師必須從「讓東西好看」的心態，轉向「讓系統可信、可預測、可恢復」的系統思維。對工作室而言，這個轉變也代表提案的論述點需要從視覺美感升級到體驗品質與系統邏輯。"
-        },
-        {
-          "title": "15 UI/UX Design Trends Dominating Products in 2026",
-          "url": "https://www.sanjaydey.com/ui-ux-design-trends-2026/",
-          "source": "Sanja Dey",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "整理 15 個 2026 年主導產品設計的 UI/UX 趨勢，幾個特別值得注意：功能性微動畫從點綴變成傳遞系統狀態的核心溝通工具；多模態設計（聲音 + 觸覺 + 視覺協調）從實驗性轉為標準配備；以及 AI 介面的「可預測性設計」——讓使用者清楚知道 AI 下一步會做什麼。整體方向是 UX 的影響力從「畫面層」延伸到「系統行為層」，設計師需要理解 AI 如何做決策，才能設計出真正有效的用戶體驗。"
-        },
-        {
-          "title": "UX/UI Design Trends 2026: 11 Essentials for Designers & Businesses",
-          "url": "https://www.promodo.com/blog/key-ux-ui-design-trends",
-          "source": "Promodo",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "從商業角度切入的 UX 趨勢整理，特別聚焦在「哪些設計決策對業績有直接影響」，適合在跟不熟設計的客戶溝通時使用。幾個重點：無障礙設計在歐洲已從最佳實踐變成法規要求，市場正在快速跟進；語音介面和 AI 助理的 UX 設計成為獨立的設計門類；以及超個人化體驗（根據用戶行為即時調整介面和內容）正在從大平台下放到中小型產品。這篇最大的價值是它提供了把設計投資和商業成效連結起來的論述框架。"
-        }
-      ],
-      "buzz": "今天 Product 圈的核心問題從技術轉向了人：NNGroup 的調查直接說出來——設計師的瓶頸不是做不好，是無法讓好的設計發生影響力。這個問題在工作室情境裡特別尖銳，說服客戶和說服組織內部的決策者，本質上是同一種能力。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Logo and Branding Trends for 2026: Kinetic logos, childlike anarchy, and the death of skin-deep",
-          "url": "https://elements.envato.com/learn/logo-and-branding-trends",
-          "source": "Envato",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Envato 的年度品牌趨勢報告，標題就很直接：「表面工夫的死亡」。三個主軸：Kinetic logo（動態化、有行為的識別取代靜態 logo）、Childlike anarchy（刻意幼稚的手繪字體和塗鴉元素，作為對抗 AI 光滑感的反動）、以及 Authentic brand experiences（真實感勝過精緻感，消費者開始分辨哪些品牌在表演「有溫度」、哪些是真的）。這篇適合作為向客戶解釋「為什麼你的品牌需要個性」的視覺論據。"
-        },
-        {
-          "title": "These logo design trends will define 2026",
-          "url": "https://www.creativebloq.com/design/logos-icons/these-logo-design-trends-will-define-2026",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Creative Bloq 整理 2026 年最具定義性的 logo 趨勢，幾個值得注意：復古字體和現代動態效果的混搭（vintage type + kinetic behavior）成為最多大品牌採用的組合；「刻意不完美」的 logo 設計——手繪感、歪斜、不對稱——正在從新創品牌蔓延到傳統企業；以及 wordmark 的「靈活版本」概念，同一個品牌有多個視覺版本對應不同使用場景，而不是一個死板的主 logo。這篇對正在做品牌識別系統的工作室有直接的操作參考價值。"
-        },
-        {
-          "title": "Breaking rules and bringing joy: top typography trends for 2026",
-          "url": "https://www.creativebloq.com/design/fonts-typography/breaking-rules-and-bringing-joy-top-typography-trends-for-2026",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "2026 年字體趨勢報告，核心主題是「字體不再只是閱讀工具，而是品牌個性的第一承載體」。最受關注的幾個方向：Variable font 的大量普及讓單一字型可以跨多個情境自適應；Expressive serif 的回歸（帶有戲劇性細節的高反差襯線字體）；以及手寫字體的「被策劃的不完美」（不是真的手寫，而是刻意設計成有手寫質感的字型）。這篇特別有用的是它把每個趨勢都連結到「為什麼消費者心理上會對這個產生反應」，不只是說「這個流行」。"
-        },
-        {
-          "title": "This was branding's most dangerous year yet",
-          "url": "https://www.creativebloq.com/design/branding/this-was-brandings-most-dangerous-year-yet",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "回顧 2025 年品牌設計的整體走向：這一年被稱為「最危險的一年」，因為 AI 工具讓大量品牌快速產出視覺，但卻加速了同質化——品牌看起來都差不多，反而讓「辨識度」變得比以往更稀缺、更有價值。文章分析了幾個在這一年中逆勢突圍的品牌，共同特點是：有清晰的立場、願意為視覺個性付出代價（包括接受部分受眾不喜歡）。對工作室來說，這篇提供了一個很好的框架——幫客戶建立「不是所有人都喜歡，但對的人非常喜歡」的品牌策略。"
-        },
-        {
-          "title": "Branding inspiration: design trends for 2026",
-          "url": "https://kota.co.uk/blog/branding-inspiration-brand-design-trends-for-2026",
-          "source": "KOTA",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "倫敦設計工作室 KOTA 的 2026 品牌趨勢整理，角度比較實戰——他們本身接品牌案，所以這篇更多是「我們在客戶專案裡實際看到的走向」。幾個重點：深色背景的品牌識別大量回歸，不再是科技公司的專利；客製插圖系統（而非購買圖庫）成為中型品牌的標配需求；以及「跨通路一致性」的定義從視覺統一升級為體驗一致——同樣的品牌個性在每個觸點都要能被感受到，不只是看到。"
-        }
-      ],
-      "buzz": "今天 Brand 側從「概念」走向「操作」。Kinetic logo 和 childlike anarchy 不再只是趨勢關鍵字，已經有足夠的案例支撐它們成為提案時可以直接引用的方向。值得注意的是多個來源都在說同一件事：2025 年 AI 加速了品牌同質化，2026 年的反動是「刻意做出個性」，而個性的代價是接受不被所有人喜歡。"
-    }
-  },
-  {
-    "date": "2026-05-15",
-    "daily_summary": "今天最值得看的是 Jenny Wen 的 Cowork 實戰教學——她第一次公開了自己在 Anthropic 如何用 AI 整理產品決策，具體到 prompt 怎麼寫、輸出怎麼用，是現在找得到最真實的設計師 AI 工作流案例。Product 側另一個亮點是兩篇設計師定價文章同時出現，說明業界對接案報價的焦慮正在升溫。Brand 側的氣氛是集體的「夠了，不要再安全了」——越來越多創意主管和工作室在押注個性，而不是精緻。",
-    "jenny_wen": {
-      "has_content": true,
-      "title": "Inside Anthropic: Claude Cowork Tutorial from Claude's Head of Design (40 Min)",
-      "url": "https://creatoreconomy.so/p/inside-anthropic-claude-cowork-tutorial-jenny-wen",
-      "summary": "難得的深度實戰教學——Jenny Wen 親自 screen share 展示她在 Anthropic 內部如何使用 Cowork。她的工作流是把雜亂的用戶回饋自動整理成每週一早上的產品優先順序報告，每週自動產出 3 個經過篩選的改進方向。這不是概念介紹，而是完整的 prompt 設計邏輯、輸出格式選擇、以及她如何判斷 AI 輸出品質的思維過程。對想把 AI 真正整進工作流的設計師來說，目前找不到比這更具體的真實案例。"
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Rethinking The Experience Of System Tools",
-          "url": "https://www.smashingmagazine.com/2026/05/rethinking-experience-system-tools/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "重新思考系統工具（後台管理介面、開發者工具、企業內部平台）的設計體驗。傳統上這類工具以功能性優先，視覺體驗常被犧牲，但作者指出使用者每天要花 6-8 小時在這些工具上，糟糕的 UX 直接影響工作效率和心理狀態。文章提出幾個改善方向：資訊密度的重新校準（不是越少越好，而是正確的密度）、狀態回饋的及時性設計、以及如何在不破壞效率的前提下加入視覺層次。對承接 SaaS 或企業內部工具設計案的工作室，這篇很有參考價值。"
-        },
-        {
-          "title": "What should you charge for freelance design work? Let's find out",
-          "url": "https://www.fastcompany.com/91494897/design-pricing-transparency-project-survey-freelance-announcement-aiga-what-to-charge",
-          "source": "Fast Company",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "AIGA 和 Fast Company 聯合發起的設計師定價調查，試圖打破業界定價不透明的文化。報告揭示了明顯的兩極化：追低價接案的設計師費率停滯，而能清楚說明自身價值、建立專業定位的設計師反而持續提高報價。調查問卷涵蓋接案類型、定價方式（時薪 vs 專案制）、以及對目前接案狀態的整體感受。最大的價值是提供了業界實際數字的基準，適合在調整報價前讀，也適合拿來跟客戶討論設計收費的合理性。"
-        },
-        {
-          "title": "Freelance Graphic Designer Rates in 2026: What to Charge for Every Project Type",
-          "url": "https://www.solopricing.com/freelance-graphic-designer-rates-2026",
-          "source": "SoloPricing",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "2026 年自由設計師費率完整整理，按專案類型分類：logo 設計 $500–5,000、完整品牌識別套件 $3,000–20,000、網站設計 $2,500–15,000，中階設計師時薪落在 $75–130/hr。報告最有價值的發現是：最高收費的 20% 設計師跟其他人的差距不在技術，而在「定價自信」和「市場定位」的清晰度。文章附有計算合理費率的公式，並解釋為何按專案收費比按時計費更有利——因為它讓客戶聚焦在成果而不是時間投入。"
-        },
-        {
-          "title": "How To Improve UX In Legacy Systems",
-          "url": "https://www.smashingmagazine.com/2026/04/legacy-systems/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "處理舊系統的 UX 改善是設計師最常遇到但最少有文章系統性討論的挑戰。這篇針對「不能全部砍掉重來」的現實場景：預算有限、技術債沉重、利害關係人對改變有抵抗。作者提出漸進式改善框架：先診斷最高痛點（不是最明顯的問題）、建立改善基準值、以小範圍試驗驗證後再擴大。特別值得注意的是他對「設計師如何跟工程師協商技術限制」的討論，以及如何把設計改善的成效轉化成商業語言說服決策者。"
-        },
-        {
-          "title": "UX And Product Designer's Career Paths In 2026",
-          "url": "https://www.smashingmagazine.com/2026/01/ux-product-designer-career-paths/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "系統性整理 UX 設計師在 2026 年的幾條主要職涯路徑，並附有 Figma 版本的技能自評矩陣。核心論點是：AI 工具的普及讓「全方位設計師」和「深度專才」這兩個極端都更有市場，但中間的「普通 UX 設計師」位置正在被壓縮。報告也分析了在新創、大公司、代理商、自由接案四種工作情境下設計師的不同發展軌跡，以及每條路徑的薪資範圍和技能要求。適合在思考個人定位或下一步發展方向時讀。"
-        }
-      ],
-      "buzz": "今天有兩條主線。一是 AI 實際工作流的整合：Jenny Wen 的 Cowork 教學是現在最具體的設計師 AI 整合案例，不只是概念，是直接可以複製的工作模式。二是定價與定位：兩篇同時在討論自由設計師如何在 AI 時代提高報價——核心論點一致，差異在定位清晰度，不在技術水準。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "How being weird can save branding in 2026",
-          "url": "https://www.creativeboom.com/insight/how-being-weird-can-save-branding-in-2026/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "直接點名 2025 年的品牌設計潮流「讓人失眠地無聊」。設計總監 Bentzion Goldman 的論點是：品牌識別被同質化的「安全感」綁架，大家都在用同一種極簡、同一種色調、同一種排版。他主張 2026 年應該「刻意做奇怪的選擇」，但強調是「有目的的怪」——選一個和品牌個性深度連結的特殊元素，把它推到有點過頭，讓人記住。文章舉了幾個成功案例說明這個策略如何在提案中說服客戶，對工作室提案很有參考價值。"
-        },
-        {
-          "title": "10 trends that creatives are so over in 2026",
-          "url": "https://www.creativeboom.com/insight/10-trends-creatives-are-so-over-in-2026/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "業界設計師集體列出「2026 年最想看到消失的趨勢」。排名最高的幾個：過度使用 AI 生成圖像的品牌素材、無差別的 wordmark logo（每個品牌都變成同款 sans-serif）、強行「永續感」的綠色系視覺、以及毫無個性的 liquid gradient。這篇有趣的地方不在預測趨勢，而是呈現業界的集體疲憊感。對工作室來說，了解同業在迴避什麼，就能知道什麼現在才算真正的差異化。"
-        },
-        {
-          "title": "The biggest brand trends coming in 2026",
-          "url": "https://www.fastcompany.com/91462141/the-biggest-brand-trends-coming-in-2026",
-          "source": "Fast Company",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Fast Company 從商業策略角度切入品牌設計趨勢，比一般趨勢文章更有論據。幾個重點：品牌將更積極地把 AI 的使用「透明化」，因為消費者已開始用是否誠實使用 AI 來判斷品牌可信度；「人的故事」會成為最強的品牌資產，因為它是 AI 無法偽造的；感官品牌（聲音、觸感、氣味識別）會從奢侈品的專利延伸到更多品牌類別。整體適合做品牌策略提案時引用，論述基礎比其他趨勢文章扎實。"
-        },
-        {
-          "title": "Creative leaders reveal their strategic plans for 2026",
-          "url": "https://www.creativeboom.com/insight/creative-leaders-reveal-their-strategic-plans-for-2026/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Creative Boom 訪問多位創意公司負責人談 2026 年的策略方向，幾個共同點值得注意：多數工作室選擇「更少、更深」，放棄通才定位、聚焦 1-2 個專長領域；AI 工具被廣泛採用，但態度是「加速交付但不降低收費」，而不是降價競爭；另外有幾位提到「直接面對終端客戶」的比例在增加，代理商中介的商業模式正在被繞過。對工作室定位和業務策略有直接參考價值，可以拿來跟自己的方向做對照。"
-        },
-        {
-          "title": "8 Branding Trends We're Going to See in 2026",
-          "url": "https://thebrandstrategylab.com/blog/branding-trends-were-going-to-see-this-year/",
-          "source": "The Brand Strategy Lab",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "從品牌策略師角度整理 8 個趨勢，比視覺趨勢文章更著重策略層面的轉變。最值得注意的兩個：「反 scaling 品牌」興起——刻意維持小規模、強調人工、限量的品牌定位正在受高端客戶青睞；以及「品牌一致性的重新定義」，從過去的視覺統一，轉變為跨觸點的「感受一致」——就算每個平台的視覺語言不同，傳遞的情感和態度要一致。這兩個觀點都可以直接作為工作室品牌策略提案的論述框架。"
-        }
-      ],
-      "buzz": "「反安全感」是這幾天品牌圈最響亮的聲音。Creative Boom 連發兩篇，一篇說要刻意做奇怪的選擇，另一篇直接列出業界對「無聊設計」的集體厭倦。背景是 AI 把「精緻」的門檻拉低了，反而讓「有個性、有點怪、有故事」的品牌更稀缺、更有價值。"
-    }
-  },
-  {
-    "date": "2026-05-14",
-    "daily_summary": "今天兩個圈子的主題都繞著同一個問題：AI 之後，什麼是人做的、什麼不是。Product 側這幾天密集討論的是 Agentic AI——設計師的角色正在從「做畫面」變成「設計 AI 跑的規則」，有一篇 UX Collective 的文章特別值得看：AI 能讀你的 code，但不懂你的產品邏輯，那個 gap 才是設計師的位置。Brand 側的亮點是 BBH 44 年來首次 rebrand，用三款定制字型和動態 glyph 系統回應 AI 同質化的危機——直接示範了「無法被複製」才是工作室最強的提案論述。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Your AI agent can read your codebase. It doesn't know your product.",
-          "url": "https://uxdesign.cc/your-ai-agent-can-read-your-codebase-it-doesnt-know-your-product-b5ea0cd77989",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "AI coding agent 能讀取整個 codebase、跑 lint、寫 tests，但它完全不知道「這個 button 為什麼放在這裡」或「這個 flow 背後的使用者痛點是什麼」。作者認為，設計師真正的價值不是出 wireframe，而是把 product context 轉譯成 AI 能理解的形式——命名規範、設計原則文件、component 的用途說明。這篇直接給了幾個可以立刻執行的建議：如何寫 Figma 的 component 說明、如何在 PR 描述裡嵌入設計意圖、怎麼建立讓 AI 讀得懂的設計 token 結構。誰能把這個 context gap 補起來，誰就是 AI 時代最難被取代的人。"
-        },
-        {
-          "title": "From products to systems: The agentic AI shift",
-          "url": "https://uxdesign.cc/from-products-to-systems-the-agentic-ai-shift-eaf6a7180c43",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇的核心論點是：我們正從「設計一個產品」過渡到「設計一個能生產產品的系統」。以前設計師交付有限的 screens，現在需要設計的是 constraints、rules 和 guardrails，讓 AI agent 在這個框架內自動生成合適的 UI。這個轉變要求設計師更像系統架構師——你的工作不是填滿每一個細節，而是定義什麼能做、什麼不能做、什麼時候 AI 應該尋求人工確認。文章提供了幾個實際的 B2B SaaS 案例說明這個轉變如何發生，以及設計師在其中扮演的新角色。"
-        },
-        {
-          "title": "Agentic AI, design systems & Figma: a practical guide",
-          "url": "https://uxdesign.cc/agentic-ai-design-systems-figma-a-practical-guide-6ab0b681718d",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "當 AI agent 開始直接讀取你的 Figma 檔案來產出 code，圖層命名就不只是整理習慣，而是決定輸出品質的關鍵變數。作者 Christine Vallaure 給出了可以立刻執行的具體建議：component 命名要語意化（CardContainer 而非 Frame 342）、property 名稱要和實際 code props 對應、page 結構要讓 agent 能自行導航、Variant 的命名邏輯要和工程師的條件判斷一致。這篇是目前看到最接地氣的 Figma + AI agent 操作指南，如果你現在有在用 Claude Code 或 Cursor 開發專案，今天就可以照著調整。"
-        },
-        {
-          "title": "The agentic era of UX",
-          "url": "https://newsletter.uxdesign.cc/p/the-agentic-era-of-ux",
-          "source": "UX Collective Newsletter",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "UX 設計的對象正在擴大。以前我們設計給「人用的介面」，現在也要設計給「AI agent 代替人操作的介面」——agent 怎麼讀取頁面狀態、怎麼填表單、怎麼在多步驟流程中做決策，都需要設計師提前規劃。這是 UX Collective 創辦人 Fabricio Teixeira 的深度分析，提出了幾個新的設計原則：可預測性優先（agent 需要明確的下一步）、語意化的 UI 結構（讓 agent 能自行理解功能）、以及錯誤恢復設計（agent 做錯時如何讓人輕鬆接手）。這篇適合在設計新產品前讀，它會改變你規劃 information architecture 的方式。"
-        },
-        {
-          "title": "Are we doing UX for AI the right way?",
-          "url": "https://uxdesign.cc/are-we-doing-ux-for-ai-the-right-way-aea01e14138e",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇挑戰了一個很少人質疑的假設：我們把舊的 UX 框架（用戶旅程、persona、usability testing）直接套在 AI 產品設計上，但這樣做真的對嗎？作者認為 AI 產品的核心體驗是「不確定性」與「非線性」，而傳統 UX 工具是為「可預測的流程」設計的，兩者本質上不匹配。文章提出了幾個更適合 AI 產品的評估方式：測試「意圖對齊度」而非「任務完成率」、衡量「用戶信任校準」而非「滿意度」、評估「錯誤恢復效率」而非只看成功路徑。讀完會讓你重新思考下次做 AI 功能的 user testing 應該怎麼設計。"
-        }
-      ],
-      "buzz": "Agentic AI 是這幾天 Product 圈最密集討論的核心。設計師的角色正從「做畫面」變成「設計 AI 跑的軌道」——你給 agent 的 context、constraints、命名規則，決定它能不能理解你的產品。「Context engineering」突然成為設計師最需要補的技能。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "BBH's rebrand, typeface and \"zag\" glyphs convey its ethos through design",
-          "url": "https://www.itsnicethat.com/articles/bbh-studio-drama-rebrand-graphic-design-project-260226",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "廣告公司 BBH 成立 44 年來從未進行過完整品牌更新，這次和 Studio Drama 合作打造三款定制字型，其中一款直接以創辦人的字跡風格為基礎。標誌性的「zag」（BBH 的品牌精神：zagging when others zig）被轉化成一套可動的 glyph 系統，能在各種媒介上彈性應用，而不是一個靜態 logo。整個專案還包含一支短片和完整的 motion design 系統，全部由內部團隊製作。這個案例最值得工作室學習的地方是：品牌識別不是追視覺趨勢，而是把你真正相信的東西具體化——BBH 的「zag」精神 44 年沒變，只是換了更當代的視覺語言來說。"
-        },
-        {
-          "title": "New Frank Lloyd Wright logo highlights \"profound void\" of lost projects",
-          "url": "https://www.dezeen.com/2026/01/09/frank-lloyd-wright-conservancy-rebrand-order/",
-          "source": "Dezeen",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師 Order 為 Frank Lloyd Wright Building Conservancy 打造的新視覺識別，策略切入點非常特別：Wright 一生中有大量未建成的計畫，設計師決定把這個「缺席的存在」作為核心概念，logo 的「空白」直接對應那些從未被蓋出來的建築。字型和色彩系統取材自 Wright 兒時玩具積木的幾何形式，以及他建築作品中慣用的磚石材料色調。整套識別的邏輯是：每一個視覺決定都能回溯到 Wright 的人生與哲學，而不是設計師的個人美感。這篇適合在跟遺產型客戶合作時參考——如何從歷史深度中找出視覺語言。"
-        },
-        {
-          "title": "Peet Pienaar designs BLE$$ identity to challenge Western-centric financial branding",
-          "url": "https://www.dezeen.com/?p=2288926",
-          "source": "Dezeen",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "南非設計師 Peet Pienaar 為支付平台 BLE$$ 打造的視覺識別，刻意對抗金融品牌慣用的藍色、極簡、「信任感」套路。他融入非洲視覺語言與街頭文化元素，目標是讓南非用戶看到這個品牌時感到「這是我們的東西」，而不是又一個從西方複製過來的 fintech app。這個案例有幾個值得思考的層次：品牌受眾的文化認同如何成為設計的出發點、刻意「不精緻」如何成為差異化的工具、以及設計師如何在商業目標和文化主張之間找到平衡。對工作室承接品牌設計案時，如何幫助客戶找到真正屬於自己的視覺語言，這篇很有啟發。"
-        },
-        {
-          "title": "8 Design Trends Shaping Brand Identity in 2026",
-          "url": "https://www.threerooms.com/blog/8-design-trends-shaping-brand-identity-in-2026",
-          "source": "Threerooms",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇整理了 2026 年品牌識別設計的 8 個方向，每個趨勢都附有實際品牌案例。最值得注意的三個：一是動態識別系統（靜態 logo 已不夠用，識別需要在不同媒介上自適應變形）；二是觸感材質的數位模擬（讓螢幕上的東西看起來可以被觸摸，回應 AI 讓視覺過度光滑的反彈）；三是 context-adaptive logo（同一個品牌識別根據使用場景自動調整形式，例如小尺寸版、動態版、黑白版有不同的設計邏輯而非只是縮放）。這篇適合做 client proposal 時引用，或作為向客戶解釋為何靜態 CI 手冊已經過時的論述依據。"
-        },
-        {
-          "title": "Brand Design Trends 2026: Everything You Need to Know",
-          "url": "https://www.designmonks.co/blog/brand-design-trends-2026",
-          "source": "Design Monks",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇的核心論點是「AI 反彈後的品牌設計走向」。AI 工具讓視覺生產成本趨近於零，反而讓「人工製作的痕跡」變得稀缺而有價值——這是目前品牌圈最重要的結構性轉變。作者預測接下來的品牌競爭不在「精緻程度」，而在「可信度」和「個性」。具體建議包括：在品牌素材裡刻意保留手工製作的不完美、用真實的品牌故事取代視覺噱頭、以及建立跨感官的品牌體驗（聲音、觸感、氣味等非視覺元素將成為差異化點）。對工作室而言，這篇的意義在於：你們做的「人工設計」在 AI 時代反而是賣點，要學會在提案中說清楚這個價值。"
-        }
-      ],
-      "buzz": "品牌圈正在回應「AI 讓一切看起來一樣」的焦慮。BBH 的 rebrand 是最好的示範——44 年老品牌選擇用無法被 AI 複製的東西重塑自己：三款定制字型、深植品牌態度的 glyph 系統。真正有辨識度的識別，靠的還是深挖歷史與個性，不是套趨勢。"
-    }
-  },
-  {
-    "date": "2026-05-13",
-    "jenny_wen": {
-      "has_content": true,
-      "title": "The design process is dead. Here's what's replacing it.",
-      "url": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
-      "summary": "傳統設計流程已死。在 Anthropic，工程師可以同時跑多個 Claude agent、幾個小時就出 code，設計師必須跟上。她現在要找的設計師分三種：強通才、深度專才、會寫 code 的 prototyper。設計師要像「內部 VC」——辨識出「沒人說得清楚但有能量的點子」，把它翻譯成產品。"
-    },
-    "lenny": {
-      "has_content": true,
-      "title": "What Most People Miss About Marketing",
-      "url": "https://www.lennysnewsletter.com/podcast",
-      "summary": "嘉賓 Rory Sutherland（Ogilvy UK 副董事長）。用行為經濟學視角拆解行銷，對工作室提案說服客戶很有參考價值。"
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "UX Design 2026+: From producing to deciding, from craft to operation",
-          "url": "https://medium.com/@uxraspberry/ux-design-2026-from-producing-to-deciding-from-craft-to-operation-e9c7ea6b1803",
-          "source": "UX Collective / Medium",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師的價值已從「產出什麼」移轉到「決定什麼」。AI 是執行者，但還不會判斷——這才是設計師的護城河。"
-        },
-        {
-          "title": "The UX Designer's Nightmare: When \"Production-Ready\" Becomes A Design Deliverable",
-          "url": "https://www.smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "企業開始要求設計直接交付可上線的成品，設計師被推入過去屬於工程師的責任範疇。"
-        },
-        {
-          "title": "10 UX Design Shifts You Can't Ignore in 2026",
-          "url": "https://uxdesign.cc/10-ux-design-shifts-you-cant-ignore-in-2026-8f0da1c6741d",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "10 個不可忽略的轉變，AI 貫穿全文，重點在「人類判斷力才是設計師最後防線」。"
-        },
-        {
-          "title": "The Return of the Intuitive Designer in the Age of AI",
-          "url": "https://newsletter.uxdesign.cc/p/the-return-of-the-intuitive-designer",
-          "source": "UX Collective Newsletter",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 當道反而讓直覺設計師的價值回升，不只靠流程、靠 data，還靠感知力。"
-        },
-        {
-          "title": "How to Start a Remote Design Business from Scratch",
-          "url": "https://uxdesign.cc/how-to-start-a-remote-design-business-from-scratch-6a4aaadb48ea",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "從零建立遠端設計工作室的完整思路，含定位、找客戶、定價策略。"
-        }
-      ],
-      "buzz": "「生產者」變「決策者」是這週 Product 圈最熱的命題。Jenny Wen 那集持續發酵，設計師和工程師之間的邊界重組是最核心的焦慮——判斷力才是設計師的護城河，AI 搶不走。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "8 Design Trends Shaping Brand Identity in 2026",
-          "url": "https://www.threerooms.com/blog/8-design-trends-shaping-brand-identity-in-2026",
-          "source": "Threerooms",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "動態識別系統（Kinetic Identity）、觸感材質、adaptable logo 正在取代靜態視覺規範。"
-        },
-        {
-          "title": "品牌再進化，2026 年十大 LOGO 翻新案例",
-          "url": "https://expup.com/tw/archives/118886",
-          "source": "EXP 品牌重塑",
-          "lang": "繁中",
-          "studio_related": true,
-          "summary": "盤點今年最具代表性的 rebrand，有案例、有分析，適合拿來和客戶討論方向。"
-        },
-        {
-          "title": "2026 年 LOGO 設計四大趨勢與設計表現",
-          "url": "https://expup.com/tw/archives/118924",
-          "source": "EXP LOGO 設計專家",
-          "lang": "繁中",
-          "studio_related": false,
-          "summary": "動態化、立體漸變、標準字 logo 三大方向，含實際作品示範。"
-        },
-        {
-          "title": "Top Branding & Design Trends for 2026",
-          "url": "https://www.thebrandingjournal.com/2026/01/top-branding-design-trends-2026/",
-          "source": "The Branding Journal",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "從品牌策略視角看視覺趨勢，強調 motion-first 和 human-centered 的對立與融合。"
-        },
-        {
-          "title": "Design Trends 2026: What's Next for Brands and Creators",
-          "url": "https://www.designmantic.com/blog/design-forecast-2026/",
-          "source": "Designmantic",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 讓視覺同質化加劇後，品牌如何透過「不完美」和「手感」重建辨識度。"
-        }
-      ],
-      "buzz": "AI 視覺化工具普及後，品牌圈的反彈方向很清晰——愈「人做」的東西愈值錢。粗糙材質、手繪感、有溫度的不完美，正在被當成差異化武器。動態識別系統開始成為標配需求，這對工作室接案報價的方式也有直接影響。"
     }
   }
 ]
