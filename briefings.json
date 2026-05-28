@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-05-28",
+    "daily_summary": "今天 Product 側的主軸是「設計師在 AI 之後的差異化」——NNGroup 和 UX Collective 都在回答同一個問題，最值得注意的是「AI Agents as Users」這個新視角：你的產品未來有兩種用戶，人類和 AI agent，兩者對 UX 的要求不一樣。Brand 側今天的焦點是 Young Vic 的新識別——Creative Review、Creative Boom、Design Week 同時報導，代表業界都在談，因為它把「抵抗演算法」做成了可操作的視覺語言，這正是很多文化品牌正在尋找的答案。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "AI is coming for our design jobs, but it can't touch taste",
+          "url": "https://uxdesign.cc/ai-is-coming-for-our-design-jobs-but-it-cant-touch-taste-afd5c7a48184",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "AI 會做更多設計工作，但它做的是訓練資料的重新混搭——只有人類設計師在時間裡浸泡、在好作品中成長出來的「taste（品味）」，是它無法複製的。作者 Andrea Grigsby 認為未來的設計師不是靠技術技能脫穎而出，而是靠「我知道什麼是好的」這種無法教、無法量化的判斷力。文章以時尚業做類比：部分品牌會完全依賴 AI 生產，但認識到人類設計的持續價值的品牌，會繼續投資有品味的設計師。對工作室而言，這篇是說服客戶「為什麼要找有品味的設計師」最好的論據之一——taste 不是抽象的，是多年閱讀好作品、反省與積累的具體能力。"
+        },
+        {
+          "title": "AI Agents as Users",
+          "url": "https://www.nngroup.com/articles/ai-agents-as-users/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NNGroup 提出了一個設計師幾乎還沒開始思考的問題：當 AI agent 開始代替人類「使用」你的產品——自動搜尋、自動填表、自動下訂單——你的 UX 是否為「機器用戶」做好了準備？文章分析了 AI agent 和人類用戶在使用介面時的行為差異：agent 依賴明確的語意標記、不能靠視覺推測意圖、也無法處理模糊的導航邏輯。對設計師的啟示是：好的 UX 設計將愈來愈需要同時服務人類和 AI，而語意清晰是兩者的公約數——結構良好的介面，對人好用，對 AI agent 也友善。"
+        },
+        {
+          "title": "The Future-Proof Designer",
+          "url": "https://www.nngroup.com/articles/future-proof-designer/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 直接問了最多設計師現在在問的問題：面對 AI 的快速滲透，哪些技能值得投資、哪些會被取代？研究結論指出：可以被模板化的執行技能會被取代；跨學科的系統思維、用戶研究的判斷力、以及理解人的能力難以被取代。報告建議設計師朝「T-shape」更深的縱軸走——不只是懂設計，還要真正理解商業、組織行為、或特定產業的運作邏輯。對工作室而言，「垂直深化」不只是個人成長策略，也是服務定位的核心——你能幫客戶看到業界其他設計師看不到的東西，才是真正的差異化。"
+        },
+        {
+          "title": "Silicon clay: how AI is reshaping UX design",
+          "url": "https://uxdesign.cc/silicon-clay-how-ai-is-reshaping-ux-design-42cb0de93680",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者 Andrew Tipp 用「矽土（silicon clay）」比喻 AI：土可以被捏成任何形狀，但它本身不知道要變成什麼——AI 工具給設計師前所未有的可塑性，但方向仍然需要人來決定。這個比喻從材料的角度重新框架了設計師與 AI 的關係，不是「AI 取代設計師」，而是「設計師現在有了更柔軟、更聽話的材料」。文章進一步探討這個比喻的限制：不是每個設計師都能善用這種可塑性，能夠轉化為優勢的設計師，是那些清楚知道自己在做什麼的人。這個論點對工作室在向客戶解釋「為什麼設計師在 AI 時代仍然重要」時，提供了一個直觀的溝通語言。"
+        },
+        {
+          "title": "Scope in Generative AI Features",
+          "url": "https://www.nngroup.com/articles/scope-ai-features/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 聚焦一個常被忽略的設計決策：AI 功能的「範圍界定」。要讓 AI 做多少？從哪裡開始、到哪裡結束？什麼情況下應該讓人接手？報告指出大多數 AI 功能的問題不是技術不夠好，而是範圍設定不清——AI 做太多讓用戶失去控制感，做太少又沒有實際幫助。文章提供了一個決策框架，幫助設計師在 AI 功能的能力邊界和用戶期望之間找到正確的交點。對工作室來說，這篇有兩個直接應用：一是自己在做 AI 產品設計時的判斷依據，二是跟客戶討論「你的產品裡的 AI 應該做到什麼程度」時的結構化對話框架。"
+        }
+      ],
+      "buzz": "「AI 時代設計師的護城河是什麼」是本週 Product 圈的主旋律。不同文章給出了不同的答案：NNGroup 說是系統思維和產業深度、Andrea Grigsby 說是 taste（品味）、Andrew Tipp 說是方向感。這些答案指向同一件事：AI 能執行，但不知道為什麼要做、做到什麼程度最好——這個判斷力的空間，就是設計師還在的地方。另一個值得注意的新訊號是「AI Agents as Users」——設計師開始需要同時為人類和 AI agent 設計，UX 的服務對象正在悄悄擴大。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "New Young Vic branding pushes back against the algorithm",
+          "url": "https://www.creativereview.co.uk/young-vic-new-brand-identity-venturethree/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦知名劇場 Young Vic 與品牌工作室 venturethree 合作，打造了一套概念鮮明的新識別：模糊的字型、向內聚焦的視覺動態，以「抵抗演算法」為定位核心。在 Netflix 和 YouTube 主導娛樂時間的時代，這套識別的策略主張是：現場表演的不可複製性，才是文化機構最強的差異化護城河。logo 的「動態模糊」不是技術問題，而是設計意圖——它在說「我們在讓你靠近，而不是讓你滑過去」。創意總監的 brief 是「Young Vic 的空間讓你比預期的更靠近，我們想要一個在你走進門之前就做到同樣事情的品牌」，這個說法本身就是一份完整的設計策略。"
+        },
+        {
+          "title": "Theatre rebrand: Why the Young Vic and Donmar are going bold",
+          "url": "https://www.designweek.co.uk/why-londons-off-west-end-theatres-are-turning-to-bold-new-identities-to-survive-a-challenging-climate/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Design Week 深度分析為什麼倫敦 Off West End 的劇場品牌正在集體走向大膽、原創的新識別——Young Vic 的模糊字型、Donmar Warehouse 的強烈色彩系統，都在同一個時間點往強烈個性靠近。背後的結構性原因是：文化機構的生存壓力迫使它們找到比「我們是劇場」更強的存在理由，不能只靠口碑和習慣，必須要有可以主動出擊的品牌語言。這個趨勢對工作室在接文化、教育、或非營利品牌案時有直接的參考價值——「在困難環境中做大膽選擇」往往比「做安全選擇」更能幫助客戶建立長期的品牌認知。"
+        },
+        {
+          "title": "ITV unveils evolved brand identity with Studio Kiln",
+          "url": "https://www.creativeboom.com/news/itv-unveils-evolved-brand-identity-with-studio-kiln/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國廣播商 ITV 聯手 Studio Kiln 推出自 ITVX 上線以來最重要的品牌更新，核心策略是「簡化系統、強化 ITV 主品牌」——把過去分散在不同子品牌和頻道的視覺語言收攏，讓 ITV 在所有觸點上都有清晰一致的存在感。標誌性的 Spark Yellow 被強化，並引入了新的視覺動態元素。這個案例和 OpenAI 品牌整合案例有呼應：快速擴張後的品牌系統收斂，是目前最常見的品牌挑戰之一——當產品線和觸點變多，「讓品牌說一件事」反而變得更難也更重要。"
+        },
+        {
+          "title": "Mother Design's new logo and branding for Adobe are brilliantly self-assured",
+          "url": "https://www.creativeboom.com/news/reshaping-adobes-global-brand-identity-with-mother-design/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Adobe 委託 Mother Design 打造新的全球品牌識別，核心是一個向創辦人 Marva Warnock 1982 年原始設計致敬的新字標。Creative Boom 的評語是「brilliantly self-assured（充滿自信）」——代表這套識別沒有追趨勢、沒有過度設計，而是清楚地知道自己是誰。對設計師工具軟體來說，品牌識別的自信某程度也是對自家用戶說：「你把你的品味交給我們，我們配得上。」這個案例示範了大品牌如何在更新中找到自我確認，而不是自我顛覆——這種「知道什麼不用改」的判斷力，對工作室接 rebrand 案時的策略方向很有啟發。"
+        },
+        {
+          "title": "Six powerful ways to make your next rebrand better",
+          "url": "https://www.creativeboom.com/tips/six-ways-to-make-your-next-rebrand-better/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Creative Boom 整理的實戰建議，針對最多設計工作室會接到的案子類型：品牌更新。六個核心建議涵蓋從策略到執行的完整路徑：如何在啟動階段做好利害關係人管理、如何在品牌審計中找到真正的問題、以及如何讓品牌更新的成效在交付後持續可見。對工作室最直接的價值是：這篇把「如何做一個好 rebrand」拆解成可操作的清單，可以作為接案流程的自我檢核工具，也可以在提案時用來展示工作室的方法論成熟度——讓客戶看到你的流程有系統，是建立信任和提高報價的核心。"
+        }
+      ],
+      "buzz": "Young Vic 的品牌更新今天同時出現在 Creative Review、Creative Boom 和 Design Week——多媒體同步報導代表它戳到了某個重要的神經。「抵抗演算法」作為品牌定位，不只是劇場的問題，任何在數位時代強調「現場、真實、人與人」的品牌都面對同樣的挑戰。同時，ITV 和 Adobe 的品牌更新示範了「如何在品牌系統成熟後做有信心的收斂」——這週 Brand 圈給了設計師兩種思路：一個是找到強烈的對立面（Young Vic vs. 演算法），一個是做自信的系統整合（ITV、Adobe）。"
+    }
+  },
+  {
     "date": "2026-05-24",
     "daily_summary": "今天 Product 側有一個清楚的主旋律：AI 工具讓「做設計」普及了，但「設計判斷」反而更難被取代——從空白狀態設計、到 AI 功能的優先順序，UX Collective 幾篇都在拆解同一件事。Brand 側有兩個收穫：OpenAI 品牌大整合是系統收斂的教科書案例，Design Bridge 那篇「品牌系統在不完美世界裡如何存活」對接案工作室有非常直接的實戰參考價值。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "Clerkenwell Design Week 2026 今天是最後一天，整週的歐洲設計圈風向逐漸清晰：感官體驗設計（觸感、氣味、聲音）從趨勢變成主流展示語言；可持續材料的美學化正在加速；工作空間設計的「目的地化」是今年最有共識的方向。這些趨勢比較慢會反映在台灣市場，但對工作室做國際視野的提案很有參考價值。"
-    }
-  },
-  {
-    "date": "2026-05-20",
-    "daily_summary": "今天 Product 側聚焦一個對工作室非常實用的主題：設計系統與精簡團隊。NNGroup 新研究和幾篇實戰指南都指向同一件事——AI 工具讓 1 個人可以做到過去 3 個人的設計系統工作量，但前提是你要先把 token 結構打好。Lenny's 最新集 Max Schoening 談的「agency 比技能更重要」，和這週一直在討論的設計師定位問題高度呼應。Brand 側有個有趣的新案：是真正的蘋果（水果）在做 rebrand——如何幫一個日常農產品建立品牌識別感，有意思的挑戰。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": true,
-      "title": "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)",
-      "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
-      "summary": "Notion 產品主管 Max Schoening 談了一個反直覺的觀點：在 AI 時代，培養 agency（自主驅動、主動出擊的行動力）比培養技能更重要。他的論點是 AI 讓技能門檻下降了，但「知道要做什麼、敢去嘗試」的能力反而更稀缺。幾個值得注意的觀察：Notion 的文化是「drive it like it's stolen」（把每個機會都當作可能失去的）、vibe coding 讓更多軟體被做出來但不代表更好的軟體、以及他的「tiny core」理論——最偉大的產品都有一個極其簡單的核心機制（iPhone 的多點觸控、GitHub 的 pull request、Notion 的 blocks）。這集和設計師定位的討論高度呼應：技術會被 AI 追上，但「主動判斷和採取行動」的能力不會。"
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Small by Design: The Strength of Lean Design-System Teams",
-          "url": "https://www.nngroup.com/articles/lean-design-system-teams/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 最新研究：多數設計系統團隊只有 2-5 人，即使在大型組織裡平均也只有 9-11 人。精簡的設計系統團隊在策略得當的情況下，可以移動更快、優先順序更清晰，影響力超過自身規模。關鍵做法：把設計系統當「產品」管理（有 roadmap、有版本、有用戶研究）、清楚定義哪些 component 是核心維護的，哪些讓各產品團隊自行擴充；以及建立「採用文化」，讓工程師和設計師都願意用。對工作室最直接的啟示：一個人負責設計系統是完全可行的，只要用對方法。"
-        },
-        {
-          "title": "Design Systems Report 2026",
-          "url": "https://report.zeroheight.com/",
-          "source": "zeroheight",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "zeroheight 年度設計系統調查報告，涵蓋業界最常見的架構、工具選擇、以及團隊組成。幾個值得注意的數據：設計系統最常見的配置仍是 1-2 個專職人員（兼任其他工作）；超過 60% 的受訪團隊表示已在設計系統工作流中使用 AI；「token-first」的設計系統架構正在成為業界標準，讓設計和工程之間的協作更無縫。適合在評估是否該為工作室建立設計系統、以及應該投入多少資源時參考。"
-        },
-        {
-          "title": "Design systems team structure in 2026",
-          "url": "https://learn.thedesignsystem.guide/p/design-systems-team-structure-in",
-          "source": "The Design System Guide",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 對設計系統團隊結構的影響比想像中更大：2023 年需要 3 個人做的事，現在 1 個人加上正確的 AI 工具通常就能完成。文章整理了 2026 年最常見的三種設計系統結構：中央化（一個核心小團隊服務整個組織）、聯邦制（各產品團隊各自維護、中央只定義原則）、以及混合制。對小工作室最實用的建議是：先從 token 系統開始建，不要急著建 component library——token 的投資報酬率最高，而且 AI 工具現在可以根據 token 快速生成 component。"
-        },
-        {
-          "title": "What Is DesignOps? Complete Guide to Scaling Design Teams (2026)",
-          "url": "https://lollypop.design/blog/2026/april/what-is-design-ops-the-complete-guide-to-scaling-design-without-chaos/",
-          "source": "Lollypop Design",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "DesignOps（設計運營）的完整指南，核心是「讓設計工作本身更有系統、更可擴充」。幾個核心面向：工具和工作流的標準化、設計品質的評估機制、以及設計團隊和工程團隊之間的協作協議。對工作室最實用的部分是「設計流程的文件化」——把你做設計的方式記錄下來，不只讓自己的工作更一致，也讓接案的交付物對客戶更透明、更有說服力。隨著接案規模擴大，這件事的重要性會成倍增加，現在開始建立比等到混亂再補救容易得多。"
-        },
-        {
-          "title": "Design Systems from Scratch: A Small Team Playbook",
-          "url": "https://www.fordelstudios.com/research/design-systems-from-scratch-small-teams",
-          "source": "Fordel Studios",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "為 1-3 人的設計團隊設計的設計系統建立指南，切入點非常實用。最有價值的觀察：「2026 年一個人用 AI 工具可以勝過一個 3 人但不用 AI 的團隊——但前提是你底下要有一個真正的設計系統作為基礎，否則 AI 只是在幫你更快地製造不一致。」建立順序建議：先把顏色、字型、間距的 token 建好、再建最常用的 5-10 個 component、最後才考慮完整的 component library。這個順序和直覺相反，但對小團隊最有效率。"
-        }
-      ],
-      "buzz": "設計系統這週成為一個焦點：NNGroup 的新研究和幾篇實戰指南都指向同一件事——AI 工具讓小團隊（甚至 1 個人）可以維護一套真正有效的設計系統，但前提是你要先有正確的結構（尤其是 token）。設計系統不再是大公司的奢侈品，而是精簡工作室保持品質一致性的核心工具。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Yes! Apples rebrands to make the everyday fruit relevant again",
-          "url": "https://www.creativereview.co.uk/yes-apples-rebrand-blurr-bureau/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這個案子的挑戰本身就很有趣：如何幫「蘋果（水果）」這個最日常、最沒有差異化的農產品建立品牌識別？Blurr Bureau 為 Yes! Apples 打造了一套完整的品牌識別，從字型選擇、包裝設計到品牌語氣，目標是讓蘋果從超市貨架上的無差別商品，變成有個性、有故事、讓人願意指名購買的品牌。這個案子對工作室最有啟發的一點是：最難做的品牌設計往往是那些客戶說「我們賣的就是一個很普通的東西」的案子——而恰恰這種挑戰最考驗設計師找出差異化定位的能力。"
-        },
-        {
-          "title": "Annual Awards 2026 Design Shortlist",
-          "url": "https://www.creativereview.co.uk/annual-awards-2026-design-shortlist/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Creative Review 年度設計大獎 2026 的入圍名單正式出爐，涵蓋品牌識別、包裝設計、字型設計、環境設計等多個類別。入圍名單本身就是一份「今年最被業界認可的設計長什麼樣」的參考清單——從中可以看出評審委員認為什麼樣的設計決策值得被記錄和表彰。對工作室來說，這份名單適合快速瀏覽一遍，找出和自己接案方向相關的類別，再深入研究那些入圍作品。"
-        },
-        {
-          "title": "Dezeen teams up with global brands at Clerkenwell Design Week 2026",
-          "url": "https://www.dezeen.com/2026/05/18/clerkenwell-design-week-2026-talks-dezeen-villeroy-boch-andreu-world/",
-          "source": "Dezeen",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Clerkenwell Design Week 2026 於 5 月 19-21 日在倫敦登場，Dezeen 和多個全球品牌（包括 Villeroy & Boch 和 Andreu World）合作舉辦系列講座。這是歐洲最受關注的設計週活動之一，每年吸引大量設計師、品牌方和採購商參與，也是觀察歐洲品牌設計和家居設計方向的重要窗口。今年的主題聚焦在材料創新和永續設計，以及 AI 在產品設計流程中的角色。即使沒辦法親身參加，這週從 Dezeen 的活動報導可以快速了解今年的業界風向。"
-        },
-        {
-          "title": "DEUTZ unveils new global brand identity",
-          "url": "https://www.deutz.com/en/news/press-releases/news-detail/deutz-unveils-new-global-brand-identity/",
-          "source": "DEUTZ AG",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "德國引擎製造商 DEUTZ（成立超過 160 年）推出全新的全球品牌識別。這個案子值得關注的原因不是它的視覺有多搶眼，而是它示範了工業品牌如何在不失去既有客戶信任的前提下完成現代化。新的識別在保留品牌的穩定感和技術權威形象的同時，更新了在數位媒介（網站、社群、APP）上的視覺語言。這類「B2B 工業品牌的現代化更新」在台灣有很多類似的潛在客戶，是值得在提案資料庫中收藏的案例類型。"
-        },
-        {
-          "title": "Northern Design Festival returns in May",
-          "url": "https://www.creativereview.co.uk/northern-design-festival-lancaster-may/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國 Northern Design Festival 在蘭開斯特舉辦，是英格蘭北部規模最大的設計節，今年聚焦在「設計師如何在不確定的經濟環境中保持創作動力與商業生存」。幾個分享者討論了獨立設計工作室的定位策略、如何在接案和自主創作之間找到平衡、以及設計師社群的重要性。這類設計節的報導往往有很多從業者角度的真實分享，而不只是品牌方的宣傳材料，值得在 Creative Review 的完整報導出來後瀏覽一遍。"
-        }
-      ],
-      "buzz": "今天 Brand 側的線索比較分散，但有個共同的底色：如何幫「不性感」的事物建立品牌識別感。不管是蘋果（水果）、老牌工業設備製造商、還是地區性設計節，都在問同一個問題：如何讓本來不引人注意的東西，變得值得被記住。這類挑戰正在成為設計工作室最有價值的服務方向之一。"
     }
   }
 ]
