@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-01",
+    "daily_summary": "今天 Product 側 NNGroup 密集發布了幾篇相互呼應的長文，核心訊息很清楚：客戶不是在找「懂用 AI 的設計師」，而是在找「能幫他們做決策的設計師」——通才的回歸、研究資源的優先排序、顧問型設計師的定位，說的都是同一件事。Brand 側今天最值得讀的是巴西亞馬遜識別，FutureBrand 直接從衛星圖裡找字母形狀、長出一套活的字型系統，示範了品牌設計可以有多大的概念格局；Lacoste 和 4Creative 的案例則呼應了另一個趨勢：最好的品牌識別往往來自挖掘「已經在那裡的東西」，而不是從零創造。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Using RAS to Guide UX Research Resource Allocation and Strategy",
+          "url": "https://www.nngroup.com/articles/ras-research-resource-allocation/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 提出一個叫 RAS（Recommendation-Adoption Score）的研究資源分配框架——幫助設計主管把研究預算和資源投入到真正能影響決策的地方，而不是平均分配給每個項目。核心邏輯是：不是每一個研究發現都同等重要，真正重要的是那些會被採納並影響產品決策的發現。RAS 把研究的重心從「產出報告的數量」移向「建議被採納的比率」，強迫利害關係人討論的焦點從 output 轉向 outcome。對工作室的直接應用是：在跟客戶討論「這個研究做了什麼」時，不用再說「我訪了 10 個人、整理了 30 個 insight」，而是說「這個研究推動了哪個設計決策、節省了多少後期修改成本」——這才是讓客戶繼續投資研究的說服語言。"
+        },
+        {
+          "title": "The Return of the UX Generalist",
+          "url": "https://www.nngroup.com/articles/return-ux-generalist/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 的出現正在逆轉過去十年「設計師要專精化」的主流路線——NNGroup 分析數據後發現，被 AI 最快取代的恰好是那些深度專精單一執行技能的設計師，因為 AI 最擅長的就是有跡可循的重複工作。反而是能串連用戶研究、策略思考、系統設計、和商業判斷的通才型設計師，在 AI 時代的需求回升了。作者指出「通才」並不是什麼都做、做不深，而是能在不同層次之間快速切換、在複雜情境中找到全局觀的判斷力。對正在思考自己定位的設計師而言，這是一個重要的結構性訊號：深度與廣度的平衡點，正在往廣度端移動。"
+        },
+        {
+          "title": "State of UX 2026: Design Deeper to Differentiate",
+          "url": "https://www.nngroup.com/articles/state-of-ux-2026/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NNGroup 每年的 State of UX 報告，2026 年版的核心論點是：在 AI 大幅壓縮設計執行成本的情況下，表面的設計已經不再是差異化因素——真正的差異在於「研究深度」和「設計決策的根基有多扎實」。報告指出幾個結構性變化：資深職位和通才角色的需求正在回升，初階位置繼續供過於求；研究不只服務產品設計，也愈來愈被用來訓練和評估 AI 模型；以及「信任」取代「易用性」成為 AI 介面設計最核心的挑戰。這份報告適合收藏，在跟客戶談 2026 年的設計投資方向時是很有力的支撐素材。"
+        },
+        {
+          "title": "What UX Consulting Clients Expect in the Age of AI",
+          "url": "https://www.nngroup.com/articles/ux-consulting-ai/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 直接訪談了聘用 UX 顧問的決策者，問他們在 AI 時代對設計顧問的期待有沒有改變？結論很清楚：沒有改變太多——客戶還是在找有批判性思維、能做出整合性建議、給出明確方向的設計師，而不是一個幫他們整理 AI 輸出結果的人。最關鍵的一點是：客戶不想要「中立的促進者」，他們想要顧問綜合證據後給出有立場的建議。另一個重要發現是：客戶不缺 AI 工具，他們缺的是知道什麼時候用、用多少、哪些問題 AI 解決不了的判斷力——而這正是好的 UX 顧問能提供的核心價值。對工作室而言，這篇幾乎就是一份「如何讓客戶認為你有價值」的具體說明書。"
+        },
+        {
+          "title": "From Design to Direction: Bridging Product Design and AI Thinking",
+          "url": "https://uxdesign.cc/from-design-to-direction-bridging-product-design-and-ai-thinking-1d372707472d",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者 Bradly Zavakos 從 AI 的核心機制出發——feedback loop、intent、probability——來重新詮釋產品設計師的思維框架。這不是一篇技術文章，而是用 AI 的內部邏輯作為比喻，幫設計師重新理解自己工作的文章。核心論點是：設計師做的「迭代」和 AI 的「訓練」在邏輯上驚人地相似，理解 AI 如何運作，其實是在學習一種更清晰的設計語言。對設計師最直接的啟發是：把設計決策視為「一組在特定情境下的加權選擇」，而不是「一個要對的答案」——這種轉變讓設計師更容易跟工程師和 AI 產品團隊溝通，也更容易在不確定性中做出可以說清楚理由的決定。"
+        }
+      ],
+      "buzz": "NNGroup 這週主導了 Product 圈的討論，而且說的幾乎都是同一件事，只是從不同角度切入：AI 工具壓低了設計執行的門檻，但客戶真正在購買的是「判斷力和方向感」而非「產出物」。不管是通才的回歸、諮詢客戶的期待、還是研究資源的分配方式，最終都指向同一個對設計工作室有利的趨勢：越能說清楚「為什麼」的設計師，越難被取代。這批文章值得整理成提案素材，下次跟客戶談顧問費的時候用得上。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Inside Lacoste's new visual identity",
+          "url": "https://www.creativereview.co.uk/lacoste-new-visual-identity-commission-studio/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Lacoste 委託倫敦設計工作室 Commission Studio 重新設計品牌識別，策略核心是「從傳承中找到前進的路」——既不想徹底翻新嚇跑老顧客，也不想只是「清潔版更新」失去品牌張力。新字標更為幾何、更有當代感，而最標誌性的鱷魚 logo 則被仔細重新繪製但保留了核心精神。Commission Studio 的做法是先研究 Lacoste 所有歷史版本的視覺語言，再從中找到那些「夠當代、同時夠 Lacoste」的元素作為新識別的基礎。這個案例對接有傳承品牌的工作室特別有參考價值：如何在客戶既想改、又怕改太多的情況下找到有說服力的方向，是許多品牌更新案的核心難題。"
+        },
+        {
+          "title": "4Creative cuts out visuals from the UK's most iconic TV shows to make its new identity",
+          "url": "https://www.itsnicethat.com/articles/4creative-rebrand-graphic-design-project-070526",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國電視台 Channel 4 的內部創意工作室 4Creative 用了一個極具巧思的方式做自己的品牌更新：從 Channel 4 播出過的最經典節目——The Great British Bake Off、Peep Show、Educating Yorkshire 等——截取視覺素材，重新組構成 130 個不同的 logo 版本。這套系統的概念很強：品牌識別不是一個靜態的 logo，而是媒體本身的歷史積累——每一個 logo 都在說「我播過這個」。這個做法示範了一個重要的品牌設計思維：品牌資產不一定要從零創造，挖掘客戶既有的素材往往能做出最有說服力的識別——特別是當客戶本身有豐富的歷史和內容資產的時候。"
+        },
+        {
+          "title": "The Brazilian Amazon gets historic new brand identity",
+          "url": "https://www.creativereview.co.uk/brazilian-amazon-brand-identity-futurebrand-sao-paulo/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "FutureBrand São Paulo 受巴西旅遊局委託，為整個法定亞馬遜地區（涵蓋巴西 9 個州、60% 的國土、2800 萬人口）打造史上第一套統一品牌識別。最令人難忘的設計決策是字型的來源：設計師直接從亞馬遜河流及其支流的衛星圖中，逐一找出字母的形狀，讓整套字型系統真的「長自」當地的地景。此外，識別還包含一個「Feito de Amazônia（亞馬遜製造）」印記系統，讓當地製品可以用品牌認證來提升市場價值。這個案例被 Creative Review、Design Week、Creative Moment 多個媒體同時報導——它示範了品牌設計可以有多大的概念格局：識別系統不只是視覺，而是一個地區身份認同的建構工具。"
+        },
+        {
+          "title": "How being weird can save branding in 2026",
+          "url": "https://www.creativeboom.com/insight/how-being-weird-can-save-branding-in-2026/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Mother Design 的設計總監 Bentzion Goldman 直說：「過去 12 個月，品牌設計變得太安全、太消毒、太無聊。」他的論點是：當所有人都在「risk-off」的品牌策略下做安全的選擇，真正的機會正好就在另一邊——大膽、甚至「奇怪」的品牌反而能在過度整齊的市場裡脫穎而出。他列舉了品牌設計同質化的幾個原因：過度依賴消費者測試把個性磨掉、設計決策過多委員會參與、以及「品牌安全」被誤解為「品牌膽小」。對工作室有兩個面向的價值：一是在做提案時，作為支持「不一樣選擇」的論據；二是在思考工作室自身品牌定位時，一個有用的自問框架——我們的品牌夠「weird」嗎？"
+        },
+        {
+          "title": "Why motion is the future of brand identity, and how to do it right",
+          "url": "https://www.creativeboom.com/insight/why-motion-is-the-future-of-brand-identity-and-how-to-do-it-right/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇從實務角度分析了為什麼靜態識別已經不夠用——品牌在 Instagram Reels、網站動態、數位廣告等場景都需要一套動態語言。作者的核心論點是：motion 不是讓靜態識別「動起來」就好，而是必須從品牌策略層面思考動態行為——品牌的動作快還是慢？有機還是機械？這些選擇和 logo 形狀、顏色選擇一樣，都在傳遞品牌的個性和立場。文章給出了幾個實際執行的建議：先定義品牌的動態原則（而不是先做 motion design），再從最高頻的使用情境開始建立動態語言庫。對工作室的啟發是：如果你的品牌識別交付物裡沒有 motion guidelines，你的客戶可能正在接下來的一年裡把識別做壞——這個服務缺口，也是工作室可以主動提議的加值項目。"
+        }
+      ],
+      "buzz": "今天 Brand 圈有兩條並行的討論軸：一是「怎麼做出有個性的品牌」（Mother Design 喊出 weird branding、4Creative 用 130 個 logo 做歷史致敬）；二是「品牌的時間維度」——Lacoste 從傳承中找前進的路、巴西亞馬遜用地景長出字型，都在說「品牌的根在哪裡」。加上 motion 的討論，這週 Brand 給設計師最清晰的訊號是：單純的靜態 logo 已經不足以交付一個完整的品牌識別，品牌的「行為方式」和「時間感」正在成為識別系統的必要組成。"
+    }
+  },
+  {
     "date": "2026-05-28",
     "daily_summary": "今天 Product 側的主軸是「設計師在 AI 之後的差異化」——NNGroup 和 UX Collective 都在回答同一個問題，最值得注意的是「AI Agents as Users」這個新視角：你的產品未來有兩種用戶，人類和 AI agent，兩者對 UX 的要求不一樣。Brand 側今天的焦點是 Young Vic 的新識別——Creative Review、Creative Boom、Design Week 同時報導，代表業界都在談，因為它把「抵抗演算法」做成了可操作的視覺語言，這正是很多文化品牌正在尋找的答案。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "這週 Brand 圈有兩條值得注意的線：一是系統層面的討論——OpenAI 品牌整合示範了快速成長的組織如何把視覺語言收斂，Design Bridge 那篇則是給所有做品牌案的設計師最真實的現實感提醒。二是品牌作為「世界建構」的概念：ICL 識別用一個字母說三件事、Fortnum's 的 Biscuitorium 從一口老時鐘長出整個品牌宇宙——好的品牌不是一個 logo，是一套可以持續延伸的語言。"
-    }
-  },
-  {
-    "date": "2026-05-21",
-    "daily_summary": "今天 Product 側有一篇很實用的文章：Smashing Magazine 整理了 10 個有數據支撐的 UX ROI 事實，是跟客戶說明設計投資價值的好素材——「頁面慢 1 秒，轉換率降 20%」這類數字說服力很強。另一篇 Smashing Magazine 的無障礙設計文章也值得讀，歐洲法規化趨勢讓這個議題從「最佳實踐」變成「必做」。Brand 側今天的焦點是正在發生的事：Clerkenwell Design Week 2026 今天是最後一天，歐洲設計圈本週的風向報導陸續出現。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Ten Data-Backed Truths Of User Experience ROI",
-          "url": "https://www.smashingmagazine.com/2026/05/data-backed-truths-user-experience-roi/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇整理了 10 個有硬數據支撐的 UX 投資回報事實，是跟客戶說明「為什麼好的設計值得花錢」最有說服力的一份素材。幾個特別有用的數字：頁面慢 1 秒，轉換率降 20%、滿意度降 16%；手機載入從 1 秒延遲到 3 秒，跳出率暴增 32%；Forrester 研究顯示採用用戶測試的企業，三年內顧客留存率提升最高達 10.8%；修復一個設計問題若在原型階段做，比產品上線後再修成本低 100 倍。這份資料適合直接存起來，下次提案時整合進你的開場論述。"
-        },
-        {
-          "title": "How Can We Reclaim Design For Everyone? Nine Personas For Accessibility",
-          "url": "https://www.smashingmagazine.com/category/accessibility/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者 Alan Dalton 提出了 9 個可以在每個設計專案中使用的 persona 框架，幫助設計師在整個設計流程中主動識別無障礙問題，而不是等到最後階段才做「無障礙修正」。這 9 個 persona 涵蓋視覺、聽覺、認知、肢體等不同的障礙情境，讓無障礙設計從一個「額外任務」變成設計思考的一部分。背景值得注意：歐洲的 European Accessibility Act 在 2025 年開始生效，讓無障礙從最佳實踐正式變成法規要求，這個趨勢正在從歐洲蔓延到全球市場。"
-        },
-        {
-          "title": "45+ UX Statistics Nobody is Talking About: Real 2026 Data",
-          "url": "https://arounda.agency/blog/ux-statistics",
-          "source": "Arounda",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "超過 45 個 2026 年實際調查數據的整理，聚焦在那些業界常引用但鮮少有人追溯來源的 UX 統計數字。幾個讓人意外的發現：88% 的用戶在一次糟糕的體驗後不會回來；設計師和工程師比例 1:8 的公司，顧客滿意度平均比 1:25 的公司高出 32%；以及 AI 功能的採用率在「能清楚解釋 AI 在做什麼」的產品中，比不透明的 AI 產品高出 3 倍。這篇的價值在於它每個數字都附了原始研究來源，讓你在提案或報告裡引用時有可信度。"
-        },
-        {
-          "title": "Aligning UX Metrics with Organizational Goals: A Workshop Guide",
-          "url": "https://www.nngroup.com/articles/ux-metrics-goals/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 的工作坊指南，專注在一個很多設計團隊都做不好的事：把設計的成效指標和組織的商業目標連結起來。文章提供了一個可以直接使用的工作坊流程：先讓利害關係人說出他們在意的商業目標，再把這些目標拆解成可以被設計影響的用戶行為指標，最後建立可以定期追蹤的測量機制。對工作室最直接的應用是：在接案的啟動會議上用這個流程，可以讓你和客戶從一開始就對「什麼叫做這個案子成功」有共識，避免交付後的落差。"
-        },
-        {
-          "title": "Clerkenwell Design Week 2026 considers the creation and consumption of design",
-          "url": "https://www.stirworld.com/see-features-clerkenwell-design-week-2026-considers-the-creation-and-consumption-of-design",
-          "source": "Stirworld",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Stirworld 對 Clerkenwell Design Week 2026 的深度報導，今年活動的主題是「設計的創造與消費」——在 AI 大量加速設計生產的時代，重新思考設計師、品牌、和消費者之間的關係。活動呈現了幾個值得注意的趨勢：可持續材料的創新（用倫敦咖啡廢料製成的磚材、土耳其採石場廢料做的磨石子）、以及「未來工作空間」的設計方向——後疫情時代的辦公室設計正在從「有人坐的地方」轉向「值得特地前往的場所」。這是每年觀察歐洲設計趨勢的重要窗口。"
-        }
-      ],
-      "buzz": "今天 Product 側的主題是「如何讓設計的價值被看見」——兩篇有數據支撐的文章都在解決同一個問題：設計師知道好的設計有價值，但如何對說不懂設計的人說清楚？把 UX 的投資連結到可量化的商業結果，是 2026 年設計師最需要的一項非設計技能。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Highlights from the final day of Clerkenwell Design Week 2026",
-          "url": "https://design-milk.com/highlights-from-the-final-day-of-clerkenwell-design-week-2026/",
-          "source": "Design Milk",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Clerkenwell Design Week 今天（5/21）是最後一天，Design Milk 整理了本屆最值得記錄的設計亮點。幾個今年特別突出的方向：品牌展示從「展示產品」轉向「創造體驗」，很多品牌把展示空間變成沉浸式的品牌敘事場景；可持續材料正在從「環保賣點」變成「審美選擇」，設計師開始把回收材料的質感當成一種美學語言；以及工作空間設計的「目的地化」——在家工作讓辦公室必須成為值得特地前往的場所，而不只是工位的集合。"
-        },
-        {
-          "title": "Clerkenwell Design Week 2026: must-see moments",
-          "url": "https://www.elledecoration.co.uk/design/events/a71269940/clerkenwell-design-week-2026-guide/",
-          "source": "Elle Decoration",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Elle Decoration 的 CDW 2026 導覽，從室內設計和品牌展示的角度整理本屆最值得關注的展覽和裝置。今年的主題是材料和感官體驗：觸感、氣味、聲音在展示設計中的比重明顯提升，品牌不再只靠視覺傳遞訊息，而是設計出一種「可以被身體記住」的體驗。這個趨勢和 Brand 圈討論的「感官品牌」方向高度一致——視覺識別是品牌的第一層，但品牌體驗才是留得住的層次。"
-        },
-        {
-          "title": "MillerKnoll at Clerkenwell Design Week 2026: Unveiling Future-Forward Workplace Designs",
-          "url": "https://news.millerknoll.com/2026-05-19-MillerKnoll-Brands-at-Clerkenwell-Design-Week-2026-Unveiling-Future-Forward-Workplace-Designs",
-          "source": "MillerKnoll",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "MillerKnoll（旗下包含 Herman Miller、Knoll 等品牌）在 CDW 2026 的展示以「未來工作空間」為主題，推出了幾個針對不同工作情境設計的新系列。最有意思的觀察是：他們把「適應性」（adaptability）而不是「靈活性」（flexibility）定義為未來辦公室設計的核心——不只是空間可以被重新配置，而是整個環境可以根據使用者的即時需求在行為和氣氛上做出回應。這個品牌在工作空間設計領域的思路，值得在談辦公空間或工作室設計案時參考。"
-        },
-        {
-          "title": "The Best Brand Design Agencies in 2026",
-          "url": "https://www.awesomic.com/blog/brand-design-agencies",
-          "source": "Awesomic",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "2026 年值得關注的品牌設計工作室整理，涵蓋不同規模和專長方向。這篇對工作室有兩個面向的價值：一是競爭者研究（了解同類型工作室在做什麼、怎麼定位自己）；二是潛在合作伙伴的靈感（有些優秀的工作室可能是可以策略合作而非競爭的對象）。報告特別指出 2026 年的趨勢是工作室的「垂直專業化」加速——泛設計工作室愈來愈難競爭，有鮮明行業或美學定位的工作室反而佔上風。"
-        },
-        {
-          "title": "Bisley group unveils 'the layers of design' at Clerkenwell Design Week 2026",
-          "url": "https://www.interiordaily.com/article/9833140/bisley-group-unveils-the-layers-of-design-at-clerkenwell-design-week-2026/",
-          "source": "Interior Daily",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Bisley 在 CDW 2026 的展示以「設計的層次」為主題，探討一個物件從材料到成品的設計決策鏈。展示把每一個設計決策「翻開」給參觀者看，讓人理解好的設計為什麼不只是外觀，而是每一層決策的累積——材料選擇、結構邏輯、使用行為、維護方式。這種「讓設計決策透明化」的展示方式，本身就是一個很好的品牌溝通策略——讓客戶「看見」設計的工作量和思考深度，而不只是看見最終成品。"
-        }
-      ],
-      "buzz": "Clerkenwell Design Week 2026 今天是最後一天，整週的歐洲設計圈風向逐漸清晰：感官體驗設計（觸感、氣味、聲音）從趨勢變成主流展示語言；可持續材料的美學化正在加速；工作空間設計的「目的地化」是今年最有共識的方向。這些趨勢比較慢會反映在台灣市場，但對工作室做國際視野的提案很有參考價值。"
     }
   }
 ]
