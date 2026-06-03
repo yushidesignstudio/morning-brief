@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-03",
+    "daily_summary": "今天 Product 側幾乎清一色在討論同一件事：Agentic AI 正在根本改變設計師在做什麼——從 John Maeda 的 UX→AX 框架、到 Adrian Levy 說你現在是「principal」而不是「user」、到 Smashing Magazine 警告別當「prompt 操作員」，這週的訊號非常一致，設計師的工作從介面設計轉向監督架構設計。Brand 側今天最值得讀的是 It's Nice That 剛出爐的 Oneplus 工作室側寫（6/2 發布）——他們把品牌設計定義為「挖掘」而非「發明」，是今年最清楚說明研究型設計哲學的一篇，而 Snask 幫 Vivantis 做的品牌更新銷售額成長 30%，是難得的品牌投資有直接商業回報的具體案例。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "You are no longer the user. You are the principal.",
+          "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Adrian Levy 指出了一個設計師幾乎都沒有意識到的身份轉變：隨著 Google Gemini Spark 這類個人 AI agent 開始全天候在雲端「代你工作」，你在數位系統裡的角色從「user（使用者）」變成了「principal（委託人）」。這個詞在法律和組織架構中代表「授權他人代為行事的人」——你不再親自操作介面，而是給出指令讓 agent 去執行。設計的問題從「如何幫用戶做到這件事？」轉為「如何幫用戶知道這件事被做得對不對？」——從 execution 到 evaluation 的設計挑戰。作者用這個框架直接問了產品設計師：你接下來的十年，還在設計選單、提示和 onboarding，還是要開始設計「工作在你名義下發生的那個房間」？這篇是目前最清楚說明 agentic 時代設計師角色轉變的文章之一。"
+        },
+        {
+          "title": "The UX Designer's Nightmare: When \"Production-Ready\" Becomes A Design Deliverable",
+          "url": "https://www.smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "有些公司的 JD 和設計主管開始要求設計師不只交付視覺稿，還要用 AI 工具生成「可直接上線的程式碼」——彷彿用 Claude 或 Cursor 就讓設計師「等於」工程師。作者從真實案例記錄了這個轉變的代價：使用 AI 生成程式碼的設計師交付量增加，但工程師每次 PR 的意外事故率上升 23.5%，多了大量「AI slop 清理」工作。真正的危機是市場正在混淆「能用 AI prompt 出可運行的 code」和「理解 code 背後設計邏輯」之間的根本差異。作者的立場清楚：能在 AI 時代存活的設計師是「用戶體驗的守護者」，而不是「prompt 的操作員」——這篇值得在跟客戶或老闆談「設計師的邊界在哪裡」時拿出來引用。"
+        },
+        {
+          "title": "Design in Tech Report 2026: From UX to AX",
+          "url": "https://johnmaeda.medium.com/design-in-tech-report-2026-from-ux-to-ax-f9d83164f4d2",
+          "source": "Medium / designintech.report",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "John Maeda 在 SXSW 2026 發布的年度 Design in Tech Report，主題是設計師必須理解的最大結構轉移：從 UX（User Experience）到 AX（Agentic Experience）。在 UX 的世界，設計師的問題是「如何幫用戶做到這件事？」；在 AX 的世界，問題變成了「如何幫用戶知道這件事被做得對不對？」——因為 AI agent 已經在代替用戶做事，設計師的工作轉向「做事情之後的評估介面」。報告還提出 agent 的本質是一個 loop：行動 → 結果 → 回饋 → 修正，理解這個迴圈是 AX 設計的起點。這份報告是今年設計圈最被廣泛引用的框架之一，建議把它放進你的「和客戶或團隊解釋 AI 設計方向」的素材庫。"
+        },
+        {
+          "title": "Agentic AI, design systems & Figma: a practical guide",
+          "url": "https://uxdesign.cc/agentic-ai-design-systems-figma-a-practical-guide-6ab0b681718d",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Christine Vallaure 結合 Brad Frost（Atomic Design 作者）、Dominic Nguyen（Chromatic 共同創辦人）和 Storybook 團隊，以 live session 示範 AI agent 如何和設計系統互動：給一個 prompt「新增一個客戶評論元件」，agent 自動找到現有的 Star、Typography、Avatar 元件，讀取它們的 props 和狀態，組合出新元件並附測試程式碼。這個示範回答了設計師的核心疑問：設計系統在 AI 時代的角色是什麼？答案是：設計系統讓 AI agent 能「讀懂」你的元件庫，是 agentic 工作流的基礎建設。對工作室的直接啟發是：維護清晰、有結構的設計系統，不只是對人類設計師有好處，也是為未來 AI 協作流程在打地基。"
+        },
+        {
+          "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
+          "url": "https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計師在接 AI agent 產品案時最需要的實務框架：如何設計出讓用戶保有控制感（Control）、感到被告知（Consent）、以及在事後能追責（Accountability）的 agentic 介面。文章整理了幾個常用的 UX 設計模式：設定清晰的「agent 行動範圍」邊界讓用戶有掌控感、在關鍵行動前設計確認步驟（而不是讓 agent 全自動執行）、以及提供可讀的行動日誌讓用戶理解 agent 做了什麼。這篇對工作室有非常直接的實用價值：當客戶說「我想做一個 AI agent 幫用戶自動做 XYZ」，這篇是你拿來跟他討論「你的 agent 應該有多自動、在哪裡應該停下來問人」的最佳起點，也是提案文件裡展示設計思維深度的好素材。"
+        }
+      ],
+      "buzz": "「Agentic AI 怎麼設計」這週在 Product 圈達到一個臨界點——從 Maeda 的宏觀框架（UX→AX）、到 Adrian Levy 說你現在是「principal」而非「user」、到 Smashing Magazine 的實務設計模式，說的都是同一件事：AI agent 代替用戶做事之後，設計師的工作從介面設計轉向監督架構設計。這套思維目前還沒有成熟的方法論、主流工具也還沒有完整支援，但客戶已經開始問了——現在開始建立自己的 agentic UX 方法論，是今年設計師最值得投資的一件事。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Why design studio OnePlus treats branding like cultural excavation, not invention",
+          "url": "https://www.itsnicethat.com/articles/oneplus-graphic-design-discover-020626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "義大利設計工作室 Oneplus（2023 年創立，六位設計師共同創辦）的工作方法側寫——他們把品牌設計定義為「挖掘（excavation）」而不是「發明（invention）」：每個品牌的核心視覺語言其實早就存在於它的文化、歷史和所在場域中，設計師的工作是「找出它」而不是「創造它」。工作室的研究過程被描述為：找到「參考、行為和符碼開始重疊的那個文化和視覺核心」——在那個核心點上，識別系統自然會浮現出來。他們主要在出版和視覺識別系統領域工作，研究是整個實踐的中心。這篇對工作室有直接的方法論參考價值：不是每次接案都要從靈感板出發，而是可以從「品牌的文化考古」出發——對客戶而言，這個角度往往能挖出比表面視覺更有說服力的設計方向，也是讓提案更有深度的關鍵。"
+        },
+        {
+          "title": "New Logo and Identity for Interbrand done In-house",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_interbrand_done_in_house_2026.php",
+          "source": "Brand New (UnderConsideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "全球最大、最知名的品牌顧問公司 Interbrand 自己做了一套新識別——而且是 in-house 完成的，沒有委外。這件事本身就是一個值得觀察的訊號：作為全球品牌設計的標竿機構，Interbrand 選擇相信自己的內部設計能力。對品牌設計圈而言，這個案子有兩個看點：一是識別本身的設計選擇，Interbrand 怎麼詮釋「好的品牌識別」；二是在 AI 讓設計工具民主化的時代，大型顧問公司的品牌策略是否也在內化（in-house 化）？Interbrand 的選擇可能預示著一個趨勢：當 AI 工具降低了品牌設計的執行門檻，擁有清晰品牌觀點的機構，會更傾向於自己主導整個過程。"
+        },
+        {
+          "title": "Snask refreshes identity of beauty brand Vivantis",
+          "url": "https://www.creativereview.co.uk/snask-branding-beauty-brand-vivantis/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "瑞典創意工作室 Snask 為歐洲美妝品牌 Vivantis 打造新識別，概念核心是「Hello gorgeous」——一句充滿自信和歡迎感的開場白，定義了整套品牌語氣和視覺系統。Snask 以風格鮮明、拒絕無聊著稱，這個案子延續了他們一貫的大膽風格：高飽和色彩、強烈的字型選擇、以及直接面向消費者說話的語氣。最值得注意的是成效數字：自新識別上線以來，Vivantis 的銷售額成長了 30%——這是一個相對少見的「品牌投資有直接商業回報」的具體案例，對工作室在跟客戶談「為什麼要投資品牌」時，這種有數字支撐的案例遠比純審美論述更有說服力。"
+        },
+        {
+          "title": "Design resource platform Envato launches new logo and sonic identity",
+          "url": "https://www.creativeboom.com/news/envato-launches-new-brand-identity/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計資源平台 Envato（ThemeForest、Envato Elements 的母公司，已被 Shutterstock 收購）推出新識別，核心是一個叫「Creative Spark」的符號設計——象徵能量和動態，以及代表個別創作者在世界留下印記的「Dynamic Dot」。這個案子有幾個值得觀察的面向：首先是被收購後的品牌整合策略，Envato 如何在 Shutterstock 旗下同時維持自己的身份認同；其次，這是一個「設計師服務設計師」的案子，一個賣設計資源的平台如何用自己的品牌說服設計師相信它的審美眼光；第三，「sonic identity（聲音識別）」被納入這套識別系統，再次提醒品牌識別已從視覺延伸到多感官體驗。"
+        },
+        {
+          "title": "BBH's new visual identity harks back to its founding ethos",
+          "url": "https://www.creativereview.co.uk/bbh-agency-new-visual-identity-typefaces-sheep-ad/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "BBH（Bartle Bogle Hegarty）——以 1982 年那個「走反方向的黑羊廣告」起家的英國廣告傳奇工作室——在創立 44 年後第一次做了重大品牌更新，合作對象是倫敦字型工作室 Studio Drama。新識別的核心是三套以創辦人名字命名的訂製字型：Bartle、Bogle、Hegarty——全部以 Google Fonts 開源免費釋出。識別的設計原則是「用字型把 BBH 的精神傳遞出去」，而不是用圖像或符號。這個案子同時被 Creative Review 和 It's Nice That 報導，一個廣告工作室用自己的 rebrand 示範「品牌識別是對創辦信念的重新宣示」，而且選擇開源共享而非保護知識財產——這個選擇本身就是一種很清楚的品牌立場表態，也說明了為什麼這次 rebrand 在業界引發了真正的討論。"
+        }
+      ],
+      "buzz": "這週 Brand 圈有一個有趣的「後設」主題：品牌設計工作室在重新定義自己——Oneplus 說品牌是「挖掘」不是「發明」，BBH 用 44 年後的第一次 rebrand 重申創辦精神，Interbrand 則用 in-house 設計展示自信。同時，Snask/Vivantis 的 +30% 銷售成長數字是今天最值得留存的素材：品牌投資不只是審美決策，是可以被量化的商業投資——這句話，在下次跟客戶談設計費的時候，比任何美學論述都更有力量。"
+    }
+  },
+  {
     "date": "2026-06-01",
     "daily_summary": "今天 Product 側 NNGroup 密集發布了幾篇相互呼應的長文，核心訊息很清楚：客戶不是在找「懂用 AI 的設計師」，而是在找「能幫他們做決策的設計師」——通才的回歸、研究資源的優先排序、顧問型設計師的定位，說的都是同一件事。Brand 側今天最值得讀的是巴西亞馬遜識別，FutureBrand 直接從衛星圖裡找字母形狀、長出一套活的字型系統，示範了品牌設計可以有多大的概念格局；Lacoste 和 4Creative 的案例則呼應了另一個趨勢：最好的品牌識別往往來自挖掘「已經在那裡的東西」，而不是從零創造。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "Young Vic 的品牌更新今天同時出現在 Creative Review、Creative Boom 和 Design Week——多媒體同步報導代表它戳到了某個重要的神經。「抵抗演算法」作為品牌定位，不只是劇場的問題，任何在數位時代強調「現場、真實、人與人」的品牌都面對同樣的挑戰。同時，ITV 和 Adobe 的品牌更新示範了「如何在品牌系統成熟後做有信心的收斂」——這週 Brand 圈給了設計師兩種思路：一個是找到強烈的對立面（Young Vic vs. 演算法），一個是做自信的系統整合（ITV、Adobe）。"
-    }
-  },
-  {
-    "date": "2026-05-24",
-    "daily_summary": "今天 Product 側有一個清楚的主旋律：AI 工具讓「做設計」普及了，但「設計判斷」反而更難被取代——從空白狀態設計、到 AI 功能的優先順序，UX Collective 幾篇都在拆解同一件事。Brand 側有兩個收穫：OpenAI 品牌大整合是系統收斂的教科書案例，Design Bridge 那篇「品牌系統在不完美世界裡如何存活」對接案工作室有非常直接的實戰參考價值。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The death of the empty state in AI products",
-          "url": "https://uxdesign.cc/the-death-of-the-empty-state-in-ai-products-2026-e11439fbb688",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 產品進入市場的方式幾乎把過去 20 年積累的空白狀態設計知識全數拋棄——用戶打開 app，迎面而來的只有一個 prompt 框，沒有引導、沒有範例、沒有情境說明。作者 Adi Leviim 分析了幾個 AI 產品的第一次使用流失數據，指出 onboarding 危機正在發生。問題的根源是：傳統 app 的空白狀態是可預測的設計問題（用戶還沒有資料），AI 產品的空白狀態是認知問題（用戶不知道要說什麼）。解法不是在 prompt 框旁加一段說明文字，而是重新思考 AI 產品第一次體驗的整個設計框架。"
-        },
-        {
-          "title": "AI made everyone a creator, not a designer",
-          "url": "https://uxdesign.cc/ai-made-everyone-a-creator-not-a-designer-e28deb6e603b",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "生成 AI 壓縮了從意圖到執行的距離——v0、Cursor、Claude Code、Midjourney 讓任何人都可以在幾秒內產出介面、原型和動態概念。作者 Aurélie Radom 問的核心問題是：當「創作」被大眾化之後，「設計」到底還剩什麼？她的答案是：創作者產出，設計師決策——在無限可能的選項中知道為什麼選這個、不選那個，才是設計師真正的稀缺能力。這個論點對正在思考自己在 AI 時代定位的設計師有很直接的參考價值。"
-        },
-        {
-          "title": "UX Design 2026+: From producing to deciding, from craft to operation",
-          "url": "https://medium.com/@uxraspberry/ux-design-2026-from-producing-to-deciding-from-craft-to-operation-e9c7ea6b1803",
-          "source": "UX Collective / Medium",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇提出一個正在發生的角色轉移：設計師從「生產者」變成「決策者」，從 craft（手藝）轉向 operation（操作）。繁瑣的視覺執行愈來愈多被 AI 工具承接，設計師的工作時間正在重心轉移——更少時間在「做出來」，更多時間在「判斷哪個是對的」。作者認為這個轉變的核心挑戰不是技術學習，而是心態調適：接受「不親手做」不等於「放棄設計」。對一個人要扛多個專案的接案設計師而言，這個視角尤其直接。"
-        },
-        {
-          "title": "We built this. Now we own it. The dark side of 'user-friendly' AI.",
-          "url": "https://uxdesign.cc/we-built-this-now-we-own-it-1f8f1ba7c768",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師花了大量時間把 AI 產品做得更「友善」——更流暢的介面、更引導性的提示、更低的使用門檻。但 Patrizia Bertini 的問題是：當 AI 被設計得太好用，是不是同時在讓用戶放棄了某種自主思考的能力？這篇從設計倫理角度切入，討論「user-friendly」的黑暗面——友善的介面有時候是在幫用戶繞過思考，而設計師是這個過程的共謀。在 AI 產品設計需求快速成長的現在，這篇是一個有價值的反向視角，也是接案時和客戶討論 AI 功能倫理邊界的好素材。"
-        },
-        {
-          "title": "You skipped the first question. Now you're adding AI.",
-          "url": "https://uxdesign.cc/you-skipped-the-first-question-now-youre-adding-ai-e3d70fc80e90",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "在很多產品團隊裡，「加入 AI 功能」已成為解決所有問題的預設答案——用戶留存不好？加 AI 個人化。轉換率低？加 AI 推薦。作者 Adrian Levy 的論點是：這些產品往往連最基本的問題都還沒答清楚，就急著疊 AI。他說的「第一個問題」是：用戶的真正目標是什麼、這個產品為什麼存在？這個切入點對工作室很實用——在提案或顧問階段可以拿來幫客戶釐清「AI 功能到底在解決什麼問題」，也是說服客戶先做清楚策略再做 AI 功能的最好論據之一。"
-        }
-      ],
-      "buzz": "這週 UX Collective 幾乎清一色圍繞同一個焦慮：AI 讓「做設計」變得容易，但「為什麼這樣設計」的判斷力才是沒被稀釋的核心能力。從空白狀態被拋棄、到設計師變成創作者、到加 AI 功能前忘記問基本問題，幾篇文章都在拆解同一個問題：工具加速了，但思考有沒有跟上？對工作室而言，這個討論也是接案提案的核心論點——設計判斷力，才是客戶真正在買的東西。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "The Click's clever university branding puts the 'I' in identity, individual and Imperial College London",
-          "url": "https://www.itsnicethat.com/articles/the-click-imperial-college-london-graphic-design-project-200526",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國品牌工作室 The Click 受 Imperial College London 委託，目標是做出「更有膽識、不只是更大聲」的識別。以「I」為核心的視覺語言同時承載了 identity、individual、Imperial College London 三個意義層次，在高等教育品牌普遍保守的市場裡做出了清晰的差異化。識別的特點是透過「I」字母形態的視覺關聯，讓所有元素產生即時識別感，同時保留足夠彈性應對不同的傳播場景。這個案子示範了「由概念出發的品牌邏輯」——不是先決定好不好看，而是先找到一個有力量的核心語意。"
-        },
-        {
-          "title": "OpenAI's brand refresh subtly signals a new era",
-          "url": "https://www.creativereview.co.uk/openai-brand-refresh/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "OpenAI 最大的品牌挑戰是成長太快——產品線擴張的速度遠超品牌系統的建立速度，導致不同產品之間的視覺語言嚴重不一致。這次整合聯手 Studio Dumbar/Dept 和柏林字型廠牌 ABC Dinamo，核心工作是把散落各產品線的視覺語言收斂成一套系統，並推出訂製字型 OpenAI Sans。新識別的關鍵視覺元素是一個跨尺度使用的「藍色脈衝圓盤」，作為 ChatGPT 語音功能的視覺表徵。這個案例對工作室有兩層啟發：一是快速成長的品牌如何做識別整合，二是 AI 公司的品牌策略正在從「強調技術」轉向「建立人性感」。"
-        },
-        {
-          "title": "How to make brand systems work in an imperfect world",
-          "url": "https://www.creativereview.co.uk/brand-systems-imperfect-world-design-bridge/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "完美的品牌系統在提案時看起來很好，但到了實際執行，就會遇到組織政治、跨部門失控、預算壓力、以及不同承辦窗口的詮釋差異。Design Bridge 的策略師分享了讓品牌系統在混亂中依然有效的幾個核心做法：建立「彈性邊界」而不是「剛性規則」、培養內部品牌大使、以及讓品牌指南從一份 PDF 變成一套活的決策框架。對工作室最直接的啟發是：品牌識別交付不是終點，幫客戶建立可以自行維護的機制，才是真正的設計服務。接案設計師必讀。"
-        },
-        {
-          "title": "Design Bridge and Partners crafts biscuit brand world for Fortnum's",
-          "url": "https://www.creativereview.co.uk/design-bridge-and-partners-biscuitorium-branding-fortnum-and-mason/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Fortnum & Mason 在倫敦旗艦店推出餅乾主題零售空間 The Biscuitorium，Design Bridge and Partners 負責從命名到整套視覺識別的品牌設計。識別的核心是從店內 1964 年老時鐘汲取靈感的圖形元素，讓品牌的歷史感以輕鬆方式出現在包裝、數位媒介和實體空間中。這個案子展示了「品牌世界建構」的完整工作：不只是做一個 logo，而是設計一個可以被延伸、被消費者進入和感受的品牌宇宙。在高端零售品牌競爭激烈的市場，能否建立有獨特質感的品牌語言，往往是決定客人「路過」還是「朝聖」的關鍵。"
-        },
-        {
-          "title": "Can design help FIFA stage its own comeback?",
-          "url": "https://www.creativereview.co.uk/fifa-world-cup-2026-branding-reputation/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "FIFA 因腐敗醜聞在過去十年幾乎失去全球體育迷的信任，2026 世界盃即將在北美登場，這是一個關鍵的形象重建時刻。Creative Review 分析了 FIFA 的品牌挑戰：當一個組織的形象問題是結構性的（不是視覺的），設計能做什麼？核心論點是：設計可以傳遞意圖，但不能取代行動——如果 FIFA 不改變實際行為，再好的識別只會加劇不信任感。這個案例對工作室有一個重要的提醒：當客戶想用「換 logo」解決「形象問題」，作為設計師要有能力分辨哪些問題是設計可以解決的、哪些不是。"
-        }
-      ],
-      "buzz": "這週 Brand 圈有兩條值得注意的線：一是系統層面的討論——OpenAI 品牌整合示範了快速成長的組織如何把視覺語言收斂，Design Bridge 那篇則是給所有做品牌案的設計師最真實的現實感提醒。二是品牌作為「世界建構」的概念：ICL 識別用一個字母說三件事、Fortnum's 的 Biscuitorium 從一口老時鐘長出整個品牌宇宙——好的品牌不是一個 logo，是一套可以持續延伸的語言。"
     }
   }
 ]
