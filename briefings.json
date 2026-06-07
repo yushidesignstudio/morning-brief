@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-07",
+    "daily_summary": "本週 Product 圈的焦點是「設計師如何在 AI 加速的節奏裡找到自己的位置」——Figma 年度大調查出爐、NNGroup 談研究落地實戰、Smashing 聊 AI-ready 設計系統，答案一致：能做判斷的人比能執行的人更難被取代。Brand 側則出現有趣的美學張力：動態模糊的現代感 vs. 繁複細膩的裝飾風格同時走紅，同時接案市場的結構性困境在業界浮出水面，越來越多工作室在重新定位自己。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "How To Make Your Design System AI-Ready",
+          "url": "https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Vitaly Friedman 提出讓設計系統對 AI 工具「可讀」的具體做法：透過 spec files、semantic token layers 和定期同步 routine，讓 AI 在生成原型時不出現語意漂移，有效降低跨元件的設計不一致性。文章的核心主張是：設計系統不只是給設計師用的，它現在也是 AI 工具理解你的 UI 語言的基礎建設。對工作室的直接啟發是：在做設計系統提案時，加入「AI 可讀性」作為一個說服客戶投資設計系統的新論點。"
+        },
+        {
+          "title": "How to Get Research Recommendations on the Roadmap",
+          "url": "https://www.nngroup.com/articles/research-recommendations-roadmap/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "研究成果怎麼才能真正影響產品 roadmap？NNGroup 給出具體策略：提早加入規劃流程而不是事後補報告、主動學習 PM 的優先順序和限制、把研究發現和產品指標明確對應、以及在決策節點前給出有立場的建議而不是中立的「insight 清單」。對工作室而言，這篇幾乎可以直接作為「如何讓研究委託案對客戶有實際影響力」的操作手冊——客戶不是在買報告，他們在買能改變決策的分析。"
+        },
+        {
+          "title": "State of the Designer 2026: Designers Are Leaning Into the Messy Middle",
+          "url": "https://www.figma.com/blog/state-of-the-designer-2026/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 今年調查了 906 位設計師，核心數字：72% 現在使用生成式 AI 工具，89% 說工作速度更快，91% 認為 AI 提升了設計品質；但職涯焦慮同樣真實，擁抱 AI 的設計師比抗拒者多 25% 機率表示開心。企業端的訊號也值得注意：82% 的組織說他們需要設計師，但 56% 只找資深職位，初階市場繼續供過於求。創意自主性是設計師工作滿意度的首要因子，清楚的目標和期待讓 91% 的設計師做出更好的工作。"
+        },
+        {
+          "title": "Design Process Isn't Dead, It's Compressed",
+          "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 加快了工作節奏，但並沒有讓設計流程「死掉」，而是把整個週期壓縮了——發現、定義、原型、測試的邏輯依然成立，只是每個環節的時間更短、決策密度更高。NNGroup 的論點是：在 AI 加速的環境裡，對設計能力的要求其實更高，因為你要在更少時間裡做出更紮實的判斷。這篇直接回應了「AI 讓設計工作變容易了」的簡化說法——更快不等於更容易，更快加上更紮實才是目標。"
+        },
+        {
+          "title": "Addressing the design-engineering gap with AI coding tools",
+          "url": "https://uxdesign.cc/productionizing-design-prototypes-addressing-the-design-engineering-gap-with-ai-coding-tools-fb3924f83da1",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI coding 工具正在縮短設計與工程的落差：設計師現在可以用 AI 把原型「生產化（productionize）」，把 Figma 的設計直接輸出為更接近可用程式碼的交付物，讓 handoff 更順暢，減少設計意圖在移交過程中流失。文章提供了具體工具選擇和流程框架，並討論這個轉變對設計師角色的影響——不是「設計師要變成工程師」，而是設計和工程之間的邊界正在重新被定義。"
+        }
+      ],
+      "buzz": "本週 Product 圈的討論幾乎全部圍繞在「AI 改變了什麼、沒改變什麼」：設計系統要對 AI 可讀、設計流程被壓縮但邏輯未死、研究成果要在 roadmap 落地。Figma 的年度大報告做了這個時代的集體快照：多數設計師已在用 AI、感覺更快更好，但職涯的不確定感依然存在——這個「亂中有序」的狀態，可能就是接下來幾年最常見的工作體感。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Daryn Roongrawewan doesn't design logos, she crafts \"ornamental icons\"",
+          "url": "https://www.itsnicethat.com/articles/daryn-roongrawewan-graphic-design-discover-030626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "柏林設計師 Daryn Roongrawewan 的工作以繁複的裝飾性圖符著稱，風格靈感來自舊印刷語言和歷史典籍，她拒絕稱自己做的是「logo」，而是「ornamental icon（裝飾性圖符）」，強調每個作品都應像物件一樣有重量和存在感。近期為花店 Atelier Lin 打造的品牌識別，以鐫刻感曲線呈現有機、手工的溫度。這篇是今年最清楚示範「裝飾性細節作為品牌差異化策略」的設計師側寫之一。"
+        },
+        {
+          "title": "How do you design youth? The Young Vic's new logo uses motion blur to flip dated theatre branding",
+          "url": "https://www.itsnicethat.com/articles/venturethree-young-vic-graphic-design-project-280526",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦劇場 Young Vic 的品牌更新，由設計公司 VentureThree 操刀，核心設計決策是用「動態模糊（motion blur）」logo 取代傳統劇場的靜態視覺語言。設計挑戰不只是視覺風格選擇，而是如何讓「年輕感」真實而不表面——最終選擇用動態感傳達能量，而不是用年輕的顏色或插圖風格。這個案子對做文化機構品牌的工作室特別有參考價值：如何在不背叛機構精神的前提下讓識別有當代感。"
+        },
+        {
+          "title": "The Click's clever university branding puts the 'I' in identity, individual and Imperial College London",
+          "url": "https://www.itsnicethat.com/articles/the-click-imperial-college-london-graphic-design-project-200526",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計公司 The Click 為英國頂尖理工大學 Imperial College London 設計新品牌識別，以字母「I」作為核心視覺符號，巧妙地同時對應三個意涵：identity（識別）、individual（個體）、以及 Imperial College London 的縮寫。這套識別系統的說服力在於它的概念密度——一個視覺元素承載了三層意義，且都緊扣機構的核心價值。對做教育機構或有強烈字首品牌的案子，這是一個很好的概念發展方法示範。"
+        },
+        {
+          "title": "'Is this the end of my career?' What creatives think about the brutal state of freelance",
+          "url": "https://www.creativeboom.com/insight/is-this-the-end-what-creatives-actually-think-about-the-brutal-state-of-freelance/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Creative Boom 收集超過 40 位創意工作者的第一手回應，直面接案市場的嚴峻現實：案源銳減、AI 加速取代、裁員潮持續，許多人說這次不是「淡季」，而是行業的結構性轉變。文章整理了不同領域受衝擊的程度差異，以及正在調整的創意工作者如何重新定位自己的服務和客戶對象。對工作室而言，這篇有兩個價值：一是對現況的誠實認識；二是其他工作室怎麼在困境中重新定義自己的方式，值得借鏡。"
+        },
+        {
+          "title": "15 studios creatives are excited about right now (beyond the obvious)",
+          "url": "https://www.creativeboom.com/inspiration/15-studios-creatives-are-excited-about-right-now-beyond-the-obvious/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Creative Boom 根據超過 1,000 位工作中的創意人的年度調查，整理出 15 個設計圈正在熱烈討論的工作室——刻意排除了 Pentagram、Wolff Olins 等常見名字，聚焦在那些不常被主流媒體報導、但業界同行說「我們很興奮」的中小型工作室。對工作室有雙重價值：一是找同業靈感、看看對的人正在關注誰；二是理解「讓設計圈興奮」的是什麼特質——這份清單本身就是一份關於品牌差異化的研究。"
+        }
+      ],
+      "buzz": "Brand 圈本週出現明顯的美學對比：以動態模糊傳達能量的現代感（Young Vic）和以繁複裝飾重建手工溫度的復古感（Daryn Roongrawewan），兩種取向同時被關注，代表客戶對有個性品牌的需求正在分化而非收斂。另一條值得關注的線索是接案市場的結構性困境開始被公開正視，越來越多創意工作者在重新思考自己的定位——重新定位的人越多，有清楚主張的工作室越容易被選到，這對小型工作室反而是機會。"
+    }
+  },
+  {
     "date": "2026-06-04",
     "daily_summary": "今天 Product 側的重點是「讓設計工作更清晰可辯護」——從 NNGroup 的「設計拋棄物」框架到 Smashing Magazine 的設計原則指南，核心是如何在 AI 加速一切的今天，把自己的設計判斷說得更清楚。Lenny's 本週的 Benedict Evans 對話提供了一個清醒的宏觀視角：AI 很重要，但我們可能還在它真正影響的前五年。Brand 側今天最值得收藏的是 Taschen 新書《The Elements of Brand Design》帶出的討論（Paula Scher 和 Michael Bierut 都說品牌設計在 AI 時代需要更深的判斷力），以及 Creative Boom 的「設計師受不了的 10 個趨勢」——一份說服客戶遠離平庸的反面清單，比任何正面論述都更有力。",
     "jenny_wen": {
@@ -201,112 +307,6 @@
         }
       ],
       "buzz": "這週 Brand 圈有一個有趣的「後設」主題：品牌設計工作室在重新定義自己——Oneplus 說品牌是「挖掘」不是「發明」，BBH 用 44 年後的第一次 rebrand 重申創辦精神，Interbrand 則用 in-house 設計展示自信。同時，Snask/Vivantis 的 +30% 銷售成長數字是今天最值得留存的素材：品牌投資不只是審美決策，是可以被量化的商業投資——這句話，在下次跟客戶談設計費的時候，比任何美學論述都更有力量。"
-    }
-  },
-  {
-    "date": "2026-06-01",
-    "daily_summary": "今天 Product 側 NNGroup 密集發布了幾篇相互呼應的長文，核心訊息很清楚：客戶不是在找「懂用 AI 的設計師」，而是在找「能幫他們做決策的設計師」——通才的回歸、研究資源的優先排序、顧問型設計師的定位，說的都是同一件事。Brand 側今天最值得讀的是巴西亞馬遜識別，FutureBrand 直接從衛星圖裡找字母形狀、長出一套活的字型系統，示範了品牌設計可以有多大的概念格局；Lacoste 和 4Creative 的案例則呼應了另一個趨勢：最好的品牌識別往往來自挖掘「已經在那裡的東西」，而不是從零創造。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Using RAS to Guide UX Research Resource Allocation and Strategy",
-          "url": "https://www.nngroup.com/articles/ras-research-resource-allocation/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 提出一個叫 RAS（Recommendation-Adoption Score）的研究資源分配框架——幫助設計主管把研究預算和資源投入到真正能影響決策的地方，而不是平均分配給每個項目。核心邏輯是：不是每一個研究發現都同等重要，真正重要的是那些會被採納並影響產品決策的發現。RAS 把研究的重心從「產出報告的數量」移向「建議被採納的比率」，強迫利害關係人討論的焦點從 output 轉向 outcome。對工作室的直接應用是：在跟客戶討論「這個研究做了什麼」時，不用再說「我訪了 10 個人、整理了 30 個 insight」，而是說「這個研究推動了哪個設計決策、節省了多少後期修改成本」——這才是讓客戶繼續投資研究的說服語言。"
-        },
-        {
-          "title": "The Return of the UX Generalist",
-          "url": "https://www.nngroup.com/articles/return-ux-generalist/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 的出現正在逆轉過去十年「設計師要專精化」的主流路線——NNGroup 分析數據後發現，被 AI 最快取代的恰好是那些深度專精單一執行技能的設計師，因為 AI 最擅長的就是有跡可循的重複工作。反而是能串連用戶研究、策略思考、系統設計、和商業判斷的通才型設計師，在 AI 時代的需求回升了。作者指出「通才」並不是什麼都做、做不深，而是能在不同層次之間快速切換、在複雜情境中找到全局觀的判斷力。對正在思考自己定位的設計師而言，這是一個重要的結構性訊號：深度與廣度的平衡點，正在往廣度端移動。"
-        },
-        {
-          "title": "State of UX 2026: Design Deeper to Differentiate",
-          "url": "https://www.nngroup.com/articles/state-of-ux-2026/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NNGroup 每年的 State of UX 報告，2026 年版的核心論點是：在 AI 大幅壓縮設計執行成本的情況下，表面的設計已經不再是差異化因素——真正的差異在於「研究深度」和「設計決策的根基有多扎實」。報告指出幾個結構性變化：資深職位和通才角色的需求正在回升，初階位置繼續供過於求；研究不只服務產品設計，也愈來愈被用來訓練和評估 AI 模型；以及「信任」取代「易用性」成為 AI 介面設計最核心的挑戰。這份報告適合收藏，在跟客戶談 2026 年的設計投資方向時是很有力的支撐素材。"
-        },
-        {
-          "title": "What UX Consulting Clients Expect in the Age of AI",
-          "url": "https://www.nngroup.com/articles/ux-consulting-ai/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 直接訪談了聘用 UX 顧問的決策者，問他們在 AI 時代對設計顧問的期待有沒有改變？結論很清楚：沒有改變太多——客戶還是在找有批判性思維、能做出整合性建議、給出明確方向的設計師，而不是一個幫他們整理 AI 輸出結果的人。最關鍵的一點是：客戶不想要「中立的促進者」，他們想要顧問綜合證據後給出有立場的建議。另一個重要發現是：客戶不缺 AI 工具，他們缺的是知道什麼時候用、用多少、哪些問題 AI 解決不了的判斷力——而這正是好的 UX 顧問能提供的核心價值。對工作室而言，這篇幾乎就是一份「如何讓客戶認為你有價值」的具體說明書。"
-        },
-        {
-          "title": "From Design to Direction: Bridging Product Design and AI Thinking",
-          "url": "https://uxdesign.cc/from-design-to-direction-bridging-product-design-and-ai-thinking-1d372707472d",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者 Bradly Zavakos 從 AI 的核心機制出發——feedback loop、intent、probability——來重新詮釋產品設計師的思維框架。這不是一篇技術文章，而是用 AI 的內部邏輯作為比喻，幫設計師重新理解自己工作的文章。核心論點是：設計師做的「迭代」和 AI 的「訓練」在邏輯上驚人地相似，理解 AI 如何運作，其實是在學習一種更清晰的設計語言。對設計師最直接的啟發是：把設計決策視為「一組在特定情境下的加權選擇」，而不是「一個要對的答案」——這種轉變讓設計師更容易跟工程師和 AI 產品團隊溝通，也更容易在不確定性中做出可以說清楚理由的決定。"
-        }
-      ],
-      "buzz": "NNGroup 這週主導了 Product 圈的討論，而且說的幾乎都是同一件事，只是從不同角度切入：AI 工具壓低了設計執行的門檻，但客戶真正在購買的是「判斷力和方向感」而非「產出物」。不管是通才的回歸、諮詢客戶的期待、還是研究資源的分配方式，最終都指向同一個對設計工作室有利的趨勢：越能說清楚「為什麼」的設計師，越難被取代。這批文章值得整理成提案素材，下次跟客戶談顧問費的時候用得上。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Inside Lacoste's new visual identity",
-          "url": "https://www.creativereview.co.uk/lacoste-new-visual-identity-commission-studio/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Lacoste 委託倫敦設計工作室 Commission Studio 重新設計品牌識別，策略核心是「從傳承中找到前進的路」——既不想徹底翻新嚇跑老顧客，也不想只是「清潔版更新」失去品牌張力。新字標更為幾何、更有當代感，而最標誌性的鱷魚 logo 則被仔細重新繪製但保留了核心精神。Commission Studio 的做法是先研究 Lacoste 所有歷史版本的視覺語言，再從中找到那些「夠當代、同時夠 Lacoste」的元素作為新識別的基礎。這個案例對接有傳承品牌的工作室特別有參考價值：如何在客戶既想改、又怕改太多的情況下找到有說服力的方向，是許多品牌更新案的核心難題。"
-        },
-        {
-          "title": "4Creative cuts out visuals from the UK's most iconic TV shows to make its new identity",
-          "url": "https://www.itsnicethat.com/articles/4creative-rebrand-graphic-design-project-070526",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國電視台 Channel 4 的內部創意工作室 4Creative 用了一個極具巧思的方式做自己的品牌更新：從 Channel 4 播出過的最經典節目——The Great British Bake Off、Peep Show、Educating Yorkshire 等——截取視覺素材，重新組構成 130 個不同的 logo 版本。這套系統的概念很強：品牌識別不是一個靜態的 logo，而是媒體本身的歷史積累——每一個 logo 都在說「我播過這個」。這個做法示範了一個重要的品牌設計思維：品牌資產不一定要從零創造，挖掘客戶既有的素材往往能做出最有說服力的識別——特別是當客戶本身有豐富的歷史和內容資產的時候。"
-        },
-        {
-          "title": "The Brazilian Amazon gets historic new brand identity",
-          "url": "https://www.creativereview.co.uk/brazilian-amazon-brand-identity-futurebrand-sao-paulo/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "FutureBrand São Paulo 受巴西旅遊局委託，為整個法定亞馬遜地區（涵蓋巴西 9 個州、60% 的國土、2800 萬人口）打造史上第一套統一品牌識別。最令人難忘的設計決策是字型的來源：設計師直接從亞馬遜河流及其支流的衛星圖中，逐一找出字母的形狀，讓整套字型系統真的「長自」當地的地景。此外，識別還包含一個「Feito de Amazônia（亞馬遜製造）」印記系統，讓當地製品可以用品牌認證來提升市場價值。這個案例被 Creative Review、Design Week、Creative Moment 多個媒體同時報導——它示範了品牌設計可以有多大的概念格局：識別系統不只是視覺，而是一個地區身份認同的建構工具。"
-        },
-        {
-          "title": "How being weird can save branding in 2026",
-          "url": "https://www.creativeboom.com/insight/how-being-weird-can-save-branding-in-2026/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Mother Design 的設計總監 Bentzion Goldman 直說：「過去 12 個月，品牌設計變得太安全、太消毒、太無聊。」他的論點是：當所有人都在「risk-off」的品牌策略下做安全的選擇，真正的機會正好就在另一邊——大膽、甚至「奇怪」的品牌反而能在過度整齊的市場裡脫穎而出。他列舉了品牌設計同質化的幾個原因：過度依賴消費者測試把個性磨掉、設計決策過多委員會參與、以及「品牌安全」被誤解為「品牌膽小」。對工作室有兩個面向的價值：一是在做提案時，作為支持「不一樣選擇」的論據；二是在思考工作室自身品牌定位時，一個有用的自問框架——我們的品牌夠「weird」嗎？"
-        },
-        {
-          "title": "Why motion is the future of brand identity, and how to do it right",
-          "url": "https://www.creativeboom.com/insight/why-motion-is-the-future-of-brand-identity-and-how-to-do-it-right/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇從實務角度分析了為什麼靜態識別已經不夠用——品牌在 Instagram Reels、網站動態、數位廣告等場景都需要一套動態語言。作者的核心論點是：motion 不是讓靜態識別「動起來」就好，而是必須從品牌策略層面思考動態行為——品牌的動作快還是慢？有機還是機械？這些選擇和 logo 形狀、顏色選擇一樣，都在傳遞品牌的個性和立場。文章給出了幾個實際執行的建議：先定義品牌的動態原則（而不是先做 motion design），再從最高頻的使用情境開始建立動態語言庫。對工作室的啟發是：如果你的品牌識別交付物裡沒有 motion guidelines，你的客戶可能正在接下來的一年裡把識別做壞——這個服務缺口，也是工作室可以主動提議的加值項目。"
-        }
-      ],
-      "buzz": "今天 Brand 圈有兩條並行的討論軸：一是「怎麼做出有個性的品牌」（Mother Design 喊出 weird branding、4Creative 用 130 個 logo 做歷史致敬）；二是「品牌的時間維度」——Lacoste 從傳承中找前進的路、巴西亞馬遜用地景長出字型，都在說「品牌的根在哪裡」。加上 motion 的討論，這週 Brand 給設計師最清晰的訊號是：單純的靜態 logo 已經不足以交付一個完整的品牌識別，品牌的「行為方式」和「時間感」正在成為識別系統的必要組成。"
     }
   }
 ]
