@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-17",
+    "daily_summary": "AI 使用量在設計師圈達到新高——Designer Fund 大型調查確認 91% 的設計師現在每天用 AI，Claude 已成為設計師最常用的工具。Brand 圈這週被世界盃主導，Creative Review 和 Transform Magazine 都在問：FIFA 2026 的識別設計到底夠不夠格？紐約市的世界盃宣傳海報反而讓人眼睛一亮，成功把城市個性放進全球賽事框架裡。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "AI in Design 2026: The inflection point is here",
+          "url": "https://stateofaidesign.com/",
+          "source": "Designer Fund",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Designer Fund 發布第二年度 AI 設計調查，規模是 900+ 設計師、跨 60 個國家。最關鍵的發現：2025 年有 54% 的設計師每週用 AI，2026 年跳到 91% 每天用——AI 不再是實驗，是基礎設施。Claude 已取代 ChatGPT，成為設計師最常用的 AI 助理。另一個值得注意的趨勢：90% 的設計師在自學 AI 工具，公司幾乎沒有提供正式支援。對工作室的啟示是：這份報告等於是業界的現況快照，也反映了「設計師自己帶著自己跑」的新常態。"
+        },
+        {
+          "title": "How Many Participants for a UX Interview Study?",
+          "url": "https://www.smashingmagazine.com/2026/06/participants-ux-interviews/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 研究員 Maria Rosala 說破一個常見迷思：UX 訪談不需要大樣本。研究目標、飽和度、以及你打算把發現泛化到什麼範圍——這些才是決定「要訪問幾個人」的關鍵因素，而不是直覺上的「越多越好」。對工作室和接案設計師特別實用：研究預算有限時，這篇文章可以幫你跟客戶說清楚「為什麼 5 個人就夠了」，而不只是拍腦袋。"
+        },
+        {
+          "title": "Making Charts and Graphs Accessible",
+          "url": "https://www.smashingmagazine.com/2026/06/accessible-charts-graphs/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Martin Underhill 示範如何同時為螢幕閱讀器使用者和視覺使用者設計資料圖表。文章的核心洞察是：從無障礙的角度出發設計圖表，往往會讓圖表變得更清晰、結構更完整——無障礙設計不是額外負擔，而是讓視覺呈現更嚴謹的強制機制。任何需要向客戶呈現數據的設計師都值得讀一遍。"
+        },
+        {
+          "title": "Designing for the Age of Agentic AI: UX Challenges and Patterns",
+          "url": "https://uxmag.com/articles/ux-ai-agents-agentic-automation",
+          "source": "UX Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI agent 是指能代替使用者自主行動的 AI——例如幫你訂餐廳、整理郵件、或跑研究。這類系統帶來的 UX 挑戰是全新的：怎麼設計你「看不到正在發生」的互動？怎麼讓使用者在把控制權交給 agent 的同時還保有信任？文章提供了框架，說明 agentic 產品設計和傳統產品設計的本質差異，對目前想切入 AI 功能設計的工作室是很好的基礎讀物。"
+        },
+        {
+          "title": "Building Accessible Tooltips: The Details That Actually Matter",
+          "url": "https://www.smashingmagazine.com/2026/06/accessible-tooltips-rich-content/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Tooltip 看起來是 UI 裡最小的元件之一，但加入富文字內容、混上螢幕閱讀器行為之後，問題會變得非常複雜。這篇文章逐一拆解讓 tooltip 真正做到無障礙的技術和 UX 決策——包括焦點管理、ARIA 模式、以及「什麼時候不該用 tooltip」。隨著 UI 密度越來越高，這類細節設計正在重新被認真對待。"
+        }
+      ],
+      "buzz": "這週 Product 圈有兩條主線同時在跑：一是 AI 全面滲透的現況報告——Designer Fund 的大型調查確認設計師已進入「AI every day」時代，Claude 取代 ChatGPT 成為首選；二是設計基本功的回歸——正確的研究樣本大小、資料圖表的無障礙設計、tooltip 的互動細節，這些「最不性感」的主題正在被重新認真對待。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Can design help FIFA stage its own comeback?",
+          "url": "https://www.creativereview.co.uk/fifa-world-cup-2026-branding-reputation/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Creative Review 邀請四位品牌設計專家討論：FIFA 2026 的識別設計能不能幫助 FIFA 擺脫卡達世界盃留下的負面聲譽？這篇文章的切入角度很有趣——不只評論識別設計的好壞，更問的是「設計能做到的事，和品牌聲譽之間的關係」。結論分歧：有人覺得識別確實有進步，有人認為當組織本身的問題沒解決，設計改變了也沒用。對工作室思考「品牌設計的邊界在哪裡」很有啟發。"
+        },
+        {
+          "title": "The Verdict: Fifa World Cup 2026 identity can't find its rhythm",
+          "url": "https://www.transformmagazine.net/articles/2026/the-verdict-fifa-world-cup-2026-identity-can-t-find-its-rhythm/",
+          "source": "Transform Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Transform Magazine 集結業界對 FIFA 2026 識別的評語，整體結論是：這套識別彈性有餘，情感不足——「更像在問你要什麼，而不是說出我們的主張」。去掉「World Cup」字樣的字標被形容為「三十年來最大膽的決定，卻也是最說不清楚的決定」。最有力的批評是：如此重大的文化時刻，識別應該設定趨勢，而不是跟著趨勢走。"
+        },
+        {
+          "title": "Mamdani's NYC World Cup campaign is inspired by sports memorabilia, city signage, the subway and the five boroughs",
+          "url": "https://www.itsnicethat.com/articles/zohran-mamdani-arsh-raziuddin-new-york-city-hall-world-cup-campaign-graphic-design-project-090626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計師 Arsh Raziuddin 為紐約市政府設計的世界盃城市宣傳，視覺語言直接取材自運動紀念品、地鐵標誌、路牌、以及五個行政區的旗幟。核心設計決定是：每個行政區有自己專屬的貼紙，讓紐約的「多元一體」真正在設計裡出現。這個案子示範了地方品牌如何在全球賽事的框架下保有強烈個性，而不是被淹沒在官方識別系統裡。"
+        },
+        {
+          "title": "A24 creative director Liam Hamill embraces brainrot with his monthly music venue posters",
+          "url": "https://www.itsnicethat.com/articles/liam-hamill-babys-all-right-graphic-design-project-080626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "A24 副創意總監 Liam Hamill 每個月為布魯克林音樂場館 Baby's All Right 設計宣傳海報，風格是 internet brainrot——刻意的低解析度、迷因感、帶點荒謬幽默的設計語氣。他把創作簡報定義為「Baby's 的感覺」，然後每個月找不同方式詮釋：有時把整個演出陣容壓縮到米粒大小，有時做成萬聖節服裝廣告風格。這個個人專案展示了在強創意監管環境（A24）工作的設計師，如何在私下的小案子裡保持實驗性——也是一個很好的「接案設計師如何維持自己創作肌肉」的案例。"
+        },
+        {
+          "title": "The best new typefaces for June 2026",
+          "url": "https://www.creativeboom.com/resources/the-best-new-typefaces-for-june-2026/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "六月新字體精選，涵蓋展示字型、復刻老面目、和受冰島地景啟發的字型家族。三個值得注意的：Sticks（2019 年停產的工業感等寬字型，今年重新修訂並擴充為 variable font 家族）、Sahila Stencil（從單一字重擴展為 10 個風格 + variable font 的大家族）、以及 Ravenscar（為長文排版設計的老面目 slab serif）。字型市場的 variable font 趨勢繼續加速，從單一風格到全家族的擴充策略也越來越普遍。"
+        }
+      ],
+      "buzz": "世界盃開打，Brand 圈也跟著熱了起來。Creative Review 和 Transform Magazine 的業界評語都指向同一個核心問題：FIFA 2026 的識別系統彈性設計得很好，卻缺少情感上的節奏感和主張。反而是紐約市的城市宣傳海報讓人眼睛一亮——地方設計師用地鐵標誌和行政區旗幟語言，在全球賽事框架裡硬是站出了自己的個性。"
+    }
+  },
+  {
     "date": "2026-06-16",
     "daily_summary": "AI 議題繼續主導 Product Design 圈，這週焦點從「AI 能做什麼」轉向「設計師要怎麼應對」——NNGroup 和 Emily Campbell 都在拆解設計師的核心能力，Critique 和 Context 成為關鍵詞。Brand 方面，KFC 的 Bucketverse 與 Koto 復刻 Norton Museum 80 年古字體各走一端，LogoLounge 年度趨勢報告更指出 Motion 已是識別設計新標配，值得工作室收藏。",
     "jenny_wen": {
@@ -201,112 +307,6 @@
         }
       ],
       "buzz": "Brand 圈本週最引人注目的主題是「識別作為論點」：Uncommon 用真實的黴菌說「創意是活的有機體」、How&How 透過替 Ideogram 做品牌說「人的審美判斷無可取代」，都是讓識別本身承載論述的案子，而不只是讓識別「好看」。另一條線是活動識別（event identity）的密集出現：WNBA Draft、英聯邦運動會、全國閱讀年都在本週被 Brand New 收錄，反映了有敘事野心的事件品牌正在成為品牌設計圈的重要類型。"
-    }
-  },
-  {
-    "date": "2026-06-07",
-    "daily_summary": "本週 Product 圈的焦點是「設計師如何在 AI 加速的節奏裡找到自己的位置」——Figma 年度大調查出爐、NNGroup 談研究落地實戰、Smashing 聊 AI-ready 設計系統，答案一致：能做判斷的人比能執行的人更難被取代。Brand 側則出現有趣的美學張力：動態模糊的現代感 vs. 繁複細膩的裝飾風格同時走紅，同時接案市場的結構性困境在業界浮出水面，越來越多工作室在重新定位自己。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "How To Make Your Design System AI-Ready",
-          "url": "https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Vitaly Friedman 提出讓設計系統對 AI 工具「可讀」的具體做法：透過 spec files、semantic token layers 和定期同步 routine，讓 AI 在生成原型時不出現語意漂移，有效降低跨元件的設計不一致性。文章的核心主張是：設計系統不只是給設計師用的，它現在也是 AI 工具理解你的 UI 語言的基礎建設。對工作室的直接啟發是：在做設計系統提案時，加入「AI 可讀性」作為一個說服客戶投資設計系統的新論點。"
-        },
-        {
-          "title": "How to Get Research Recommendations on the Roadmap",
-          "url": "https://www.nngroup.com/articles/research-recommendations-roadmap/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "研究成果怎麼才能真正影響產品 roadmap？NNGroup 給出具體策略：提早加入規劃流程而不是事後補報告、主動學習 PM 的優先順序和限制、把研究發現和產品指標明確對應、以及在決策節點前給出有立場的建議而不是中立的「insight 清單」。對工作室而言，這篇幾乎可以直接作為「如何讓研究委託案對客戶有實際影響力」的操作手冊——客戶不是在買報告，他們在買能改變決策的分析。"
-        },
-        {
-          "title": "State of the Designer 2026: Designers Are Leaning Into the Messy Middle",
-          "url": "https://www.figma.com/blog/state-of-the-designer-2026/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 今年調查了 906 位設計師，核心數字：72% 現在使用生成式 AI 工具，89% 說工作速度更快，91% 認為 AI 提升了設計品質；但職涯焦慮同樣真實，擁抱 AI 的設計師比抗拒者多 25% 機率表示開心。企業端的訊號也值得注意：82% 的組織說他們需要設計師，但 56% 只找資深職位，初階市場繼續供過於求。創意自主性是設計師工作滿意度的首要因子，清楚的目標和期待讓 91% 的設計師做出更好的工作。"
-        },
-        {
-          "title": "Design Process Isn't Dead, It's Compressed",
-          "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 加快了工作節奏，但並沒有讓設計流程「死掉」，而是把整個週期壓縮了——發現、定義、原型、測試的邏輯依然成立，只是每個環節的時間更短、決策密度更高。NNGroup 的論點是：在 AI 加速的環境裡，對設計能力的要求其實更高，因為你要在更少時間裡做出更紮實的判斷。這篇直接回應了「AI 讓設計工作變容易了」的簡化說法——更快不等於更容易，更快加上更紮實才是目標。"
-        },
-        {
-          "title": "Addressing the design-engineering gap with AI coding tools",
-          "url": "https://uxdesign.cc/productionizing-design-prototypes-addressing-the-design-engineering-gap-with-ai-coding-tools-fb3924f83da1",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI coding 工具正在縮短設計與工程的落差：設計師現在可以用 AI 把原型「生產化（productionize）」，把 Figma 的設計直接輸出為更接近可用程式碼的交付物，讓 handoff 更順暢，減少設計意圖在移交過程中流失。文章提供了具體工具選擇和流程框架，並討論這個轉變對設計師角色的影響——不是「設計師要變成工程師」，而是設計和工程之間的邊界正在重新被定義。"
-        }
-      ],
-      "buzz": "本週 Product 圈的討論幾乎全部圍繞在「AI 改變了什麼、沒改變什麼」：設計系統要對 AI 可讀、設計流程被壓縮但邏輯未死、研究成果要在 roadmap 落地。Figma 的年度大報告做了這個時代的集體快照：多數設計師已在用 AI、感覺更快更好，但職涯的不確定感依然存在——這個「亂中有序」的狀態，可能就是接下來幾年最常見的工作體感。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Daryn Roongrawewan doesn't design logos, she crafts \"ornamental icons\"",
-          "url": "https://www.itsnicethat.com/articles/daryn-roongrawewan-graphic-design-discover-030626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "柏林設計師 Daryn Roongrawewan 的工作以繁複的裝飾性圖符著稱，風格靈感來自舊印刷語言和歷史典籍，她拒絕稱自己做的是「logo」，而是「ornamental icon（裝飾性圖符）」，強調每個作品都應像物件一樣有重量和存在感。近期為花店 Atelier Lin 打造的品牌識別，以鐫刻感曲線呈現有機、手工的溫度。這篇是今年最清楚示範「裝飾性細節作為品牌差異化策略」的設計師側寫之一。"
-        },
-        {
-          "title": "How do you design youth? The Young Vic's new logo uses motion blur to flip dated theatre branding",
-          "url": "https://www.itsnicethat.com/articles/venturethree-young-vic-graphic-design-project-280526",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "倫敦劇場 Young Vic 的品牌更新，由設計公司 VentureThree 操刀，核心設計決策是用「動態模糊（motion blur）」logo 取代傳統劇場的靜態視覺語言。設計挑戰不只是視覺風格選擇，而是如何讓「年輕感」真實而不表面——最終選擇用動態感傳達能量，而不是用年輕的顏色或插圖風格。這個案子對做文化機構品牌的工作室特別有參考價值：如何在不背叛機構精神的前提下讓識別有當代感。"
-        },
-        {
-          "title": "The Click's clever university branding puts the 'I' in identity, individual and Imperial College London",
-          "url": "https://www.itsnicethat.com/articles/the-click-imperial-college-london-graphic-design-project-200526",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計公司 The Click 為英國頂尖理工大學 Imperial College London 設計新品牌識別，以字母「I」作為核心視覺符號，巧妙地同時對應三個意涵：identity（識別）、individual（個體）、以及 Imperial College London 的縮寫。這套識別系統的說服力在於它的概念密度——一個視覺元素承載了三層意義，且都緊扣機構的核心價值。對做教育機構或有強烈字首品牌的案子，這是一個很好的概念發展方法示範。"
-        },
-        {
-          "title": "'Is this the end of my career?' What creatives think about the brutal state of freelance",
-          "url": "https://www.creativeboom.com/insight/is-this-the-end-what-creatives-actually-think-about-the-brutal-state-of-freelance/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Creative Boom 收集超過 40 位創意工作者的第一手回應，直面接案市場的嚴峻現實：案源銳減、AI 加速取代、裁員潮持續，許多人說這次不是「淡季」，而是行業的結構性轉變。文章整理了不同領域受衝擊的程度差異，以及正在調整的創意工作者如何重新定位自己的服務和客戶對象。對工作室而言，這篇有兩個價值：一是對現況的誠實認識；二是其他工作室怎麼在困境中重新定義自己的方式，值得借鏡。"
-        },
-        {
-          "title": "15 studios creatives are excited about right now (beyond the obvious)",
-          "url": "https://www.creativeboom.com/inspiration/15-studios-creatives-are-excited-about-right-now-beyond-the-obvious/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Creative Boom 根據超過 1,000 位工作中的創意人的年度調查，整理出 15 個設計圈正在熱烈討論的工作室——刻意排除了 Pentagram、Wolff Olins 等常見名字，聚焦在那些不常被主流媒體報導、但業界同行說「我們很興奮」的中小型工作室。對工作室有雙重價值：一是找同業靈感、看看對的人正在關注誰；二是理解「讓設計圈興奮」的是什麼特質——這份清單本身就是一份關於品牌差異化的研究。"
-        }
-      ],
-      "buzz": "Brand 圈本週出現明顯的美學對比：以動態模糊傳達能量的現代感（Young Vic）和以繁複裝飾重建手工溫度的復古感（Daryn Roongrawewan），兩種取向同時被關注，代表客戶對有個性品牌的需求正在分化而非收斂。另一條值得關注的線索是接案市場的結構性困境開始被公開正視，越來越多創意工作者在重新思考自己的定位——重新定位的人越多，有清楚主張的工作室越容易被選到，這對小型工作室反而是機會。"
     }
   }
 ]
