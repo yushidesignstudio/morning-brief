@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-20",
+    "daily_summary": "這週 AI 設計圈最有力的聲音是「不確定性」和「非工程師」——Smashing 提出機率性設計框架，NNGroup 確認非開發者已在大量建構 AI 系統，設計師的角色邊界再次位移。Brand 圈本週最大的事是 Cannes Lions 週日（6/22）登場，新設的 Creative Brand Lion 首次把評分標準移向品牌的創意基礎建設；同時 Interbrand 自己的 in-house 品牌更新讓人格外矚目。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
+          "url": "https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "HubSpot 資深產品設計師 Pratik Joglekar 提出「機率性設計」（Probabilistic Design）框架：AI 的輸出是預測，不是決定——這讓傳統設計流程裡「確認用戶需求再設計」的邏輯開始動搖。Air Canada 的 AI 聊天機器人案例是本文的核心錨點：機器人「自信地」給出一個不存在的退款政策，最後航空公司被裁定要負責。這篇文章的意義在於，它幫設計師建立一個理解和應對 AI 不確定性的思考工具，而不是迴避它。"
+        },
+        {
+          "title": "Nondevelopers Are Building Complex Agentic AI Systems",
+          "url": "https://www.nngroup.com/articles/nondevelopers-agentic-ai/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 觀察到一個重要現象：沒有工程背景的人（研究員、設計師、產品經理）正在靠 YouTube、Reddit 和大量實驗，直接建構複雜的 AI agent 系統。這篇文章記錄這個趨勢，並探討它對 UX 設計帶來的挑戰——因為這些系統往往建立在直覺而非系統性設計原則上。對工作室來說有雙重意義：一方面是機會（設計師可以直接動手建 AI 工具），另一方面是風險（沒有設計基礎的 AI 系統往往有嚴重的可用性問題）。"
+        },
+        {
+          "title": "UI Design Best Practices for Better Scannability",
+          "url": "https://www.smashingmagazine.com/2026/06/ui-design-scannability/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Nemanja Banjanin 拆解 UI 設計中最容易被低估的一件事：可掃描性（Scannability）。這不是關於美觀，而是關於資訊架構——視覺層次、對齊、空白、字型大小怎麼組合，決定用戶能不能在不閱讀的情況下快速理解頁面。在 AI 產品和資訊密集型介面越來越普遍的時代，這篇文章是個很好的基本功提醒——「讓人一眼看懂」這件事，永遠是設計的核心挑戰。"
+        },
+        {
+          "title": "AI Tools Are Making Research Easier: From Advising to Building",
+          "url": "https://uxmag.com/articles/ai-tools-research-from-advising-to-building",
+          "source": "UX Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "AI 工具正在改變研究員的工作模式——過去研究員的角色是「提建議的人」，現在他們可以直接用 AI 工具建構分析框架、自動整理訪談紀錄、生成洞察報告。文章探討這個「從顧問到建構者」的角色轉變對研究實踐的意義，以及如何在加速的同時維持研究的嚴謹性。對工作室承接需要做用戶研究的案子特別實用。"
+        },
+        {
+          "title": "Gamification in Product Design: Behavioral Design Meets Game Mechanics",
+          "url": "https://uxmag.com/articles/gamification-product-design-behavioral-game-mechanics",
+          "source": "UX Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Montgomery Singman 梳理遊戲化設計（Gamification）的理論基礎——從行為設計到遊戲設計原則，再到如何把這些應用在真實產品中。這篇文章的核心論點是：真正有效的遊戲化不是加進徽章和積分，而是理解「什麼讓人想繼續做這件事」的深層機制。隨著 AI 產品開始需要引導用戶建立使用習慣，遊戲化思維正在回歸 Product Design 的主要討論。"
+        }
+      ],
+      "buzz": "這週 Product Design 圈的主軸是「設計師在 AI 時代的位置再次移動」。Smashing Magazine 提出機率性設計框架幫設計師接受不確定性；NNGroup 記錄了非工程師靠自學就能建 AI 系統的現象，直接挑戰傳統角色分工。同時 UX Magazine 記錄研究員從「提建議」變成「直接建構」的轉型。這週說的是同一件事：AI 讓每個人都更接近產品的核心動作，設計師的獨特價值需要更清晰地定義。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "New Logo and Identity for Interbrand done In-house",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_interbrand_done_in_house_2026.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "全球最知名品牌顧問公司 Interbrand 自己幫自己設計了新品牌——而且是完全 in-house 完成，沒有委託外部公司。這件事本身就是一個論述：最懂品牌的人選擇自己做。這個消息對設計工作室特別值得思考：當顧問公司開始自己動手做，是因為他們相信自己最了解自己，還是在說「找外部視角」的時代正在改變？Brand New 的評論版永遠很精彩，這篇應該也不例外。"
+        },
+        {
+          "title": "From Olivetti to Instagram: a short history of modern brand design",
+          "url": "https://www.itsnicethat.com/features/katharina-sussek-jens-muller-the-elements-of-brand-design-taschen-publication-graphic-design-spotlight-170626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這篇是 Taschen 新書《The Elements of Brand Design》的摘錄，由 Katharina Sussek 和 Jens Müller 合著，收錄 100+ 個品牌識別案例、17 章每章聚焦一個識別核心元素，並有 Paula Scher 和 Michael Bierut 的深度訪談。從奧利維蒂（Olivetti）打字機到 Instagram，文章勾勒出品牌設計如何從製造商識別演變為當代的系統性設計語言。如果你想搞清楚「品牌識別到底是什麼、它的歷史脈絡是什麼」，這本書可能是今年最值得入手的參考書。"
+        },
+        {
+          "title": "Cannes Lions 2026 introduces the Creative Brand Lion",
+          "url": "https://www.canneslions.com/news/cannes-lions-introduces-the-creative-brand-lion",
+          "source": "Cannes Lions",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Cannes Lions 2026（6/22–26）新設「Creative Brand Lion」——這個獎不是評比單一活動，而是評比品牌整體的創意基礎建設：系統、文化、能力是否能持續產出高水準創意。這標誌著業界對「什麼是好品牌」的評判標準出現重要轉變：從單次爆款廣告，轉向「能穩定輸出的組織能力」。對想要建立長期品牌的工作室和客戶，這個新獎項的評判框架很值得參考。"
+        },
+        {
+          "title": "Booms & Shakes: June's hires, launches and the studios rethinking themselves",
+          "url": "https://www.creativeboom.com/news/booms-and-shakes-june-2026/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Creative Boom 每月一次的業界動態快照：六月版涵蓋 Landor 的新高管任命（Sarah Eversole 從 JKR 回鍋主導全球 retail/hospitality 設計）、M+C Saatchi Talk 的 Managing Partner 換人、以及即將到來的 Cannes Lions（6/22）和 Prolific North Creative Awards（6/25）。這個月報特別值得看的是「studios rethinking themselves」——哪些工作室正在重新定義自己在做什麼，以及為什麼。"
+        },
+        {
+          "title": "BBC's crafts love letter to fandom in World Cup trailer",
+          "url": "https://www.creativereview.co.uk/bbc-creative-lets-make-it-iconic-world-cup-promo-film/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "BBC Creative 的「Let's Make It Iconic」世界盃宣傳影片是今年創意製作裡最有手感的一個。他們混合了真實拍攝、2D 動畫、手工藝、停格動畫和實體觸感技法，把圍巾、琺瑯徽章、臉妝、搖頭娃娃做成巨幅 tifo 掛在住宅大樓外牆。在 AI 生成視覺氾濫的時代，BBC 選擇用最費力的人手工藝來說「這是我們最重要的轉播節目」——這個訊號本身就是一個很有力的品牌主張。"
+        }
+      ],
+      "buzz": "本週 Brand 圈最大的事有兩件：一是 Cannes Lions 週日開幕，今年新設的 Creative Brand Lion 把評獎重心從「那個廣告」移向「能持續輸出創意的品牌組織」，這個框架轉換很值得工作室思考；二是 Interbrand 自己的 in-house 更新，讓業界開始討論「最懂品牌的顧問公司為什麼選擇不外包自己的品牌」。BBC 的世界盃手工宣傳片也示範了：在全數位時代，人手觸感反而成為最有力的差異化主張。"
+    }
+  },
+  {
     "date": "2026-06-17",
     "daily_summary": "AI 使用量在設計師圈達到新高——Designer Fund 大型調查確認 91% 的設計師現在每天用 AI，Claude 已成為設計師最常用的工具。Brand 圈這週被世界盃主導，Creative Review 和 Transform Magazine 都在問：FIFA 2026 的識別設計到底夠不夠格？紐約市的世界盃宣傳海報反而讓人眼睛一亮，成功把城市個性放進全球賽事框架裡。",
     "jenny_wen": {
@@ -209,104 +315,6 @@
         }
       ],
       "buzz": "這週 Brand 圈的敘事有兩個方向：一是往大走，KFC 把一個 Bucket 擴展成整個品牌宇宙，PepsiCo 25 年來首次更新企業識別，大動作背後都是要讓品牌更有情感溫度；二是往根走，Koto 從 Norton Museum 的 1941 年舊字體裡找到答案。LogoLounge 年度報告則從宏觀角度確認：Motion 已成為識別設計的新標配，靜態 Logo 正在逐漸退場。"
-    }
-  },
-  {
-    "date": "2026-06-10",
-    "daily_summary": "本週 Product 圈最精彩的是 Lenny's Tony Fadell 集——iPod 和 iPhone 的創造者說「品味是 AI 時代最難被取代的資本」，和 NNGroup 宣告「AI design」已分裂成四個不同職能的雙重訊號，讓主題特別清晰：清楚知道自己在做哪一種設計工作，比什麼都快都重要。Brand 圈則出現幾個讓人印象深刻的「識別作為論點」案子：Uncommon 用真實黴菌長出 Offf Barcelona 的視覺系統，How&How 透過設計 Ideogram 的品牌說「人的審美判斷無可取代」，都是用設計行動本身當論述的案子。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": true,
-      "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
-      "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
-      "summary": "Tony Fadell（iPod、iPhone 聯合創造者，Nest 創辦人）和 Lenny 討論品味、判斷力和創造力在 AI 時代的角色。他的核心論點是：品味是無法被自動化的——它來自深度的熱情、多年的迭代，以及在產品存在之前就能「感受到」它應該是什麼樣的能力。AI 讓執行更容易，但讓「知道什麼值得被做、做成什麼樣才是對的」這件事更加稀缺也更加珍貴。對設計師而言，Tony Fadell 提供的是一個清醒的提醒：追求技術工具的熟練度，不能代替深耕品味和判斷力——後者才是讓設計師在 AI 時代真正不可取代的原因。"
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The Four Design Jobs AI Created (So Far)",
-          "url": "https://www.nngroup.com/articles/design-jobs-ai-created/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "「AI 設計」這個詞已分裂成四種完全不同的工作：(1) 用 AI 生成 UI 變體和設計系統元件；(2) 設計 AI 的對話/聊天介面；(3) 為 AI agent 整理和結構化資料；(4) 定義 LLM 的行為和提示框架。這四種工作需要的技能幾乎沒有重疊，卻被塞進同一個職稱和職缺描述，造成職場上的嚴重混淆。NNGroup 的建議是：在求職或提案時，要能清楚說明自己做的是哪一種 AI 設計，而不是泛稱「AI design」——這對工作室在跟客戶談「AI 相關設計服務」時，是一個非常實用的澄清框架。"
-        },
-        {
-          "title": "The Hidden Why: Behavioral Economics for UX",
-          "url": "https://www.nngroup.com/articles/behavioral-economics-for-ux/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "行為經濟學框架（錨定效應、損失厭惡、選擇過載、執行意圖等）幫助設計師看到用戶「有意圖卻沒有行動」背後的真實原因——超越「用戶能不能完成任務」的分析，去理解「用戶的動機、注意力和決策是怎麼被塑造的」。文章提出了行為經濟學作為 UX 設計診斷工具的具體應用方式：先找出用戶在哪個環節從意圖轉為不作為，再對應到具體的行為偏誤，設計干預方案。對工作室的直接價值是：在做用戶研究報告或問題診斷時，這套框架提供了更深層的「為什麼」，而不只是描述「用戶做了什麼」。"
-        },
-        {
-          "title": "Designing AI Agents: 4 Lessons from China's Qwen Agent",
-          "url": "https://www.nngroup.com/articles/designing-ai-agents/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NNGroup 研究了中國阿里巴巴的 Qwen AI agent，提煉出 4 個對任何 agentic 介面設計都有效的 UX 原則：(1) 支援能力的可探索性（讓用戶知道 agent 能做什麼）；(2) 沿用熟悉的互動模式（不要因為是 AI 就重新設計一切）；(3) 謹慎處理個人資料（清楚告知、容易撤回）；(4) 保護用戶的自主性（agent 主動行動時應讓用戶能介入）。這篇對工作室接 AI 功能設計案非常實用——這四個原則可以直接作為提案中的 UX 設計準則，也是跟客戶對齊「好的 AI UX 長什麼樣子」的討論框架。"
-        },
-        {
-          "title": "Becoming an AI-native designer. On demos, tacit knowledge, and building…",
-          "url": "https://uxdesign.cc/becoming-an-ai-native-designer-828365b71109",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者 Sen Lin 描述自己的主要工具已換成 Claude Code、Figma Make 和 LLM，靜態 Figma 交付物被可運行的 demos 取代。他提出「tacit knowledge（心領神會的知識）」是讓 AI 原生設計師和「只是用 AI 跑快一點的設計師」真正有差距的東西——能感受什麼是「對的感覺」、能在 AI 輸出和真正的用戶需求之間做出判斷，是無法被提示工程取代的設計能力。最有啟發的洞見是：demos 比 wireframes 更能建立團隊對設計方向的共同理解，因為它們是可以被體驗的，而不只是被觀看的。"
-        }
-      ],
-      "buzz": "本週 Product 圈在共同回答一個問題：AI 時代什麼是設計師真正的核心價值？Tony Fadell 說是品味、NNGroup 說是能分辨自己在做四種 AI 設計工作中的哪一種、行為經濟學說是能診斷用戶行為背後的「隱藏的為什麼」。這些文章的答案指向同一個方向：AI 讓執行變廉價，讓判斷力和深度理解變得更貴——這對定位清晰的設計工作室反而是好消息。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "How&How creates new identity for AI image platform Ideogram",
-          "url": "https://www.creativereview.co.uk/ideogram-brand-refresh-ai-how-and-how/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "品牌工作室 How&How 幫 AI 圖像生成平台 Ideogram 設計新識別——logo 是帶有負空間字母「I」的腦形符號，深藍加米白，配色系統克制：海軍藍、米色和黑色，漸層紫玫色只出現在生成藝術方向，不用在識別本身。How&How 的 Cat 坦承這是一個有道德複雜度的案子，他們的答案是「謹慎的採用，而非盲目的熱情」。最有力的設計主張是：一個 AI 工具委託人類工作室設計品牌，本身就是在說「判斷力、直覺和策略思考是無可取代的」——識別本身就是一個論點。"
-        },
-        {
-          "title": "Uncommon's mouldy identity for Offf Barcelona is grown from biological traces of creatives",
-          "url": "https://www.itsnicethat.com/articles/uncommon-offf-barcelona-graphic-design-project-070526",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Uncommon 為設計節 Offf Barcelona 2026 打造的「Cultured」識別，素材不是 Photoshop 濾鏡——而是真的從設計師社群活動留下的生物痕跡（杯子、餐具、門把上的黴菌和纖維）中培養出來的視覺系統。識別包含由這些生物紋理衍生的字型「Modernisme」和圖案框架「Hyphae」。概念核心是：創意是一個活的生態系統，由人組成，無法被機構或趨勢塑造——識別本身就在展示這個主張，而不只是說出來。這可能是 2026 年目前概念最大膽的品牌識別，對工作室理解「識別作為論述」的可能性有很強的示範價值。"
-        },
-        {
-          "title": "New Logo and Identity for National Year of Reading 2026 by Fold7Design",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_national_year_of_reading_2026_by_fold7design.php",
-          "source": "Brand New (UnderConsideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Fold7Design 受英國國家識字信託（National Literacy Trust）委託，為「2026 全國閱讀年」設計識別。核心視覺是「The Open Book（打開的書）」，策略定位是把閱讀從「義務」重新定位為「通往任何你熱愛事物的入口」，主題是「Go All In（全力投入）」。識別設計的挑戰在於：需要同時在數位平台、印刷、學校、書店和圖書館跨媒介運作，並對不同年齡層的受眾說話。這個案子示範了社會公益品牌如何在不失去感染力的前提下服務多元受眾。"
-        },
-        {
-          "title": "New Logo and Identity for WNBA Draft 2026 by Sunday Afternoon",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_wnba_draft_2026_by_sunday_afternoon.php",
-          "source": "Brand New (UnderConsideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Sunday Afternoon 為 WNBA Draft 2026 設計事件識別，這次選秀是 WNBA 兩支新擴編球隊（Portland Fire 和 Toronto Tempo）的第一次選秀，地點在紐約 The Shed at Hudson Yards。識別以橙黑配色和上升排列的文字為主體，捕捉了賽事場地的現代感和球員上升的敘事弧線。事件識別設計（event identity）是品牌設計的特殊類型，需要在非常短的生命週期內快速建立辨識度——這個案子示範了如何在限定框架內做出有個性的設計選擇。"
-        },
-        {
-          "title": "New Logo for 2026 Commonwealth Games by LOOP",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_for_2026_commonwealth_games_by_loop.php",
-          "source": "Brand New (UnderConsideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "LOOP 為 2026 格拉斯哥英聯邦運動會設計主識別。英聯邦運動會（71 個國家和地區參加）的識別設計是品牌設計師值得研究的特殊挑戰：需要在視覺上同時服務主辦城市的在地特色、多元文化受眾、廣播媒體需求，以及「運動會應有的能量感」。這類大型多邊活動的識別往往是最能測試識別系統延展性的設計案——既要在 T 恤上好看，也要在 4K 電視轉播的開幕式上有份量。"
-        }
-      ],
-      "buzz": "Brand 圈本週最引人注目的主題是「識別作為論點」：Uncommon 用真實的黴菌說「創意是活的有機體」、How&How 透過替 Ideogram 做品牌說「人的審美判斷無可取代」，都是讓識別本身承載論述的案子，而不只是讓識別「好看」。另一條線是活動識別（event identity）的密集出現：WNBA Draft、英聯邦運動會、全國閱讀年都在本週被 Brand New 收錄，反映了有敘事野心的事件品牌正在成為品牌設計圈的重要類型。"
     }
   }
 ]
