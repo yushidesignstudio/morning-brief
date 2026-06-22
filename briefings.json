@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-22",
+    "daily_summary": "Figma Config 2026 明天開幕（6/23–25），整個 Product Design 圈提前暖場：Figma Make 直連 GitHub repo 的新功能，讓設計師第一次能在 Figma 裡編輯真實生產環境的程式碼。Brand 圈則迎來 Cannes Lions 今日開幕，首屆 Creative Brand Lion 入圍 10 強出爐，可以看到 2026 年評審怎麼定義「品牌創意力」。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Our Config 2026 Speakers on the Biggest Opportunities With AI",
+          "url": "https://www.figma.com/blog/config-speakers-looking-ahead-2026/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma Config 2026 明天（6/23）開幕前夕，Figma 邀請多位講者提前開口，分享他們認為 AI 在設計領域最大的機會點在哪。這篇集結了不同角度的觀點，從工具整合到設計師角色轉型都有涵蓋。對工作室來說，這是掌握 Config 主旋律的最快入口——明天演講的論點很可能都會圍繞這些方向展開。"
+        },
+        {
+          "title": "Figma Make, Now on Your Local Code",
+          "url": "https://www.figma.com/blog/figma-make-now-on-your-local-code/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma Make beta 推出重要更新：現在可以直接連接你的 GitHub repo，在 Figma 裡以視覺化方式編輯生產環境的真實程式碼，並且直接發 Pull Request——設計師完全不需要打開 IDE。這代表設計與工程的協作模式正在根本性地改變：設計師可以對真實產品做視覺調整，而不只是「交稿」給工程師。對接案工作室而言，這條路可能讓小團隊直接維護客戶的前端專案。"
+        },
+        {
+          "title": "Vibe Architects: Agentic Vibe Coders",
+          "url": "https://www.nngroup.com/articles/vibe-architects/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 提出新角色定義：「Vibe Architects」。在 AI vibe coding 的世界裡，出現了一批設計師不再自己執行細節，而是負責設定整個產品的美感方向、系統邏輯、和視覺一致性——讓 AI 執行、自己掌舵。這篇把這個角色描述得很清楚，包括他們的工作方式、跟傳統設計師的差異。對工作室來說，這很可能是未來幾年服務定位的重要參考框架。"
+        },
+        {
+          "title": "Becoming an AI-native designer",
+          "url": "https://uxdesign.cc/becoming-an-ai-native-designer-828365b71109",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計師 Sen Lin 以第一人稱記錄了他如何用 Claude Code 和 Figma Make 完全重建自己的工作流程，從概念到實作都有非常具體的細節。這篇在 Config week 前夕被廣泛傳閱，因為它清楚回答了一個抽象問題：「AI-native 設計師」的日常到底長什麼樣？對工作室而言，這篇可以作為評估自身工作流程的對照基準。"
+        },
+        {
+          "title": "The UX Designer's Nightmare: When 'Production-Ready' Becomes A Design Deliverable",
+          "url": "https://www.smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計師越來越常被要求交付「可以直接上線」的成果，而不只是設計稿——這篇分析了這個轉變帶來的壓力、模糊的責任邊界、以及實際的應對策略。作者認為這不全然是壞事，但需要設計師主動重新談判自己的交付範疇和費用。對接案工作室特別實用：如果客戶開始要求「production-ready」，這篇提供了很好的框架來應對這個對話。"
+        }
+      ],
+      "buzz": "Figma Config 2026 明天開幕，整個 Product Design 圈已在提前暖場。這週最核心的討論是：當設計師可以透過 Figma Make 直接動生產環境的程式碼，「設計交付物」的定義要怎麼重寫？NNGroup 的「Vibe Architects」概念和 UX Collective 的 AI-native 實踐報告，都在從不同角度描述同一個轉型——設計師的工作重心正在從「執行」移向「掌舵」。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "The Cannes Lions 2026 Creative Brand Lion Shortlist",
+          "url": "https://roastbrief.us/the-cannes-lions-2026-creative-brand-lions-shortlist-features-10-contenders-showing-how-brands-are-turning-creativity-culture-technology-and-operating-systems-into-sustainable-growth/",
+          "source": "Roast Brief / Cannes Lions",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Cannes Lions 今天（6/22）正式開幕，首屆 Creative Brand Lion 入圍 10 強出爐，包括 Mastercard、Coca-Cola Real Thing Records、TIME、M&M's 等。這個新獎項的出現，代表 Cannes 開始正式承認「品牌系統設計」是一種創意——不只是廣告執行，而是整個品牌架構的長期建設。10 件作品涵蓋科技、文化、快消，可以當作 2026 年「什麼叫做有創意的品牌」的最新參考基準。"
+        },
+        {
+          "title": "Annual Awards 2026 Design Shortlist",
+          "url": "https://www.creativereview.co.uk/annual-awards-2026-design-shortlist/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Creative Review 2026 年度設計大獎入圍名單公布，代表英國設計評論圈今年認為最值得注意的視覺設計工作。入圍作品橫跨平面、品牌識別、包裝、動態設計等類別，是觀察歐洲主流設計美學走向的重要窗口。對工作室而言，這份名單是「現在做什麼樣的品牌識別才會被認可」的具體參考。"
+        },
+        {
+          "title": "Daryn Roongrawewan doesn't design logos, she crafts 'ornamental icons'",
+          "url": "https://www.itsnicethat.com/articles/daryn-roongrawewan-graphic-design-discover-030626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計師 Daryn Roongrawewan 拒絕用「logo」定義自己的創作，她稱之為「ornamental icons」——帶有裝飾性、故事性的圖形符號。這個詞彙的選擇不只是風格差異，而是一套完整不同的設計哲學：她認為品牌符號應該像紋章或印章一樣，承載時間感與文化脈絡，而不只是識別功能。這篇可以激發工作室在提案時對「品牌符號」的深度定義。"
+        },
+        {
+          "title": "New Logo and Identity for Brand New",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_brand_new.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "品牌識別評論平台 Brand New（Under Consideration）自己做了品牌更新，然後在自己的平台上評論自己——meta 程度滿點。這個案子有趣的地方在於：一個以「評論品牌決策」為業的機構，如何處理自身品牌的演進？設計決策本身值得研究，討論串裡社群的回應也很值得一讀。"
+        },
+        {
+          "title": "Cannes Lions 2026 Print & Publishing Lions Shortlist",
+          "url": "https://roastbrief.us/cannes-lions-2026-unveils-the-print-publishing-lions-shortlist-featuring-56-finalists-that-prove-the-enduring-power-of-printed-editorial-and-visual-creativity-in-brand-building/",
+          "source": "Roast Brief / Cannes Lions",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Cannes Lions 2026 Print & Publishing Lions 56 件入圍作品出爐，從雜誌、報紙、海報到書籍設計都有。這份名單的存在本身就是一個信號：在全媒體數位化的時代，印刷視覺創意在品牌建設上仍然有不可取代的位置。入圍作品的視覺語言和排版邏輯，是觀察「紙本品牌溝通」最新標準的好素材。"
+        }
+      ],
+      "buzz": "Cannes Lions 今天開幕（持續到 6/26），Brand 圈的注意力高度集中在今年入圍名單揭示的評審口味轉變：首屆 Creative Brand Lion 的出現，把「品牌系統設計」正式納入創意評鑑範疇，不再只看廣告執行。整體趨勢是：長期品牌建設、文化滲透力、以及系統一致性，正在取代過去那種「一支爆紅廣告走天下」的思維。"
+    }
+  },
+  {
     "date": "2026-06-21",
     "daily_summary": "NNGroup 這週清楚畫出了一件重要的事：AI 已經把「設計」分裂成四個截然不同的工作——每一種都需要不同能力，也坐落在不同的組織位置。Brand 圈同步出現有趣的對比：1783 年的 Schweppes 和 2022 年的 Ideogram 同時做品牌更新，兩者都在問「什麼讓人相信你是真的」，卻給出了完全不同的答案。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "本週 Brand 圈最大的事有兩件：一是 Cannes Lions 週日開幕，今年新設的 Creative Brand Lion 把評獎重心從「那個廣告」移向「能持續輸出創意的品牌組織」，這個框架轉換很值得工作室思考；二是 Interbrand 自己的 in-house 更新，讓業界開始討論「最懂品牌的顧問公司為什麼選擇不外包自己的品牌」。BBC 的世界盃手工宣傳片也示範了：在全數位時代，人手觸感反而成為最有力的差異化主張。"
-    }
-  },
-  {
-    "date": "2026-06-17",
-    "daily_summary": "AI 使用量在設計師圈達到新高——Designer Fund 大型調查確認 91% 的設計師現在每天用 AI，Claude 已成為設計師最常用的工具。Brand 圈這週被世界盃主導，Creative Review 和 Transform Magazine 都在問：FIFA 2026 的識別設計到底夠不夠格？紐約市的世界盃宣傳海報反而讓人眼睛一亮，成功把城市個性放進全球賽事框架裡。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "AI in Design 2026: The inflection point is here",
-          "url": "https://stateofaidesign.com/",
-          "source": "Designer Fund",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Designer Fund 發布第二年度 AI 設計調查，規模是 900+ 設計師、跨 60 個國家。最關鍵的發現：2025 年有 54% 的設計師每週用 AI，2026 年跳到 91% 每天用——AI 不再是實驗，是基礎設施。Claude 已取代 ChatGPT，成為設計師最常用的 AI 助理。另一個值得注意的趨勢：90% 的設計師在自學 AI 工具，公司幾乎沒有提供正式支援。對工作室的啟示是：這份報告等於是業界的現況快照，也反映了「設計師自己帶著自己跑」的新常態。"
-        },
-        {
-          "title": "How Many Participants for a UX Interview Study?",
-          "url": "https://www.smashingmagazine.com/2026/06/participants-ux-interviews/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 研究員 Maria Rosala 說破一個常見迷思：UX 訪談不需要大樣本。研究目標、飽和度、以及你打算把發現泛化到什麼範圍——這些才是決定「要訪問幾個人」的關鍵因素，而不是直覺上的「越多越好」。對工作室和接案設計師特別實用：研究預算有限時，這篇文章可以幫你跟客戶說清楚「為什麼 5 個人就夠了」，而不只是拍腦袋。"
-        },
-        {
-          "title": "Making Charts and Graphs Accessible",
-          "url": "https://www.smashingmagazine.com/2026/06/accessible-charts-graphs/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Martin Underhill 示範如何同時為螢幕閱讀器使用者和視覺使用者設計資料圖表。文章的核心洞察是：從無障礙的角度出發設計圖表，往往會讓圖表變得更清晰、結構更完整——無障礙設計不是額外負擔，而是讓視覺呈現更嚴謹的強制機制。任何需要向客戶呈現數據的設計師都值得讀一遍。"
-        },
-        {
-          "title": "Designing for the Age of Agentic AI: UX Challenges and Patterns",
-          "url": "https://uxmag.com/articles/ux-ai-agents-agentic-automation",
-          "source": "UX Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI agent 是指能代替使用者自主行動的 AI——例如幫你訂餐廳、整理郵件、或跑研究。這類系統帶來的 UX 挑戰是全新的：怎麼設計你「看不到正在發生」的互動？怎麼讓使用者在把控制權交給 agent 的同時還保有信任？文章提供了框架，說明 agentic 產品設計和傳統產品設計的本質差異，對目前想切入 AI 功能設計的工作室是很好的基礎讀物。"
-        },
-        {
-          "title": "Building Accessible Tooltips: The Details That Actually Matter",
-          "url": "https://www.smashingmagazine.com/2026/06/accessible-tooltips-rich-content/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Tooltip 看起來是 UI 裡最小的元件之一，但加入富文字內容、混上螢幕閱讀器行為之後，問題會變得非常複雜。這篇文章逐一拆解讓 tooltip 真正做到無障礙的技術和 UX 決策——包括焦點管理、ARIA 模式、以及「什麼時候不該用 tooltip」。隨著 UI 密度越來越高，這類細節設計正在重新被認真對待。"
-        }
-      ],
-      "buzz": "這週 Product 圈有兩條主線同時在跑：一是 AI 全面滲透的現況報告——Designer Fund 的大型調查確認設計師已進入「AI every day」時代，Claude 取代 ChatGPT 成為首選；二是設計基本功的回歸——正確的研究樣本大小、資料圖表的無障礙設計、tooltip 的互動細節，這些「最不性感」的主題正在被重新認真對待。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Can design help FIFA stage its own comeback?",
-          "url": "https://www.creativereview.co.uk/fifa-world-cup-2026-branding-reputation/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Creative Review 邀請四位品牌設計專家討論：FIFA 2026 的識別設計能不能幫助 FIFA 擺脫卡達世界盃留下的負面聲譽？這篇文章的切入角度很有趣——不只評論識別設計的好壞，更問的是「設計能做到的事，和品牌聲譽之間的關係」。結論分歧：有人覺得識別確實有進步，有人認為當組織本身的問題沒解決，設計改變了也沒用。對工作室思考「品牌設計的邊界在哪裡」很有啟發。"
-        },
-        {
-          "title": "The Verdict: Fifa World Cup 2026 identity can't find its rhythm",
-          "url": "https://www.transformmagazine.net/articles/2026/the-verdict-fifa-world-cup-2026-identity-can-t-find-its-rhythm/",
-          "source": "Transform Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Transform Magazine 集結業界對 FIFA 2026 識別的評語，整體結論是：這套識別彈性有餘，情感不足——「更像在問你要什麼，而不是說出我們的主張」。去掉「World Cup」字樣的字標被形容為「三十年來最大膽的決定，卻也是最說不清楚的決定」。最有力的批評是：如此重大的文化時刻，識別應該設定趨勢，而不是跟著趨勢走。"
-        },
-        {
-          "title": "Mamdani's NYC World Cup campaign is inspired by sports memorabilia, city signage, the subway and the five boroughs",
-          "url": "https://www.itsnicethat.com/articles/zohran-mamdani-arsh-raziuddin-new-york-city-hall-world-cup-campaign-graphic-design-project-090626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師 Arsh Raziuddin 為紐約市政府設計的世界盃城市宣傳，視覺語言直接取材自運動紀念品、地鐵標誌、路牌、以及五個行政區的旗幟。核心設計決定是：每個行政區有自己專屬的貼紙，讓紐約的「多元一體」真正在設計裡出現。這個案子示範了地方品牌如何在全球賽事的框架下保有強烈個性，而不是被淹沒在官方識別系統裡。"
-        },
-        {
-          "title": "A24 creative director Liam Hamill embraces brainrot with his monthly music venue posters",
-          "url": "https://www.itsnicethat.com/articles/liam-hamill-babys-all-right-graphic-design-project-080626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "A24 副創意總監 Liam Hamill 每個月為布魯克林音樂場館 Baby's All Right 設計宣傳海報，風格是 internet brainrot——刻意的低解析度、迷因感、帶點荒謬幽默的設計語氣。他把創作簡報定義為「Baby's 的感覺」，然後每個月找不同方式詮釋：有時把整個演出陣容壓縮到米粒大小，有時做成萬聖節服裝廣告風格。這個個人專案展示了在強創意監管環境（A24）工作的設計師，如何在私下的小案子裡保持實驗性——也是一個很好的「接案設計師如何維持自己創作肌肉」的案例。"
-        },
-        {
-          "title": "The best new typefaces for June 2026",
-          "url": "https://www.creativeboom.com/resources/the-best-new-typefaces-for-june-2026/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "六月新字體精選，涵蓋展示字型、復刻老面目、和受冰島地景啟發的字型家族。三個值得注意的：Sticks（2019 年停產的工業感等寬字型，今年重新修訂並擴充為 variable font 家族）、Sahila Stencil（從單一字重擴展為 10 個風格 + variable font 的大家族）、以及 Ravenscar（為長文排版設計的老面目 slab serif）。字型市場的 variable font 趨勢繼續加速，從單一風格到全家族的擴充策略也越來越普遍。"
-        }
-      ],
-      "buzz": "世界盃開打，Brand 圈也跟著熱了起來。Creative Review 和 Transform Magazine 的業界評語都指向同一個核心問題：FIFA 2026 的識別系統彈性設計得很好，卻缺少情感上的節奏感和主張。反而是紐約市的城市宣傳海報讓人眼睛一亮——地方設計師用地鐵標誌和行政區旗幟語言，在全球賽事框架裡硬是站出了自己的個性。"
     }
   }
 ]
