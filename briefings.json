@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-21",
+    "daily_summary": "NNGroup 這週清楚畫出了一件重要的事：AI 已經把「設計」分裂成四個截然不同的工作——每一種都需要不同能力，也坐落在不同的組織位置。Brand 圈同步出現有趣的對比：1783 年的 Schweppes 和 2022 年的 Ideogram 同時做品牌更新，兩者都在問「什麼讓人相信你是真的」，卻給出了完全不同的答案。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The Four Design Jobs AI Created (So Far)",
+          "url": "https://www.nngroup.com/articles/design-jobs-ai-created/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "AI 讓「設計」這個詞分裂成至少四種截然不同的工作：為 design system 生成元件變體、設計聊天介面、為 AI agent 整理可解析的資料結構、以及定義 LLM 的行為邊界。每一種工作都坐落在不同的組織位置、使用不同的標準定義「做好了」是什麼樣子。這篇文章的重要性在於它幫設計師看清：「AI 設計師」不是一個職位，而是四條正在分叉的職涯路徑。對工作室來說，這也是重新思考自己承接 AI 設計案時，到底在幫客戶做什麼、自己具備哪些能力的好起點。"
+        },
+        {
+          "title": "How To Make Your Design System AI-Ready",
+          "url": "https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Vitaly Friedman 提出三個讓 design system 和 AI 工具有效協作的基礎建設：spec file（把設計原則、間距規則、元件使用指引寫成結構化 Markdown 文件）、token layer（確保 AI 從已命名的變數選擇，而不是自行發明數值）、以及 sync routine（design system 更新時自動標記哪些 spec file 需要跟著更新）。核心論點是：AI 無法自行解決技術債或設計債——它需要清楚的決策、明確的優先順序和完整的書面原則才能有效運作。對工作室來說，把 design system 的文字規則整理成 spec file，不只是給 AI 用的，也讓新加入的人和客戶更容易上手。"
+        },
+        {
+          "title": "Incentive Structures for Diary Studies",
+          "url": "https://www.nngroup.com/articles/diary-study-incentives/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Diary Study（日記研究法）要求參與者在幾天或幾週內持續記錄行為與體驗，最大挑戰是「怎麼讓人願意一直填到最後」。NNGroup 這篇文章提供具體框架：如何分階段給予激勵、哪些時間點最容易流失參與者、以及如何在不讓研究員被大量低品質資料淹沒的前提下維持參與動力。文章特別指出，誘因太小讓人不在乎，誘因太大讓人為了領獎而敷衍填寫——設計誘因結構本身就是研究設計的一部分。對工作室承接需要追蹤用戶行為的研究案特別實用，diary study 往往是最容易設計不當卻最難發現問題的研究方法。"
+        },
+        {
+          "title": "The Hidden Why: Behavioral Economics for UX",
+          "url": "https://www.nngroup.com/articles/behavioral-economics-for-ux/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這篇文章把行為經濟學的核心框架——損失趨避、錨點效應、社會認同、稀缺性心理——直接對應到 UX 設計決策上。它的論點是：用戶的行為往往受到這些「隱藏動機」驅動，而不是我們在設計流程中所假設的理性判斷。具體應用包括：如何用錨點效應改善定價方案的設計、如何用社會認同提高用戶完成率、以及如何識別介面中不必要的損失趨避。對工作室來說，這套框架可以幫你在 UX 審查或設計提案中，用更精確的語言說明設計決策背後的心理依據，而不只是說「感覺比較好」。"
+        },
+        {
+          "title": "Direct Every Frame with Runway Aleph 2.0, Now in Figma Weave",
+          "url": "https://www.figma.com/blog/direct-every-frame-with-runway-aleph-2/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Runway 的 AI 視頻模型 Aleph 2.0 現在整合進 Figma Weave，讓設計師在 Figma 畫布裡做到逐格導演：上傳參考圖設定風格、指定關鍵幀讓模型在未指定處維持前後一致，單次最長支援 30 秒影片。這個整合標誌著 Figma 正在把創意工作流的邊界從靜態介面設計延伸到動態影片內容製作。對有品牌影片、動態識別或社群內容需求的工作室來說，Figma Weave 正在變成一個值得認真評估的 AI 影片工作環境。"
+        }
+      ],
+      "buzz": "Product 圈這週在 AI 設計的大題目下出現了具體分層——從最抽象的「設計師角色定位」（NNGroup 的四種 AI 設計工作），到最可操作的「design system 怎麼和 AI 工具合作」（Vitaly Friedman 的 spec file 框架）。Figma 工具整合繼續加速，Runway 進入 Figma Weave 讓視頻導演也成為設計師的工作範疇。行為經濟學框架的重新流行，則提醒我們：追 AI 新工具的同時，人類決策的底層邏輯仍然沒有改變。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Studio Nari wordmark gives Threads a voice of its own",
+          "url": "https://www.itsnicethat.com/articles/studio-nari-threads-graphic-design-160626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Studio Nari 幫 Threads 設計的新 wordmark 解決了一個棘手的品牌問題：如何在 Meta 生態系裡建立獨立聲音，同時又不和 Instagram 徹底切割？核心概念是「Trending Chisel」（鑿刀刻劃）——把鑿刀的壓力、對比和切口轉化成字型語言，讓 Threads 的文字感覺像是在大理石上刻出的即時新聞。過去 Threads 沿用 Instagram Sans，現在的定製字型給了這個平台屬於自己的語氣和編輯權威。對工作室來說最直接的啟發：在有品牌生態約束的設計案裡，「從既有框架內長出個性」比另起爐灶更難，也更有說服力。"
+        },
+        {
+          "title": "How to make brand systems work in an imperfect world",
+          "url": "https://www.creativereview.co.uk/brand-systems-imperfect-world-design-bridge/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Design Bridge 在這篇文章裡直面一個設計師都知道但少有人正視的現實：品牌系統在 presentation deck 裡永遠是完美的，但在客戶的實際執行環境裡，它會遭遇印刷廠規格不同、供應商各自解讀、以及組織內部溝通斷層等問題。文章的核心論點是：好的品牌系統設計必須預測並應對這些不完美——它需要有清楚的優先順序（什麼元素不能妥協）、有彈性的次要表現（什麼情況下可以調整）、以及有效的 governance（誰有權決定什麼）。對工作室來說，這篇提供了一個完整框架，說明為什麼 brand guidelines 需要不只是美麗的書，更需要是實用的操作手冊，也是向客戶說明「為什麼交付物需要更多規格文件」的好論據。"
+        },
+        {
+          "title": "JKR helps Schweppes rediscover its sparkle with a heritage-inspired redesign",
+          "url": "https://www.creativeboom.com/news/with-time-comes-taste-schweppes-reimagines-the-brand-it-invented/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "全球最古老的碳酸飲料品牌 Schweppes（1783 年創立）交給 JKR、Studio.One 和 Mischief 進行近年最大規模的品牌更新。策略核心是「Reclaim, don't reinvent」——不是現代化，而是把被競品稀釋掉的正統性找回來。設計決策包括：復刻 1851 年倫敦博覽會噴泉紋飾、恢復帶泡泡感的 serif 字型、讓吉祥物 Clive 豹歸隊、以及找回品牌標誌性的藏紅花黃調。南非市場的初步數據已顯示成效：+12.6% 銷售成長和 +15.4% 新客戶招募。這是對「老品牌要現代化才能生存」這個設計慣例最有力的反駁。"
+        },
+        {
+          "title": "New Logo and Identity for Ideogram by How&How",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_ideogram_by_howhow.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 圖像生成平台 Ideogram 委託 How&How 設計新識別，而 How&How 先做了一輪道德辯論才決定接——他們有一個專門討論「值不值得接這個案」的內部頻道。最後的設計直面爭議：logo 以樣式化的人腦輪廓為核心，負空間藏著字母「I」，意思是「想法的起點還是你自己」。整個識別系統走深藍加米白，AI 生成影像和傳統創意媒材混用，維持動態感。這個案子直接觸碰了「AI 工具品牌應該如何定位自己和人類創意的關係」這個敏感問題，How&How 選擇的答案是：正面回應，不迴避。"
+        },
+        {
+          "title": "Design resource platform Envato launches new logo and sonic identity",
+          "url": "https://www.creativeboom.com/news/envato-launches-new-brand-identity/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計師圈最大的素材與工具平台之一 Envato（旗下有 Envato Elements、ThemeForest、AudioJungle 等）推出品牌首次系統性更新，包含全新 logo 和聲音識別（sonic identity）。新識別往更簡潔、現代的方向走，聲音識別的加入標誌著平台品牌開始認真對待多感官體驗——這在平台品牌中仍屬少見。這個案子展示了一個有趣的品牌策略問題：當品牌需要跨越多個子品牌和服務類別時，視覺識別容易因為適應性被稀釋，而聲音識別反而更容易在不同接觸點之間建立統一感。"
+        }
+      ],
+      "buzz": "這週 Brand 圈最有趣的對比是 Schweppes（1783）和 Ideogram（2022）同時做品牌更新，兩者都在問「什麼讓人相信你是真的」——前者挖出 1851 年歷史找到答案，後者把人腦刻進 logo。Studio Nari 幫 Threads 做的 wordmark 則示範了在生態系限制裡找到自己聲音的第三條路。Design Bridge 提醒：brand system 不是做完就交貨，真正的挑戰是讓它在現實執行裡也能撐住。Cannes Lions 明天（6/22）開幕，首屆 Creative Brand Lion 得主即將揭曉。"
+    }
+  },
+  {
     "date": "2026-06-20",
     "daily_summary": "這週 AI 設計圈最有力的聲音是「不確定性」和「非工程師」——Smashing 提出機率性設計框架，NNGroup 確認非開發者已在大量建構 AI 系統，設計師的角色邊界再次位移。Brand 圈本週最大的事是 Cannes Lions 週日（6/22）登場，新設的 Creative Brand Lion 首次把評分標準移向品牌的創意基礎建設；同時 Interbrand 自己的 in-house 品牌更新讓人格外矚目。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "世界盃開打，Brand 圈也跟著熱了起來。Creative Review 和 Transform Magazine 的業界評語都指向同一個核心問題：FIFA 2026 的識別系統彈性設計得很好，卻缺少情感上的節奏感和主張。反而是紐約市的城市宣傳海報讓人眼睛一亮——地方設計師用地鐵標誌和行政區旗幟語言，在全球賽事框架裡硬是站出了自己的個性。"
-    }
-  },
-  {
-    "date": "2026-06-16",
-    "daily_summary": "AI 議題繼續主導 Product Design 圈，這週焦點從「AI 能做什麼」轉向「設計師要怎麼應對」——NNGroup 和 Emily Campbell 都在拆解設計師的核心能力，Critique 和 Context 成為關鍵詞。Brand 方面，KFC 的 Bucketverse 與 Koto 復刻 Norton Museum 80 年古字體各走一端，LogoLounge 年度趨勢報告更指出 Motion 已是識別設計新標配，值得工作室收藏。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": true,
-      "title": "The hidden pattern behind successful products | Mark Pincus (Founder of Zynga)",
-      "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
-      "summary": "Zynga 創辦人 Mark Pincus 分享他的「Proven, Better, New」框架：多數公司的失敗在於只抄競爭對手（Proven）而非找到 Proven 與 Better 的交叉點。這是他新書上市前的第一次重要採訪，書中集結他創業 30 年的產品洞察。"
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The hidden pattern behind successful products | Mark Pincus (Founder of Zynga)",
-          "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
-          "source": "Lenny's Newsletter",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Zynga 創辦人 Mark Pincus 分享他的「Proven, Better, New」產品框架：成功的產品要找到「已被驗證」與「更好」的交叉點，而非盲目追新。他認為多數公司的產品策略失敗，是因為只複製競爭對手（Proven）卻缺乏差異化（Better）。這是他即將出版的新書《Life at the Speed of Play》上市前的首次深度採訪，書中集結 30 年創業經驗中最關鍵的產品決策思考。"
-        },
-        {
-          "title": "The Core Skill of Design in the AI Era: Critique",
-          "url": "https://www.nngroup.com/articles/ai-era-critique/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NNGroup 主張：AI 時代設計師最重要的能力不是生成，而是「批判性評估」——能判斷 AI 輸出的好壞，並提出具體改進方向。文章提出「Judge-Evaluate-Iterate」框架，說明如何把設計原則轉化為評估標準，讓設計師成為 AI 流程的把關者而非只是操作者。對想在 AI 工作流裡保持主導權的設計師來說，是本週最值得讀的觀點之一。"
-        },
-        {
-          "title": "Context Architecture",
-          "url": "https://www.nngroup.com/articles/context-architecture/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NNGroup 把資訊架構的思維套用到 AI 系統設計：「Context Architecture」是指如何組織 AI 在任何時刻「知道什麼」，就像過去設計師組織網站導覽架構一樣。文章說明 Context 的結構直接決定 AI 輸出品質，提醒設計師開始把 Context 視為一種設計介面，而非只是輸入欄位。"
-        },
-        {
-          "title": "The Layers of AI Experience",
-          "url": "https://emilycampbell.co/writing/layers-of-ai-experience",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Emily Campbell 提出 AI 產品的「層次模型」：AI 體驗由模型、介面、互動、系統等相互依存的層次組成，每一層都需要不同的設計決策。她指出 AI 設計的本質是「機率性」而非確定性，設計師必須建立全新的心智模型才能在這個環境中有效工作。是目前少數把 AI 設計結構化得如此清晰的框架之一。"
-        },
-        {
-          "title": "What is design when you barely have time to do it?",
-          "url": "https://uxdesign.cc/what-is-design-when-you-barely-have-time-to-do-it-c6d8e89e06fe",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "作者 Lai-Jing Chu 以第一人稱描述在極度資源不足的環境下設計的真實狀況：同時管理五條工作流、沒有設計團隊、只能「夠好就好」。文章誠實地拆解了「設計流程」在現實壓力下的樣子——善用 AI 快速生成、重複使用元件、以功能完成為優先。對在工作室或獨立接案環境工作的設計師來說，是一篇有共鳴的現實反思。"
-        }
-      ],
-      "buzz": "這週 Product Design 圈的核心問題只有一個：AI 時代設計師的核心能力是什麼？NNGroup 的答案是 Critique（批判性評估）和 Context Architecture（脈絡架構），Emily Campbell 的答案是理解 AI 的層次結構與機率性本質。Lenny's Podcast 則帶來創辦人視角——Mark Pincus 提醒我們，好產品的起點是找到「已驗證」與「更好」的交叉點，而不是一味追新。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "LogoLounge 2026 Trend Report",
-          "url": "https://www.underconsideration.com/brandnew/archives/logolounge_2026_trend_report.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Bill Gardner 分析超過 3 萬件 Logo 提交作品，整理出 2026 年 15 個識別設計趨勢，核心主題是「Motion」——靜態 Logo 時代正在結束，品牌識別正在往「能動、能變形、能跨平台適應」的方向走。其他值得注意的趨勢包括：童趣手繪感的回歸、AI 生成美學的滲入、以及強調觸感與質地的設計語言。這份報告是業界每年必看的識別趨勢基準。"
-        },
-        {
-          "title": "Enter the Bucketverse: KFC's finger-licking rebrand turns an icon into an entire world",
-          "url": "https://www.itsnicethat.com/articles/jkr-kfc-graphic-design-project-150626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "JKR 為 KFC 完成近年規模最大的品牌重塑：新 Logo、字體、包裝、門市室內設計、App 介面、社群語氣全面統一，核心概念是把標誌性的 Bucket 擴展成一個「品牌宇宙」（Bucketverse）。這次先從英國、愛爾蘭推出，最終要在全球 34,000 家門市落地。展示了如何用一個單一視覺符號撐起完整的敘事世界。"
-        },
-        {
-          "title": "PepsiCo shakes things up with first corporate rebrand in 25 years",
-          "url": "https://www.foodbev.com/news/pepsico-shakes-things-up-with-first-corporate-rebrand-in-25-years",
-          "source": "FoodBev Media",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "PepsiCo 發布 25 年來首次企業品牌更新：新 Logo、新 Tagline「Food. Drinks. Smiles.」、網站與包裝全面翻新。這次重塑的方向是讓企業母品牌更有溫度、更接近消費者，而非只強調企業效率。值得關注的是，這是企業層級的識別更新，不是旗下個別品牌如 Pepsi、Lay's 的調整——規模與影響範圍遠超一般品牌案。"
-        },
-        {
-          "title": "Koto revives an 80-year-old wordmark to rebrand Norton Museum of Art",
-          "url": "https://www.itsnicethat.com/articles/koto-norton-museum-of-art-graphic-design-project-030626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Koto 接受 Norton Museum of Art 委託，進行品牌深度研究後發現，最好的設計就藏在館方 1941 年的舊字體裡。新識別以復刻這個 80 年老字體為核心，讓品牌看起來既有歷史厚度又重新煥發活力。這個案子是「不創新才是最好的設計決策」的絕佳案例，也提醒接案設計師，品牌研究與檔案挖掘往往比從頭設計更有價值。"
-        },
-        {
-          "title": "Applied Design gives JFK's Terminal 8 a brand that's unmistakably New York",
-          "url": "https://www.creativeboom.com/news/applied-design-reimagines-jfks-terminal-8-identity-from-the-ground-up/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Applied Design 為 JFK 機場 Terminal 8 重新設計識別系統：飛機窗戶視角的藍色系、暗藏數字「8」的客製圖樣、以及帶有皇后區口氣的品牌語氣，整體讀起來就是「紐約」。這是一個如何把「地方感」編入品牌識別每一個細節的優秀教材，也展示了在公共空間品牌設計中突破機構設計慣性的可能。"
-        }
-      ],
-      "buzz": "這週 Brand 圈的敘事有兩個方向：一是往大走，KFC 把一個 Bucket 擴展成整個品牌宇宙，PepsiCo 25 年來首次更新企業識別，大動作背後都是要讓品牌更有情感溫度；二是往根走，Koto 從 Norton Museum 的 1941 年舊字體裡找到答案。LogoLounge 年度報告則從宏觀角度確認：Motion 已成為識別設計的新標配，靜態 Logo 正在逐漸退場。"
     }
   }
 ]
