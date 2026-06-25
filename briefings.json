@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-25",
+    "daily_summary": "這 48 小時設計圈被兩件大事佔滿：Figma Config 2026 公布 code layers、原生動態工具跟 AI agent skills，Anthropic 也同步把 Claude Design 整個翻新，兩邊都在把畫布、程式碼、AI 工作流綑得更緊。Brand 圈則是 Cannes Lions 2026 如火如荼進行，Design Lions 大獎頒給 Apple TV「純手工」的品牌重塑，在 AI 滿天飛的時候，反而是手感變稀缺。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Config 2026: New Materials, New Tools and a More Expressive Canvas",
+          "url": "https://www.figma.com/blog/config-2026-recap/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 在 San Francisco 的 Config 2026 上公布一整套新功能：把任何圖層一鍵變成可互動的 code layer、原生支援 timeline 與 keyframe 動態設計、用 AI 生成 shader 效果，還可以用文字 prompt 訓練出能重複使用的 AI agent skill，甚至串接 Notion、GitHub 等外部服務。TechCrunch、CMSWire 等多家媒體都大篇幅報導，顯示這次更新動作之大。對設計師來說，意味著「手動畫面」的價值正在被壓縮，但設計師仍是唯一能定義產品策略跟使用者需求的人。這次更新也讓 Figma 跟程式碼之間的距離更近，適合密切跟工程協作的團隊先去研究。"
+        },
+        {
+          "title": "Anthropic ships major Claude Design overhaul with design system imports, code round-trips",
+          "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+          "source": "VentureBeat",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Anthropic 公布 Claude Design 的重大更新，新增 /design-sync 指令，可以把 GitHub 上既有的設計系統匯入 Claude Design，之後 Claude 產出的畫面都會自動對照這套系統檢查跟修正。畫布編輯器也重做，支援拖曳、調整大小、對齊等基本操作，不用每改一個小細節就耗用一次模型額度。設計完成後可以直接交給 Claude Code 接手寫程式，省掉截圖、重建畫面的步驟。這跟工作室目前用 Claude Code 的習慣直接相關，值得花時間研究新功能。"
+        },
+        {
+          "title": "The Core Skill of Design in the AI Era: Critique",
+          "url": "https://www.nngroup.com/articles/ai-era-critique/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這篇文章的核心論點是，要做出真正好用的 AI 系統，光靠 AI 自動生成是不夠的——團隊必須把「使用者需要什麼」「什麼樣的判斷才是好判斷」這些原本存在設計師腦中的直覺，轉換成清楚、可被檢驗的評估標準。換句話說，當人人都能用 AI 快速生出一堆版本，真正稀缺的能力變成「看一眼就知道哪個版本是對的、為什麼對」。NN/g 認為這代表 critique（批判性檢視）正在從「設計流程裡的一個環節」，升級成這個時代最核心的設計能力。對工作室來說，這也是個提醒：養成團隊內部紮實的 critique 文化，可能比追新工具更重要。"
+        },
+        {
+          "title": "We stopped clicking, and AI became the Internet",
+          "url": "https://uxdesign.cc/we-stopped-clicking-and-ai-became-the-internet-df61a0c79d91",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrizia Bertini 指出，2026 年網路上超過半數的流量已經來自機器人而非真人，AI agent 開始直接幫使用者瀏覽、比價、下單，人類「親自點擊」的比重快速下降。她認為這對整個 UX 設計行業是根本性的衝擊，因為過去所有的介面設計邏輯都建立在「有一個人在看畫面、用滑鼠或手指操作」這個假設上。文章主張設計師接下來要開始設計「給 AI agent 看」的介面跟資料結構，而不只是給人看的畫面。這跟 Machine Experience（MX）設計的討論方向一致，值得放進長期觀察清單。"
+        },
+        {
+          "title": "The organizational cost of low taste",
+          "url": "https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Aurélie Radom 提出一個框架：「品味」（taste）其實像是組織決策的作業系統，當大家對「什麼叫做好」有共識，很多選擇根本不需要每次都拿出來討論，判斷力只留給真正關鍵的地方用。一旦這套共同標準消失，團隊就會陷入不斷重做、來回修改、品質忽高忽低的狀態，而這些表面上看起來是不同的管理問題，其實都源自同一件事：組織失去了辨識品質的穩定方法。文章認為，重建品味不是請更厲害的設計師來把關，而是要把「好」的判斷標準變成組織共同擁有、可以傳承的東西。對品牌顧問工作室來說，這篇某種程度也在說服客戶：為什麼找對的合作夥伴建立品味共識，比每個案子都重新討論美感更有效率。"
+        }
+      ],
+      "buzz": "這幾天 Product Design 圈被「AI 跟設計工具整合更深一層」佔滿——Figma、Anthropic 接連端出更貼近程式碼的設計工具。同時也有一群人在認真討論：當 AI 把「做」變快了，真正值錢的能力會不會反而是「批判」跟「品味」這種沒辦法被自動化的判斷力。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Cannes Lions 2026 Grand Prix Winners in Design, Digital Craft, Film Craft and Industry Craft",
+          "url": "https://lbbonline.com/news/Cannes-Lions-2026-Grand-Prix-Winners-in-Entertainment-Gaming-Music-Sport-Design-Digital-Craft-Film-Craft-and-Industry-Craft",
+          "source": "LBBOnline",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Cannes Lions 2026 的 Design 類別大獎（Grand Prix）由 Apple TV 的品牌重塑案拿下，操刀的是 TBWA\\Arts Lab Los Angeles 跟 Apple Cupertino 內部團隊。評審特別指出這個作品的特別之處，在於大量手工製作的質感，而不是仰賴新技術去堆疊效果，在滿場 AI 工具的年代顯得格外突出。同一天的工藝類獎項也呈現類似氣氛：Coinbase 的影片作品跟 De'Longhi 把咖啡機變成手作迷你咖啡店的案子都拿下大獎。這些得獎案例合起來在傳遞一個訊息：當人人都能用 AI 生成精緻畫面，「看得出來是人做的」反而成為一種稀缺的品牌資產。"
+        },
+        {
+          "title": "KitKat's 'Have a break' platform makes Cannes Lions Creative Brand shortlist",
+          "url": "https://www.campaignlive.co.uk/article/kitkats-have-break-platform-makes-cannes-lions-creative-brand-shortlist/1962376",
+          "source": "Campaign",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "VML 倫敦為 KitKat 操刀的「Little Breaks」系列，把品牌經典的 logo 線條重新拆解，在裡面藏進「聽音樂」「彈吉他」「閱讀」「發白日夢」等四個微小插畫場景，要觀眾停下來、看仔細才能發現。這個作品延續 KitKat 長期經營的「Have a break」品牌主張，但這次選擇用安靜、需要時間消化的方式呈現，而不是搶眼的視覺衝擊。作品在 Cannes Lions 2026 的戶外類拿下銅獎，被視為「把 logo 本身當成創作素材」的代表案例。對品牌識別設計來說，這是個提醒：識別系統本身就可以是內容，不一定要額外做活動素材。"
+        },
+        {
+          "title": "Strategic rebrand positions Untold as emotionally resonant AI",
+          "url": "https://www.transformmagazine.net/articles/2026/strategic-rebrand-positions-untold-as-emotionally-resonant-ai/",
+          "source": "Transform magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 心理陪伴 App Untold 因為新推出的「Perspective」功能（包含引導式日記、情緒趨勢視覺化等）讓產品定位變得更成熟，因此啟動全面品牌重塑，新識別圍繞「speak freely, feel understood, grow intentionally」三個核心概念設計。負責插畫系統的 The Working Assembly 特別訓練了一套專屬 AI 插畫系統，目的是做出「有情感溫度」、不會讓人覺得是演算法隨機生成的畫面。新識別也包含全新的客製化 logo 跟更貼近真人語氣的文字風格。這個案例值得參考的地方在於：用 AI 做插畫系統時，品牌仍可以透過嚴格的訓練跟把關，避免畫面看起來「很 AI」。"
+        },
+        {
+          "title": "Crosby Studios outfits World Cup pop-up with football-green rugs",
+          "url": "https://www.dezeen.com/2026/06/24/crosby-studios-new-york-home-of-football-air-afrique-exhibition/",
+          "source": "Dezeen",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "紐約 Chelsea 區的 High Line 9 藝廊，在世界盃期間變身成「Home of Football」展覽空間，由 Crosby Studios 負責空間設計，用大片螢光綠地毯跟巨大發光球體營造出強烈的品牌氛圍。展覽由法國藝術團體 Air Afrique 策展，展出私人收藏 Manzano Heritage Collection 裡的足球文物，包括 Pelé 1958 年世界盃球衣、Ronaldo 2002 年奪冠相關文物、Messi 2006 年首次參加世界盃的球衣等，用拋光金屬展示櫃陳列。空間裡還有獨立策劃的選品店，展期從 6/22 到 7/19。對品牌空間設計來說，這個案子示範了怎麼用色彩跟材質的強烈統一感，把一個臨時展覽空間迅速建立成有記憶點的品牌體驗，而不需要靠複雜的敘事去支撐。"
+        },
+        {
+          "title": "The Ordinary Wins Big Among 8 Grand Prix Winners From Cannes Lions 2026 Day 1",
+          "url": "https://www.adweek.com/creativity/the-ordinary-wins-big-among-8-grand-prix-winners-from-cannes-lions-2026-day-1/",
+          "source": "Adweek",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "The Ordinary 與創意團隊 Uncommon Creative Studio、Smuggler 合作的「The Periodic Fable」，把化學週期表上的真實元素全部替換成保養品產業常見的行銷話術，像是「回春」「撫平細紋」「永遠年輕」等等，藉此諷刺這些說法其實毫無科學根據。campaign 包含一部由 Olivia De Camps 執導的反烏托邦風格短片，畫面是一群人在無菌教室裡一邊念著行銷術語、一邊進行制式化的保養儀式，另外還做了一個微網站讓使用者自己去查每個「假元素」背後在嘲諷什麼。這個案子拿下 Cannes Lions 2026 健康與保健類的大獎（Grand Prix）。對品牌策略來說，這是一個示範：當你的品牌主張是「誠實、反行銷話術」，行銷活動本身的形式也必須徹底貫徹這個主張，才不會自打嘴巴。"
+        }
+      ],
+      "buzz": "Cannes Lions 進行中，評審風向很明顯偏好「看得出是人手做的」工藝感作品，Apple TV 的品牌重塑跟 De'Longhi 的手作咖啡店裝置都因此奪冠。同時不管是心理陪伴 App 的角色插畫，還是世界盃快閃展覽的空間設計，都在示範同一件事：用強烈、統一的素材語言，比堆疊敘事更快建立品牌記憶點。"
+    }
+  },
+  {
     "date": "2026-06-22",
     "daily_summary": "Figma Config 2026 明天開幕（6/23–25），整個 Product Design 圈提前暖場：Figma Make 直連 GitHub repo 的新功能，讓設計師第一次能在 Figma 裡編輯真實生產環境的程式碼。Brand 圈則迎來 Cannes Lions 今日開幕，首屆 Creative Brand Lion 入圍 10 強出爐，可以看到 2026 年評審怎麼定義「品牌創意力」。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "這週 Brand 圈最有趣的對比是 Schweppes（1783）和 Ideogram（2022）同時做品牌更新，兩者都在問「什麼讓人相信你是真的」——前者挖出 1851 年歷史找到答案，後者把人腦刻進 logo。Studio Nari 幫 Threads 做的 wordmark 則示範了在生態系限制裡找到自己聲音的第三條路。Design Bridge 提醒：brand system 不是做完就交貨，真正的挑戰是讓它在現實執行裡也能撐住。Cannes Lions 明天（6/22）開幕，首屆 Creative Brand Lion 得主即將揭曉。"
-    }
-  },
-  {
-    "date": "2026-06-20",
-    "daily_summary": "這週 AI 設計圈最有力的聲音是「不確定性」和「非工程師」——Smashing 提出機率性設計框架，NNGroup 確認非開發者已在大量建構 AI 系統，設計師的角色邊界再次位移。Brand 圈本週最大的事是 Cannes Lions 週日（6/22）登場，新設的 Creative Brand Lion 首次把評分標準移向品牌的創意基礎建設；同時 Interbrand 自己的 in-house 品牌更新讓人格外矚目。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
-          "url": "https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "HubSpot 資深產品設計師 Pratik Joglekar 提出「機率性設計」（Probabilistic Design）框架：AI 的輸出是預測，不是決定——這讓傳統設計流程裡「確認用戶需求再設計」的邏輯開始動搖。Air Canada 的 AI 聊天機器人案例是本文的核心錨點：機器人「自信地」給出一個不存在的退款政策，最後航空公司被裁定要負責。這篇文章的意義在於，它幫設計師建立一個理解和應對 AI 不確定性的思考工具，而不是迴避它。"
-        },
-        {
-          "title": "Nondevelopers Are Building Complex Agentic AI Systems",
-          "url": "https://www.nngroup.com/articles/nondevelopers-agentic-ai/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 觀察到一個重要現象：沒有工程背景的人（研究員、設計師、產品經理）正在靠 YouTube、Reddit 和大量實驗，直接建構複雜的 AI agent 系統。這篇文章記錄這個趨勢，並探討它對 UX 設計帶來的挑戰——因為這些系統往往建立在直覺而非系統性設計原則上。對工作室來說有雙重意義：一方面是機會（設計師可以直接動手建 AI 工具），另一方面是風險（沒有設計基礎的 AI 系統往往有嚴重的可用性問題）。"
-        },
-        {
-          "title": "UI Design Best Practices for Better Scannability",
-          "url": "https://www.smashingmagazine.com/2026/06/ui-design-scannability/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Nemanja Banjanin 拆解 UI 設計中最容易被低估的一件事：可掃描性（Scannability）。這不是關於美觀，而是關於資訊架構——視覺層次、對齊、空白、字型大小怎麼組合，決定用戶能不能在不閱讀的情況下快速理解頁面。在 AI 產品和資訊密集型介面越來越普遍的時代，這篇文章是個很好的基本功提醒——「讓人一眼看懂」這件事，永遠是設計的核心挑戰。"
-        },
-        {
-          "title": "AI Tools Are Making Research Easier: From Advising to Building",
-          "url": "https://uxmag.com/articles/ai-tools-research-from-advising-to-building",
-          "source": "UX Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "AI 工具正在改變研究員的工作模式——過去研究員的角色是「提建議的人」，現在他們可以直接用 AI 工具建構分析框架、自動整理訪談紀錄、生成洞察報告。文章探討這個「從顧問到建構者」的角色轉變對研究實踐的意義，以及如何在加速的同時維持研究的嚴謹性。對工作室承接需要做用戶研究的案子特別實用。"
-        },
-        {
-          "title": "Gamification in Product Design: Behavioral Design Meets Game Mechanics",
-          "url": "https://uxmag.com/articles/gamification-product-design-behavioral-game-mechanics",
-          "source": "UX Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Montgomery Singman 梳理遊戲化設計（Gamification）的理論基礎——從行為設計到遊戲設計原則，再到如何把這些應用在真實產品中。這篇文章的核心論點是：真正有效的遊戲化不是加進徽章和積分，而是理解「什麼讓人想繼續做這件事」的深層機制。隨著 AI 產品開始需要引導用戶建立使用習慣，遊戲化思維正在回歸 Product Design 的主要討論。"
-        }
-      ],
-      "buzz": "這週 Product Design 圈的主軸是「設計師在 AI 時代的位置再次移動」。Smashing Magazine 提出機率性設計框架幫設計師接受不確定性；NNGroup 記錄了非工程師靠自學就能建 AI 系統的現象，直接挑戰傳統角色分工。同時 UX Magazine 記錄研究員從「提建議」變成「直接建構」的轉型。這週說的是同一件事：AI 讓每個人都更接近產品的核心動作，設計師的獨特價值需要更清晰地定義。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "New Logo and Identity for Interbrand done In-house",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_interbrand_done_in_house_2026.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "全球最知名品牌顧問公司 Interbrand 自己幫自己設計了新品牌——而且是完全 in-house 完成，沒有委託外部公司。這件事本身就是一個論述：最懂品牌的人選擇自己做。這個消息對設計工作室特別值得思考：當顧問公司開始自己動手做，是因為他們相信自己最了解自己，還是在說「找外部視角」的時代正在改變？Brand New 的評論版永遠很精彩，這篇應該也不例外。"
-        },
-        {
-          "title": "From Olivetti to Instagram: a short history of modern brand design",
-          "url": "https://www.itsnicethat.com/features/katharina-sussek-jens-muller-the-elements-of-brand-design-taschen-publication-graphic-design-spotlight-170626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇是 Taschen 新書《The Elements of Brand Design》的摘錄，由 Katharina Sussek 和 Jens Müller 合著，收錄 100+ 個品牌識別案例、17 章每章聚焦一個識別核心元素，並有 Paula Scher 和 Michael Bierut 的深度訪談。從奧利維蒂（Olivetti）打字機到 Instagram，文章勾勒出品牌設計如何從製造商識別演變為當代的系統性設計語言。如果你想搞清楚「品牌識別到底是什麼、它的歷史脈絡是什麼」，這本書可能是今年最值得入手的參考書。"
-        },
-        {
-          "title": "Cannes Lions 2026 introduces the Creative Brand Lion",
-          "url": "https://www.canneslions.com/news/cannes-lions-introduces-the-creative-brand-lion",
-          "source": "Cannes Lions",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Cannes Lions 2026（6/22–26）新設「Creative Brand Lion」——這個獎不是評比單一活動，而是評比品牌整體的創意基礎建設：系統、文化、能力是否能持續產出高水準創意。這標誌著業界對「什麼是好品牌」的評判標準出現重要轉變：從單次爆款廣告，轉向「能穩定輸出的組織能力」。對想要建立長期品牌的工作室和客戶，這個新獎項的評判框架很值得參考。"
-        },
-        {
-          "title": "Booms & Shakes: June's hires, launches and the studios rethinking themselves",
-          "url": "https://www.creativeboom.com/news/booms-and-shakes-june-2026/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Creative Boom 每月一次的業界動態快照：六月版涵蓋 Landor 的新高管任命（Sarah Eversole 從 JKR 回鍋主導全球 retail/hospitality 設計）、M+C Saatchi Talk 的 Managing Partner 換人、以及即將到來的 Cannes Lions（6/22）和 Prolific North Creative Awards（6/25）。這個月報特別值得看的是「studios rethinking themselves」——哪些工作室正在重新定義自己在做什麼，以及為什麼。"
-        },
-        {
-          "title": "BBC's crafts love letter to fandom in World Cup trailer",
-          "url": "https://www.creativereview.co.uk/bbc-creative-lets-make-it-iconic-world-cup-promo-film/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "BBC Creative 的「Let's Make It Iconic」世界盃宣傳影片是今年創意製作裡最有手感的一個。他們混合了真實拍攝、2D 動畫、手工藝、停格動畫和實體觸感技法，把圍巾、琺瑯徽章、臉妝、搖頭娃娃做成巨幅 tifo 掛在住宅大樓外牆。在 AI 生成視覺氾濫的時代，BBC 選擇用最費力的人手工藝來說「這是我們最重要的轉播節目」——這個訊號本身就是一個很有力的品牌主張。"
-        }
-      ],
-      "buzz": "本週 Brand 圈最大的事有兩件：一是 Cannes Lions 週日開幕，今年新設的 Creative Brand Lion 把評獎重心從「那個廣告」移向「能持續輸出創意的品牌組織」，這個框架轉換很值得工作室思考；二是 Interbrand 自己的 in-house 更新，讓業界開始討論「最懂品牌的顧問公司為什麼選擇不外包自己的品牌」。BBC 的世界盃手工宣傳片也示範了：在全數位時代，人手觸感反而成為最有力的差異化主張。"
     }
   }
 ]
