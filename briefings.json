@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-28",
+    "daily_summary": "Product 圈這 48 小時出現一個論述轉移：從「AI 讓設計師消失嗎」移向「執行變快之後，哪些判斷力更稀缺」——Discovery judgment 跟 baseline 測量同時被點名，都是比 Figma 新功能更難被自動化的東西。Brand New 這週密集發出四個中型品牌識別更新，Prosper Global、奧格斯堡大學、Benifex、Prisme 接連亮相，集體示範各種產業都在認真用視覺識別建立信任；It's Nice That 從 Olivetti 講到 Instagram 的品牌史則提醒，工具再怎麼變，品牌設計的核心仍然是「概念個性跟藝術原創性」。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Your New UX Habit: Establishing Baselines for Impact",
+          "url": "https://www.nngroup.com/articles/establishing-baselines/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "UX 團隊在開始任何設計案之前，應該先測一次基準數據，否則後續的改善根本無法被證明。NNGroup 指出「測量太晚」是 UX 價值被低估最常見的原因——完成率從 48% 升到 67% 這個說法的說服力，完全取決於那個 48% 是否在設計前就已被測出來。文章建議選擇跟用戶行為直接掛鉤的指標（如完成率、任務時間），而不是頁面瀏覽這種間接數字，並且要詳細記錄測量方法，確保前後比較有效。對工作室最直接的用途：在跟客戶溝通設計成效時，有前後對照的數字直接影響說服力——這篇提供了一個好框架，說明「為什麼研究預算應該包含設計開始前的基準測量」。"
+        },
+        {
+          "title": "AI didn't replace designers—it promoted them",
+          "url": "https://uxdesign.cc/ai-didnt-replace-designers-it-promoted-them-5b6d24de4e26",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Lisa Demchenko 觀察到設計師的工作已經「安靜地、不可逆地」在改變形狀：不再是幫每個 flow 畫出所有畫面或做 Figma prototype，而是定義系統架構、讓 AI 去執行細節。她認為當 AI 被整合進完整的 build loop，而不只是用在孤立任務時，設計師的角色從「執行者」升格成「決策者」。這跟 NNGroup 提出的「Vibe Architects」概念高度吻合，代表這個轉型已有多方觀察者收斂到同一個結論。對工作室的提示：現在是重新定義「設計服務交付範疇」的好時機——從畫面交付，往策略架構靠，客戶願意付費的理由也會隨之改變。"
+        },
+        {
+          "title": "Discovery is a capability, not a phase",
+          "url": "https://uxdesign.cc/discovery-is-a-capability-not-a-phase-0fd6c1dab2f5",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Gale Robins（Unvera 創辦人）提出 Discovery Judgment Framework，把探索研究從「設計流程的一個階段」重新定義成貫穿整個設計實踐的判斷力。核心論點是：在 AI 讓「蓋東西」越來越快的時代，「決定值得蓋什麼」的能力反而更稀缺、更值錢。這個框架有 19 個具體的判斷節點，包括如何框定問題、如何解讀證據、以及何時決定 pivot 或停止，而且這種判斷力「存在於設計師的推理能力裡，不在工具的功能裡」。對設計顧問工作室最直接的啟發：接案時「探索研究」不應只是開案前的固定流程，而是整個合作期間都在運作的判斷能力，這也正是客戶花錢請工作室而不是自己做的核心理由。"
+        },
+        {
+          "title": "Designing for AI, the permalink problem, vibe designing",
+          "url": "https://uxdesign.cc/designing-for-ai-the-permalink-problem-vibe-designing-5a13e857b6a3",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "UX Collective 創辦人 Fabricio Teixeira 點出當前設計實踐的核心困境：設計師手上有前所未有的能力，但「沒有任何共識框架告訴我們怎麼把這些能力交給使用者」——沒有穩定的 pattern、沒有共同設計語言，工具本身還在被它生產的技術即時重寫。他把這個狀態稱為「tech quicksand」（技術流沙），設計師站在上面卻必須繼續做出決策。「Vibe designing」這個概念也在這篇被提出——像 vibe coding 一樣，憑直覺與氛圍設計 AI 產品，沒有先例可循。對工作室的提示：做 AI 產品設計時，接受「沒有既有 pattern 可以套用」本身就是專業素養的一部分，不是缺陷。"
+        },
+        {
+          "title": "Someone designed this. Why bad UX is often a business problem",
+          "url": "https://uxdesign.cc/someone-designed-this-2d48482b64df",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Arun Bakirathan 對「爛 UX」的成因提出不一樣的論點：設計師不是不知道怎麼做好，而是被業務決策壓住了。文章舉了多個具體案例——強制訂閱、隱藏退出選項、複雜的取消流程——說明這些讓人抓狂的介面往往是商業目標在設計語言上的直接體現。他認為 UX 設計師的工作不只是改善介面，而是辨識並影響那些讓糟糕設計得以存在的業務邏輯。對設計顧問工作室最實際的應用：在設計審查時，把「這個設計決策背後的業務假設是什麼」拿出來討論，往往比只談用戶體驗更能推動真正的改變，也更能展現工作室的策略價值。"
+        }
+      ],
+      "buzz": "這 48 小時 Product 圈出現一個論述轉移：不再只焦慮「AI 讓設計師消失嗎」，而是開始討論「執行變快之後，哪些判斷力變得更稀缺」。Discovery judgment、baseline 測量、辨識業務假設的能力——這些比 Figma 新功能更難被自動化的東西，反而正在被認真對待；Fabricio Teixeira 的「tech quicksand」說法則為目前整個行業的不確定感提供了一個精準命名。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "New Logo and Identity for Prosper Global by Chermayeff & Geismar & Haviv",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_prosper_global_by_chermayeff_geismar_haviv.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "非營利機構 Prosper Global 委託大名鼎鼎的 Chermayeff & Geismar & Haviv 進行品牌更新，新識別以青綠色調為主，logo 採用小寫 sans-serif 字型，創造出親切而當代的視覺感。設計核心是箭頭與愛心的結合，同時傳遞「前進」與「關懷」兩個概念，整體系統依循「Brand Federation」原則，確保多個接觸點之間的視覺一致性。對工作室來說，這個案子有一個值得注意的說故事方式：用兩個最簡單的幾何符號，清楚傳達兩個核心品牌價值——這種「符號邏輯先於美感決策」的思考順序，是提案時可以直接借用的框架。"
+        },
+        {
+          "title": "New Logo and Identity for University of Augsburg",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_university_of_augsburg.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "德國奧格斯堡大學推出新視覺識別，以紫色為主色調，搭配以連字（ligature）為設計語言的字型處理。整體在維持德國設計嚴謹傳統的同時，走向更現代、更有辨識度的學術識別。這是一個典型的「如何在高度約束的框架內找到個性」的設計案：學術品牌既不能太跳脫，又需要在眾多大學識別中被記住，紫色加連字的組合是一個在保守規範裡做出明確差異化的清楚答案。"
+        },
+        {
+          "title": "New Logo and Identity for Benifex by For Different",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_benifex_by_for_different.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國福利科技公司 Benifex 委託 For Different 工作室進行品牌更新，新識別以 serif 字型搭配綠色，刻意跳脫軟體公司常見的幾何 sans-serif 路線。在企業福利管理（HR tech）這個視覺語言相對同質化的產業，用 serif 字型建立「有人情味的科技感」是一個清楚的差異化選擇。Brand New 以「Friends With Benefits」為標題下標，側面評論了品牌重塑的策略意圖——讓員工福利平台看起來更像夥伴，而不是系統，這個定位選擇本身就是一道值得工作室在類似案子裡拿來討論的品牌策略題目。"
+        },
+        {
+          "title": "New Logo and Identity for Prisme by ōnō studio",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_prisme_by_ono_studio.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "法國分析平台 Prisme 委託 ōnō studio 進行品牌更新，新識別以稜鏡（prism）的折光效果為核心視覺語言，用幾何形狀模擬光線穿過三稜鏡後的視覺分散與色彩分層。Brand New 編輯以「Eye See What you Did There」為標題，帶著一絲諧謔地肯定了這個設計概念的聰明之處。這個案子是「品牌名稱本身就是設計靈感」的好範例：當名稱有強烈的視覺意象時，識別設計直接以此為軸心出發，比另找隱喻更有說服力，也更容易讓客戶一看就懂。"
+        },
+        {
+          "title": "From Olivetti to Instagram: a short history of modern brand design",
+          "url": "https://www.itsnicethat.com/features/katharina-sussek-jens-muller-the-elements-of-brand-design-taschen-publication-graphic-design-spotlight-170626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這篇節錄自 Taschen 新書《The Elements of Brand Design》，作者 Katharina Sussek 和 Jens Müller 梳理品牌設計從 19 世紀工業革命到今天的演變：Peter Behrens 在 AEG 建立企業識別的先例、Olivetti 和 IBM 把頂尖設計師帶進組織的模式、以及數位時代之後設計系統從類比的嚴格標準走向可被 AI 協助的彈性系統。儘管工具和技術持續翻新，作者的核心論點是：品牌設計仍然需要「概念的個性與藝術的原創性」，演算法能加速執行，但無法取代那個讓品牌有靈魂的判斷。這篇適合在對客戶解釋「為什麼品牌設計不能只靠 AI 生成」時引用，從 1907 年講起的歷史脈絡讓論點有厚度。"
+        }
+      ],
+      "buzz": "Brand New 這週密集發出四個中型品牌識別更新，Prosper Global、奧格斯堡大學、Benifex、Prisme 在 48 小時內接連亮相，共同示範一件事：不管是非營利、學術機構、還是 B2B 軟體公司，都在認真用視覺識別建立差異化與信任感。It's Nice That 的品牌史長文則提供了更大的脈絡——這些更新背後有條從 1907 年就開始的演化，而「概念個性」始終是那條不變的軸線。"
+    }
+  },
+  {
     "date": "2026-06-25",
     "daily_summary": "這 48 小時設計圈被兩件大事佔滿：Figma Config 2026 公布 code layers、原生動態工具跟 AI agent skills，Anthropic 也同步把 Claude Design 整個翻新，兩邊都在把畫布、程式碼、AI 工作流綑得更緊。Brand 圈則是 Cannes Lions 2026 如火如荼進行，Design Lions 大獎頒給 Apple TV「純手工」的品牌重塑，在 AI 滿天飛的時候，反而是手感變稀缺。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "Cannes Lions 今天開幕（持續到 6/26），Brand 圈的注意力高度集中在今年入圍名單揭示的評審口味轉變：首屆 Creative Brand Lion 的出現，把「品牌系統設計」正式納入創意評鑑範疇，不再只看廣告執行。整體趨勢是：長期品牌建設、文化滲透力、以及系統一致性，正在取代過去那種「一支爆紅廣告走天下」的思維。"
-    }
-  },
-  {
-    "date": "2026-06-21",
-    "daily_summary": "NNGroup 這週清楚畫出了一件重要的事：AI 已經把「設計」分裂成四個截然不同的工作——每一種都需要不同能力，也坐落在不同的組織位置。Brand 圈同步出現有趣的對比：1783 年的 Schweppes 和 2022 年的 Ideogram 同時做品牌更新，兩者都在問「什麼讓人相信你是真的」，卻給出了完全不同的答案。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The Four Design Jobs AI Created (So Far)",
-          "url": "https://www.nngroup.com/articles/design-jobs-ai-created/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "AI 讓「設計」這個詞分裂成至少四種截然不同的工作：為 design system 生成元件變體、設計聊天介面、為 AI agent 整理可解析的資料結構、以及定義 LLM 的行為邊界。每一種工作都坐落在不同的組織位置、使用不同的標準定義「做好了」是什麼樣子。這篇文章的重要性在於它幫設計師看清：「AI 設計師」不是一個職位，而是四條正在分叉的職涯路徑。對工作室來說，這也是重新思考自己承接 AI 設計案時，到底在幫客戶做什麼、自己具備哪些能力的好起點。"
-        },
-        {
-          "title": "How To Make Your Design System AI-Ready",
-          "url": "https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Vitaly Friedman 提出三個讓 design system 和 AI 工具有效協作的基礎建設：spec file（把設計原則、間距規則、元件使用指引寫成結構化 Markdown 文件）、token layer（確保 AI 從已命名的變數選擇，而不是自行發明數值）、以及 sync routine（design system 更新時自動標記哪些 spec file 需要跟著更新）。核心論點是：AI 無法自行解決技術債或設計債——它需要清楚的決策、明確的優先順序和完整的書面原則才能有效運作。對工作室來說，把 design system 的文字規則整理成 spec file，不只是給 AI 用的，也讓新加入的人和客戶更容易上手。"
-        },
-        {
-          "title": "Incentive Structures for Diary Studies",
-          "url": "https://www.nngroup.com/articles/diary-study-incentives/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Diary Study（日記研究法）要求參與者在幾天或幾週內持續記錄行為與體驗，最大挑戰是「怎麼讓人願意一直填到最後」。NNGroup 這篇文章提供具體框架：如何分階段給予激勵、哪些時間點最容易流失參與者、以及如何在不讓研究員被大量低品質資料淹沒的前提下維持參與動力。文章特別指出，誘因太小讓人不在乎，誘因太大讓人為了領獎而敷衍填寫——設計誘因結構本身就是研究設計的一部分。對工作室承接需要追蹤用戶行為的研究案特別實用，diary study 往往是最容易設計不當卻最難發現問題的研究方法。"
-        },
-        {
-          "title": "The Hidden Why: Behavioral Economics for UX",
-          "url": "https://www.nngroup.com/articles/behavioral-economics-for-ux/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇文章把行為經濟學的核心框架——損失趨避、錨點效應、社會認同、稀缺性心理——直接對應到 UX 設計決策上。它的論點是：用戶的行為往往受到這些「隱藏動機」驅動，而不是我們在設計流程中所假設的理性判斷。具體應用包括：如何用錨點效應改善定價方案的設計、如何用社會認同提高用戶完成率、以及如何識別介面中不必要的損失趨避。對工作室來說，這套框架可以幫你在 UX 審查或設計提案中，用更精確的語言說明設計決策背後的心理依據，而不只是說「感覺比較好」。"
-        },
-        {
-          "title": "Direct Every Frame with Runway Aleph 2.0, Now in Figma Weave",
-          "url": "https://www.figma.com/blog/direct-every-frame-with-runway-aleph-2/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Runway 的 AI 視頻模型 Aleph 2.0 現在整合進 Figma Weave，讓設計師在 Figma 畫布裡做到逐格導演：上傳參考圖設定風格、指定關鍵幀讓模型在未指定處維持前後一致，單次最長支援 30 秒影片。這個整合標誌著 Figma 正在把創意工作流的邊界從靜態介面設計延伸到動態影片內容製作。對有品牌影片、動態識別或社群內容需求的工作室來說，Figma Weave 正在變成一個值得認真評估的 AI 影片工作環境。"
-        }
-      ],
-      "buzz": "Product 圈這週在 AI 設計的大題目下出現了具體分層——從最抽象的「設計師角色定位」（NNGroup 的四種 AI 設計工作），到最可操作的「design system 怎麼和 AI 工具合作」（Vitaly Friedman 的 spec file 框架）。Figma 工具整合繼續加速，Runway 進入 Figma Weave 讓視頻導演也成為設計師的工作範疇。行為經濟學框架的重新流行，則提醒我們：追 AI 新工具的同時，人類決策的底層邏輯仍然沒有改變。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Studio Nari wordmark gives Threads a voice of its own",
-          "url": "https://www.itsnicethat.com/articles/studio-nari-threads-graphic-design-160626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Studio Nari 幫 Threads 設計的新 wordmark 解決了一個棘手的品牌問題：如何在 Meta 生態系裡建立獨立聲音，同時又不和 Instagram 徹底切割？核心概念是「Trending Chisel」（鑿刀刻劃）——把鑿刀的壓力、對比和切口轉化成字型語言，讓 Threads 的文字感覺像是在大理石上刻出的即時新聞。過去 Threads 沿用 Instagram Sans，現在的定製字型給了這個平台屬於自己的語氣和編輯權威。對工作室來說最直接的啟發：在有品牌生態約束的設計案裡，「從既有框架內長出個性」比另起爐灶更難，也更有說服力。"
-        },
-        {
-          "title": "How to make brand systems work in an imperfect world",
-          "url": "https://www.creativereview.co.uk/brand-systems-imperfect-world-design-bridge/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Design Bridge 在這篇文章裡直面一個設計師都知道但少有人正視的現實：品牌系統在 presentation deck 裡永遠是完美的，但在客戶的實際執行環境裡，它會遭遇印刷廠規格不同、供應商各自解讀、以及組織內部溝通斷層等問題。文章的核心論點是：好的品牌系統設計必須預測並應對這些不完美——它需要有清楚的優先順序（什麼元素不能妥協）、有彈性的次要表現（什麼情況下可以調整）、以及有效的 governance（誰有權決定什麼）。對工作室來說，這篇提供了一個完整框架，說明為什麼 brand guidelines 需要不只是美麗的書，更需要是實用的操作手冊，也是向客戶說明「為什麼交付物需要更多規格文件」的好論據。"
-        },
-        {
-          "title": "JKR helps Schweppes rediscover its sparkle with a heritage-inspired redesign",
-          "url": "https://www.creativeboom.com/news/with-time-comes-taste-schweppes-reimagines-the-brand-it-invented/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "全球最古老的碳酸飲料品牌 Schweppes（1783 年創立）交給 JKR、Studio.One 和 Mischief 進行近年最大規模的品牌更新。策略核心是「Reclaim, don't reinvent」——不是現代化，而是把被競品稀釋掉的正統性找回來。設計決策包括：復刻 1851 年倫敦博覽會噴泉紋飾、恢復帶泡泡感的 serif 字型、讓吉祥物 Clive 豹歸隊、以及找回品牌標誌性的藏紅花黃調。南非市場的初步數據已顯示成效：+12.6% 銷售成長和 +15.4% 新客戶招募。這是對「老品牌要現代化才能生存」這個設計慣例最有力的反駁。"
-        },
-        {
-          "title": "New Logo and Identity for Ideogram by How&How",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_ideogram_by_howhow.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 圖像生成平台 Ideogram 委託 How&How 設計新識別，而 How&How 先做了一輪道德辯論才決定接——他們有一個專門討論「值不值得接這個案」的內部頻道。最後的設計直面爭議：logo 以樣式化的人腦輪廓為核心，負空間藏著字母「I」，意思是「想法的起點還是你自己」。整個識別系統走深藍加米白，AI 生成影像和傳統創意媒材混用，維持動態感。這個案子直接觸碰了「AI 工具品牌應該如何定位自己和人類創意的關係」這個敏感問題，How&How 選擇的答案是：正面回應，不迴避。"
-        },
-        {
-          "title": "Design resource platform Envato launches new logo and sonic identity",
-          "url": "https://www.creativeboom.com/news/envato-launches-new-brand-identity/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師圈最大的素材與工具平台之一 Envato（旗下有 Envato Elements、ThemeForest、AudioJungle 等）推出品牌首次系統性更新，包含全新 logo 和聲音識別（sonic identity）。新識別往更簡潔、現代的方向走，聲音識別的加入標誌著平台品牌開始認真對待多感官體驗——這在平台品牌中仍屬少見。這個案子展示了一個有趣的品牌策略問題：當品牌需要跨越多個子品牌和服務類別時，視覺識別容易因為適應性被稀釋，而聲音識別反而更容易在不同接觸點之間建立統一感。"
-        }
-      ],
-      "buzz": "這週 Brand 圈最有趣的對比是 Schweppes（1783）和 Ideogram（2022）同時做品牌更新，兩者都在問「什麼讓人相信你是真的」——前者挖出 1851 年歷史找到答案，後者把人腦刻進 logo。Studio Nari 幫 Threads 做的 wordmark 則示範了在生態系限制裡找到自己聲音的第三條路。Design Bridge 提醒：brand system 不是做完就交貨，真正的挑戰是讓它在現實執行裡也能撐住。Cannes Lions 明天（6/22）開幕，首屆 Creative Brand Lion 得主即將揭曉。"
     }
   }
 ]
