@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-06-30",
+    "daily_summary": "Product 圈這兩天最值得存的是 Adrian Levy 被瘋傳的那篇——他說設計師現在「設計的不是介面，而是決策」，正在重新定義設計師怎麼跟 AI agent 協作；Figma 的 Check designs 工具也讓設計系統 debt 從「有空再說」變成螢幕上的客觀數字，對工作室說服客戶投資設計系統很有用。Brand 圈則是 Tiquismiquis Club 用字型系統駕馭 700 頁雜誌、Cord Studio 讓對稱構圖的印度廣告走紅全球，兩個案子都在示範：有系統的視覺判斷力，才是真正難以複製的競爭力。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "You don't design the interface anymore. You design the deciding.",
+          "url": "https://uxdesign.cc/you-dont-design-the-interface-anymore-you-design-the-deciding-835c01982ead",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Adrian Levy 在這篇 48 小時內被設計圈廣泛轉傳的文章中提出：設計師的角色已從「在畫面上做出選擇」轉移到「決定哪些工作可以被委託給 AI、委託的邊界在哪」。他用一個親身故事說明：走路時和 Claude 討論想法、到家前 brief 已經放進資料夾——此刻他是委任者（principal），不是使用者（user）。核心論點是設計師要「在空氣中、為看不見的對象」畫出決策的形狀，讓 AI agent 知道什麼可以決定、什麼不行。對設計顧問工作室的意義：當客戶也開始把任務委託給 AI，工作室的核心價值在於「定義哪些決策品質不能被稀釋」，而不只是做出漂亮的畫面。"
+        },
+        {
+          "title": "Figma just made your design system debt everyone's problem. Now use it.",
+          "url": "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Dolphia 針對 Figma 的 Check designs 工具（Config 2026 上亮相）提出一個精準觀察：這個工具不用 AI，只是「數」——把你的設計檔案跟設計系統比對，列出所有 hard-coded 數值、沒掛 token 的元素、脫離元件庫的元件。過去「我們設計系統有 drift」是一句好推的軟話，現在是螢幕上任何人都看得見的數字。更深的影響是：Config 2026 上每個 Figma 新功能都在讀取設計系統，系統的問題不再只是維護者的問題，而是全團隊、每次 review 都要面對的數字。對工作室的應用：可以用 Check designs 當設計系統交付品質的客觀驗收工具，也是向客戶說明「為什麼設計系統值得投資、有多少 debt 要還清」的有力語言。"
+        },
+        {
+          "title": "Rethinking Figma in an AI world",
+          "url": "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Darren Yeo 在 Config 2026 結束後一週，提出一個核心問題：在 AI 把越來越多設計與開發工作拉進程式編輯器和 agentic 環境之後，「畫布優先」的 Figma 工作流程還能撐多久？他梳理了 Figma 在 Config 上的所有回應——code layers、Figma Motion、shader 工具、agent 串接——認為這些都是試圖把「畫布」從設計工具升格為跨程式碼、動態、AI 的協作平台。真正的考驗不是跟其他設計工具競爭，而是在 code-first、agent-first 的開發環境裡繼續有存在的理由。對工作室而言，Figma 的戰略方向決定了設計師的工作流程邊界，這篇是追蹤這個問題最清楚的分析之一。"
+        },
+        {
+          "title": "Storytelling in User Research",
+          "url": "https://www.nngroup.com/videos/storytelling-in-user-research/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 研究主任 Maria Rosala 在這支 4 分鐘影片裡說明：故事在用戶研究裡不只是「說給客戶聽的包裝」，而是研究本身的一個功能——幫助研究者在龐大資料裡找到真正重要的洞察，也讓團隊成員能理解、記住、並願意採取行動。沒有敘事的數據只是數字，有了敘事才能驅動決策。這個觀點在 AI 大量輸出資料和報告的時代格外重要：當每個人都能快速生成大量 data，「把它說成一個讓人想行動的故事」的能力反而更稀缺。對工作室而言，這篇提醒研究交付物的核心不是資訊的完整，而是讓對方想做什麼。"
+        },
+        {
+          "title": "Kick the Bots Out of Your Survey Data",
+          "url": "https://www.nngroup.com/articles/survey-bots/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "AI 工具讓偽造問卷回應變得更容易、成本更低，NNGroup 這篇提醒設計研究者：如果問卷透過開放管道發送，bot 污染的問題比你以為的更嚴重。文章提供具體的識別方法：監測填寫時間過短、開放式回答格式統一、IP 位置異常集中等指標，在分析前先清洗資料。核心論點是：設計決策如果建立在 bot 污染的數據上，後續的一切改善都在錯誤的基礎上進行。對工作室特別實用：如果接了需要大規模問卷調查的研究案，這篇可以作為數據品質把關的 checklist，也是對客戶說明「為什麼研究的嚴謹度需要額外時間」的好論據。"
+        }
+      ],
+      "buzz": "這兩天 Product 圈有兩條並行的討論線：Adrian Levy 的文章引爆了「設計師現在到底在設計什麼」的辯論，答案越來越接近「決策的邊界」而不是「畫面的形狀」；Figma Check designs 讓設計系統 debt 有了客觀數字，加上 Config 2026 後的多篇反思文章，整個行業正在重新校準 Figma 和設計師在 AI 時代各自扮演的角色。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "How Tiquismiquis Club brought rhythm and scale to Odda's 700-page issue",
+          "url": "https://www.itsnicethat.com/articles/tiquismiquis-club-odda-graphic-design-project-300626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "西班牙馬拉加的設計工作室 Tiquismiquis Club 分享了為時尚雜誌 Odda 第 29 期（700 頁，主題「The Way We Are」）操刀平面設計的完整思考過程。他們從字型系統出發：用 Aether Mono 和 Tombstone Blues 作為章節開篇字體，Sita Sans 和 Sita Serif 作為內文，建立一個「有整體一致性，又讓各章節保有獨立視覺個性」的彈性框架。核心設計原則是：「排版決策永遠是對韻律和語調的回應，不只是形式選擇。」這代表每個版面的視覺決定都必須對應那個段落的內容節奏，而不是機械套用規則。對工作室的啟發：「系統先行、讓系統有彈性」這個方法在任何需要同時兼顧大量內容與品牌一致性的出版或品牌專案裡都可以直接套用。"
+        },
+        {
+          "title": "Cord studio on using symmetry and cinema to create one of 2026's most viral campaigns",
+          "url": "https://www.itsnicethat.com/features/cord-studio-creative-industry-advertising-spotlight-290626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "印度設計工作室 Cord 的共同創辦人分享了一個在 2026 年全球傳播最廣的廣告 campaign 的創作過程，主題是「印度 90 年代暑假」的集體記憶。核心技法是「對稱」——不是因為視覺潮流，而是因為對稱能讓畫面有秩序感、帶領觀眾進入懷舊的心理空間。他們找來攝影師兼創意總監 Pranoy Sarkar 合作，因為他對空間和構圖有獨到理解；作品在國際上引發了「這是 Wes Anderson 風格還是 Satyajit Ray 影響」的辯論，反而進一步擴大傳播。這個案子最值得工作室學習的地方是：高度精準的視覺語言（對稱、電影感、懷舊色調）本身就是傳播機制，不需要靠文案解釋——任何人打開螢幕就知道這是什麼感覺，而且忍不住想轉發。"
+        },
+        {
+          "title": "New Logos for Alpes 2030 Olympic and Paralympic Winter Games",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logos_for_alpes_2030_olympic_and_paralympic_winter_games.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "法國阿爾卑斯山區主辦的 2030 年冬季奧運及殘障奧運公布官方識別，設計以漸層效果結合山峰輪廓為核心視覺語言，呼應舉辦地的地理特徵，色彩也與法國國家符號相互呼應。設計需要同時服務兩個有不同性格的賽事識別（奧運 vs. 殘障奧運），又要能在所有媒介尺寸上有效運作，是一個標準的「如何讓一套系統承載多個訊息、又保持各自辨識度」的設計挑戰。對品牌設計師來說，重大賽事的識別設計向來是研究這類「系統一致性 vs. 個別識別度」平衡問題的最佳教材，Alpes 2030 的解法是以山峰 + 漸層做為統一語言，再用色彩和細節做出兩套識別的區分。"
+        },
+        {
+          "title": "New Logo and Packaging for Udi's by Haystack Studios",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_packaging_for_udis_by_haystack_studios.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "無麩質食品品牌 Udi's 委託 Haystack Studios 進行全面品牌更新，新識別採用圓角襯線字體，搭配插畫風格的視覺系統，從傳統麵包品牌的視覺慣例走向更親切、更當代的包裝語言。在健康食品市場裡，設計策略是用「視覺溫度的暖感」作為差異化，而不是跟著競品走冷淡健康主義的路線。這個選擇在商業上有清楚邏輯：無麩質產品的主要消費者裡有很多是因為腸胃問題、過敏等原因不得不吃，他們需要的品牌感覺是「好吃、平常、正常」而不是「特殊飲食、犧牲感」。對工作室而言，這個案子示範了如何用字型個性（圓角 serif 傳遞柔和感）做出清楚的情感定位選擇。"
+        },
+        {
+          "title": "New Logo and Packaging for Hydraid by LIT Create",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_packaging_for_hydraid_by_lit_create.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "飲品品牌 Hydraid 委託 LIT Create 進行品牌更新，新識別以斜體 wordmark 搭配連字（ligature）作為設計語言，配以藍色調，建立出既有動感又有精緻感的視覺識別。斜體字本身傳遞速度感，對「補水、運動」類產品是直觀的形式選擇；連字的精緻處理則讓 wordmark 在技術層面與同類市場的普通字體拉開差異。Brand New 將這篇歸類為「Noted」——代表整體執行獲得正面評價，是一個在視覺同質化嚴重的飲品類別裡、靠精準的字型選擇和處理做出差異化的乾淨案例。"
+        }
+      ],
+      "buzz": "這兩天 Brand 圈的主角是「視覺語言的精準度」——Tiquismiquis Club 用字型系統駕馭 700 頁雜誌，Cord Studio 用對稱構圖讓廣告在全球傳播，兩個案子都在說明同一件事：有系統的視覺判斷力比一個漂亮的想法更難複製，也更有說服力。Brand New 同步發出冬奧識別和消費品包裝（Udi's、Hydraid），顯示不同產業都在認真用視覺語言建立差異化。"
+    }
+  },
+  {
     "date": "2026-06-28",
     "daily_summary": "Product 圈這 48 小時出現一個論述轉移：從「AI 讓設計師消失嗎」移向「執行變快之後，哪些判斷力更稀缺」——Discovery judgment 跟 baseline 測量同時被點名，都是比 Figma 新功能更難被自動化的東西。Brand New 這週密集發出四個中型品牌識別更新，Prosper Global、奧格斯堡大學、Benifex、Prisme 接連亮相，集體示範各種產業都在認真用視覺識別建立信任；It's Nice That 從 Olivetti 講到 Instagram 的品牌史則提醒，工具再怎麼變，品牌設計的核心仍然是「概念個性跟藝術原創性」。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "Cannes Lions 進行中，評審風向很明顯偏好「看得出是人手做的」工藝感作品，Apple TV 的品牌重塑跟 De'Longhi 的手作咖啡店裝置都因此奪冠。同時不管是心理陪伴 App 的角色插畫，還是世界盃快閃展覽的空間設計，都在示範同一件事：用強烈、統一的素材語言，比堆疊敘事更快建立品牌記憶點。"
-    }
-  },
-  {
-    "date": "2026-06-22",
-    "daily_summary": "Figma Config 2026 明天開幕（6/23–25），整個 Product Design 圈提前暖場：Figma Make 直連 GitHub repo 的新功能，讓設計師第一次能在 Figma 裡編輯真實生產環境的程式碼。Brand 圈則迎來 Cannes Lions 今日開幕，首屆 Creative Brand Lion 入圍 10 強出爐，可以看到 2026 年評審怎麼定義「品牌創意力」。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Our Config 2026 Speakers on the Biggest Opportunities With AI",
-          "url": "https://www.figma.com/blog/config-speakers-looking-ahead-2026/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma Config 2026 明天（6/23）開幕前夕，Figma 邀請多位講者提前開口，分享他們認為 AI 在設計領域最大的機會點在哪。這篇集結了不同角度的觀點，從工具整合到設計師角色轉型都有涵蓋。對工作室來說，這是掌握 Config 主旋律的最快入口——明天演講的論點很可能都會圍繞這些方向展開。"
-        },
-        {
-          "title": "Figma Make, Now on Your Local Code",
-          "url": "https://www.figma.com/blog/figma-make-now-on-your-local-code/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma Make beta 推出重要更新：現在可以直接連接你的 GitHub repo，在 Figma 裡以視覺化方式編輯生產環境的真實程式碼，並且直接發 Pull Request——設計師完全不需要打開 IDE。這代表設計與工程的協作模式正在根本性地改變：設計師可以對真實產品做視覺調整，而不只是「交稿」給工程師。對接案工作室而言，這條路可能讓小團隊直接維護客戶的前端專案。"
-        },
-        {
-          "title": "Vibe Architects: Agentic Vibe Coders",
-          "url": "https://www.nngroup.com/articles/vibe-architects/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 提出新角色定義：「Vibe Architects」。在 AI vibe coding 的世界裡，出現了一批設計師不再自己執行細節，而是負責設定整個產品的美感方向、系統邏輯、和視覺一致性——讓 AI 執行、自己掌舵。這篇把這個角色描述得很清楚，包括他們的工作方式、跟傳統設計師的差異。對工作室來說，這很可能是未來幾年服務定位的重要參考框架。"
-        },
-        {
-          "title": "Becoming an AI-native designer",
-          "url": "https://uxdesign.cc/becoming-an-ai-native-designer-828365b71109",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "設計師 Sen Lin 以第一人稱記錄了他如何用 Claude Code 和 Figma Make 完全重建自己的工作流程，從概念到實作都有非常具體的細節。這篇在 Config week 前夕被廣泛傳閱，因為它清楚回答了一個抽象問題：「AI-native 設計師」的日常到底長什麼樣？對工作室而言，這篇可以作為評估自身工作流程的對照基準。"
-        },
-        {
-          "title": "The UX Designer's Nightmare: When 'Production-Ready' Becomes A Design Deliverable",
-          "url": "https://www.smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "設計師越來越常被要求交付「可以直接上線」的成果，而不只是設計稿——這篇分析了這個轉變帶來的壓力、模糊的責任邊界、以及實際的應對策略。作者認為這不全然是壞事，但需要設計師主動重新談判自己的交付範疇和費用。對接案工作室特別實用：如果客戶開始要求「production-ready」，這篇提供了很好的框架來應對這個對話。"
-        }
-      ],
-      "buzz": "Figma Config 2026 明天開幕，整個 Product Design 圈已在提前暖場。這週最核心的討論是：當設計師可以透過 Figma Make 直接動生產環境的程式碼，「設計交付物」的定義要怎麼重寫？NNGroup 的「Vibe Architects」概念和 UX Collective 的 AI-native 實踐報告，都在從不同角度描述同一個轉型——設計師的工作重心正在從「執行」移向「掌舵」。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "The Cannes Lions 2026 Creative Brand Lion Shortlist",
-          "url": "https://roastbrief.us/the-cannes-lions-2026-creative-brand-lions-shortlist-features-10-contenders-showing-how-brands-are-turning-creativity-culture-technology-and-operating-systems-into-sustainable-growth/",
-          "source": "Roast Brief / Cannes Lions",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Cannes Lions 今天（6/22）正式開幕，首屆 Creative Brand Lion 入圍 10 強出爐，包括 Mastercard、Coca-Cola Real Thing Records、TIME、M&M's 等。這個新獎項的出現，代表 Cannes 開始正式承認「品牌系統設計」是一種創意——不只是廣告執行，而是整個品牌架構的長期建設。10 件作品涵蓋科技、文化、快消，可以當作 2026 年「什麼叫做有創意的品牌」的最新參考基準。"
-        },
-        {
-          "title": "Annual Awards 2026 Design Shortlist",
-          "url": "https://www.creativereview.co.uk/annual-awards-2026-design-shortlist/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Creative Review 2026 年度設計大獎入圍名單公布，代表英國設計評論圈今年認為最值得注意的視覺設計工作。入圍作品橫跨平面、品牌識別、包裝、動態設計等類別，是觀察歐洲主流設計美學走向的重要窗口。對工作室而言，這份名單是「現在做什麼樣的品牌識別才會被認可」的具體參考。"
-        },
-        {
-          "title": "Daryn Roongrawewan doesn't design logos, she crafts 'ornamental icons'",
-          "url": "https://www.itsnicethat.com/articles/daryn-roongrawewan-graphic-design-discover-030626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師 Daryn Roongrawewan 拒絕用「logo」定義自己的創作，她稱之為「ornamental icons」——帶有裝飾性、故事性的圖形符號。這個詞彙的選擇不只是風格差異，而是一套完整不同的設計哲學：她認為品牌符號應該像紋章或印章一樣，承載時間感與文化脈絡，而不只是識別功能。這篇可以激發工作室在提案時對「品牌符號」的深度定義。"
-        },
-        {
-          "title": "New Logo and Identity for Brand New",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_brand_new.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "品牌識別評論平台 Brand New（Under Consideration）自己做了品牌更新，然後在自己的平台上評論自己——meta 程度滿點。這個案子有趣的地方在於：一個以「評論品牌決策」為業的機構，如何處理自身品牌的演進？設計決策本身值得研究，討論串裡社群的回應也很值得一讀。"
-        },
-        {
-          "title": "Cannes Lions 2026 Print & Publishing Lions Shortlist",
-          "url": "https://roastbrief.us/cannes-lions-2026-unveils-the-print-publishing-lions-shortlist-featuring-56-finalists-that-prove-the-enduring-power-of-printed-editorial-and-visual-creativity-in-brand-building/",
-          "source": "Roast Brief / Cannes Lions",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Cannes Lions 2026 Print & Publishing Lions 56 件入圍作品出爐，從雜誌、報紙、海報到書籍設計都有。這份名單的存在本身就是一個信號：在全媒體數位化的時代，印刷視覺創意在品牌建設上仍然有不可取代的位置。入圍作品的視覺語言和排版邏輯，是觀察「紙本品牌溝通」最新標準的好素材。"
-        }
-      ],
-      "buzz": "Cannes Lions 今天開幕（持續到 6/26），Brand 圈的注意力高度集中在今年入圍名單揭示的評審口味轉變：首屆 Creative Brand Lion 的出現，把「品牌系統設計」正式納入創意評鑑範疇，不再只看廣告執行。整體趨勢是：長期品牌建設、文化滲透力、以及系統一致性，正在取代過去那種「一支爆紅廣告走天下」的思維。"
     }
   }
 ]
