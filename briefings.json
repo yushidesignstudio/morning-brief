@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-01",
+    "daily_summary": "AI 正在把設計師推向一個選擇題：主動掌握 prompting 與新工具的定義權，或是把話語權讓給工程師。Product 圈今天的焦點在角色焦慮與自我重新定位，Figma 的數據顯示工程師做設計的比例已翻倍，但多篇文章都在說同一件事：設計師那套把模糊轉化為清晰的判斷力，正是現在最難被取代的核心能力。Brand 圈有 Matt Dorfman 三十年書封設計哲學值得細讀，加上 New Designers 2026 今天在倫敦開幕，下一代設計師的語彙就在那裡。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The Prompt Is the New Brief",
+          "url": "https://uxmag.com/articles/the-prompt-is-the-new-brief",
+          "source": "UX Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章的核心論點是：寫 prompt 本質上就是在寫設計 brief，設計師幾十年練就的能力——把模糊需求轉化成清晰方向——在 AI 時代有了新名字叫「directed generation」。作者強調這不是什麼新的技術技能，而是設計師一直以來最核心的判斷力：幫思路設定邊界、讓創作沿著這條邊界往前走。真正危險的情況是設計師放棄這個主導權讓工程師來寫 prompt，因為那樣 AI 產品的決策邏輯就會被工程思維而非設計思維定義。對設計工作室來說，接案的過程中對客戶需求的細膩理解，正好是你在 AI 時代最難被取代的優勢，而這篇直接給了你說服自己和說服客戶的語言。"
+        },
+        {
+          "title": "Design's alive and kicking. It just got some flashy new names.",
+          "url": "https://uxdesign.cc/designs-alive-and-kicking-it-just-got-some-flashy-new-names-779b4503c869",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Nicole Alexandra Michaelis 以幽默筆觸拆解了 AI 時代新冒出的設計職銜——「Proactive Interaction Designer」、「GenUI System Architect」、「Embedded AI Design Consultant」——看起來陌生，骨子裡仍在做設計師一直做的事。她的論點是：設計沒有消失，只是包裝換了；集體焦慮讓我們忘記自己一直在進化，每個世代都有讓設計師恐慌的新工具，但設計的核心判斷力從未消失過。AI 時代正在把設計工作從像素生產移向認知心理學、系統思考和商業協調，這些恰好是有經驗的設計師最擅長的地方。對工作室來說，這是一個清醒的提醒：你現有的設計能力比你以為的更能因應 AI 時代的需求，焦慮可以有，但不必恐慌。"
+        },
+        {
+          "title": "Why Accessibility Is An Operational Capability, Not A Feature",
+          "url": "https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章把無障礙設計從「功能清單裡的一項勾選」重新定位成「工程與設計運作的基礎建設」，就像隱私保護、資安或系統穩定性一樣——不是做完一次就好，而是嵌入整個開發流程的持續性要求。作者的核心論點是：當 AI 工具讓 UI 產出速度加快，確保品質（含無障礙）的責任反而變得更重要，因為速度快不代表品質有保障。這個框架對設計顧問工作室特別有用：把無障礙設計定位為「設計品質的基礎能力，而不是追加選項」，這是說服客戶投資的好邏輯，而不是每次都要說「法規要求所以要做」。放進提案或設計系統交付物的論述框架裡，說服力大幅提升。"
+        },
+        {
+          "title": "Figma's 2026 AI Report: Can AI Help Us Collaborate Better?",
+          "url": "https://www.figma.com/blog/2026-ai-report/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 發布的 2026 年 AI 設計調查報告顯示：91% 的設計師每週使用 AI，比起 2025 年的 54% 大幅成長。另一個關鍵數字是「工程師做設計工作」的比例從 21% 跳升到 41%，代表角色邊界正在快速模糊。76% 的受訪者花了一半以上的工作時間在 canvas 上，顯示設計工具仍然是核心工作場域。最重要的趨勢轉變是：AI 的價值已從幫個人提升效率，移向促進整個團隊協作，這意味著 AI 在設計工作流中的定位正從「個人助理」升格為「協作基礎建設」——對工作室來說，這個轉變改變的是整個交付流程，而不只是個人工具選擇。"
+        },
+        {
+          "title": "AI-created document fatigue: how I designed my way out of it",
+          "url": "https://uxdesign.cc/ai-created-document-fatigue-how-i-designed-my-way-out-of-it-1fcd4a565669",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Heenesh Patel 指出一個反直覺的現象：AI 承諾幫我們減少工作量，結果卻製造了更多需要消化的文件——PRD、設計摘要、會議筆記大量湧現，設計師反而陷入資訊過載的困境。他用 NotebookLM 來提煉龐大的文件堆，並親手設計了一個語音優先的 app 讓自己的工作流從「閱讀文件」中解放出來。這篇最重要的洞察是：AI 帶來的問題，往往需要用設計思維去解決，而不是再疊加更多 AI 工具。如果你也感覺在 AI 時代反而更忙、更難集中，這篇能為這個感受提供一個清楚的命名，以及一個設計師視角的解法。"
+        }
+      ],
+      "buzz": "這兩天 Product 圈的討論集中在「AI 時代設計師的角色定位」——焦慮還在，但論述開始清晰化。Figma 的數據告訴我們工程師進入設計領域的速度比預期快，但多篇文章都指向同一個結論：設計師有的那套把模糊轉化為清晰的判斷力，正是現在最難被取代的東西。同時資訊過載和文件疲勞成為新痛點，用設計思維去解決 AI 帶來的問題本身，正在成為新的設計實踐方向。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "\"Do anything except what's right in front of you\": Matt Dorfman on designing book covers",
+          "url": "https://www.itsnicethat.com/articles/matt-dorfman-graphic-design-project-2906256",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Matt Dorfman 擔任《紐約時報書評》美術總監超過十年，在這篇訪談裡他分享了一條創作金律：「Do anything except what's right in front of you」——刻意迴避最直覺的視覺解答，強迫自己去找更意想不到的方向。他的工作流必定先讀完整本書稿再開始設計，因為他相信如果對內容沒有真正的興趣，封面就不會有說服力。靈感生成階段他刻意大量產出廢案，用拼貼把不相關的意象強迫配對，直到出現驚喜。這種「拒絕走最直接那條路」的創作訓練，對工作室來說是一個非常具體可操作的創作哲學，不論是品牌識別、包裝設計還是廣告提案，都適用。"
+        },
+        {
+          "title": "New Designers 2026",
+          "url": "https://www.dezeen.com/eventsguide/2026/07/new-designers-2026/",
+          "source": "Dezeen Events Guide",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "英國規模最大的畢業設計展 New Designers 今天正式開幕，今年全面改為四天一次性的新格式，把過去分散兩週的展期整合成 7 月 1–4 日在倫敦 Islington Business Design Centre 的集中展覽。超過 200 所大學的應屆畢業生同台展出，涵蓋平面設計、插圖、動態影像、工業設計、時裝與陶藝等多個領域，並新增 ND Educates 環節讓在校生和業界設計師面對面交流職涯建議。ND Awards 同步頒出 16 個獎項，由超過 30 個業界合作夥伴支持。今天到 7 月 4 日，是工作室觀察下一代設計師語彙、甚至找到潛在合作人才的好時機。"
+        },
+        {
+          "title": "New Logo and Identity for Gilcrease Museum by Ologie",
+          "url": "https://underconsideration.com/brandnew/archives/new_logo_and_identity_for_gilcrease_museum_by_ologie.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "美國奧克拉荷馬州的 Gilcrease Museum 委託品牌顧問公司 Ologie 完成視覺識別重塑，新設計以無襯線字體搭配清晰的綠色調為主視覺，讓這個收藏美洲原住民藝術與西部歷史的博物館，在視覺語言上走向更當代的文化機構風格。設計核心挑戰是如何在視覺上同時保有對原住民文化的尊重感，又能讓一般大眾感覺親近而不是遙遠嚴肅。Brand New 社群對這次更新普遍持正面態度，認為整體識別的清晰度和可識別性大幅提升。這是一個「文化機構在維持使命感的同時如何讓視覺語言現代化」的好案例，做文化客戶提案時可以參考。"
+        },
+        {
+          "title": "New Logo for Association of Applied Paleontological Sciences by SAND",
+          "url": "https://underconsideration.com/brandnew/archives/new_logo_for_association_of_applied_paleontological_sciences_by_sand.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "應用古生物學科學協會（AAPS）委託設計工作室 SAND 進行品牌重塑，新設計把 grunge 質感紋理和現代無襯線字體融合，用有歲月感的視覺語言呼應化石的材質和挖掘現場的氣氛。恐龍意象搭配風化磨損的設計細節，在嚴肅的學術機構裡創造出一種「標本質感」，讓人直觀聯想到考古現場而不是學術論文封面。Brand New 把這次改版前後的對比並排展示，改版前是典型傳統學術感識別，改版後個性截然不同，對比強烈。這個案子的設計策略值得參考：從專業內容本身的材質感出發找視覺語言，而不是依賴慣用的「科學藍色 + 幾何字體」公式。"
+        },
+        {
+          "title": "Paint me like one of your pop girls: Gary Grimes on the modern love affair between fine art and pop music",
+          "url": "https://www.itsnicethat.com/articles/main-pop-girls-fine-art-gary-grimes-culture-column-300626",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "藝評人 Gary Grimes 在 It's Nice That 的文化專欄分析了一個近年快速增長的現象：流行女歌手大量委託當代畫家為她們創作肖像，並把這些作品當成單曲封面或核心視覺形象，而不是傳統的商業攝影。這不只是審美選擇，更是一種文化資本策略——把自己和高雅藝術圈連結，鞏固在主流市場以外的文化地位，Lady Gaga 是最早積極打通這條路的代表。對品牌設計師來說，這個趨勢指出了一條重要方向：「委託原創藝術作品」而非「委託商業插圖」，正在成為高端品牌建立視覺識別的新路徑。這個觀察也提示設計顧問，當客戶想要有深度的品牌視覺，值得把「委託藝術家合作創作」納入提案選項。"
+        }
+      ],
+      "buzz": "Brand New 宣布本週進入暑假減產模式，但 It's Nice That 補上了豐富的編輯內容——從書封設計哲學到流行文化與藝術的交融，都是這兩天 Brand 圈值得細讀的素材。識別設計有兩個有趣的突破點：grunge 質感進入正式學術機構的 logo，以及文化機構識別的當代化語言。Gary Grimes 關於流行藝術委託的分析則提示了一個新的品牌視覺路徑；New Designers 2026 今天在倫敦正式開幕，這是觀察下一代設計師視覺語彙的最佳窗口。"
+    }
+  },
+  {
     "date": "2026-06-30",
     "daily_summary": "Product 圈這兩天最值得存的是 Adrian Levy 被瘋傳的那篇——他說設計師現在「設計的不是介面，而是決策」，正在重新定義設計師怎麼跟 AI agent 協作；Figma 的 Check designs 工具也讓設計系統 debt 從「有空再說」變成螢幕上的客觀數字，對工作室說服客戶投資設計系統很有用。Brand 圈則是 Tiquismiquis Club 用字型系統駕馭 700 頁雜誌、Cord Studio 讓對稱構圖的印度廣告走紅全球，兩個案子都在示範：有系統的視覺判斷力，才是真正難以複製的競爭力。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "Brand New 這週密集發出四個中型品牌識別更新，Prosper Global、奧格斯堡大學、Benifex、Prisme 在 48 小時內接連亮相，共同示範一件事：不管是非營利、學術機構、還是 B2B 軟體公司，都在認真用視覺識別建立差異化與信任感。It's Nice That 的品牌史長文則提供了更大的脈絡——這些更新背後有條從 1907 年就開始的演化，而「概念個性」始終是那條不變的軸線。"
-    }
-  },
-  {
-    "date": "2026-06-25",
-    "daily_summary": "這 48 小時設計圈被兩件大事佔滿：Figma Config 2026 公布 code layers、原生動態工具跟 AI agent skills，Anthropic 也同步把 Claude Design 整個翻新，兩邊都在把畫布、程式碼、AI 工作流綑得更緊。Brand 圈則是 Cannes Lions 2026 如火如荼進行，Design Lions 大獎頒給 Apple TV「純手工」的品牌重塑，在 AI 滿天飛的時候，反而是手感變稀缺。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Config 2026: New Materials, New Tools and a More Expressive Canvas",
-          "url": "https://www.figma.com/blog/config-2026-recap/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 在 San Francisco 的 Config 2026 上公布一整套新功能：把任何圖層一鍵變成可互動的 code layer、原生支援 timeline 與 keyframe 動態設計、用 AI 生成 shader 效果，還可以用文字 prompt 訓練出能重複使用的 AI agent skill，甚至串接 Notion、GitHub 等外部服務。TechCrunch、CMSWire 等多家媒體都大篇幅報導，顯示這次更新動作之大。對設計師來說，意味著「手動畫面」的價值正在被壓縮，但設計師仍是唯一能定義產品策略跟使用者需求的人。這次更新也讓 Figma 跟程式碼之間的距離更近，適合密切跟工程協作的團隊先去研究。"
-        },
-        {
-          "title": "Anthropic ships major Claude Design overhaul with design system imports, code round-trips",
-          "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
-          "source": "VentureBeat",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Anthropic 公布 Claude Design 的重大更新，新增 /design-sync 指令，可以把 GitHub 上既有的設計系統匯入 Claude Design，之後 Claude 產出的畫面都會自動對照這套系統檢查跟修正。畫布編輯器也重做，支援拖曳、調整大小、對齊等基本操作，不用每改一個小細節就耗用一次模型額度。設計完成後可以直接交給 Claude Code 接手寫程式，省掉截圖、重建畫面的步驟。這跟工作室目前用 Claude Code 的習慣直接相關，值得花時間研究新功能。"
-        },
-        {
-          "title": "The Core Skill of Design in the AI Era: Critique",
-          "url": "https://www.nngroup.com/articles/ai-era-critique/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇文章的核心論點是，要做出真正好用的 AI 系統，光靠 AI 自動生成是不夠的——團隊必須把「使用者需要什麼」「什麼樣的判斷才是好判斷」這些原本存在設計師腦中的直覺，轉換成清楚、可被檢驗的評估標準。換句話說，當人人都能用 AI 快速生出一堆版本，真正稀缺的能力變成「看一眼就知道哪個版本是對的、為什麼對」。NN/g 認為這代表 critique（批判性檢視）正在從「設計流程裡的一個環節」，升級成這個時代最核心的設計能力。對工作室來說，這也是個提醒：養成團隊內部紮實的 critique 文化，可能比追新工具更重要。"
-        },
-        {
-          "title": "We stopped clicking, and AI became the Internet",
-          "url": "https://uxdesign.cc/we-stopped-clicking-and-ai-became-the-internet-df61a0c79d91",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrizia Bertini 指出，2026 年網路上超過半數的流量已經來自機器人而非真人，AI agent 開始直接幫使用者瀏覽、比價、下單，人類「親自點擊」的比重快速下降。她認為這對整個 UX 設計行業是根本性的衝擊，因為過去所有的介面設計邏輯都建立在「有一個人在看畫面、用滑鼠或手指操作」這個假設上。文章主張設計師接下來要開始設計「給 AI agent 看」的介面跟資料結構，而不只是給人看的畫面。這跟 Machine Experience（MX）設計的討論方向一致，值得放進長期觀察清單。"
-        },
-        {
-          "title": "The organizational cost of low taste",
-          "url": "https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Aurélie Radom 提出一個框架：「品味」（taste）其實像是組織決策的作業系統，當大家對「什麼叫做好」有共識，很多選擇根本不需要每次都拿出來討論，判斷力只留給真正關鍵的地方用。一旦這套共同標準消失，團隊就會陷入不斷重做、來回修改、品質忽高忽低的狀態，而這些表面上看起來是不同的管理問題，其實都源自同一件事：組織失去了辨識品質的穩定方法。文章認為，重建品味不是請更厲害的設計師來把關，而是要把「好」的判斷標準變成組織共同擁有、可以傳承的東西。對品牌顧問工作室來說，這篇某種程度也在說服客戶：為什麼找對的合作夥伴建立品味共識，比每個案子都重新討論美感更有效率。"
-        }
-      ],
-      "buzz": "這幾天 Product Design 圈被「AI 跟設計工具整合更深一層」佔滿——Figma、Anthropic 接連端出更貼近程式碼的設計工具。同時也有一群人在認真討論：當 AI 把「做」變快了，真正值錢的能力會不會反而是「批判」跟「品味」這種沒辦法被自動化的判斷力。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Cannes Lions 2026 Grand Prix Winners in Design, Digital Craft, Film Craft and Industry Craft",
-          "url": "https://lbbonline.com/news/Cannes-Lions-2026-Grand-Prix-Winners-in-Entertainment-Gaming-Music-Sport-Design-Digital-Craft-Film-Craft-and-Industry-Craft",
-          "source": "LBBOnline",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Cannes Lions 2026 的 Design 類別大獎（Grand Prix）由 Apple TV 的品牌重塑案拿下，操刀的是 TBWA\\Arts Lab Los Angeles 跟 Apple Cupertino 內部團隊。評審特別指出這個作品的特別之處，在於大量手工製作的質感，而不是仰賴新技術去堆疊效果，在滿場 AI 工具的年代顯得格外突出。同一天的工藝類獎項也呈現類似氣氛：Coinbase 的影片作品跟 De'Longhi 把咖啡機變成手作迷你咖啡店的案子都拿下大獎。這些得獎案例合起來在傳遞一個訊息：當人人都能用 AI 生成精緻畫面，「看得出來是人做的」反而成為一種稀缺的品牌資產。"
-        },
-        {
-          "title": "KitKat's 'Have a break' platform makes Cannes Lions Creative Brand shortlist",
-          "url": "https://www.campaignlive.co.uk/article/kitkats-have-break-platform-makes-cannes-lions-creative-brand-shortlist/1962376",
-          "source": "Campaign",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "VML 倫敦為 KitKat 操刀的「Little Breaks」系列，把品牌經典的 logo 線條重新拆解，在裡面藏進「聽音樂」「彈吉他」「閱讀」「發白日夢」等四個微小插畫場景，要觀眾停下來、看仔細才能發現。這個作品延續 KitKat 長期經營的「Have a break」品牌主張，但這次選擇用安靜、需要時間消化的方式呈現，而不是搶眼的視覺衝擊。作品在 Cannes Lions 2026 的戶外類拿下銅獎，被視為「把 logo 本身當成創作素材」的代表案例。對品牌識別設計來說，這是個提醒：識別系統本身就可以是內容，不一定要額外做活動素材。"
-        },
-        {
-          "title": "Strategic rebrand positions Untold as emotionally resonant AI",
-          "url": "https://www.transformmagazine.net/articles/2026/strategic-rebrand-positions-untold-as-emotionally-resonant-ai/",
-          "source": "Transform magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 心理陪伴 App Untold 因為新推出的「Perspective」功能（包含引導式日記、情緒趨勢視覺化等）讓產品定位變得更成熟，因此啟動全面品牌重塑，新識別圍繞「speak freely, feel understood, grow intentionally」三個核心概念設計。負責插畫系統的 The Working Assembly 特別訓練了一套專屬 AI 插畫系統，目的是做出「有情感溫度」、不會讓人覺得是演算法隨機生成的畫面。新識別也包含全新的客製化 logo 跟更貼近真人語氣的文字風格。這個案例值得參考的地方在於：用 AI 做插畫系統時，品牌仍可以透過嚴格的訓練跟把關，避免畫面看起來「很 AI」。"
-        },
-        {
-          "title": "Crosby Studios outfits World Cup pop-up with football-green rugs",
-          "url": "https://www.dezeen.com/2026/06/24/crosby-studios-new-york-home-of-football-air-afrique-exhibition/",
-          "source": "Dezeen",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "紐約 Chelsea 區的 High Line 9 藝廊，在世界盃期間變身成「Home of Football」展覽空間，由 Crosby Studios 負責空間設計，用大片螢光綠地毯跟巨大發光球體營造出強烈的品牌氛圍。展覽由法國藝術團體 Air Afrique 策展，展出私人收藏 Manzano Heritage Collection 裡的足球文物，包括 Pelé 1958 年世界盃球衣、Ronaldo 2002 年奪冠相關文物、Messi 2006 年首次參加世界盃的球衣等，用拋光金屬展示櫃陳列。空間裡還有獨立策劃的選品店，展期從 6/22 到 7/19。對品牌空間設計來說，這個案子示範了怎麼用色彩跟材質的強烈統一感，把一個臨時展覽空間迅速建立成有記憶點的品牌體驗，而不需要靠複雜的敘事去支撐。"
-        },
-        {
-          "title": "The Ordinary Wins Big Among 8 Grand Prix Winners From Cannes Lions 2026 Day 1",
-          "url": "https://www.adweek.com/creativity/the-ordinary-wins-big-among-8-grand-prix-winners-from-cannes-lions-2026-day-1/",
-          "source": "Adweek",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "The Ordinary 與創意團隊 Uncommon Creative Studio、Smuggler 合作的「The Periodic Fable」，把化學週期表上的真實元素全部替換成保養品產業常見的行銷話術，像是「回春」「撫平細紋」「永遠年輕」等等，藉此諷刺這些說法其實毫無科學根據。campaign 包含一部由 Olivia De Camps 執導的反烏托邦風格短片，畫面是一群人在無菌教室裡一邊念著行銷術語、一邊進行制式化的保養儀式，另外還做了一個微網站讓使用者自己去查每個「假元素」背後在嘲諷什麼。這個案子拿下 Cannes Lions 2026 健康與保健類的大獎（Grand Prix）。對品牌策略來說，這是一個示範：當你的品牌主張是「誠實、反行銷話術」，行銷活動本身的形式也必須徹底貫徹這個主張，才不會自打嘴巴。"
-        }
-      ],
-      "buzz": "Cannes Lions 進行中，評審風向很明顯偏好「看得出是人手做的」工藝感作品，Apple TV 的品牌重塑跟 De'Longhi 的手作咖啡店裝置都因此奪冠。同時不管是心理陪伴 App 的角色插畫，還是世界盃快閃展覽的空間設計，都在示範同一件事：用強烈、統一的素材語言，比堆疊敘事更快建立品牌記憶點。"
     }
   }
 ]
