@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-02",
+    "daily_summary": "Product 圈今天 Figma 密集發布 AI agent 和 canvas 無障礙的深度文章，多篇第三方文章也同步在說同一件事：設計師最難被替代的是跨商業、設計、程式碼的整合判斷力，不是執行速度。Brand 圈的大新聞是葡萄牙足球總會在世界盃年公布極簡機構識別，移除傳統十字架的設計瞬間引爆全球輿論，讓「國家象徵的現代化應該走多遠」這道題在最大的舞台上被檢視。Warsaw 海報節的現場報導和 Blanca Doba 的自主設計 brief，則從截然不同的角度示範了設計實踐的深度。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "You're missing the point; this is your real value in tech companies",
+          "url": "https://uxdesign.cc/youre-missing-the-point-this-is-your-real-value-in-tech-companies-f56d6d96b54b",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Kike Peña 切入一個許多設計師不敢正視的問題：在 AI 快速重塑產業的當下，設計師的實際價值是什麼？他的核心論點是：公司長期把設計師的角色低估為「把別人對用戶需求的詮釋轉化成視覺的人」，但這根本不是設計師真正的本事。設計師的真正優勢在於同時能操作三種語言——商業、設計、程式碼——並且在三者之間轉譯和創造價值；AI 是流程加速器，不是替代品，「整合式思考能力」才是讓設計師在科技公司不可或缺的核心，這也恰好是 AI 最難模仿的東西。對接案工作室來說，這正是你對客戶說「為什麼需要工作室而不是 AI 工具」的論述基礎。"
+        },
+        {
+          "title": "Got Skills? Make the Figma Agent a Better Collaborator",
+          "url": "https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma 推出「Skills」功能，讓設計師可以用白話文撰寫可重複使用的指令集，教 Figma agent 執行特定的工作流程——從模擬利害關係人的 crit 視角、自動執行 UX 寫作風格規範，到跨工具（Slack、Asana、Notion）的無縫交接。最關鍵的改變是：過去只存在某個人腦袋裡的設計流程知識，現在可以被「封裝」成技能，讓整個團隊用 `/` 指令一鍵取用，不需要每次重新撰寫 prompt。對設計工作室來說，這代表你可以把自己的設計哲學和品質標準，轉化成 agent 可以理解和執行的指令，讓每個項目都能保持一致的判斷標準——這本質上是把工作室的「隱性知識」外顯化的工具。"
+        },
+        {
+          "title": "Matching AI Modality To User Intent: Designing The Right Interface",
+          "url": "https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Victor Yocco 點出一個設計師常犯的錯誤：因為 LLM 是對話訓練的，就把 chat 當成所有 AI 功能的預設介面，這是「對話隧道視野」。他提出四維度任務審查框架：輸入限制（手是否空閒）、輸出限制（視覺是否可及）、社交限制（環境噪音和隱私）、認知負荷，從四個面向決定應該用什麼介面模式。關鍵案例是電力網格現場技術員——戴厚手套、高危環境、無法看螢幕——解法是現場語音輸入＋語音輸出、進入車輛後切換視覺儀表板，把診斷時間縮短了 20%。這個框架對設計顧問工作室很有用：在提案 AI 產品設計時，「為什麼用 chat？」這個問題應該先被問，而不是被跳過。"
+        },
+        {
+          "title": "Why systems thinking is becoming the most important UX skill",
+          "url": "https://uxeng.net/2026/07/01/why-systems-thinking-is-becoming-the-most-important-ux-skill/",
+          "source": "UX Engineering",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者以 Apple WWDC 2026 的發布為起點，論證設計師的工作正從「設計畫面」移向「設計系統」：App 現在可以透過 AI agent 在沒有使用者操作的情況下被呼叫，平台級的互通性已成標準而非選配功能。AI 讓視覺設計的進入門檻降低（「polished UI 已不稀缺了」），真正稀缺的是能理解系統複雜度的設計師。文章介紹三個具體工具：Job Stories（描述任務＋觸發情境）、State Charts（用屬性和條件轉換表示系統複雜度）、Flow Diagrams（映射多步驟系統行為），強調這些能力「存在於設計師的推理能力裡，不在工具的功能裡」。這篇是「為什麼工作室的服務應該往系統設計延伸」的好論據。"
+        },
+        {
+          "title": "Building Accessibility Into a Canvas-Based Product",
+          "url": "https://www.figma.com/blog/building-accessibility-into-a-canvas-based-product/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 的工程師分享了一個困難但重要的技術問題：因為 Figma 用 canvas 渲染而非傳統 HTML DOM，所有瀏覽器內建的無障礙功能（螢幕閱讀器、鍵盤導航等）一概不適用，等於從零開始重建。他們的解法是「Mirror DOM」架構——四個互聯的系統組成：內部無障礙樹、Mirror DOM React 元件、雙向同步機制、以及 ARIA live region 的公告系統，確保螢幕閱讀器能正常導航，同時不犧牲 canvas 的效能優勢。這篇文章最值得注意的是它示範了一件事：「我們選擇了效能優先的架構」不應該是放棄無障礙的藉口，但要做到兩者兼顧，需要真正的工程深度。"
+        }
+      ],
+      "buzz": "Figma 今天密集發布兩篇工程深度文章（Skills 功能和 canvas 無障礙架構），顯示在大量推出 AI 功能的同時，基礎建設也在同步鞏固。Product 圈整體方向更加清晰：UI 執行已不是稀缺技能，系統思考、介面模式判斷、跨語言整合能力才是——多篇文章從不同角度收斂到同一個結論。從 Smashing Magazine 的 AI 介面模式框架，到 uxeng.net 的系統設計論述，到 Figma 的實際工具發布，今天是一個論點和工具難得對齊的好日子。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Building a brand means building a world – that's why Blanca Doba's identity for Bare Earth didn't stop at a wordmark",
+          "url": "https://www.itsnicethat.com/articles/blanca-doba-bare-earth-graphic-design-project-010726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Blanca Doba 是一位自學的平面設計師，在這個自主 brief 裡她為虛構的天然護膚品牌 Bare Earth 建立了完整的視覺世界，而不是止步於 wordmark。她以字型作為切入點——以設計師 Anna Mills 的裝飾性書法字為靈感設計 logo，再搭配乾淨的當代字體（BN Cringe Sans 和 PP Mori）形成張力；整體調性包含蕾絲邊框、花卉攝影、刺繡風插圖，她說想做出「像書頁裡的壓花，或一首寫在綠葉上的短詩」的感覺。這個案子最值得工作室學習的，不只是視覺方向，而是「用自主 brief 探索未知美感」的工作態度——不受制於客戶，但同樣認真對待，反而更容易做出有個性的作品。"
+        },
+        {
+          "title": "New Logo for Federação Portuguesa de Futebol",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_for_federacao_portuguesa_de_futebol.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "葡萄牙足球總會（FPF）在世界盃年公布機構識別重塑，把傳統葡萄牙盾形徽章大幅極簡化：保留紅、綠、金三色，但移除了傳統十字架等複雜細節，設計更簡潔平衡，目的是在各種數位尺寸下都能清楚顯示。重要說明：這個新設計只用於 FPF 的機構識別（企業商業用途），葡萄牙國家隊球衣上的傳統徽章完全不受影響。即便如此，這次發布在全球引爆激烈爭議——「去掉十字架就等於去掉了葡萄牙的靈魂」成為主流聲音，FPF 已緊急發表聲明澄清。這個案子提供了一個絕佳的設計辯論框架：國家級符號的數位化現代改造，即便再謹慎，也無法逃開文化象徵的重量。"
+        },
+        {
+          "title": "At Warsaw's The Poster Festival, a new school of artists emerge alongside an overlooked history of graphic design",
+          "url": "https://www.itsnicethat.com/features/the-poster-festival-warsaw-round-up-graphic-design-spotlight-020726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "It's Nice That 帶來華沙「The Poster: Festival of Posters, Post-Poster Forms and Experimental Graphic Design」藝術節的現場報導，核心是「海報在 AI 時代如何重新定義自身」。最值得關注的有兩個平行展覽：一是 Kuba Sowiński 的藍墨水名人描繪刻意模糊作者身份，在 AI 崛起的背景下探問「原創性」的定義；二是一場大規模的女性設計師歷史發掘，重新找回 1945–1989 年間被男性同儕遮蔽的波蘭女性平面設計師作品。同時，一批 Gen-Z 設計師正在用數位 grunge、熔融漸層、刻意不可辨識的字體重塑傳統波蘭海報美學，受倫敦、東京、紐約的影響遠多過前輩。"
+        },
+        {
+          "title": "New Logo and Identity for Finom by Border Zero",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_finom_by_border_zero.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "歐洲金融科技公司 Finom 委託 Border Zero 進行品牌重塑，新識別以小寫無襯線字體搭配黑色＋粉紅色的主色系，在 B2B 金融工具常見的「嚴肅深藍色」視覺語言裡做出強烈的差異化選擇。小寫 logo 傳遞親近感，黑色提供可信度，粉紅色帶來活力和辨識度；三個元素的組合讓 Finom 看起來更像有設計觀點的新創，而不是傳統金融機構。Brand New 對這次更新評為「Noted」，代表整體執行品質獲得正面評價。這個案子的設計決策很清楚：在行業視覺慣性強的領域，用顏色選擇本身作為差異化宣言，比改字型或調版式更有效率。"
+        },
+        {
+          "title": "New Logo and Identity for Veritas by Sonder Studio",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_veritas_by_sonder_studio.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "德國品牌設計工作室 Sonder Studio 為房地產公司 Veritas 打造新識別，以帶磁針（flared）的襯線字體為核心，搭配時鐘意象作為主要視覺元素。「時間」作為主視覺隱喻，在房地產領域有雙重含義：長期投資的時間維度，以及物業隨時間增值的承諾。整體走「有歷史感的現代感」路線，用字型的優雅感區別於科技感強的新創識別語言。Brand New 評為「Noted」，整體評價正面。對工作室而言，Sonder Studio 的做法是一個好範例：從客戶的核心價值主張（時間與信任）直接萃取出視覺語言，而不是套用行業通用符號。"
+        }
+      ],
+      "buzz": "葡萄牙足球總會的識別爭議讓「國家級品牌現代化應該走多遠」成為今天 Brand 圈最熱門的討論，時機點卡在世界盃讓全球都在看。Warsaw 海報節報導則提供對位視角：Gen-Z 設計師如何在繼承傳統的同時，建立完全屬於自己的視覺語言，同時 AI 時代的「作者身份」問題也在同一個場域被正式提問。Brand New 暑假減產仍持續，但今天 Finom 和 Veritas 的案例示範了金融和房地產這兩個最保守的行業，如何靠顏色和字型選擇做出有個性的差異化。"
+    }
+  },
+  {
     "date": "2026-07-01",
     "daily_summary": "AI 正在把設計師推向一個選擇題：主動掌握 prompting 與新工具的定義權，或是把話語權讓給工程師。Product 圈今天的焦點在角色焦慮與自我重新定位，Figma 的數據顯示工程師做設計的比例已翻倍，但多篇文章都在說同一件事：設計師那套把模糊轉化為清晰的判斷力，正是現在最難被取代的核心能力。Brand 圈有 Matt Dorfman 三十年書封設計哲學值得細讀，加上 New Designers 2026 今天在倫敦開幕，下一代設計師的語彙就在那裡。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "這兩天 Brand 圈的主角是「視覺語言的精準度」——Tiquismiquis Club 用字型系統駕馭 700 頁雜誌，Cord Studio 用對稱構圖讓廣告在全球傳播，兩個案子都在說明同一件事：有系統的視覺判斷力比一個漂亮的想法更難複製，也更有說服力。Brand New 同步發出冬奧識別和消費品包裝（Udi's、Hydraid），顯示不同產業都在認真用視覺語言建立差異化。"
-    }
-  },
-  {
-    "date": "2026-06-28",
-    "daily_summary": "Product 圈這 48 小時出現一個論述轉移：從「AI 讓設計師消失嗎」移向「執行變快之後，哪些判斷力更稀缺」——Discovery judgment 跟 baseline 測量同時被點名，都是比 Figma 新功能更難被自動化的東西。Brand New 這週密集發出四個中型品牌識別更新，Prosper Global、奧格斯堡大學、Benifex、Prisme 接連亮相，集體示範各種產業都在認真用視覺識別建立信任；It's Nice That 從 Olivetti 講到 Instagram 的品牌史則提醒，工具再怎麼變，品牌設計的核心仍然是「概念個性跟藝術原創性」。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Your New UX Habit: Establishing Baselines for Impact",
-          "url": "https://www.nngroup.com/articles/establishing-baselines/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "UX 團隊在開始任何設計案之前，應該先測一次基準數據，否則後續的改善根本無法被證明。NNGroup 指出「測量太晚」是 UX 價值被低估最常見的原因——完成率從 48% 升到 67% 這個說法的說服力，完全取決於那個 48% 是否在設計前就已被測出來。文章建議選擇跟用戶行為直接掛鉤的指標（如完成率、任務時間），而不是頁面瀏覽這種間接數字，並且要詳細記錄測量方法，確保前後比較有效。對工作室最直接的用途：在跟客戶溝通設計成效時，有前後對照的數字直接影響說服力——這篇提供了一個好框架，說明「為什麼研究預算應該包含設計開始前的基準測量」。"
-        },
-        {
-          "title": "AI didn't replace designers—it promoted them",
-          "url": "https://uxdesign.cc/ai-didnt-replace-designers-it-promoted-them-5b6d24de4e26",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Lisa Demchenko 觀察到設計師的工作已經「安靜地、不可逆地」在改變形狀：不再是幫每個 flow 畫出所有畫面或做 Figma prototype，而是定義系統架構、讓 AI 去執行細節。她認為當 AI 被整合進完整的 build loop，而不只是用在孤立任務時，設計師的角色從「執行者」升格成「決策者」。這跟 NNGroup 提出的「Vibe Architects」概念高度吻合，代表這個轉型已有多方觀察者收斂到同一個結論。對工作室的提示：現在是重新定義「設計服務交付範疇」的好時機——從畫面交付，往策略架構靠，客戶願意付費的理由也會隨之改變。"
-        },
-        {
-          "title": "Discovery is a capability, not a phase",
-          "url": "https://uxdesign.cc/discovery-is-a-capability-not-a-phase-0fd6c1dab2f5",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Gale Robins（Unvera 創辦人）提出 Discovery Judgment Framework，把探索研究從「設計流程的一個階段」重新定義成貫穿整個設計實踐的判斷力。核心論點是：在 AI 讓「蓋東西」越來越快的時代，「決定值得蓋什麼」的能力反而更稀缺、更值錢。這個框架有 19 個具體的判斷節點，包括如何框定問題、如何解讀證據、以及何時決定 pivot 或停止，而且這種判斷力「存在於設計師的推理能力裡，不在工具的功能裡」。對設計顧問工作室最直接的啟發：接案時「探索研究」不應只是開案前的固定流程，而是整個合作期間都在運作的判斷能力，這也正是客戶花錢請工作室而不是自己做的核心理由。"
-        },
-        {
-          "title": "Designing for AI, the permalink problem, vibe designing",
-          "url": "https://uxdesign.cc/designing-for-ai-the-permalink-problem-vibe-designing-5a13e857b6a3",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "UX Collective 創辦人 Fabricio Teixeira 點出當前設計實踐的核心困境：設計師手上有前所未有的能力，但「沒有任何共識框架告訴我們怎麼把這些能力交給使用者」——沒有穩定的 pattern、沒有共同設計語言，工具本身還在被它生產的技術即時重寫。他把這個狀態稱為「tech quicksand」（技術流沙），設計師站在上面卻必須繼續做出決策。「Vibe designing」這個概念也在這篇被提出——像 vibe coding 一樣，憑直覺與氛圍設計 AI 產品，沒有先例可循。對工作室的提示：做 AI 產品設計時，接受「沒有既有 pattern 可以套用」本身就是專業素養的一部分，不是缺陷。"
-        },
-        {
-          "title": "Someone designed this. Why bad UX is often a business problem",
-          "url": "https://uxdesign.cc/someone-designed-this-2d48482b64df",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Arun Bakirathan 對「爛 UX」的成因提出不一樣的論點：設計師不是不知道怎麼做好，而是被業務決策壓住了。文章舉了多個具體案例——強制訂閱、隱藏退出選項、複雜的取消流程——說明這些讓人抓狂的介面往往是商業目標在設計語言上的直接體現。他認為 UX 設計師的工作不只是改善介面，而是辨識並影響那些讓糟糕設計得以存在的業務邏輯。對設計顧問工作室最實際的應用：在設計審查時，把「這個設計決策背後的業務假設是什麼」拿出來討論，往往比只談用戶體驗更能推動真正的改變，也更能展現工作室的策略價值。"
-        }
-      ],
-      "buzz": "這 48 小時 Product 圈出現一個論述轉移：不再只焦慮「AI 讓設計師消失嗎」，而是開始討論「執行變快之後，哪些判斷力變得更稀缺」。Discovery judgment、baseline 測量、辨識業務假設的能力——這些比 Figma 新功能更難被自動化的東西，反而正在被認真對待；Fabricio Teixeira 的「tech quicksand」說法則為目前整個行業的不確定感提供了一個精準命名。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "New Logo and Identity for Prosper Global by Chermayeff & Geismar & Haviv",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_prosper_global_by_chermayeff_geismar_haviv.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "非營利機構 Prosper Global 委託大名鼎鼎的 Chermayeff & Geismar & Haviv 進行品牌更新，新識別以青綠色調為主，logo 採用小寫 sans-serif 字型，創造出親切而當代的視覺感。設計核心是箭頭與愛心的結合，同時傳遞「前進」與「關懷」兩個概念，整體系統依循「Brand Federation」原則，確保多個接觸點之間的視覺一致性。對工作室來說，這個案子有一個值得注意的說故事方式：用兩個最簡單的幾何符號，清楚傳達兩個核心品牌價值——這種「符號邏輯先於美感決策」的思考順序，是提案時可以直接借用的框架。"
-        },
-        {
-          "title": "New Logo and Identity for University of Augsburg",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_university_of_augsburg.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "德國奧格斯堡大學推出新視覺識別，以紫色為主色調，搭配以連字（ligature）為設計語言的字型處理。整體在維持德國設計嚴謹傳統的同時，走向更現代、更有辨識度的學術識別。這是一個典型的「如何在高度約束的框架內找到個性」的設計案：學術品牌既不能太跳脫，又需要在眾多大學識別中被記住，紫色加連字的組合是一個在保守規範裡做出明確差異化的清楚答案。"
-        },
-        {
-          "title": "New Logo and Identity for Benifex by For Different",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_benifex_by_for_different.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國福利科技公司 Benifex 委託 For Different 工作室進行品牌更新，新識別以 serif 字型搭配綠色，刻意跳脫軟體公司常見的幾何 sans-serif 路線。在企業福利管理（HR tech）這個視覺語言相對同質化的產業，用 serif 字型建立「有人情味的科技感」是一個清楚的差異化選擇。Brand New 以「Friends With Benefits」為標題下標，側面評論了品牌重塑的策略意圖——讓員工福利平台看起來更像夥伴，而不是系統，這個定位選擇本身就是一道值得工作室在類似案子裡拿來討論的品牌策略題目。"
-        },
-        {
-          "title": "New Logo and Identity for Prisme by ōnō studio",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_prisme_by_ono_studio.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "法國分析平台 Prisme 委託 ōnō studio 進行品牌更新，新識別以稜鏡（prism）的折光效果為核心視覺語言，用幾何形狀模擬光線穿過三稜鏡後的視覺分散與色彩分層。Brand New 編輯以「Eye See What you Did There」為標題，帶著一絲諧謔地肯定了這個設計概念的聰明之處。這個案子是「品牌名稱本身就是設計靈感」的好範例：當名稱有強烈的視覺意象時，識別設計直接以此為軸心出發，比另找隱喻更有說服力，也更容易讓客戶一看就懂。"
-        },
-        {
-          "title": "From Olivetti to Instagram: a short history of modern brand design",
-          "url": "https://www.itsnicethat.com/features/katharina-sussek-jens-muller-the-elements-of-brand-design-taschen-publication-graphic-design-spotlight-170626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇節錄自 Taschen 新書《The Elements of Brand Design》，作者 Katharina Sussek 和 Jens Müller 梳理品牌設計從 19 世紀工業革命到今天的演變：Peter Behrens 在 AEG 建立企業識別的先例、Olivetti 和 IBM 把頂尖設計師帶進組織的模式、以及數位時代之後設計系統從類比的嚴格標準走向可被 AI 協助的彈性系統。儘管工具和技術持續翻新，作者的核心論點是：品牌設計仍然需要「概念的個性與藝術的原創性」，演算法能加速執行，但無法取代那個讓品牌有靈魂的判斷。這篇適合在對客戶解釋「為什麼品牌設計不能只靠 AI 生成」時引用，從 1907 年講起的歷史脈絡讓論點有厚度。"
-        }
-      ],
-      "buzz": "Brand New 這週密集發出四個中型品牌識別更新，Prosper Global、奧格斯堡大學、Benifex、Prisme 在 48 小時內接連亮相，共同示範一件事：不管是非營利、學術機構、還是 B2B 軟體公司，都在認真用視覺識別建立差異化與信任感。It's Nice That 的品牌史長文則提供了更大的脈絡——這些更新背後有條從 1907 年就開始的演化，而「概念個性」始終是那條不變的軸線。"
     }
   }
 ]
