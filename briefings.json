@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-04",
+    "daily_summary": "NNGroup 今天連發兩篇直接針對工作室最核心痛點的文章：AI 企業透明度設計、以及如何用商業語言代替 UX 語言說服客戶，值得存起來重複使用。Brand 圈進入美國 7/4 長假出版淡季，但 Stack Overflow 委託 Koto 做的 rebrand 值得細讀——他們的策略核心完全可以搬到你的客戶提案裡：在 AI 時代，品牌護城河是社群驗證的知識可信度，不是速度。D&AD New Blood 雙料獲獎也提醒一件事：最難被 AI 取代的設計仍然是那種能重新框架問題、讓本來被忽視的東西變成資產的思維。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Stop Reporting UX Activity and Report Business Outcomes",
+          "url": "https://www.nngroup.com/articles/reporting-ux-business-outcomes/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計團隊在爭取預算時常輸，不是因為工作沒價值，而是因為在說 UX 語言而不是商業語言。NNGroup 指出兩個常見錯誤：報告努力（「做了 24 次訪談」）而非結果，以及用決策者聽不懂的 UX 指標（SUS 分數）說話。文章提出五個領導層真正在意的商業優先級：營收影響、成本降低、風險規避、上市速度、用戶留存；並要求設計師學會把上游指標（任務完成率、錯誤率）橋接到下游結果（客服量、轉換率、流失率）。核心轉譯範例：「SUS 從 62 提升到 74」→「導航改版讓客服來電減少 30%」。對工作室來說，這篇是說服客戶投資設計的語言工具包——不只是拿預算，也適用於提案中說明為什麼研究和設計系統值得花錢。"
+        },
+        {
+          "title": "Crafting AI Explanations for Every Role in Your Enterprise",
+          "url": "https://www.nngroup.com/articles/crafting-ai-explanations/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 把 AI 透明度定位為設計問題而非技術問題：企業裡不同角色需要完全不同類型的 AI 解釋——治理主管需要「全局說明」看系統層級的風險和模式；工程師和設計師需要「局部說明」對應特定輸入和設定，方便除錯；領域專家需要「白話說明」嵌入他們熟悉的工作流程。文章用幫助台 AI 設定場景說明：同樣一個 AI 決策，三個角色需要看到的東西完全不同，如果用同一套說明方式就是設計失敗。核心主張是：當透明度被當成設計問題而不是技術後記來處理，AI 系統才能讓各方都成為「主動的決策參與者而非被動接受者」。對工作室接 AI 產品設計案時，這篇是設計說明框架的直接參考材料。"
+        },
+        {
+          "title": "AI personality is a design problem",
+          "url": "https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Slava Polonski 指出一個設計師沒在注意的問題：即使兩個 AI 助理建立在同一個底層模型上，它們可以「感覺像完全不同的人」——一個溫暖而模糊，一個冷靜而精確；一個先問再做，一個直接做完告訴你。這些差異沒有人設計過，是訓練和 RLHF 獎勵機制的副產品，「個性就這樣長出來了，沒有人畫草稿，沒有 design review」。他的論點是：設計師的工作就是塑造產品的感受，而個性正在進入每個 AI 產品——唯一的問題是有沒有人刻意設計它，還是讓它意外發生。這篇提醒工作室一件事：下次為客戶設計 AI 介面，別只想介面，也要想「這個 AI 有沒有性格？這個性格是不是我們想要的？」"
+        },
+        {
+          "title": "Users Don't Need More Tools: They Need Seamless Integrations",
+          "url": "https://www.smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Vitaly Friedman 批評了 AI 產品設計中最常見的錯誤：用「AI 優先」思維打造需要使用者主動學習的新工具，而不是把 AI 嵌入使用者已有的工作習慣。他主張「安靜的 AI」（Quiet AI）——在背景默默運作、解決高頻率高痛點問題，不打擾使用者注意力。具體案例包括 Claude 整合進 Microsoft Excel/Word/PowerPoint 的做法，以及「資料夾指令」系統：使用者定義資料夾的行為規則，AI 自動整理文件、生成摘要、發送通知，完全不需要主動操作。核心洞察是：在 AI 工具大量湧現的時代，真正讓人採用的不是功能最強的，而是最不需要改變習慣的——減少摩擦和降低認知負荷，比多加功能更有說服力。"
+        },
+        {
+          "title": "7 questions we had going into Config Leadership Collective",
+          "url": "https://www.figma.com/blog/7-questions-from-lc/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma 邀請 Airbnb、OpenAI、Sephora、Atlassian、Cisco、Expedia、AWS、Google、Patreon 的設計主管，回答七個 AI 時代最難回答的領導力問題。幾個關鍵洞察：OpenAI 的 Ian Silber 說「整個產業在幾個月內就徹底轉變了，固定流程只會成為障礙」，強調領導者要以「邊做邊學」示範而非規定流程；Sephora 的 Sneha Narahalli 說設計師的稀缺能力移向「在情境中知道哪個答案最好」而非執行熟練度；跨組織普遍轉向更小的跨職能小組，打破傳統功能性 silo。最重要的共識：人類品味和判斷力在 AI 大量產出的環境下成為不可缺的品質守門機制。對工作室來說，這篇直接示範了如何在客戶面前用業界領袖的話，論證「為什麼設計判斷力比 AI 工具更有價值」。"
+        }
+      ],
+      "buzz": "NNGroup 今天兩篇同時出手，覆蓋了工作室最實用的兩個痛點：如何跟客戶說設計的商業價值，以及如何設計 AI 的透明度。AI 個性設計和 Figma 領導力文章則從不同角度說同一件事：在 AI 大量產出的世界裡，判斷力、品味、以及「決定 AI 行為邊界」的能力，正在成為設計師最核心的不可替代性。這些文章拼在一起，幾乎就是一份「為什麼客戶需要設計工作室而不只是 AI 工具」的完整論述。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Fifth Avenue food hall identity highlights how a person can trump a mood board",
+          "url": "https://www.creativeboom.com/news/how-do-you-brand-a-110-year-old-department-store-into-a-food-hall-without-losing-its-soul/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Love & War 把紐約第五大道原 Lord & Taylor 百貨旗艦店改造成美食廣場 Shaver Hall 的品牌操作，提供了一個對工作室非常實用的方法論：不要先做情緒板，先做歷史研究找真實人物。他們發現 Dorothy Shaver（1893-1959）——這位把 Lord & Taylor 帶到鼎盛的女性 CEO，也是那個時代最積極支持創意和設計的零售人——她的名字為品牌提供了「內建的質感、可信度，以及一個讓媒體和顧客都有理由在意的故事」。視覺語言直接從建築本身借用：art deco 的階梯框架、厚重的 serif 字體呼應原有的石雕和銅質花格；廣告端則用 Pop Art 色塊和復古插圖注入活力。更關鍵的設計決策是：這套識別不強迫統一所有進駐品牌，而是建立一個框架讓各租戶保有個性、同時維持整體一致感。對工作室接設計提案時，這篇的方法論——「讓品牌有真實的人作為根基」——是一個很有說服力的 brief 開頭方式。"
+        },
+        {
+          "title": "Koto reframes Stack Overflow around the one thing AI can't replace: its community",
+          "url": "https://www.creativeboom.com/news/koto-reframes-stack-overflow-around-the-one-thing-ai-cant-replace-its-community/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "在 AI 開始回答越來越多程式設計問題的時代，Stack Overflow 委託 Koto 做品牌重塑時，第一個問題就是「我們的護城河是什麼？」答案是：社群驗證過的知識可信度——「速度只有在底層知識可以被信任的時候才有價值。」視覺識別以「Always in Build」作為核心概念，用堆疊的偏移線條代表社群知識不斷積累和進化的形態，自訂字體 Stack Sans 也開放到 Google Fonts 上。最值得關注的設計決策是流程：他們沒有單方面發布，而是在 WeAreDevelopers World Congress 公開三個設計方向讓社群投票，讓整個開發者社群成為品牌過程的參與者。附帶一提：Koto 用 Claude 建了一個生成式品牌工具，讓團隊可以在保持一致性的前提下自行產出品牌素材。這篇對工作室最有用的是那個策略問題本身：下次接案，「在 AI 取代大量功能之後，客戶的護城河是什麼？」是一個很好的 brief 開頭問題。"
+        },
+        {
+          "title": "D&AD New Blood Awards 2026: a student project about periods wins both of the year's top prizes",
+          "url": "https://www.creativeboom.com/news/dad-new-blood-awards-2026-a-student-project-about-periods-wins-both-of-the-years-top-prizes/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "丹麥學生 Jens Kühnel 和 Kirstine Vilsen 的「Blood Stocks」計畫同時拿下 D&AD New Blood Awards 的 Black Pencil（年度最高成就獎）和 White Pencil（造福社會的創意獎），這是極少見的雙料最高獎。核心概念是把月經周期重新定位為醫療資產：每月捐血與月經周期對應，讓捐血者成為女性健康研究的主動利害關係人，而不是需要被悄悄管理的私事。評審認可它「正面迎擊長期被汙名化的議題」並且把它重新框架為具有真實醫學價值的東西——這正是設計最難被複製的能力：不是執行好看，而是找到一個讓你不得不改變想法的框架。對工作室來說，這個案子最值得學習的不是設計本身，而是那個核心轉化動作：把「問題」翻轉成「資產」。"
+        },
+        {
+          "title": "New Logo and Packaging for Jus-Rol by Brandon Consultants",
+          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_packaging_for_jus_rol_by_brandon_consultants.php",
+          "source": "Brand New (Under Consideration)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國最大即用酥皮品牌 Jus-Rol 委託曼徹斯特工作室 Brandon 完成品牌更新，任務是在自有品牌（超市自有品）競爭壓力下重建差異化。核心設計決策之一是有策略性地移除：把過時的擀麵棍從 logo 拿掉（「已經沒有人認出這是擀麵棍了」），但保留皇冠元素並重新打磨細節。新系統加入 BAKE BOLD 徽章和金色刷形曲線（像糕點刷形狀），照片從靜態切換成食物導向的鮮活風格；深藍色和奶油色作為品質基底，再搭配多種活潑的輔色做產品分類導航。整套新包裝在保留品牌辨識度的前提下，讓整個產品線變得容易瀏覽。這個案子對工作室很有參考價值：「哪些視覺元素要保留、哪些要大膽刪掉」的判斷，往往是遺產品牌 rebrand 最難拿捏的決定。"
+        },
+        {
+          "title": "How Ayame Uchima makes delicate drawings that look just like lace",
+          "url": "https://www.itsnicethat.com/articles/ayame-uchima-illustration-discover-020726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "巴黎插畫師 Ayame Uchima 在奧卡里埃刺繡學校學了 Lunéville 刺繡和傳統棒槌蕾絲工藝後，把這些纖維技術轉化成繪畫實踐：她的作品「看起來像編織出來的布料，實際上是用筆畫的」。她描述自己的圖像像「想像故事書裡的書頁」，表面美麗精緻，但深處藏著一種「安靜的不諧和感」——她刻意讓視覺在優雅與微微令人不安之間保持張力。這種「讓觀眾以為自己看到的材質不是真正的材質」的技法，源自她對實際工藝的深刻理解。對視覺設計的啟發是：掌握一項實體工藝（刺繡、書法、活版印刷）往往能讓你在數位媒介上創造出別人無法複製的手感——因為你知道那個質感從哪裡來，而不是從濾鏡套出來的。"
+        }
+      ],
+      "buzz": "本週 Brand 圈因 7/4 美國長假出版量明顯縮水，Brand New 進入減產模式，It's Nice That 也偏向輕量內容。但在有限的資訊量裡，有幾個值得存的問題：Stack Overflow 的 rebrand 示範了「AI 時代品牌護城河要建在哪裡」；Shaver Hall 的案例再次強調了研究先行、找真實人物作為品牌根基的方法論；D&AD New Blood 的雙料最高獎則提醒了什麼叫做「把問題框架翻轉成資產」——這些都是設計工作室做提案時可以直接借用的思考角度。"
+    }
+  },
+  {
     "date": "2026-07-02",
     "daily_summary": "Product 圈今天 Figma 密集發布 AI agent 和 canvas 無障礙的深度文章，多篇第三方文章也同步在說同一件事：設計師最難被替代的是跨商業、設計、程式碼的整合判斷力，不是執行速度。Brand 圈的大新聞是葡萄牙足球總會在世界盃年公布極簡機構識別，移除傳統十字架的設計瞬間引爆全球輿論，讓「國家象徵的現代化應該走多遠」這道題在最大的舞台上被檢視。Warsaw 海報節的現場報導和 Blanca Doba 的自主設計 brief，則從截然不同的角度示範了設計實踐的深度。",
     "jenny_wen": {
@@ -209,112 +315,6 @@
         }
       ],
       "buzz": "Brand New 宣布本週進入暑假減產模式，但 It's Nice That 補上了豐富的編輯內容——從書封設計哲學到流行文化與藝術的交融，都是這兩天 Brand 圈值得細讀的素材。識別設計有兩個有趣的突破點：grunge 質感進入正式學術機構的 logo，以及文化機構識別的當代化語言。Gary Grimes 關於流行藝術委託的分析則提示了一個新的品牌視覺路徑；New Designers 2026 今天在倫敦正式開幕，這是觀察下一代設計師視覺語彙的最佳窗口。"
-    }
-  },
-  {
-    "date": "2026-06-30",
-    "daily_summary": "Product 圈這兩天最值得存的是 Adrian Levy 被瘋傳的那篇——他說設計師現在「設計的不是介面，而是決策」，正在重新定義設計師怎麼跟 AI agent 協作；Figma 的 Check designs 工具也讓設計系統 debt 從「有空再說」變成螢幕上的客觀數字，對工作室說服客戶投資設計系統很有用。Brand 圈則是 Tiquismiquis Club 用字型系統駕馭 700 頁雜誌、Cord Studio 讓對稱構圖的印度廣告走紅全球，兩個案子都在示範：有系統的視覺判斷力，才是真正難以複製的競爭力。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "You don't design the interface anymore. You design the deciding.",
-          "url": "https://uxdesign.cc/you-dont-design-the-interface-anymore-you-design-the-deciding-835c01982ead",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Adrian Levy 在這篇 48 小時內被設計圈廣泛轉傳的文章中提出：設計師的角色已從「在畫面上做出選擇」轉移到「決定哪些工作可以被委託給 AI、委託的邊界在哪」。他用一個親身故事說明：走路時和 Claude 討論想法、到家前 brief 已經放進資料夾——此刻他是委任者（principal），不是使用者（user）。核心論點是設計師要「在空氣中、為看不見的對象」畫出決策的形狀，讓 AI agent 知道什麼可以決定、什麼不行。對設計顧問工作室的意義：當客戶也開始把任務委託給 AI，工作室的核心價值在於「定義哪些決策品質不能被稀釋」，而不只是做出漂亮的畫面。"
-        },
-        {
-          "title": "Figma just made your design system debt everyone's problem. Now use it.",
-          "url": "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Dolphia 針對 Figma 的 Check designs 工具（Config 2026 上亮相）提出一個精準觀察：這個工具不用 AI，只是「數」——把你的設計檔案跟設計系統比對，列出所有 hard-coded 數值、沒掛 token 的元素、脫離元件庫的元件。過去「我們設計系統有 drift」是一句好推的軟話，現在是螢幕上任何人都看得見的數字。更深的影響是：Config 2026 上每個 Figma 新功能都在讀取設計系統，系統的問題不再只是維護者的問題，而是全團隊、每次 review 都要面對的數字。對工作室的應用：可以用 Check designs 當設計系統交付品質的客觀驗收工具，也是向客戶說明「為什麼設計系統值得投資、有多少 debt 要還清」的有力語言。"
-        },
-        {
-          "title": "Rethinking Figma in an AI world",
-          "url": "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Darren Yeo 在 Config 2026 結束後一週，提出一個核心問題：在 AI 把越來越多設計與開發工作拉進程式編輯器和 agentic 環境之後，「畫布優先」的 Figma 工作流程還能撐多久？他梳理了 Figma 在 Config 上的所有回應——code layers、Figma Motion、shader 工具、agent 串接——認為這些都是試圖把「畫布」從設計工具升格為跨程式碼、動態、AI 的協作平台。真正的考驗不是跟其他設計工具競爭，而是在 code-first、agent-first 的開發環境裡繼續有存在的理由。對工作室而言，Figma 的戰略方向決定了設計師的工作流程邊界，這篇是追蹤這個問題最清楚的分析之一。"
-        },
-        {
-          "title": "Storytelling in User Research",
-          "url": "https://www.nngroup.com/videos/storytelling-in-user-research/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 研究主任 Maria Rosala 在這支 4 分鐘影片裡說明：故事在用戶研究裡不只是「說給客戶聽的包裝」，而是研究本身的一個功能——幫助研究者在龐大資料裡找到真正重要的洞察，也讓團隊成員能理解、記住、並願意採取行動。沒有敘事的數據只是數字，有了敘事才能驅動決策。這個觀點在 AI 大量輸出資料和報告的時代格外重要：當每個人都能快速生成大量 data，「把它說成一個讓人想行動的故事」的能力反而更稀缺。對工作室而言，這篇提醒研究交付物的核心不是資訊的完整，而是讓對方想做什麼。"
-        },
-        {
-          "title": "Kick the Bots Out of Your Survey Data",
-          "url": "https://www.nngroup.com/articles/survey-bots/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "AI 工具讓偽造問卷回應變得更容易、成本更低，NNGroup 這篇提醒設計研究者：如果問卷透過開放管道發送，bot 污染的問題比你以為的更嚴重。文章提供具體的識別方法：監測填寫時間過短、開放式回答格式統一、IP 位置異常集中等指標，在分析前先清洗資料。核心論點是：設計決策如果建立在 bot 污染的數據上，後續的一切改善都在錯誤的基礎上進行。對工作室特別實用：如果接了需要大規模問卷調查的研究案，這篇可以作為數據品質把關的 checklist，也是對客戶說明「為什麼研究的嚴謹度需要額外時間」的好論據。"
-        }
-      ],
-      "buzz": "這兩天 Product 圈有兩條並行的討論線：Adrian Levy 的文章引爆了「設計師現在到底在設計什麼」的辯論，答案越來越接近「決策的邊界」而不是「畫面的形狀」；Figma Check designs 讓設計系統 debt 有了客觀數字，加上 Config 2026 後的多篇反思文章，整個行業正在重新校準 Figma 和設計師在 AI 時代各自扮演的角色。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "How Tiquismiquis Club brought rhythm and scale to Odda's 700-page issue",
-          "url": "https://www.itsnicethat.com/articles/tiquismiquis-club-odda-graphic-design-project-300626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "西班牙馬拉加的設計工作室 Tiquismiquis Club 分享了為時尚雜誌 Odda 第 29 期（700 頁，主題「The Way We Are」）操刀平面設計的完整思考過程。他們從字型系統出發：用 Aether Mono 和 Tombstone Blues 作為章節開篇字體，Sita Sans 和 Sita Serif 作為內文，建立一個「有整體一致性，又讓各章節保有獨立視覺個性」的彈性框架。核心設計原則是：「排版決策永遠是對韻律和語調的回應，不只是形式選擇。」這代表每個版面的視覺決定都必須對應那個段落的內容節奏，而不是機械套用規則。對工作室的啟發：「系統先行、讓系統有彈性」這個方法在任何需要同時兼顧大量內容與品牌一致性的出版或品牌專案裡都可以直接套用。"
-        },
-        {
-          "title": "Cord studio on using symmetry and cinema to create one of 2026's most viral campaigns",
-          "url": "https://www.itsnicethat.com/features/cord-studio-creative-industry-advertising-spotlight-290626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "印度設計工作室 Cord 的共同創辦人分享了一個在 2026 年全球傳播最廣的廣告 campaign 的創作過程，主題是「印度 90 年代暑假」的集體記憶。核心技法是「對稱」——不是因為視覺潮流，而是因為對稱能讓畫面有秩序感、帶領觀眾進入懷舊的心理空間。他們找來攝影師兼創意總監 Pranoy Sarkar 合作，因為他對空間和構圖有獨到理解；作品在國際上引發了「這是 Wes Anderson 風格還是 Satyajit Ray 影響」的辯論，反而進一步擴大傳播。這個案子最值得工作室學習的地方是：高度精準的視覺語言（對稱、電影感、懷舊色調）本身就是傳播機制，不需要靠文案解釋——任何人打開螢幕就知道這是什麼感覺，而且忍不住想轉發。"
-        },
-        {
-          "title": "New Logos for Alpes 2030 Olympic and Paralympic Winter Games",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logos_for_alpes_2030_olympic_and_paralympic_winter_games.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "法國阿爾卑斯山區主辦的 2030 年冬季奧運及殘障奧運公布官方識別，設計以漸層效果結合山峰輪廓為核心視覺語言，呼應舉辦地的地理特徵，色彩也與法國國家符號相互呼應。設計需要同時服務兩個有不同性格的賽事識別（奧運 vs. 殘障奧運），又要能在所有媒介尺寸上有效運作，是一個標準的「如何讓一套系統承載多個訊息、又保持各自辨識度」的設計挑戰。對品牌設計師來說，重大賽事的識別設計向來是研究這類「系統一致性 vs. 個別識別度」平衡問題的最佳教材，Alpes 2030 的解法是以山峰 + 漸層做為統一語言，再用色彩和細節做出兩套識別的區分。"
-        },
-        {
-          "title": "New Logo and Packaging for Udi's by Haystack Studios",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_packaging_for_udis_by_haystack_studios.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "無麩質食品品牌 Udi's 委託 Haystack Studios 進行全面品牌更新，新識別採用圓角襯線字體，搭配插畫風格的視覺系統，從傳統麵包品牌的視覺慣例走向更親切、更當代的包裝語言。在健康食品市場裡，設計策略是用「視覺溫度的暖感」作為差異化，而不是跟著競品走冷淡健康主義的路線。這個選擇在商業上有清楚邏輯：無麩質產品的主要消費者裡有很多是因為腸胃問題、過敏等原因不得不吃，他們需要的品牌感覺是「好吃、平常、正常」而不是「特殊飲食、犧牲感」。對工作室而言，這個案子示範了如何用字型個性（圓角 serif 傳遞柔和感）做出清楚的情感定位選擇。"
-        },
-        {
-          "title": "New Logo and Packaging for Hydraid by LIT Create",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_packaging_for_hydraid_by_lit_create.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "飲品品牌 Hydraid 委託 LIT Create 進行品牌更新，新識別以斜體 wordmark 搭配連字（ligature）作為設計語言，配以藍色調，建立出既有動感又有精緻感的視覺識別。斜體字本身傳遞速度感，對「補水、運動」類產品是直觀的形式選擇；連字的精緻處理則讓 wordmark 在技術層面與同類市場的普通字體拉開差異。Brand New 將這篇歸類為「Noted」——代表整體執行獲得正面評價，是一個在視覺同質化嚴重的飲品類別裡、靠精準的字型選擇和處理做出差異化的乾淨案例。"
-        }
-      ],
-      "buzz": "這兩天 Brand 圈的主角是「視覺語言的精準度」——Tiquismiquis Club 用字型系統駕馭 700 頁雜誌，Cord Studio 用對稱構圖讓廣告在全球傳播，兩個案子都在說明同一件事：有系統的視覺判斷力比一個漂亮的想法更難複製，也更有說服力。Brand New 同步發出冬奧識別和消費品包裝（Udi's、Hydraid），顯示不同產業都在認真用視覺語言建立差異化。"
     }
   }
 ]
