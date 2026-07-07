@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-07-07",
+    "daily_summary": "今天 Product 和 Brand 圈剛好在講同一件事的兩面:Product 這邊在說 AI 沒有想像中萬能,設計師的價值在於驗證流程的紀律和判斷力——95% 企業 AI 試點案沒有效益的數據值得記住;Brand 這邊則示範了小工作室怎麼用一個夠銳利的觀點打敗大預算,Wottz 藏進字體裡的閃電符號、Freitag 靠價值觀撐住品牌調性,都是接案工作室可以直接借用的思路。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Figma just made your design system debt everyone's problem",
+          "url": "https://newsletter.uxdesign.cc/p/figma-just-made-your-design-system",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Fabricio Teixeira 指出 Figma 最新功能徹底改變了設計系統債務的性質:過去品質不佳的系統只是設計師自己知道、自己承擔的秘密,現在因為非設計師也能直接生成元件、做交接、產出素材,債務會直接波及到工程師(生成的元件是錯的)、PM(交接斷掉導致時程 delay)、行銷(banner 跑版)。文中一句話很扎心:「設計系統債務以前是一個人默默在沒人打開的檔案裡償還,現在變成整個團隊一起還。」對工作室來說,這其實是個機會:當設計系統治理開始影響到有預算決定權的人,你就有更充分的理由說服客戶投資在系統性的設計工作上,而不只是交付一次性的畫面。過去設計師主張系統需要被重視、被資助的論點,現在終於因為非設計師也親身感受到後果而站得住腳。"
+        },
+        {
+          "title": "What the Lean Startup still teaches us about generative AI",
+          "url": "https://uxdesign.cc/what-the-lean-startup-still-teaches-us-about-generative-ai-2d1505fe1db1",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Patrick Neeman 引用 MIT NANDA 2025 年的研究:95% 的企業生成式 AI 試點案沒有產生任何可衡量的效益,而原因不是模型不夠強,是團隊重複了 2011 年以前的老錯誤——沒有先驗證真正的問題就開始蓋方案、追求出貨大功能而不是快速學習、把 AI 產出當成完成品而不是需要人工判斷的草稿。文中提到一個反直覺的數據:跟供應商合作的專案,實際落地的機率是內部自建專案的三倍;中型公司只做少數聚焦的試點,反而比大企業同時跑一堆試點案表現更好——「野心用試點數量和人力規模來衡量,反而是卡關的原因」。他提出四個具體動作:先去現場觀察真實工作情境再動手、跑小規模每週實驗優化學習迴圈、狠心縮小範圍拒絕平台思維、砍掉不能幫助決策或工作的文件。對接 AI 專案的工作室來說,這是一份好用的提案語言——先驗證再蓋、先聚焦再擴張,是說服客戶不要一次做大而全 AI 功能的論據。"
+        },
+        {
+          "title": "Wait, who made this?",
+          "url": "https://uxdesign.cc/wait-who-made-this-705a30d74220",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Allie Paschal 談的是當 AI 生成的作品和人做的作品開始難以分辨,觀眾反而更想知道「這到底是誰做的」——創作過程的透明度正在變成一種建立信任的機制、甚至是差異化的競爭優勢。她舉了幾個例子:「Made by humans」這類標語的作用其實跟「美國製造」的產品標籤一樣;幕後花絮(草圖、修改過程)變成一種「這是真人做的」的證據;Apple 的「手作魔法」行銷主打人的工藝;IBM Carbon 設計系統則直接在介面上標示哪些地方是 AI 在影響使用者體驗。她主張一個光譜式的判斷方式:表達性強的作品(電影、品牌、藝術)作者身份會直接影響作品的意義,這裡 AI 參與度的揭露很重要;純功能性的介面,使用者只在意好不好用;中間地帶像是 UI/UX 設計,則需要策略性揭露——標示哪些功能是 AI 輔助的、解釋推薦邏輯、在合適的地方提供人工替代選項。對工作室來說,重點不是把每個環節都攤開來講,而是判斷「客戶和使用者到底什麼時候會在意這件事是不是 AI 做的」,再決定怎麼揭露。"
+        },
+        {
+          "title": "The success of a remote studio comes down to one thing: effort",
+          "url": "https://www.itsnicethat.com/articles/comarticlescreative-career-conundrums-if-you-could-jobs-advice-060726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "It's Nice That 的職涯建議專欄這次回答一個剛畢業設計師的疑慮:加入一間完全遠端的工作室,會不會拖累早期職涯發展?Lucky Dip 共同創辦人 Katie Cadwell 的答案是:遠端本身不是問題,問題是雇主和員工有沒有雙方都投入足夠的心力。她建議工作室應該主動安排產業活動和協作場合讓團隊有連結感,同時也強調員工不能只等公司安排——要自己主動經營能見度和人脈,像是把作品發到網路上、主動爭取上台分享機會、參加設計活動、在 studio 文化裡積極提供即時回饋。具體做法包括:多用像 Slack 這種輕量管道隨時分享進度,而不是只等正式 review;要求「一起動手做」的協作場合而不是制式會議;讓資淺同仁也能參與更廣泛的商業活動,自然地學到東西。對隅室這種本來就是遠距/接案型態的小型工作室來說,這篇提醒的是:團隊感和成長機會不是靠辦公室位置決定的,是靠雙方主動投入的具體動作決定的。"
+        }
+      ],
+      "buzz": "今天 Product 圈的文章不約而同繞著同一個主題打轉:AI 沒有想像中萬能,設計師真正該守住的價值,是紀律性的驗證流程(先搞懂問題再動手)、清楚的作者歸屬(什麼時候該讓人知道這是 AI 做的)、以及系統性思考帶來的組織影響力(設計系統債務現在人人有感)。這些文章放在一起,其實是同一套論述的不同切面:AI 越普及,設計師的判斷力和紀律反而越值錢。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "This clever rebrand finds its entire personality in one tiny flourish",
+          "url": "https://www.creativeboom.com/news/this-rebrand-finds-its-entire-personality-in-one-tiny-typographic-flourish/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "英國客製化電動車充電線品牌 Wottz 找了小型工作室 Lark Design Studio 做識別設計,整個案子的巧思濃縮在一個地方:把閃電符號藏進 wordmark 裡雙 t 的橫槓中——夠隱晦、要仔細看才會發現,但一眼就能傳達出這個品牌對細節的執著。工作室沒有做一套繁複龐大的視覺系統,而是把品牌的核心訊息直接做進字體本身。這套識別延伸到包裝、車隊塗裝、接頭標籤這些不太吸引人的應用場景都撐得住,證明了這個概念的耐用度。配色維持克制:核心藍搭配霓虹黃,字體選用 Centra No.1 營造英式當代感,攝影走自然明亮風格,刻意避開電動車產業常見的過度工程感。這個案子對小型工作室或接案設計師特別有參考價值:面對創辦人主導、預算有限的客戶,一個夠犀利、執行到位的單一構想,勝過龐大卻裝飾性的視覺系統。"
+        },
+        {
+          "title": "Art school students and Bob Design brand refresh a 750-year-old London market with collaged pictograms",
+          "url": "https://www.itsnicethat.com/articles/bob-design-croydon-school-of-art-surrey-market-graphic-design-architecture-project-060726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "女性創辦的圖像設計工作室 Bob Design,與 Croydon School of Art 的學生合作,替倫敦最古老的市集之一、有 750 年歷史的 Surrey Street Market 做新的視覺識別。有別於由上而下丟出設計方案的做法,Bob 用工作坊和訪談的方式,收集學生、在地利害關係人、以及市集本身多元歷史(從中世紀建築到 dubstep 音樂起源地)的觀點。新識別的字體靈感來自市集歷史招牌的手繪字,拼貼手法做出的圖標系統帶有玩心,連指標系統也帶著「草根創意感」而不是一板一眼的官方感。Bob 的成員 Camille Le Flem 提到,他們邀請整個年級的學生「一起玩、一起測試這套視覺識別,把它當成一組任何人都能自己組裝的工具包」。這個案子延伸到建築層面的介入,包含旗幟、街道家具、新的市集入口,是一次結合社群參與、跨越平面到空間的完整品牌操作,對接社區型或文化型客戶的工作室來說是很好的協作方法參考。"
+        },
+        {
+          "title": "Creative director Gemma Phillips on why the best ideas start with conversations nobody wants to have",
+          "url": "https://www.creativeboom.com/insight/creative-director-gemma-phillips/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "創意總監 Gemma Phillips 在專訪中主張,好的創意要從「沒人想聊的對話」開始——品牌天生有把話講得漂亮一點的本能,但這其實是反效果的,因為「我們早就活在真相裡了,這才是最諷刺的地方」。她認為品牌要用平視、不做作的方式跟受眾對話,承認現實而不是包裝現實。她獲獎的作品(像是探討職涯被輾壓感的 The Career Shredder、談育嬰假的看板廣告)之所以成功,是因為它們把真實存在的挫折感直接、可見地呈現出來。她給工作室的具體建議是:找真正有信念、而不是只在乎表面好看的客戶合作;用幽默和直接展現你真的懂受眾,這是尊重不是粗魯;作品要立足在真實的生活經驗上,而不只是定位策略;面對預算有限、猶豫不決的客戶,更要主動引導他們做出勇敢的選擇,因為他們反而最沒有本錢打安全牌。核心結論很適合直接用在提案裡:真實的不適感,比精緻的平庸更有效。"
+        },
+        {
+          "title": "'Don't try to understand it': Meet Cooot, the studio making branding feel wonderfully uncertain",
+          "url": "https://www.creativeboom.com/inspiration/dont-try-to-understand-it-meet-cooot-the-studio-making-branding-feel-wonderfully-uncertain/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "上海工作室 Cooot 由創辦人 Bai Mi 主導,做的品牌識別刻意追求一種「不確定感」——他說「我希望大家看到我的作品時,不要急著先『看懂』它」,而是先感受到一種說不清楚哪裡不一樣的陌生感。這套方法論被他們稱為「在慣性裡打破慣性」:拿約定俗成的視覺語言,做剛剛好足夠的偏移去製造驚喜,但又不會讓人完全認不出來——營造出一種先短暫錯位、隨後又收回熟悉感的體驗。他們的作品(調酒品牌 PocketTAILS、咖啡品牌 BLO*R)示範了限制條件(酒杯形狀、天然色階漸層)如何變成創意的起點,做出來的東西同時讓人意外又覺得理所當然。這篇對工作室的啟發是:不必追求激進的顛覆或死守類別慣例,「讓熟悉的東西產生片刻的陌生感」本身就是一種值得經營的差異化路徑,是介於安全和叛逆之間的第三條路。"
+        },
+        {
+          "title": "How Freitag keeps its cool: A look inside the brand's less-than-conventional approach to creative campaigns",
+          "url": "https://www.itsnicethat.com/features/freitag-spotlight-060726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "瑞士包袋品牌 Freitag(用回收卡車帆布做包)的創意總監 Thomas Wakeford 接受訪談,談他們如何靠一貫的價值觀而不是追逐潮流,維持品牌長年的文化存在感。文中提到幾個代表性案例:F37 Renegade(讓創辦人穿睡袋入鏡)、Laura Bag(找了好幾個真的叫 Laura 的人來拍)、Easy Riders(找不同背景的通勤族入鏡)——品牌刻意避開專業模特兒,改用員工、顧客、朋友來呈現「真實的人」。Wakeford 的一句話很值得記下來:「永恆感只有在好設計解決真實問題、把產品濃縮到核心的時候才會出現」。對工作室來說,這篇最大的啟發是:品牌的長期生命力不是來自追逐趨勢,而是清楚自己的品牌故事根基是什麼,然後讓創意執行自然地從那個根基長出來——拍攝現場保有自發性、堅持誠實的呈現方式、把行銷紮根在產品真正的功能上,而不是靠行銷話術製造出來的形象。"
+        }
+      ],
+      "buzz": "今天幾個案例剛好從不同角度講同一件事:差異化不是靠更多素材或更大預算做出來的,而是靠一個夠清楚的觀點,然後有紀律地執行到底。Wottz 把整個品牌濃縮進一個藏在字體裡的閃電符號、Cooot 用「剛好足夠的偏移」製造陌生感、Freitag 幾十年來只靠一套價值觀撐住品牌調性——這些案例對小型工作室或接案設計師特別受用:你不需要跟大型代理商拚素材量,你需要的是找到那一個夠銳利的想法,然後有勇氣執行到底(就像 Gemma Phillips 說的,不敢做的客戶反而最該被推去做勇敢的選擇)。"
+    }
+  },
+  {
     "date": "2026-07-04",
     "daily_summary": "NNGroup 今天連發兩篇直接針對工作室最核心痛點的文章：AI 企業透明度設計、以及如何用商業語言代替 UX 語言說服客戶，值得存起來重複使用。Brand 圈進入美國 7/4 長假出版淡季，但 Stack Overflow 委託 Koto 做的 rebrand 值得細讀——他們的策略核心完全可以搬到你的客戶提案裡：在 AI 時代，品牌護城河是社群驗證的知識可信度，不是速度。D&AD New Blood 雙料獲獎也提醒一件事：最難被 AI 取代的設計仍然是那種能重新框架問題、讓本來被忽視的東西變成資產的思維。",
     "jenny_wen": {
@@ -209,112 +307,6 @@
         }
       ],
       "buzz": "葡萄牙足球總會的識別爭議讓「國家級品牌現代化應該走多遠」成為今天 Brand 圈最熱門的討論，時機點卡在世界盃讓全球都在看。Warsaw 海報節報導則提供對位視角：Gen-Z 設計師如何在繼承傳統的同時，建立完全屬於自己的視覺語言，同時 AI 時代的「作者身份」問題也在同一個場域被正式提問。Brand New 暑假減產仍持續，但今天 Finom 和 Veritas 的案例示範了金融和房地產這兩個最保守的行業，如何靠顏色和字型選擇做出有個性的差異化。"
-    }
-  },
-  {
-    "date": "2026-07-01",
-    "daily_summary": "AI 正在把設計師推向一個選擇題：主動掌握 prompting 與新工具的定義權，或是把話語權讓給工程師。Product 圈今天的焦點在角色焦慮與自我重新定位，Figma 的數據顯示工程師做設計的比例已翻倍，但多篇文章都在說同一件事：設計師那套把模糊轉化為清晰的判斷力，正是現在最難被取代的核心能力。Brand 圈有 Matt Dorfman 三十年書封設計哲學值得細讀，加上 New Designers 2026 今天在倫敦開幕，下一代設計師的語彙就在那裡。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The Prompt Is the New Brief",
-          "url": "https://uxmag.com/articles/the-prompt-is-the-new-brief",
-          "source": "UX Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章的核心論點是：寫 prompt 本質上就是在寫設計 brief，設計師幾十年練就的能力——把模糊需求轉化成清晰方向——在 AI 時代有了新名字叫「directed generation」。作者強調這不是什麼新的技術技能，而是設計師一直以來最核心的判斷力：幫思路設定邊界、讓創作沿著這條邊界往前走。真正危險的情況是設計師放棄這個主導權讓工程師來寫 prompt，因為那樣 AI 產品的決策邏輯就會被工程思維而非設計思維定義。對設計工作室來說，接案的過程中對客戶需求的細膩理解，正好是你在 AI 時代最難被取代的優勢，而這篇直接給了你說服自己和說服客戶的語言。"
-        },
-        {
-          "title": "Design's alive and kicking. It just got some flashy new names.",
-          "url": "https://uxdesign.cc/designs-alive-and-kicking-it-just-got-some-flashy-new-names-779b4503c869",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Nicole Alexandra Michaelis 以幽默筆觸拆解了 AI 時代新冒出的設計職銜——「Proactive Interaction Designer」、「GenUI System Architect」、「Embedded AI Design Consultant」——看起來陌生，骨子裡仍在做設計師一直做的事。她的論點是：設計沒有消失，只是包裝換了；集體焦慮讓我們忘記自己一直在進化，每個世代都有讓設計師恐慌的新工具，但設計的核心判斷力從未消失過。AI 時代正在把設計工作從像素生產移向認知心理學、系統思考和商業協調，這些恰好是有經驗的設計師最擅長的地方。對工作室來說，這是一個清醒的提醒：你現有的設計能力比你以為的更能因應 AI 時代的需求，焦慮可以有，但不必恐慌。"
-        },
-        {
-          "title": "Why Accessibility Is An Operational Capability, Not A Feature",
-          "url": "https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章把無障礙設計從「功能清單裡的一項勾選」重新定位成「工程與設計運作的基礎建設」，就像隱私保護、資安或系統穩定性一樣——不是做完一次就好，而是嵌入整個開發流程的持續性要求。作者的核心論點是：當 AI 工具讓 UI 產出速度加快，確保品質（含無障礙）的責任反而變得更重要，因為速度快不代表品質有保障。這個框架對設計顧問工作室特別有用：把無障礙設計定位為「設計品質的基礎能力，而不是追加選項」，這是說服客戶投資的好邏輯，而不是每次都要說「法規要求所以要做」。放進提案或設計系統交付物的論述框架裡，說服力大幅提升。"
-        },
-        {
-          "title": "Figma's 2026 AI Report: Can AI Help Us Collaborate Better?",
-          "url": "https://www.figma.com/blog/2026-ai-report/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 發布的 2026 年 AI 設計調查報告顯示：91% 的設計師每週使用 AI，比起 2025 年的 54% 大幅成長。另一個關鍵數字是「工程師做設計工作」的比例從 21% 跳升到 41%，代表角色邊界正在快速模糊。76% 的受訪者花了一半以上的工作時間在 canvas 上，顯示設計工具仍然是核心工作場域。最重要的趨勢轉變是：AI 的價值已從幫個人提升效率，移向促進整個團隊協作，這意味著 AI 在設計工作流中的定位正從「個人助理」升格為「協作基礎建設」——對工作室來說，這個轉變改變的是整個交付流程，而不只是個人工具選擇。"
-        },
-        {
-          "title": "AI-created document fatigue: how I designed my way out of it",
-          "url": "https://uxdesign.cc/ai-created-document-fatigue-how-i-designed-my-way-out-of-it-1fcd4a565669",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Heenesh Patel 指出一個反直覺的現象：AI 承諾幫我們減少工作量，結果卻製造了更多需要消化的文件——PRD、設計摘要、會議筆記大量湧現，設計師反而陷入資訊過載的困境。他用 NotebookLM 來提煉龐大的文件堆，並親手設計了一個語音優先的 app 讓自己的工作流從「閱讀文件」中解放出來。這篇最重要的洞察是：AI 帶來的問題，往往需要用設計思維去解決，而不是再疊加更多 AI 工具。如果你也感覺在 AI 時代反而更忙、更難集中，這篇能為這個感受提供一個清楚的命名，以及一個設計師視角的解法。"
-        }
-      ],
-      "buzz": "這兩天 Product 圈的討論集中在「AI 時代設計師的角色定位」——焦慮還在，但論述開始清晰化。Figma 的數據告訴我們工程師進入設計領域的速度比預期快，但多篇文章都指向同一個結論：設計師有的那套把模糊轉化為清晰的判斷力，正是現在最難被取代的東西。同時資訊過載和文件疲勞成為新痛點，用設計思維去解決 AI 帶來的問題本身，正在成為新的設計實踐方向。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "\"Do anything except what's right in front of you\": Matt Dorfman on designing book covers",
-          "url": "https://www.itsnicethat.com/articles/matt-dorfman-graphic-design-project-2906256",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Matt Dorfman 擔任《紐約時報書評》美術總監超過十年，在這篇訪談裡他分享了一條創作金律：「Do anything except what's right in front of you」——刻意迴避最直覺的視覺解答，強迫自己去找更意想不到的方向。他的工作流必定先讀完整本書稿再開始設計，因為他相信如果對內容沒有真正的興趣，封面就不會有說服力。靈感生成階段他刻意大量產出廢案，用拼貼把不相關的意象強迫配對，直到出現驚喜。這種「拒絕走最直接那條路」的創作訓練，對工作室來說是一個非常具體可操作的創作哲學，不論是品牌識別、包裝設計還是廣告提案，都適用。"
-        },
-        {
-          "title": "New Designers 2026",
-          "url": "https://www.dezeen.com/eventsguide/2026/07/new-designers-2026/",
-          "source": "Dezeen Events Guide",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "英國規模最大的畢業設計展 New Designers 今天正式開幕，今年全面改為四天一次性的新格式，把過去分散兩週的展期整合成 7 月 1–4 日在倫敦 Islington Business Design Centre 的集中展覽。超過 200 所大學的應屆畢業生同台展出，涵蓋平面設計、插圖、動態影像、工業設計、時裝與陶藝等多個領域，並新增 ND Educates 環節讓在校生和業界設計師面對面交流職涯建議。ND Awards 同步頒出 16 個獎項，由超過 30 個業界合作夥伴支持。今天到 7 月 4 日，是工作室觀察下一代設計師語彙、甚至找到潛在合作人才的好時機。"
-        },
-        {
-          "title": "New Logo and Identity for Gilcrease Museum by Ologie",
-          "url": "https://underconsideration.com/brandnew/archives/new_logo_and_identity_for_gilcrease_museum_by_ologie.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "美國奧克拉荷馬州的 Gilcrease Museum 委託品牌顧問公司 Ologie 完成視覺識別重塑，新設計以無襯線字體搭配清晰的綠色調為主視覺，讓這個收藏美洲原住民藝術與西部歷史的博物館，在視覺語言上走向更當代的文化機構風格。設計核心挑戰是如何在視覺上同時保有對原住民文化的尊重感，又能讓一般大眾感覺親近而不是遙遠嚴肅。Brand New 社群對這次更新普遍持正面態度，認為整體識別的清晰度和可識別性大幅提升。這是一個「文化機構在維持使命感的同時如何讓視覺語言現代化」的好案例，做文化客戶提案時可以參考。"
-        },
-        {
-          "title": "New Logo for Association of Applied Paleontological Sciences by SAND",
-          "url": "https://underconsideration.com/brandnew/archives/new_logo_for_association_of_applied_paleontological_sciences_by_sand.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "應用古生物學科學協會（AAPS）委託設計工作室 SAND 進行品牌重塑，新設計把 grunge 質感紋理和現代無襯線字體融合，用有歲月感的視覺語言呼應化石的材質和挖掘現場的氣氛。恐龍意象搭配風化磨損的設計細節，在嚴肅的學術機構裡創造出一種「標本質感」，讓人直觀聯想到考古現場而不是學術論文封面。Brand New 把這次改版前後的對比並排展示，改版前是典型傳統學術感識別，改版後個性截然不同，對比強烈。這個案子的設計策略值得參考：從專業內容本身的材質感出發找視覺語言，而不是依賴慣用的「科學藍色 + 幾何字體」公式。"
-        },
-        {
-          "title": "Paint me like one of your pop girls: Gary Grimes on the modern love affair between fine art and pop music",
-          "url": "https://www.itsnicethat.com/articles/main-pop-girls-fine-art-gary-grimes-culture-column-300626",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "藝評人 Gary Grimes 在 It's Nice That 的文化專欄分析了一個近年快速增長的現象：流行女歌手大量委託當代畫家為她們創作肖像，並把這些作品當成單曲封面或核心視覺形象，而不是傳統的商業攝影。這不只是審美選擇，更是一種文化資本策略——把自己和高雅藝術圈連結，鞏固在主流市場以外的文化地位，Lady Gaga 是最早積極打通這條路的代表。對品牌設計師來說，這個趨勢指出了一條重要方向：「委託原創藝術作品」而非「委託商業插圖」，正在成為高端品牌建立視覺識別的新路徑。這個觀察也提示設計顧問，當客戶想要有深度的品牌視覺，值得把「委託藝術家合作創作」納入提案選項。"
-        }
-      ],
-      "buzz": "Brand New 宣布本週進入暑假減產模式，但 It's Nice That 補上了豐富的編輯內容——從書封設計哲學到流行文化與藝術的交融，都是這兩天 Brand 圈值得細讀的素材。識別設計有兩個有趣的突破點：grunge 質感進入正式學術機構的 logo，以及文化機構識別的當代化語言。Gary Grimes 關於流行藝術委託的分析則提示了一個新的品牌視覺路徑；New Designers 2026 今天在倫敦正式開幕，這是觀察下一代設計師視覺語彙的最佳窗口。"
     }
   }
 ]
