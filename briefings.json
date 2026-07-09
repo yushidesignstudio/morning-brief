@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-09",
+    "daily_summary": "今天 Product 和 Brand 圈剛好都在回答同一個問題的兩個版本:「AI 讓執行變便宜之後,我還能賣什麼?」Product 這邊一連五篇從不同角度戳破 AI 炒作(義大利麵桌測試、「what 的危機」),核心結論是紀律和判斷力比產出速度值錢;Brand 這邊則更務實,直接示範怎麼把「賣圖」換成「賣思考」的商業模式——A-Corps 保護 IP、Koto 把客製字體經驗開發成新事業線 CCType,都是接案工作室可以直接參考的具體做法。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The revolution was the easy part",
+          "url": "https://uxdesign.cc/the-revolution-was-the-easy-part-c753340e3e22",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Dan Maccarone 把技術變革分成兩個階段:「革命」是那個又炫又吵的發表會,「演化」才是發表會隔天早上開始、一路走到底的苦工。他認為 AI 的「革命期」已經結束,但 95% 的公司還在發表會的興奮裡打轉,沒去做後面那段真正枯燥的整合、評估、修正工作。他舉了幾個歷史類比:美國獨立宣言(1776)是精彩的舞台劇,但真正建國花了幾百年不斷修正;dot-com 泡沫會破,是因為大家把派對當成商業模式;行動網路花了十年「安靜地建造」才真的改變人怎麼用手機——不是把桌面軟體縮小,而是從限制條件重新蓋起。他也點名 Google 2023 年的 Gemini demo 其實是拼接的靜態畫面加打字提示,看起來像即時互動但根本不是;多數 AI 試點死在「學習落差」裡——demo 的炫目和資料清理、流程整合、建立評估系統這些苦工之間的落差。核心結論:真正的競爭優勢不是產出更快,是判斷更快;能撐過這波 AI 洗牌的公司,是那些願意投資評估系統、培養品味和判斷力、真正「做決定」的公司,而不是一直追下一個炫炮 demo 的公司。"
+        },
+        {
+          "title": "The crisis of the what",
+          "url": "https://uxdesign.cc/the-crisis-of-the-what-d29135a8be59",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Francisco Barrera Aros 認為 AI 已經不只是在做執行層的「怎麼做」,它現在也開始影響策略層的「做什麼」——當執行被 AI 商品化之後,真正稀缺的是靠經驗和後果磨出來的人類判斷力。他引用研究說明 AI 有個「參差不齊的前緣」:同一個模型可能搞定複雜任務,卻在簡單任務上翻車,這種不穩定性剛好就出現在「判斷」開始發生作用的地方;一項臨床推理研究也發現,AI 模型系統性地掉入「愛因斯坦效應」——把熟悉的解法套在已經變化的問題上,人類醫生在非典型情境下的表現反而更好。他舉了一個很貼切的例子:AI 可能會核准效率最高的一鍵退款,但有經驗的設計師知道,有時候刻意加一點阻力,比速度更能讓使用者感覺「這個失誤有被正視」。他認為設計師接下來真正該練的能力,不是介面設計本身(這會被自動化),而是情境判斷力:知道什麼時候不該做、讀懂組織裡沒被寫下來的潛規則、認出規律之外的例外——這種靠真實後果磨出來的「行動中的知覺」,才是 AI 越強也奪不走的東西。"
+        },
+        {
+          "title": "The 15-minute AI stress test every designer can run",
+          "url": "https://uxdesign.cc/the-15-minute-ai-stress-test-every-designer-can-run-ce8de95ff5c9",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Peter Zakrzewski 設計了一個 15 分鐘就能跑完的診斷測試,叫做「義大利麵桌協議」:請 AI 畫一張「桌腳是義大利麵、桌面是水泥板、上面放一個裝滿水的魚缸」的圖,然後問「如果桌腳塌陷會發生什麼事」——這是一個物理上不可能成立的情境,專門拿來戳破 AI 模型的架構性弱點。他實測 GPT-4o、Gemini 1.5 Pro、Claude 3.5 Sonnet,總分只有 4/30 分;有意思的是 Claude 用文字承認了這個情境不可能發生,但畫圖時還是照樣畫出來——證明它「在真正關鍵的生成層面,結構性地做不到把自己說的話應用上去」。這個協議測的是三個能力:能不能維持穩定的四維世界模型(連續性)、生成時有沒有套用物理限制(重力與物理)、能不能追蹤因果順序和任務邊界(可逆性)。核心洞察是:現在的 AI 很擅長「模式補完」——從訓練資料裡撈出常見組合再重組,搜尋框改版之所以看起來很厲害,是因為訓練資料裡有大量部落格改版案例;但義大利麵桌腳這種訓練資料裡不存在的情境,逼著 AI 要做真正的物理推理,這正是它們會失敗的地方。對設計師來說,與其被流暢的產出唬住,不如自己動手當一台「診斷儀器」,持續戳 AI 的能力邊界,才能真正搞清楚它能做到什麼、做不到什麼。"
+        },
+        {
+          "title": "Losing the spark in their eyes",
+          "url": "https://uxdesign.cc/losing-the-spark-in-their-eyes-0ef198ab1499",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Frota 談的是一個容易被忽略的代價:AI 工具給了速度和效率,卻悄悄侵蝕掉「意義感」這個支撐專業投入的核心東西。他用一個寓言破題:兩兄弟爬上同一座山頂,一個辛苦爬上去,一個搭電梯上去,爬山的那個說「答案還留在山上的某個地方」——旅程本身創造的意義,不是終點能給的。他也提到心理學家發現,演員背台詞背得好,靠的是「在劇本裡找意義」、代入角色視角,而不是單純重複記憶,這種深度理解才能讓台詞在演出時自然浮現。文中也點出一個警訊:科技業有人開始轉行去寫詩、質疑自己的職涯穩定性、出現和 AI 有關的職業倦怠——這些都是「跟有意義的工作斷開連結」造成的真實傷害。他給的建議是:用 AI 要有判準,不能無腦自動化,要問自己「這個決定是幫我更理解問題,還是讓我跳過了原本能讓我變得更厲害的學習過程?」——過程本身,而不只是產出,才是累積專業能力的地方。"
+        },
+        {
+          "title": "Designing in regulated industries",
+          "url": "https://uxdesign.cc/when-compliance-is-the-brief-a-creative-practitioners-survival-guide-to-designing-in-regulated-f0759cd3732c",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Andy Bhattacharyya 把「法規遵循」重新定義成一種設計限制條件,就像素材或技術限制一樣——而不是等到設計後期才冒出來的關卡,他主張法規要求應該在探索階段就被當成「換了件衣服的使用者需求」提早整合進來。他點出五個接金融科技、保險這類受監管產業案子時常見的挑戰:同時要應付好幾個有否決權的利害關係人(使用者、商業需求、監管單位期待);把法務那種只顧撇清責任的語言,轉譯成使用者真的看得懂、願意讀的告知內容;錯誤訊息要同時兼顧情感設計和法律效力;無障礙不是加分項,WCAG 2.1 AA 是最低門檻;設計決策的說明文件要禁得起監管單位事後審查。他提供了一個「UX 決策矩陣」工具,要求設計同時通過四關測試:使用者看得懂、符合法規、商業上站得住腳、有禁得起檢視的文件紀錄,「四欄都過關才能往下走」。這套系統性框架把合規審查從「後期突襲式打回票」變成整合在流程裡的評估標準,對接金融、保險、醫療這類客戶的工作室來說,是一份很實用的作業框架。"
+        }
+      ],
+      "buzz": "今天 UX Collective 一口氣連發好幾篇,調性出奇一致:AI 的「發表會」都很炫,但真正決定輸贏的是發表會隔天開始的苦工——資料清理、評估系統、對錯誤情境的判斷力。義大利麵桌測試提供了一個具體工具去戳破 AI 的物理推理弱點;「what 的危機」和「revolution」兩篇都在講同一件事的不同切面:執行被商品化之後,情境判斷力才是真正值錢的東西。Frota 那篇則從另一個角度提醒:如果把思考整個外包給 AI,設計師自己也會失去做這行的意義感。合起來看,今天整個 Product 圈幾乎是同一個聲音在說:別被 demo 唬住,紀律、判斷、和願意花時間搞懂問題,才是接下來的核心資產。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "\"Artists don't need pity, they need power.\" Can Artist Corporations revolutionise creative business?",
+          "url": "https://www.itsnicethat.com/articles/pov-a-corps-artist-corporations-creative-industry-070726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇 POV 專題檢視「藝術家公司」(Artist Corporations, A-Corps)這個新的法律架構——2026 年 6 月剛在美國科羅拉多州立法通過,目的是保護創作者的智慧財產權,並讓藝術使命優先於獲利。文章的立場很平衡:A-Corps 確實比傳統的 LLC 多了一些結構性優勢,像是不可逆的 IP 所有權、治理權和獲利權分開設計,讓創作者可以「在明訂的藝術使命下工作」同時保有 IP 保護;但作者也直言,這個架構主要幫得到的是已經站穩腳步的藝術家,對佔了 87%、還沒辦法靠創作維生的大多數創作者來說幫助有限。對獨立創作者或小型工作室來說,這篇的重點不是「馬上多賺錢」,而是 IP 保護和對投資方的談判籌碼——這終究還是一個資本主義框架下的工具,實際效益還是要看整個創意產業的基礎建設有沒有跟上。"
+        },
+        {
+          "title": "If AI production is making production cheaper, how can you sell design thinking instead?",
+          "url": "https://www.creativeboom.com/tips/if-ai-production-is-making-production-cheaper-how-can-you-sell-design-thinking-instead/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇直接點出接案設計師和工作室現在最迫切的商業問題:當 AI 讓「產出」變得便宜,你要怎麼說服客戶掏錢買的是「思考」而不是圖?文章給的第一個建議是重新定義自己賣的東西——不要再把自己包裝成「做圖的人」,要讓客戶知道「他們買的不是一個 logo,而是專業判斷、策略思維、和一套被驗證過的解決問題方法」。具體做法包括:把作品集重寫成「揭露決策過程」而不是只秀最後的漂亮畫面,呈現問題怎麼被定義、決策是怎麼做的、對商業有什麼實際影響;把每個設計決定的理由都寫下來,一位顧問說「這樣做半年,你就會有一個任何模型都沒有的東西——你自己品味的紀錄」;同時也要投資自己的成長,找 mentor、接觸手作工藝和創意社群、多花時間離開螢幕,培養文化素養和視覺判斷力。實際的起手式:先從你信任的協作對象、規模較小的個人專案開始練習「主導思考」的敘事方式,同時把作品集的語言,從強調美感成就改成強調商業成果。"
+        },
+        {
+          "title": "Koto launches CCType foundry to create typefaces that meet the demands of modern brands",
+          "url": "https://www.itsnicethat.com/articles/koto-cctype-typography-project-080726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "全球創意工作室 Koto 開了一個新的字體鑄造廠 CCType,第一款作品 CC Timeline 是一款融合英國金屬活字、瑞士現代主義、數位排印風格的展示用襯線體。Koto 做這件事的原因,是他們幫客戶做了多年的客製字體之後發現一個市場空缺:很多現成字體一旦被拉伸到原本設計情境之外的用途,系統就整個垮掉——這個經驗讓他們搞清楚現代品牌真正需要字體具備什麼條件。CCType 最值得注意的是商業模式:改成一次性買斷,取代傳統又貴又綁手綁腳的授權制度,目標是讓接案設計師、獨立工作室、代理商和品牌都負擔得起。Koto 的 CCO Jowey Roden 說得很直接:「Koto 是從『執行的現實』出發看字體排印的……我們親眼看過它在全球品牌系統裡、在網站上、在動態裡是怎麼運作的」——這讓 CCType 定位在實驗性獨立字體設計師和標準化產業巨頭之間。這對想擴展被動收入或副產品線的工作室來說,是一個具體的商業模式參考案例。"
+        },
+        {
+          "title": "More of a performance than a fixed system, Ronnie Scott's new identity does a typographic dance",
+          "url": "https://www.itsnicethat.com/articles/dan-cottrell-studio-ronnie-scotts-branding-graphic-design-project-080726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦蘇活區傳奇爵士俱樂部 Ronnie Scott's,自 2000 年代之後就沒更新過識別,設計師 Dan Cottrell 這次重新設計時,先指出舊系統的問題:太依賴單一的金色薩克斯風 logo,卻沒有一套支撐它的設計基礎建設。新系統用兩款字體——粗獷有力的 Railroad Gothic 和克制內斂的 Century Condensed——靈感來自 1950 到 60 年代爵士唱片封面的排版語言。整套識別最特別的地方在於它刻意不是一套死板的規則,而是被設計成「更像一場表演」,呼應爵士樂本身即興的特質——文中形容這套視覺語言是「在爵士的節奏和自發性裡外圍長出來的」。文字、圖像、色彩可以在不同數位應用裡自由「跳舞」,就像爵士樂手在架構之內即興演奏一樣,讓這套識別在維持俱樂部歷史調性的同時,能在各個接觸點上保持活著、會呼吸的狀態。"
+        },
+        {
+          "title": "JAIKU founder Marianne Olaleye on why we shouldn't obsess with Gen Z, and how storytelling can change the world",
+          "url": "https://www.creativeboom.com/insight/the-only-thing-thats-ever-changed-the-world-is-a-story-jaiku-founder-marianne-olaleye-on-her-latest-endeavour/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "JAIKU 創辦人 Marianne Olaleye 主張說故事是人類最強大的變革力量,她引用社會學家 Dr Tressie McMillan Cottom 的話:「這個世界唯一被改變過的方式,就是一個故事」——但她也強調,故事要真的有用,前提是我們願意主動接觸自己圈子以外的觀點,並學會有建設性地不同意彼此,這在現在這種對立的氛圍下特別重要。她反對品牌一窩蜂迷戀 Z 世代:品牌總是執著於年輕族群,卻忽略了長輩世代其實握有可觀的消費力,她主張主流廣告應該多讓阿姨、阿公阿嬤、叔叔伯伯這些長輩角色入鏡,而不是每次都預設要追年輕潮流。她也反對過度垂直分眾:跨產業的觀點碰撞才會激盪出最讓人印象深刻的作品——像是找一個食品品牌創辦人去幫壓力襪品牌出主意,反而會冒出意想不到的解法。她給工作室的具體建議是:先小規模啟動、再放大格局——她自己辦的高峰會只找了 60 人、開兩小時、選在週四早上當「概念驗證」,收集到真實回饋後再策略性擴大規模;跨世代、跨產業的意外合作,才是真正的競爭優勢來源。"
+        }
+      ],
+      "buzz": "今天的 Brand 圈剛好圍繞著同一個問題打轉:創意產業要怎麼重新定義自己的商業模式?A-Corps 想用法律架構保護創作者的 IP 和使命;Creative Boom 那篇直接教你怎麼把「賣圖」的敘事換成「賣思考」;Koto 則乾脆把多年客製字體的經驗打包成一個新事業線 CCType,用一次性買斷模式跟獨立設計師搶市場。Ronnie Scott's 的重新設計提醒了另一件事:好的識別系統不必是死板的規則書,可以像爵士樂一樣有呼吸的空間;而 Marianne Olaleye 那篇則從說故事的角度出發,提醒工作室別再一窩蜂追 Z 世代,跨世代、跨產業的意外碰撞才是真正的差異化來源。放在一起看,今天的 Brand 圈很務實:大家都在想怎麼把自己的價值,轉換成禁得起 AI 時代考驗的商業模式。"
+    }
+  },
+  {
     "date": "2026-07-07",
     "daily_summary": "今天 Product 和 Brand 圈剛好在講同一件事的兩面:Product 這邊在說 AI 沒有想像中萬能,設計師的價值在於驗證流程的紀律和判斷力——95% 企業 AI 試點案沒有效益的數據值得記住;Brand 這邊則示範了小工作室怎麼用一個夠銳利的觀點打敗大預算,Wottz 藏進字體裡的閃電符號、Freitag 靠價值觀撐住品牌調性,都是接案工作室可以直接借用的思路。",
     "jenny_wen": {
@@ -201,112 +307,6 @@
         }
       ],
       "buzz": "本週 Brand 圈因 7/4 美國長假出版量明顯縮水，Brand New 進入減產模式，It's Nice That 也偏向輕量內容。但在有限的資訊量裡，有幾個值得存的問題：Stack Overflow 的 rebrand 示範了「AI 時代品牌護城河要建在哪裡」；Shaver Hall 的案例再次強調了研究先行、找真實人物作為品牌根基的方法論；D&AD New Blood 的雙料最高獎則提醒了什麼叫做「把問題框架翻轉成資產」——這些都是設計工作室做提案時可以直接借用的思考角度。"
-    }
-  },
-  {
-    "date": "2026-07-02",
-    "daily_summary": "Product 圈今天 Figma 密集發布 AI agent 和 canvas 無障礙的深度文章，多篇第三方文章也同步在說同一件事：設計師最難被替代的是跨商業、設計、程式碼的整合判斷力，不是執行速度。Brand 圈的大新聞是葡萄牙足球總會在世界盃年公布極簡機構識別，移除傳統十字架的設計瞬間引爆全球輿論，讓「國家象徵的現代化應該走多遠」這道題在最大的舞台上被檢視。Warsaw 海報節的現場報導和 Blanca Doba 的自主設計 brief，則從截然不同的角度示範了設計實踐的深度。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "You're missing the point; this is your real value in tech companies",
-          "url": "https://uxdesign.cc/youre-missing-the-point-this-is-your-real-value-in-tech-companies-f56d6d96b54b",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Kike Peña 切入一個許多設計師不敢正視的問題：在 AI 快速重塑產業的當下，設計師的實際價值是什麼？他的核心論點是：公司長期把設計師的角色低估為「把別人對用戶需求的詮釋轉化成視覺的人」，但這根本不是設計師真正的本事。設計師的真正優勢在於同時能操作三種語言——商業、設計、程式碼——並且在三者之間轉譯和創造價值；AI 是流程加速器，不是替代品，「整合式思考能力」才是讓設計師在科技公司不可或缺的核心，這也恰好是 AI 最難模仿的東西。對接案工作室來說，這正是你對客戶說「為什麼需要工作室而不是 AI 工具」的論述基礎。"
-        },
-        {
-          "title": "Got Skills? Make the Figma Agent a Better Collaborator",
-          "url": "https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 推出「Skills」功能，讓設計師可以用白話文撰寫可重複使用的指令集，教 Figma agent 執行特定的工作流程——從模擬利害關係人的 crit 視角、自動執行 UX 寫作風格規範，到跨工具（Slack、Asana、Notion）的無縫交接。最關鍵的改變是：過去只存在某個人腦袋裡的設計流程知識，現在可以被「封裝」成技能，讓整個團隊用 `/` 指令一鍵取用，不需要每次重新撰寫 prompt。對設計工作室來說，這代表你可以把自己的設計哲學和品質標準，轉化成 agent 可以理解和執行的指令，讓每個項目都能保持一致的判斷標準——這本質上是把工作室的「隱性知識」外顯化的工具。"
-        },
-        {
-          "title": "Matching AI Modality To User Intent: Designing The Right Interface",
-          "url": "https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Victor Yocco 點出一個設計師常犯的錯誤：因為 LLM 是對話訓練的，就把 chat 當成所有 AI 功能的預設介面，這是「對話隧道視野」。他提出四維度任務審查框架：輸入限制（手是否空閒）、輸出限制（視覺是否可及）、社交限制（環境噪音和隱私）、認知負荷，從四個面向決定應該用什麼介面模式。關鍵案例是電力網格現場技術員——戴厚手套、高危環境、無法看螢幕——解法是現場語音輸入＋語音輸出、進入車輛後切換視覺儀表板，把診斷時間縮短了 20%。這個框架對設計顧問工作室很有用：在提案 AI 產品設計時，「為什麼用 chat？」這個問題應該先被問，而不是被跳過。"
-        },
-        {
-          "title": "Why systems thinking is becoming the most important UX skill",
-          "url": "https://uxeng.net/2026/07/01/why-systems-thinking-is-becoming-the-most-important-ux-skill/",
-          "source": "UX Engineering",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者以 Apple WWDC 2026 的發布為起點，論證設計師的工作正從「設計畫面」移向「設計系統」：App 現在可以透過 AI agent 在沒有使用者操作的情況下被呼叫，平台級的互通性已成標準而非選配功能。AI 讓視覺設計的進入門檻降低（「polished UI 已不稀缺了」），真正稀缺的是能理解系統複雜度的設計師。文章介紹三個具體工具：Job Stories（描述任務＋觸發情境）、State Charts（用屬性和條件轉換表示系統複雜度）、Flow Diagrams（映射多步驟系統行為），強調這些能力「存在於設計師的推理能力裡，不在工具的功能裡」。這篇是「為什麼工作室的服務應該往系統設計延伸」的好論據。"
-        },
-        {
-          "title": "Building Accessibility Into a Canvas-Based Product",
-          "url": "https://www.figma.com/blog/building-accessibility-into-a-canvas-based-product/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 的工程師分享了一個困難但重要的技術問題：因為 Figma 用 canvas 渲染而非傳統 HTML DOM，所有瀏覽器內建的無障礙功能（螢幕閱讀器、鍵盤導航等）一概不適用，等於從零開始重建。他們的解法是「Mirror DOM」架構——四個互聯的系統組成：內部無障礙樹、Mirror DOM React 元件、雙向同步機制、以及 ARIA live region 的公告系統，確保螢幕閱讀器能正常導航，同時不犧牲 canvas 的效能優勢。這篇文章最值得注意的是它示範了一件事：「我們選擇了效能優先的架構」不應該是放棄無障礙的藉口，但要做到兩者兼顧，需要真正的工程深度。"
-        }
-      ],
-      "buzz": "Figma 今天密集發布兩篇工程深度文章（Skills 功能和 canvas 無障礙架構），顯示在大量推出 AI 功能的同時，基礎建設也在同步鞏固。Product 圈整體方向更加清晰：UI 執行已不是稀缺技能，系統思考、介面模式判斷、跨語言整合能力才是——多篇文章從不同角度收斂到同一個結論。從 Smashing Magazine 的 AI 介面模式框架，到 uxeng.net 的系統設計論述，到 Figma 的實際工具發布，今天是一個論點和工具難得對齊的好日子。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Building a brand means building a world – that's why Blanca Doba's identity for Bare Earth didn't stop at a wordmark",
-          "url": "https://www.itsnicethat.com/articles/blanca-doba-bare-earth-graphic-design-project-010726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Blanca Doba 是一位自學的平面設計師，在這個自主 brief 裡她為虛構的天然護膚品牌 Bare Earth 建立了完整的視覺世界，而不是止步於 wordmark。她以字型作為切入點——以設計師 Anna Mills 的裝飾性書法字為靈感設計 logo，再搭配乾淨的當代字體（BN Cringe Sans 和 PP Mori）形成張力；整體調性包含蕾絲邊框、花卉攝影、刺繡風插圖，她說想做出「像書頁裡的壓花，或一首寫在綠葉上的短詩」的感覺。這個案子最值得工作室學習的，不只是視覺方向，而是「用自主 brief 探索未知美感」的工作態度——不受制於客戶，但同樣認真對待，反而更容易做出有個性的作品。"
-        },
-        {
-          "title": "New Logo for Federação Portuguesa de Futebol",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_for_federacao_portuguesa_de_futebol.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "葡萄牙足球總會（FPF）在世界盃年公布機構識別重塑，把傳統葡萄牙盾形徽章大幅極簡化：保留紅、綠、金三色，但移除了傳統十字架等複雜細節，設計更簡潔平衡，目的是在各種數位尺寸下都能清楚顯示。重要說明：這個新設計只用於 FPF 的機構識別（企業商業用途），葡萄牙國家隊球衣上的傳統徽章完全不受影響。即便如此，這次發布在全球引爆激烈爭議——「去掉十字架就等於去掉了葡萄牙的靈魂」成為主流聲音，FPF 已緊急發表聲明澄清。這個案子提供了一個絕佳的設計辯論框架：國家級符號的數位化現代改造，即便再謹慎，也無法逃開文化象徵的重量。"
-        },
-        {
-          "title": "At Warsaw's The Poster Festival, a new school of artists emerge alongside an overlooked history of graphic design",
-          "url": "https://www.itsnicethat.com/features/the-poster-festival-warsaw-round-up-graphic-design-spotlight-020726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "It's Nice That 帶來華沙「The Poster: Festival of Posters, Post-Poster Forms and Experimental Graphic Design」藝術節的現場報導，核心是「海報在 AI 時代如何重新定義自身」。最值得關注的有兩個平行展覽：一是 Kuba Sowiński 的藍墨水名人描繪刻意模糊作者身份，在 AI 崛起的背景下探問「原創性」的定義；二是一場大規模的女性設計師歷史發掘，重新找回 1945–1989 年間被男性同儕遮蔽的波蘭女性平面設計師作品。同時，一批 Gen-Z 設計師正在用數位 grunge、熔融漸層、刻意不可辨識的字體重塑傳統波蘭海報美學，受倫敦、東京、紐約的影響遠多過前輩。"
-        },
-        {
-          "title": "New Logo and Identity for Finom by Border Zero",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_finom_by_border_zero.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "歐洲金融科技公司 Finom 委託 Border Zero 進行品牌重塑，新識別以小寫無襯線字體搭配黑色＋粉紅色的主色系，在 B2B 金融工具常見的「嚴肅深藍色」視覺語言裡做出強烈的差異化選擇。小寫 logo 傳遞親近感，黑色提供可信度，粉紅色帶來活力和辨識度；三個元素的組合讓 Finom 看起來更像有設計觀點的新創，而不是傳統金融機構。Brand New 對這次更新評為「Noted」，代表整體執行品質獲得正面評價。這個案子的設計決策很清楚：在行業視覺慣性強的領域，用顏色選擇本身作為差異化宣言，比改字型或調版式更有效率。"
-        },
-        {
-          "title": "New Logo and Identity for Veritas by Sonder Studio",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_veritas_by_sonder_studio.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "德國品牌設計工作室 Sonder Studio 為房地產公司 Veritas 打造新識別，以帶磁針（flared）的襯線字體為核心，搭配時鐘意象作為主要視覺元素。「時間」作為主視覺隱喻，在房地產領域有雙重含義：長期投資的時間維度，以及物業隨時間增值的承諾。整體走「有歷史感的現代感」路線，用字型的優雅感區別於科技感強的新創識別語言。Brand New 評為「Noted」，整體評價正面。對工作室而言，Sonder Studio 的做法是一個好範例：從客戶的核心價值主張（時間與信任）直接萃取出視覺語言，而不是套用行業通用符號。"
-        }
-      ],
-      "buzz": "葡萄牙足球總會的識別爭議讓「國家級品牌現代化應該走多遠」成為今天 Brand 圈最熱門的討論，時機點卡在世界盃讓全球都在看。Warsaw 海報節報導則提供對位視角：Gen-Z 設計師如何在繼承傳統的同時，建立完全屬於自己的視覺語言，同時 AI 時代的「作者身份」問題也在同一個場域被正式提問。Brand New 暑假減產仍持續，但今天 Finom 和 Veritas 的案例示範了金融和房地產這兩個最保守的行業，如何靠顏色和字型選擇做出有個性的差異化。"
     }
   }
 ]
