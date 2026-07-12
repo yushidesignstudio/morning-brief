@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-12",
+    "daily_summary": "今天 Product 圈把「判斷力」這個老生常談,落地成好幾個具體工具——聊天機器人稽核表、設計系統六維度框架、心理健康 App 的五點評估框架;Brand 圈則因為週末出版節奏放慢,讓幾篇有點年份的深度內容浮上來:Sporting CP 百年老字號重塑示範了「精準留白比全部重做更有力量」,Porto Rocha 的週末側寫則提醒好設計來自螢幕之外的生活累積。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Craft still matters, but it's about outcomes",
+          "url": "https://uxdesign.cc/craft-still-matters-but-its-not-about-pixels-anymore-ai-can-help-you-keep-it-e542cac33d12",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Patrick Neeman 的核心論點是:設計工藝已經從「產出」徹底轉移到「判斷」——當 AI 把線框稿、元件、精緻化的產出這些執行層工作商品化之後,真正的差異化往上移到問題選擇、研究嚴謹度、以及對結果負責這幾件事上。他拿 1980 年代桌面排版轉型類比:死守鉛字的排字工人被淘汰,而把工藝重新定義成「判斷力」的人反而活下來。文中舉了幾個扎心的例子:AI 會自信滿滿地捏造根本不存在的人物誌、研究引言、調查結果,看起來跟真的做過研究一模一樣;Stack Overflow 2025 年的調查發現 84% 的工程師在用 AI 工具,但只有 29% 信任它的準確度;GitClear 的分析也顯示複製貼上的程式碼比例從 2021 年的 8.3% 飆升到 2024 年的 12.3%。他提出七個「工藝搬家後的落腳處」:選對問題、每週做研究、把標準明確寫下來、建立帶著限制條件的鷹架文件、決策定案前保持人在迴圈裡、用評分標準系統性評估機器產出、檢查「漂移」而不只是通過測試。對工作室來說,現在最稀缺的資源是判斷力——願意去爭論「什麼叫做好」並持續爭論下去,這才是利潤真正藏著的地方。"
+        },
+        {
+          "title": "The 5 Qualities of Site-Specific AI Chatbots",
+          "url": "https://www.nngroup.com/articles/dimensions-of-ai-chatbots/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 歸納出網站客製化 AI 聊天機器人該具備的五個特質:一是「願意交接」——使用者一要求轉真人客服就馬上接,不要卡關(有受訪者形容那種感覺像「在滾輪上的倉鼠一直空轉」);二是「彈性」——能處理跟主題相鄰的問題,但遇到超出範圍的請求要優雅地引導轉向;三是「主動」——在對的時機主動問釐清問題、建議下一步,而不是變成打斷使用者的干擾;四是「情緒回應力」——承認情境但不假裝有感覺,「等兩週真的很久」比表演式的道歉更誠實有效;五是「透明」——清楚表明自己是 AI、說明能力和限制、給建議附上理由、在對話裡直接講清楚資料怎麼被使用,而不是藏在條款頁面裡。核心提醒是:每一次互動都在累積或耗損信任。對設計師來說,實際做法是拿這五個維度去稽核自己手上的聊天機器人,找出現況和理想狀態之間的落差,再透過設計迭代和使用者測試一個一個補起來。"
+        },
+        {
+          "title": "Design-System Maturity: A 6-Dimension Framework",
+          "url": "https://www.nngroup.com/articles/design-system-maturity/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 提出一個反直覺的主張:設計系統的成熟度不是一條直線的進程,而是一個多維度的模型,包含六個彼此獨立的面向——組織對齊(領導層支持、資金穩定度)、團隊效能(人力、跨職能協作)、基礎建設穩健度(元件品質、文件、工具)、治理(決策結構、版本策略)、支援(上手引導、溝通管道)、以及採用度(使用廣度、團隊信任)。文章的核心洞察是:線性的成熟度模型把現實過度簡化了——設計系統不會乖乖往前走,它會倒退、停滯、在不同面向上以不均勻的速度成熟;一家新創和一家大企業都可能擁有「成熟」的系統,即使兩者條件天差地遠;採用度也不是一個里程碑,而是「貫穿系統整個生命週期、持續存在的組織挑戰」。把六個面向的分數畫出來,會呈現一個輪廓,直接顯示出哪裡失衡、哪裡卡關。實際做法是定期(每季或重大變動後)找設計師、工程師、產品利害關係人、和贊助者一起做評估——這個過程裡的討論和對齊,往往比最後打出來的分數本身更有價值。"
+        },
+        {
+          "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn't Follow Every UI Fashion",
+          "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "心理健康類 App 面臨一個嚴重的留存危機:95% 的使用者在 30 天內就流失了。作者的核心論點是:追流行 UI 趨勢會直接破壞留存,因為趨勢的目的是抓住注意力、展示創新感,而心理健康設計需要的是提供庇護感、降低認知負擔、建立信任——這兩件事根本互相衝突。處於情緒困擾中的使用者能承受的認知資源本來就變少,對一般探索型使用者來說覺得驚喜有趣的互動,對正在經歷危機的人來說反而變成阻力和挫折——「好設計不只是美感問題,它是留住使用者的核心工具」。他提出一個五點評估框架,在採用任何流行的設計手法之前先問:這個手法是降低還是增加了超載使用者的認知負擔?它呼應還是牴觸使用者的情緒困擾狀態?它靠一致性維持導航可靠感,還是為新奇感犧牲可靠感?有沒有悄悄排除掉某些脆弱使用者?是不是尊重使用者投入的完整性,而不是用借來的娛樂機制強迫使用?最關鍵的判斷準則很簡單:這個趨勢,在使用者最沒有餘裕的時候,有沒有降低他們使用這個 App 的成本?對接醫療、心理健康類客戶的工作室來說,這篇提醒的是把介面做成「安靜的幫手」,而不是照抄視覺上很搶眼卻沒做情境調整的設計。"
+        },
+        {
+          "title": "How to keep design teams steady through constant change",
+          "url": "https://www.figma.com/blog/jen-dunnam-lead-design-teams/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Hinge 的 Futures 副總裁 Jen Dunnam 分享她在 Patreon 和 Shopify 帶團隊的經驗,提出三個在快速變動時期維持團隊穩定的支柱:第一,用「冷靜」而不是「急迫感」帶領——與其放大對 AI 的恐慌,領導者應該把團隊拉回根本:「我們終究還是在為人設計,這件事沒有在變」;第二,招募願意批判思考的人——找那種會質疑決策、敢對利害關係人 say no、堅持嚴謹度的設計師,當炫炮的 AI 工具誘惑大家抄捷徑時,這個特質會變得非常關鍵;第三,建立心理安全感——打造一個大家可以自在提出異議、激烈辯論的環境,這其實是團隊健康的訊號。她舉了兩個具體對照:在 Shopify,「速度」意味著快速重建核心開發者產品——需要精雕細琢的執行力;在 Patreon,「速度」意味著快速上線大量 MVP 去測試新功能——優先講求快速迭代。她給的實際建議是:先誠實定義清楚「速度」在你的組織裡到底是什麼意思——領導者常常同時追逐快速發想、精緻執行、推出新功能這三個目標,但很難同時做到,不如誠實討論取捨、決定現階段哪兩個才是真正重要的,這樣才能避免團隊內部認知不一致和過勞。"
+        }
+      ],
+      "buzz": "今天 Product 圈難得橫跨了好幾個不同的切入點:Patrick Neeman 把「工藝」重新定義成判斷力而不是產出,還給了具體的七個實作方向;NNGroup 一口氣發了兩篇工具型文章——聊天機器人的五個特質稽核表、設計系統成熟度的六維度框架,都是可以直接拿去用的評估工具;Smashing 那篇則示範了「同一套流行 UI 模式,套用在心理健康這種脆弱情境下反而有害」的細膩判斷;Figma 那篇則從團隊管理的角度收尾——講的不是設計本身,而是怎麼在 AI 焦慮蔓延的時候,穩住整個團隊。合起來看,今天的主題是:判斷力要落地成具體的工具和框架,而不只是停留在「AI 時代設計師要有判斷力」這種空泛的口號上。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
+          "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章點出品牌專案最常在策略階段就出問題的原因:像「現代」、「值得信任」這種詞彙一直沒有被具體定義清楚。作者主張最強的視覺概念,來自一個專門的「概念前置階段」——在畫出任何設計之前,先讓團隊對方向有共同的理解。他提出三階段流程:第一階段研究品牌情境,探討「大家應該相信這家公司的什麼」、「品牌該貼近產業慣例還是該打破慣例」;第二階段用兩個練習揪出利害關係人之間沒說出口的分歧——「競品感知地圖」把競品畫在座標軸上(傳統對前衛、企業對人性化),讓大家對市場定位的理解差異浮現出來;「視覺品牌驅動練習」則讓利害關係人選出代表公司性格的隱喻圖像(交通工具、家具、動物),藉此揭露心裡沒講出來的預設立場;第三階段建立視覺基礎,用三個相連的層次把策略橋接到設計——look and feel 情緒板建立感知方向、design code 把品牌概念翻譯成視覺原則、asset direction 指引字體色彩的做法方向。對工作室來說,實際做法是在提出第一版設計概念之前,先用一份「概念前置檢查清單」確認方向已經對齊——「第一版概念不該讓人覺得是用猜的,應該讓人覺得這就是大家已經理解的方向的下一步」,這樣才能避免因為沒說清楚的期待而導致整個重做。"
+        },
+        {
+          "title": "The Weekend With Porto Rocha",
+          "url": "https://www.itsnicethat.com/features/the-weekend-with-porto-rocha-100726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇專題側寫全球設計公司 Porto Rocha 的共同創辦人 Leo Porto 和 Felipe Rocha,揭露他們怎麼在紐約和倫敦之間高強度工作的同時,刻意經營週末生活——優先安排文化體驗(藝術節、美術館特展)、用心挖掘美食、認真閱讀(設計檔案和理論文本)、關注同儕和客戶正在做的新作品。這篇揭露的重點是:好的設計成果來自豐富的知識生活——他們廣泛地吸收各種養分,從美術館回顧展到卡帶收藏,同時很認真地維繫創意圈的真實關係,像是去朋友和合作對象的新作發表會、參加自己做過識別設計的藝術節。對其他工作室的啟發是:把「文化素養」當成一種商業策略來投資——Porto Rocha 的做法顯示,他們的設計解法很可能得益於對藝術史、音樂、文學、和新興創作者聲音的深度涉獵。把週末的文化消費當成專業發展的一部分,而不是跟工作切開的事,才能累積出更豐富的概念框架。"
+        },
+        {
+          "title": "Fictionist Studio transforms the Lunar New Year into miniature worlds",
+          "url": "https://www.creativeboom.com/inspiration/fictionist-studio-transforms-the-lunar-new-year-into-miniature-worlds/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "吉隆坡的設計工作室 Fictionist Studio(創辦人 Joanne Chew)把傳統農曆新年習俗重新想像成一系列自主發起的設計實驗,把文化儀式轉化成融合概念思考和精緻工藝的沉浸式物件。以馬年為主題的《Mane Character Energy》,把傳統紅包重新設計:她找專業髮型師做客製髮飾,拍照後把影像數位合成到馬的意象上,做出一種時尚編輯風格,鏡面金屬包裝則讓收到的人可以看到自己的倒影和馬鬃並列在一起。蛇年的《Shed Off Yesteryear》則是一套四層堆疊的系統,引導使用者完成一段觸感豐富的儀式——燃燒線香、刮開銀箔顯露出運勢——象徵除舊佈新、蛻皮重生。Chew 形容自己的創作哲學:「我希望我們做出來的東西不只是一件設計品……而是一個人們會覺得值得留下來的實體物件或敘事」。這些作品示範了設計怎麼把文化傳統提升成有份量、值得收藏的作品。"
+        },
+        {
+          "title": "Why Simon Vergély gets suspicious when things look too perfect",
+          "url": "https://www.creativeboom.com/inspiration/simon-vergely/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "法國自學成才的動畫師 Simon Vergély(工作室名稱 [SIC]Film),刻意做出帶著搖晃、手感、有點邪門超現實質地的 2D 動畫,靈感來自 1990 年代的類比文化和嘻哈那種原始、有顆粒感的聲音質感。他的核心哲學是:完美無瑕本身就是一個警訊——「有時候,正是那些不完美讓作品感覺是活的」。他強調自己的粗糙感不是技術不夠好的結果,而是刻意經營出來的:「你要先懂得怎麼做出乾淨精準的東西,才有辦法刻意去打破它、扭曲它、或讓它帶有更有機、更不完美的質地」。這種手法弔詭地變成他的商業強項——客戶會 specifically 指名找他,就是要那種帶著顆粒感、有紋理的質地,證明了在一個越來越同質化的創意環境裡,真實感和手工感反而更能引起共鳴。"
+        },
+        {
+          "title": "Sporting CP unveils 1940s-informed rebrand that \"stays faithful to the club's legacy\"",
+          "url": "https://www.dezeen.com/2026/07/06/sporting-cp-club-badge-logo-rebrand/",
+          "source": "Dezeen",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "里斯本足球俱樂部 Sporting Clube de Portugal 為慶祝成立 120 週年,委託 Jones Knowles Ritchie 操刀 25 年來首次重新設計的品牌識別。會員們最想要的改變,是讓品牌回到 1945 年的徽章版本——那個有著咆哮獅子吉祥物、盾牌造型加上相連渦紋圖案的經典設計;JKR 的目標是做出一套既緊扣俱樂部歷史、又能吸引年輕新球迷的識別。新識別以五個核心符號組成一套「視覺準則」:球員進場的 Porta 10-A 大門啟發了貫穿整套識別的圖騰紋樣;盾牌延續俱樂部傳承和更廣泛的葡萄牙視覺語言;皇冠巧妙地代表 SCP 縮寫,搭配新開發的專屬字體 Sporting Sans;獅子代表球迷、造型取自過去五個版本的徽章;綠白條紋則啟發了整套識別的動態設計語言。這套新徽章從 2026-27 年球季開始正式成為俱樂部的官方視覺識別。這個案子對接運動、老字號品牌客戶的工作室來說,示範了「怎麼在 25 年沒動過的老識別裡,精準挑出最有情感價值的元素當作重塑的地基」,而不是整個打掉重練。"
+        }
+      ],
+      "buzz": "這個週末 Brand 圈的出版節奏明顯慢下來(It's Nice That、Creative Boom、Brand New 這幾天新貼文都變少),但幾篇值得留意的內容剛好從不同角度回答同一個問題:好品牌怎麼長出來的?Smashing 那篇給了具體的「概念前置階段」流程,解決品牌專案最常見的痛點——策略講的都是模糊形容詞;Porto Rocha 的週末側寫提醒我們,好設計往往來自螢幕之外的文化涉獵;Fictionist Studio 和 Simon Vergély 則分別示範了工藝(把文化儀式做成值得收藏的物件)和刻意的不完美(手感和顆粒感)怎麼變成差異化;Sporting CP 的百年老字號重塑則證明,重新設計不必打掉重練,精準挑出歷史裡最有情感重量的元素、其餘大膽留白,反而更有說服力。"
+    }
+  },
+  {
     "date": "2026-07-09",
     "daily_summary": "今天 Product 和 Brand 圈剛好都在回答同一個問題的兩個版本:「AI 讓執行變便宜之後,我還能賣什麼?」Product 這邊一連五篇從不同角度戳破 AI 炒作(義大利麵桌測試、「what 的危機」),核心結論是紀律和判斷力比產出速度值錢;Brand 這邊則更務實,直接示範怎麼把「賣圖」換成「賣思考」的商業模式——A-Corps 保護 IP、Koto 把客製字體經驗開發成新事業線 CCType,都是接案工作室可以直接參考的具體做法。",
     "jenny_wen": {
@@ -201,112 +307,6 @@
         }
       ],
       "buzz": "今天幾個案例剛好從不同角度講同一件事:差異化不是靠更多素材或更大預算做出來的,而是靠一個夠清楚的觀點,然後有紀律地執行到底。Wottz 把整個品牌濃縮進一個藏在字體裡的閃電符號、Cooot 用「剛好足夠的偏移」製造陌生感、Freitag 幾十年來只靠一套價值觀撐住品牌調性——這些案例對小型工作室或接案設計師特別受用:你不需要跟大型代理商拚素材量,你需要的是找到那一個夠銳利的想法,然後有勇氣執行到底(就像 Gemma Phillips 說的,不敢做的客戶反而最該被推去做勇敢的選擇)。"
-    }
-  },
-  {
-    "date": "2026-07-04",
-    "daily_summary": "NNGroup 今天連發兩篇直接針對工作室最核心痛點的文章：AI 企業透明度設計、以及如何用商業語言代替 UX 語言說服客戶，值得存起來重複使用。Brand 圈進入美國 7/4 長假出版淡季，但 Stack Overflow 委託 Koto 做的 rebrand 值得細讀——他們的策略核心完全可以搬到你的客戶提案裡：在 AI 時代，品牌護城河是社群驗證的知識可信度，不是速度。D&AD New Blood 雙料獲獎也提醒一件事：最難被 AI 取代的設計仍然是那種能重新框架問題、讓本來被忽視的東西變成資產的思維。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Stop Reporting UX Activity and Report Business Outcomes",
-          "url": "https://www.nngroup.com/articles/reporting-ux-business-outcomes/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "設計團隊在爭取預算時常輸，不是因為工作沒價值，而是因為在說 UX 語言而不是商業語言。NNGroup 指出兩個常見錯誤：報告努力（「做了 24 次訪談」）而非結果，以及用決策者聽不懂的 UX 指標（SUS 分數）說話。文章提出五個領導層真正在意的商業優先級：營收影響、成本降低、風險規避、上市速度、用戶留存；並要求設計師學會把上游指標（任務完成率、錯誤率）橋接到下游結果（客服量、轉換率、流失率）。核心轉譯範例：「SUS 從 62 提升到 74」→「導航改版讓客服來電減少 30%」。對工作室來說，這篇是說服客戶投資設計的語言工具包——不只是拿預算，也適用於提案中說明為什麼研究和設計系統值得花錢。"
-        },
-        {
-          "title": "Crafting AI Explanations for Every Role in Your Enterprise",
-          "url": "https://www.nngroup.com/articles/crafting-ai-explanations/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 把 AI 透明度定位為設計問題而非技術問題：企業裡不同角色需要完全不同類型的 AI 解釋——治理主管需要「全局說明」看系統層級的風險和模式；工程師和設計師需要「局部說明」對應特定輸入和設定，方便除錯；領域專家需要「白話說明」嵌入他們熟悉的工作流程。文章用幫助台 AI 設定場景說明：同樣一個 AI 決策，三個角色需要看到的東西完全不同，如果用同一套說明方式就是設計失敗。核心主張是：當透明度被當成設計問題而不是技術後記來處理，AI 系統才能讓各方都成為「主動的決策參與者而非被動接受者」。對工作室接 AI 產品設計案時，這篇是設計說明框架的直接參考材料。"
-        },
-        {
-          "title": "AI personality is a design problem",
-          "url": "https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Slava Polonski 指出一個設計師沒在注意的問題：即使兩個 AI 助理建立在同一個底層模型上，它們可以「感覺像完全不同的人」——一個溫暖而模糊，一個冷靜而精確；一個先問再做，一個直接做完告訴你。這些差異沒有人設計過，是訓練和 RLHF 獎勵機制的副產品，「個性就這樣長出來了，沒有人畫草稿，沒有 design review」。他的論點是：設計師的工作就是塑造產品的感受，而個性正在進入每個 AI 產品——唯一的問題是有沒有人刻意設計它，還是讓它意外發生。這篇提醒工作室一件事：下次為客戶設計 AI 介面，別只想介面，也要想「這個 AI 有沒有性格？這個性格是不是我們想要的？」"
-        },
-        {
-          "title": "Users Don't Need More Tools: They Need Seamless Integrations",
-          "url": "https://www.smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Vitaly Friedman 批評了 AI 產品設計中最常見的錯誤：用「AI 優先」思維打造需要使用者主動學習的新工具，而不是把 AI 嵌入使用者已有的工作習慣。他主張「安靜的 AI」（Quiet AI）——在背景默默運作、解決高頻率高痛點問題，不打擾使用者注意力。具體案例包括 Claude 整合進 Microsoft Excel/Word/PowerPoint 的做法，以及「資料夾指令」系統：使用者定義資料夾的行為規則，AI 自動整理文件、生成摘要、發送通知，完全不需要主動操作。核心洞察是：在 AI 工具大量湧現的時代，真正讓人採用的不是功能最強的，而是最不需要改變習慣的——減少摩擦和降低認知負荷，比多加功能更有說服力。"
-        },
-        {
-          "title": "7 questions we had going into Config Leadership Collective",
-          "url": "https://www.figma.com/blog/7-questions-from-lc/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 邀請 Airbnb、OpenAI、Sephora、Atlassian、Cisco、Expedia、AWS、Google、Patreon 的設計主管，回答七個 AI 時代最難回答的領導力問題。幾個關鍵洞察：OpenAI 的 Ian Silber 說「整個產業在幾個月內就徹底轉變了，固定流程只會成為障礙」，強調領導者要以「邊做邊學」示範而非規定流程；Sephora 的 Sneha Narahalli 說設計師的稀缺能力移向「在情境中知道哪個答案最好」而非執行熟練度；跨組織普遍轉向更小的跨職能小組，打破傳統功能性 silo。最重要的共識：人類品味和判斷力在 AI 大量產出的環境下成為不可缺的品質守門機制。對工作室來說，這篇直接示範了如何在客戶面前用業界領袖的話，論證「為什麼設計判斷力比 AI 工具更有價值」。"
-        }
-      ],
-      "buzz": "NNGroup 今天兩篇同時出手，覆蓋了工作室最實用的兩個痛點：如何跟客戶說設計的商業價值，以及如何設計 AI 的透明度。AI 個性設計和 Figma 領導力文章則從不同角度說同一件事：在 AI 大量產出的世界裡，判斷力、品味、以及「決定 AI 行為邊界」的能力，正在成為設計師最核心的不可替代性。這些文章拼在一起，幾乎就是一份「為什麼客戶需要設計工作室而不只是 AI 工具」的完整論述。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Fifth Avenue food hall identity highlights how a person can trump a mood board",
-          "url": "https://www.creativeboom.com/news/how-do-you-brand-a-110-year-old-department-store-into-a-food-hall-without-losing-its-soul/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Love & War 把紐約第五大道原 Lord & Taylor 百貨旗艦店改造成美食廣場 Shaver Hall 的品牌操作，提供了一個對工作室非常實用的方法論：不要先做情緒板，先做歷史研究找真實人物。他們發現 Dorothy Shaver（1893-1959）——這位把 Lord & Taylor 帶到鼎盛的女性 CEO，也是那個時代最積極支持創意和設計的零售人——她的名字為品牌提供了「內建的質感、可信度，以及一個讓媒體和顧客都有理由在意的故事」。視覺語言直接從建築本身借用：art deco 的階梯框架、厚重的 serif 字體呼應原有的石雕和銅質花格；廣告端則用 Pop Art 色塊和復古插圖注入活力。更關鍵的設計決策是：這套識別不強迫統一所有進駐品牌，而是建立一個框架讓各租戶保有個性、同時維持整體一致感。對工作室接設計提案時，這篇的方法論——「讓品牌有真實的人作為根基」——是一個很有說服力的 brief 開頭方式。"
-        },
-        {
-          "title": "Koto reframes Stack Overflow around the one thing AI can't replace: its community",
-          "url": "https://www.creativeboom.com/news/koto-reframes-stack-overflow-around-the-one-thing-ai-cant-replace-its-community/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "在 AI 開始回答越來越多程式設計問題的時代，Stack Overflow 委託 Koto 做品牌重塑時，第一個問題就是「我們的護城河是什麼？」答案是：社群驗證過的知識可信度——「速度只有在底層知識可以被信任的時候才有價值。」視覺識別以「Always in Build」作為核心概念，用堆疊的偏移線條代表社群知識不斷積累和進化的形態，自訂字體 Stack Sans 也開放到 Google Fonts 上。最值得關注的設計決策是流程：他們沒有單方面發布，而是在 WeAreDevelopers World Congress 公開三個設計方向讓社群投票，讓整個開發者社群成為品牌過程的參與者。附帶一提：Koto 用 Claude 建了一個生成式品牌工具，讓團隊可以在保持一致性的前提下自行產出品牌素材。這篇對工作室最有用的是那個策略問題本身：下次接案，「在 AI 取代大量功能之後，客戶的護城河是什麼？」是一個很好的 brief 開頭問題。"
-        },
-        {
-          "title": "D&AD New Blood Awards 2026: a student project about periods wins both of the year's top prizes",
-          "url": "https://www.creativeboom.com/news/dad-new-blood-awards-2026-a-student-project-about-periods-wins-both-of-the-years-top-prizes/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "丹麥學生 Jens Kühnel 和 Kirstine Vilsen 的「Blood Stocks」計畫同時拿下 D&AD New Blood Awards 的 Black Pencil（年度最高成就獎）和 White Pencil（造福社會的創意獎），這是極少見的雙料最高獎。核心概念是把月經周期重新定位為醫療資產：每月捐血與月經周期對應，讓捐血者成為女性健康研究的主動利害關係人，而不是需要被悄悄管理的私事。評審認可它「正面迎擊長期被汙名化的議題」並且把它重新框架為具有真實醫學價值的東西——這正是設計最難被複製的能力：不是執行好看，而是找到一個讓你不得不改變想法的框架。對工作室來說，這個案子最值得學習的不是設計本身，而是那個核心轉化動作：把「問題」翻轉成「資產」。"
-        },
-        {
-          "title": "New Logo and Packaging for Jus-Rol by Brandon Consultants",
-          "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_packaging_for_jus_rol_by_brandon_consultants.php",
-          "source": "Brand New (Under Consideration)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國最大即用酥皮品牌 Jus-Rol 委託曼徹斯特工作室 Brandon 完成品牌更新，任務是在自有品牌（超市自有品）競爭壓力下重建差異化。核心設計決策之一是有策略性地移除：把過時的擀麵棍從 logo 拿掉（「已經沒有人認出這是擀麵棍了」），但保留皇冠元素並重新打磨細節。新系統加入 BAKE BOLD 徽章和金色刷形曲線（像糕點刷形狀），照片從靜態切換成食物導向的鮮活風格；深藍色和奶油色作為品質基底，再搭配多種活潑的輔色做產品分類導航。整套新包裝在保留品牌辨識度的前提下，讓整個產品線變得容易瀏覽。這個案子對工作室很有參考價值：「哪些視覺元素要保留、哪些要大膽刪掉」的判斷，往往是遺產品牌 rebrand 最難拿捏的決定。"
-        },
-        {
-          "title": "How Ayame Uchima makes delicate drawings that look just like lace",
-          "url": "https://www.itsnicethat.com/articles/ayame-uchima-illustration-discover-020726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "巴黎插畫師 Ayame Uchima 在奧卡里埃刺繡學校學了 Lunéville 刺繡和傳統棒槌蕾絲工藝後，把這些纖維技術轉化成繪畫實踐：她的作品「看起來像編織出來的布料，實際上是用筆畫的」。她描述自己的圖像像「想像故事書裡的書頁」，表面美麗精緻，但深處藏著一種「安靜的不諧和感」——她刻意讓視覺在優雅與微微令人不安之間保持張力。這種「讓觀眾以為自己看到的材質不是真正的材質」的技法，源自她對實際工藝的深刻理解。對視覺設計的啟發是：掌握一項實體工藝（刺繡、書法、活版印刷）往往能讓你在數位媒介上創造出別人無法複製的手感——因為你知道那個質感從哪裡來，而不是從濾鏡套出來的。"
-        }
-      ],
-      "buzz": "本週 Brand 圈因 7/4 美國長假出版量明顯縮水，Brand New 進入減產模式，It's Nice That 也偏向輕量內容。但在有限的資訊量裡，有幾個值得存的問題：Stack Overflow 的 rebrand 示範了「AI 時代品牌護城河要建在哪裡」；Shaver Hall 的案例再次強調了研究先行、找真實人物作為品牌根基的方法論；D&AD New Blood 的雙料最高獎則提醒了什麼叫做「把問題框架翻轉成資產」——這些都是設計工作室做提案時可以直接借用的思考角度。"
     }
   }
 ]
