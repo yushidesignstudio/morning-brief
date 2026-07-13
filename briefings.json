@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-13",
+    "daily_summary": "今天 Product 圈圍繞著「AI 做得到 vs 人該負責什麼」持續深挖——品味不能被代理、查證責任還是留在人身上、金繼式的失誤補救哲學;Brand 圈則示範了品牌怎麼用敘事角度找到差異化,從包裝吐司的「元素之力」重新定位,到台灣刺青文化的觸感式出版設計,再到首爾用策展式品味對抗平台比價——今天兩邊剛好都在講同一件事:真正的價值,藏在「找到值得說的故事、和敢為它負責」這件事裡。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Taste cannot be delegated",
+          "url": "https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Aurélie Radom 主張設計判斷力沒辦法自動化、也沒辦法交給群眾外包——當 AI 讓執行變得人人可得,真正的競爭優勢在於「能不能判斷哪個產出值得存在」,而這需要人的品味、責任感、和領導力。她舉了三個例子:iPhone 的多點觸控螢幕——蘋果沒有照著使用者偏好資料去優化現有的實體鍵盤,而是問「手機可以變成什麼」,這個判斷驅動的決定開創了全新的品類,跟依賴偏好數據做優化完全相反;萬事達卡 2016 年重新設計時,Pentagram 把公司名稱從很多應用場景裡拿掉——單靠數據根本無法證明拿掉一個辨識元素是對的,但設計師看出兩個交疊的圓圈本身已經累積出足夠的意義;紐約時報 2012 年的《Snow Fall》多媒體敘事——這種格式沒辦法靠事前的使用者測試驗證,判斷先於數據,是判斷本身確立了一種新格式的可行性。對設計師和工作室的實際建議是:建立清楚的責任歸屬架構,而不是靠共識決策;透過研究頂尖作品和設計史來培養自己的美感判斷力;要意識到當太多利害關係人平等參與時,「協作會取代所有權」。她的結論很直接:「品味可以被輔助……但沒辦法被代理。」"
+        },
+        {
+          "title": "The interface has left the building",
+          "url": "https://uxdesign.cc/the-interface-has-left-the-building-8fdb558d33a9",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Om Prakash 認為 UX 設計正在從「以螢幕為主」徹底轉向三種新的典範——聊天、語音、和自主代理(agentic AI),設計師現在要架構的不再是視覺層級和互動流程,而是「系統代表使用者行動」時的信任關係;底層的轉變是從優化「互動」變成優化「意圖」。他舉了三個典範各自的例子:聊天典範——混合式介面效果最好,已知任務用結構化 UI、模糊探索用對話式 AI,Notion 的 AI 側邊欄和 GitHub Copilot 之所以成功,是因為它們補強而不是取代既有的工作流程;語音典範——Apple 2026 年重新設計的 Siri 能跨裝置維持情境、靠裝置端 AI 保護隱私,而先前失敗的案例(Humane AI Pin、早期的 Rabbit R1)問題出在延遲和情境保留能力不夠好;自主代理典範——像 OpenAI 的 Operator 和 Anthropic 的 Claude 這類系統能自主處理多步驟任務,設計上的挑戰因此轉移到「透明度」——要讓使用者看得到系統打算做什麼、並保留覆蓋控制的能力。他的結論是:「最好的 UX 設計師,做的一直都是讓人感覺自己有能力、被理解的這件事」,今天的設計師要學會判斷每種模式適合什麼情境,而心理學而不是技術,才是那個沒有變的常數。"
+        },
+        {
+          "title": "Did you verify that — or was it just too easy to believe?",
+          "url": "https://uxdesign.cc/did-you-verify-that-or-was-it-just-too-easy-to-believe-664ff017a1a1",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Dora Czerna 從一個假造的 Jeff Bezos 語錄爆紅事件切入,探討一個更大的危機:人很少去查證資訊、AI 系統用毫無根據的自信提供錯誤內容、而真正值得討論的 AI 環境成本議題反而很少被認真談。那個假語錄是某個諷刺帳號捏造的,說 Bezos 宣稱 AI 的「數位潛能是無限的」,人類則該少用點水——好幾家主流媒體在被抓包是諷刺文之前就把它當真的報導出去。文中的查證數據很驚人:只有 8% 的人會固定查證 AI 生成的答案,92% 的人直接接受摘要內容不去查來源;一項 2023 年的放射科研究發現,當被展示錯誤的 AI 診斷時,經驗豐富的醫生準確率從 82% 掉到 45%。專業領域也出過包:Deloitte 因為報告裡混入了捏造的學術引用和假的法庭語錄,退還了澳洲政府 44 萬澳幣的費用——這件事是因為有一位研究員去查了註腳才被抓到。核心提醒是:「查證這件事,終究還是留在我們身上」的人類責任;更好的介面設計——把不確定性和自信程度一樣清楚地呈現出來——或許能促使更多人保持懷疑,而人工事實查核卻正在被削減預算。"
+        },
+        {
+          "title": "The Kintsugi problem",
+          "url": "https://uxdesign.cc/the-kintsugi-problem-7f5e5cbfb442",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Takuma Kakehi 主張真正重要的設計決定,不是發生在一切順利運作的時候,而是發生在東西壞掉或失敗的當下——與其把不完美藏起來,設計師該做的是拿工藝去處理那些「已經無法復原」的狀態,就像日本金繼(kintsugi)用金漆修補破損陶器的做法一樣。他用一個生活化的例子破題:他幫女兒做生日蛋糕,海綿蛋糕烤壞了、沒辦法修——他沒有丟掉,而是加了鮮奶油和草莓;這些層次不是用來遮蓋瑕疵,而是「讓整件事最終還是成立了」,把一個原本失敗的結果,轉化成某種成功的東西。實際的啟發是:當設計或執行的結果不如原本的預想時,關鍵時刻不是接受失敗,而是決定要怎麼在既有的基礎上繼續往前蓋——設計師應該把限制條件和不完美當成展現工藝的機會,而不是需要被藏起來的問題。"
+        },
+        {
+          "title": "How Decagon uses AI for design system saturation",
+          "url": "https://www.figma.com/blog/how-decagon-uses-ai-for-design-system-saturation/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "三歲的 AI 客服平台 Decagon,建了一套叫做 Deco、包含數百個元件的完整設計系統,並把它跟 Figma 的 MCP(Model Context Protocol)伺服器和 Figma Make 串接起來,打通設計到程式碼的工作流程。成果相當扎實:設計元件庫在 30 天內累積了數萬次插入使用;寫程式的 AI 代理現在可以直接從 Figma 檔案生成高保真的實作,不需要反覆來回修改;團隊可以在真正投入工程資源之前,先做出 10 種不同版本讓客戶測試;開發效率明顯提升——原本需要「設計師→畫稿→工程師」層層交接的儀表板改版,現在速度快上許多。Decagon 的產品設計師 Jennifer Xu 說:「我們的 AI 代理都有啟用 Figma MCP,所以規格、程式碼、畫布全部留在同一個迴圈裡,不用再兩邊跑來跑去。」對設計團隊的實際啟發是:設計系統搭配 AI 工具,不只是拿來做文件——它們是讓迭代更快、減少轉譯錯誤、讓團隊能在設計和開發之間建立單一事實來源的力量倍增器。"
+        }
+      ],
+      "buzz": "今天 UX Collective 一次冒出好幾個很不一樣的切角:Aurélie Radom 講「品味沒辦法被代理」,舉了 iPhone 觸控螢幕和 Mastercard 拿掉 logo 文字這兩個經典案例;Om Prakash 則從介面本身的消失切入,講聊天、語音、自主代理這三種新典範分別怎麼運作;Dora Czerna 那篇最扎心——一個假造的 Bezos 語錄爆紅、Deloitte 因為 AI 捏造引用退款 44 萬澳幣,提醒查證這件事終究還是人的責任;Kakehi 的金繼隱喻則從完全不同的角度說同一件事:真正的工藝,展現在怎麼處理無法挽回的失誤上。Figma 那篇 Decagon 案例則提供了具體數據,證明設計系統加上 AI 工具真的能加速交付。今天的主題很一致:AI 能做的事情越來越多,但「決定什麼值得存在、什麼需要查證、怎麼收拾殘局」,還是離不開人的判斷。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Hovis and Kingsmill are now one business – and BrandOpus has given it an identity with no wheat in sight",
+          "url": "https://www.creativeboom.com/news/hovis-and-kingsmill-are-now-one-business-and-brandopus-has-given-it-an-identity-with-no-wheat-in-sight/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Allied Bakeries 完成收購 Hovis 集團,把 Hovis、Kingsmill、Allinson's、Sunblest 整合成一個新公司 Hovis Bakeries,一舉成為英國最大的麵包製造商、市佔率約 35%——這樁合併案重大到英國競爭與市場管理局一度啟動第二階段調查,最後才核准,理由是如果不核准,Allied Bakeries 很可能乾脆退出麵包市場。負責重塑識別的 BrandOpus,刻意捨棄了麥田、日出剪影、切片吐司這些傳統烘焙業的視覺老梗,改用一個叫做「元素之力」(Elemental Power)的概念——把「滋養」當成品牌核心,回到麵包真正的成分:土(麵粉)、水、空氣、火(加熱)。工作室策略總監 Leo Hadden 說,這套識別「是為了承載一個要領導整個品類的企業該有的權威感」而設計的。這個案子背後有個現實壓力:包裝麵包銷量十年來持續下滑,Kingsmill 單一品牌去年就衰退了 31.5%。對工作室來說,這示範了一種老品類重塑的做法:不靠更討喜的視覺老梗,而是往上一層,用更有格局的定位重新定義「這個品類為什麼還值得被認真對待」。"
+        },
+        {
+          "title": "How Houth Studio turns Taiwanese culture into bold graphic design",
+          "url": "https://www.creativeboom.com/inspiration/how-houth-studio-turns-taiwanese-culture-into-bold-graphic-design/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "2014 年在台北成立的 Houth Studio,擅長把台灣的文化敘事轉譯成視覺力道強烈的設計系統,方法論建立在觀察和文化敏感度上,追求「模糊藝術和商業之間的界線」,同時挑戰一般人對設計的既定期待——他們的哲學核心是用當代視覺語言讓文化故事「被看見、被聽見」,而不是單純的紀錄式呈現。代表作之一《From Delinquent Youth to Cool Kids: Taiwanese Tattoo Artists 1980–2020》,追溯台灣刺青文化四十年的演變,Houth 沒有做成一本厚重的合輯,而是拆成十一本輕薄的小冊子,讓這段歷史變得「更日常、更容易親近」;設計上呼應刺青本身以身體為畫布的特質,用半透明紙張和紅色線稿去模擬刺青過程的質感,讓讀者用身體感受這個主題,而不只是被動閱讀。另一個作品《Do Circus》秋季刊,則建立在一種「鹹甜交織的游牧感」上,用微波爆米花袋當作馬戲團美學的隱喻,把 1980 年代超市意象和普普藝術語言結合,靠結構設計把勞動和表演區分開來、同時製造出一種商業張力。對接文化類、老品牌客戶的工作室來說,這個案例示範了怎麼把厚重的文化題材,拆解成好入口、有觸感的視覺體驗。"
+        },
+        {
+          "title": "The trinket takeover: unpicking the microtrends of consumer culture in Seoul",
+          "url": "https://www.itsnicethat.com/articles/the-view-from-seoul-microtrends-in-seong-su-select-shops-creative-industry-130726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "首爾聖水洞(Seongsu-dong)這幾年變成一個零售奇觀現場,靠著爆紅快閃店、編輯選品店(편집숍)、和角色類小物飾品(像是鑰匙圈)的爆發式流行帶動——寶可夢的 Mega Festa 快閃活動估計吸引了四萬人,這一區同時也承辦從 Gentle Monster 這種奢侈品牌到快時尚聯名的各種活動。這股微趨勢反映了韓國更大的經濟和文化現象:小物消費的爆發跟「感性經濟」(필코노미,feel-conomy)有關——購買行為被短期的情緒滿足驅動,而不是實際需求;年輕消費者即使面對高失業率和房價壓力,還是願意花高價買小東西。設計師 Lee Chaerin 指出:「我不認為現在的消費者只是在找最便宜的選項,品牌必須提供那些平台給不了的東西:獨特的身份感和被策展過的品味」;選品店經營者像 Min Jina 和 Marley Kim,則透過敘事和文化價值,把創作者和買家連結起來。文章最後提出一個值得深思的問題:這種消費模式,到底是一種可持續的零售文化,還是用即時滿足感包裝起來的經濟焦慮?對做品牌、零售體驗的工作室來說,這是一個觀察「情緒驅動消費」和「策展式品牌敘事」怎麼運作的活案例。"
+        },
+        {
+          "title": "What if clothing could tell the whole story? Hannah Knox on painting 'portraits without people'",
+          "url": "https://www.creativeboom.com/inspiration/what-if-clothing-could-tell-the-whole-story-hannah-knox-on-painting-portraits-without-people/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "藝術家 Hannah Knox 在亞麻布上畫出攝影般寫實的油畫,透過衣物、而不是人物本身,探討身份和渴望——她形容自己的作品「像是沒有人的肖像畫」。她的創作方法論建立在一個核心想法上:衣服承載著深刻的敘事,「我們的品味反映了我們的吸引力、渴望、地位、財富、粉絲身份、階級,還有更多」。她畫的是衣領、拉鍊、打褶這些貼身局部的細節,精細到讓畫出來的布料看起來跟真的布一模一樣。她的創作起點常常來自歌詞、伸展台上的造型、或是在路上偶然瞥見陌生人的穿搭,接著她會去尋找這件單品——可能是真的找到實物,也可能是憑想像去發展出來;她只用油畫顏料畫在亞麻布上,一層一層堆疊構圖,在「畫多少細節、留多少空白」之間反覆拉扯,這種張力讓作品同時帶著超寫實感和手作感。Knox 的創作本質上,是把被丟棄的衣物當成記憶、時間刻度、和人類渴望的容器——探討當穿過它的人已經離開之後,還剩下什麼。"
+        },
+        {
+          "title": "From hand-drawn type to doodled logos, illustration takes the lead in the visual identity for Florence's first art book fair",
+          "url": "https://www.itsnicethat.com/articles/edoardo-cantarella-livia-de-magistris-tam-graphic-design-illustration-project-130726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "平面設計師 Edoardo Cantarella 和插畫家 Livia De Magistris,一起打造了佛羅倫斯首屆獨立出版書展 Tam Festival 的品牌識別。他們刻意避開這座城市最廣為人知的文藝復興美學,轉而從更古老的伊特魯里亞(Etruscan)歷史裡找靈感。設計團隊開發了一套受伊特魯里亞字母啟發的自訂字體造型,搭配 Neureal 作為輔助字體;De Magistris 則用毛筆和麥克筆手繪插畫角色,靠「一條稍微歪斜的單一線條,讓每個角色都有自己的個性」。整套識別的核心是一個吉祥物角色——一本開心的書,名字叫「zix」(伊特魯里亞語裡「書寫、書、文件」的意思),這個角色貫穿了展覽的各種應用物件,包括絹印海報、Risograph 印刷的導覽手冊、和活版印刷的物件。透過把節慶的視覺語言錨定在伊特魯里亞文明、而不是文藝復興意象上,設計師做出了一個既連結托斯卡尼更深層歷史根源、又能慶祝獨立出版文化的獨特識別。"
+        }
+      ],
+      "buzz": "今天的案例剛好從完全不同的尺度切入品牌這件事:Hovis 和 Kingsmill 合併後的重塑,示範了一個成熟到快被看膩的品類(包裝吐司),怎麼靠拋開視覺老梗、往上一層講「滋養」的格局重新站穩腳步;Houth Studio 則從另一端出發,把台灣的刺青文化和馬戲團美學,拆解成有觸感、好入口的出版設計;首爾聖水洞的小物消費現象,則提醒我們品牌識別和策展式敘事,正在變成對抗平台比價的核心武器;Hannah Knox 的「沒有人的肖像畫」和 Tam Festival 取材伊特魯里亞歷史的識別設計,則從藝術和活動識別的角度,示範了怎麼用一個夠獨特的敘事切角,讓作品在一片相似的視覺語言裡站出來。"
+    }
+  },
+  {
     "date": "2026-07-12",
     "daily_summary": "今天 Product 圈把「判斷力」這個老生常談,落地成好幾個具體工具——聊天機器人稽核表、設計系統六維度框架、心理健康 App 的五點評估框架;Brand 圈則因為週末出版節奏放慢,讓幾篇有點年份的深度內容浮上來:Sporting CP 百年老字號重塑示範了「精準留白比全部重做更有力量」,Porto Rocha 的週末側寫則提醒好設計來自螢幕之外的生活累積。",
     "jenny_wen": {
@@ -209,104 +315,6 @@
         }
       ],
       "buzz": "今天的 Brand 圈剛好圍繞著同一個問題打轉:創意產業要怎麼重新定義自己的商業模式?A-Corps 想用法律架構保護創作者的 IP 和使命;Creative Boom 那篇直接教你怎麼把「賣圖」的敘事換成「賣思考」;Koto 則乾脆把多年客製字體的經驗打包成一個新事業線 CCType,用一次性買斷模式跟獨立設計師搶市場。Ronnie Scott's 的重新設計提醒了另一件事:好的識別系統不必是死板的規則書,可以像爵士樂一樣有呼吸的空間;而 Marianne Olaleye 那篇則從說故事的角度出發,提醒工作室別再一窩蜂追 Z 世代,跨世代、跨產業的意外碰撞才是真正的差異化來源。放在一起看,今天的 Brand 圈很務實:大家都在想怎麼把自己的價值,轉換成禁得起 AI 時代考驗的商業模式。"
-    }
-  },
-  {
-    "date": "2026-07-07",
-    "daily_summary": "今天 Product 和 Brand 圈剛好在講同一件事的兩面:Product 這邊在說 AI 沒有想像中萬能,設計師的價值在於驗證流程的紀律和判斷力——95% 企業 AI 試點案沒有效益的數據值得記住;Brand 這邊則示範了小工作室怎麼用一個夠銳利的觀點打敗大預算,Wottz 藏進字體裡的閃電符號、Freitag 靠價值觀撐住品牌調性,都是接案工作室可以直接借用的思路。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Figma just made your design system debt everyone's problem",
-          "url": "https://newsletter.uxdesign.cc/p/figma-just-made-your-design-system",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Fabricio Teixeira 指出 Figma 最新功能徹底改變了設計系統債務的性質:過去品質不佳的系統只是設計師自己知道、自己承擔的秘密,現在因為非設計師也能直接生成元件、做交接、產出素材,債務會直接波及到工程師(生成的元件是錯的)、PM(交接斷掉導致時程 delay)、行銷(banner 跑版)。文中一句話很扎心:「設計系統債務以前是一個人默默在沒人打開的檔案裡償還,現在變成整個團隊一起還。」對工作室來說,這其實是個機會:當設計系統治理開始影響到有預算決定權的人,你就有更充分的理由說服客戶投資在系統性的設計工作上,而不只是交付一次性的畫面。過去設計師主張系統需要被重視、被資助的論點,現在終於因為非設計師也親身感受到後果而站得住腳。"
-        },
-        {
-          "title": "What the Lean Startup still teaches us about generative AI",
-          "url": "https://uxdesign.cc/what-the-lean-startup-still-teaches-us-about-generative-ai-2d1505fe1db1",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 引用 MIT NANDA 2025 年的研究:95% 的企業生成式 AI 試點案沒有產生任何可衡量的效益,而原因不是模型不夠強,是團隊重複了 2011 年以前的老錯誤——沒有先驗證真正的問題就開始蓋方案、追求出貨大功能而不是快速學習、把 AI 產出當成完成品而不是需要人工判斷的草稿。文中提到一個反直覺的數據:跟供應商合作的專案,實際落地的機率是內部自建專案的三倍;中型公司只做少數聚焦的試點,反而比大企業同時跑一堆試點案表現更好——「野心用試點數量和人力規模來衡量,反而是卡關的原因」。他提出四個具體動作:先去現場觀察真實工作情境再動手、跑小規模每週實驗優化學習迴圈、狠心縮小範圍拒絕平台思維、砍掉不能幫助決策或工作的文件。對接 AI 專案的工作室來說,這是一份好用的提案語言——先驗證再蓋、先聚焦再擴張,是說服客戶不要一次做大而全 AI 功能的論據。"
-        },
-        {
-          "title": "Wait, who made this?",
-          "url": "https://uxdesign.cc/wait-who-made-this-705a30d74220",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Allie Paschal 談的是當 AI 生成的作品和人做的作品開始難以分辨,觀眾反而更想知道「這到底是誰做的」——創作過程的透明度正在變成一種建立信任的機制、甚至是差異化的競爭優勢。她舉了幾個例子:「Made by humans」這類標語的作用其實跟「美國製造」的產品標籤一樣;幕後花絮(草圖、修改過程)變成一種「這是真人做的」的證據;Apple 的「手作魔法」行銷主打人的工藝;IBM Carbon 設計系統則直接在介面上標示哪些地方是 AI 在影響使用者體驗。她主張一個光譜式的判斷方式:表達性強的作品(電影、品牌、藝術)作者身份會直接影響作品的意義,這裡 AI 參與度的揭露很重要;純功能性的介面,使用者只在意好不好用;中間地帶像是 UI/UX 設計,則需要策略性揭露——標示哪些功能是 AI 輔助的、解釋推薦邏輯、在合適的地方提供人工替代選項。對工作室來說,重點不是把每個環節都攤開來講,而是判斷「客戶和使用者到底什麼時候會在意這件事是不是 AI 做的」,再決定怎麼揭露。"
-        },
-        {
-          "title": "The success of a remote studio comes down to one thing: effort",
-          "url": "https://www.itsnicethat.com/articles/comarticlescreative-career-conundrums-if-you-could-jobs-advice-060726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "It's Nice That 的職涯建議專欄這次回答一個剛畢業設計師的疑慮:加入一間完全遠端的工作室,會不會拖累早期職涯發展?Lucky Dip 共同創辦人 Katie Cadwell 的答案是:遠端本身不是問題,問題是雇主和員工有沒有雙方都投入足夠的心力。她建議工作室應該主動安排產業活動和協作場合讓團隊有連結感,同時也強調員工不能只等公司安排——要自己主動經營能見度和人脈,像是把作品發到網路上、主動爭取上台分享機會、參加設計活動、在 studio 文化裡積極提供即時回饋。具體做法包括:多用像 Slack 這種輕量管道隨時分享進度,而不是只等正式 review;要求「一起動手做」的協作場合而不是制式會議;讓資淺同仁也能參與更廣泛的商業活動,自然地學到東西。對隅室這種本來就是遠距/接案型態的小型工作室來說,這篇提醒的是:團隊感和成長機會不是靠辦公室位置決定的,是靠雙方主動投入的具體動作決定的。"
-        }
-      ],
-      "buzz": "今天 Product 圈的文章不約而同繞著同一個主題打轉:AI 沒有想像中萬能,設計師真正該守住的價值,是紀律性的驗證流程(先搞懂問題再動手)、清楚的作者歸屬(什麼時候該讓人知道這是 AI 做的)、以及系統性思考帶來的組織影響力(設計系統債務現在人人有感)。這些文章放在一起,其實是同一套論述的不同切面:AI 越普及,設計師的判斷力和紀律反而越值錢。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "This clever rebrand finds its entire personality in one tiny flourish",
-          "url": "https://www.creativeboom.com/news/this-rebrand-finds-its-entire-personality-in-one-tiny-typographic-flourish/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "英國客製化電動車充電線品牌 Wottz 找了小型工作室 Lark Design Studio 做識別設計,整個案子的巧思濃縮在一個地方:把閃電符號藏進 wordmark 裡雙 t 的橫槓中——夠隱晦、要仔細看才會發現,但一眼就能傳達出這個品牌對細節的執著。工作室沒有做一套繁複龐大的視覺系統,而是把品牌的核心訊息直接做進字體本身。這套識別延伸到包裝、車隊塗裝、接頭標籤這些不太吸引人的應用場景都撐得住,證明了這個概念的耐用度。配色維持克制:核心藍搭配霓虹黃,字體選用 Centra No.1 營造英式當代感,攝影走自然明亮風格,刻意避開電動車產業常見的過度工程感。這個案子對小型工作室或接案設計師特別有參考價值:面對創辦人主導、預算有限的客戶,一個夠犀利、執行到位的單一構想,勝過龐大卻裝飾性的視覺系統。"
-        },
-        {
-          "title": "Art school students and Bob Design brand refresh a 750-year-old London market with collaged pictograms",
-          "url": "https://www.itsnicethat.com/articles/bob-design-croydon-school-of-art-surrey-market-graphic-design-architecture-project-060726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "女性創辦的圖像設計工作室 Bob Design,與 Croydon School of Art 的學生合作,替倫敦最古老的市集之一、有 750 年歷史的 Surrey Street Market 做新的視覺識別。有別於由上而下丟出設計方案的做法,Bob 用工作坊和訪談的方式,收集學生、在地利害關係人、以及市集本身多元歷史(從中世紀建築到 dubstep 音樂起源地)的觀點。新識別的字體靈感來自市集歷史招牌的手繪字,拼貼手法做出的圖標系統帶有玩心,連指標系統也帶著「草根創意感」而不是一板一眼的官方感。Bob 的成員 Camille Le Flem 提到,他們邀請整個年級的學生「一起玩、一起測試這套視覺識別,把它當成一組任何人都能自己組裝的工具包」。這個案子延伸到建築層面的介入,包含旗幟、街道家具、新的市集入口,是一次結合社群參與、跨越平面到空間的完整品牌操作,對接社區型或文化型客戶的工作室來說是很好的協作方法參考。"
-        },
-        {
-          "title": "Creative director Gemma Phillips on why the best ideas start with conversations nobody wants to have",
-          "url": "https://www.creativeboom.com/insight/creative-director-gemma-phillips/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "創意總監 Gemma Phillips 在專訪中主張,好的創意要從「沒人想聊的對話」開始——品牌天生有把話講得漂亮一點的本能,但這其實是反效果的,因為「我們早就活在真相裡了,這才是最諷刺的地方」。她認為品牌要用平視、不做作的方式跟受眾對話,承認現實而不是包裝現實。她獲獎的作品(像是探討職涯被輾壓感的 The Career Shredder、談育嬰假的看板廣告)之所以成功,是因為它們把真實存在的挫折感直接、可見地呈現出來。她給工作室的具體建議是:找真正有信念、而不是只在乎表面好看的客戶合作;用幽默和直接展現你真的懂受眾,這是尊重不是粗魯;作品要立足在真實的生活經驗上,而不只是定位策略;面對預算有限、猶豫不決的客戶,更要主動引導他們做出勇敢的選擇,因為他們反而最沒有本錢打安全牌。核心結論很適合直接用在提案裡:真實的不適感,比精緻的平庸更有效。"
-        },
-        {
-          "title": "'Don't try to understand it': Meet Cooot, the studio making branding feel wonderfully uncertain",
-          "url": "https://www.creativeboom.com/inspiration/dont-try-to-understand-it-meet-cooot-the-studio-making-branding-feel-wonderfully-uncertain/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "上海工作室 Cooot 由創辦人 Bai Mi 主導,做的品牌識別刻意追求一種「不確定感」——他說「我希望大家看到我的作品時,不要急著先『看懂』它」,而是先感受到一種說不清楚哪裡不一樣的陌生感。這套方法論被他們稱為「在慣性裡打破慣性」:拿約定俗成的視覺語言,做剛剛好足夠的偏移去製造驚喜,但又不會讓人完全認不出來——營造出一種先短暫錯位、隨後又收回熟悉感的體驗。他們的作品(調酒品牌 PocketTAILS、咖啡品牌 BLO*R)示範了限制條件(酒杯形狀、天然色階漸層)如何變成創意的起點,做出來的東西同時讓人意外又覺得理所當然。這篇對工作室的啟發是:不必追求激進的顛覆或死守類別慣例,「讓熟悉的東西產生片刻的陌生感」本身就是一種值得經營的差異化路徑,是介於安全和叛逆之間的第三條路。"
-        },
-        {
-          "title": "How Freitag keeps its cool: A look inside the brand's less-than-conventional approach to creative campaigns",
-          "url": "https://www.itsnicethat.com/features/freitag-spotlight-060726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "瑞士包袋品牌 Freitag(用回收卡車帆布做包)的創意總監 Thomas Wakeford 接受訪談,談他們如何靠一貫的價值觀而不是追逐潮流,維持品牌長年的文化存在感。文中提到幾個代表性案例:F37 Renegade(讓創辦人穿睡袋入鏡)、Laura Bag(找了好幾個真的叫 Laura 的人來拍)、Easy Riders(找不同背景的通勤族入鏡)——品牌刻意避開專業模特兒,改用員工、顧客、朋友來呈現「真實的人」。Wakeford 的一句話很值得記下來:「永恆感只有在好設計解決真實問題、把產品濃縮到核心的時候才會出現」。對工作室來說,這篇最大的啟發是:品牌的長期生命力不是來自追逐趨勢,而是清楚自己的品牌故事根基是什麼,然後讓創意執行自然地從那個根基長出來——拍攝現場保有自發性、堅持誠實的呈現方式、把行銷紮根在產品真正的功能上,而不是靠行銷話術製造出來的形象。"
-        }
-      ],
-      "buzz": "今天幾個案例剛好從不同角度講同一件事:差異化不是靠更多素材或更大預算做出來的,而是靠一個夠清楚的觀點,然後有紀律地執行到底。Wottz 把整個品牌濃縮進一個藏在字體裡的閃電符號、Cooot 用「剛好足夠的偏移」製造陌生感、Freitag 幾十年來只靠一套價值觀撐住品牌調性——這些案例對小型工作室或接案設計師特別受用:你不需要跟大型代理商拚素材量,你需要的是找到那一個夠銳利的想法,然後有勇氣執行到底(就像 Gemma Phillips 說的,不敢做的客戶反而最該被推去做勇敢的選擇)。"
     }
   }
 ]
