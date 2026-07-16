@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-16",
+    "daily_summary": "今天 Product 圈在討論 AI 介面標準該由誰來定、以及策略比工藝更重要的老問題;Brand 圈則從紡織、飲食、排印到字體事業,示範了在資源有限或 AI 當道的環境裡,怎麼靠務實的方法和真實的手感,做出禁得起時間考驗的設計。兩邊剛好呼應同一件事:規則還沒定型的時候,先想清楚自己要站在哪裡,比追著最新的工具跑更重要。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "AI systems are demanding new interaction models. Are designers ready?",
+          "url": "https://uxdesign.cc/ai-systems-are-demanding-new-interaction-models-are-designers-ready-d8a95f5e55a9",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Arin Bhowmick 主張介面正在從「任務導向」轉向「意圖導向」,這需要設計師徹底重新思考互動方式——當 AI 系統能持續、多模態地即時對話,設計師必須跳脫沿用了四十年的桌面隱喻,去打造能跟「同時傾聽、行動、回應」的系統相處的互動模型。他舉了 Thinking Machines Lab 的 Interaction Models 為例:這套系統能同時處理音訊、影像、文字,還能在對話進行到一半時就做出回應;在一場示範裡,系統一邊持續討論商業資訊,一邊同時把生成式圖表畫出來,完全不中斷對話——傳統那種「使用者和機器輪流等對方」的互動假設,在這裡完全被打破。對設計師的實際建議是:重建心智模型,把系統原本看不見的推理過程變得可見;重新思考導覽方式,因應在聊天、生成式 UI、儀表板之間流動切換的體驗;刻意設計介入點,決定使用者在哪裡可以檢視、撤銷、確認 AI 的行動;把真正複雜的判斷交還給人——「哪裡是人要為結果負責的地方,介面就該是承載那份責任的工具」。"
+        },
+        {
+          "title": "Designers are sharpening knives for the wrong fight",
+          "url": "https://uxdesign.cc/everyones-sharpening-knives-for-the-wrong-fight-56844adad459",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Dan Maccarone 主張設計產業一直執著於把「工藝」磨到完美,卻忽略了策略——也就是「決定該做什麼、為誰而做」這個最根本的功夫。AI 讓「打造」這件事幾乎變得免費,拿掉了過去那個逼著大家在策略上保持嚴謹的天然限制,結果是團隊現在可以對著一個根本沒人要的產品無止盡地迭代下去。他舉了一個新創案例:一家公司花了兩年半、做了四次迭代,打造出一個外觀精美、功能完善的產品,卻「完全不知道誰生病了」——他們有頂尖的工程能力,卻從來沒有回答過關於目標使用者的基本策略問題。他也用自己開酒吧的經驗類比:在曼哈頓開 Destination 酒吧之前,他先去競爭對手的店裡走一圈,找出市場的空缺,而不是假設自己的願景就是市場需要的——資源有限反而逼出了策略上的誠實。Skift 的創辦人 Rafat Ali 一開始想做四條腿的內容產品,後來發現顧客其實只在乎其中兩條腿——成本壓力逼出了「哪些東西真正重要」的答案;換成現在有 AI 加持的團隊,可能會不經測試就把全部六個版本都上線。實際的啟發是:先決定什麼值得打造,再去優化怎麼打造——當打造的成本變低,精準抓到客戶真正的需求,才是唯一能長久的差異化優勢。"
+        },
+        {
+          "title": "Designing with web standards: The playbook for this AI moment",
+          "url": "https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Patrick Neeman 主張現在的 AI 介面,正在重演 1990 年代瀏覽器大戰的混亂——ChatGPT、Claude、Gemini、Copilot 每個平台做法都不一樣,完全沒有共通慣例。他拿 Jeffrey Zeldman 當年成功推動網頁標準化運動來類比,主張設計師現在就該建立 AI 介面的共通標準,搶在廠商各自為政、局面定型之前動手。他舉了瀏覽器大戰的例子:Netscape 的閃爍標籤(blink)對上 Internet Explorer 的跑馬燈標籤(marquee),逼著設計師得針對不相容的系統重做網站三次;Zeldman 當年透過 A List Apart 雜誌和 Web Standards Project,說服整個產業「統一慣例值得為它奮鬥」。現在的落差包括:各家 AI 產品處理「信心程度標示」、「來源引用」、「推理過程呈現」的方式完全不同,讓評估和比較變得很困難。實際的建議是:現在就開始記錄並公開分享你的 AI 介面模式;讓「信心程度」和「可追溯性」預設就是看得見的;用像 design.md、accessibility.md、content.md 這樣的 Markdown 檔案去統一代理人的行為;加入 W3C 既有的 Model Context Protocol 這類倡議,而不是自己另起爐灶。他提醒:塑造慣例的窗口還開著,但「一旦大家都同意這種混亂是正常的,窗口就關上了」。"
+        },
+        {
+          "title": "No, People Don't Want More AI In Their Life",
+          "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Vitaly Friedman 挑戰一個業界的預設立場:大家並不是渴望更多 AI 功能,大多數人真正抗拒的,是那些整合得很爛、增加工作流複雜度卻沒有明確價值的工具。文中的數據很直接:AI 功能普遍呈現「採用率和留存率都很低,但交付成本卻很高」;一項生產力研究發現週六加班增加了 46%、週日加班增加了 58%,結論是「AI 沒有減少工作量,它讓工作量變得更密集」。AI 輔助背後藏著的隱性成本是:使用者得先略讀產出、抓出重點、驗證準確度、檢查推理過程、把修正講清楚、再重新生成一次——這一整套流程,反而抵銷掉原本承諾的效率提升。組織原本就已經被互不相通的系統搞得很痛苦,新的 AI 工具又變成另一個要學著在裡面穿梭的平台,結果經常是製造出更多工作,而不是消除工作。對設計師的實際建議是:做「AI 其次」不如做「AI 優先」的解決方案——成功的 AI 功能應該無縫融入既有工作流程,而不是硬要使用者另外學一套新工具;把真正繁瑣的任務自動化,同時保留有成就感、有創造力的工作部分;維持可靠、可預期的表現;順應使用者原本的心智模式,而不是強迫使用者改變行為。"
+        },
+        {
+          "title": "Illustrator pricing in 2026: what 403 artists told us about day rates, licensing & the 20% who feel fairly paid",
+          "url": "https://www.creativeboom.com/insight/illustrator-pricing-in-2026/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Creative Boom 對 403 位插畫接案者做的 2026 年報價調查,呈現出一個不太讓人意外但值得記下來的現況:英國插畫接案者的日薪中位數是 350 英鎊,一半的人落在 280 到 450 英鎊之間,只有 9% 的人日薪能超過 500 英鎊——而且經驗的回報很有限,做滿 20 年資歷,日薪也只多了 125 英鎊。但更值得注意的是,342 位受訪者裡只有 41 人主要用日薪計價,大多數人偏好用專案報價。授權議題是最大的痛點之一,超過五分之一的受訪者提到授權相關的挫折——一位插畫師說:「大部分客戶以為大規模發行的設計只值花生米的價錢」,很多創作者都在苦惱怎麼跟客戶解釋,完整版權轉讓應該讓報價明顯提高、有時候甚至要翻三倍。只有 20% 的人覺得自己的報酬是公平的;最扎心的關聯是:受 AI 影響顯著的插畫師,滿意度只有 16%,沒受 AI 影響的則有 38%;而報價比較高的人(中位數 425 英鎊)反而比報價低的人(280 英鎊)更覺得自己被公平對待。核心啟發很直接:覺得自己被低估的插畫師,應該優先考慮調漲報價——把「知道自己值多少」和「把價值講清楚」這兩件事一起做到,同等重要。"
+        }
+      ],
+      "buzz": "今天的主題剛好圍繞著「AI 浪潮下,設計師該把力氣花在哪裡」——Arin Bhowmick 和 Patrick Neeman 兩篇都在講 AI 介面需要新的設計慣例和標準,現在正是搶先塑造規則的窗口期;Dan Maccarone 那篇則提醒,工藝做得再精緻,如果從頭就沒搞清楚該做什麼、為誰做,那些精雕細琢的產出全都是白費工夫;Vitaly Friedman 的數據更直接戳破了「大家都想要更多 AI」這個業界迷思;Creative Boom 的插畫報價調查則從最現實的角度提醒:知道自己的價值、並且敢開口要,才是接案設計師對抗 AI 焦慮最實際的武器。今天的訊息很一致:比起追逐更炫的 AI 功能,先把「該做什麼」和「值多少」這兩題答對,才是真正的地基。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "From tea rituals to fluorescent toolkits, Small Batch Studio uses food to design relationships",
+          "url": "https://www.creativeboom.com/inspiration/from-tea-rituals-to-fluorescent-toolkits-small-batch-studio-uses-food-to-design-relationships/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "2016 年由 Eunkyung Kang 在首爾創立的 Small Batch Studio,核心信念是食物本身不是重點,「怎麼吃,比吃什麼更重要」——他們把飲食體驗當成建立人際連結的載體。代表作《Connecting Tea》讓參與者拉緊一條綁著茶包的繩子,依自己感覺舒服的距離停下來,再把這個物理測量結果對照 Edward Hall 的人際距離理論(proxemics),用泡茶這個動作把情感和社交的親疏距離具象化。另一個作品《Recipes Are on the Map》把手寫食譜疊加在地圖上,追蹤移民身份流動不定的樣貌——這個主題在首爾特別有共鳴,因為當地有 40% 的居民是獨居,很多人是從韓國其他地方搬過來的。這個工作室的方法論很特別:刻意使用大自然裡幾乎不存在的螢光色調,當作「人為介入食物體驗」的視覺標記——從用不自然的紅色和綠色呈現韓國小麥風味輪,到最近推出的「손맛」(手感)計畫,把食譜當成培養直覺廚藝的教學手冊,螢光色貫穿了他們大部分的作品。"
+        },
+        {
+          "title": "Meet Zahari Dimitrov, the designer helping Bulgaria's cultural organisations build a future – and an archive",
+          "url": "https://www.creativeboom.com/inspiration/meet-zahari-dimitrov-the-designer-helping-bulgarias-cultural-organisations-build-a-future-and-an-archive/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "保加利亞設計師 Zahari Dimitrov,正在填補家鄉文化產業裡一個嚴重的缺口。他 2020 年從海牙皇家藝術學院畢業後回到索菲亞,發現許多有野心的文化組織根本缺乏基本的設計基礎建設——沒有網站、沒有出版品、也沒有容易取用的檔案庫。他的工作重點是為藝術節、畫廊、機構建立能長久維持的系統,他強調實際可行的解決方案:「這些組織有很大的野心,但資金非常少,做出來的平台必須是交接之後,一個兩人團隊就能維護得下去的東西」。具體案例包括:重新設計索菲亞國際數位藝術節的網站,把它做成一個可以長期瀏覽、容易維護的檔案庫,用來記錄那些活動結束後往往就消失的野心之作;跟藝術家 Ariane Toussaint 合作的紡織出版品,是一本手工縫製、絹印的書,探討紡織工藝和居家感,「形式和內容根本分不開」。他目前正在耶魯大學藝術學院攻讀 MFA(靠 Fulbright 獎學金支持),計畫將來在索菲亞成立獨立工作室,把接案工作、開放式工作坊、和未來的設計駐村計畫結合在一起。"
+        },
+        {
+          "title": "'The world is deserving of better design': Koto's Jowey Roden on his mission to make quality typefaces affordable",
+          "url": "https://www.creativeboom.com/news/the-world-is-deserving-of-better-design-kotos-jowey-roden-on-his-mission-to-make-quality-typefaces-affordable/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Koto 的首席創意長暨共同創辦人 Jowey Roden,正透過工作室新開的字體鑄造廠 CCType,推動專業排印技術的民主化。他的核心提問是:「我們過去十年累積的知識、品味、經驗,要怎麼用更低的成本讓更多人用得到?」——這個使命延續自 Koto 先前推出的 Seasoned,一個給新興創作者的免費學習平台。CCType 刻意把價格訂得平易近人(單一字重從 60 英鎊起、沒有續約費),明確鎖定接案設計師和小型工作室這群傳統上用不起高階設計工具的人;Roden 的信念很直接:「這個世界值得擁有更好的設計,我們有責任兌現這件事」。值得注意的是,CCType 上線時只推出了一款字體 CC Timeline,而不是一整套產品線——Roden 解釋這個節制的做法反映了「用一種務實的態度看待這個計畫」,強調用「公開建造」的心態,把品質看得比數量重要。對接案設計師和小型工作室來說,這篇示範了怎麼把多年累積的專業知識,轉化成一門有清楚使命、可持續的副業。"
+        },
+        {
+          "title": "Are we stuck in the typographic principles of the 20th century? Matter Of's new anti-design manual investigates",
+          "url": "https://www.itsnicethat.com/articles/matter-of-new-new-typography-graphic-design-publication-project-150726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Matter Of 的新出版品《New New Typography》提出一個挑釁的問題:當代設計師是不是還被困在 20 世紀建立的排印慣例裡?書名呼應了 Jan Tschichold 一百年前提出的「新排印」(New Typography),把自己定位成一次「新新」的迭代,試圖打破既有的規範。這本書用了刻意的設計手法來提問:每個章節輪流切換六款無襯線字體、在黑白頁面上點綴天藍色的重點標示,近百位協作者參與,內容橫跨從文藝復興的設計理想到當代字體生成方法的各種主題。作者群認為,當代排印可能更看重「可塑性或風格」,而不是早期那種以易讀性為核心的追求。工作室形容這本書是「一本混亂、不穩定的排印反手冊」,用 243 張圖和六個理論性提案,共同呈現出「排印學根本不可能被一次性全面概覽」這件事。這本書不打算給出答案,而是鼓勵大家對排印的未來保持想像力和思辨空間。"
+        },
+        {
+          "title": "'Detail is a universal language': Marcos Montiel on packaging, process and love for pencils",
+          "url": "https://www.creativeboom.com/inspiration/freedom-fear-and-feast-or-famine-an-honest-look-at-the-pros-and-cons-of-going-freelance/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "插畫師 Marcos Montiel 談的是怎麼在 AI 時代維持創作的真實感。他重視實體產出勝過數位輸出,他說:「當一個人能拿起一件作品、翻過來看、把它帶進日常生活裡,它就變成了完全不同的東西」。面對科技,他沒有選擇完全抗拒,而是回到最基本的流程:先用鉛筆手繪草稿,再進到數位精修階段——這個順序保留了機器沒辦法取代的人手痕跡。他對待不賺錢的個人作品,態度跟商業委託案一樣嚴謹,讓自己的風格能真實地累積出來,而不是急著去做品牌塑造。實際的啟發是:透過真誠地做作品,慢慢建立自己的創作身份,而不是靠倉促的塑造品牌動作;把重心放在「你的手和判斷跟自動化方案的差別在哪裡」上,並讓這個差異在有酬和無酬的專案裡都能持續累積和展現。"
+        }
+      ],
+      "buzz": "今天的案例剛好從不同的角度回答同一個問題:設計怎麼在資源有限、AI 崛起的年代裡,依然保有真實的價值?Small Batch Studio 用螢光色和拉繩測距離,把飲食經驗變成一種能被感受到的人際連結;Zahari Dimitrov 示範了怎麼用「兩人團隊也能維護」的務實心態,幫資源稀缺的文化組織建立起能存活下去的檔案系統;Koto 的 Jowey Roden 則把多年累積的字體專業知識,轉化成一個對接案者友善的可負擔事業;Matter Of 的排印反手冊提醒我們,連「什麼是好排版」這種基本假設,都值得被重新挑戰;Marcos Montiel 則用鉛筆手繪這個最原始的動作,說明了在 AI 時代,真正的差異化往往藏在最慢、最手工的那一步裡。"
+    }
+  },
+  {
     "date": "2026-07-15",
     "daily_summary": "今天 Product 和 Brand 圈剛好從兩端呼應同一個問題——當 AI 把執行層工作接管之後,人還剩下什麼?Product 這邊在問「介面消失後,設計工作跑去哪裡了」,答案指向看不見的協調層和被保護起來的策略思考時間;Brand 這邊則用好幾個案例證明,願意保留一點手感、怪癖、和不完美(Granola 的手寫 logo、Mathilda Mutant 的玩心專案),反而是對抗這波冷感科技美學最有效的武器。",
     "jenny_wen": {
