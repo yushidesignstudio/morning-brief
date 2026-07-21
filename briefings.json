@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-18",
+    "daily_summary": "今天 Product 圈算是把過去兩週的論述做了一次收斂——AI 揭穿了設計界過去十年用策略換速度的交易,判斷力、研究裡的學習過程、和規格化的協作方式,才是接下來真正的資產;Brand 圈則用出版保存、招牌修復、插畫哲學這幾個案例,示範了「慢下來、講清楚一件事」在 AI 時代反而更珍貴。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "AI just called design's bluff",
+          "url": "https://uxdesign.cc/ai-just-called-designs-bluff-2b94bf2f5cae",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Jessa Parette 主張:不是 AI 削弱了設計,而是 AI 揭穿了設計這個行業過去十年一直在用「策略影響力」去換「交付速度」的事實。設計師花了十年時間優化速度和介面產出,結果反而讓這些能力變成最先被自動化取代的部分。她指出企業現在會直接問「AI 不能做這個嗎?」,是因為設計師自己花了十年證明「做介面」才是他們的核心價值;與此同時,判斷力、系統思考、組織對齊這些能力,卻在大家追逐衝刺(sprint)指標的過程裡逐漸荒廢。她認為現在正在發生一種新的稀缺:當產出變得便宜,能承受模糊、能解讀風險、能做策略性決策的能力,反而變成真正值錢的東西。她把 AI 自動化這件事,重新框架成一種解放:設計師現在等於拿回了原本花在介面執行上的 40% 時間,問題只在於——你要選擇跟機器拚效率(這場仗贏不了),還是投資在無法被取代的判斷力上?她的結論很犀利:「設計從來就不是關於長什麼樣子……設計是關於一個東西怎麼運作」——但設計師終於必須靠策略性的貢獻去證明這件事,而不是靠視覺執行。"
+        },
+        {
+          "title": "Don't Outsource the Learning: Why Human-Led Research Still Matters in the Age of AI",
+          "url": "https://www.nngroup.com/articles/human-led-research-still-matters/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Maria Rosala 主張:就算 AI 在產出品質上追平人類研究員,由人主導的研究依然無法被取代——因為研究過程中發生的「學習」這件事沒辦法被自動化。研究本身會產生兩種東西:發現(findings)和團隊學習,而真正驅動組織做出有意義改變的,是後者而不是前者。她引用研究說明:個人化的敘事會同時激活大腦裡好幾個區域,包括負責情緒、記憶、社交推理的部分,遠比純技術性內容更全面——一項研究發現「說故事的人和聽眾之間大腦活動的鏡像程度越高,聽眾的理解和記憶就越好」;另外「自我產生效應」也很關鍵:人靠自己努力主動生成的資訊,記憶保留度遠高於被動接收的資訊——當團隊自己動手做研究,會自然套用這個原理;但把分析工作外包給 AI,就把這個保留記憶的好處拿掉了。她也點出「學習的幻覺」:讀一份完整的報告會製造出一種虛假的自信感,但沒有對應的長期記憶保留——就像學生考前重讀筆記那樣。實際的建議是:把 AI 策略性地用在不會教會團隊任何東西的支援性工作上(招募受訪者、轉錄逐字稿、清理資料);但要保護那些詮釋性、產生意義的工作——主持訪談場次、現場觀察、一起做 debrief——這些才是真正驅動設計決策和組織買單的學習。"
+        },
+        {
+          "title": "From vibe to specs: reclaiming the design process with SAID framework",
+          "url": "https://uxdesign.cc/from-vibe-to-specs-reclaiming-the-design-process-with-said-framework-477a5d0d8932",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Darren Yeo 提出一個叫做 SAID 的框架,把「規格驅動開發」(spec-driven development)和 AI 協作結合起來:先「明確指定」(Specify)意圖、再交給「代理人」(Agentic)去執行認知性任務、接著透過「迭代」(Iterative)描述和修正、最後靠人來做「判斷」(Discernment)和嚴謹審查——這四個階段在原型和正式產出階段之間持續循環。他的核心論點是:傳統那種一階段一階段交接的設計流程,已經跟不上 AI 原生團隊打造數位產品的方式了——「舊的、循序漸進的設計流程,已經不夠應付 AI 原生團隊打造產品的方式」;現代團隊需要的是一個回饋迴圈式的架構,讓「規格」變成單一事實來源,讓人和 AI 代理人可以真正協作,而不是各自在孤立的階段裡工作。實際的啟發是:設計師該從「畫靜態的 demo 稿」轉向「定義系統的行為、限制條件、規則」;與其為了學 Git 而學 Git,設計師需要的是把創意意圖表達成人和 AI 都能執行的精準規格。真正的轉變,是從「以交付物為中心的交接」轉向「建立在清楚規格上的持續決策」。"
+        },
+        {
+          "title": "Design system contracts: the component lives in neither Figma nor code",
+          "url": "https://uxdesign.cc/design-system-contracts-the-component-lives-in-neither-figma-nor-code-3032d94ca067",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Christine Vallaure 指出設計系統會持續「漂移」走樣的根本原因:它同時存在於 Figma 和程式碼這兩個地方,由不同的人維護。傳統的解法是欽點其中一個當「正本」,另一個就變成過時的複製品,這會造成挫折感和不一致——而當 AI 越來越常被用來生成設計時,這個問題的嚴重性又更升級了。她提出的解法是「設計系統合約」:不去選邊站,而是在中間放進第三個產物——一份用 JSON 或 YAML 寫的合約檔案,描述元件的規格:選項、token、屬性、行為。Figma 和程式碼都從這份單一來源自動重建,再用一個檢查工具確保三者保持同步,精準抓出彼此開始「對不上」的那一刻——「同一個來源、兩份忠實的複本、還有一個能抓出它們何時開始不一致的機制」。這件事現在特別重要的原因是代理式 AI 的出現:實測發現,沒有約束的 AI 在做設計時只拿到 69/100 分(自己發明選項、把數值寫死、破壞系統),但同一個 AI 在合約限制下工作,拿到 100/100 分,完全尊重既有的設計決策。實際的啟發是:這個做法最適合 20 到 200 人的中型團隊——這種規模漂移問題會真的造成困擾,但又沒有足夠資源做人工維護;目前還需要一定的技術設置,小團隊還不容易直接上手。"
+        },
+        {
+          "title": "How to Kiss a Cannibal",
+          "url": "https://uxdesign.cc/how-to-kiss-a-cannibal-d4ca10ee4606",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Johan Liedgren 主張現在的設計已經變得太過可預測、太過交易性——服務的是企業利益,而不是人的真實生命經驗。他提出「閾限設計」(liminal design)作為替代方案:透過擁抱悖論、讓存在性的大哉問保持開放而不急著給答案,創造出真正有意義、能帶來轉化的體驗。閾限設計運作在矛盾之間的「門檻空間」裡,靈感來自人類學(van Gennep、Turner)和美學理論(康德的崇高美學)——跟那種「線性、簡化、被安全放置在日常世界裡」的交易式設計不同,閾限體驗會同時混合互相衝突的情緒,也就是康德所說的「負向愉悅」(痛苦和喜悅同時存在)。他舉了太空人 Russell Schweickart 在阿波羅九號任務中太空漫步的例子:從太空看地球產生的敬畏感——同時感覺自己渺小、又感覺自己是某個浩瀚事物的一部分——催化了長久的個人轉變。他提出一個三步驟框架:先萃取出有意義的衝突、把它框架成引人好奇的懸念(敘事慾望);用策略性的削減賦予這個提問具體的隱喻形狀(優化過的抽象化);清楚標示出門檻、維持敘事的開放性(懸置懷疑)。實際的啟發是:設計師該擁抱當那個「草叢裡的那條蛇」——用真誠、由提問驅動的體驗去打斷企業式的自滿,把詮釋的空間留給觀者自己。"
+        }
+      ],
+      "buzz": "今天的文章剛好分成兩層——Jessa Parette 從產業結構的高度反省:設計師過去十年拿策略影響力去換交付速度,現在正在自食其果,但也因此拿回了本該投資在判斷力上的時間;NN Group 那篇則從研究方法的角度,補上同一個論點的另一半:把研究外包給 AI,拿掉的不只是產出品質,而是團隊在過程裡累積的學習和說服力。SAID 框架和設計系統合約兩篇,則從很務實的工具層面回答同一個問題:當 AI 代理人加入設計流程,規格怎麼變成人和機器都能依循的單一事實來源。Liedgren 的閾限設計則從完全不同的高度收尾——提醒我們別忘了設計除了解決問題,也可以是一種讓人被撐開、被轉化的體驗。今天的主軸依然清楚:交付速度已經不值錢了,判斷力、學習過程、和讓人被打動的能力,才是真正的資產。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Look up! Parallel Press' Astro Black archives and protects the dazzling visual history of Black astronauts",
+          "url": "https://www.itsnicethat.com/articles/parallel-press-astro-black-publication-graphic-design-project-160726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "《Astro Black》是 Parallel Press 的創刊出版品,梳理 18 位黑人太空人對太空探索和科學的貢獻。共同創辦人 Akoua Smith 和 Renald Louissaint 做這個計畫,是為了保存正在消失的歷史影像、向黑人在航太領域的成就致敬。視覺識別上跳脫了一般太空主題常見的星雲式美學,改用金屬質感和機械元素——火箭和探測車在漆黑太空背景下——強調科技突破感;插畫家 Steven Horton Jr. 在分隔頁上做的單色星座拼貼,則營造出一種時間流逝的感覺。Akoua 說團隊追求的是「讓內容發光,不受任何外在干擾」;這本出版品把 1970 年代黑人音樂和電影的文化印記,跟 NASA 的檔案影像並置在一起,把作品紮根在黑人文化史裡,同時也在保護那些因為政治局勢變化而面臨威脅的聯邦檔案影像。這本書的急迫性,來自於保護視覺紀錄這件事本身:「一本書,沒辦法被刪除」。"
+        },
+        {
+          "title": "Noble Signs restores NYC's storefront signage so you \"feel at home before you've stepped in your own door\"",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-june-noble-signs-160726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Noble Signs 共同創辦人 David Barnett 在紐約的 Nicer Tuesdays 活動上,分享了工作室對復古城市招牌的熱情。這間平面設計工作室已經蒐集了超過 200 個紐約市的店面招牌,他們的方法論建立在手繪設計工藝上,專精於挽救正在消失的招牌文化。Noble Signs 會跟社區型商家合作——特別是麵包店和熟食店——真實地重製或修復那些已經消失、但深受喜愛的老招牌。這個做法反映了他們的核心信念:保護紐約商業街道的視覺特色和歷史底蘊,同時幫在地商家重新連結自己的歷史身份。"
+        },
+        {
+          "title": "How do you avoid overcomplicating an editorial illustration? Ana Miminoshvili has mastered the art",
+          "url": "https://www.itsnicethat.com/articles/ana-miminoshvili-illustration-discover-160726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "插畫家 Ana Miminoshvili 的創作方法建立在簡化和清晰之上。她會先徹底研究編輯委託的 brief,把資訊濃縮成一句話,再用這句話驅動視覺概念。她的工作流程混合了類比和數位手法:先在各種筆記本上手繪草稿、列出跟這次委託相關的關鍵字,再用黑色代針筆修飾這些草圖,最後才轉進 Photoshop 和 Illustrator 做數位處理。她的創作哲學很直接:「我的目標永遠是保持直截了當,不要把事情弄得太複雜」——這個原則指引她處理氣候變遷、酷兒身份、死亡這類複雜議題的方式。她不會做出精雕細琢的意象,而是用低調的奇幻元素——像是沙漏形狀的飛機窗戶、或墓碑旁一隻粉紅色的紙鶴——透過寫實色彩和刻意衝突的質感並置,傳達情感上的共鳴。她那種混合古典線稿感和當代數位上色的風格,做出來的插畫既有種永恆感、又很當代,同時保持概念上的直接。"
+        },
+        {
+          "title": "The Weekend With Lava La Rue",
+          "url": "https://www.itsnicethat.com/features/the-weekend-with-lava-la-rue-170726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這篇專題側寫音樂人暨創意總監 Lava La Rue(本名 Ava Laurel),透過她的週末推薦和創作靈感,呼應她剛發行的新單曲《Prince of Bologna》。訪談揭露了她橫跨音樂、文學、電影、飲食文化的龐雜靈感來源——從 Maurice Cornforth 的馬克思主義理論、前衛恐怖電影、到龐克音樂節,展現出當代藝術家怎麼把看似不相干的文化養分,綜合成一致的創作產出。她那種「打破類型界線」的做法,反映了當代創作實踐拒絕被歸類的傾向:把龐克美學和獨立搖滾製作揉在一起,把 DIY 集體精神和專業合作(葛萊美得獎製作人 Fraser T. Smith、獨立廠牌 Speedy Wunderground)結合在一起。這篇訪談也強調了倫敦方便的地理環境和文化基礎建設——街坊餐廳、獨立電影院、音樂節——怎麼餵養創作,把藝術實踐定位成鑲嵌在真實生活經驗和社群參與裡的東西,而不是孤立的產出。"
+        },
+        {
+          "title": "Booms & Shakes: July's big new hires, launches and wins from across the creative industry",
+          "url": "https://www.creativeboom.com/news/booms-shakes-julys-hires-launches-and-wins-from-across-the-creative-industry-/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Creative Boom 每月的產業動態整理,這期幾件事值得工作室留意:Oliver 從 TikTok 挖角 Tom Skinner 擔任集團執行創意總監,帶著六年社群平台經驗過去,反映產業正在往「社群優先」的創意領導傾斜;Mother Design 在洛杉磯 West Adams 社區開了一間實體選物店,賣策展過的物件和設計品——把零售和創作實踐融合在一起的少見做法。新工作室方面:MOX/WORLDS 成立,專攻「品牌設計、創新、和體驗」,共同創辦人 Matt Bolton 稱之為「人可以真正走進去的世界打造」;Perfect Stranger 從 Hornet 獨立出來,成為一間 20 人的全服務創意工作室,把「品牌策略、設計、廣告製作」整合在同一個屋簷下;Oh Nice 則從 Flow Creative 獨立出來,專門服務非營利和公益組織,解決預算有限團體的溝通難題。大案子方面,M+C Saatchi Sport & Entertainment 拿下 Boss 和 Hugo 的全球公關合約,Grey London 則拿下 Synechron 的全球品牌平台專案。對工作室來說,這期最值得注意的訊號是:越來越多工作室選擇拆分出更小、更專精的獨立單位,而不是繼續擴大同一間全服務代理商。"
+        }
+      ],
+      "buzz": "今天的案例橫跨了很不同的尺度:Parallel Press 的《Astro Black》示範了出版設計怎麼肩負起保存正在消失的歷史影像這個急迫任務;Noble Signs 則從紐約的老招牌裡,示範了「修復」本身也是一種設計實踐,靠手繪工藝把社區的視覺記憶找回來;Ana Miminoshvili 的編輯插畫哲學提醒我們,「不要把事情弄複雜」本身就是一種需要練習的專業能力;Lava La Rue 的週末側寫則從音樂人的角度,示範了跨領域涉獵怎麼餵養創作產出;Booms & Shakes 的產業動態則透露一個訊號:越來越多工作室選擇拆分成更小、更專精的單位,而不是繼續做大做全。"
+    }
+  },
+  {
     "date": "2026-07-16",
     "daily_summary": "今天 Product 圈在討論 AI 介面標準該由誰來定、以及策略比工藝更重要的老問題;Brand 圈則從紡織、飲食、排印到字體事業,示範了在資源有限或 AI 當道的環境裡,怎麼靠務實的方法和真實的手感,做出禁得起時間考驗的設計。兩邊剛好呼應同一件事:規則還沒定型的時候,先想清楚自己要站在哪裡,比追著最新的工具跑更重要。",
     "jenny_wen": {
