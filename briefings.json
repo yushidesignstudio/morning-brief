@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-22",
+    "daily_summary": "今天 Product 圈一連戳破好幾個設計圈的自我感覺良好——作品集能被 AI 造假、團隊常常在回應流程訊號而不是真正的使用者需求、實驗這個詞本身就嚇跑了很多人;Brand 圈則圍繞著「文字和圖像之間還能怎麼玩」這個主題,從啤酒包裝、排印工作室、紙藝雕塑,到情緒日記海報,示範了同一個工具(文字/排版)能長出多少種不同的表達方式。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "AI can fake your portfolio. It can't fake the second question.",
+          "url": "https://uxdesign.cc/ai-can-fake-your-portfolio-it-cant-fake-the-second-question-c89f96626f1c",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Vlad Derdeicea 主張 AI 已經把設計師求職市場的經濟邏輯整個顛倒過來。作品集和案例研究現在 AI 很容易就能生成,所以真正能證明能力的,只剩下面試現場的對話——他稱之為「房間測試」。過去,做出一份作品集很貴、但驗證它的真假很便宜;現在剛好反過來。他分享了自己的親身經歷:多年前一場副總裁層級的面試,他被問到「設計思考」時因為誠實地反問這個詞是什麼意思,結果被刷掉——即使他已經有八年紮實的實務經驗,卻缺乏能捍衛自己作品的詞彙。他也舉了一個候選人案例:一份很扎實的銀行業案例研究,在被問到「原本差點做出來、後來沒選的方案是什麼?」時整個站不住腳——這暗示候選人根本沒有在最終方案之外做過任何探索。他引用的數據也很有意思:被評估的設計師裡有四成的自我評估跟實際表現不一致,將近一半自認為是資深的人,測出來的等級反而低了一階。實際的啟發是:別再把 20 小時都花在打磨作品集、卻只花 1 小時練習怎麼捍衛它——應該透過四個練習累積「實戰經驗」:把決策過程講出聲音、記錄專案結束後學到的東西、主動邀請別人早期給批評、觀察資深工作者面對壓力時怎麼應對。你在房間裡展現出來的那個狀態,現在是唯一沒辦法造假的資產。"
+        },
+        {
+          "title": "The feature trap: how product teams confuse building with validating",
+          "url": "https://uxdesign.cc/the-feature-trap-how-product-teams-confuse-building-with-validating-24b13f865f2e",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Melinda Jacobs 指出產品團隊常犯的一個錯誤:他們回應的是流程上的訊號——路線圖、規劃週期、待辦清單的壓力——而不是真正的客戶問題,這種反應式的做法,優先考慮的是「讓自己看起來很忙」,而不是解決真正的難題。她引用瑞典生物學家 Lars Wilsson 在 1960 年代對海狸的研究來類比:海狸會對「觸發訊號」做出反應,而不是對真正的需求——牠們會在播放流水聲的喇叭上方築水壩,即使根本沒有漏水;但附近真正在漏水的地方,只要是無聲的,牠們反而完全視而不見。她認為團隊也常常這樣——依照組織內部的訊號去建構功能,而不是依照被驗證過的使用者需求。實際的啟發是:動手做之前,團隊該先分辨清楚自己是在回應「流程上的提示」還是在處理「實質性的問題」;真正有策略性的產品開發,需要先問「為什麼該做這個」,而不是只問「下一個開發週期什麼時候開始」——驗證應該走在建構之前,而不是建構完之後才補做驗證。"
+        },
+        {
+          "title": "Design experiments are more important than ever, and they don't require a lab",
+          "url": "https://uxdesign.cc/design-experiments-are-more-important-than-ever-and-they-dont-require-a-lab-a81d68e97393",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Kai Wong 主張設計師普遍高估了做設計實驗需要的科學嚴謹程度。他訪談了 260 多位設計師後發現,「實驗」這個詞本身就會讓很多設計師整個僵住——像「最小可偵測效應」、「統計檢定力」、「p 值」這類學術術語,聽起來就讓人覺得遙不可及;他指出這其實是一種心理障礙,而不是真正的技術門檻。他建議一個很實用的語言調整:把「實驗」重新包裝成「下注」(bets)這個詞,來跟高層溝通——這個語言上的轉換,拿掉了不必要的威嚇感,同時依然保留對設計結果的嚴謹思考。核心訊息是:結構化的設計探索,不需要完整的實驗室條件或統計專業,一樣可以做得很有價值——重點是別因為覺得太複雜就整個放棄實驗這件事,學會用領導者能聽懂、願意 buy-in 的語言去包裝它。"
+        },
+        {
+          "title": "I handed a UX review over to AI. Here's what happened.",
+          "url": "https://uxdesign.cc/i-handed-a-ux-review-over-to-ai-heres-what-happened-0511e73e4ffe",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Kolozski István 主張 AI 在 UX 審查上是很強大的輔助工具,但沒辦法取代專家判斷——準確度取決於餵給系統的專業知識,而不是模型本身有多強。他做了一個實驗:同時用 Claude 和 ChatGPT 對一個入口網站的搜尋頁和產品頁做 UX 審查,再把結果拿來跟自己手動分析的結果比對。主要發現:兩個模型都找到了一些有用的觀察,但也都標記出一些不相關或是憑空捏造的問題;Claude 在措辭和結構上比 ChatGPT 準確;兩個模型加起來,總共只找到大約 21% 的真實可用性問題(這個比例跟 2025 年 NNGroup 的一項研究吻合);把 AI 和他自己的人工分析結合起來,整體時間縮短了大約 15%。實際的建議是:「該做」的事——把 AI 當成第一輪分析的夥伴,搭配真實資料使用,用結構化的步驟一步步來,把自己的判斷準則寫成可重複使用的 prompt;「不該做」的事——原封不動地把 AI 產出直接交付、期待單一個 prompt 就能取代整套工作流程、把嚴重程度和商業情境的判斷權交給 AI。核心洞察是:懂得怎麼指揮 AI 的設計師,會超越那些不懂的人——但策略性的判斷,終究還是人的事。"
+        },
+        {
+          "title": "Does Your Form Really Need a Dropdown List?",
+          "url": "https://www.nngroup.com/articles/dropdown-list/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NNGroup 挑戰表單設計裡濫用下拉選單的習慣。設計師偏好下拉選單是因為它精簡、又能限制資料格式,但下拉選單背後藏著的隱性成本,往往超過它帶來的好處——文章主張下拉選單該被當成一個「刻意的權衡取捨」,而不是預設的解法。下拉選單的問題包括:選項被藏起來,降低了可被發現的程度,使用者可能根本不會去看預設值以外的選項;需要多個互動步驟(點擊、捲動、選取)才能完成,造成摩擦;對使用鍵盤或有肢體障礙的使用者形成無障礙門檻;還有一種「資料品質的幻覺」——限制選項並不保證資料準確,如果選項本身就跟使用者的心智模型對不上,問題依然存在。文章提供了具體的判斷指引:選項太少(少於 5 個)該用單選按鈕;選項太多(超過 15 個)該用可篩選的 combobox;資料本身有可預期的格式(年齡、日期)該用文字輸入搭配合適的鍵盤;需要視覺比較時該用能顯示所有選項的按鈕。下拉選單只有在選項數量適中(5 到 10 個)、這個欄位是次要任務、多個欄位組成一個需要保持版面一致的單元時才適用。核心提醒:「把下拉選單當成一種取捨,而不是預設選項」。"
+        }
+      ],
+      "buzz": "今天的文章剛好從不同角度戳破幾個設計圈常見的自我感覺良好:Vlad Derdeicea 提醒,作品集能被 AI 造假,但面試現場真實的判斷力沒辦法;Melinda Jacobs 用海狸對著喇叭築水壩的例子,點出團隊常常在回應流程訊號、而不是真正的使用者需求;Kai Wong 則指出「實驗」這個詞本身就嚇跑了很多設計師,換個說法(「下注」)反而更容易推動;Kolozski István 的 AI 審查實驗提供了具體數據——AI 加人工分析只找到 21% 的真實問題,但確實省下 15% 時間,證明 AI 是輔助而不是替代。NNGroup 的下拉選單那篇則從最基本的介面模式提醒:連最平凡的表單元件,都值得被重新檢視。今天的主軸是:不管是求職、產品開發、實驗設計、還是 UX 審查,真正的判斷力都藏在細節的驗證裡,沒辦法用捷徑蒙混過去。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "How Thirst redesigned M&S's beer aisle, from stamp-inspired lagers to bold, flavour-led craft",
+          "url": "https://www.creativeboom.com/news/how-thirst-redesigned-mss-beer-aisle-from-stamp-inspired-lagers-to-bold-flavour-led-craft/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "飲料品牌顧問公司 Thirst,替 Marks & Spencer 的啤酒系列打造了兩套截然不同的設計系統。歐陸系列:工作室開發了一套復古郵票式的敘事框架,替每款啤酒建立產地的真實感——每款拉格啤酒都有自己的蝕刻風格插畫吉祥物,搭配獨特的字體和大膽的配色,這個做法在慶祝產地故事的同時,也讓整個系列產生收藏價值。精釀系列:Thirst 則採用「大膽徽章」式的階層設計,把酒廠合作夥伴的份量放在 M&S 品牌之上;設計語言直接呼應風味特性——顏色反映口味、字體因啤酒風格而異(session ale 用比較放鬆的字體、hazy 系列用波浪造型、美式啤酒則用美式手寫風格字體),搭配低調的色調紋樣和細緻的燙金線條,在核心、高階、無酒精這幾個層級之間都維持一致的精緻感。Thirst 的執行創意總監 Matt Burns 說:「精釀系列更直接、更外放,圍繞著合作夥伴、風味、和個性去建構」,而歐陸系列則更依賴「敘事和細節,去慶祝每款啤酒的產地」。對接零售、包裝案的工作室來說,這個案例示範了怎麼用兩套差異化的設計語言,服務同一個母品牌下不同定位的產品線。"
+        },
+        {
+          "title": "Sawako Kabuki on butts, bodily fluids and making work that refuses to behave",
+          "url": "https://www.creativeboom.com/inspiration/sawako-kabuki-on-butts-bodily-fluids-and-making-work-that-refuses-to-behave/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "東京和紐約兩地工作的動畫師 Sawako Kabuki,靠著把作品聚焦在身體機能、性、和人類存在的生理現實這類不落俗套的主題,建立起國際知名度。她的創作方法很直覺、而不是受某種意識形態驅動——她說:「我從來沒有刻意去選擇這些主題,它們就是一直自己回到我的作品裡」;她的創作實踐重視真實的好奇心,勝過預先設定好的概念框架,像《Butt Therapy》和《Everything Leaks》這類作品,是對個人和普世共通的身體經驗做的一種宣洩式探索。她大多獨立作業,覺得動畫這個媒材很適合她偏好獨立創作的性格;她的視覺語言取材自傳統日本元素——特別是橫尾忠則和浮世繪的構圖;她希望做出來的作品能在情感上、而不是理智上抓住觀眾,她說想做出「小孩會上癮的東西」;她對商業合作也很務實,曾跟 Google 和 Adult Swim 這類品牌合作,卻不需要妥協自己獨特的聲音。她的創作哲學最終看重的是誠實勝過挑釁——也認知到有時候讓某些執念維持不被表達出來,本身也可以是有意義的。"
+        },
+        {
+          "title": "Design studio Supersystème builds visual worlds by treating typography as image",
+          "url": "https://www.itsnicethat.com/articles/supersyteme-graphic-design-discover-210726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "蒙特婁設計師 Eveline Lupien 和 Marie-France Gaudet 組成的 Supersystème 工作室,探索「排印如何同時作為語言和圖像運作」。他們不把字母造型只當成溝通工具,而是把文字放在視覺構成的核心位置——工作室的方法論是去找出「排印介入能連結視覺概念、影像、和情境的那些時刻,產生出一種單靠任何一個元素都無法單獨傳達的全新閱讀方式」。舉例來說,在 Festival des Faubourgs 的案子裡,字母變成排列在海報網格上的拼圖片段;在 Offta 藝術節,層層疊加的語言構成了整套視覺識別系統;在 Centre CLARK 和 Jonction 的專案裡,文字透過刻意安排的尺度、方向、和並置關係運作。這個工作室把「系統」理解成一種更寬廣的框架,而不是死板的結構,意義會隨著設計介入而改變。他們常常在藝術家自營空間和補助案這類資源有限的情境下工作,這種限制塑造了他們克制的做法,讓「內容、研究、和文化論述能夠清楚地流通」。他們的協作模式是一種反覆的交流——兩位設計師會在彼此的視覺探索上互相疊加,發展出立基於扎實主題研究的解法。"
+        },
+        {
+          "title": "Kelli Anderson's paper gadgets and pop-up books approach graphic design as a fine art",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-june-kelli-anderson-210726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Kelli Anderson 把紙藝工程提升成一種藝術媒材,單純用紙就做出能互動、真的能用的物件。她的作品包括《This Book is a Camera》(一台真的能拍照的 4x5 相機書)和《This Book is a Planetarium》(展開後變成好幾種紙製機關的天文書)——這些作品證明平面設計可以超越傳統的二維邊界。她最新的計畫《Alphabet in Motion》,示範了她把排印和設計當成觸覺性、雕塑性的體驗來對待的哲學,而不只是靜態的視覺元素;她正在進行中的紙製唱片機計畫,則進一步展現了她怎麼用日常材料,把機械上的巧思和藝術表現結合在一起。"
+        },
+        {
+          "title": "Take a peek inside Mindspill, the typographic diary of Shrey Kathuria",
+          "url": "https://www.creativeboom.com/inspiration/take-a-peek-inside-mindspill-the-typographic-diary-of-shrey-kathuria/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "《Mindspill》是德里出身、現居倫敦的設計師 Shrey Kathuria 在 2025 年底啟動的排印海報檔案計畫,記錄他透過實驗性排印和情緒表達走過的個人歷程。這個計畫誕生於一段安靜的時期,他做的第一件作品是《Slowness Is Not Your Enemy》;每張海報都代表自我發現路上的一個里程碑,根植於他在艱難時期反覆對自己說的那些話——他形容:「這些海報大部分是從我在困難時期一直告訴自己的話拼湊出來的」,這些話語逐漸從焦慮的思緒,轉變成「一種更溫柔的聲音——一種紮根在樂觀和理性上的內在對話」。他的創作方法混合了好幾種技巧:先在 Illustrator 裡打出簡單的短句,再用畫筆和透過觸控板手繪的字母去扭曲排印,接著在 Photoshop 裡用濾鏡和效果做進一步處理,或是在 InDesign 裡實驗不尋常的排版方式。做出來的作品刻意難以閱讀——這是一種對「乾淨的設計」的刻意反抗,而 Shrey 覺得這種反抗本身很解放。他計畫未來邀請其他設計師加入,把 Mindspill 變成一個排印探索的協作空間,並探索動態設計裡的動態字體。"
+        }
+      ],
+      "buzz": "今天的案例剛好涵蓋了「文字和圖像之間的界線」這個主題的好幾種玩法:Thirst 替 M&S 啤酒系列做的兩套設計語言,示範了同一個母品牌下怎麼用差異化的視覺系統服務不同定位的產品線;Supersystème 把排印當成圖像本身在操作,做出單靠文字或圖像都無法單獨傳達的閱讀體驗;Kelli Anderson 則把紙藝工程直接變成一種雕塑性的藝術媒材;Shrey Kathuria 的《Mindspill》把排印變成一本情緒日記,刻意擁抱難以閱讀的美學;Sawako Kabuki 的動畫創作則提醒我們,誠實面對自己真正著迷的主題——即使是身體和生理現實這類不容易被端上檯面的題材——往往比刻意挑釁更有力量。"
+    }
+  },
+  {
     "date": "2026-07-21",
     "daily_summary": "今天 Product 圈從 AI 產品的倫理陷阱一路談到怎麼設計出撐得過人類感知極限的通用系統;Brand 圈則從可口可樂的全球品牌治理,到餐廳、織品、插畫、動畫產業各自的小尺度案例,示範了不管規模大小,好設計都建立在「刻意的選擇」上——不管是刻意加一點摩擦、刻意慢下來、還是刻意為最差的觀看條件做設計。",
     "jenny_wen": {
