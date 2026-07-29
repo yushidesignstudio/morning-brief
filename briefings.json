@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-07-29",
+    "daily_summary": "今天 Product 圈從摩擦的價值談到 AI 情境策展,核心都在說:AI 能做的事情越來越多,但真正讓作品有意義的東西,反而更需要人刻意介入和判斷;Brand 圈則直接點出工作室現在面對的新威脅——客戶自己把驗證過的創意能力包裝出來賣,同時也用幾個案例示範了怎麼往上一層講價值(心理空間、自信),而不是繼續在規格和價格上競爭。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "From frictionless to meaningful",
+          "url": "https://uxdesign.cc/from-frictionless-to-meaningful-2dc785d6cc4e",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計師 Ida Persson 挑戰整個產業對「消除摩擦」的執念,主張真正有意義的體驗,需要一定程度的阻力——摩擦不該被當成普遍的壞事,只要用心整合進設計裡,反而能讓生活和設計實踐變得更豐富。她舉了幾個例子:Tony's Chocolonely 刻意做出不平均的巧克力塊,用產品本身的摩擦感去喚起大家對可可產業勞動不平等的意識,把一款產品變成一種立場聲明;「IKEA 效應」——組裝家具的辛苦過程,反而讓人更珍惜這件家具,證明付出的努力會增加依戀感和記憶點;電商的衝動購買——用一鍵購買拿掉摩擦會鼓勵不必要的消費,而刻意加一點摩擦反而能促進反思;學德文的掙扎過程雖然讓人挫折,卻比立即得到答案帶來更深層的認知投入。她歸納出摩擦能帶來的八個好處:難忘的體驗、反思、責任感、覺察力、人際連結、有意識的消費、學習、和韌性。實際的啟發是:與其自動化地朝「更輕鬆」去優化,設計師該策略性地引入摩擦,去促進用心程度、當責感、和更深層的投入——Persson 說:「蛇需要摩擦力才能往前移動」——人也是。真正的挑戰在於分辨清楚,哪種摩擦只是讓人挫折、哪種摩擦才是真正「重要」的。"
+        },
+        {
+          "title": "UX-Context Design: Using UX Knowledge to Inform AI-Generated Design",
+          "url": "https://www.nngroup.com/articles/ux-context-design/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 主張,當 AI 工具越來越常直接生成介面設計,UX 專業人員的角色必須從「產出人可以讀的交付物」轉向「策展機器可以讀的情境資料」——這些情境資料,引導 AI 系統做出反映組織知識、使用者研究、設計標準的產出,而不是生成千篇一律的平均值。他們把這個概念定義為「UX 情境設計」:「把一個組織知道的東西、想要的東西,發掘出來並策展成情境資料,用來引導這個組織的 AI 工具產出的每一樣東西的實踐」。因為現在產品經理、工程師、設計師任何人都能直接叫 AI 做設計工作,策略性的目標就變成:確保所有 AI 生成的產出,都建立在對使用者的理解和設計原則之上。文章用了一個很貼切的比喻說明為什麼這件事重要:「一個技術很好的建築師,從來沒見過你的家人就設計你的房子」,做出來的東西只會是平庸的中間值——AI 同樣需要明確知道你的使用者需求、限制條件、和領域語言,才能做出適合的東西。實際的建議是:現在就開始行動——把你的研究洞察和設計標準寫進一份純文字檔案裡,讓團隊的 AI 工具能讀取;讓你的設計系統變成機器可讀的格式;再根據產出品質反覆修正。"
+        },
+        {
+          "title": "Thinking Outside The Box: Digital Design In The AI Era",
+          "url": "https://smashingmagazine.com/2026/07/digital-design-ai-era/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Oleksii Hrzhehorzhevskyi 主張,與其把 AI 當成取代人類創意的威脅,設計師該把它當成工具擁抱、同時把人的判斷力放在核心位置——文章強調在這個科技主導的環境裡,「人性化和同理心」變得比以前更重要。他舉了 MacPaw 的 AI 助理 Eney 作為範例:它沒有做成傳統的文字聊天機器人,而是用一個帶著粉紅色調、表情豐富的圓形角色,打造出親切、溫暖的陪伴感——每一個設計選擇,從情緒手勢到色彩選擇,都是人類設計師刻意做出來的決定,不是演算法決定的。實際的啟發是:設計師該把 AI 看成一種讓工作更快的方式,而不是取代藝術願景的東西——文章寫道:「像 AI 這樣的科技能幫我們做得更快,但沒辦法取代啟發和塑造我們作品的那些價值觀」。核心關鍵是培養品味和判斷力——好奇心會隨著時間累積出品味,而品味在 AI 主導的世界裡只會變得更有價值、不會變得更沒價值。"
+        },
+        {
+          "title": "Digital tools, human expression: The visual identity behind Config 2026",
+          "url": "https://www.figma.com/blog/the-visual-identity-behind-config-2026/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma 的品牌設計團隊,圍繞著三個反映當代設計實踐的核心原則,打造了 Config 2026 大會的視覺識別:「演化」——把既有的點子重新混合、重新詮釋,做出新東西;「流動性」——在不同的起點之間移動,在設計和程式碼之間循環;「和諧」——用生成式工具反覆迭代,同時維持人的觀點。團隊打造了一套強調「我們現在怎麼做設計的那種拉扯感」的視覺系統,刻意擁抱不完美,而不是追求打磨到完美的樣子:字符從潦草手繪、到生成式、再到俐落的形態都有;紋理用 Figma Make 裡的 AI 工具做出來,包含塗鴉線稿、模糊漸層、和顆粒感;動態構圖則展示點子怎麼變形、怎麼繁殖。品牌設計師 Chelsea White 解釋,他們想「展現這個既複雜又強大的新 AI 能力,同時強調工藝和保持非常人性化的觀點」。這套識別也延伸到螢幕之外——用泡棉雕塑、互動裝置、實體樣品、和環境圖像,把數位語言轉譯成整個 Moscone Center 裡可以觸摸、可以感受的體驗。"
+        },
+        {
+          "title": "The aggressively mediocre fight",
+          "url": "https://uxdesign.cc/the-aggressively-mediocre-fight-ed47b3f9f8f4",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這篇談的是在 AI 工具唾手可得的時代,該怎麼教 UX/設計技能。作者主張,學生需要親手動手建構、動手把玩科技,才能培養出真正的設計能力——但 AI 的普及,可能正在削弱這個關鍵的學習過程。他舉了自己的經驗:2003 年大三時透過「客製化自己的 MySpace 個人頁面」學會了 HTML/CSS;他和同事都是在 ArtCenter 和 Parsons 的研究所裡,透過直接操作程式碼、硬體(Arduino、Raspberry Pi)、和物聯網系統累積出技能——這種靠試錯做原型的過程,建立起沒辦法靠 AI 捷徑輕易複製的基礎理解。實際的啟發是:教育者必須在導入 AI 和保留動手做的學習經驗之間找到平衡——學生在掙扎著建構、除錯、迭代的過程裡,獲得的技術素養和設計判斷力,是 AI 生成的解法給不了的,越來越強大的自動化工具時代裡,怎麼確保學生依然能獲得這種經驗性的基礎,才是真正的挑戰所在。"
+        }
+      ],
+      "buzz": "今天的文章從摩擦、情境、到手藝,圍繞著同一個核心命題——AI 能做的事情越來越多,但真正讓體驗和作品有意義的東西,反而更需要人刻意介入。Ida Persson 主張摩擦本身能帶來八種好處,提醒我們別再無腦追求「更輕鬆」;NNGroup 的 UX 情境設計則提供了具體做法:把組織知道的東西寫成 AI 讀得懂的文件,而不是任由 AI 生成平庸的中間值;Smashing 那篇用 MacPaw 的 Eney 角色示範了人性化設計在 AI 產品裡的重要性;Figma 自己的 Config 2026 識別案例,則直接示範了怎麼用 AI 工具做出東西,同時把人的品味和觀點放在核心;最後那篇談設計教育的文章則從更長遠的角度提醒:如果學生沒有機會親手掙扎著把東西做出來,AI 捷徑可能會讓下一代設計師少了真正紮實的判斷力根基。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Should agencies be worried? This launch suggests clients increasingly don't need them",
+          "url": "https://www.creativeboom.com/insight/do-clients-still-need-creative-agencies-the-launch-of-the-ideation-bureau-suggests-maybe-not/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "傳統創意代理商正面臨一個新的競爭威脅:客戶自己開始建立內部創意能力,再把這些能力包裝成對外服務——與其把點子外包出去,已經站穩腳步的品牌開始把自己驗證過的內部專業商品化。文中舉了 The Ideation Bureau 這個案例:夜店營運商 Yann Pissenem 和 Sam Mooney,靠著經營伊比薩最頂尖夜店的實績成立了這個新單位,他們的資歷包括 Hï Ibiza 連續四年拿下「全球第一夜店」、以及 [UNVRS] 這個 campaign——吸引了超過 1.1 億次觀看、成為第一個入圍 Webby 獎的夜店 campaign。這種模式正在各個產業重演:南安普頓足球俱樂部成立了 TURF、曼城成立了 City Studios、迪士尼把營運整合進 Main Street、CUPRA 則成立了 Design House——每一個案例背後都是同一個邏輯:在一個領域裡驗證過的創意成功,可以轉移去做客戶案子。對代理商和工作室的實際啟發是:過去代理商的傳統優勢——「品牌自己複製不來的外部專家」——正在被侵蝕;已經站穩腳步的品牌現在證明了自己「能做出優秀的創意作品,然後把它包裝起來賣出去」,工作室現在得對抗的,是手握真實成果、而不只是作品集的客戶自己。"
+        },
+        {
+          "title": "Wild People rebrands Little Green Rooms around the one thing you can't add on: headspace",
+          "url": "https://www.creativeboom.com/inspiration/wild-people-rebrands-little-green-rooms-around-the-one-thing-you-cant-add-on-headspace/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Wild People 把 Little Green Rooms 從一間賣花園小屋的建設公司,重新定位成一個聚焦心理逃離感和寧靜感的生活風格品牌。這次重塑沒有強調木材規格和坪數這些技術規格,而是圍繞著「找回心理空間」(Headspace Found)這個策略,聚焦花園小屋真正提供的東西:遠離日常混亂的一方寧靜庇護所。整套設計系統透過柔和、取材自然的美學,搭配精準的技術性元素來體現這個哲學:隨自然光線變化的季節性色盤,搭配客製圖標和用心挑選的字體(ABC Favorit 和 P22 Mackinac),在沉靜的高級感和工程上的可靠感之間取得平衡。創辦人 Ed Hatfield 解釋箇中關鍵:「這裡真正的價值從來不是多出來的坪數——是那份心理空間」。團隊採用了一種沉浸式的創作過程——整個專案期間都實際待在一間真的 Little Green Room 裡工作,確保每一個視覺決策都真實地捕捉到這個產品帶給人的那種逃離喧囂、重新連結自然的體驗。"
+        },
+        {
+          "title": "Buff Motion's motion identity for Starling is built around confidence, not cash",
+          "url": "https://www.creativeboom.com/news/buff-motions-motion-identity-for-starling-is-built-around-confidence-not-cash/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Buff Motion 替 Starling 銀行打造了一套完整的動態框架,遠遠超出單一 campaign 影片的範疇——這間布萊頓工作室不只是做了 16 支社群媒體影片,而是建立了一整套規則書,規範重塑後的品牌在所有動態內容裡該怎麼「表現」。驅動這套作品的核心洞察,是 Starling 品牌定位上的一個關鍵區隔:創意總監 Tom Allen 解釋:「Starling 的品牌不是建立在財富上,是建立在自信上」——這個哲學基礎塑造了每一個動畫決策。做出來的動態語言優先考慮直接感和帶著玩心、人性化自信的目的性動作;Buff 沒有選擇炫技、搶眼球的動畫,而是用精準的節奏、經過思考的緩動曲線、和策略性的構圖去傳達篤定感,同時維持溫暖和留白的呼吸空間。工作室把這些原則完整記錄成一份內部製作指南,讓 Starling 的團隊之後能自行維持一致的品牌聲音。這套做法效果好到讓 Starling 後續又追加委託了 12 支推廣商業銀行產品的影片。"
+        },
+        {
+          "title": "How International Magic established its technology-bending design collaboration with Martine Rose",
+          "url": "https://www.itsnicethat.com/articles/international-magic-martine-rose-graphic-design-digital-280726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "International Magic 和時尚設計師 Martine Rose 已經合作將近六年,做了一系列打破常規的數位和實體專案。這段合作在 2020 年圍繞著永續和社群這些議題展開對話,隨著文化逐漸轉往線上而蓬勃發展。代表作包括:《What We Do All Day》(2021)——一場跟 Martine Rose 全球社群一起打造的虛擬即時時裝秀,在一個粗獷主義風格的虛擬空間裡記錄封城期間的日常儀式,後來變成荷蘭阿納姆 State of Fashion 雙年展的實體裝置;Nike x Martine Rose 電玩部門(2025)——把運動攝影跟 90 年代電玩文化參照結合的 campaign 視覺,用在店內裝置和零售周邊上;《Our Channel》(2023)——一個播放六個現場頻道的網路平台,融合海盜電視台、復古電玩介面、和公共頻道美學,刻意保留一種「笨拙」的摩擦感。這個工作室的做法刻意擁抱不完美——Connor MacDonald 說:「這是直接對抗一般媒體被消費的方式而做出來的」。他們的作品不追求無縫的數位體驗,而是優先考慮質地、情感、和文化評論,讓故障和矛盾維持可見,而不是把它們打磨掉。"
+        },
+        {
+          "title": "Makitoy turns daily observations into stamp-sized collages of paper and colour",
+          "url": "https://www.itsnicethat.com/articles/makitoy-illustration-discover-280726",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "南韓插畫家 Makitoy 把製作微型紙拼貼,當成一種日常練習,她形容這個過程「比起做出最終成品,更像是在記錄時間」。她的方法建立在觀察和重複之上:用郵票大小的微型拼貼記錄一整個月,再用聚焦自然的快照記錄一整年,靠一致的觀察習慣打底。植物在她的創作裡佔了很大比例,因為「它們按照自己的節奏緩慢變化、成長的方式,很貼近我的工作方式」——她把自然的形態簡化成極簡的線條和圖形結構。透過裁切和堆疊有顏色的紙張,Makitoy 捕捉日常物件(灑水壺、畫筆、家具)和片刻;她的目標是「把平凡的形態和片刻,轉化成帶著溫度的視覺片段」,特別被老舊物件那種安靜的氛圍吸引。透過視覺上的簡化,她探索色彩之間的互動、空間關係、和光線的流動——把畫畫本身當成一種冥想式的日常儀式,而不是以目標為導向的產出。"
+        }
+      ],
+      "buzz": "今天的案例剛好從很不同的角度回答「品牌怎麼在 AI 和市場變化裡站穩腳步」這個問題:《Should agencies be worried?》直接點名工作室面臨的新威脅——客戶自己把驗證過的內部創意能力包裝出來賣;Little Green Rooms 和 Starling 的案例則從兩個不同品類示範了「往上一層講價值」的做法——不講規格、不講炫技,而是講「心理空間」和「自信」這種更抽象但更有共鳴的核心價值;International Magic 和 Martine Rose 六年的合作,則示範了刻意擁抱「笨拙感」和不完美,反而能做出對抗媒體消費慣性的作品;Makitoy 的紙拼貼練習則從最小的尺度收尾——提醒我們,日常的觀察和重複本身,就是一種值得堅持的創作方法論。"
+    }
+  },
+  {
     "date": "2026-07-28",
     "daily_summary": "今天 Product 圈圍繞著「複雜性到底藏在哪裡」——AI 的信任感、資訊架構、網站策略、系統設計,都指向同一個道理:真正的困難永遠在看不見的接縫和基礎裡;Brand 圈則從博弈品牌的巨型重塑,到夜店的社群識別、自然觀察的動畫、草根音樂節的創意經濟,再到一位插畫家的職涯轉型,示範了品牌和創作規模可以差很多,但核心永遠是找到一個真誠、獨特的敘事角度。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "這個週末 Brand 圈的出版節奏明顯慢下來(It's Nice That、Creative Boom、Brand New 這幾天新貼文都變少),但幾篇值得留意的內容剛好從不同角度回答同一個問題:好品牌怎麼長出來的?Smashing 那篇給了具體的「概念前置階段」流程,解決品牌專案最常見的痛點——策略講的都是模糊形容詞;Porto Rocha 的週末側寫提醒我們,好設計往往來自螢幕之外的文化涉獵;Fictionist Studio 和 Simon Vergély 則分別示範了工藝(把文化儀式做成值得收藏的物件)和刻意的不完美(手感和顆粒感)怎麼變成差異化;Sporting CP 的百年老字號重塑則證明,重新設計不必打掉重練,精準挑出歷史裡最有情感重量的元素、其餘大膽留白,反而更有說服力。"
-    }
-  },
-  {
-    "date": "2026-07-09",
-    "daily_summary": "今天 Product 和 Brand 圈剛好都在回答同一個問題的兩個版本:「AI 讓執行變便宜之後,我還能賣什麼?」Product 這邊一連五篇從不同角度戳破 AI 炒作(義大利麵桌測試、「what 的危機」),核心結論是紀律和判斷力比產出速度值錢;Brand 這邊則更務實,直接示範怎麼把「賣圖」換成「賣思考」的商業模式——A-Corps 保護 IP、Koto 把客製字體經驗開發成新事業線 CCType,都是接案工作室可以直接參考的具體做法。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The revolution was the easy part",
-          "url": "https://uxdesign.cc/the-revolution-was-the-easy-part-c753340e3e22",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Dan Maccarone 把技術變革分成兩個階段:「革命」是那個又炫又吵的發表會,「演化」才是發表會隔天早上開始、一路走到底的苦工。他認為 AI 的「革命期」已經結束,但 95% 的公司還在發表會的興奮裡打轉,沒去做後面那段真正枯燥的整合、評估、修正工作。他舉了幾個歷史類比:美國獨立宣言(1776)是精彩的舞台劇,但真正建國花了幾百年不斷修正;dot-com 泡沫會破,是因為大家把派對當成商業模式;行動網路花了十年「安靜地建造」才真的改變人怎麼用手機——不是把桌面軟體縮小,而是從限制條件重新蓋起。他也點名 Google 2023 年的 Gemini demo 其實是拼接的靜態畫面加打字提示,看起來像即時互動但根本不是;多數 AI 試點死在「學習落差」裡——demo 的炫目和資料清理、流程整合、建立評估系統這些苦工之間的落差。核心結論:真正的競爭優勢不是產出更快,是判斷更快;能撐過這波 AI 洗牌的公司,是那些願意投資評估系統、培養品味和判斷力、真正「做決定」的公司,而不是一直追下一個炫炮 demo 的公司。"
-        },
-        {
-          "title": "The crisis of the what",
-          "url": "https://uxdesign.cc/the-crisis-of-the-what-d29135a8be59",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Francisco Barrera Aros 認為 AI 已經不只是在做執行層的「怎麼做」,它現在也開始影響策略層的「做什麼」——當執行被 AI 商品化之後,真正稀缺的是靠經驗和後果磨出來的人類判斷力。他引用研究說明 AI 有個「參差不齊的前緣」:同一個模型可能搞定複雜任務,卻在簡單任務上翻車,這種不穩定性剛好就出現在「判斷」開始發生作用的地方;一項臨床推理研究也發現,AI 模型系統性地掉入「愛因斯坦效應」——把熟悉的解法套在已經變化的問題上,人類醫生在非典型情境下的表現反而更好。他舉了一個很貼切的例子:AI 可能會核准效率最高的一鍵退款,但有經驗的設計師知道,有時候刻意加一點阻力,比速度更能讓使用者感覺「這個失誤有被正視」。他認為設計師接下來真正該練的能力,不是介面設計本身(這會被自動化),而是情境判斷力:知道什麼時候不該做、讀懂組織裡沒被寫下來的潛規則、認出規律之外的例外——這種靠真實後果磨出來的「行動中的知覺」,才是 AI 越強也奪不走的東西。"
-        },
-        {
-          "title": "The 15-minute AI stress test every designer can run",
-          "url": "https://uxdesign.cc/the-15-minute-ai-stress-test-every-designer-can-run-ce8de95ff5c9",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Peter Zakrzewski 設計了一個 15 分鐘就能跑完的診斷測試,叫做「義大利麵桌協議」:請 AI 畫一張「桌腳是義大利麵、桌面是水泥板、上面放一個裝滿水的魚缸」的圖,然後問「如果桌腳塌陷會發生什麼事」——這是一個物理上不可能成立的情境,專門拿來戳破 AI 模型的架構性弱點。他實測 GPT-4o、Gemini 1.5 Pro、Claude 3.5 Sonnet,總分只有 4/30 分;有意思的是 Claude 用文字承認了這個情境不可能發生,但畫圖時還是照樣畫出來——證明它「在真正關鍵的生成層面,結構性地做不到把自己說的話應用上去」。這個協議測的是三個能力:能不能維持穩定的四維世界模型(連續性)、生成時有沒有套用物理限制(重力與物理)、能不能追蹤因果順序和任務邊界(可逆性)。核心洞察是:現在的 AI 很擅長「模式補完」——從訓練資料裡撈出常見組合再重組,搜尋框改版之所以看起來很厲害,是因為訓練資料裡有大量部落格改版案例;但義大利麵桌腳這種訓練資料裡不存在的情境,逼著 AI 要做真正的物理推理,這正是它們會失敗的地方。對設計師來說,與其被流暢的產出唬住,不如自己動手當一台「診斷儀器」,持續戳 AI 的能力邊界,才能真正搞清楚它能做到什麼、做不到什麼。"
-        },
-        {
-          "title": "Losing the spark in their eyes",
-          "url": "https://uxdesign.cc/losing-the-spark-in-their-eyes-0ef198ab1499",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Frota 談的是一個容易被忽略的代價:AI 工具給了速度和效率,卻悄悄侵蝕掉「意義感」這個支撐專業投入的核心東西。他用一個寓言破題:兩兄弟爬上同一座山頂,一個辛苦爬上去,一個搭電梯上去,爬山的那個說「答案還留在山上的某個地方」——旅程本身創造的意義,不是終點能給的。他也提到心理學家發現,演員背台詞背得好,靠的是「在劇本裡找意義」、代入角色視角,而不是單純重複記憶,這種深度理解才能讓台詞在演出時自然浮現。文中也點出一個警訊:科技業有人開始轉行去寫詩、質疑自己的職涯穩定性、出現和 AI 有關的職業倦怠——這些都是「跟有意義的工作斷開連結」造成的真實傷害。他給的建議是:用 AI 要有判準,不能無腦自動化,要問自己「這個決定是幫我更理解問題,還是讓我跳過了原本能讓我變得更厲害的學習過程?」——過程本身,而不只是產出,才是累積專業能力的地方。"
-        },
-        {
-          "title": "Designing in regulated industries",
-          "url": "https://uxdesign.cc/when-compliance-is-the-brief-a-creative-practitioners-survival-guide-to-designing-in-regulated-f0759cd3732c",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Andy Bhattacharyya 把「法規遵循」重新定義成一種設計限制條件,就像素材或技術限制一樣——而不是等到設計後期才冒出來的關卡,他主張法規要求應該在探索階段就被當成「換了件衣服的使用者需求」提早整合進來。他點出五個接金融科技、保險這類受監管產業案子時常見的挑戰:同時要應付好幾個有否決權的利害關係人(使用者、商業需求、監管單位期待);把法務那種只顧撇清責任的語言,轉譯成使用者真的看得懂、願意讀的告知內容;錯誤訊息要同時兼顧情感設計和法律效力;無障礙不是加分項,WCAG 2.1 AA 是最低門檻;設計決策的說明文件要禁得起監管單位事後審查。他提供了一個「UX 決策矩陣」工具,要求設計同時通過四關測試:使用者看得懂、符合法規、商業上站得住腳、有禁得起檢視的文件紀錄,「四欄都過關才能往下走」。這套系統性框架把合規審查從「後期突襲式打回票」變成整合在流程裡的評估標準,對接金融、保險、醫療這類客戶的工作室來說,是一份很實用的作業框架。"
-        }
-      ],
-      "buzz": "今天 UX Collective 一口氣連發好幾篇,調性出奇一致:AI 的「發表會」都很炫,但真正決定輸贏的是發表會隔天開始的苦工——資料清理、評估系統、對錯誤情境的判斷力。義大利麵桌測試提供了一個具體工具去戳破 AI 的物理推理弱點;「what 的危機」和「revolution」兩篇都在講同一件事的不同切面:執行被商品化之後,情境判斷力才是真正值錢的東西。Frota 那篇則從另一個角度提醒:如果把思考整個外包給 AI,設計師自己也會失去做這行的意義感。合起來看,今天整個 Product 圈幾乎是同一個聲音在說:別被 demo 唬住,紀律、判斷、和願意花時間搞懂問題,才是接下來的核心資產。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "\"Artists don't need pity, they need power.\" Can Artist Corporations revolutionise creative business?",
-          "url": "https://www.itsnicethat.com/articles/pov-a-corps-artist-corporations-creative-industry-070726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇 POV 專題檢視「藝術家公司」(Artist Corporations, A-Corps)這個新的法律架構——2026 年 6 月剛在美國科羅拉多州立法通過,目的是保護創作者的智慧財產權,並讓藝術使命優先於獲利。文章的立場很平衡:A-Corps 確實比傳統的 LLC 多了一些結構性優勢,像是不可逆的 IP 所有權、治理權和獲利權分開設計,讓創作者可以「在明訂的藝術使命下工作」同時保有 IP 保護;但作者也直言,這個架構主要幫得到的是已經站穩腳步的藝術家,對佔了 87%、還沒辦法靠創作維生的大多數創作者來說幫助有限。對獨立創作者或小型工作室來說,這篇的重點不是「馬上多賺錢」,而是 IP 保護和對投資方的談判籌碼——這終究還是一個資本主義框架下的工具,實際效益還是要看整個創意產業的基礎建設有沒有跟上。"
-        },
-        {
-          "title": "If AI production is making production cheaper, how can you sell design thinking instead?",
-          "url": "https://www.creativeboom.com/tips/if-ai-production-is-making-production-cheaper-how-can-you-sell-design-thinking-instead/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇直接點出接案設計師和工作室現在最迫切的商業問題:當 AI 讓「產出」變得便宜,你要怎麼說服客戶掏錢買的是「思考」而不是圖?文章給的第一個建議是重新定義自己賣的東西——不要再把自己包裝成「做圖的人」,要讓客戶知道「他們買的不是一個 logo,而是專業判斷、策略思維、和一套被驗證過的解決問題方法」。具體做法包括:把作品集重寫成「揭露決策過程」而不是只秀最後的漂亮畫面,呈現問題怎麼被定義、決策是怎麼做的、對商業有什麼實際影響;把每個設計決定的理由都寫下來,一位顧問說「這樣做半年,你就會有一個任何模型都沒有的東西——你自己品味的紀錄」;同時也要投資自己的成長,找 mentor、接觸手作工藝和創意社群、多花時間離開螢幕,培養文化素養和視覺判斷力。實際的起手式:先從你信任的協作對象、規模較小的個人專案開始練習「主導思考」的敘事方式,同時把作品集的語言,從強調美感成就改成強調商業成果。"
-        },
-        {
-          "title": "Koto launches CCType foundry to create typefaces that meet the demands of modern brands",
-          "url": "https://www.itsnicethat.com/articles/koto-cctype-typography-project-080726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "全球創意工作室 Koto 開了一個新的字體鑄造廠 CCType,第一款作品 CC Timeline 是一款融合英國金屬活字、瑞士現代主義、數位排印風格的展示用襯線體。Koto 做這件事的原因,是他們幫客戶做了多年的客製字體之後發現一個市場空缺:很多現成字體一旦被拉伸到原本設計情境之外的用途,系統就整個垮掉——這個經驗讓他們搞清楚現代品牌真正需要字體具備什麼條件。CCType 最值得注意的是商業模式:改成一次性買斷,取代傳統又貴又綁手綁腳的授權制度,目標是讓接案設計師、獨立工作室、代理商和品牌都負擔得起。Koto 的 CCO Jowey Roden 說得很直接:「Koto 是從『執行的現實』出發看字體排印的……我們親眼看過它在全球品牌系統裡、在網站上、在動態裡是怎麼運作的」——這讓 CCType 定位在實驗性獨立字體設計師和標準化產業巨頭之間。這對想擴展被動收入或副產品線的工作室來說,是一個具體的商業模式參考案例。"
-        },
-        {
-          "title": "More of a performance than a fixed system, Ronnie Scott's new identity does a typographic dance",
-          "url": "https://www.itsnicethat.com/articles/dan-cottrell-studio-ronnie-scotts-branding-graphic-design-project-080726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "倫敦蘇活區傳奇爵士俱樂部 Ronnie Scott's,自 2000 年代之後就沒更新過識別,設計師 Dan Cottrell 這次重新設計時,先指出舊系統的問題:太依賴單一的金色薩克斯風 logo,卻沒有一套支撐它的設計基礎建設。新系統用兩款字體——粗獷有力的 Railroad Gothic 和克制內斂的 Century Condensed——靈感來自 1950 到 60 年代爵士唱片封面的排版語言。整套識別最特別的地方在於它刻意不是一套死板的規則,而是被設計成「更像一場表演」,呼應爵士樂本身即興的特質——文中形容這套視覺語言是「在爵士的節奏和自發性裡外圍長出來的」。文字、圖像、色彩可以在不同數位應用裡自由「跳舞」,就像爵士樂手在架構之內即興演奏一樣,讓這套識別在維持俱樂部歷史調性的同時,能在各個接觸點上保持活著、會呼吸的狀態。"
-        },
-        {
-          "title": "JAIKU founder Marianne Olaleye on why we shouldn't obsess with Gen Z, and how storytelling can change the world",
-          "url": "https://www.creativeboom.com/insight/the-only-thing-thats-ever-changed-the-world-is-a-story-jaiku-founder-marianne-olaleye-on-her-latest-endeavour/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "JAIKU 創辦人 Marianne Olaleye 主張說故事是人類最強大的變革力量,她引用社會學家 Dr Tressie McMillan Cottom 的話:「這個世界唯一被改變過的方式,就是一個故事」——但她也強調,故事要真的有用,前提是我們願意主動接觸自己圈子以外的觀點,並學會有建設性地不同意彼此,這在現在這種對立的氛圍下特別重要。她反對品牌一窩蜂迷戀 Z 世代:品牌總是執著於年輕族群,卻忽略了長輩世代其實握有可觀的消費力,她主張主流廣告應該多讓阿姨、阿公阿嬤、叔叔伯伯這些長輩角色入鏡,而不是每次都預設要追年輕潮流。她也反對過度垂直分眾:跨產業的觀點碰撞才會激盪出最讓人印象深刻的作品——像是找一個食品品牌創辦人去幫壓力襪品牌出主意,反而會冒出意想不到的解法。她給工作室的具體建議是:先小規模啟動、再放大格局——她自己辦的高峰會只找了 60 人、開兩小時、選在週四早上當「概念驗證」,收集到真實回饋後再策略性擴大規模;跨世代、跨產業的意外合作,才是真正的競爭優勢來源。"
-        }
-      ],
-      "buzz": "今天的 Brand 圈剛好圍繞著同一個問題打轉:創意產業要怎麼重新定義自己的商業模式?A-Corps 想用法律架構保護創作者的 IP 和使命;Creative Boom 那篇直接教你怎麼把「賣圖」的敘事換成「賣思考」;Koto 則乾脆把多年客製字體的經驗打包成一個新事業線 CCType,用一次性買斷模式跟獨立設計師搶市場。Ronnie Scott's 的重新設計提醒了另一件事:好的識別系統不必是死板的規則書,可以像爵士樂一樣有呼吸的空間;而 Marianne Olaleye 那篇則從說故事的角度出發,提醒工作室別再一窩蜂追 Z 世代,跨世代、跨產業的意外碰撞才是真正的差異化來源。放在一起看,今天的 Brand 圈很務實:大家都在想怎麼把自己的價值,轉換成禁得起 AI 時代考驗的商業模式。"
     }
   }
 ]
