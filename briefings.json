@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-08-03",
+    "daily_summary": "今天 Product 圈從 AI 介面批判談到創意技術專家角色的崛起,核心都在問「怎麼把 AI 時代裡真正的價值講清楚、做出來」;Brand 圈則從公共機構品牌案的兩難,到博物館的模組化識別、眼鏡店的生活風格重塑、金融品牌的藝術裝置,示範了品牌操作在各種情境下,都得先想清楚自己真正要溝通的核心價值是什麼。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Chat is the wrong interface for AI",
+          "url": "https://uxdesign.cc/chat-is-the-wrong-interface-for-ai-de14d352de1b",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計師 Maxim Kich 主張聊天介面把 AI 代理人的互動過度簡化了。大型語言模型在各個領域都展現出很精細的推理能力,但訊息式的格式限制了它的潛力——有價值的洞察被埋在冗長的對話串裡。他描述自己一邊走路、一邊跟 AI 進行長達一小時的討論,橫跨設計、工程、物理學好幾個領域——模型成功地認出不同想法之間的關聯、回頭重新檢視之前的假設、清楚表達正在浮現的思考。但這種智能卻「被困在一個訊息軟體裡,像是 2015 年的聊天機器人,只是打了類固醇」,最好的想法淹沒在工具呼叫和重複的附和裡。實際的啟發是:限制不在技術上,而在介面上——Kich 認為語言,作為大型語言模型主要的存取點,需要跳脫訊息軟體的框架被重新思考。這個領域需要能同時尊重 AI 複雜度、又符合人類認知需求的 UX 解決方案,特別是針對現在的聊天介面沒辦法好好支撐的、複雜、非線性的思考方式。"
+        },
+        {
+          "title": "Design.md: the one standard file carries your visual identity, for humans and agents",
+          "url": "https://uxdesign.cc/design-md-the-one-standard-file-carries-your-visual-identity-for-humans-and-agents-9058d5b39d9b",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Patrick Neeman 主張 AI 代理人現在會預設生成通用元件,是因為設計系統被鎖在機器讀不懂的工具裡(Figma、簡報檔)——一份同時服務人和機器的純文字檔案能解決這個問題。DESIGN.md 是一份結構化檔案,結合兩個區塊:YAML 前置資料裡放機器可讀的設計 token(色彩、字體、間距、圓角),搭配人類可讀的 Markdown 內容解釋「為什麼」這些數值存在、什麼時候規則可以彈性調整。Neeman 形容:「就像鯔魚頭髮型,上面是給機器看的正式部分,下面是給人看的派對部分」。這個格式包含八個標準區塊:概觀、色彩、字體、版面、層次與深度、形狀、元件、以及該做和不該做的事——Google Labs 在 2026 年 4 月把這個格式開源,作為產業標準化的第一步。實際的建議是:不用等到工具完美就先開始——訪問自己(或用 AI 助理)去釐清品牌的核心色彩、字級、圓角規格;先寫 token、再寫說明這些 token 用途的文字;把這份檔案存放在程式庫根目錄,就像 README.md 一樣;測試方法是叫代理人做出一個範例畫面——出現的缺口,就會顯露出還缺哪些 token。核心原則:「用『東西做什麼』而不是『東西長什麼樣子』來命名」,能確保 token 在品牌重塑之後依然適用。"
+        },
+        {
+          "title": "Why airlines are finally waking up to context-aware design",
+          "url": "https://uxdesign.cc/why-airlines-are-finally-waking-up-to-context-aware-design-9cdb67722d03",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Zeeshan Khalid 主張航空公司的 App 需要重新設計成能感知情境,而不是一成不變的靜態介面——大部分航空公司的 App,不管使用者的處境是什麼,都顯示同一套介面,不管是提前好幾週訂票、還是在機場裡拼命狂奔。他用一個很生動的情境說明:一位乘客早上 6:47 分,23 分鐘後就要登機,他當下需要的是登機門和行李托運資訊——結果 App 卻呈現「跟三週前訂票時看到的一模一樣的首頁」,還附帶著不相干的促銷 banner 和探索功能,在這種緊急的時刻顯得格格不入。核心問題是:「大部分航空公司的 App 有一個共通點:它們是靜態的」——使用者得在選單裡翻找 App 其實早就知道的、關於他們即將起飛航班的資訊,在壓力很大的時刻製造出多餘的摩擦。實際的啟發是:航空公司該根據使用者的情境動態調整 App 介面——當使用者接近起飛時間時,把跟時間相關、旅程關鍵的資訊(登機門、行李托運地點、登機時間)顯眼地呈現出來,而不是強迫使用者在通用的促銷內容裡導航。"
+        },
+        {
+          "title": "Creative Technologists are moving from the margins to the center",
+          "url": "https://uxdesign.cc/creative-technologists-are-moving-from-the-margins-to-the-center-4fcfaa3cf2f6",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Ioana Adriana Teleanu 指出,「創意技術專家」(Creative Technologists)——把科技當成創作媒材、而不只是工具來使用的專業人士——正從藝術和廣告領域的邊緣角色,移動到現代產品團隊的核心位置,這是因為 AI 的崛起、以及在明確的使用案例定型之前,需要有人先去定義新科技到底意味著什麼。她追溯了這個角色的歷史脈絡:從 1966 年貝爾實驗室的《9 Evenings: Theatre and Engineering》開始,經過 MIT 的 Visible Language Workshop、Processing 讓創意程式設計普及化、代理商時代的體驗式作品,最後在企業面對快速演變的 AI 能力時獲得了主流的能見度。她舉了 Google Creative Lab 資深創意技術專家 Tina Tarighian 當代表案例——她跟一位網路藝術家學會 JavaScript,從虛擬試戴到被數百萬人看過的 email 抽獎活動都做過,現在幫組織釐清新興科技到底能有意義地做到什麼。文章也區分了創意技術專家、產品導向的「設計技術專家」、和生產導向的「設計工程師」——前者問的是「這可能代表什麼?」,而不是「我們該怎麼把它做出來?」。實際的啟發是:不需要真的採用這個頭銜,重點在於你跟科技的關係——差異不在技術能力,而在心態:把科技當成一個要在裡面執行的產業、還是一個能拿來思考和表達的媒材。"
+        },
+        {
+          "title": "No New Name Has Replaced \"UX\"",
+          "url": "https://www.nngroup.com/articles/no-new-name-ux/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NNGroup 對 604 位科技和設計專業人士做的調查發現,「UX」這個詞依然主導著整個領域的術語——大約 70% 的受訪者使用跟 UX 相關的關鍵字,而像「體驗設計」或「以人為中心的設計」這類提議中的替代名稱,出現在不到 1% 的回覆裡。這項研究的結論是:替代性的稱呼依然很「零散」,沒有出現一個真正能取代 UX 的新名字。實際的啟發是:UX 領導者與其去追求一個更好的統稱,不如把力氣放在展現具體的價值——文章建議從業者「少花點心力找更好的統稱,多花點心力讓 UX 的貢獻被看見」,做法是把工作跟商業成果、利害關係人的優先順序、風險降低直接掛勾。核心洞察是:替這個學科改名沒辦法解決現在真正的問題(像是預算限制或正當性的疑慮)——真正的成功,取決於能不能把「以使用者為中心的做法怎麼降低不確定性、避免代價高昂的錯誤、提升品質」講清楚,而不是靠語言上的重新包裝。"
+        }
+      ],
+      "buzz": "今天的文章橫跨了介面批判、實作標準、產業案例、到角色定義:Maxim Kich 提醒我們,聊天介面正在把 AI 真正的推理能力困在一個 2015 年就有的框架裡;Patrick Neeman 的 DESIGN.md 則提供了具體可行的做法,讓品牌識別同時對人和機器可讀;Zeeshan Khalid 用航空公司 App 的例子,示範了「情境感知設計」這個原則怎麼落地成具體的產品決策;Ioana Adriana Teleanu 則談到創意技術專家這個角色,怎麼從邊緣走向核心——這跟這陣子一直在談的「判斷力比執行力值錢」是同一個道理的延伸;NNGroup 的調查則從最根本的地方提醒:與其糾結要不要幫 UX 改名,不如把力氣花在把價值講清楚。今天的主軸:不管是介面、標準、產業案例、還是角色定義,核心問題都是「怎麼把 AI 時代裡真正的價值講清楚、做出來」。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Elizabeth Goodspeed on the branding challenge behind Mayor Zohran's new municipal grocery stores",
+          "url": "https://www.itsnicethat.com/articles/elizabeth-goodspeed-zohran-mamdani-new-york-grocery-store-civic-branding-graphic-design-030826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "紐約市長 Zohran Mamdani 的團隊,正在挑選設計顧問替 NYC Groceries 打造完整的視覺識別——這是分布在五個行政區、由市政府支持的五間平價超市,案子範圍涵蓋命名、logo 設計、標示系統、制服、自有品牌的包裝、和環境圖像。Elizabeth Goodspeed 點出一個根本的張力:NYC Groceries 必須同時扮演公共機構和有競爭力的零售品牌兩個角色——跟一般市政服務(清潔、交通)不同,這些超市要直接跟商業連鎖超市競爭,同時肩負推動平價的使命。她指出三個關鍵障礙:預算限制——這個為期 3.5 年、100 萬美金的合約,對資本雄厚的公司比較有利,能靠自己補貼案子的成本,小型工作室反而處於劣勢;認證門檻——要求 30% 的參與夥伴必須是紐約市認證的少數族裔和女性經營企業,大幅縮小了合作對象的範圍,因為全市只有 256 間圖像設計公司拿到這個認證;意識形態上的錯位——Goodspeed 指出,品牌塑造傳統上服務的是商業野心,但「公共機構的目標是培養信任感和辨識度」,而不是競爭優勢。她認為最後勝出的做法,會是優先考慮策略性研究和清楚的溝通,而不是視覺上的華麗——呼應一位應徵者的說法:需要的是「人的手印,而不是『系統』的指紋」。"
+        },
+        {
+          "title": "For 100 years no-one noticed it, but this rebrand finally gives Gunnersbury Museum a reason to be found",
+          "url": "https://www.creativeboom.com/news/for-100-years-nobody-noticed-the-museum-in-the-park-wiedemann-lampes-rebrand-finally-gives-gunnersbury-a-reason-to-be-found/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Wiedemann Lampe 處理了一個很根本的能見度問題:儘管 Gunnersbury 公園裡的這座博物館已經營運了一世紀,大部分倫敦人卻根本不知道它的存在。核心挑戰在於:公園和博物館是兩個行政上各自獨立的機構,共用同一塊實體空間,卻沒有一套一致的識別。解決方案擁抱模組化,而不是強迫兩者統一——文章指出,設計師既避免「假裝公園和博物館是同一件事」,也拒絕把它們當成「兩個毫不相干的東西」。這套識別系統用不同的符號(公園用一棵樹、博物館用一棟有山牆的建築)搭配不同的顏色(分別是綠色和紫色),兩者結合時則會產生黃色。這套架構讓兩個機構可以各自獨立溝通,同時在需要的時候呈現出一體感——讓博物館能宣傳自己的展覽,不用拖著整個公園的視覺重量,反之亦然。"
+        },
+        {
+          "title": "Adoratorio Studio takes a new lens on eyewear with a soft but technical rebrand for Indice",
+          "url": "https://www.itsnicethat.com/articles/adoratorio-studio-indice-rebrand-graphic-design-project-030826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Adoratorio Studio 把眼鏡零售商 Indice 重新定位成「The Eyewear Lounge」——一個生活風格的目的地,而不是傳統的零售空間,刻意遠離眼鏡精品業慣用的那種冷調醫療語言。新的視覺識別直接取材自店內的室內設計:logo 的靈感來自顧客挑選鏡框時坐的那張 De Sede 沙發,流動的字母造型喚起「柔軟感、動態感、和某種視覺上的誘惑力」。共同創辦人 Camilla Zampolini 說,這套設計「把感覺和個性看得比立即的易讀性更重要」。配色呼應了實體空間——奶油黃的牆面和金屬灰的層架,搭配窄體字、粉彩色調、和帶著底片顆粒感的柔和攝影,共同做出「一套感覺像是店面自然延伸出來的視覺識別,而不是額外套上去的東西」。這個做法把 Indice 定位成奢華眼鏡界的一個文化參照點,而不只是一間賣眼鏡的店。"
+        },
+        {
+          "title": "People don't know what a fund manager does, so T. Rowe Price built a giant art installation to explain it",
+          "url": "https://www.creativeboom.com/news/most-people-dont-know-what-a-fund-manager-actually-does-so-t-rowe-price-built-a-giant-art-installation-to-explain-it/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "T. Rowe Price 打造了一個叫做《Signals From the Noise》的創新藝術裝置,想向一般大眾解釋「基金經理人到底在做什麼」這件事。這座 37 英尺長的曲面 LED 雕塑,由藝術家 Karyn Nakamura 用即時市場數據打造,在曼哈頓的 Oculus 只展出兩天,視覺化呈現主動式基金管理的核心功能。裝置呈現的畫面是:數千個混亂的粒子,逐漸組織成有條理的圖案,代表有經驗的基金經理人怎麼在市場的混亂裡辨認出真正有意義的訊號。全球品牌與傳播主管 Kelly Fredrickson 解釋:「市場一直在發送訊號,但有些只是干擾」。這個作品沒有依賴傳統的金融行銷語言,而是透過任何人都能理解的視覺隱喻來溝通,不管有沒有金融素養——這種非傳統的做法,幫 T. Rowe Price 展現了人類基金經理人的價值所在——過濾雜訊、辨認出真正重要的規律——同時也順勢推廣了他們較新的主動式 ETF 業務線。"
+        },
+        {
+          "title": "From gemstones to 10m giants: Wallace Chan's Vessels of Other Worlds spans Venice and Shanghai",
+          "url": "https://www.creativeboom.com/news/wallace-chan-vessels-of-other-worlds/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這場雙城展覽,展出了中國藝術家 Wallace Chan 橫跨兩個重要場館的雄心之作——上海龍美術館西岸館和威尼斯 Santa Maria della Pietà 教堂,展期一路到 2026 年 10 月。展覽探索了 Chan 招牌的尺度和材質運用手法,從精細的寶石工藝到 10 公尺高的巨型雕塑都有。藝術家說:「這兩個極端都很困難,但困難的方式完全不同。在一顆小小的寶石裡,幾乎沒有犯錯的空間」。這次展覽由 James Putnam 策展,融合了東方哲學、文藝復興的影響、和機械上的創新。雕塑呈現雌雄同體的人形和帶著靈性的意象,探索意識、以及可見與不可見世界之間的邊界。一個連結兩個場館的現場錄像裝置,則呼應了兩地共同的海洋文化根源。Chan 從珠寶設計起家,現在把自己定位成一位跨領域的當代藝術家——這些作品展現了他在鈦金屬、青銅、鋼鐵等各種材質上的技術掌握,挑戰了藝術和工藝之間傳統的分類界線。"
+        }
+      ],
+      "buzz": "今天的案例橫跨了品牌操作裡最棘手的幾種情境:Elizabeth Goodspeed 對 NYC Groceries 的分析,點出了公共機構品牌案特有的張力——同時要建立信任感,又要跟商業品牌競爭;Gunnersbury Museum 的重塑則示範了兩個共用空間卻各自獨立的機構,怎麼用模組化的方式各自保有身份,又能在需要時呈現一體感;Adoratorio Studio 替 Indice 做的識別,示範了怎麼把品牌識別直接從實體空間的室內設計裡長出來;T. Rowe Price 的藝術裝置則證明了,再抽象的金融概念,都能透過視覺隱喻讓一般人理解;Wallace Chan 橫跨兩地的展覽,則從藝術和工藝的尺度切入,提醒我們技術掌握本身就是一種能跨越媒材界線的語言。"
+    }
+  },
+  {
     "date": "2026-07-29",
     "daily_summary": "今天 Product 圈從摩擦的價值談到 AI 情境策展,核心都在說:AI 能做的事情越來越多,但真正讓作品有意義的東西,反而更需要人刻意介入和判斷;Brand 圈則直接點出工作室現在面對的新威脅——客戶自己把驗證過的創意能力包裝出來賣,同時也用幾個案例示範了怎麼往上一層講價值(心理空間、自信),而不是繼續在規格和價格上競爭。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例剛好從完全不同的尺度切入品牌這件事:Hovis 和 Kingsmill 合併後的重塑,示範了一個成熟到快被看膩的品類(包裝吐司),怎麼靠拋開視覺老梗、往上一層講「滋養」的格局重新站穩腳步;Houth Studio 則從另一端出發,把台灣的刺青文化和馬戲團美學,拆解成有觸感、好入口的出版設計;首爾聖水洞的小物消費現象,則提醒我們品牌識別和策展式敘事,正在變成對抗平台比價的核心武器;Hannah Knox 的「沒有人的肖像畫」和 Tam Festival 取材伊特魯里亞歷史的識別設計,則從藝術和活動識別的角度,示範了怎麼用一個夠獨特的敘事切角,讓作品在一片相似的視覺語言裡站出來。"
-    }
-  },
-  {
-    "date": "2026-07-12",
-    "daily_summary": "今天 Product 圈把「判斷力」這個老生常談,落地成好幾個具體工具——聊天機器人稽核表、設計系統六維度框架、心理健康 App 的五點評估框架;Brand 圈則因為週末出版節奏放慢,讓幾篇有點年份的深度內容浮上來:Sporting CP 百年老字號重塑示範了「精準留白比全部重做更有力量」,Porto Rocha 的週末側寫則提醒好設計來自螢幕之外的生活累積。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Craft still matters, but it's about outcomes",
-          "url": "https://uxdesign.cc/craft-still-matters-but-its-not-about-pixels-anymore-ai-can-help-you-keep-it-e542cac33d12",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 的核心論點是:設計工藝已經從「產出」徹底轉移到「判斷」——當 AI 把線框稿、元件、精緻化的產出這些執行層工作商品化之後,真正的差異化往上移到問題選擇、研究嚴謹度、以及對結果負責這幾件事上。他拿 1980 年代桌面排版轉型類比:死守鉛字的排字工人被淘汰,而把工藝重新定義成「判斷力」的人反而活下來。文中舉了幾個扎心的例子:AI 會自信滿滿地捏造根本不存在的人物誌、研究引言、調查結果,看起來跟真的做過研究一模一樣;Stack Overflow 2025 年的調查發現 84% 的工程師在用 AI 工具,但只有 29% 信任它的準確度;GitClear 的分析也顯示複製貼上的程式碼比例從 2021 年的 8.3% 飆升到 2024 年的 12.3%。他提出七個「工藝搬家後的落腳處」:選對問題、每週做研究、把標準明確寫下來、建立帶著限制條件的鷹架文件、決策定案前保持人在迴圈裡、用評分標準系統性評估機器產出、檢查「漂移」而不只是通過測試。對工作室來說,現在最稀缺的資源是判斷力——願意去爭論「什麼叫做好」並持續爭論下去,這才是利潤真正藏著的地方。"
-        },
-        {
-          "title": "The 5 Qualities of Site-Specific AI Chatbots",
-          "url": "https://www.nngroup.com/articles/dimensions-of-ai-chatbots/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 歸納出網站客製化 AI 聊天機器人該具備的五個特質:一是「願意交接」——使用者一要求轉真人客服就馬上接,不要卡關(有受訪者形容那種感覺像「在滾輪上的倉鼠一直空轉」);二是「彈性」——能處理跟主題相鄰的問題,但遇到超出範圍的請求要優雅地引導轉向;三是「主動」——在對的時機主動問釐清問題、建議下一步,而不是變成打斷使用者的干擾;四是「情緒回應力」——承認情境但不假裝有感覺,「等兩週真的很久」比表演式的道歉更誠實有效;五是「透明」——清楚表明自己是 AI、說明能力和限制、給建議附上理由、在對話裡直接講清楚資料怎麼被使用,而不是藏在條款頁面裡。核心提醒是:每一次互動都在累積或耗損信任。對設計師來說,實際做法是拿這五個維度去稽核自己手上的聊天機器人,找出現況和理想狀態之間的落差,再透過設計迭代和使用者測試一個一個補起來。"
-        },
-        {
-          "title": "Design-System Maturity: A 6-Dimension Framework",
-          "url": "https://www.nngroup.com/articles/design-system-maturity/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 提出一個反直覺的主張:設計系統的成熟度不是一條直線的進程,而是一個多維度的模型,包含六個彼此獨立的面向——組織對齊(領導層支持、資金穩定度)、團隊效能(人力、跨職能協作)、基礎建設穩健度(元件品質、文件、工具)、治理(決策結構、版本策略)、支援(上手引導、溝通管道)、以及採用度(使用廣度、團隊信任)。文章的核心洞察是:線性的成熟度模型把現實過度簡化了——設計系統不會乖乖往前走,它會倒退、停滯、在不同面向上以不均勻的速度成熟;一家新創和一家大企業都可能擁有「成熟」的系統,即使兩者條件天差地遠;採用度也不是一個里程碑,而是「貫穿系統整個生命週期、持續存在的組織挑戰」。把六個面向的分數畫出來,會呈現一個輪廓,直接顯示出哪裡失衡、哪裡卡關。實際做法是定期(每季或重大變動後)找設計師、工程師、產品利害關係人、和贊助者一起做評估——這個過程裡的討論和對齊,往往比最後打出來的分數本身更有價值。"
-        },
-        {
-          "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn't Follow Every UI Fashion",
-          "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "心理健康類 App 面臨一個嚴重的留存危機:95% 的使用者在 30 天內就流失了。作者的核心論點是:追流行 UI 趨勢會直接破壞留存,因為趨勢的目的是抓住注意力、展示創新感,而心理健康設計需要的是提供庇護感、降低認知負擔、建立信任——這兩件事根本互相衝突。處於情緒困擾中的使用者能承受的認知資源本來就變少,對一般探索型使用者來說覺得驚喜有趣的互動,對正在經歷危機的人來說反而變成阻力和挫折——「好設計不只是美感問題,它是留住使用者的核心工具」。他提出一個五點評估框架,在採用任何流行的設計手法之前先問:這個手法是降低還是增加了超載使用者的認知負擔?它呼應還是牴觸使用者的情緒困擾狀態?它靠一致性維持導航可靠感,還是為新奇感犧牲可靠感?有沒有悄悄排除掉某些脆弱使用者?是不是尊重使用者投入的完整性,而不是用借來的娛樂機制強迫使用?最關鍵的判斷準則很簡單:這個趨勢,在使用者最沒有餘裕的時候,有沒有降低他們使用這個 App 的成本?對接醫療、心理健康類客戶的工作室來說,這篇提醒的是把介面做成「安靜的幫手」,而不是照抄視覺上很搶眼卻沒做情境調整的設計。"
-        },
-        {
-          "title": "How to keep design teams steady through constant change",
-          "url": "https://www.figma.com/blog/jen-dunnam-lead-design-teams/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Hinge 的 Futures 副總裁 Jen Dunnam 分享她在 Patreon 和 Shopify 帶團隊的經驗,提出三個在快速變動時期維持團隊穩定的支柱:第一,用「冷靜」而不是「急迫感」帶領——與其放大對 AI 的恐慌,領導者應該把團隊拉回根本:「我們終究還是在為人設計,這件事沒有在變」;第二,招募願意批判思考的人——找那種會質疑決策、敢對利害關係人 say no、堅持嚴謹度的設計師,當炫炮的 AI 工具誘惑大家抄捷徑時,這個特質會變得非常關鍵;第三,建立心理安全感——打造一個大家可以自在提出異議、激烈辯論的環境,這其實是團隊健康的訊號。她舉了兩個具體對照:在 Shopify,「速度」意味著快速重建核心開發者產品——需要精雕細琢的執行力;在 Patreon,「速度」意味著快速上線大量 MVP 去測試新功能——優先講求快速迭代。她給的實際建議是:先誠實定義清楚「速度」在你的組織裡到底是什麼意思——領導者常常同時追逐快速發想、精緻執行、推出新功能這三個目標,但很難同時做到,不如誠實討論取捨、決定現階段哪兩個才是真正重要的,這樣才能避免團隊內部認知不一致和過勞。"
-        }
-      ],
-      "buzz": "今天 Product 圈難得橫跨了好幾個不同的切入點:Patrick Neeman 把「工藝」重新定義成判斷力而不是產出,還給了具體的七個實作方向;NNGroup 一口氣發了兩篇工具型文章——聊天機器人的五個特質稽核表、設計系統成熟度的六維度框架,都是可以直接拿去用的評估工具;Smashing 那篇則示範了「同一套流行 UI 模式,套用在心理健康這種脆弱情境下反而有害」的細膩判斷;Figma 那篇則從團隊管理的角度收尾——講的不是設計本身,而是怎麼在 AI 焦慮蔓延的時候,穩住整個團隊。合起來看,今天的主題是:判斷力要落地成具體的工具和框架,而不只是停留在「AI 時代設計師要有判斷力」這種空泛的口號上。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
-          "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章點出品牌專案最常在策略階段就出問題的原因:像「現代」、「值得信任」這種詞彙一直沒有被具體定義清楚。作者主張最強的視覺概念,來自一個專門的「概念前置階段」——在畫出任何設計之前,先讓團隊對方向有共同的理解。他提出三階段流程:第一階段研究品牌情境,探討「大家應該相信這家公司的什麼」、「品牌該貼近產業慣例還是該打破慣例」;第二階段用兩個練習揪出利害關係人之間沒說出口的分歧——「競品感知地圖」把競品畫在座標軸上(傳統對前衛、企業對人性化),讓大家對市場定位的理解差異浮現出來;「視覺品牌驅動練習」則讓利害關係人選出代表公司性格的隱喻圖像(交通工具、家具、動物),藉此揭露心裡沒講出來的預設立場;第三階段建立視覺基礎,用三個相連的層次把策略橋接到設計——look and feel 情緒板建立感知方向、design code 把品牌概念翻譯成視覺原則、asset direction 指引字體色彩的做法方向。對工作室來說,實際做法是在提出第一版設計概念之前,先用一份「概念前置檢查清單」確認方向已經對齊——「第一版概念不該讓人覺得是用猜的,應該讓人覺得這就是大家已經理解的方向的下一步」,這樣才能避免因為沒說清楚的期待而導致整個重做。"
-        },
-        {
-          "title": "The Weekend With Porto Rocha",
-          "url": "https://www.itsnicethat.com/features/the-weekend-with-porto-rocha-100726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇專題側寫全球設計公司 Porto Rocha 的共同創辦人 Leo Porto 和 Felipe Rocha,揭露他們怎麼在紐約和倫敦之間高強度工作的同時,刻意經營週末生活——優先安排文化體驗(藝術節、美術館特展)、用心挖掘美食、認真閱讀(設計檔案和理論文本)、關注同儕和客戶正在做的新作品。這篇揭露的重點是:好的設計成果來自豐富的知識生活——他們廣泛地吸收各種養分,從美術館回顧展到卡帶收藏,同時很認真地維繫創意圈的真實關係,像是去朋友和合作對象的新作發表會、參加自己做過識別設計的藝術節。對其他工作室的啟發是:把「文化素養」當成一種商業策略來投資——Porto Rocha 的做法顯示,他們的設計解法很可能得益於對藝術史、音樂、文學、和新興創作者聲音的深度涉獵。把週末的文化消費當成專業發展的一部分,而不是跟工作切開的事,才能累積出更豐富的概念框架。"
-        },
-        {
-          "title": "Fictionist Studio transforms the Lunar New Year into miniature worlds",
-          "url": "https://www.creativeboom.com/inspiration/fictionist-studio-transforms-the-lunar-new-year-into-miniature-worlds/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "吉隆坡的設計工作室 Fictionist Studio(創辦人 Joanne Chew)把傳統農曆新年習俗重新想像成一系列自主發起的設計實驗,把文化儀式轉化成融合概念思考和精緻工藝的沉浸式物件。以馬年為主題的《Mane Character Energy》,把傳統紅包重新設計:她找專業髮型師做客製髮飾,拍照後把影像數位合成到馬的意象上,做出一種時尚編輯風格,鏡面金屬包裝則讓收到的人可以看到自己的倒影和馬鬃並列在一起。蛇年的《Shed Off Yesteryear》則是一套四層堆疊的系統,引導使用者完成一段觸感豐富的儀式——燃燒線香、刮開銀箔顯露出運勢——象徵除舊佈新、蛻皮重生。Chew 形容自己的創作哲學:「我希望我們做出來的東西不只是一件設計品……而是一個人們會覺得值得留下來的實體物件或敘事」。這些作品示範了設計怎麼把文化傳統提升成有份量、值得收藏的作品。"
-        },
-        {
-          "title": "Why Simon Vergély gets suspicious when things look too perfect",
-          "url": "https://www.creativeboom.com/inspiration/simon-vergely/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "法國自學成才的動畫師 Simon Vergély(工作室名稱 [SIC]Film),刻意做出帶著搖晃、手感、有點邪門超現實質地的 2D 動畫,靈感來自 1990 年代的類比文化和嘻哈那種原始、有顆粒感的聲音質感。他的核心哲學是:完美無瑕本身就是一個警訊——「有時候,正是那些不完美讓作品感覺是活的」。他強調自己的粗糙感不是技術不夠好的結果,而是刻意經營出來的:「你要先懂得怎麼做出乾淨精準的東西,才有辦法刻意去打破它、扭曲它、或讓它帶有更有機、更不完美的質地」。這種手法弔詭地變成他的商業強項——客戶會 specifically 指名找他,就是要那種帶著顆粒感、有紋理的質地,證明了在一個越來越同質化的創意環境裡,真實感和手工感反而更能引起共鳴。"
-        },
-        {
-          "title": "Sporting CP unveils 1940s-informed rebrand that \"stays faithful to the club's legacy\"",
-          "url": "https://www.dezeen.com/2026/07/06/sporting-cp-club-badge-logo-rebrand/",
-          "source": "Dezeen",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "里斯本足球俱樂部 Sporting Clube de Portugal 為慶祝成立 120 週年,委託 Jones Knowles Ritchie 操刀 25 年來首次重新設計的品牌識別。會員們最想要的改變,是讓品牌回到 1945 年的徽章版本——那個有著咆哮獅子吉祥物、盾牌造型加上相連渦紋圖案的經典設計;JKR 的目標是做出一套既緊扣俱樂部歷史、又能吸引年輕新球迷的識別。新識別以五個核心符號組成一套「視覺準則」:球員進場的 Porta 10-A 大門啟發了貫穿整套識別的圖騰紋樣;盾牌延續俱樂部傳承和更廣泛的葡萄牙視覺語言;皇冠巧妙地代表 SCP 縮寫,搭配新開發的專屬字體 Sporting Sans;獅子代表球迷、造型取自過去五個版本的徽章;綠白條紋則啟發了整套識別的動態設計語言。這套新徽章從 2026-27 年球季開始正式成為俱樂部的官方視覺識別。這個案子對接運動、老字號品牌客戶的工作室來說,示範了「怎麼在 25 年沒動過的老識別裡,精準挑出最有情感價值的元素當作重塑的地基」,而不是整個打掉重練。"
-        }
-      ],
-      "buzz": "這個週末 Brand 圈的出版節奏明顯慢下來(It's Nice That、Creative Boom、Brand New 這幾天新貼文都變少),但幾篇值得留意的內容剛好從不同角度回答同一個問題:好品牌怎麼長出來的?Smashing 那篇給了具體的「概念前置階段」流程,解決品牌專案最常見的痛點——策略講的都是模糊形容詞;Porto Rocha 的週末側寫提醒我們,好設計往往來自螢幕之外的文化涉獵;Fictionist Studio 和 Simon Vergély 則分別示範了工藝(把文化儀式做成值得收藏的物件)和刻意的不完美(手感和顆粒感)怎麼變成差異化;Sporting CP 的百年老字號重塑則證明,重新設計不必打掉重練,精準挑出歷史裡最有情感重量的元素、其餘大膽留白,反而更有說服力。"
     }
   }
 ]
