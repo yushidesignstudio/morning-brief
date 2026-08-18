@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-08-18",
+    "daily_summary": "今天 Product 圈的文章都在戳破「表面問題底下藏著另一層問題」——使用者流失可能是形象問題不是功能問題,設計師對 AI 的態度反映的是理想主義磨損的程度,無障礙設計其實是詞彙問題不是技能落差;Brand 圈的焦點則是 Instagram 十年來首次重大改版,加上幾篇從 AI 倫理、地緣政治、到居家收藏各種角度切入的作品,示範了品牌敘事能在多大的尺度落差裡找到值得說的故事。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The feature was fine. So why did users keep hiding it?",
+          "url": "https://uxdesign.cc/the-feature-was-fine-so-why-did-users-keep-hiding-it-58082b6f3abf",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "SoYoon Park 探討一個容易被忽略的流失風險:就算一個功能運作得很好,如果使用者不願意公開展示它,這個產品或服務依然可能面臨嚴重的流失問題——沒有截圖分享、沒有社群提及,悄悄被收進主畫面某個資料夾裡。她引用 MISSHA 的焦點團體研究:參與者說「如果我男朋友送我這個牌子的東西當禮物,那就是他在用一種委婉的方式跟我說分手」——顯示品牌形象低落到某個程度,會讓使用者連被看到在用都會感到羞恥。她指出常見的研究盲點:只問「你為什麼不再使用這個」,得到的答案通常是可預期的功能抱怨;真正該問的是「你有沒有把它藏起來?」,才能挖出更深層的問題。實際的啟發是:把「你有沒有把它藏起來?」加進顧客流失訪談裡——如果易用性沒問題,但使用者不願意公開展示使用這個服務,這代表品牌正面臨嚴重的流失風險,而這種風險用一般的功能滿意度調查根本測不出來。"
+        },
+        {
+          "title": "AI adoption and the slow erosion of design idealism",
+          "url": "https://uxdesign.cc/ai-adoption-and-the-slow-erosion-of-design-idealism-fab75761ebd6",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Michael Buckley 主張,設計師對採用 AI 的開放程度,跟年齡或技術素養的關係比較小,反而跟從業年資有多少關係比較大——年資會磨掉設計師對「設計在真實世界怎麼運作」的浪漫想像。他觀察到,大部分設計師剛入行時,對設計懷抱著某種浪漫的想像——不管是藝術表達、解決問題、創新、還是想做出有意義的東西的渴望,但沒有人會提醒你,截止日期、修改迴圈、利害關係人的意見、和預算限制,會多快重塑你對「什麼才是好設計」的理解。他認為這個過程不是憤世嫉俗,而是一種務實化——設計逐漸從「守護一個理想」,變成「在真實世界的限制條件裡解決問題」。實際的啟發是:對 AI 的態度,某種程度上反映了一個人對設計這份工作本質的認知有多成熟——資深從業者比較容易把 AI 當成另一個限制條件下的工具來使用,而不是把它當成對某種純粹理想的威脅。"
+        },
+        {
+          "title": "You already know how to make it accessible",
+          "url": "https://uxdesign.cc/you-already-know-how-to-make-it-accessible-b29513a9b217",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Hope Turner 主張,無障礙設計標準本質上是「把優秀設計師本來就在做的設計原則,翻譯成法律和技術語言」——這篇文章是寫給那些覺得無障礙是一套獨立技能、需要另外學習的設計師看的翻譯指南。她的核心論點是:設計師和無障礙標準之間的落差不是知識落差,是詞彙落差——一旦設計師看清楚設計原則和無障礙標準之間其實有著一對一的對應關係,這些標準就不再感覺像是外加的檢查清單,而會開始感覺像是在替一件自己一直都在做的事情命名。她指出,設計師在寫下第一行程式碼之前,早就在對層級關係、對比度、標籤、和內容做各種判斷——這些判斷本身就是無障礙設計的核心。實際的啟發是:與其把 WCAG 這類準則當成陌生的外部規範,不如把它們看成一套語言,去描述你其實已經很熟悉的設計判斷——這個心態轉換,能讓無障礙從「額外的負擔」變成「本來就該做的事」。"
+        },
+        {
+          "title": "One AI Output Is an Example, Not an Evaluation",
+          "url": "https://www.nngroup.com/articles/eval-ai-output/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章的核心主張是:AI 系統是非確定性的,同樣的輸入會產生變動的輸出,所以「一個好的輸出,只證明了系統能完成這個任務,沒辦法證明它多常做到、或做得多可靠」。跟傳統軟體每次表現都一致不同,語言模型是對可能的回應分配機率——單一次成功的互動,沒辦法提供任何關於它在不同情境或重複嘗試下,表現是否一致的證據。實際的評估建議是:要有多個具代表性的測試輸入——涵蓋真實使用情境的範圍,而不只是挑簡單的案例;每個輸入都要重複跑好幾次——才能揭露單次嘗試會掩蓋掉的一致性問題;用帶著信賴區間的彙總指標——回報平均表現和不確定性,而不是挑一個亮眼的案例出來展示。這個做法呼應了既有的量化 UX 研究方法。文章提醒:「單次執行適合早期探索」,但真正有影響力的決策,需要來自多次觀察的證據,而不是一個令人印象深刻的單一產出。"
+        },
+        {
+          "title": "Psychological Ownership: Own the Right Things",
+          "url": "https://www.nngroup.com/articles/psychological-ownership/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章主張,「心理擁有感」——對自己的作品產生依戀感——雖然能提升動機和主動性,但一旦這種擁有感投射到自己控制不了的事情上,就會變得很有破壞性,設計師必須策略性地把這種擁有感,重新導向真正能被自己掌控的目標。驅動這種依戀感的三個來源是:控制某件事、深入了解它、以及投入時間和心力在上面——設計工作天生就會觸發這三個條件。常見被錯置的擁有感目標包括:對協作出來的點子堅持獨佔的作者身份、對原型的個人依戀勝過對團隊目標的關注、對回饋產生防衛性反應、對超出自己控制範圍的實作落差感到怨懟。文章強調,真正屬於你、值得擁有的東西是:「擁有你的判斷力、你的行動、你的職涯成長、你的價值觀、你的界線、和你的人際關係」——不管組織怎麼變動,這些永遠完全在你的掌控之中。實際的啟發是:與其對抗這種情緒性的擁有感,不如重新導向它——從捍衛個人設計方案,轉向促成團隊對使用者需求的共同理解,把自己的成長和價值觀當成真正該擁有的東西,才能把這種容易導致過勞的本能,轉化成可持續的專業滿足感和效能。"
+        }
+      ],
+      "buzz": "今天的文章圍繞著「你以為的問題,其實藏著另一層問題」這個主題:SoYoon Park 提醒我們,使用者「把產品藏起來」是比功能抱怨更該被認真對待的流失警訊;Michael Buckley 則主張,設計師對 AI 的態度,反映的其實是他們對「設計理想主義」磨損了多少;Hope Turner 把無障礙設計重新定義成一種語言問題,而不是技能落差;NNGroup 的兩篇則從評估方法論出發——單一次 AI 產出不是評估、只是範例,而「心理擁有感」該被導向真正能掌控的東西,而不是控制不了的產出結果。今天的主軸:很多表面上看起來是技術或流程問題,骨子裡其實是心態和框架的問題。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Instagram reveals its first brand refresh in 10 years, with a new wordmark and three typefaces",
+          "url": "https://www.creativeboom.com/news/instagram-reveals-its-first-brand-refresh-in-10-years-with-a-new-wordmark-and-three-typefaces/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Instagram 推出十年來第一次重大品牌更新,維持招牌的手寫草寫風格,但做了大幅現代化的調整——草寫字母被收緊,減少了裝飾性的花體,主要體現在「s」、「r」、「g」這幾個字母上。設計團隊測試了幾百個方向,最後還是回到手寫風格,產品設計總監 Jasmine Probst 解釋:「草寫反映的是個體性,所以參照這個方向感覺是對的」。這套品牌系統推出三款全新的客製字體:Instagram Sans(更新版)、Instagram Pen(手寫體字型)、Instagram Mono(等寬字型)。Meta 的 May Hartono 表示,這次更新的目的是「激發勇敢的行動,讓大家有信心自由、完整地創作、展現真實的自己」。整套系統更新了動態、版面、和 UI 元素,間距也做了改善;那個標誌性的漸層色依然是核心,但呈現方式變得更含蓄。字標即刻在全球上線,其餘系統元素會在 2026 年陸續推出;設計圈的反應褒貶不一——有人歡迎更乾淨的美學,也有人質疑草寫加無襯線的混合做法。相機 App 的圖示則維持不變。"
+        },
+        {
+          "title": "Designing for 3 billion: how Instagram built a brand system that celebrates everyone's point of view",
+          "url": "https://www.itsnicethat.com/features/designing-for-3-billion-how-instagram-built-a-brand-system-that-celebrates-everyones-point-of-view-partnership-170826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Meta 的設計總監 Jasmine Probst 和 May Hartono,主導了 Instagram 十多年來的第一次大改版,她們同時擁抱了這件事的「責任」和「可能性」。她們沒有選擇求穩,而是認知到替全球數十億人做設計,需要一套能兼顧即時視覺衝擊和長期靈活性的系統。整個做法的核心是大規模的協作——讓幾十個內部團隊、外部合作夥伴、和獨立字體設計師,圍繞著一個強調創意和連結感的清楚創作基礎對齊。幾個關鍵洞察:過程和哲學——團隊維持一個雙向的回饋迴圈,一邊蒐集全球各地的觀點,一邊做出果斷的創意決定,Hartono 提到:「你永遠不可能得到即時的全體認同,這就是變革的現實」,她也補充「極度講究的用心程度,反而讀起來會像是毫不費力」;素材管理——與其消除大規模專案本來就會有的混亂,團隊擁抱刻意的溝通和紀律,用模式辨識來區分真正的設計缺陷和主觀的偏好;雙軌時間軸——字標的設計是為了長久使用,而更廣泛的系統則刻意保持適應性。這個案例對接大型品牌案的工作室來說,示範了怎麼在協作規模超大的情況下,依然做出果斷的創意決定。"
+        },
+        {
+          "title": "Rotterdam studio The Phoney Club is redrawing the rules for AI-made worlds",
+          "url": "https://www.itsnicethat.com/articles/the-phoney-club-graphic-design-discover-180826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "鹿特丹的創意工作室 The Phoney Club,替 AI 生成的圖像建立了一套倫理框架,優先考慮真實性和透明度。他們的方法論有三個核心做法:授權和真實性——他們不是從零打造合成模特兒,而是使用真人授權的 AI 分身,關鍵是他們保留自然的不完美——皺紋、痕跡、陰影,他們的理由是「真實的不完美不只是一種美學選擇,也是一種倫理選擇」;混合式創意產出——工作室開發了「The Phoney Edit」這項服務,把攝影和 AI 製作結合在一起,這個做法在不受預算或後勤限制的情況下,給予創意自由,他們替 Ajen Botanical Body Care 做的 campaign 就是一個例子;刻意打造的世界——透過自主發起的計畫「The Phoneyverse」,他們建構了三個人造維度,讓訪客能體驗客製打造的環境,直接對抗他們眼中那種被演算法回聲室主導的空洞數位空間。工作室的哲學建立在一個弔詭之上:承認「真實性是 AI 生成不出來的東西,它必須從外部被帶進來」。透過建立圍繞著同意、透明、和不完美的自我規範,他們把 AI 定位成一種需要人類倫理把關的創意工具,而不是取代人類判斷的東西。"
+        },
+        {
+          "title": "Why a Japanese potato chip bag lost its colour",
+          "url": "https://www.itsnicethat.com/articles/the-view-from-tokyo-why-a-japanese-potato-chip-bag-lost-its-colour-graphic-design-170826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "卡樂比(Calbee)洋芋片在 2026 年 5 月把包裝改成單色,原因是地緣政治的動盪——當荷姆茲海峽因為衝突而封閉,做彩色包裝油墨用的石化原料石腦油變得稀缺又昂貴。這個轉變反映了日本設計圈更廣泛的現象:作者指出「視覺產出常常是由總體經濟力量決定,而不是品味」。日圓貶值(2020 年以來貶了 52%)加上材料成本上漲這類經濟壓力,逼著設計師和製造商做出削減成本的決定,而這些決定正在改變視覺上的預設選擇。這篇文章追蹤這個影響橫跨了多個產業:特殊紙材被停產、印刷廠陸續收攤、建築師做設計時把預算放在第一位考量。雖然有些創作者能靠限制條件找到解法,但作者主張,設計裡的用心程度正在逐漸變成一種特權,而不是一種標準配備——慢慢侵蝕掉日常視覺文化原本具備的那種周到感。"
+        },
+        {
+          "title": "What's hiding inside London homes? Yooree Ko and Owl & Dog Playbooks map a neighbourhood of collectors",
+          "url": "https://www.itsnicethat.com/articles/owl-and-dog-playbooks-yooree-ko-collectors-street-illustration-publication-project-180826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Owl & Dog Playbooks——由 Yeonju Yang 和 Claudio Ripol 創立的倫敦童書出版社——跟南韓插畫家 Yooree Ko 合作,打造了《Collector's Street》,一本慶祝極繁主義和個人收藏的繪本。這本出版品用摺頁呈現房屋的剖面圖,裡面塞滿了各種奇特的寶物,讀起來像一本視覺解謎書。Ko 用 Procreate 和 Photoshop 創作,先個別組合每個房間,再用數位方式把它們組合起來,做出手作拼貼風格的插畫。這個概念源自創作者自己的收藏習慣:「我們覺得這個格式很適合『偷看一間房子裡面』這個動作,去揭露藏在裡面的生活」。每個角色都體現一種不同的執著,把家變成慾望和個人身份的具象呈現。Ko 提到英式建築特別激發她的靈感,她形容「那些安靜的散步帶來了很多靈感」,讓她想像窗戶背後正在展開的各種生活。這本書慶祝了居家空間怎麼變成記憶、興趣、和夢想的容器——透過累積的物件和珍愛的收藏,具象化地證明一個人的存在。"
+        }
+      ],
+      "buzz": "今天最大的新聞當然是 Instagram 十年來首次重大改版——兩篇報導從不同角度切入:一篇講具體的視覺細節(三款新字體、收緊的草寫字標),一篇則深入替 30 億使用者做設計背後的協作流程和哲學,兩篇合起來完整呈現了這次改版的全貌。The Phoney Club 示範了怎麼替 AI 生成的圖像建立倫理框架,把「不完美」變成一種刻意的選擇;日本洋芋片包裝失色的故事,則從很意外的角度提醒我們,設計選擇常常是總體經濟和地緣政治力量決定的,不是純粹的品味問題;Owl & Dog Playbooks 的繪本計畫則從最溫馨的尺度收尾,慶祝收藏和居家空間裡藏著的個人身份。"
+    }
+  },
+  {
     "date": "2026-08-11",
     "daily_summary": "今天 Product 圈用文學隱喻、自動化史、和 AI 安全事件,反覆逼問同一個問題:設計到底是在服務人、還是在服務體制,判斷力該怎麼跟得上機器偵測的速度;Brand 圈則橫跨音樂廳識別、防曬品包裝、和獨立自費出版,示範了品牌敘事不管規模大小,核心永遠是找到一個能真正打動人的切角。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例剛好涵蓋了「文字和圖像之間的界線」這個主題的好幾種玩法:Thirst 替 M&S 啤酒系列做的兩套設計語言,示範了同一個母品牌下怎麼用差異化的視覺系統服務不同定位的產品線;Supersystème 把排印當成圖像本身在操作,做出單靠文字或圖像都無法單獨傳達的閱讀體驗;Kelli Anderson 則把紙藝工程直接變成一種雕塑性的藝術媒材;Shrey Kathuria 的《Mindspill》把排印變成一本情緒日記,刻意擁抱難以閱讀的美學;Sawako Kabuki 的動畫創作則提醒我們,誠實面對自己真正著迷的主題——即使是身體和生理現實這類不容易被端上檯面的題材——往往比刻意挑釁更有力量。"
-    }
-  },
-  {
-    "date": "2026-07-21",
-    "daily_summary": "今天 Product 圈從 AI 產品的倫理陷阱一路談到怎麼設計出撐得過人類感知極限的通用系統;Brand 圈則從可口可樂的全球品牌治理,到餐廳、織品、插畫、動畫產業各自的小尺度案例,示範了不管規模大小,好設計都建立在「刻意的選擇」上——不管是刻意加一點摩擦、刻意慢下來、還是刻意為最差的觀看條件做設計。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "How to apply Nir Eyal's Hook Model to AI products, safely",
-          "url": "https://uxdesign.cc/how-to-apply-nir-eyals-hook-model-to-ai-products-safely-f6a986305a2d",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 主張 Nir Eyal 的「上鉤模型」(Hook Model)——觸發、行動、變動獎勵、投入這四階段的習慣迴圈——套用在 AI 產品上時,速度快得異常危險,因為其中兩個階段等於是語言模型本身自帶的。他把上鉤模型拆解到 AI 情境裡:「觸發」不再需要外部通知,真正的力量藏在內在反射——那種卡關時忍不住想問 AI 的衝動;「行動」是聊天框幾乎零摩擦——用自然語言打字、立刻得到回應;「獎勵」則是語言模型天生就會提供變動性的結果,使用者會一直追逐那種不可預期的品質;「投入」則是每一次修正、每一個上傳的檔案、每一個偏好設定,都在客製化這個工具、拉高轉換成本。他強調的倫理風險是:互動指標和真正的價值之間正危險地脫鉤——他寫道:「一個人可以在你的產品裡花掉一小時,結果什麼問題都沒解決」,但指標上卻顯示這是成功;他舉 Character.AI 因為傷害訴訟撤掉青少年聊天功能為例,證明「強到需要被關掉」的迴圈,本質上是包裝成勝利的設計失敗。實際的建議是:上線前先套用 Eyal 的「操控矩陣」自我檢核——你的產品真的改善了人的生活嗎?你自己會想用嗎?最關鍵的判準是「後悔測試」——如果知情的使用者不會同意這個留存機制,你就已經從「促成者」變成了「販毒者」。"
-        },
-        {
-          "title": "Research shouldn't end in a deck",
-          "url": "https://uxdesign.cc/research-shouldnt-end-in-a-deck-fe7c1d4fe1af",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Sen Lin 主張研究不該以一份靜態的簡報作結,研究者應該用 Claude Code 去改變兩件事:調查過程中怎麼思考、以及研究結果之後怎麼融入產品團隊的工作。他指出 Claude Code 能扮演兩個角色:第一是「思考夥伴」——在研究進行到一半時主動挑戰研究者習慣性的思考模式和預設立場;第二是「產出製作者」——把研究發現轉化成團隊可以持續互動的「活的產出物」,而不是傳統那種一次性看完就束之高閣的簡報。他強調的實際啟發是:與其只把 AI 用在「上網搜尋、比較產品、整理文件」這類基本任務上,研究者應該在關鍵時刻使用它——質疑自己的研究方法、創造動態的、會持續演化的產出——從「一次性交付物」轉向「團隊會持續參考、持續建構」的研究資產。"
-        },
-        {
-          "title": "The weakest channel",
-          "url": "https://uxdesign.cc/the-weakest-channel-1e6d68d8d562",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Takuma Kakehi 主張通用設計之所以能長存,靠的不是美感或受歡迎程度,而是它能撐過嚴苛限制——尤其是人類感知和注意力的限制。他舉了 1970 年世界盃足球的設計為例:黑色五邊形搭配白色六邊形的圖案,撐過了之後每一屆賽事的識別系統——這個設計之所以成功,是因為就算在很差的觀看條件下,它依然能被認出來:「你的眼睛先找到了三個五邊形——那就是設計在發揮作用」。他的核心洞察是:「通用性不是被設計出來的,是靠撐過限制條件被篩選出來的——而人,通常就是那個限制條件」。錦標賽的視覺識別通常幾天內就被淡忘,但這顆足球的設計卻撐了幾十年,正是因為它一開始就是為了「在被看得很差、離得很遠、或畫面在晃動的情況下依然能運作」而設計的。實際的啟發是:設計師該把「堅固耐用」擺在「精緻打磨」之前——與其只針對理想觀看條件做優化,該打造那種在人類感知最弱的時刻(分心、距離遠、畫質差)依然可靠運作的系統。"
-        },
-        {
-          "title": "Lonely at a lower latency",
-          "url": "https://uxdesign.cc/lonely-at-a-lower-latency-99ae638489b9",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Wira Indra Kusuma 主張現代科技已經把「外在體驗」——速度、可靠性、便利性——打磨到近乎完美,卻忽略了人內在真正的需求。他描述了一趟火車旅程:準點抵達、無縫通過閘門、精準停靠,一切運作得毫無破綻——但在這種營運上的完美之中,他觀察到「置身其中的那個人,並沒有因此改變」。我們打造出一套幾乎完美解答的系統,「圍繞著一個從來沒有真正被問到的問題打轉」。實際的啟發是:設計師該意識到,單靠優化物流和速度,會做出空洞的體驗——真正有影響力的設計,需要處理更深層的人類關懷:意義、連結、目的,而不只是降低延遲。沒有考慮情感或心理需求的效率,就算科技上再怎麼舒適便利,依然會讓人感覺孤單。"
-        },
-        {
-          "title": "The brainstorm that couldn't storm",
-          "url": "https://uxdesign.cc/the-brainstorm-that-couldnt-storm-bc59947c3c16",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Hiroshi Sato 主張有效的腦力激盪,需要的不只是找一群背景多元的人聚在一起——還需要工具和結構,才能讓真正的協作發生。沒有視覺輔助工具的話,腦力激盪很容易退化成「輪流分享想法」,而不是「想法互相堆疊建構」。他描述了一場 Zoom 腦力激盪會議:六七位準備充分的參與者,但想法並沒有互相碰撞累積,「每個想法抵達時都已經是完整的——一個概念、一個理由、一個靈感來源」各自單獨呈現,參與者的回應也很被動(「蠻有趣的」),沒有東西被打磨或整合過,整場會議感覺就像「派對上輪流自我介紹的名單」。他認為問題出在:沒有白板工具,想法就沒辦法被視覺化外顯出來、被即時抓取、編輯、混合再創造。實際的啟發是:基礎設施跟參與者的素質同樣重要——主持人應該部署協作式視覺化工具(白板、共享數位畫布),把腦力激盪從「各自發表想法」轉變成真正互動的解題過程。"
-        }
-      ],
-      "buzz": "今天的文章橫跨了好幾個很不一樣的尺度:Patrick Neeman 那篇最尖銳——把 Nir Eyal 的上鉤模型套進 AI 產品,提醒大家 AI 天生自帶讓人上癮的兩個階段,「後悔測試」是一個很好用的倫理檢核工具;Sen Lin 和 Hiroshi Sato 則分別從研究和腦力激盪的角度,示範了 AI 和協作工具怎麼被用來讓團隊真正思考、而不是走過場;Takuma Kakehi 的世界盃足球案例則提醒我們,真正耐用的設計往往不是靠精緻打磨,是靠撐過人類感知最弱的那個瞬間;Wira Indra Kusuma 的火車旅程,則從最根本的地方提出質疑:當一切都被優化到完美,我們是不是忘了問使用者真正的問題是什麼。今天的文章拼起來,講的是同一件事的不同切面:效率和產出從來就不是設計的終點,人的真實處境才是。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Coca-Cola Unveils a New Global Brand Identity",
-          "url": "https://www.printmag.com/branding-identity-design/coca-cola-unveils-a-new-global-brand-identity/",
-          "source": "PRINT Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "可口可樂為了讓 140 年歷史的品牌在超過 200 個市場裡維持更一致的視覺呈現,推出全球識別大改版——這家公司全球每天賣出 22 億份飲品,要在這麼多元的地區和接觸點之間維持識別一致性,難度非常高。這次改版的核心是 1969 年就已經存在的「可口可樂緞帶」(Coca-Cola ribbon)——一個呼應經典曲線瓶身造型的設計元素,現在被賦予更吃重的角色,貫穿包裝、數位、零售、設備等所有應用場景;可口可樂 Zero Sugar 則用更大膽的字體、黑色緞帶、黑色瓶蓋做出強化處理,在向品牌傳承致敬的同時,強化零卡系列跟主品牌的連結。這次改版也推出了一個沉浸式的「品牌中心」和一套「科技驅動的設計智慧工具」,本質上是一套通用設計系統,讓內部行銷團隊和代理商夥伴能在全球規模下維持一致性。創意團隊分工很清楚:The Superultrarare 負責全球包裝設計系統、JKR 操刀全新的全球品牌識別、Brody Associates 開發專屬字體、三位攝影師制定攝影規範、Forpeople 和 Monks 打造品牌中心、Adobe 則提供治理工具。對接大型品牌案的工作室來說,這個案例最值得學習的是:怎麼在「維持一個 140 年老品牌的辨識度」和「打造一套能被全球團隊一致執行的系統」之間找到平衡。"
-        },
-        {
-          "title": "Inside Wolves of Tokyo: the design lessons behind London's new Japan-noir restaurant",
-          "url": "https://www.creativeboom.com/insight/inside-wolves-of-tokyo-the-unexpected-design-lessons-behind-londons-new-japan-noir-restaurant/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "倫敦新開幕的日式黑色電影風格餐廳 Wolves of Tokyo,操刀團隊 Run for the Hills 示範了幾個很實用的設計方法論。第一,從一開始就讓品牌識別和室內設計團隊在同一個屋簷下工作,而不是先做識別、再交接給室內設計——Chris Trotman 說:「室內設計團隊和品牌團隊一起做專案,我覺得這是更好的做事方式」。第二,讓空間本身決定色彩計畫:餐廳裡深藍色漆面桌子、紅色點綴,這個配色是從空間本身長出來的,再回頭餵回平面識別裡——顛倒了一般先定調性、再套進空間的順序,讓設計元素互相加強,而不是互相競爭。第三,在決定名字之前先確立調性:創意團隊先定義出一種受 1960 到 70 年代日本電影和西方黑色電影啟發的、帶點陰鬱感的電影氛圍,確保之後定案的識別有具體的東西要去實現。第四,把深意藏在小細節裡:字標裡藏了一個鳥居的造型,還有一個虛構角色 Lady Zee 撐起整個敘事——這些看不見的元素獎勵願意發現的人,而不是張揚地宣告自己。第五,把每個表面都當成品牌表現的機會:就連廁所都做了完整的設計處理,強調真正建立沉浸式體驗的,是所有接觸點上一致的決策品質,而不是重複貼 logo。"
-        },
-        {
-          "title": "Hussein Shikha weaves pixels, carpets and cultural memory into extraordinary tapestries",
-          "url": "https://www.creativeboom.com/inspiration/hussein-shikha-weaves-pixels-carpets-and-cultural-memory-into-extraordinary-tapestries/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "出生於巴格達的藝術家 Hussein Shikha,把數位和紡織傳統融合在一起,用提花織法(jacquard)做出結合美索不達米亞神話、伊斯蘭紋飾、和個人記憶的織錦作品。他一個像素一個像素地工作,刻意維持緩慢的創作節奏,他認為運算和織布這兩件事在歷史上本來就有連結——提花織機的打孔卡,直接影響了早期電腦的設計。他的創作實踐大量取材自伊拉克的童年經驗,特別是地毯意象和家族前往卡爾巴拉朝聖的記憶。他的單色系列作品《They Who Saw Nothing but Beauty》,描繪伊瑪目胡笙殉道的片刻,畫面裡蒙著面紗的人形逐漸消融進花卉和書法紋樣裡。Shikha 強調的是一種需要靜下心來投入的觀看方式,他說:「我們現在活在一個所有東西都被快速消費的時刻」,他想為觀者創造出停下來反思的空間。他那些層層堆疊的作品不要求理性解碼,而是邀請觀者透過理論家 Laura Marks 所說的「觸覺視覺性」——去感受質地和情感,坐下來跟作品相處,而不只是消費它。"
-        },
-        {
-          "title": "Robert Beatty on retro Photoshop, creative friction and designing album covers that feel almost primeval",
-          "url": "https://www.itsnicethat.com/features/robert-beatty-illustration-spotlight-200726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "插畫家 Robert Beatty 的創作方式刻意選擇「摩擦感」而不是便利性。他用過時版本的 Photoshop 和回收來的舊技術工作,他認為這既是經濟上的選擇、也是創作上的選擇:「不是類比比數位更好,只是類比的東西壽命比較長」。他的專輯封面方法論,優先追求用意象喚起情緒,而不是字面上的寫實呈現——他相信有效的作品是「在一種近乎原始的層次上」運作的,靈感取材自 20 世紀的廣告美學,並透過帶有顛覆性的組合去製造視覺張力——像是把商業噴槍插畫風格放進地下噪音音樂的唱片裡。他不把音樂錄影帶當成「視覺化工具」,而是把它們當成完整的電影來對待,用節奏性的思考去思考視覺元素怎麼轉譯音樂裡的情緒。他抗拒創作過程和消費習慣裡的即時滿足感,偏好耐心醞釀而不是立即可得的數位便利——這種哲學延伸到他對用完即丟的科技、以及他認為現在的設計期待正在扼殺創造力這件事的抗拒。"
-        },
-        {
-          "title": "In the burgeoning Nigerian animation industry, these creatives are turning myth, memory and mischief into moving image",
-          "url": "https://www.itsnicethat.com/articles/the-view-from-lagos-nigerian-animation-200726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "奈及利亞的動畫產業,從 1990 年代中到 2010 年代末那個聚焦教育和廣播內容的先驅時期,演變成一股活躍的創意力量。2010 年代靠著 YouTube 和 Facebook 帶來的數位革命,讓獨立創作者得以建立起龐大的觀眾群;今天這個產業已經能把紮根於民間傳說和奈及利亞日常生活的敘事,跟全球規模的製作能力結合在一起。文中提到幾個關鍵團隊:House of Ajebo 由 Erem Emeka Nehemiah 創立,已經成長為非洲最具辨識度的動畫品牌,擁有近四百萬追蹤者,他們的招牌角色 Tegwolo 靠著描繪讓人有共鳴的奈及利亞童年原型,累積了超過十億次觀看;位於拉哥斯的 VXanimation 由 Somto Ajuluchukwu 領軍,開創了融合靈性、神話、非洲民間傳說的「靈性小說」(Spirit Fiction)類型,代表作《Land of Gods》和《Ojuju》結合了 2D/3D 和實驗性的類比技術;自學動畫師 Okekwuo Praise 用 FlipaClip 創作喜劇短片,在 TikTok 上累積了 10.3 萬追蹤者。迪士尼跟 Kugali Media 合作的《Iwájú》、卡通頻道跟 Roye Okupe 合作的《Iyanu》,則顯示全球資本正在投資奈及利亞的說故事能力。"
-        }
-      ],
-      "buzz": "今天的案例橫跨了品牌操作最大和最小的兩端:可口可樂的全球識別改版,示範了百年品牌怎麼在 200 多個市場之間維持一致性,同時還導入 AI 輔助的治理工具來維持品質;Wolves of Tokyo 則從一間餐廳的尺度,示範了品牌和室內設計團隊一開始就綁在一起工作的具體好處;Hussein Shikha 把提花織布和數位像素結合,示範了怎麼用最慢的工藝去對抗這個「什麼都被快速消費」的時代;Robert Beatty 用過時的 Photoshop 版本刻意製造創作摩擦,示範了限制條件怎麼變成風格本身;奈及利亞動畫產業的側寫則從一整個產業生態的角度,展現了在地敘事怎麼靠數位平台長成全球規模的創意力量。"
     }
   }
 ]
