@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-08-23",
+    "daily_summary": "今天 Product 圈圍繞著「AI 的接管方式跟想像的不一樣」——不是戲劇性的機器起義,而是安靜地、一步步地重新分配判斷力的價值;Brand 圈則從週末創作生活、肢體語言表達、創意速度哲學,到誠實的職涯轉換故事,示範了創意實踐裡值得被認真對待的,往往是那些不追求效率、願意慢下來或誠實面對現實的時刻。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "What The Matrix got wrong about AI (so far)",
+          "url": "https://uxdesign.cc/what-the-matrix-got-wrong-about-ai-so-far-c35f8e7f091c",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 指出,《駭客任務》擔心的是機器覺醒、奪取控制權,但生成式 AI 走的路完全相反。他點出這部電影對生成式 AI「猜反的五件事」,每一件都把電影的一個前提整個顛倒過來,合起來指向這場「起義」故事真正掩蓋掉的東西——這是一場靠「交接」完成的接管,不是靠武力。與其是一場戲劇性的戰爭,AI 是透過摘要工具和副駕駛式助理,禮貌地一次要求一項任務,讓使用者一項一項接受——接管是「被邀請」來的,不是一台機器強行奪取控制權,而是我們自己把控制權交出去的。生成式 AI 進入日常工作的方式,就像電力進入工廠一樣:安靜地、一項任務接著一項任務,因為有人發現這樣做比其他選擇更便宜。這篇文章探討的是 AI 採用的現實,跟《駭客任務》那種機器起義的反烏托邦預言,差距有多大。"
+        },
+        {
+          "title": "It really wasn't your fault, Coyote (part 2)",
+          "url": "https://uxdesign.cc/it-really-wasnt-your-fault-coyote-e82dbecc43bd",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Perre DiCarlo 繼續他用樂一通卡通角色 Wile E. Coyote 當隱喻的系列文章(這是第二篇),探討 77 年來 Coyote 一直抓不到跑得快的 Road Runner,不是因為他不夠努力,而常常是因為他手上的工具根本不可靠。這篇文章聚焦在 ACME——這家在卡通裡不斷供應產品給 Coyote 的公司——DiCarlo 主張,Coyote 每次失敗,ACME 其實也該分攤一部分責任。這系列文章用諷刺的手法,透過 ACME 產品線的視角,檢視設計失敗和產品問題——本質上是在說:當工具本身就有缺陷,使用者「用不好」不完全是使用者的錯,設計者和工具供應商也該被檢視。這篇文章延續了他先前那篇「Design @ ACME」的主題,用同一套幽默的框架繼續探討設計責任歸屬的問題。"
+        },
+        {
+          "title": "Artificial Intelligence: Glossary",
+          "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NNGroup 整理了一份用白話文解釋 AI 術語的資源,涵蓋「產品和設計工作裡會遇到的 AI 詞彙,從 token、情境窗口,到代理人、評估、和 prompt injection」。這份詞彙表包含超過 80 個依字母排序的條目,每個都連結到 NNGroup 更深入的相關文章。涵蓋的重點領域包括:基礎概念(模型、神經網路、transformer)、實作層面(prompting、RAG、工具使用)、訓練方法(監督式/非監督式學習、RLHF)、以及關鍵的設計考量(幻覺、偏見、自動化偏誤、對齊)。對設計師的實際啟發是:這份詞彙表強調「模型通常只是一個 LLM 產品裡的其中一部分」——設計師必須理解的不只是 AI 的運作機制,還有它對人的意涵——擬人化怎麼影響信任感、為什麼「有根據」(grounding)對對抗幻覺很重要、以及該怎麼替高風險決策架構人類監督的迴圈。這份資源把 AI 術語定位成一種必要的翻譯工具,幫助在技術能力和使用者體驗現實之間搭橋。"
+        },
+        {
+          "title": "AI-Generated Images Can Perform as Well as Stock Photography",
+          "url": "https://www.nngroup.com/articles/ai-generated-images/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "當使用者不知道圖片來源時,AI 生成的圖像表現得跟一般圖庫照片差不多好。這項研究發現「沒有證據顯示我們測試的 AI 生成圖像會降低使用者對網站的信任感」,在可信度、專業感、真實感這幾個指標上,評分甚至略微偏向 AI 圖像。具體數據:77 位美國受訪者評估了六個版本的網頁,分別用 AI 或真實圖像;AI 圖像在信任感/專業感上高了 0.2 分、在真實感上高了 0.4 分(7 分量表);只有真實感這項差異達到統計顯著,但差距依然很小;多元代表性對觀感的影響,比圖片來源本身更大。實際的啟發是:組織不該預設 AI 圖像天生就比較差,而該用一般的設計標準去評估每一張圖:它有沒有支撐訊息?有沒有包容地呈現多元性?細節看起來可信嗎?但如果使用者「發現」一張圖是 AI 生成的,觀感可能會轉為負面——這一點在歐盟 AI 法案這類要求揭露合成內容的透明度法規下,特別值得注意。"
+        },
+        {
+          "title": "Lindsay Adler on why a photographer's perspective will matter more in the future, not less",
+          "url": "https://www.creativeboom.com/tips/adobe-creative-collective-member-lindsay-adler-on-why-photographic-skills-will-matter-more-in-future-not-less/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Lindsay Adler 主張,隨著 AI 讓技術執行變得越來越容易取得,攝影師獨特的觀點反而會變得越來越有價值。她解釋:「當科技變得越來越容易取得、AI 讓技術執行變簡單,你的觀點就變成你最大的資產」。她的核心論點是:當影像製作的機械層面被商品化之後,真正能區分創作者高下的,是他們獨特的視野、品味、和觀點。她沒有害怕自動化,反而把這個轉變看成一個機會——越多例行性的技術任務被科技接手,客戶就會越重視真實的創意觀點和個人化的藝術指導。Adler 強調,培養這種獨特的聲音,需要透過刻意的練習、多元的靈感來源、以及誠實地反思自己天生擅長什麼、真正在乎什麼。"
+        }
+      ],
+      "buzz": "今天的文章圍繞著「AI 的接管方式,跟我們想像的不一樣」這個主題:Patrick Neeman 指出,《駭客任務》預言的是機器起義,現實卻是我們一項任務一項任務地把控制權「交」出去;Perre DiCarlo 則用 Coyote 的隱喻繼續探討設計責任——工具不可靠時,不能全怪使用者不會用;NNGroup 的兩篇則提供了扎實的參考資料——一份 AI 術語詞彙表,和一份數據顯示 AI 生成圖像其實不輸圖庫照片,除非被使用者發現來源。Lindsay Adler 的攝影觀點文章則呼應了這陣子一直在談的主題:當技術執行被商品化,真正的觀點和品味,反而變得更值錢。今天的主軸:AI 不是靠戲劇性的接管改變一切,而是安靜地、一步一步地重新分配「誰的判斷力值錢」這件事。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "The Weekend With James Junk",
+          "url": "https://www.itsnicethat.com/features/the-weekend-with-james-junk-210826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "洛杉磯設計師 James Junk,週末的優先順位是遠離螢幕。他重視動手創作、消費非數位內容,這些主題也貫穿在他的 Substack 專欄《Paperless Publishing》裡。他的週末推薦包括:在 Silver Lake 的 Rockii Studios 上串珠工作坊、逛 Gustaf Westman 在日落大道的快閃店;吃的部分推薦 Echo Park 的 Donna's(要透過候補名單、坐在吧台、先點大蒜麵包);閱讀推薦 Carl Lorenz Cervantes 探討菲律賓傳承的《Sikodiwa》,和從倫敦一間書店買到的 Ben Lerner《Transcription》;娛樂方面推薦 HBO 的《The Chair Company》搭配《亞特蘭大嬌妻》;音樂推薦 Sports 的同名專輯,和 Sean Schumacher 的設計 podcast《Did I Do That?》。在創作實踐上,Junk 刻意做一些「永遠不需要變成內容」的東西,優先重視沒被記錄下來的體驗和手作,而不是數位存檔——他正在考慮買一張圓形、色彩繽紛的咖啡桌,替他身兼工作室的公寓注入創意氛圍。"
+        },
+        {
+          "title": "'Hands are the protagonist': Stefhany Y Lozano on communicating with fingers and gestures in her paintings",
+          "url": "https://www.creativeboom.com/inspiration/hands-are-the-protagonist-stefhany-y-lozano-on-communicating-with-fingers-and-gestures-in-her-paintings/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Lozano 把手當成自己創作裡主要的表達媒介,用手來傳達情感和敘事,而不是依賴臉部表情。她說:「一個細微的動作、一根手指的緊繃感、或是一隻手的姿勢,能完全改變一幅畫的情感解讀」。她的創作策略優先考慮把肢體語言當成一種無聲的溝通——與其描繪臉孔,她靠手的姿勢和手指的緊繃感,獨力完成畫面裡的情感敘事。這個做法讓她能單靠肢體姿態,去探索親密的片刻和心理狀態。她的代表系列作品《剪刀石頭布》,由 26 幅手部畫作組成,展現了她對這個主題的長期投入——透過在整張畫布上聚焦手部,Lozano 把手提升成獨立的藝術主體,而不只是輔助性的解剖元素。"
+        },
+        {
+          "title": "4Creative's Miketta Lane and David Wigglesworth on why the best creative work happens quickly",
+          "url": "https://www.itsnicethat.com/features/in-house-4creative-miketta-lane-david-wigglesworth-creative-industry-190826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Miketta Lane 和 David Wigglesworth 相信,速度是 4Creative 創意品質的驅動力。他們的做法核心是:當一個點子在情感上引起共鳴時,果斷地行動。Wigglesworth 強調動能的重要性:「當你遇到一個讓你興奮、或讓你害怕的東西,你行動得越快——去搞清楚是什麼讓你害怕或興奮——那就是抵達好作品最快的路」。與其花很長時間反覆斟酌,他們主張用快速的實驗去搞懂一個點子到底哪裡吸引人。這種快速執行,讓團隊能透過行動、而不是無止盡的規劃去打磨概念。兩位主管都認為,快速行動展現的是創意上的自信,能防止過度思考稀釋掉原本的點子。他們也強調,維持一個讓大家都敢主動提出想法、沒有層級障礙的文化,自然會加速整個創意流程。透過用執行力保護點子、緊貼著作品本身,他們確保概念能在越來越擁擠的媒體環境裡,真實地、以最大的影響力觸及觀眾。"
+        },
+        {
+          "title": "\"I bumped into my ex (boss): Harriet Richardson on life after design\"",
+          "url": "https://www.itsnicethat.com/features/i-bumped-into-my-ex-boss-harriet-richardson-on-life-after-design-creative-industry-spotlight-190826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Harriet Richardson 描述了一次跟前老闆——她曾任職五年的知名設計工作室 Pentagram——的偶遇,這次相遇讓她開始反思自己離開平面設計、轉行成為行為藝術家的這段路。Richardson 解釋,設計工作一開始感覺像是成功的證明,但現實卻變得令人疲憊、缺乏成就感。她意識到自己不想要前老闆那種表面光鮮的生活,轉折點是她理解到「一條路不再適合你的時候,不需要假裝它一文不值」。她沒有全盤否定自己的設計背景,反而發現這門學科教會她珍貴的創意技能——策略性思考、無情地編輯、理解層級和克制——這些工具現在支撐著她的表演創作,從海報設計到搞笑段子的結構安排都用得上。透過訪談其他轉換職涯的創作者,Richardson 承認,重新開始需要的不只是勇氣,還需要實質的資源。她強調轉換方向不該被浪漫化成純粹關於勇敢——她也認知到經濟穩定和特權,對這類決定的影響有多大。最終,Richardson 把自己的設計職涯重新定義成「抵達那個地方之前的那個地方」——一段替她真正的志業做準備的養成訓練,而不是一個該被抹去的錯誤。"
+        },
+        {
+          "title": "How Daisy Chain made it's brilliantly icky animation for Crack Magazine about a smoker inhaling a fly",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-july-daisy-chain-210826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "動態工作室 Daisy Chain,由 Harry Butt 和 Connor Campbell 共同執導,替 Crack Magazine 製作了一支描繪「癮君子吸進一隻蒼蠅」的動畫。在七月一場 Nicer Tuesdays 的活動上,兩位共同導演分享了他們鮮豔、如夢似幻的動畫作品集,並詳細介紹了這個特定的專案。這對搭檔把一隻平凡的昆蟲,轉化成整支作品的核心角色。他們用自己的創意願景,重新打造這本刊物的視覺識別,融入了受黏液質感啟發的 3D 圖像。這次合作展現了他們把充滿想像力的敘事和獨特視覺美學結合的能力,做出一支刻意挑釁、視覺上很有衝擊力的作品——正如標題所形容的「棒得噁心的動畫」。"
+        }
+      ],
+      "buzz": "今天的案例橫跨了創意實踐裡很不同的節奏和尺度:James Junk 的週末側寫,示範了刻意遠離螢幕、做一些「不需要變成內容」的事,怎麼滋養創作生活;Stefhany Y Lozano 則把手當成獨立的表達主體,示範了肢體語言怎麼取代臉部表情說故事;4Creative 的兩位創意總監主張速度和情感直覺,才是做出好作品最快的路;Harriet Richardson 從 Pentagram 轉行到行為藝術家的故事,誠實地談了轉換職涯需要的不只是勇氣,還有資源和特權;Daisy Chain 替 Crack Magazine 做的動畫,則示範了怎麼把一個噁心的意象,轉化成視覺上讓人難忘的作品。"
+    }
+  },
+  {
     "date": "2026-08-21",
     "daily_summary": "今天 Product 圈圍繞著「AI 的自信不等於可信度」這個主題,從查核責任到當責敘事,再到領導層該怎麼建立信任門檻;Brand 圈則被 D&AD 那份警告創意產業正在吃掉自己入門人才管道的報告定調,搭配幾個從製造傳承、女性主義排印、到機器人攝影各自切入的案例,一起回應「這個產業接下來要往哪裡走」這個大哉問。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例涵蓋了品牌操作的各種規模:Stoiximan 的重塑示範了一個本土品牌怎麼在保留信任感的同時,打造出能同時撐得住親密數位介面和巨型體育場的識別系統;Los Cabbalos 替 Public Records 做的社群識別,則示範了怎麼用視覺抽象化去捕捉跳舞這種很本能的體驗,而不是字面上的描繪;Valeria Homayden 的 Risograph 動畫提醒我們,了不起的美其實早就圍繞在日常生活裡;Bloodstock 金屬音樂節則證明了草根創意經濟,能在沒有企業指導的情況下,長出真正有生命力的視覺文化;Yurie 從設計師轉型成插畫家的故事,則帶著一種對手作在 AI 時代依然珍貴的樂觀信念作結。"
-    }
-  },
-  {
-    "date": "2026-07-24",
-    "daily_summary": "今天 Product 圈從杜拜飯店的巧克力噴泉一路談到 Figma 自己的資安治理案例,核心都在問:當 AI 接管更多執行層工作,設計師該把力氣花在檢視哪些「預設值」和「假設」上;Brand 圈則示範了怎麼把限制、混亂、甚至沒有標準答案的起源故事,轉化成品牌最有辨識度的資產——同時也提醒工作室,最大膽的點子往往死在心理安全感不足的會議室裡。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Steal this UX framework from Dubai's most over-the-top hotel",
-          "url": "https://uxdesign.cc/steal-this-ux-framework-from-dubais-most-over-the-top-hotel-0b14f71e46e5",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Slava Polonski 主張設計師該去研究的不只是 App,飯店這種實體服務空間裡藏著很多值得借鏡的 UX 智慧。他觀察杜拜 Atlantis The Palm 酒店裡一座巧克力噴泉,即使被大量使用,卻始終維持乾淨無比——他寫道:「我花了三個晚上才搞懂為什麼,搞懂之後我才發現,自己一直在看整個度假村裡最好的一套使用者體驗設計」。這套框架的核心是「隱形設計」——解決方案運作得如此順暢,使用者根本不會注意到底層的系統存在;真正有效的 UX 不是靠規則強迫行為改變,而是提前預判問題、優雅地把問題化解掉。實際的啟發是:設計靈感不要只盯著數位介面,實體空間和服務裡也藏著很多值得學的東西——高級飯店業特別擅長處理人流量大、失誤會被看見、代價很高的場景,這些環境示範了怎麼設計出「讓使用者自然而然被引導、沒有摩擦感」的體驗,讓正確的行為變得毫不費力,而不是靠強制規定。"
-        },
-        {
-          "title": "Four questions every tool should answer (even Figma) about AI training model usage",
-          "url": "https://uxdesign.cc/the-trust-test-four-questions-every-tool-should-answer-even-figma-about-ai-training-model-usage-4f1150f91a30",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 指出一個反覆出現的模式:企業一再用「預設同意」(opt-out)的方式,把使用者內容拿去訓練 AI 模型,等到輿論反彈之後才把政策收回去。他點名 Figma 的做法不太一樣——雖然一樣維持分層策略,保護企業客戶,但個人設計師預設就被納入訓練——他認為這件事的核心已經超越版權爭議本身,根本上是關於「透明、允許式的設計實踐,有沒有尊重使用者的自主權」。他提出四個檢核問題:同意——這個設定預設是關掉的,還是使用者得主動撤回自己從未給過的授權?對稱性——所有等級的使用者都受到同等保護,還是議價能力決定了誰能被保護?揭露——通知有沒有在改動生效之前,真的傳達到使用者面前?退出——受影響的人能不能獨立關掉這個功能、拿回自己的資料?他特別強調「對稱性」失敗比其他缺失更嚴重,因為這代表企業是在明知情況下,刻意讓弱勢使用者暴露在風險裡。實際的建議是:設計師該花大概 20 分鐘,用這四個問題稽核自己整套工具鏈,再用同樣嚴格的標準檢視自己做的產品——「預設值,是我們產出裡最安靜的部分,也是我們表態最大聲的部分」。"
-        },
-        {
-          "title": "The screens are getting demoted",
-          "url": "https://uxdesign.cc/the-screens-are-getting-demoted-6b40120fcf04",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Serg Zorin 主張隨著 AI 能力越來越強,使用者介面正從「主角」退居成「配角」——設計師現在得決定的,不再是怎麼設計複雜的畫面流程,而是「哪些畫面是真的需要的、哪些任務該交給 AI 代理人自主處理」。他用一個對比說明:靠 email 傳一張照片給人,傳統流程要跨好幾個 App 做六個步驟;但現在只要跟 AI 系統說「把那張球賽的照片傳給 Mark」就好——當系統能直接理解意圖,中間那些畫面就變得沒有存在的必要。他也舉了企業案例:微軟把原本六步驟的裝置註冊表單,重建成一個對話式代理人,傳統表單的使用量已經在下滑,因為員工都改用更簡單的代理人版本。使用者期待也在改變:設計走查會議上,大家問的問題從「該打開哪個畫面」變成「這件事有沒有對應的 AI 技能可以用」。他也點出還會留下來的設計類別:用來分析和危機決策的「意義建構型畫面」(儀表板)、監督和復原機制(驗證、復原、稽核紀錄)、以及需要人類裁量的判斷型任務。實際的啟發是:新的設計檢討該優先問不一樣的問題——系統能不能自動推論出這件事?什麼才是真正需要使用者核准的?設計師得學會 AI 模型的行為模式,也要習慣去建議「介面極簡」的解法,即使這代表傳統設計工作變少了。"
-        },
-        {
-          "title": "The digital wall we built ourselves",
-          "url": "https://uxdesign.cc/the-digital-wall-we-built-ourselves-e9578f774374",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Zeeshan Khalid 主張網路上的無障礙失敗,不是意外,而是一連串刻意設計決策造成的結果——大約 95.9% 的頂尖網站沒有通過無障礙標準,系統性地把身心障礙者排除在外。他描述了一個真實情境:看著一位視覺障礙的朋友,想用螢幕報讀器訂火車票卻掙扎不已,遇到標示不清的按鈕(「點這裡」)和被標成「image.jpg」的圖片,最後朋友放棄了,說「這樣比較簡單」——這種認命感,顯示排除身心障礙者這件事已經被正常化到什麼程度。他引用 WebAIM 每年對前 100 萬個網站做 WCAG 2.2 無障礙準則評估的數據,結果一直顯示網路上最顯眼的那些網站,大規模地不合規。實際的啟發是:網路無障礙的失敗,是一個選擇,不是必然的結果——設計師和工程師必須意識到,做不到無障礙的網站,是在主動排除身心障礙使用者,要修正這件事,需要刻意的努力去符合既有的無障礙標準,而不是把無障礙當成事後才想到的附加項目。"
-        },
-        {
-          "title": "How Figma stays ahead of vulnerabilities with agents",
-          "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 在軟體開發流程的三個階段——程式碼生成時、pull request 審查時、以及對歷史程式庫做稽核時——都部署了 AI 代理人去找出並預防安全漏洞,三個階段都遵循同一套安全政策。上線一個月內,安全團隊在 pull request 審查上就達到 80% 的精準率;他們用 66 個真實漏洞建立的評估框架顯示,搭配 Opus 4.8 的 Claude Code 在那些過去人工審查和靜態分析都沒抓到的已知漏洞裡,達到「75.8% 的聯集抓漏率」。一個關鍵發現是:「我們等於寫出了一份完整的威脅模型,格式大概就是我們會希望新人第一天上班就讀到的那種」——這份累積了 68 個判例的政策文件,變成三個安全階段都能重複使用的基礎建設。對設計團隊的實際啟發是:精準度要優先於覆蓋率——工具如果充滿誤判,工程師就會放棄使用,Figma 要求精準率達到 70% 才願意把提示開放給工程師看到;人工對發現結果按讚/倒讚、加上重播已知漏洞,能為精準率和抓漏率都創造出可被衡量的進步訊號;能自動化的就自動化,讓安全工程師現在「寫的政策能一次抓到幾百個漏洞」,而不是一個一個去分類處理。"
-        }
-      ],
-      "buzz": "今天的文章橫跨了實體空間到抽象倫理的好幾個層次:Slava Polonski 從杜拜飯店的巧克力噴泉裡挖出隱形設計的智慧;Patrick Neeman 則提出一套四問題的信任測試,直接點名連 Figma 都該被檢視 AI 訓練資料的預設同意機制;Serg Zorin 的「畫面降級」觀察,呼應了這陣子一直在講的主題——當 AI 能直接理解意圖,中間的畫面流程就開始消失,設計師該問的問題也變了;Zeeshan Khalid 則用一個朋友訂火車票的真實故事,提醒我們無障礙的失敗從來不是意外,是被無數次的忽略選擇堆出來的;Figma 自己的資安案例則提供了具體數據,示範了「精準度優先於覆蓋率」這個原則怎麼應用在 AI 代理人身上。今天的主軸:當 AI 接管越來越多執行層工作,設計師該把力氣花在檢視「預設值背後藏著什麼選擇」——不管是同意機制、無障礙、還是介面本身該不該存在。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Anatomy's new campaign for the Horniman museum is built on a bespoke typeface foraged from the museum's collections and gardens",
-          "url": "https://www.itsnicethat.com/articles/anatomy-horniman-museum-graphic-design-project-230726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "為了慶祝 Horniman 博物館成立 125 週年,設計公司 Anatomy 替「It's in our Nature」這個活動打造了一套從博物館實體環境裡直接萃取出來的客製字母——他們沒有選擇授權現成字體,而是實際跑到博物館的場地裡做田野調查,拍下質地、建築元素、標本、和各種紋樣,再把這些素材轉化成一個個獨立的字符。做出來的字母集,靈感來自建築造型、蝴蝶形狀、花園紋樣等各種不同的來源,呈現出一種有機、生動的字體感。創意團隊強調字體必須在「有個性」和「好辨識」之間取得平衡——「每個字母還是得完成它最主要的任務:讓人能毫不費力地讀懂」。這套系統的設計刻意留有成長空間,讓社群成員、學校、志工未來可以在後續的活動裡貢獻新的字母造型,讓它變成一套會持續演化的協作式識別,而不是一套靜態的設計系統。對接文化機構、博物館這類客戶的工作室來說,這是一個很好的方法論參考:怎麼從「地方本身」裡萃取出一套獨一無二的視覺語言,而不是套用現成的字體。"
-        },
-        {
-          "title": "The creativity tax: why the boldest ideas rarely make it out of the room",
-          "url": "https://www.creativeboom.com/tips/the-creativity-tax-why-the-boldest-ideas-rarely-make-it-out-of-the-room/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇主張:雖然代理商都嘴上說重視大膽的想法,實際上卻在悄悄懲罰不合常規的點子。問題不在於缺乏想像力,而在於「心理安全感」分配不均——也就是願不願意冒智識上的風險、而不用擔心會因此被羞辱或受罰的那種安全感。地位決定了一切:資深人物提出奇怪的點子會被稱為「有遠見」,但資淺同仁提出一模一樣的點子,常常被歸類成「還需要多磨練」。文中舉了幾個例子:腦力激盪這個儀式——團隊聚在一起「跳脫框架思考」,但真正安全、漸進式的想法能存活下來,真正原創的點子在進到會議室之前就已經被篩掉了;信心落差——「資深人物提出怪點子被叫做『有遠見』,同一個資淺員工提出來常常被歸類成『還需要多經驗』」;隱藏的成本——很多創意人抽屜裡塞滿了沒提過的點子,不是因為這些點子不夠好,而是因為提案本身感覺起來就有風險。對工作室的實際建議是:公開討論那些失敗的案子,而不只是得獎的作品,把失敗正常化;建立一套結構,要求每個團隊成員——而不只是資深創意人——都要在正式提案前先貢獻想法;把簡報的敘事重心從「個人的顛覆性」改成「對客戶的實際好處」。核心洞察是:當 AI 接管掉例行工作之後,能存活下來的工作室,會是那些讓每個人都敢開口說話的工作室,而不只是天賦最好的人最多的工作室。"
-        },
-        {
-          "title": "Hinge's Jackie Jantos on inclusive design, trust and the path from creative to CEO",
-          "url": "https://www.itsnicethat.com/features/in-house-hinge-jackie-jantos-creative-industry-220726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Hinge 的 Jackie Jantos 信奉「跟使用者一起設計,而不是為使用者設計」的哲學,從一開始就把多元的聲音——特別是來自代表性不足社群的聲音——帶進產品開發流程。她強調:「由一群有著不同真實生活經驗的人碰撞出來的想法交集,遠比同質性高的創意團隊更有說服力」。在信任和領導風格上,身為 CEO 的她選擇把決策權下放給有能力的團隊成員,而不是事必躬親;她避免用「不同意但照做」這種說法,而是去找出誰才是真正懂這件事的人;她也很清楚自己身為 CEO 說話的份量,小心不要不小心把隨口的觀察變成命令。談到從創意人轉型成 CEO 的路,她在可口可樂和 Spotify 的資歷,讓她扮演起策略者和連結者的角色;她給有志成為領導者的人的建議是:靠真正的專業去證明自己的價值,而不是硬裝出一個不真實的人設;優先持續學習,並且透過在每個場合帶來文化洞察和新鮮觀點,讓自己「有用」。她的領導哲學把 CEO 這個角色理解成:透過信任和投資團隊,讓自己變得「不那麼重要」,最終為有機的創新騰出空間。"
-        },
-        {
-          "title": "Tomorrowland's stunning designs highlight what creativity can add, in a sea of samey festivals",
-          "url": "https://www.creativeboom.com/news/tomorrowland-2026s-stunning-designs-highlight-what-creativity-can-add-in-a-sea-of-samey-festivals/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "今年 Tomorrowland 的主題叫「Consciencia」,圍繞著六個情緒省份組織整個節慶:驚奇、喜悅、渴望、愛、憤怒、悲傷,中心矗立著一座巨大的雕塑臉孔 Amutaz,象徵情緒上的一體感。主舞台的規模野心驚人——高 43 公尺、寬 140 公尺,建造用了「2400 片 LED 面板、1200 組燈具(其中 300 組是客製化設計)、56 支雷射、38 座噴泉和兩座瀑布,還有七張巨大的充氣臉孔懸在人群上方」。真正讓它與眾不同的地方在於:Tomorrowland 跟比利時工作室 Prismax 合作,打造出能根據每位 DJ 的現場演出即時做出反應的視覺和煙火效果,而不是循環播放預先錄好的畫面——這套技術上的精密程度,花了兩年多的設計時間和 54 天的現場搭建。放在市場脈絡下看:自 2019 年以來,英國已經有超過 200 個音樂節消失,Tomorrowland 這種大手筆投資在「打造世界」上的做法,在一個供過於求的市場裡形成策略性的差異化——每年做出真正無法複製的東西,才是讓觀眾提早訂票、年年回流的理由。"
-        },
-        {
-          "title": "Derek&Eric embraces the chaos with a joyfully bold brand for The Glorious Mess",
-          "url": "https://www.creativeboom.com/inspiration/derekeric-embraces-the-chaos-with-a-joyfully-bold-brand-for-the-glorious-mess/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "The Glorious Mess 是英國蛋白霜品牌 Flower & White 推出的新甜點品牌。針對 Eton Mess 這道有著好幾種互相矛盾起源故事的經典英式布丁,Derek&Eric 沒有選擇為它捏造一個虛構的起源故事,而是直接擁抱它「本來就是意外」這個特質——每一個版本的 Eton Mess 故事,慶祝的都是一場美好的意外。這間倫敦獨立工作室圍繞著「慶祝混亂的瞬間和美好的意外」建立整套識別:視覺系統用了很有表現力的字體、鮮豔的水果插畫、和充滿活力的攝影,捕捉碎掉的蛋白霜、水果、和鮮奶油混在一起的那種精髓——替這個傳統上低調內斂的品類,注入了當代感的吸引力。創意總監 Adam Swan 解釋:「與其對抗這個傳承,我們選擇擁抱它——每一個版本的 Eton Mess 故事,慶祝的都是一場美好的意外」。這套識別的彈性,讓它能延伸到不同的產品線,同時維持一致的個性,也為未來拓展新口味、新品項留下發展空間。"
-        }
-      ],
-      "buzz": "今天的案例剛好從不同角度講「怎麼把限制或混亂,轉化成品牌資產」這件事:Anatomy 從博物館的實體場域裡萃取出一套獨一無二的字體,示範了怎麼把「地方本身」變成識別的原料;Derek&Eric 則乾脆擁抱 Eton Mess 本來就沒有標準起源故事這件事,把「意外」變成品牌個性;Tomorrowland 用兩年設計時間打造出無法複製的沉浸式體驗,在供過於求的音樂節市場裡殺出一條差異化的路;《creativity tax》那篇則從工作室內部文化出發,提醒我們最大膽的點子往往死在會議室門口,是心理安全感分配不均造成的;Jackie Jantos 的訪談則從領導風格的角度,示範了「設計者跟使用者一起做決定」這件事,怎麼從產品哲學延伸成整個組織的信任文化。"
     }
   }
 ]
