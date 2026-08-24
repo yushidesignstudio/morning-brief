@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-08-24",
+    "daily_summary": "今天 Product 圈從歷史脈絡(廣告業的舊儀式)談到具體數據(Figma Make 的生產力提升),核心都在說 AI 帶來的速度是真的,但判斷力有沒有被清楚編碼進流程裡,才是決定品質的關鍵;Brand 圈則被 Instagram 新 logo 的兩極討論定調,搭配幾位插畫家和藝術家的創作實踐,示範了刻意的不完美、克制、和留白,怎麼比追求平滑或直白更有力量。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
+          "url": "https://uxdesign.cc/sterling-cooper-built-your-ux-process-we-need-to-redefine-it-in-the-age-of-ai-and-systems-520a2d3b2a60",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Patrick Neeman 主張,現在 UX 團隊運作的方式,很多儀式感其實源自 1960 年代廣告公司的做法——威士忌、提案會議室、客戶經理、campaign——就像影集《廣告狂人》裡 Sterling Cooper 那間廣告公司一樣。他的核心論點不是要把 Sterling Cooper 的影響全部拆掉,而是要去注意「我們保留了哪些習慣,卻從來沒有真正決定過要不要保留它們」,並確認這些習慣現在是不是還說得通。他指出,現代創意工作的架構,本質上是在二十世紀中期的廣告公司裡被組裝起來的,而 UX 這個領域,幾乎是整套繼承了這個表演式的流程——現在正是在 AI 時代重新盤點這套流程的時候。實際的啟發是:別把現有的 UX 流程當成理所當然,該回頭檢視流程裡的每一步,問問看它是真的必要,還是只是從一個已經過時的產業慣例裡繼承下來的表演。"
+        },
+        {
+          "title": "Nobody wants a blank page. Nobody touches a perfect one.",
+          "url": "https://uxdesign.cc/nobody-wants-a-blank-page-nobody-touches-a-perfect-one-48d452a26dae",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Takuma Kakehi 探討一個創作心理上的弔詭:人沒辦法從一片空白開始,卻也不願意去碰一個已經完成得很完美的東西。他引用 Thomas Ward 在 1994 年《認知心理學》期刊上的研究,說明人的想像力其實被熟悉的模式限制住——這篇文章的核心主張是,真正能激發參與感的,是那種「還沒完成、但已經有點樣子」的中間狀態:一片空白會讓人不知道從哪裡下手,產生抗拒感;但一個已經打磨到完美的東西,則會讓人覺得不該去碰它、去改動它感覺像是在破壞什麼。實際的啟發是:設計師如果想邀請別人一起參與、一起貢獻想法,該刻意呈現出一種「未完成但有方向」的狀態,而不是一片空白畫布、也不是一個打磨到無懈可擊的完稿——這種留白但有骨架的呈現方式,才最能引發別人真正動手參與和修改的意願。"
+        },
+        {
+          "title": "How to Move Fast Toward the Right Thing",
+          "url": "https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "AI 讓打造產品這件事變得人人可及,能加快執行速度。但單靠速度是很危險的——團隊必須把快速開發和刻意的決策判斷搭配在一起,不然很容易「把錯的東西做得很好」。文章點出幾個關鍵問題:認知投降——不加審視地接受打磨得很漂亮的 AI 產出,把表面上的品質誤認為是紮實的決策;代理式工程——開發者的重心從「寫程式碼」轉移到「表達意圖」,搭配決定性的層次(測試、型別檢查)、高訊號的情境(規格、元件)、和清楚的介面來支撐;「平均值」變成預設值——AI 模型是在龐大的資料集上訓練出來的,天生就會往既有的模式靠攏——幾何造型加漸層的 logo、無襯線字體的簡報、標準卡片元件——這讓真正有辨識度的作品變得更難做出來。實際的啟發是:三件事值得投資——優先把「到底要做什麼」在前期就講清楚;建立像設計系統這樣扎實的情境層,有效引導 AI 代理人;把用心思考當成不可妥協的事,而不是阻礙效率的摩擦——這樣才能確保「你的判斷力」在塑造產出,而不是模型的預設值。"
+        },
+        {
+          "title": "Measuring time savings from Figma Make",
+          "url": "https://www.figma.com/blog/measuring-time-savings-from-figma-make/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma 的資料科學團隊做了一個隨機對照試驗,找了 100 位參與者(50 位設計師、50 位產品經理),衡量 Figma Make 帶來的生產力提升。結果顯示:整體效率提升——「整體來說,設計工作用 Figma Make 變快了 20%、變簡單了 16%」;產品經理獲益最大——產品經理的任務完成速度提升了 23%,是最大的受益族群;任務類型影響效益分布——設計師在複雜任務上受益最多,產品經理則在比較簡單、快速的設計工作上獲益較多。這次研究特別選擇隨機對照試驗的做法,是因為傳統的 A/B 測試和因果推論方法,沒辦法排除經驗程度、任務複雜度、熟悉度這些干擾變數——隨機分配參與者、標準化任務、控制中介變數,才能確保因果關係、而不只是相關性。實際的啟發是:這項研究證明了像 Figma Make 這樣的 AI 工具,能讓設計能力更普及,特別是對非設計背景的人(產品經理)來說幫助最大,同時也讓專業設計師能更快處理更複雜的工作。"
+        },
+        {
+          "title": "Try these 10 skills—and show off your own",
+          "url": "https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma 推出了撰寫「skills」的功能——用 Markdown 寫成的指令集,能客製化 Figma 的設計代理人,讓它反映你個人的設計哲學和工作流程。這篇文章展示了社群創作、並分享出來的 10 個 skills,示範了在動態設計、元件、無障礙、和設計系統這幾個領域的實際應用。這 10 個精選 skills 包括:`/xray-scan` 做出 X 光透視效果、`/find-animation-opportunities` 找出缺少動態的地方、`/component-handoff` 自動生成文件、`/analyze-components` 做元件稽核、`/usability-test-guide` 準備易用性測試研究。實際的啟發是:與其用通用的 AI 輔助,skills 讓設計師能把自己的個人判斷、標準、和最佳實踐編碼進去——文章寫道:「skills 很適合用來捕捉每個設計師身上都帶著的那些意見和判斷」——實際的好處是:把例行性任務自動化,同時保留創作意圖,讓團隊能透過這個代理人本身,用每位設計師各自的風格工作。"
+        }
+      ],
+      "buzz": "今天的文章從歷史脈絡談到具體數據:Patrick Neeman 提醒我們,現在的 UX 流程很多儀式感是從 1960 年代廣告公司繼承來的,AI 時代正是重新盤點這些習慣的時候;Takuma Kakehi 則從創作心理學切入,主張「未完成但有方向」的狀態,比空白畫布或完美成品更能激發參與感;Figma 自己一連三篇則提供了完整的 AI 協作實務框架——先講清楚意圖、再看具體的生產力數據(設計工作快 20%、PM 快 23%)、最後是怎麼把個人判斷編碼成可重複使用的 skills。今天的主軸:AI 帶來的速度和普及性是真實的,但真正決定產出品質的,依然是「判斷力有沒有被清楚地表達出來、編碼進流程裡」。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Creatives are deeply divided over the new Instagram logo, and I think that points to a broader issue",
+          "url": "https://www.creativeboom.com/insight/creatives-are-deeply-divided-over-the-new-instagram-logo-and-i-think-that-points-to-a-broader-issue/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "創意圈對 Instagram 重新設計的字標意見分歧很大,這款字標混合了手寫和幾何字體。批評者主張,混合出來的「r」看起來像「z」,做出了一個「instagzam」的效果——一位設計師形容:「整個東西感覺就是不對勁,像兩款字體在互相爭吵」。這場爭論揭露了更深層的設計原則問題:logo 到底該優先考慮易讀性,還是已經累積了龐大品牌資產的老牌可以玩不同的規則?設計該被單獨拿出來評斷,還是該放進完整的視覺系統裡一起看?支持者在看到這個 logo 放進 Instagram 完整的品牌重塑——包含新字體和版面系統——之後,對它的看法就不一樣了。這場根本性的分歧顯示,創意社群對「當代設計該追求什麼」還沒有共識:是易讀性和清晰度,還是個性和演化。文章的結論很有意思:「創意社群對這件事意見這麼分歧,某種程度上根本不是壞事——反而更像是我們大家都在認真做這份工作的訊號」。"
+        },
+        {
+          "title": "Step inside Natalie Liu's painterly music video created for Björk's new song, Nerve Bloom",
+          "url": "https://www.creativeboom.com/inspiration/step-inside-natalie-lius-painterly-music-video-created-for-bjoerks-new-song-nerve-bloom/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "CGI 導演 Natalie Liu 跟畫家 Natalia Kleszczewska 合作,替 Björk 的新歌《Nerve Bloom》拍了一支融合傳統手繪和數位藝術的音樂錄影帶。Liu 圍繞著 Kleszczewska 手繪的生物和背景,打造出一個數位維度,整個創作是從歌曲的敘事和歌詞出發。整個製作過程投入大量研究,同時實驗了最新和已經成熟的 CGI 工具,像是 C4D 和 Houdini。Liu 強調:「繪畫和寫程式都是一種工藝形式」,兩者「可以共存、彼此強化」。影片裡最亮眼的一刻出現在最後的副歌段落,畫面裡的生物們融合在一起——Liu 提到,每次重看這個段落都會讓她深受感動,因為手繪油畫和數位 CGI 之間的視覺張力,在那個瞬間達到了最強烈的狀態。這個計畫反映了 Liu 更廣泛的創作使命:把新興科技和傳統工藝結合在一起,同時維持一種人性化、有機的感受,反抗純粹科技導向的做法。"
+        },
+        {
+          "title": "Simji Park turns everyday moments into dreamlike vignettes",
+          "url": "https://www.itsnicethat.com/articles/simji-park-illustration-discover-200826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Simji Park 把日常的感官經驗,轉化成印象派風格的插畫,作為一種情感出口。她的靈感來自平凡的日常片刻——遛狗、偷聽到的對話、觸覺上的感受——她把這些經驗轉譯成平靜、帶著象徵意義的作品,畫面裡有昆蟲、動物、和身處自然場景裡的人。她的創作過程很直覺、也很依賴媒材本身的特性;她會依照想要表達的情緒基調,選擇鉛筆、水彩、油畫、或數位媒材。Park 形容自己的創作是一種療癒:「畫畫有點像是一種治療。當太多情緒在心裡累積,做點東西能幫我把它們慢慢釋放出來、給它們一個形狀」。她的插畫作品像是如夢似幻的小品——帶著層層疊疊的象徵意義,連她自己都沒辦法完全用言語說清楚。透過把內在情緒轉化成視覺敘事,Park 做出的作品既很內省、又有普世共鳴的感染力,捕捉到那些讓人感覺格外鮮活、格外有連結感的稍縱即逝的片刻。"
+        },
+        {
+          "title": "'I just love dogs': Gaia Alari on her wobbly, tactile drawings of animals, bodies and emotions",
+          "url": "https://www.creativeboom.com/inspiration/i-just-love-dogs-gaia-alari-on-her-wobbly-tactile-drawings-of-animals-bodies-and-emotions/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Gaia Alari 做的手繪插畫,特色是刻意保留看得見的不完美——搖晃的鉛筆線條、炭筆的暈染痕跡、精細的交叉線影法,展現出她親手創作這件事本身的痕跡。她的作品刻意避開數位平滑處理或 AI 算圖。她獨特的風格,透過充滿想像力的意象探索情感和身體經驗:被花朵吞沒的角色、纏在細繩裡的鴿子、伸展中彷彿在做夢的身體。她解釋:「我知道我得從 A 走到 B,但中間可以發生任何事」,把自己的創作過程形容成一場自己跟自己玩的「精緻屍體遊戲」。Alari 橫跨多種媒材工作——手繪動畫、黏土、還有替 Coldplay 和 MoMA 這類大客戶做的委託案——但她總是從紙開始,她形容紙是「唯一一個讓我感覺可以安心移動的空間」。她對民間傳說、原型、和人類情感的興趣,塑造了她的創作哲學:她的目標是「提出問題」,而不是提供答案。"
+        },
+        {
+          "title": "Cats take centre stage in Minyoung Kim's surreal and subtle paintings",
+          "url": "https://www.creativeboom.com/inspiration/cats-take-centre-stage-in-minyoung-kim-surreal-and-subtle-paintings/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "駐點倫敦的南韓藝術家 Minyoung Kim,畫出一系列謎樣的作品,貓很少直接現身,而是透過細微的暗示被呈現出來——一隻勾在桌緣的爪子、窗簾後發光的眼睛、或是透過半透明布料濾出的一道影子。這種間接的呈現手法,強調的是「一道影子、一隻從物件後面探出來的爪子、或只是房間裡一種微妙的存在感」,這種克制感創造出一種懸念和模糊感。她的畫布結合日常物件和詭異的元素——有人臉的茶壺、有表情的罐子、有貓眼睛的龍蝦。她形容自己「對那個熟悉的東西開始變得有點陌生的時刻很感興趣」。Kim 的創作方式是先決定色調,再決定構圖——她常常從某個吸引她注意的特定色調組合開始一幅畫。她會畫初步的草稿,但避免畫得太仔細的底稿,讓作品在創作過程中「有機地演變」,不斷調整色彩、光線、和物件之間的關係。她最近在阿姆斯特丹 Enari Gallery 的個展《Whispers Inside Things》展現了這種獨特的手法。"
+        }
+      ],
+      "buzz": "今天最有意思的討論是創意圈對 Instagram 新 logo 的分歧看法——這場爭論本身,反而證明了大家都在認真思考設計原則這件事。其餘幾篇則從不同角度示範了創作實踐裡的細膩之處:Natalie Liu 替 Björk 做的音樂錄影帶,示範了手繪和數位 CGI 怎麼在張力中共存;Simji Park 把日常片刻轉化成療癒性的插畫;Gaia Alari 刻意保留手繪的不完美痕跡,對抗數位平滑處理;Minyoung Kim 則用「幾乎看不見貓」的方式畫貓,示範了克制和暗示,反而比直白的呈現更有懸念。"
+    }
+  },
+  {
     "date": "2026-08-23",
     "daily_summary": "今天 Product 圈圍繞著「AI 的接管方式跟想像的不一樣」——不是戲劇性的機器起義,而是安靜地、一步步地重新分配判斷力的價值;Brand 圈則從週末創作生活、肢體語言表達、創意速度哲學,到誠實的職涯轉換故事,示範了創意實踐裡值得被認真對待的,往往是那些不追求效率、願意慢下來或誠實面對現實的時刻。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例剛好從很不同的角度回答「品牌怎麼在 AI 和市場變化裡站穩腳步」這個問題:《Should agencies be worried?》直接點名工作室面臨的新威脅——客戶自己把驗證過的內部創意能力包裝出來賣;Little Green Rooms 和 Starling 的案例則從兩個不同品類示範了「往上一層講價值」的做法——不講規格、不講炫技,而是講「心理空間」和「自信」這種更抽象但更有共鳴的核心價值;International Magic 和 Martine Rose 六年的合作,則示範了刻意擁抱「笨拙感」和不完美,反而能做出對抗媒體消費慣性的作品;Makitoy 的紙拼貼練習則從最小的尺度收尾——提醒我們,日常的觀察和重複本身,就是一種值得堅持的創作方法論。"
-    }
-  },
-  {
-    "date": "2026-07-28",
-    "daily_summary": "今天 Product 圈圍繞著「複雜性到底藏在哪裡」——AI 的信任感、資訊架構、網站策略、系統設計,都指向同一個道理:真正的困難永遠在看不見的接縫和基礎裡;Brand 圈則從博弈品牌的巨型重塑,到夜店的社群識別、自然觀察的動畫、草根音樂節的創意經濟,再到一位插畫家的職涯轉型,示範了品牌和創作規模可以差很多,但核心永遠是找到一個真誠、獨特的敘事角度。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The consciousness mirage in AI design",
-          "url": "https://uxdesign.cc/the-anthropomorphism-consciousness-mirage-in-ai-design-ux-framework-8e23beb1d7c1",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Slava Polonski 主張人類會自然而然地把「心智」投射到 AI 系統上,是因為我們的大腦演化過程中,把語言當成意識存在的證據——這不是不理性,而是我們認知系統本來運作的方式;設計師必須理解並管理這種傾向。他舉了一個例子:一位年長的旅客帶著巧克力去感謝飯店櫃檯人員「Leah」,稱讚她的耐心——這位旅客根本不知道 Leah 其實是 AI 系統,她卻真實地感覺到自己被聆聽、被感激,證明對話式設計真的能觸發真實的情感反應。他提出兩個理解「心智歸屬」的框架:「心智歸屬階梯」(意識的感知怎麼逐漸浮現)和「同理心低谷」(這種感知怎麼演變和轉移)。實際的啟發是:設計師現在手上握著一個很重要的「UX 設計旋鈕」——他們可以刻意調整使用者對 AI 系統「有沒有意識」的感知程度;真正的挑戰是,怎麼透過對話建立信任,同時誠實地讓使用者知道自己實際在跟什麼互動,避免帶有欺騙性質的擬人化設計。"
-        },
-        {
-          "title": "Information architecture is the foundation artificial intelligence is starving for",
-          "url": "https://uxdesign.cc/information-architecture-is-the-foundation-artificial-intelligence-is-starving-for-1d91fb5bf59f",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 主張:資訊架構這門長期資源不足的學科,現在終於能被量化成 AI 系統裡的關鍵失敗點——那些被歸咎於「模型不夠強」的問題(幻覺、答錯、代理人不可靠),其實通常源自雜亂無章的內容庫,而不是模型能力不夠。他舉了兩個例子:Google 的「披薩加膠水」事件——AI 摘要從一則過時的論壇玩笑帖裡撈出建議,推薦在披薩上加膠水,「完全沒有任何標記顯示這則玩笑帖跟關鍵字比對出來的內容不一樣」,顯示沒有結構化的內容會在規模化時造成系統性失敗;加拿大航空的客服聊天機器人,因為兩個頁面內容互相矛盾,導致它自相矛盾地違反了自家的喪親政策——仲裁庭最終判定加拿大航空要為顧客採信聊天機器人錯誤答案負責。實際的建議是:在買下一個 AI 模型之前,先稽核系統到底在檢索什麼——追查錯誤答案的源頭在你的內容庫裡的哪裡;把內容標記成現行、已淘汰、權威、或軼事性質;先修好分類架構再去調整 prompt;明確地把關係和代理人權限模型化;把資訊架構的改善包裝成「檢索準確度」的提升,才容易拿到預算。核心洞察是:「你沒有 AI 問題。你有一個穿著 AI 外衣的資訊架構問題。」"
-        },
-        {
-          "title": "Your website is boring (but that might just set it free)",
-          "url": "https://uxdesign.cc/your-website-is-boring-but-that-might-just-set-it-free-f2b13863e22c",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Sam Belt 主張網站因為以範本為主導、優先考慮轉換率而不是差異化,已經變得同質化又讓人記不住。隨著 AI 透過代理人和大型語言模型改變人們發現產品的方式,除非設計師重新奪回打造令人難忘品牌體驗的角色,不然網站就有淪為隱形背景基礎建設的風險。他提出一個「網路一分為二」的概念:「靜默網路」——為 AI 代理人、機器人、爬蟲優化的機器可讀後端基礎建設,一套能支撐高效率商務的結構化資料流;「體驗網路」——以人為中心的介面,優先考慮敘事、互動性、品牌識別,這一層應該從範本的限制裡解放出來,打造出有辨識度、美的體驗。Belt 解釋:「一旦我們把前端從『同時服務搜尋引擎和靈魂』這種死板範本的重擔裡解放出來,我們終於能自由地打造體驗網路了」。實際的啟發是:與其把網站自動化成商品化的東西,品牌該把 AI 當成創意夥伴——他引用 Nike Better World 的視差敘事、Bellroy 的互動式滑桿等歷史案例,說明科技怎麼強化人的連結感。核心提醒:餵給機器結構化資料,但要把創意能量用在打造人真的想探索的體驗上。"
-        },
-        {
-          "title": "The seams are where the system lives",
-          "url": "https://uxdesign.cc/the-seams-are-where-the-system-lives-9c43587be771",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Takuma Kakehi 主張把複雜系統拆解成一個個獨立模組,並不會消除複雜性——只是把複雜性轉移到模組之間的介面上。乾淨的切割方式,從空中俯瞰會顯得結構優美,但在真正需要各元件互動的人的層次上,卻常常失靈。他用佛羅里達州的 Cape Coral 當例子:從空拍角度看,這座城市的網格狀規劃令人印象深刻、井然有序;但走在街道上,卻因為缺少「接縫」——像是商店、路口、街區這類連結組織——導致根本沒辦法好好導航。「從十英里高空看起來很美的東西,正是在街道層次上讓人寸步難行的元凶」。他指出城市透過分區規劃學到了這個教訓,而軟體業正透過微服務架構重新學習同一課。實際的啟發是:系統設計者必須意識到,模組之間的邊界會集中複雜性,而不是消除它——真正的成功需要用心設計這些介面和連結,而不只是把元件切割乾淨;「接縫」值得投入跟個別零件同等份量的關注。"
-        },
-        {
-          "title": "A Concrete Definition of \"Product Sense\" (and How to Build It)",
-          "url": "https://www.nngroup.com/articles/product-sense-definition/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 提出一個具體的「產品直覺」(product sense)定義:「能夠辨認出當前問題跟過去成功或失敗案例相符的地方,並可靠地估計類似解決方案會怎麼影響期望的結果」——這跟過去偏重同理心和創意的定義不同,提供了一個立基於經驗、可衡量的決策框架。這個框架包含六個彼此相連的步驟:理解問題(掌握現況)、回想模式(從記憶裡調用過去的經驗)、評估匹配度(判斷過去的解法適不適用)、執行解決方案、衡量結果(追蹤真實成效)、反思和學習(分析發生了什麼、為什麼)。關鍵的是,強大的產品直覺也包括認出「什麼時候這個模式根本不適用」——作者把情境分成三種:高效度情境(熟悉的脈絡)、低效度情境(回饋不明確)、以及棘手情境(表面看起來很熟悉,實際上解法完全不合)。實際的啟發是:要培養真正的產品直覺,專業人士必須完整走完整個產品週期,而不是還沒做完就急著跳到下一個專案——這代表要事先記錄假設、衡量真實結果、並反思成效,才能建立起立基於真實回饋、而不只是零散輸入的直覺。"
-        }
-      ],
-      "buzz": "今天的文章圍繞著「複雜性藏在哪裡」這個共同主題:Slava Polonski 談的是人類心智對 AI 擬人化的自然傾向,設計師握著一個能調整信任感的旋鈕;Patrick Neeman 則點出很多被歸咎給 AI 的問題,其實根源都在資訊架構沒做好——「你有一個穿著 AI 外衣的資訊架構問題」這句話很扎心;Sam Belt 的「靜默網路 vs 體驗網路」框架,提供了一個具體的策略,讓網站在 AI 爬取的同時,依然能保有給人的獨特體驗;Takuma Kakehi 的 Cape Coral 例子則從系統設計的角度,提醒複雜性不會消失,只會轉移到模組之間的接縫上。NNGroup 的「產品直覺」定義,則把這種難以言說的直覺,拆解成可以練習、可以衡量的六個步驟。今天的主軸:不管是 AI 的信任機制、資訊架構、網站策略、還是系統設計,真正的困難永遠藏在看不見的接縫和基礎裡,而不是表面的產出上。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "How Nomad reimagined Stoiximan, the homegrown brand that became Greece's biggest name in betting",
-          "url": "https://www.creativeboom.com/news/how-nomad-reimagined-stoiximan-the-homegrown-brand-that-became-greeces-biggest-name-in-betting/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Stoiximan 是希臘本土成長起來、後來變成當地最大博弈品牌的公司,這次重塑的目標是在保留幾十年累積下來的信任感的同時,讓識別更進化。時機點很有策略性:剛好搭上 2026 年 FIFA 世界盃、歐洲聯賽、歐洲協會聯賽這些大型體育贊助案,加上跟希臘本地運動聯盟和國家級運動員的合作——品牌需要一套能同時撐得住親密的數位介面和巨型體育場環境的識別。Nomad 跟字體設計師 Leo Field 和 Studio Drama 合作,開發出完全客製化的解決方案:字標裡每個字母都被賦予圓潤、有表現力的獨特個性,「x」裡藏了一個慶祝姿態的隱形人形,交錯的「S」則同時扮演兩個角色——動態系統的基礎元素,也是能獨立辨認的視覺資產;「The Portal」是圍繞著 S 符號建立的彈性圖形系統,替各平台導入深度和層級感;客製字體 Stoiximan Sans 的曲線取自 Portal 系統,同時涵蓋希臘文和拉丁字母;搭配字體 Stoiximan Sub Sans 則負責管理副品牌架構(Sportsbook、Casino、Virtuals、Fantasy、eSports),不會讓母品牌被壓過去。商務總監說:「往前走不代表要拋棄我們的根——這是一套向 Stoiximan 出身致敬的、清新當代的識別」。"
-        },
-        {
-          "title": "Can you visually capture how dancing feels? Inside Las Cabbalos' expressive social identity for Public Records",
-          "url": "https://www.itsnicethat.com/articles/los-cabbalos-public-records-graphic-design-illustration-project-270726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "布宜諾斯艾利斯的設計工作室 Los Cabbalos,替布魯克林的音樂場地 Public Records 打造了一整套社群媒體視覺系統,刻意跳脫一般夜店常見的溝通方式,強調「律動、儀式、靈性、平衡與失衡」。設計採用解構過的具象插畫,呈現出類似木刻版畫的質感,描繪「運動和舞蹈之間的中介狀態,暗示兩者其實是同一件事」。工作室選用 Garamono 字體來營造儀式感,同時建立了一套模組化的插畫系統,讓場地團隊能像「使用物件」一樣去部署它們。跟一般夜生活美學不同的是,這套作品的靈感來自卡巴拉神秘主義和拉丁美洲的靈性傳統——這種疊加插畫元素、刻意安排的排印、和彈性設計生態系統的做法,透過視覺抽象化、而不是字面上的寫實描繪,捕捉到跳舞這件事本身很本能的體驗。"
-        },
-        {
-          "title": "Valeria Homayden turns microscopic observations into mesmerising Risograph animations",
-          "url": "https://www.itsnicethat.com/articles/valeria-homayden-field-notes-for-wonder-graphic-design-project-270726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Valeria Homayden 的《Field Notes for Wonder》透過兩個互相呼應的部分,探索自然界裡隱藏的規律:一系列 Risograph 動畫作品,和一本口袋大小的田野指南出版品。這位設計師用網版式的 Risograph 印表機,一格一格地做出動畫,把石頭、貝殼、苔蘚、樹葉的近距離觀察,轉化成有動態感的作品。她很欣賞這種效果:「鮮豔的色彩讓影像開始抽象化,所以你會先注意到形狀和紋理,才認出物件本身是什麼」。搭配的出版品則像一本互動式指南,收錄她發現的各種規律,搭配鼓勵讀者跟周遭環境互動的提示——像是「到戶外去找一種質地」,或是觀察地面視角和俯瞰視角之間的對話。這個計畫的核心訊息是:提醒觀者,了不起的美其實早就圍繞在我們身邊——與其去遠方尋找靈感,Homayden 主張培養對日常自然細節更深的關注,她相信「最精緻的美,本來就內建在自然世界和我們的日常環境裡」。"
-        },
-        {
-          "title": "Bloodstock 2026: inside Britain's biggest independent metal festival, and why it's more creative than you might think",
-          "url": "https://www.creativeboom.com/news/bloodstock-inside-the-uks-biggest-independent-metal-festival-and-why-its-more-creative-than-you-might-think/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Bloodstock 證明了金屬音樂節這個常被貼刻板印象標籤的場景,其實藏著相當可觀的藝術價值。社群自主的視覺文化很驚人:參加者獨立創作出精緻的視覺文化——客製化的戰鬥背心外套、臉部彩繪、義肢裝、和各種造型服裝,在沒有企業指導或網紅指令的情況下,變成一座「露天畫廊」。這個節慶也孕育出一個草根創意經濟:獨立珠寶設計師、插畫家、版畫家、服裝設計師,直接跟表演藝人合作,在創作者和粉絲之間建立起直接的連結,形成一個可持續的生態系統。節慶整合了藝術策展:除了音樂之外,Bloodstock 還有 RAM Gallery,展出原創藝術作品、稀有紀念品、和透過社群媒體發掘的新興插畫家,加上雕塑、刺青藝術、和客製樂器設計。這種真實的視覺文化——「染成大自然裡根本不存在的髮色、手繪牛仔布、精緻的珠寶」——反映的是真正的個人表達,而不是被製造出來的潮流,示範了獨立活動怎麼能在規模化的同時,依然培養出大部分商業場館很難做到的真實創意表達。"
-        },
-        {
-          "title": "How Yurie left a fashion design career to draw fashion-loving women in coloured pencil",
-          "url": "https://www.creativeboom.com/inspiration/how-yurie-left-a-fashion-design-career-to-draw-fashion-loving-women-in-coloured-pencil/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "插畫家 Yurie Takahashi 在意識到插畫帶給她的成就感遠大於原本的配飾設計工作之後,毅然放棄了設計師的職涯。她描述那個關鍵時刻:「我發現把自己對時尚的熱愛和插畫結合起來,帶給我的喜悅和成就感,遠遠超過我原本的設計工作」。她的作品刻意把傳統日式美學和當代時尚融合在一起,她形容這種刻意的碰撞:「把互相對比的元素結合在一起,會讓每個主題看起來更搶眼、更有魅力」。跟一般插畫不同的是,Yurie 的構圖不聚焦在臉部,而是強調服裝和配飾——這直接來自她的設計背景。她用彩色鉛筆畫出「熱愛時尚的女性」的日常時刻,慶祝她所謂平凡場景裡的「安靜之美」。她畫的主體常常被捕捉在私密的片刻裡:綁頭髮、喝茶、或是在彩繪屏風前戴著復古配飾。值得一提的是,她對手繪藝術在 AI 時代的前景保持樂觀,她相信正因為這類作品沒辦法被完全複製兩次一模一樣,它反而會變得越來越有價值。"
-        }
-      ],
-      "buzz": "今天的案例涵蓋了品牌操作的各種規模:Stoiximan 的重塑示範了一個本土品牌怎麼在保留信任感的同時,打造出能同時撐得住親密數位介面和巨型體育場的識別系統;Los Cabbalos 替 Public Records 做的社群識別,則示範了怎麼用視覺抽象化去捕捉跳舞這種很本能的體驗,而不是字面上的描繪;Valeria Homayden 的 Risograph 動畫提醒我們,了不起的美其實早就圍繞在日常生活裡;Bloodstock 金屬音樂節則證明了草根創意經濟,能在沒有企業指導的情況下,長出真正有生命力的視覺文化;Yurie 從設計師轉型成插畫家的故事,則帶著一種對手作在 AI 時代依然珍貴的樂觀信念作結。"
     }
   }
 ]
