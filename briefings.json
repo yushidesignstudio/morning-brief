@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-08-25",
+    "daily_summary": "今天 Product 圈圍繞著「AI 讓速度和普及性提升,但真正的判斷力該怎麼被保留」這個主題,從創意教育的師徒制、團隊協作的技能落差,到法規合規和技術實作的具體案例;Brand 圈則示範了品牌敘事怎麼在各種尺度和情感重量裡找到值得說的故事——從家族印刷廠的彈性識別、電影片頭裡藏著的歷史考據,到球迷社群的真實連結。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "No shortcuts: why AI threatens creative instinct",
+          "url": "https://www.itsnicethat.com/articles/pov-no-shortcuts-why-ai-threatens-creative-instinct-creative-industry-240826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Andrew Shea 主張,AI 跟過去設計工具的轉變本質上不一樣,因為它自動化的是「發想」本身,不只是執行——過去的技術(像 Adobe 軟體)還是需要從業者透過反覆的實作磨出判斷力,但 AI 能用極少的人類參與,就做出接近完稿的東西。真正的威脅在於:資淺設計師傳統上是透過「重複性的執行工作」建立起創作直覺——一次又一次地執行資深設計師的指示,這個過程教會了他們品味和站得住腳的決策能力。Shea 指出,拿掉這種師徒制式的訓練「本身不一定是壞事,只要你有補償它原本鍛鍊出來的那塊肌肉」。他把這個關鍵挑戰框架成一個定位問題:把 AI 當成「一個要去請教的神諭、一個要安裝的替代品、還是一個並肩工作的協作者」,會導向完全不同的結果——決定「誰最終擁有這份作品的作者身份」。Shea 主張,要保留創作的意義,需要優先透過聚焦在歷史、理論、和評論的教育,去強化人類的判斷力和主導權。"
+        },
+        {
+          "title": "AI Fluency Isn't the Finish Line",
+          "url": "https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "雖然 93% 的產品打造者認為 AI 技能是必要的,光是精通工具本身還不夠——真正的成功需要同等強大的協作能力和組織能力,特別是當 AI 讓產出速度變快,反而更需要更好的決策框架去搭配。文章舉了幾個例子:內部工具建造——Figma 的研究員 Shane Johnston 用 AI 打造了一個互動式的資料儀表板,把個人的知識轉化成整個團隊都能用的能力,而不是把洞察鎖在單一個人身上;引導決策的技能——文章指出「把那些方向轉化成一個決定,本身已經變成一種技能」,特別是當 AI 能生成好幾十個設計選項,需要有人去引導利害關係人達成共識;縮小技能落差——47% 的受訪者表示,個人貢獻者和領導層的採用速度不一致,需要建立共享的學習文化。實際的啟發是:除了精通 AI 工具本身,還要優先培養三個能力:建立共享的系統(客製工具、範本、prompt);引導決策——蒐集多元觀點,把團隊推向結論;公開分享失敗——透過黑客松和評圖場合,讓學習變得普及化。核心訊息是:速度沒有那麼重要,重要的是確保整個團隊一起往前走。"
+        },
+        {
+          "title": "New EU Guidelines For AI Labelling",
+          "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章主張,歐盟新的透明度規範不需要恐慌——這是一套聚焦得很精準、很合理的做法,目的是讓可能誤導使用者的 AI 生成內容變得明顯可辨。新規範從 2026 年 8 月 2 日開始生效,需要標示的內容包括:像真人、真實地點、真實事件的深度偽造內容;聊天機器人互動(當使用者不知道對方不是真人時);沒有經過人工審查、完全由 AI 寫成、涉及公共利益的文字;情緒辨識和生物特徵分類工具。不需要標示的則包括:經過具名真人實質審查和編輯過的 AI 內容;輕微的輔助性編輯(拼字檢查、文法、排版、翻譯);封閉的 B2B 環境。對設計師的實際啟發是:通用的閃亮圖示是不夠的——設計師該用清楚、持續存在的標示,搭配白話文的揭露(像「AI 生成」),就算內容被下載或轉發,這個標示也必須維持可見——文章提醒:「單靠一個圖示,並沒有辦法在法律上構成合規」。這項規範適用於任何服務歐盟公民的公司,讓合規變成一個全球性的設計課題。"
+        },
+        {
+          "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+          "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這篇文章挑戰「打造有觸感的網頁體驗需要靠物理引擎」這個傳統看法。Isadora Agency 的團隊發現「物理引擎能做出看起來合理的動態,但在他們的案例裡,動畫師做出來的是『刻意設計的動態』」——優先採用設計師精心打造的動畫序列、而不是演算法模擬,反而做出了更好的控制感和精準度。文章舉了幾個例子:基於距離的計分系統——團隊用畢氏定理,從角色中心點計算點擊距離,做出同心圓式的計分區域,確保命中判定落在乾淨的圓圈範圍內;程式化的動畫控制——開發者沒有讓物理模擬去決定反應,而是用 Lottie 的 `playSegments()` 方法去觸發精準的動畫影格範圍——一個「超級擠壓」的效果需要精確的 181 格蓄力,這是靠自然湧現式的模擬根本做不到的;效能優化——團隊依序載入 21 個角色動畫,動態降低品質,在行動裝置上按需銷毀和重建比較吃資源的素材。實際的啟發是:讓設計需求去決定該用什麼技術,而不是反過來——透過把 Lottie 的時間軸能力對應到 DOM 上,團隊能交付可控、可預測的互動,同時讓動畫師定義出觸感體驗真正該有的感覺。"
+        },
+        {
+          "title": "How to say yes to the big job when you're a one-person studio",
+          "url": "https://www.creativeboom.com/tips/how-to-hire-freelance-help-when-youre-a-one-person-studio/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "當一個賺錢的大案子上門,但產能有限時,獨立接案者可以透過像 Upwork 這類平台,雇用臨時的接案支援,而不是直接拒絕這個案子。實際步驟包括:用 AI 輔助的招募流程——Upwork 的 AI 代理人 Uma,現在能在六小時內篩選出相關候選人、生成工作摘要,把篩選時間從好幾週大幅縮短到幾小時;從小規模開始——「不要從最大的案子開始;從一個範圍明確、brief 清楚、成功標準很明顯的案子開始」,先在社群媒體範本、著陸頁、或修圖這類工作上測試接案者的能力;建立一支信任的團隊——與其不斷發新的職缺,成功的工作室會跟 5 到 6 位可靠的接案者建立關係,反覆找他們合作;彈性的合作方式——Upwork 提供時薪制、固定價格、或約聘轉正這幾種結構,款項受平台保護,消除付款風險。這個做法之所以可行,是因為人才庫已經變得很成熟——美國 38% 的技術工作者現在從事接案工作;文章指出,84% 的小型企業表示跟接案者合作的經驗是正面的。"
+        }
+      ],
+      "buzz": "今天的文章橫跨了創意教育、團隊協作、法規、和技術實作:Andrew Shea 提醒我們,AI 真正威脅到的是資淺設計師靠重複性工作養成判斷力的那套師徒制;Figma 自己的文章則指出,精通 AI 工具只是起點,真正決定成敗的是引導決策和共享學習文化的能力;Smashing 的兩篇則從很不同的角度切入——歐盟新的 AI 標示規範提醒我們合規不能只靠一個圖示,而 Lottie 動畫的案例則證明「刻意設計的動態」能勝過物理引擎的自動模擬。Creative Boom 那篇給獨立工作室的建議則很實用——不需要因為產能有限就拒絕大案子,善用接案平台就能撐過去。今天的主軸:AI 讓很多事情變得更快、更普及,但真正決定品質的,始終是人有沒有刻意介入、有沒有清楚的判斷框架撐著。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Laura Clink designs a flexible identity for family-run print shop Phillips Print",
+          "url": "https://www.itsnicethat.com/articles/laura-clink-phillips-print-graphic-design-project-240826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計師 Laura Clink 替 Phillips Print——一間位在倫敦近郊、傳到第三代的家族印刷廠——打造了全新的品牌識別。這套系統核心是一個客製手繪字標,搭配九款可以互相替換的 logo,呼應這家公司協作、個人化的經營方式。這套彈性框架強調的是印刷廠最核心的價值——Clink 解釋:「Phillips Print 的優勢,就在於它是大型企業品牌的對立面。它很個人、很在地、圍繞著關係建立起來」,識別必須捕捉到這種真實感,而不是顯得過度打磨。多款 logo 同時扮演兩個功能:代表社群感,也讓客戶有實驗的自由——從周邊商品到跟在地運動隊伍的合作都可以套用。整個開發過程裡,總監 Liam Phillips 親自在實體印刷素材上反覆測試這套識別,讓整個過程真正變成一場協作。這套識別成功地在印刷和數位空間之間搭起橋樑,維持公司觸感、動手做的個性,同時在他們的新網站上運作得很好。"
+        },
+        {
+          "title": "From Barbie logos to medieval manuscripts: step inside Teddy Blanks' film title design process",
+          "url": "https://www.itsnicethat.com/features/teddy-blanks-chips-film-title-typography-graphic-design-spotlight-240826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Teddy Blanks 是布魯克林設計工作室 Chips 的共同創辦人,他把電影片頭字幕,同時看成合約上的實務要素,也看成能強化電影情感衝擊力的創作機會。eBay 娃娃與芭比:替葛莉塔潔薇的《Barbie》做設計時,Blanks 需要重現一款已經停產超過 30 年的美泰兒 logo。他找來復古的《Barbie》雜誌當參考,再從 eBay 買二手娃娃,建構出一套客製字體——他先蒐集「半套字母」開始,再推算出一套完整、捕捉到品牌從 70 年代中到 90 年代初美學的字型。藏起來的 AA 符號:在設計《Weapons》的 logo 時,Blanks 在字母 O 裡嵌了一個三角形——一開始並不知道這跟戒酒無名會的圖像不謀而合。導演後來透露這部片其實是在隱喻成癮康復的過程,讓這個意外的符號意義出奇地貼切。中世紀手稿:替羅伯艾格斯的《Werwulf》做設計時,Blanks 手繪了受艾格斯研究過的 14 世紀手稿啟發的倫巴底大寫字母,再用 Photoshop 的置換貼圖套用歷史紙質的紋理。Blanks 說:「重要的是它在那個當下產生的衝擊力」,而不是系統性的設計一致性。"
+        },
+        {
+          "title": "Myriam Wares crafts a winter that looks nothing like winter in a surreal series about starting again in Italy",
+          "url": "https://www.creativeboom.com/inspiration/myriam-wares-crafts-a-winter-that-looks-nothing-like-winter-in-a-surreal-series-about-starting-again-in-italy/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "法裔加拿大插畫家 Myriam Wares,在從蒙特婁搬到義大利杜林之後,創作了一系列叫做《Winter》的超現實作品。這系列作品沒有描繪字面上的冬日景象,而是探索在不同國家之間搬遷所帶來的情感錯位感。這個系列融入了義大利元素——巨大的陶製容器、放大的柑橘果實、絲柏樹、和裝飾性的磁磚工藝——每一個都帶著象徵性的太陽意象。雪只在構圖裡局部出現,視覺化地呈現出她那種活在兩個世界之間的感覺。Wares 解釋,她「從我在義大利的日常生活裡蒐集了好幾個元素,打造出一個依循自己內在邏輯運作的超現實微觀世界」,用來處理搬遷帶來的迷失方向感。這些作品融合了超現實主義、藝術史的影響、和傳統的繪畫技法,把平凡的觀察轉化成某種藝術上很深刻的東西。這個系列最終捕捉到的是一個過渡性的時刻——那種伴隨跨國搬遷而來的、既陌生又特殊的錯位感,暗示著不熟悉的環境最終會變成家。"
+        },
+        {
+          "title": "Alfie Whiteman swaps his gloves for a lens in Tottenham's love letter to its fans",
+          "url": "https://www.creativeboom.com/news/alfie-whiteman-swaps-goal-for-the-lens-in-tottenhams-love-letter-to-its-fans/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "前托特納姆熱刺門將 Alfie Whiteman,執導並拍攝了《Tottenham Til I Die》這支短片,慶祝的是球隊的社群,而不是球員本身。這支 campaign 把焦點轉移到比賽日的糾察員、在地理髮師、裁縫師、Tottenham Hotsteppers 健走足球隊、和一位 93 歲的長期 season ticket 持有者 Alan Baldwin 身上。Whiteman 在熱刺當了 15 年門將,2025 年退役後投入攝影——離開足球界的第一年裡,他就跟製作公司 Somesuch 簽約、在球隊的 OOF 畫廊辦了展覽、還靠一支腳趾摔角紀錄片拿下坎城獅子獎的銀獎。這支影片由創意工作室 Blind Faith 和製作公司 Somesuch 共同製作,由演員 Himesh Patel 旁白,配樂則是 Whiteman 父親 Les 的原創作品,還有演員 Taylor Russell 和音樂人 Dev Hynes 這些名人球迷客串出鏡。球隊行銷主管 Adam Gardiner 說,這支 campaign「捕捉到貫穿這個社群的那種原始感、性格、和勇氣」,強調真實的球迷連結,才是球隊識別真正的根基。"
+        },
+        {
+          "title": "The best new typefaces for August 2026",
+          "url": "https://www.creativeboom.com/resources/the-best-new-typefaces-for-august-2026/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Creative Boom 精選了 2026 年 8 月推出的八款新字體。兩款特別值得留意:Softdrive 推出的 Lingo,是一款有 12 種字重的過渡型襯線體,靈感來自 18 世紀的經典字體,設計師 Mark Julien Hahn 在「g」、「f」、「a」這幾個字母上加了獨特的垂墜造型,在維持內文易讀性的同時,注入了「個性和戲劇感」。Chill Type 推出的 Sektor,則取材自東德的設計傳承,是一款氣勢磅礴的粗襯線體,緊密的字距搭配「硬切邊和方形曲線」,做出很有張力的標題和宣言式文字。其他值得注意的新字體還包括 F37 Slabhead(幾何粗襯線體)、Tuffo(復古風格的展示字體)、和 Se Micro(Gallery Type 旗下,實用的小尺寸配套字體)。"
+        }
+      ],
+      "buzz": "今天的案例橫跨了品牌操作裡各種不同的尺度和情感重量:Laura Clink 替 Phillips Print 做的識別,示範了小型家族企業怎麼用彈性的多款 logo 系統,把「個人化」這個核心價值具象化;Teddy Blanks 的電影片頭設計,則展現了字體考據能有多細緻——從 eBay 二手娃娃到中世紀手稿都能成為靈感來源;Myriam Wares 的超現實冬季系列,用視覺隱喻處理了跨國搬遷帶來的錯位感;Alfie Whiteman 替托特納姆熱刺做的社群 campaign,則提醒我們,真正打動人心的品牌故事,往往藏在球員之外的社群裡;最後的字體精選則從最基礎的排印素材出發,提醒我們每個月都有新的工具值得留意。"
+    }
+  },
+  {
     "date": "2026-08-24",
     "daily_summary": "今天 Product 圈從歷史脈絡(廣告業的舊儀式)談到具體數據(Figma Make 的生產力提升),核心都在說 AI 帶來的速度是真的,但判斷力有沒有被清楚編碼進流程裡,才是決定品質的關鍵;Brand 圈則被 Instagram 新 logo 的兩極討論定調,搭配幾位插畫家和藝術家的創作實踐,示範了刻意的不完美、克制、和留白,怎麼比追求平滑或直白更有力量。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例橫跨了品牌操作裡最棘手的幾種情境:Elizabeth Goodspeed 對 NYC Groceries 的分析,點出了公共機構品牌案特有的張力——同時要建立信任感,又要跟商業品牌競爭;Gunnersbury Museum 的重塑則示範了兩個共用空間卻各自獨立的機構,怎麼用模組化的方式各自保有身份,又能在需要時呈現一體感;Adoratorio Studio 替 Indice 做的識別,示範了怎麼把品牌識別直接從實體空間的室內設計裡長出來;T. Rowe Price 的藝術裝置則證明了,再抽象的金融概念,都能透過視覺隱喻讓一般人理解;Wallace Chan 橫跨兩地的展覽,則從藝術和工藝的尺度切入,提醒我們技術掌握本身就是一種能跨越媒材界線的語言。"
-    }
-  },
-  {
-    "date": "2026-07-29",
-    "daily_summary": "今天 Product 圈從摩擦的價值談到 AI 情境策展,核心都在說:AI 能做的事情越來越多,但真正讓作品有意義的東西,反而更需要人刻意介入和判斷;Brand 圈則直接點出工作室現在面對的新威脅——客戶自己把驗證過的創意能力包裝出來賣,同時也用幾個案例示範了怎麼往上一層講價值(心理空間、自信),而不是繼續在規格和價格上競爭。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "From frictionless to meaningful",
-          "url": "https://uxdesign.cc/from-frictionless-to-meaningful-2dc785d6cc4e",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "設計師 Ida Persson 挑戰整個產業對「消除摩擦」的執念,主張真正有意義的體驗,需要一定程度的阻力——摩擦不該被當成普遍的壞事,只要用心整合進設計裡,反而能讓生活和設計實踐變得更豐富。她舉了幾個例子:Tony's Chocolonely 刻意做出不平均的巧克力塊,用產品本身的摩擦感去喚起大家對可可產業勞動不平等的意識,把一款產品變成一種立場聲明;「IKEA 效應」——組裝家具的辛苦過程,反而讓人更珍惜這件家具,證明付出的努力會增加依戀感和記憶點;電商的衝動購買——用一鍵購買拿掉摩擦會鼓勵不必要的消費,而刻意加一點摩擦反而能促進反思;學德文的掙扎過程雖然讓人挫折,卻比立即得到答案帶來更深層的認知投入。她歸納出摩擦能帶來的八個好處:難忘的體驗、反思、責任感、覺察力、人際連結、有意識的消費、學習、和韌性。實際的啟發是:與其自動化地朝「更輕鬆」去優化,設計師該策略性地引入摩擦,去促進用心程度、當責感、和更深層的投入——Persson 說:「蛇需要摩擦力才能往前移動」——人也是。真正的挑戰在於分辨清楚,哪種摩擦只是讓人挫折、哪種摩擦才是真正「重要」的。"
-        },
-        {
-          "title": "UX-Context Design: Using UX Knowledge to Inform AI-Generated Design",
-          "url": "https://www.nngroup.com/articles/ux-context-design/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 主張,當 AI 工具越來越常直接生成介面設計,UX 專業人員的角色必須從「產出人可以讀的交付物」轉向「策展機器可以讀的情境資料」——這些情境資料,引導 AI 系統做出反映組織知識、使用者研究、設計標準的產出,而不是生成千篇一律的平均值。他們把這個概念定義為「UX 情境設計」:「把一個組織知道的東西、想要的東西,發掘出來並策展成情境資料,用來引導這個組織的 AI 工具產出的每一樣東西的實踐」。因為現在產品經理、工程師、設計師任何人都能直接叫 AI 做設計工作,策略性的目標就變成:確保所有 AI 生成的產出,都建立在對使用者的理解和設計原則之上。文章用了一個很貼切的比喻說明為什麼這件事重要:「一個技術很好的建築師,從來沒見過你的家人就設計你的房子」,做出來的東西只會是平庸的中間值——AI 同樣需要明確知道你的使用者需求、限制條件、和領域語言,才能做出適合的東西。實際的建議是:現在就開始行動——把你的研究洞察和設計標準寫進一份純文字檔案裡,讓團隊的 AI 工具能讀取;讓你的設計系統變成機器可讀的格式;再根據產出品質反覆修正。"
-        },
-        {
-          "title": "Thinking Outside The Box: Digital Design In The AI Era",
-          "url": "https://smashingmagazine.com/2026/07/digital-design-ai-era/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Oleksii Hrzhehorzhevskyi 主張,與其把 AI 當成取代人類創意的威脅,設計師該把它當成工具擁抱、同時把人的判斷力放在核心位置——文章強調在這個科技主導的環境裡,「人性化和同理心」變得比以前更重要。他舉了 MacPaw 的 AI 助理 Eney 作為範例:它沒有做成傳統的文字聊天機器人,而是用一個帶著粉紅色調、表情豐富的圓形角色,打造出親切、溫暖的陪伴感——每一個設計選擇,從情緒手勢到色彩選擇,都是人類設計師刻意做出來的決定,不是演算法決定的。實際的啟發是:設計師該把 AI 看成一種讓工作更快的方式,而不是取代藝術願景的東西——文章寫道:「像 AI 這樣的科技能幫我們做得更快,但沒辦法取代啟發和塑造我們作品的那些價值觀」。核心關鍵是培養品味和判斷力——好奇心會隨著時間累積出品味,而品味在 AI 主導的世界裡只會變得更有價值、不會變得更沒價值。"
-        },
-        {
-          "title": "Digital tools, human expression: The visual identity behind Config 2026",
-          "url": "https://www.figma.com/blog/the-visual-identity-behind-config-2026/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 的品牌設計團隊,圍繞著三個反映當代設計實踐的核心原則,打造了 Config 2026 大會的視覺識別:「演化」——把既有的點子重新混合、重新詮釋,做出新東西;「流動性」——在不同的起點之間移動,在設計和程式碼之間循環;「和諧」——用生成式工具反覆迭代,同時維持人的觀點。團隊打造了一套強調「我們現在怎麼做設計的那種拉扯感」的視覺系統,刻意擁抱不完美,而不是追求打磨到完美的樣子:字符從潦草手繪、到生成式、再到俐落的形態都有;紋理用 Figma Make 裡的 AI 工具做出來,包含塗鴉線稿、模糊漸層、和顆粒感;動態構圖則展示點子怎麼變形、怎麼繁殖。品牌設計師 Chelsea White 解釋,他們想「展現這個既複雜又強大的新 AI 能力,同時強調工藝和保持非常人性化的觀點」。這套識別也延伸到螢幕之外——用泡棉雕塑、互動裝置、實體樣品、和環境圖像,把數位語言轉譯成整個 Moscone Center 裡可以觸摸、可以感受的體驗。"
-        },
-        {
-          "title": "The aggressively mediocre fight",
-          "url": "https://uxdesign.cc/the-aggressively-mediocre-fight-ed47b3f9f8f4",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這篇談的是在 AI 工具唾手可得的時代,該怎麼教 UX/設計技能。作者主張,學生需要親手動手建構、動手把玩科技,才能培養出真正的設計能力——但 AI 的普及,可能正在削弱這個關鍵的學習過程。他舉了自己的經驗:2003 年大三時透過「客製化自己的 MySpace 個人頁面」學會了 HTML/CSS;他和同事都是在 ArtCenter 和 Parsons 的研究所裡,透過直接操作程式碼、硬體(Arduino、Raspberry Pi)、和物聯網系統累積出技能——這種靠試錯做原型的過程,建立起沒辦法靠 AI 捷徑輕易複製的基礎理解。實際的啟發是:教育者必須在導入 AI 和保留動手做的學習經驗之間找到平衡——學生在掙扎著建構、除錯、迭代的過程裡,獲得的技術素養和設計判斷力,是 AI 生成的解法給不了的,越來越強大的自動化工具時代裡,怎麼確保學生依然能獲得這種經驗性的基礎,才是真正的挑戰所在。"
-        }
-      ],
-      "buzz": "今天的文章從摩擦、情境、到手藝,圍繞著同一個核心命題——AI 能做的事情越來越多,但真正讓體驗和作品有意義的東西,反而更需要人刻意介入。Ida Persson 主張摩擦本身能帶來八種好處,提醒我們別再無腦追求「更輕鬆」;NNGroup 的 UX 情境設計則提供了具體做法:把組織知道的東西寫成 AI 讀得懂的文件,而不是任由 AI 生成平庸的中間值;Smashing 那篇用 MacPaw 的 Eney 角色示範了人性化設計在 AI 產品裡的重要性;Figma 自己的 Config 2026 識別案例,則直接示範了怎麼用 AI 工具做出東西,同時把人的品味和觀點放在核心;最後那篇談設計教育的文章則從更長遠的角度提醒:如果學生沒有機會親手掙扎著把東西做出來,AI 捷徑可能會讓下一代設計師少了真正紮實的判斷力根基。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Should agencies be worried? This launch suggests clients increasingly don't need them",
-          "url": "https://www.creativeboom.com/insight/do-clients-still-need-creative-agencies-the-launch-of-the-ideation-bureau-suggests-maybe-not/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "傳統創意代理商正面臨一個新的競爭威脅:客戶自己開始建立內部創意能力,再把這些能力包裝成對外服務——與其把點子外包出去,已經站穩腳步的品牌開始把自己驗證過的內部專業商品化。文中舉了 The Ideation Bureau 這個案例:夜店營運商 Yann Pissenem 和 Sam Mooney,靠著經營伊比薩最頂尖夜店的實績成立了這個新單位,他們的資歷包括 Hï Ibiza 連續四年拿下「全球第一夜店」、以及 [UNVRS] 這個 campaign——吸引了超過 1.1 億次觀看、成為第一個入圍 Webby 獎的夜店 campaign。這種模式正在各個產業重演:南安普頓足球俱樂部成立了 TURF、曼城成立了 City Studios、迪士尼把營運整合進 Main Street、CUPRA 則成立了 Design House——每一個案例背後都是同一個邏輯:在一個領域裡驗證過的創意成功,可以轉移去做客戶案子。對代理商和工作室的實際啟發是:過去代理商的傳統優勢——「品牌自己複製不來的外部專家」——正在被侵蝕;已經站穩腳步的品牌現在證明了自己「能做出優秀的創意作品,然後把它包裝起來賣出去」,工作室現在得對抗的,是手握真實成果、而不只是作品集的客戶自己。"
-        },
-        {
-          "title": "Wild People rebrands Little Green Rooms around the one thing you can't add on: headspace",
-          "url": "https://www.creativeboom.com/inspiration/wild-people-rebrands-little-green-rooms-around-the-one-thing-you-cant-add-on-headspace/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Wild People 把 Little Green Rooms 從一間賣花園小屋的建設公司,重新定位成一個聚焦心理逃離感和寧靜感的生活風格品牌。這次重塑沒有強調木材規格和坪數這些技術規格,而是圍繞著「找回心理空間」(Headspace Found)這個策略,聚焦花園小屋真正提供的東西:遠離日常混亂的一方寧靜庇護所。整套設計系統透過柔和、取材自然的美學,搭配精準的技術性元素來體現這個哲學:隨自然光線變化的季節性色盤,搭配客製圖標和用心挑選的字體(ABC Favorit 和 P22 Mackinac),在沉靜的高級感和工程上的可靠感之間取得平衡。創辦人 Ed Hatfield 解釋箇中關鍵:「這裡真正的價值從來不是多出來的坪數——是那份心理空間」。團隊採用了一種沉浸式的創作過程——整個專案期間都實際待在一間真的 Little Green Room 裡工作,確保每一個視覺決策都真實地捕捉到這個產品帶給人的那種逃離喧囂、重新連結自然的體驗。"
-        },
-        {
-          "title": "Buff Motion's motion identity for Starling is built around confidence, not cash",
-          "url": "https://www.creativeboom.com/news/buff-motions-motion-identity-for-starling-is-built-around-confidence-not-cash/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Buff Motion 替 Starling 銀行打造了一套完整的動態框架,遠遠超出單一 campaign 影片的範疇——這間布萊頓工作室不只是做了 16 支社群媒體影片,而是建立了一整套規則書,規範重塑後的品牌在所有動態內容裡該怎麼「表現」。驅動這套作品的核心洞察,是 Starling 品牌定位上的一個關鍵區隔:創意總監 Tom Allen 解釋:「Starling 的品牌不是建立在財富上,是建立在自信上」——這個哲學基礎塑造了每一個動畫決策。做出來的動態語言優先考慮直接感和帶著玩心、人性化自信的目的性動作;Buff 沒有選擇炫技、搶眼球的動畫,而是用精準的節奏、經過思考的緩動曲線、和策略性的構圖去傳達篤定感,同時維持溫暖和留白的呼吸空間。工作室把這些原則完整記錄成一份內部製作指南,讓 Starling 的團隊之後能自行維持一致的品牌聲音。這套做法效果好到讓 Starling 後續又追加委託了 12 支推廣商業銀行產品的影片。"
-        },
-        {
-          "title": "How International Magic established its technology-bending design collaboration with Martine Rose",
-          "url": "https://www.itsnicethat.com/articles/international-magic-martine-rose-graphic-design-digital-280726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "International Magic 和時尚設計師 Martine Rose 已經合作將近六年,做了一系列打破常規的數位和實體專案。這段合作在 2020 年圍繞著永續和社群這些議題展開對話,隨著文化逐漸轉往線上而蓬勃發展。代表作包括:《What We Do All Day》(2021)——一場跟 Martine Rose 全球社群一起打造的虛擬即時時裝秀,在一個粗獷主義風格的虛擬空間裡記錄封城期間的日常儀式,後來變成荷蘭阿納姆 State of Fashion 雙年展的實體裝置;Nike x Martine Rose 電玩部門(2025)——把運動攝影跟 90 年代電玩文化參照結合的 campaign 視覺,用在店內裝置和零售周邊上;《Our Channel》(2023)——一個播放六個現場頻道的網路平台,融合海盜電視台、復古電玩介面、和公共頻道美學,刻意保留一種「笨拙」的摩擦感。這個工作室的做法刻意擁抱不完美——Connor MacDonald 說:「這是直接對抗一般媒體被消費的方式而做出來的」。他們的作品不追求無縫的數位體驗,而是優先考慮質地、情感、和文化評論,讓故障和矛盾維持可見,而不是把它們打磨掉。"
-        },
-        {
-          "title": "Makitoy turns daily observations into stamp-sized collages of paper and colour",
-          "url": "https://www.itsnicethat.com/articles/makitoy-illustration-discover-280726",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "南韓插畫家 Makitoy 把製作微型紙拼貼,當成一種日常練習,她形容這個過程「比起做出最終成品,更像是在記錄時間」。她的方法建立在觀察和重複之上:用郵票大小的微型拼貼記錄一整個月,再用聚焦自然的快照記錄一整年,靠一致的觀察習慣打底。植物在她的創作裡佔了很大比例,因為「它們按照自己的節奏緩慢變化、成長的方式,很貼近我的工作方式」——她把自然的形態簡化成極簡的線條和圖形結構。透過裁切和堆疊有顏色的紙張,Makitoy 捕捉日常物件(灑水壺、畫筆、家具)和片刻;她的目標是「把平凡的形態和片刻,轉化成帶著溫度的視覺片段」,特別被老舊物件那種安靜的氛圍吸引。透過視覺上的簡化,她探索色彩之間的互動、空間關係、和光線的流動——把畫畫本身當成一種冥想式的日常儀式,而不是以目標為導向的產出。"
-        }
-      ],
-      "buzz": "今天的案例剛好從很不同的角度回答「品牌怎麼在 AI 和市場變化裡站穩腳步」這個問題:《Should agencies be worried?》直接點名工作室面臨的新威脅——客戶自己把驗證過的內部創意能力包裝出來賣;Little Green Rooms 和 Starling 的案例則從兩個不同品類示範了「往上一層講價值」的做法——不講規格、不講炫技,而是講「心理空間」和「自信」這種更抽象但更有共鳴的核心價值;International Magic 和 Martine Rose 六年的合作,則示範了刻意擁抱「笨拙感」和不完美,反而能做出對抗媒體消費慣性的作品;Makitoy 的紙拼貼練習則從最小的尺度收尾——提醒我們,日常的觀察和重複本身,就是一種值得堅持的創作方法論。"
     }
   }
 ]
