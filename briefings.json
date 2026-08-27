@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-08-27",
+    "daily_summary": "今天 Product 和 Brand 兩邊不約而同都在談同一件事:當 AI 讓產出速度和精緻度都變得唾手可得,設計師和品牌該怎麼證明自己值得被信任——從儀表板該先想清楚要推動什麼決策、到 AI 插畫系統少了手感就打不動人心,再到把社區真實聲音嵌進識別系統裡,今天的重點是「真實感」和「判斷力」正在變成比效率更稀缺的資產。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Meriem Benhabiles 主張,一個成功的儀表板,80% 的關鍵決策發生在打開設計軟體之前——大部分儀表板失敗,不是因為資料不準確,而是從一開始就沒有針對「該推動哪個決策」被設計出來。她用「安斯庫姆四重奏」這個經典統計案例當佐證:四組統計數字完全相同的資料集,畫成散布圖卻長得完全不一樣,證明視覺化揭露的是數字本身藏不住的「操作真相」。她也舉了實際案例對比:一個聚焦在「使用者在哪裡流失」這個具體問題的結帳流程分析,做出一個一眼看穿付款頁面瓶頸的簡單漏斗圖,反而比塞滿資料的儀表板更有用;另一個企業人才管理平台的案例,重新設計後讓主管從被動看月報,變成主動每週互動,使用者留存率也明顯提升。她建議設計前先問三個問題:要回答什麼具體的營運問題、誰會根據這個資料做決策、看完之後該產生什麼行動——先決定圖表的幾何形式,並讓色彩系統在使用者還沒進入畫面前就先教會他們怎麼讀。"
+        },
+        {
+          "title": "Why Your Website Should Never Stop Changing",
+          "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Pierre Burgy 主張,網站上線後品質衰退,通常不是技術出問題,而是團隊根本沒有餘力持續維護——與其接受這種必然的腐朽,不如讓自動化代理人接手例行維護工作,把人力留給真正需要判斷力的決策。他強調自主權不是全有全無的選項,同一項技術改動對不同角色的意義不同:比方說「深色模式改成預設」這件事,對設計師來說是品牌識別的決定,但對工程師來說只是一個簡單的設定——需要用不同的自主層級去對待。實際案例包括:當某個元件更新沒有正確同步到所有頁面時,代理人能自動抓出來並修正;無障礙合規檢查(替代文字、對比度驗證)這類規律、有規則可循的工作,很適合直接交給自動化處理。他建議把工作分成三類——可自動化的例行維護、絕不能碰的創意決策、和需要依角色判斷的灰色地帶,並針對每一個代理人分別設定權限、逐步擴大信任範圍。他提醒,真正的風險不是「網站被亂改」,而是「一個完全不再改變的網站」正在悄悄變得過時。"
+        },
+        {
+          "title": "Researcher-in-the-loop",
+          "url": "https://uxdesign.cc/researcher-in-the-loop-18a8ffddf48e",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Jennifer Bowie 提出「研究員在迴圈中」這個模型,刻意反轉大家熟悉的「人類在迴圈中」——後者假設機器是研究者、人只是逐案檢查機器產出的安全網,但她指出這個做法根本無法規模化。她主張把這個關係倒過來:研究員不該只是把關者,而應該是設計和治理整個研究系統的人——親自決定用什麼方法、什麼時候該信任 AI 的產出、什麼時候該介入。她跳脫「AI 會不會取代 UX 研究員」這種老掉牙的辯論,提出一個更關鍵的問題:當人人都能做研究之後,誰來確保研究的品質和誠信不打折扣。對設計工作室來說,這篇文章的啟發是,與其把 AI 工具當成外包對象、事後檢查產出品質,不如一開始就把研究方法論和判斷標準設計進整個工作流程裡,讓人始終保有治理的位置。"
+        },
+        {
+          "title": "What luxury bags can teach designers about how to adapt to a changing deal",
+          "url": "https://uxdesign.cc/what-luxury-bags-can-teach-designers-about-how-to-adapt-to-a-changing-deal-3c06caba673d",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Kai Wong 指出,設計師長期以來仰賴一種沒有人明文寫下來的默契,如今正在悄悄失效——過去,一個花了兩週打磨出來的高擬真畫面,本身就是一種訊號:它告訴所有人,有個夠格的專業者在階層、導覽、色彩、空白狀態這些細節上做了上百個決定。但當 AI 能在幾分鐘內生成同樣精緻的畫面時,這個累積時間換來的信任訊號就不再成立。他用精品包這類講究工藝的商品做類比:真正的價值從來不是表面看起來多光鮮,而是藏在看不見的細節和決策裡——設計師現在面臨的挑戰,是要找到新的方式,把這些原本靠「花時間」自然傳達出來的判斷力和專業度,重新變得可見。對接案設計師和工作室來說,這代表得更主動地把決策過程說出來,而不能再假設客戶會自己看懂畫面背後的功夫。"
+        },
+        {
+          "title": "What Blade Runner got right about AI",
+          "url": "https://uxdesign.cc/what-blade-runner-got-right-about-ai-99cc75c0f761",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 在這篇文章裡主張,大家記得《銀翼殺手》的雨景、霓虹燈,或是爭論戴克到底是不是複製人,但這部 1982 年的電影(以及 2017 年的續集)真正厲害的地方,是精準預測了我們至今仍解不開的設計難題——從人造記憶,到我們現在還在爭吵的介面設計。他指出,這部片幾乎所有對硬體的預測都錯了:沒有智慧型手機、螢幕還是映像管的質感、飛天車也沒有出現——但它賭對了一件事:真正困難的問題會是情感層面的,而不是技術層面的。他舉了羅伊・貝提的死亡場景當例子——這個複製人在生命最後一刻,救了原本要來殺他的人,然後坐在雨中放走一隻白鴿,任由自己的身體逐漸關機,「一個人造生命體,在自己的記憶逐漸熄滅時哀悼著它們」。對設計師的啟發是:在打造 AI 產品時,真正該花心思解決的往往不是技術規格,而是這些技術會如何觸碰到使用者的情感和記憶。"
+        }
+      ],
+      "buzz": "今天的文章圍繞著一個共同主題:在 AI 讓「產出」變得又快又便宜的時代,人的判斷力該怎麼被看見、被信任。Kai Wong 提醒我們,過去靠「花時間」自然傳達出來的專業訊號正在失效,設計師得更主動證明自己的價值;Jennifer Bowie 則呼籲研究員別只當 AI 產出的把關者,而要成為整個研究系統的治理者。兩篇 Smashing 的文章則從實作角度切入——儀表板設計要先想清楚該推動什麼決策,網站維護則可以放心把例行工作交給代理人、把判斷力留給真正重要的地方。Patrick Neeman 的《銀翼殺手》文章則從另一個角度提醒我們:AI 帶來的真正難題,從來就不是硬體規格,而是情感與記憶這些說不清楚的東西。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Studio Thonik's typographic orchestra identity mimics the movement of a conductor's baton",
+          "url": "https://www.itsnicethat.com/articles/studio-thonik-phion-symphony-orchestra-graphic-design-discover-260826",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "阿姆斯特丹的 Studio Thonik,替沒有固定駐地、四處巡演的 Phion 交響樂團打造了一套彈性識別系統,選擇用「音樂本身」而不是場地或建築當作設計的根基。設計總監 Falco van Burg 解釋:「我們選擇讓音樂當基礎」——因為樂團沒有固定的家,識別系統必須能隨著每一場演出調整,同時又要在不同場館間維持可辨識度。整套系統的核心是 Grilli Type 的可變字體 GT Planar,這款字體有一個連續 90 度的傾斜軸——van Burg 說:「GT Planar 有些細節只有在你把它傾斜之後才會出現」。這個字體會依照音樂的情緒自己變化:激昂的曲目會讓字母劇烈彎曲、單字碎裂開來,平靜的作品則維持開闊、安靜的字形,系統裡還包含展示這種變化的動畫。van Burg 強調:「一切永遠從音樂開始,不是從版面開始」——這套識別最終呈現出的效果,就像指揮棒的動作一樣,精準、富有表現力,又能把整個樂團的視覺形象統一起來。"
+        },
+        {
+          "title": "Bob Neville on Berghaus, Manchester culture and the British brand everyone thinks is German",
+          "url": "https://www.creativeboom.com/insight/bob-neville-on-berghaus-manchester-culture-and-the-british-brand-everyone-thinks-is-german/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "擁有 60 年歷史的英國戶外品牌 Berghaus,在曼徹斯特 Arndale 開出第一間旗艦店,目的是把品牌識別重新收回自己手上——過去因為在各大零售通路都能買到,品牌形象被稀釋成「中價位、隨處可見」,反而流失了原本的獨特性。Pentland 集團零售總監 Bob Neville 把這間店定位成「通往戶外世界的入口」,結合零售功能和社群空間,提供免費裝備維修服務,還規劃了在地活動。門市選址靠近品牌起源地——1966 年,創辦人 Peter Lockey 和 Gordon Davison 就是在紐卡索創立了這個品牌;90 年代,這個品牌還曾經因為被 Liam Gallagher 等人穿出街頭風格而擁有文化聲量,後來卻因為過度鋪貨而失去了這個定位。Neville 說:「品牌會經歷循環。人來來去去。但總會有重新歸零的一刻。」對設計工作室的啟發是:自營門市和批發通路扮演的角色完全不同——一個能讓品牌掌控敘事、展現價值觀的實體空間,最終反而能替其他通路上的產品增添意義,強化整體的批發關係。"
+        },
+        {
+          "title": "Why are so many brands ditching celebrities for ordinary people?",
+          "url": "https://www.creativeboom.com/insight/why-are-so-many-brands-ditching-celebrities-for-ordinary-people/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章主張,品牌正在用「素人」取代名人代言,原因是名氣本身在數位時代已經碎片化——傳統靠大眾媒體操作的名人代言,不再能保證觸及廣泛的閱聽眾,變成一項報酬率愈來愈低的行銷投資。文章舉了三個案例:Spotify 的「Fan Life」campaign 找來真正的樂迷(像格拉斯哥的 Geese 樂團超級粉絲 Kye O'Hagan),而不是找音樂人本身出鏡;百事可樂替紐約尼克隊做的「WE OUTSIDE」campaign,主角是真正的球迷而不是球員或名人;Yorkshire Building Society 的「Here for Every Stage」campaign,則找來公司真正的員工,搭配他們真實的人生故事。百事可樂的行銷長曾在 2023 年說過一句被反覆引用的話:「你沒辦法再用過去的方式打造品牌了」,點出媒體消費碎片化,讓傳統的大眾市場操作方式徹底失效。對設計工作室的啟發是:與其圍繞著名人去發想概念,不如去挖掘社群裡真正有熱情的素人和第一線工作者——這種真實感是任何簽約代言人都做不出來的,成本更低,也更能說服愈來愈不信任精緻名人代言的閱聽眾。"
+        },
+        {
+          "title": "This rebrand of a voice-journalling app looks lovely, but is an 'AI illustration system' the right call?",
+          "url": "https://www.creativeboom.com/inspiration/this-rebrand-of-voice-journaling-app-untold-shows-what-happens-when-ai-branding-doesnt-look-like-ai/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計工作室 The Working Assembly,替語音日記 app Untold 做了重新設計,搭配它新推出的「Perspectives」功能——包含引導式流程、視覺化的趨勢地圖、和個人化洞察。整套識別圍繞三個概念展開:自由表達、被理解、和有意圖地成長,視覺風格用了低飽和的大地色調、看得見筆觸的插畫、和私密的構圖,刻意避開企業感的冰冷。但文章作者 Tom May 也提出了核心的質疑:這套客製的 AI 插畫系統,乍看很好看,但仔細看還是看得出演算法的痕跡——他坦言:「我還是不太確定」AI 生成的插畫系統真的能做到工作室宣稱的那種情感共鳴。The Working Assembly 的 Jolene Delisle 則說:「每一種視覺表達,都從同一個想法出發……你的聲音很重要」。文章認為,反而是那個帶點不完美手感的襯線字標和 logo 圖案更成功,app 畫面裡用手繪筆觸取代冷冰冰的數位長條圖來呈現情緒資料,證明有時候「刻意的手作感限制」比技術本身的能耐更能打動人。"
+        },
+        {
+          "title": "The world's press descended on Ashton-in-Makerfield and missed the real story. StudioDBD didn't",
+          "url": "https://www.creativeboom.com/inspiration/the-worlds-press-descended-on-ashton-in-makerfield-and-missed-the-real-story-studiodbd-didnt/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計師 David Sedgwick 和他的 StudioDBD,替威根 Ashton-in-Makerfield 一項耗資 660 萬英鎊、把歷史停車場改造成社區公共空間的開發案 Ashton Square,打造了一整套品牌識別。他沒有選擇落入工業懷舊風的老套路,而是圍繞著「Made in Makerfield」這個敘事平台展開——持續慶祝這個社區至今仍在發生的創造力。整套視覺系統包含:從機械造型和工具取材的客製字體、呼應在地「Walking Day」傳統(居民過去會在市集購買緞帶)的緞帶圖案、搭配溫暖色調和以人為主角的攝影風格,營造出親近感;整個設計刻意保留「未完成」的空間,讓社區成員可以持續把自己的故事加進這套識別裡。Sedgwick 解釋自己的設計哲學:「它自信但不企業化,講究工藝但不矯情,驕傲地展現北英格蘭特色卻不落入陳腔濫調。」對設計工作室最有價值的啟發是:深入的在地研究能解鎖真正的敘事——與其預設套用刻板的懷舊美學,不如像 Sedgwick 一樣去理解社區真正想要的是自信和大膽,把社區直接嵌進識別系統本身,讓這套品牌變成一個能隨著每次使用而愈長愈茁壯的活平台。"
+        }
+      ],
+      "buzz": "今天的案例都圍繞著「真實感要怎麼被設計出來」這個問題:Studio Thonik 讓音樂本身、而不是版面決定識別系統該長什麼樣子;Berghaus 靠一間旗艦店把品牌敘事的主導權從批發通路拿回來;素人代言的趨勢則直接點名,名人光環已經比不上真實的熱情有說服力。Untold 的 AI 插畫辯論特別值得放在心上——就算 AI 生成的畫面再精緻,少了那種看得見的手感,還是很難讓人真正相信;StudioDBD 的 Ashton Square 案例則證明,把社區真正的聲音嵌進識別系統裡,比套用任何懷舊風格都更有生命力。今天 Brand 和 Product 兩邊的默契很一致:AI 讓「看起來很好」變得非常廉價,但「讓人相信」這件事,終究還是得靠人親自介入才能做到。"
+    }
+  },
+  {
     "date": "2026-08-25",
     "daily_summary": "今天 Product 圈圍繞著「AI 讓速度和普及性提升,但真正的判斷力該怎麼被保留」這個主題,從創意教育的師徒制、團隊協作的技能落差,到法規合規和技術實作的具體案例;Brand 圈則示範了品牌敘事怎麼在各種尺度和情感重量裡找到值得說的故事——從家族印刷廠的彈性識別、電影片頭裡藏著的歷史考據,到球迷社群的真實連結。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例橫跨了品牌操作的各種尺度和媒材:DNCO 替佛蒙特州做的重塑,示範了怎麼把「知曉度落差」轉化成「發現和成長」這種更有共鳴的敘事;Stanley Chow 的巨型充氣肖像則用最直接的方式,把一座城市的文化貢獻變成一場免費、能拍照打卡的公共藝術體驗;Daniela Doe 把螢幕上的排印語言轉譯成刺繡和簇絨工藝,示範了數位美學怎麼在手作的不完美裡找到新的生命;#WatchTheFemmes 這個 campaign 則展現了創意怎麼把一個惱人的問題(路邊塗鴉)直接翻轉成免費、觸及數十億人的行銷機會;Sam Nicklin 的 Alessi 攝影案,則從最純粹的技術限制(沒有腳架)出發,示範了限制條件怎麼逼出更講究的實拍工藝。"
-    }
-  },
-  {
-    "date": "2026-08-03",
-    "daily_summary": "今天 Product 圈從 AI 介面批判談到創意技術專家角色的崛起,核心都在問「怎麼把 AI 時代裡真正的價值講清楚、做出來」;Brand 圈則從公共機構品牌案的兩難,到博物館的模組化識別、眼鏡店的生活風格重塑、金融品牌的藝術裝置,示範了品牌操作在各種情境下,都得先想清楚自己真正要溝通的核心價值是什麼。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Chat is the wrong interface for AI",
-          "url": "https://uxdesign.cc/chat-is-the-wrong-interface-for-ai-de14d352de1b",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師 Maxim Kich 主張聊天介面把 AI 代理人的互動過度簡化了。大型語言模型在各個領域都展現出很精細的推理能力,但訊息式的格式限制了它的潛力——有價值的洞察被埋在冗長的對話串裡。他描述自己一邊走路、一邊跟 AI 進行長達一小時的討論,橫跨設計、工程、物理學好幾個領域——模型成功地認出不同想法之間的關聯、回頭重新檢視之前的假設、清楚表達正在浮現的思考。但這種智能卻「被困在一個訊息軟體裡,像是 2015 年的聊天機器人,只是打了類固醇」,最好的想法淹沒在工具呼叫和重複的附和裡。實際的啟發是:限制不在技術上,而在介面上——Kich 認為語言,作為大型語言模型主要的存取點,需要跳脫訊息軟體的框架被重新思考。這個領域需要能同時尊重 AI 複雜度、又符合人類認知需求的 UX 解決方案,特別是針對現在的聊天介面沒辦法好好支撐的、複雜、非線性的思考方式。"
-        },
-        {
-          "title": "Design.md: the one standard file carries your visual identity, for humans and agents",
-          "url": "https://uxdesign.cc/design-md-the-one-standard-file-carries-your-visual-identity-for-humans-and-agents-9058d5b39d9b",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 主張 AI 代理人現在會預設生成通用元件,是因為設計系統被鎖在機器讀不懂的工具裡(Figma、簡報檔)——一份同時服務人和機器的純文字檔案能解決這個問題。DESIGN.md 是一份結構化檔案,結合兩個區塊:YAML 前置資料裡放機器可讀的設計 token(色彩、字體、間距、圓角),搭配人類可讀的 Markdown 內容解釋「為什麼」這些數值存在、什麼時候規則可以彈性調整。Neeman 形容:「就像鯔魚頭髮型,上面是給機器看的正式部分,下面是給人看的派對部分」。這個格式包含八個標準區塊:概觀、色彩、字體、版面、層次與深度、形狀、元件、以及該做和不該做的事——Google Labs 在 2026 年 4 月把這個格式開源,作為產業標準化的第一步。實際的建議是:不用等到工具完美就先開始——訪問自己(或用 AI 助理)去釐清品牌的核心色彩、字級、圓角規格;先寫 token、再寫說明這些 token 用途的文字;把這份檔案存放在程式庫根目錄,就像 README.md 一樣;測試方法是叫代理人做出一個範例畫面——出現的缺口,就會顯露出還缺哪些 token。核心原則:「用『東西做什麼』而不是『東西長什麼樣子』來命名」,能確保 token 在品牌重塑之後依然適用。"
-        },
-        {
-          "title": "Why airlines are finally waking up to context-aware design",
-          "url": "https://uxdesign.cc/why-airlines-are-finally-waking-up-to-context-aware-design-9cdb67722d03",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Zeeshan Khalid 主張航空公司的 App 需要重新設計成能感知情境,而不是一成不變的靜態介面——大部分航空公司的 App,不管使用者的處境是什麼,都顯示同一套介面,不管是提前好幾週訂票、還是在機場裡拼命狂奔。他用一個很生動的情境說明:一位乘客早上 6:47 分,23 分鐘後就要登機,他當下需要的是登機門和行李托運資訊——結果 App 卻呈現「跟三週前訂票時看到的一模一樣的首頁」,還附帶著不相干的促銷 banner 和探索功能,在這種緊急的時刻顯得格格不入。核心問題是:「大部分航空公司的 App 有一個共通點:它們是靜態的」——使用者得在選單裡翻找 App 其實早就知道的、關於他們即將起飛航班的資訊,在壓力很大的時刻製造出多餘的摩擦。實際的啟發是:航空公司該根據使用者的情境動態調整 App 介面——當使用者接近起飛時間時,把跟時間相關、旅程關鍵的資訊(登機門、行李托運地點、登機時間)顯眼地呈現出來,而不是強迫使用者在通用的促銷內容裡導航。"
-        },
-        {
-          "title": "Creative Technologists are moving from the margins to the center",
-          "url": "https://uxdesign.cc/creative-technologists-are-moving-from-the-margins-to-the-center-4fcfaa3cf2f6",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Ioana Adriana Teleanu 指出,「創意技術專家」(Creative Technologists)——把科技當成創作媒材、而不只是工具來使用的專業人士——正從藝術和廣告領域的邊緣角色,移動到現代產品團隊的核心位置,這是因為 AI 的崛起、以及在明確的使用案例定型之前,需要有人先去定義新科技到底意味著什麼。她追溯了這個角色的歷史脈絡:從 1966 年貝爾實驗室的《9 Evenings: Theatre and Engineering》開始,經過 MIT 的 Visible Language Workshop、Processing 讓創意程式設計普及化、代理商時代的體驗式作品,最後在企業面對快速演變的 AI 能力時獲得了主流的能見度。她舉了 Google Creative Lab 資深創意技術專家 Tina Tarighian 當代表案例——她跟一位網路藝術家學會 JavaScript,從虛擬試戴到被數百萬人看過的 email 抽獎活動都做過,現在幫組織釐清新興科技到底能有意義地做到什麼。文章也區分了創意技術專家、產品導向的「設計技術專家」、和生產導向的「設計工程師」——前者問的是「這可能代表什麼?」,而不是「我們該怎麼把它做出來?」。實際的啟發是:不需要真的採用這個頭銜,重點在於你跟科技的關係——差異不在技術能力,而在心態:把科技當成一個要在裡面執行的產業、還是一個能拿來思考和表達的媒材。"
-        },
-        {
-          "title": "No New Name Has Replaced \"UX\"",
-          "url": "https://www.nngroup.com/articles/no-new-name-ux/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NNGroup 對 604 位科技和設計專業人士做的調查發現,「UX」這個詞依然主導著整個領域的術語——大約 70% 的受訪者使用跟 UX 相關的關鍵字,而像「體驗設計」或「以人為中心的設計」這類提議中的替代名稱,出現在不到 1% 的回覆裡。這項研究的結論是:替代性的稱呼依然很「零散」,沒有出現一個真正能取代 UX 的新名字。實際的啟發是:UX 領導者與其去追求一個更好的統稱,不如把力氣放在展現具體的價值——文章建議從業者「少花點心力找更好的統稱,多花點心力讓 UX 的貢獻被看見」,做法是把工作跟商業成果、利害關係人的優先順序、風險降低直接掛勾。核心洞察是:替這個學科改名沒辦法解決現在真正的問題(像是預算限制或正當性的疑慮)——真正的成功,取決於能不能把「以使用者為中心的做法怎麼降低不確定性、避免代價高昂的錯誤、提升品質」講清楚,而不是靠語言上的重新包裝。"
-        }
-      ],
-      "buzz": "今天的文章橫跨了介面批判、實作標準、產業案例、到角色定義:Maxim Kich 提醒我們,聊天介面正在把 AI 真正的推理能力困在一個 2015 年就有的框架裡;Patrick Neeman 的 DESIGN.md 則提供了具體可行的做法,讓品牌識別同時對人和機器可讀;Zeeshan Khalid 用航空公司 App 的例子,示範了「情境感知設計」這個原則怎麼落地成具體的產品決策;Ioana Adriana Teleanu 則談到創意技術專家這個角色,怎麼從邊緣走向核心——這跟這陣子一直在談的「判斷力比執行力值錢」是同一個道理的延伸;NNGroup 的調查則從最根本的地方提醒:與其糾結要不要幫 UX 改名,不如把力氣花在把價值講清楚。今天的主軸:不管是介面、標準、產業案例、還是角色定義,核心問題都是「怎麼把 AI 時代裡真正的價值講清楚、做出來」。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Elizabeth Goodspeed on the branding challenge behind Mayor Zohran's new municipal grocery stores",
-          "url": "https://www.itsnicethat.com/articles/elizabeth-goodspeed-zohran-mamdani-new-york-grocery-store-civic-branding-graphic-design-030826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "紐約市長 Zohran Mamdani 的團隊,正在挑選設計顧問替 NYC Groceries 打造完整的視覺識別——這是分布在五個行政區、由市政府支持的五間平價超市,案子範圍涵蓋命名、logo 設計、標示系統、制服、自有品牌的包裝、和環境圖像。Elizabeth Goodspeed 點出一個根本的張力:NYC Groceries 必須同時扮演公共機構和有競爭力的零售品牌兩個角色——跟一般市政服務(清潔、交通)不同,這些超市要直接跟商業連鎖超市競爭,同時肩負推動平價的使命。她指出三個關鍵障礙:預算限制——這個為期 3.5 年、100 萬美金的合約,對資本雄厚的公司比較有利,能靠自己補貼案子的成本,小型工作室反而處於劣勢;認證門檻——要求 30% 的參與夥伴必須是紐約市認證的少數族裔和女性經營企業,大幅縮小了合作對象的範圍,因為全市只有 256 間圖像設計公司拿到這個認證;意識形態上的錯位——Goodspeed 指出,品牌塑造傳統上服務的是商業野心,但「公共機構的目標是培養信任感和辨識度」,而不是競爭優勢。她認為最後勝出的做法,會是優先考慮策略性研究和清楚的溝通,而不是視覺上的華麗——呼應一位應徵者的說法:需要的是「人的手印,而不是『系統』的指紋」。"
-        },
-        {
-          "title": "For 100 years no-one noticed it, but this rebrand finally gives Gunnersbury Museum a reason to be found",
-          "url": "https://www.creativeboom.com/news/for-100-years-nobody-noticed-the-museum-in-the-park-wiedemann-lampes-rebrand-finally-gives-gunnersbury-a-reason-to-be-found/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Wiedemann Lampe 處理了一個很根本的能見度問題:儘管 Gunnersbury 公園裡的這座博物館已經營運了一世紀,大部分倫敦人卻根本不知道它的存在。核心挑戰在於:公園和博物館是兩個行政上各自獨立的機構,共用同一塊實體空間,卻沒有一套一致的識別。解決方案擁抱模組化,而不是強迫兩者統一——文章指出,設計師既避免「假裝公園和博物館是同一件事」,也拒絕把它們當成「兩個毫不相干的東西」。這套識別系統用不同的符號(公園用一棵樹、博物館用一棟有山牆的建築)搭配不同的顏色(分別是綠色和紫色),兩者結合時則會產生黃色。這套架構讓兩個機構可以各自獨立溝通,同時在需要的時候呈現出一體感——讓博物館能宣傳自己的展覽,不用拖著整個公園的視覺重量,反之亦然。"
-        },
-        {
-          "title": "Adoratorio Studio takes a new lens on eyewear with a soft but technical rebrand for Indice",
-          "url": "https://www.itsnicethat.com/articles/adoratorio-studio-indice-rebrand-graphic-design-project-030826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Adoratorio Studio 把眼鏡零售商 Indice 重新定位成「The Eyewear Lounge」——一個生活風格的目的地,而不是傳統的零售空間,刻意遠離眼鏡精品業慣用的那種冷調醫療語言。新的視覺識別直接取材自店內的室內設計:logo 的靈感來自顧客挑選鏡框時坐的那張 De Sede 沙發,流動的字母造型喚起「柔軟感、動態感、和某種視覺上的誘惑力」。共同創辦人 Camilla Zampolini 說,這套設計「把感覺和個性看得比立即的易讀性更重要」。配色呼應了實體空間——奶油黃的牆面和金屬灰的層架,搭配窄體字、粉彩色調、和帶著底片顆粒感的柔和攝影,共同做出「一套感覺像是店面自然延伸出來的視覺識別,而不是額外套上去的東西」。這個做法把 Indice 定位成奢華眼鏡界的一個文化參照點,而不只是一間賣眼鏡的店。"
-        },
-        {
-          "title": "People don't know what a fund manager does, so T. Rowe Price built a giant art installation to explain it",
-          "url": "https://www.creativeboom.com/news/most-people-dont-know-what-a-fund-manager-actually-does-so-t-rowe-price-built-a-giant-art-installation-to-explain-it/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "T. Rowe Price 打造了一個叫做《Signals From the Noise》的創新藝術裝置,想向一般大眾解釋「基金經理人到底在做什麼」這件事。這座 37 英尺長的曲面 LED 雕塑,由藝術家 Karyn Nakamura 用即時市場數據打造,在曼哈頓的 Oculus 只展出兩天,視覺化呈現主動式基金管理的核心功能。裝置呈現的畫面是:數千個混亂的粒子,逐漸組織成有條理的圖案,代表有經驗的基金經理人怎麼在市場的混亂裡辨認出真正有意義的訊號。全球品牌與傳播主管 Kelly Fredrickson 解釋:「市場一直在發送訊號,但有些只是干擾」。這個作品沒有依賴傳統的金融行銷語言,而是透過任何人都能理解的視覺隱喻來溝通,不管有沒有金融素養——這種非傳統的做法,幫 T. Rowe Price 展現了人類基金經理人的價值所在——過濾雜訊、辨認出真正重要的規律——同時也順勢推廣了他們較新的主動式 ETF 業務線。"
-        },
-        {
-          "title": "From gemstones to 10m giants: Wallace Chan's Vessels of Other Worlds spans Venice and Shanghai",
-          "url": "https://www.creativeboom.com/news/wallace-chan-vessels-of-other-worlds/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這場雙城展覽,展出了中國藝術家 Wallace Chan 橫跨兩個重要場館的雄心之作——上海龍美術館西岸館和威尼斯 Santa Maria della Pietà 教堂,展期一路到 2026 年 10 月。展覽探索了 Chan 招牌的尺度和材質運用手法,從精細的寶石工藝到 10 公尺高的巨型雕塑都有。藝術家說:「這兩個極端都很困難,但困難的方式完全不同。在一顆小小的寶石裡,幾乎沒有犯錯的空間」。這次展覽由 James Putnam 策展,融合了東方哲學、文藝復興的影響、和機械上的創新。雕塑呈現雌雄同體的人形和帶著靈性的意象,探索意識、以及可見與不可見世界之間的邊界。一個連結兩個場館的現場錄像裝置,則呼應了兩地共同的海洋文化根源。Chan 從珠寶設計起家,現在把自己定位成一位跨領域的當代藝術家——這些作品展現了他在鈦金屬、青銅、鋼鐵等各種材質上的技術掌握,挑戰了藝術和工藝之間傳統的分類界線。"
-        }
-      ],
-      "buzz": "今天的案例橫跨了品牌操作裡最棘手的幾種情境:Elizabeth Goodspeed 對 NYC Groceries 的分析,點出了公共機構品牌案特有的張力——同時要建立信任感,又要跟商業品牌競爭;Gunnersbury Museum 的重塑則示範了兩個共用空間卻各自獨立的機構,怎麼用模組化的方式各自保有身份,又能在需要時呈現一體感;Adoratorio Studio 替 Indice 做的識別,示範了怎麼把品牌識別直接從實體空間的室內設計裡長出來;T. Rowe Price 的藝術裝置則證明了,再抽象的金融概念,都能透過視覺隱喻讓一般人理解;Wallace Chan 橫跨兩地的展覽,則從藝術和工藝的尺度切入,提醒我們技術掌握本身就是一種能跨越媒材界線的語言。"
     }
   }
 ]
