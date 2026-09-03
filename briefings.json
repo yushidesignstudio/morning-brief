@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-09-03",
+    "daily_summary": "今天 Product 和 Brand 圈都圍繞著「當 AI 開始自己動手做事,人的判斷力該放在哪裡」這個問題——從工程師不再是唯一能說「可不可行」的人、到 agentic 畫布重新定義誰在掌控局面,再到 TWA 誠實面對 AI 插畫系統背後仍需要的人工把關,今天的重點是:執行變得愈來愈廉價,但誠實的判斷、克制、和深度研究,才是真正拉開差距的地方。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "AI took away engineering's right to say no",
+          "url": "https://uxdesign.cc/ai-took-away-engineerings-right-to-say-no-839b9b6256f2",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Dan Maccarone 主張,工程師過去的權威,並不是來自他們知道答案,而是來自「只有他們能讓東西真正被做出來」這個壟斷地位——當工程師說一件事很難、或需要多久時間,沒有人能反駁,因為只有他們掌握把想法變成現實的能力。他以「vibe coding」這個現象當核心論據:AI 研究者 Andrej Karpathy 提出的這種工作方式——把想要的東西描述給 AI 聽、接受它給出的結果、幾乎不去看程式碼本身、然後一個能動的東西就這樣出現了——在他提出概念僅僅九個月後,就被 Collins 字典選為年度詞彙,象徵這個轉變有多快。Maccarone 強調,AI 並沒有動搖工程師真正擁有的專業知識,但它終結了工程師「唯一能判斷什麼可行」的守門人地位——現在幾乎任何人都能生成看起來能動的程式碼,讓「這件事做不做得到」不再是工程師說了算的問題。對設計工作室的啟發是:當技術實作的門檻消失,團隊裡真正稀缺、也最該被重新看重的,會是判斷「這件事該不該做、做得好不好」的能力,而不是「能不能做出來」。"
+        },
+        {
+          "title": "How Coinbase used Code Connect to guide agents and shrink token costs",
+          "url": "https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma 分享了 Coinbase 設計系統團隊做的一項對照實驗:用完全相同的設計稿、prompt、和模型(Claude Sonnet 3.5),測試 Code Connect(把 Figma 元件對應到程式碼元件的工具)能不能改善 AI 代理人生成程式碼的品質。結果顯示,搭配 Code Connect 之後,token 用量減少 11.5%、實作時間縮短 22.3%、整體成本降低 22.5%,而且每一輪測試都一致有進步。最關鍵的發現是元件選擇的準確度:有了 Code Connect,代理人會穩定選對正確的元件(就算是像 Stepper、ListCell 這種複雜元件),而不是從最基本的元素重新兜出一個相似的東西;團隊原本遇到的「代理人自己捏造插圖和圖示名稱」這個問題,在完整導入 Code Connect 之後完全消失。Coinbase 團隊用自動化流程,在四小時內就把數百個元件遷移完成。對設計團隊的實際啟發是:與其把 Code Connect 當成可有可無的加分項,不如把它當成基礎建設來投資——當模型能力愈來愈強,乾淨的上下文會變成對抗 AI 幻覺最重要的優勢。"
+        },
+        {
+          "title": "What Minority Report got right about AI",
+          "url": "https://uxdesign.cc/what-minority-report-got-right-about-ai-45b9f1106431",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 指出,《關鍵報告》裡「少數派報告」發生的情境——三個先知中有一個看到不同的結果,系統把這個不同意見藏起來,只呈現一個乾淨俐落的單一結論——這個壓制異議的過程本身,就是一個設計決策,而且精準預言了我們現在還在犯的錯。他提出的核心論點是:一個設計該有多少「摩擦力」,應該對應到你對這個 AI 生成結果有多少信心——一封等你確認才送出的草稿,錯了也沒什麼代價,但一次逮捕行動,錯了就是災難。他主張,解方不是限制 AI 的能力,而是刻意加入摩擦:把模型原本猶豫不決的兩個答案都攤開來給人看,讓人親自打字做出這個有後果的決定,而不是輕輕點一下「接受」就結束。Neeman 提醒,這種做法之所以很少真的被做到,是因為「肯定」永遠比「懷疑」上線得快——團隊習慣把信心值無條件往上抓,讓文字語氣暗示出一種模型其實從未真正擁有的篤定感。對設計師的啟發是:呈現不確定性、把來源攤在答案旁邊、給使用者一個能提出異議的管道,這些都該是高風險 AI 產品設計裡不能省略的步驟。"
+        },
+        {
+          "title": "Behind the build: Generative plugins and shaders at Figma",
+          "url": "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 產品設計師 Rogie King 分享了團隊怎麼打造「生成式外掛和 shader」這項新功能——讓設計師能直接在畫布上,用自然語言請 AI 生成客製的設計能力(像是 3D 渲染、粒子系統、根據滑鼠位置和時間變化的互動效果)。技術上,團隊用 WebGPU 的管線架構把圖形運算隔離在獨立的沙盒環境裡執行,還打造了一套叫 PropsKit 的元件套件,讓代理人能動態生成調整這些 shader 參數的控制介面;產出的程式碼還能直接匯出成 HTML 或 React 格式,方便在其他地方使用。團隊在流程上也做了明顯的取捨:他們捨棄了傳統的 PRD 文件和正式評圖,改成每週 demo 和快速做原型;King 提到,「用 vibe coding 做出來的原型,對設計師來說是很好用的溝通工具」,但團隊發現跟利害關係人對齊方向時,靜態的 mockup 反而更有效,等要驗證解法可不可行時才切回真正能跑的程式碼。整個專案只有兩個月時間趕上 Config 2026 大會,團隊被迫簡化色彩調色盤控制、砍掉一些功能才如期上線。對設計團隊的啟發是:快速迭代往往比完美規劃更能溝通願景,而設計師親自寫程式碼、直接跟工程師一起提交 PR,能大幅減少交接的摩擦成本。"
+        },
+        {
+          "title": "When the canvas starts acting, who's really in control?",
+          "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Aurélie Radom 指出,介面過去的運作邏輯一直是:人透過點擊、拖曳、輸入、選取來告訴系統該做什麼,系統再被動回應——但隨著「能主動行動的畫布」(agentic canvas)出現,這個關係正在翻轉。這種新一代的工具,能把散落在不同軟體裡的脈絡資訊整合到同一個地方,然後不需要一步一步下指令,就能自己動手執行任務。她主張,這代表 UX 設計裡幾條奉行已久的經典原則——像是系統狀態的可見性、「辨識優於回想」、使用者的控制感和自由度、錯誤預防——現在都必須被重新檢視和設計,因為當系統自己會做事之後,「誰才是真正在掌控局面的人」這個問題,不再有理所當然的答案。對設計師的實際啟發是:在打造 agentic 產品時,不能只是把舊有的互動設計原則原封不動套用上去,而要重新思考,當系統主動介入時,該怎麼讓使用者依然感覺自己保有主導權。"
+        }
+      ],
+      "buzz": "今天的文章都圍繞著同一個問題:當 AI 開始自己動手做事,「誰還握有主導權」該怎麼被重新定義。Dan Maccarone 提醒我們,AI 拿走的不是工程師的專業知識,而是他們「唯一能判斷可不可行」的守門人地位;Aurélie Radom 則指出,當畫布自己會行動,UX 設計裡幾條奉行已久的經典原則都得重新檢視。Patrick Neeman 從《關鍵報告》延伸出一個很實用的設計原則:摩擦力該對應到你對 AI 生成結果的信心程度,愈高風險的決定,愈需要刻意增加一點阻力。Figma 自己的兩篇文章則從實作面給出佐證——Coinbase 的案例證明,乾淨的元件上下文能大幅降低 AI 產出的幻覺和成本;Figma 內部打造生成式 shader 工具的過程,也證明快速原型比完美規劃更能對齊團隊方向。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "I questioned TWA's use of AI illustration in a branding project: here's their fascinating response",
+          "url": "https://www.creativeboom.com/insight/i-questioned-twas-use-of-ai-illustration-in-a-branding-project-heres-their-fascinating-response/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章是上週 Untold 語音日記 app 重新設計報導的後續——作者 Tom May 直接質疑設計工作室 The Working Assembly(TWA)為什麼在品牌案裡選擇用 AI 插畫,而不是委託真人插畫家。TWA 創辦人 Jolene Delisle 給出的回應相當坦誠:這個決定完全不是為了省錢,而是因為他們需要一套「能隨著使用者情緒動態回應、並隨著使用行為演化」的插畫系統,這是任何固定的插畫素材庫都做不到的。她解釋整個流程是先從真人繪製的視覺參考出發,再「打造一個有嚴格規則框限的客製 AI 代理人」,而不是單純對圖像生成器下 prompt——團隊花了大量時間反覆調整質地、色調、光線、構圖,全程維持人類的創意主導權。Delisle 也坦承這件事本身存在的張力:「我懂那種矛盾——像聲音這麼私人的東西,被一台機器視覺化詮釋」,並強調這不代表工作室貶低插畫家的價值,TWA 平時仍固定委託傳統插畫師接案。對設計工作室的啟發是:AI 工具真正有意義的用法,是拿來解決具體的問題,而不是單純省成本——而且成功與否,終究取決於人類創意方向的把關和反覆篩選,而不是技術本身的能耐。"
+        },
+        {
+          "title": "Should you rebrand yourself this September, or just hold your nerve?",
+          "url": "https://www.creativeboom.com/tips/should-you-rebrand-yourself-this-september-or-just-hold-your-nerve/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇文章直接點出九月總會讓創作者萌生「想要重塑自己」的衝動,但作者提醒,重新做品牌很多時候其實是一種逃避,而不是真正的策略——關鍵在於分辨清楚:你是真的成長、需要新方向來承載,還是在逃避一件讓你害怕的事(像是主動去接觸潛在客戶、開口談案子)。文章建議自問一個核心問題:「我是因為自己已經進化了才想換方向,還是在逃避某件讓我害怕的事?」創作者通常比觀眾更早對自己的品牌感到厭倦,而很多知名的重塑案例後來都被打回原樣,這都在提醒我們改變常常下得太早。如果真的想調整,文章建議採取風險較低的實驗性做法:先從更新簡介開始、把新方向拿來跟現有作品並陳測試、給自己幾個月觀察反應再做決定,或者乾脆用一個副品牌或化名去實驗,不去驚動現有的客戶關係。文章最後提醒:「不管做哪個決定都有風險。維持現狀,你冒著停滯不前的風險;改變,你可能會失去一些追蹤者和客戶。」對接案者的啟發是:動手改版之前,先誠實檢查自己是不是在解決一個真實的商業問題,還是只是在逃避不舒服的接案雜事。"
+        },
+        {
+          "title": "Vuokko Aro and Coral Garvey on Monzo's design-led move into the mainstream",
+          "url": "https://www.itsnicethat.com/features/in-house-monzo-vuokko-aro-coral-garvey-creative-industry-020926",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這篇專訪找來 Monzo 的首席設計長 Vuokko Aro(2017 年加入至今)和創意總監 Coral Garvey(2024 年加入),談這間曾經是新創挑戰者的金融科技公司,如何在成長到超過 1600 萬名用戶、變得愈來愈主流的同時,依然守住設計上的堅持。Monzo 的做法把行銷設計和產品設計整合成同一個團隊、由一致的領導方式統籌,避免設計淪為「純執行的交付部門」;Aro 強調:「我見過設計變成純粹交付功能之後會發生什麼事。我們是平等的夥伴,是合作關係,不是交付部門。」品牌裡像招牌珊瑚橘色這種核心元素、情感連結、以顧客為中心的堅持維持不變,但視覺規範本身保有彈性,允許持續演化;使用者研究、社群論壇、和社群意見回饋,則同時餵養產品和創意兩邊的決策。Garvey 補充:「同理心是關鍵。你要能說出引起共鳴的故事,也要能傾聽不同的意見。」對設計師的啟發是:在團隊裡建立心理安全感、用協作而非權威的方式領導,同時把自己獨特的價值主張磨利,但也務實地對齊組織整體的目標。"
+        },
+        {
+          "title": "Optical Arts is a design studio that deals in optical illusions, in-camera worlds and unobvious choices",
+          "url": "https://www.itsnicethat.com/articles/optical-arts-advertisements-and-idents-film-animation-project-020926",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "倫敦的 CGI 與動態設計工作室 Optical Arts,替 Apple、Channel 4、Nike、Dyson 等大品牌打造電視台形象包裝、廣告、和實驗性的動態作品,擅長打造視覺錯覺和「實拍式」的世界。創意總監 Fabrice Le Nezet 和 Joe Jackson 的做法是把實體拍攝和數位技術結合——盡量用真實的物件、玻璃、和燈光在鏡頭前直接拍出效果,再進到後製階段細修,而不是完全仰賴電腦生成。他們刻意從自動化倉庫、微距攝影、古典繪畫、科學攝影這些「非設計」的意外來源找靈感,避免作品變得像是演算法生成的老套視覺。Fabrice 強調:「設計和燈光才是我們創作真正的骨幹」,Joe 也補充:「每個元素的存在都要有理由;鏡頭運動是用來凸顯,不是用來遮掩。」談到跟 Channel 4 的合作,Fabrice 說:「不同聲音和風格的並置,正是這個專案美麗的地方。」對設計工作室的啟發是:多去研究一些表面上「不美」的素材、擁抱簡單而不是一味堆疊複雜、並且給自己足夠的時間做研究和實驗——刻意的節制,往往比不斷的視覺刺激更有力量。"
+        },
+        {
+          "title": "Darius Ou on building type systems from sci-fi, linguistics and G-code",
+          "url": "https://www.creativeboom.com/inspiration/darius-ou-on-building-type-systems-from-sci-fi-linguistics-and-g-code/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "新加坡設計師 Darius Ou 把字體設計當成一種根植於深度研究的概念語言,而不是表面的美學選擇——他會先徹底鑽研一個題目的文學、科學、或技術脈絡,再讓字體去體現這個專案真正的內核。他替一場展覽設計的字體,靈感來自娥蘇拉・勒瑰恩的短篇小說《The Author of the Acacia Seeds》,刻意打破「以人類為中心」的排印慣例,還替這套字體編寫了一整套虛構的設定,去解釋每一個設計決定背後的邏輯。他的作品《Manual》是一本 3D 列印書籍,直接把印表機的 G-code 指令嵌進書本實體裡,讓排印本身和生產方式再也分不開;另一件作品《As above, so below》則用連接不同行文字的垂直連字,在文本內部創造出一種建築式的空間關係——他的 Hyperpress 系列書籍已經有六本被新加坡美術館和 V&A 博物館典藏。Ou 說:「我一定會透過閱讀、研究、或親身體驗,徹底鑽研題目本身。」對設計師的啟發是:這種先深入調查、再讓形式從內容裡自然長出來的做法,能把單純的功能性設計,轉化成一種概念性的敘事,讓觀者也能感受到當初驅動這個作品誕生的那份好奇心。"
+        }
+      ],
+      "buzz": "今天的案例都在回應同一個問題:當 AI 能做的事愈來愈多,品牌和設計師該怎麼證明「人的判斷」依然不可取代。TWA 對 AI 插畫的回應示範了一個誠實的立場——AI 系統要真的動人,還是得靠人類全程把關創意方向;「該不該重塑品牌」這篇則提醒接案者,九月常見的重塑衝動,很多時候是在逃避真正該面對的商業問題。Monzo 的專訪則說明,就算公司規模擴大到主流市場,設計依然可以是平等的策略夥伴,而不是交付功能的部門;Optical Arts 和 Darius Ou 這兩個創作者案例,則不約而同示範了同一件事——刻意的節制、和願意花時間深入研究非顯而易見的靈感來源,才是讓作品脫穎而出的關鍵。今天 Product 和 Brand 兩邊的默契依然一致:AI 讓執行變得更容易,但真正的判斷力、創意方向、和誠實面對自己動機的能力,才是稀缺的東西。"
+    }
+  },
+  {
     "date": "2026-08-27",
     "daily_summary": "今天 Product 和 Brand 兩邊不約而同都在談同一件事:當 AI 讓產出速度和精緻度都變得唾手可得,設計師和品牌該怎麼證明自己值得被信任——從儀表板該先想清楚要推動什麼決策、到 AI 插畫系統少了手感就打不動人心,再到把社區真實聲音嵌進識別系統裡,今天的重點是「真實感」和「判斷力」正在變成比效率更稀缺的資產。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例剛好從不同角度回答「品牌和創作者怎麼在資源有限或市場擁擠的情況下站穩腳步」這個問題:andstudio 用酒莊交換品牌重塑的做法,示範了一種極具創意的接案模式;Patricia Varella 在 Polaroid 主導的反 AI campaign,把品牌存在的理由重新框架成一個存在性問題;Luke McConkey 的包裝插畫心得提醒我們,真誠投入比追逐策略更容易讓作品脫穎而出;Sam Wenc 的手作專輯封面,則示範了 DIY 音樂圈怎麼用觸感真實性對抗數位時代的量產感;Joe Lycett 的首場個展,則證明了幽默和嚴肅的主題可以並存,不需要互相犧牲。"
-    }
-  },
-  {
-    "date": "2026-08-05",
-    "daily_summary": "今天 Product 圈從《星艦迷航記》的 AI 互動模式談到設計師的職涯哲學,核心都在提醒:主動介入、把情境講清楚,永遠比被動等待更有價值;Brand 圈則用佛蒙特州重塑、巨型充氣公共藝術、刺繡工藝、和一場塗鴉行銷 campaign,示範了怎麼把落差、限制、甚至令人頭痛的問題,翻轉成品牌敘事裡最有力量的素材。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "What Star Trek got right about AI",
-          "url": "https://uxdesign.cc/what-star-trek-got-right-about-ai-a4fb09e0d6c6",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 主張《星艦迷航記》幾十年前就準確預測了 AI 系統的「互動模式」——對話式、用白話文溝通的介面,遠早於底層的智能真正跟上這個模式。這部影集把介面猜對了,卻刻意把機器意識和控制權這些更難的問題留白。他舉了幾個例子:劇中的「電腦」指令,預示了 Siri(2011)和 Alexa(2014)這類語音助理——到 2024 年,大約有 1.49 億美國人使用語音助理,互動模式先出現,能力才慢慢跟上;通用翻譯機從敘事裝置變成真正可用的技術——Meta 的 Seamless 現在能翻譯大約 100 種語言,雖然在語氣和重音上還是不如真人口譯;劇中 Data 的審判那一集(《The Measure of a Man》)提出的思想實驗,現在變成了真正的研究議題——哲學系和 AI 實驗室現在認真在研究,系統是不是可能值得被納入道德考量;Google DeepMind 的 Genie 能從文字提示生成互動式的 3D 世界——實際上等於打造出了全息甲板。對設計師的實際啟發是:在擔心底層能力之前,先設計好對話流程——優先做三件事:把自然語言當成真正的介面來對待,認真設計失敗狀態;透明地呈現信心程度,而不是把機率性的產出當成確定的事實來呈現;把「後果」這個問題嵌進產品審查裡,而不是等到事後檢討才想到。"
-        },
-        {
-          "title": "What your AI co-designer can't infer from your hex values",
-          "url": "https://uxdesign.cc/what-your-ai-co-designer-cant-infer-from-your-hex-values-d2023364e80e",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Lisa Demchenko 主張 AI 設計代理人做出來的東西之所以通用、缺乏個性,是因為它們缺乏只存在於設計師腦中的情境深度——解法是有系統地把專案特有的限制條件和決策事先寫下來。文章示範了 AI 在處理隱性設計知識時常見的失敗模式:漏掉空白狀態、過度依賴顏色、預設套用已經被否決過的模式、用不合適的規格——這些失敗不是因為粗心,而是因為 AI 收到的 brief 本來就不完整。身為一位同時服務多個客戶的兼職設計師,Demchenko 為每個專案都準備了「9 份 .md 檔案」,用來讓 Claude 快速進入狀況。這些情境檔案,填補了 AI 收到的單薄 brief、和人腦裡豐富的設計願景之間的落差,確保工具做出來的東西,是根據這個專案特有的決策和限制條件,而不是通用的最佳實踐做出來的。"
-        },
-        {
-          "title": "How Korea & Japan turned ordering food into a UX masterclass",
-          "url": "https://uxdesign.cc/how-korea-and-japan-turned-ordering-food-into-a-ux-masterclass-f64c31bd4c98",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Kristina Volchek 主張,相較於西方國家,亞洲國家(特別是韓國和日本)在餐飲點餐系統的使用者體驗設計上明顯更勝一籌,她把這歸因於文化差異和科技優先順序的不同。她用自己的經驗做對比:在雪梨,她得在沒有照片的菜單裡摸索、還要努力引起服務生注意;在首爾的 Twosome Place,她卻能「用英文透過自助點餐機,在 30 秒內完成點餐」。自助點餐機和平板在亞洲隨處可見、而且很直覺,但在西方的店家裡卻明顯落後。實際的啟發是:設計師該去研究亞洲市場怎麼把點餐科技無縫融入日常體驗——透過檢視驅動韓國和日本 UX 採用率的文化因素,西方設計師可以找出自己在服務設計上的落差,特別是在無障礙性、速度、和視覺清晰度這幾個面向上。這篇文章是「西方 vs 亞洲產品設計」系列的一部分,點餐這個案例只是更宏觀的區域性 UX 哲學差異的其中一個縮影。"
-        },
-        {
-          "title": "Why 10,000 experiments work better than 10,000 hours for designers",
-          "url": "https://uxdesign.cc/why-10-000-experiments-work-better-than-10-000-hours-for-designers-1a07aa35df7f",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇挑戰廣為流傳的「一萬小時法則」,主張設計師常常困在一個有限的範圍裡不斷優化,而不是去探索真正全新的方向——漸進式的精修往往會導致報酬遞減。文中舉了 Airbnb 的例子:他們花了二十年打磨搜尋介面(城市+日期),做到了局部最佳化;2022 年,他們把這個做法整個拋棄,改用類別瀏覽模式。作者把這個過程形容成逃離「局部最大值」——站在錯誤那座山的山頂上,卻沒意識到還有其他選擇存在。實際的啟發是:設計師該定期質疑最基礎的假設,而不是持續在既有的解決方案上做加法——這個比喻暗示,當專業人士的執行速度和技術掌握都變強,卻還走在同一條軌跡上時,職涯就可能陷入停滯。真正的成功需要偶爾做出激進的實驗,去挑戰既有的做法,而不只是精修已經被驗證過的方法。"
-        },
-        {
-          "title": "Own the room, or leave it",
-          "url": "https://uxdesign.cc/own-the-room-or-leave-it-39436e89a256",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Jessa Parette 主張,設計師常常是靠「安靜地退讓」放棄自己的話語權,而不是因為能力不夠——真正的問題不在於能不能上桌,而在於能不能在合適的層級上真正發揮所有權:即使不舒服,也要把工作真正需要什麼講出來。她舉了兩個例子:一位設計師發現新功能上線前,支援文件需要先做稽核,但在領導層堅持推進時選擇了沉默——功能上線後,支援量增加,這位設計師才意識到自己「做了一個判斷,覺得部分解法差不多夠了,就這樣放手了」;沃爾瑪的福利方案,產品團隊原本只衡量裝置的採用率,但真正該追蹤的指標,應該是有資格的員工有沒有發現自己能用的福利——問對「這個指標到底代表什麼」這個問題,把焦點從舒服的替代指標,轉移到真正的問題上。她提出四個設計「海拔高度」:介面層——擁有體驗細節的所有權、講清楚什麼被砍掉了;產品層——定義真正的成果、而不是舒服的替代指標;系統層——在危機發生之前,讓看不見的相依關係變得可見;組織層——把設計洞察翻譯成資本配置能聽懂的語言。核心提醒:「你看見問題的那一刻——而不是被允許發言的那一刻——才是你的領導力真正開始的時刻」。"
-        }
-      ],
-      "buzz": "今天的文章橫跨了流行文化、實作技巧、跨文化案例、到職涯哲學:Patrick Neeman 從《星艦迷航記》裡挖出 AI 互動模式先於能力出現的洞察;Lisa Demchenko 的「9 份 .md 檔案」則是這陣子一直在談的 AI 情境文件化實踐,又一個具體的落地案例;Kristina Volchek 用韓國和日本的點餐系統,示範了跨文化 UX 研究能帶來的具體啟發;Kai Wong 挑戰一萬小時法則,提醒我們 Airbnb 願意拋棄打磨了二十年的搜尋介面,才是真正的突破;Jessa Parette 則從設計師的職涯哲學收尾——真正的領導力,從你看見問題的那一刻就開始了,不是等到被允許發言才開始。今天的主軸:不管是跟 AI 協作、研究方法、還是職場話語權,主動介入、講出來,永遠比被動等待更有價值。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "How DNCO turned Vermont from a place people admire into one they actually want to visit",
-          "url": "https://www.creativeboom.com/news/how-dnco-turned-vermont-from-a-place-people-admire-into-one-they-actually-want-to-visit/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "DNCO 找出了一個關鍵落差:雖然 79% 的美國人覺得佛蒙特州很有吸引力,卻只有 15% 的人真的計畫要去——工作室診斷出這是一個「知曉度」問題,而不是產品本身的問題。核心的策略轉向是:與其把佛蒙特州定位成一個逃離現實的目的地,DNCO 把它重新框架成「發現和成長」——Luis Mendoza 解釋,他們的研究發現「大家描述的不是一個讓他們關機放空的地方,他們描述的是一個讓他們升級的地方」。新的品牌標語「State of Inspiration」(靈感之州)捕捉到「從逃避到獲得」的這個轉向——把佛蒙特州從一個你逃離的地方,變成一個你能從中獲得東西的地方。視覺語言上,手寫字標呼應了佛蒙特州路邊那種迷人的手繪招牌,字母造型巧妙融入了地景元素——「e」畫出一條蜿蜒的道路,「m」則形成山峰的形狀。藝術家 Alyssa McCabe 打造了一套以角色為主的圖標系統,裡面藏著佛蒙特州的傳奇故事,包括尚普蘭湖傳說中的水怪 Champ。這套策略特別強調跟佛蒙特州觀光業的共同創作,透過工作坊和工具包,確保合作夥伴能用自己的聲音真實地說這個故事,同時維持品牌的一致性。"
-        },
-        {
-          "title": "Stanley Chow fills the Arndale with 13 giant inflatable Manchester icons for a free summer trail",
-          "url": "https://www.creativeboom.com/news/stanley-chow-fills-the-arndale-with-13-giant-inflatable-manchester-icons-for-a-free-summer-trail/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "插畫家 Stanley Chow 在曼徹斯特 Arndale 購物中心打造了一場叫做「MCR Made」的展覽,展期到 2026 年 10 月 24 日。這個裝置有 13 幅巨型的曼徹斯特名人充氣肖像,有些高達六公尺,懸掛在整個購物中心裡。展出的人物橫跨音樂、體育、科學、政治、藝術各個領域——包括 Gallagher 兄弟、Marcus Rashford、Alan Turing、Emmeline Pankhurst。這次展覽特別新委製了一幅參政運動者 Ellen Wilkinson 的肖像,呼應購物中心「Ask for Ellen」這個提供免費生理用品的計畫。Chow 形容 Arndale 是「我的麥加聖地」,強調他跟曼徹斯特這座城市的深厚連結。這場免費展覽鼓勵訪客沿著路線拍照打卡,同時慶祝這座城市的文化貢獻;曼徹斯特 Arndale 還透過 Instagram 帳號,發送 26 張限量簽名 A4 海報作為競賽獎品。"
-        },
-        {
-          "title": "Translating the digital language of design into traditional craft: Daniela Doe on tactility, tufting and typography",
-          "url": "https://www.itsnicethat.com/articles/daniela-doe-graphic-design-art-discover-040826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "駐點瑞典馬爾摩的藝術家 Daniela Doe,把螢幕上的平面設計元素,轉化成觸摸得到的手作作品。她的創作方法橫跨排印和紡織技法——刺繡、簇絨、編織、版畫。她的刺繡動畫作品很能代表這種融合:她在縫紉機上一格一格地做出會動的作品,「用單一字母,玩轉旋轉和對稱,靠刺繡線本身建構出會移動、會彈跳的構圖」。就連靜態作品也體現這種數位轉實體的手法——像是把日常的圖像(水果貼紙、圖樣)做成手工簇絨地毯,做出來的東西「讀起來幾乎像是俐落的數位影像……但靠近看,羊毛和手工過程裡的小小不完美就會浮現出來,變成圖像語言本身的一部分」。她的背景橫跨時尚設計和傳播設計,又深受家族陶藝、紡織、木工傳統的滋養,這些淵源驅動了她對「連結數位和類比過程」的興趣,透過材質實驗來實現。"
-        },
-        {
-          "title": "How Erin Aniker's sketchbook doodles ended up painted over penis graffiti on the Tour de France route",
-          "url": "https://www.creativeboom.com/news/how-erin-anikers-sketchbook-doodles-ended-up-painted-over-penis-graffiti-on-the-tour-de-france-route/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "#WatchTheFemmes 這個 campaign 今年規模擴大,把路邊粗俗的塗鴉,轉化成推廣女子自行車賽的宣傳作品。一支全女性創意團隊——包括倫敦插畫家 Erin Aniker 和法國藝術家 Cécile Dormeau——設計了模板,讓街頭藝術家和 Tour 官方的清潔小隊「橡皮擦人」(Erasermen),把男子組賽道沿線那些冒犯性的塗鴉蓋掉。這個做法巧妙地把「清除塗鴉」這件事,重新利用成環法女子賽(Tour de France Femmes)的行銷素材。Aniker 反思道:「看著自己在東倫敦的素描本裡塗塗畫畫的草稿,變成賽道柏油路面上巨幅的畫作,被轉播給全球數十億人看到,真的又超現實又有趣」。這個 campaign 凸顯了一個很明顯的觀眾落差:男子環法賽全球電視觀眾達 35 億人次,女子賽卻只有大約 2300 萬人次——透過「劫持」男子賽道龐大的觀眾群,主辦單位替女子自行車賽爭取到大量、零成本的曝光。這個計畫由 Global Street Art 和 AMV BBDO 製作,由自行車製造商 Škoda 贊助支持,把每年令人頭痛的塗鴉問題,轉化成免費的宣傳時段。"
-        },
-        {
-          "title": "How in-camera tricks, colourful paper and patience brought Sam Nicklin's reflective photographs for Alessi to life",
-          "url": "https://www.itsnicethat.com/articles/sam-nicklin-chrome-and-colour-alessi-photography-project-040826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "攝影師 Sam Nicklin 替 Alessi 拍攝的合作案《Chrome & Colour》,採用了一種很純粹的實拍手法。他沒有依賴數位後製,而是把一切都在拍攝過程裡完成——他拿著各種形狀、剪成不同色塊的彩色紙,圍繞在拋光的鋼製家用器皿旁邊,不斷重新調整位置,去捕捉精準的反射效果。他解釋:「我的主要目標是透過反射裡的顏色,定義出每個物件的輪廓,運用負空間、把高光控制到最少,讓它們真正跳出來」。驅動這個做法的限制其實很實際——Nicklin 沒有腳架,沒辦法把相機固定住去微調反射效果、或疊合多張曝光。這個限制讓他完全依賴實拍手法。這個過程在拍攝 La Cupola 摩卡壺時特別具挑戰性,它圓頂造型加上垂直比例,讓反射效果變得很棘手——在嘗試過廣角和對稱式構圖之後,Nicklin 最後選擇用些微角度,搭配小片彩色卡紙,在壺蓋表面製造出策略性的「色彩口袋」。"
-        }
-      ],
-      "buzz": "今天的案例橫跨了品牌操作的各種尺度和媒材:DNCO 替佛蒙特州做的重塑,示範了怎麼把「知曉度落差」轉化成「發現和成長」這種更有共鳴的敘事;Stanley Chow 的巨型充氣肖像則用最直接的方式,把一座城市的文化貢獻變成一場免費、能拍照打卡的公共藝術體驗;Daniela Doe 把螢幕上的排印語言轉譯成刺繡和簇絨工藝,示範了數位美學怎麼在手作的不完美裡找到新的生命;#WatchTheFemmes 這個 campaign 則展現了創意怎麼把一個惱人的問題(路邊塗鴉)直接翻轉成免費、觸及數十億人的行銷機會;Sam Nicklin 的 Alessi 攝影案,則從最純粹的技術限制(沒有腳架)出發,示範了限制條件怎麼逼出更講究的實拍工藝。"
     }
   }
 ]
