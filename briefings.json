@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-09-08",
+    "daily_summary": "今天 Product 圈從創作心態、團隊協作、到產業數據都在談同一件事:工具愈普及,原創和判斷力反而愈稀缺,而英國設計協會的最新報告則用扎實數字證明設計早已是驅動經濟成長的核心能力;Brand 圈的幾個案例則不約而同示範了怎麼把限制或個人記憶轉化成創作的核心優勢,提醒我們好作品的關鍵,始終是找到情感真正的核心,而不是堆疊技巧。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Good isn't good enough: beware the design middle ground",
+          "url": "https://www.itsnicethat.com/articles/pov-good-isnt-good-enough-beware-the-design-middle-ground-creative-industry-070926",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Aporva Baxi 主張,現在的設計正變得愈來愈同質化、愈來愈規避風險——工具愈來愈親民,執行品質普遍提升,但這種普及化反而讓真正的原創性變得更稀有。他形容這是一種「中間地帶」持續擴大的現象:設計師做出一個又一個個別看起來都很合理的妥協,累積起來卻把作品推向安全、但情感上空洞的平庸。他舉了自己替 Roli 做識別設計的案例:團隊探索了五個聽起來很有音樂感、很有創新感的方向,卻始終抓不到品牌真正的核心——直到他們自己意識到問題,把所有東西砍掉重練,才在鍵盤的琴鍵造型裡發現了一個真正解鎖品牌識別的符號,證明真正的突破往往需要在半路上停下來重新歸零,而不是接受一個「可以用」的方案。他也點出一個弔詭:「創作的民主化,並沒有讓原創變得更容易,反而讓它變得更稀有。」他建議設計師警覺這種「個別合理、集體平庸」的累積效應,主動預留 2 到 4 週不受客戶限制的自主專案時間,刻意打破自己習慣的套路和熟悉的參照,在截止日期的壓力壓垮創作直覺之前,先相信自己的直覺反應。"
+        },
+        {
+          "title": "AI in Product teams: In 2026, the growing impact on collaboration",
+          "url": "https://uxdesign.cc/ai-in-product-teams-in-2026-the-growing-impact-on-collaboration-8ea9f6024dca",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Anna Lefour 指出,企業使用 AI 的方式正在從零散的個別嘗試,轉變成更有策略性的整體佈局,這正在明顯改變設計、工程、和產品三方協作的方式。她引用資料指出一個轉折:2025 年時,大約 77% 的設計師表示 AI 只是讓「個人」工作變快,對團隊協作幾乎沒有影響;但一年後的現在,這種影響已經清楚擴散到整個團隊層級,有好有壞。根據 Figma 的報告,積極擁抱 AI 的設計師,表示自己在工作上更快樂的比例高出 25%;但另一份 Lenny's Newsletter 在 2026 年做的調查卻顯示,設計師是所有科技職位裡回報「AI 相關焦慮感」最高、對主管評價也最差的一群人——兩份資料放在一起看,說明 AI 對團隊士氣的影響其實很兩極,取決於組織怎麼導入它。這篇文章的資料來自她親自訪談設計師和工程師、彙整多份調查數據、並分析 Figma 的 AI 報告。對設計工作室的啟發是:導入 AI 工具時,真正該關注的不只是個人生產力有沒有提升,還要留意它對團隊士氣、信任感、和管理品質造成的連帶影響。"
+        },
+        {
+          "title": "What Minority Report got wrong about AI (so far)",
+          "url": "https://uxdesign.cc/what-minority-report-got-wrong-about-ai-so-far-9048573aa70f",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 這篇是上週《關鍵報告》文章的延伸——他指出,這二十年來,大家對《關鍵報告》的印象都停留在湯姆克魯斯戴著黑色手套、在半空中滑動半透明面板那個畫面,整個產業還真的把這個畫面當成產品路線圖在追。但他提醒,那副手套其實只是場景道具;這部片真正講的,是一個根據預測系統、去逮捕「還沒犯下的謀殺案」嫌疑人的警察單位——介面只是奇觀,預測引擎才是這部片真正的論點。他把這種現象稱為「奇觀債」:一個領域抄走了一個願景裡「展示效果好」的那部分,卻跳過了原本該用來約束它的那部分。他點出核心問題在於「隱藏的不確定性」:當三位先知裡有一位看到不同的結果,這個「少數派報告」會被銷毀,因為一個會公開跟自己意見不合的系統,會讓大眾不再信任它——但每一個 AI 模型內部其實都帶著不確定性,是一整個機率分布、附帶不同的信心程度,而幾乎沒有一絲不確定性真正被呈現在螢幕上。對設計師的啟發是:在追逐一個科幻願景的「酷炫介面」之前,該先問問這個願景裡,原本用來約束系統的那部分是什麼,不能只挑好看的部分抄。"
+        },
+        {
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "這份 Nielsen Norman Group 的學習指南彙整了一系列資源,主張 AI 應該是「輔助」UX 工作,而不是取代它——從業者該扮演的角色,是一邊善用 AI 工具、一邊保有批判性判斷的策略者。指南直言:「AI 目前還沒準備好完全接手 UX 工作」,但很多組織仍在鼓勵團隊導入,希望藉此提升產出品質和效率;作者也提醒,「用了 AI 不代表工作會自動變得更好、更有效率」,建議帶著懷疑的態度去使用它。指南提供了具體的框架:「CARE」提示結構(情境、要求、規則、範例)是寫 prompt 的基本功;「七大 AI 使用禁忌」則列出 UX 從業者最常犯的生成式 AI 使用錯誤,並搭配相對應該追求的美德;應用範圍則依角色分類,涵蓋設計(做原型、介面評論、資料視覺化)、研究(規劃、分析、輔助合成使用者)、文案(語氣調整、編輯)、服務設計(整合 AI 代理人)、和發想工作坊。對設計師最實際的啟發是:把心力往上移到策略、定義使用者需求、和成果導向的框架上,讓 AI 處理執行細節;同時把 AI 當成「思考夥伴」而不是分析師,因為研究洞察、設計評論、和語氣拿捏,終究需要人的判斷力才能做到位。"
+        },
+        {
+          "title": "Design sector outpaces retail to become £136.7bn pillar of UK economy",
+          "url": "https://www.dezeen.com/2026/09/07/design-council-economy-report/",
+          "source": "Dezeen",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "英國設計協會(Design Council)最新發布的「設計經濟」報告顯示,英國設計產業在 2023 年創造了 1367 億英鎊的毛附加價值(GVA),經濟規模已經超越零售業——設計活動現在佔英國總 GVA 的 5.5%,等於英國每花 20 英鎊,就有 1 英鎊來自設計相關活動。這個產業在 2019 到 2023 年間成長了 40%,幾乎是同期英國整體經濟成長率(24%)的兩倍;建築、服務業、和製造業等領域,總共支撐了 227 萬個設計相關工作機會,2020 到 2025 年間的設計就業人數也成長了 15%。Design Council 執行長 Mat Hunter 強調:「這不是一個邊緣的小眾創意活動;這是一個嵌入在組織如何有效創新、解決複雜問題、和成長方式裡的 1367 億英鎊能力。」這份報告在 2026 年 9 月 7 日發布。對接案設計師和工作室來說,這份數據是很實用的談判籌碼——下次要向客戶或潛在合作對象解釋設計投資的價值時,可以直接引用這些具體數字,證明設計不是裝飾性的支出,而是真正驅動經濟成長的核心能力。"
+        }
+      ],
+      "buzz": "今天的文章橫跨了創作心態、團隊協作、科幻批判、實用框架、和產業數據五個層面:Aporva Baxi 提醒我們,工具愈親民,原創反而愈稀有,真正的突破常常需要在半路上砍掉重練;Anna Lefour 的資料則顯示,AI 對團隊協作的影響已經從個人層級擴散到整個組織,設計師是回報 AI 焦慮感最高的族群。Patrick Neeman 延續上週的《關鍵報告》主題,提出「奇觀債」這個概念——警告我們不要只抄科幻願景裡好看的介面,卻跳過原本用來約束它的機制。NN/g 的學習指南則給出了具體可用的框架,提醒我們 AI 該被當成思考夥伴,而不是取代判斷力的工具。最後,英國設計協會的報告用扎實的數字證明:設計早已不是邊緣的裝飾性活動,而是驅動經濟成長的核心能力。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Raw and unrefined: Studio Tyrrell's identity for Manta Chocolate leans into the tension between purity and pleasure",
+          "url": "https://www.itsnicethat.com/articles/studio-tyrrel-manta-chocolate-graphic-design-project-070926",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Studio Tyrrell 替強調健康取向、使用生食、植物性、未精製原料(不含乳製品、麩質、精緻糖)的巧克力品牌 Manta,打造了一整套視覺識別。設計師 Oliver Tyrrell 一開始就抓到了這個品牌的核心張力:「最先讓我們注意到的,是它幾乎帶點苦行僧氣質的極簡原料清單,跟巧克力這種感官豐富、講究享樂的世界形成的對比。」整套系統包括:一個手工感、帶點不完美、刻意不套進僵硬結構裡的手寫字標;把原料清單直接印在包裝正面(而不是藏在小字裡)的優雅方形標籤;一個線上原料資料庫,方便消費者根據飲食需求查詢;搭配色彩、質地、和有機造型,營造出兼具觸感和奢華感的整體風格。Tyrrell 強調:「這套識別裡的每一個元素,都在表達一個想法——巧克力可以同時是營養來源,也是享受的來源」,並補充:「Manta 既能自在地待在巧克力的世界裡,又能稍微跳脫出這個類別本身。」對設計工作室的啟發是:把原本看起來像限制的東西(像是「原料很少」),轉化成設計上的優勢,而不是想辦法把它藏起來。"
+        },
+        {
+          "title": "Why Studio Kiln swapped Cornwall for London",
+          "url": "https://www.creativeboom.com/insight/why-studio-kiln-swapped-cornwall-for-london/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "得獎設計工作室 Studio Kiln,在康瓦爾郡的法茅斯待了四年、證明創意工作不一定要在大城市裡才能做之後,決定搬到倫敦——但這個決定並不是因為業務上的必要性,而是出於團隊本身的需求。共同創辦人 Nathan Smith 解釋,團隊成員分散在英國各地,在做一對一面談的時候,「幾乎每一個人,都在完全沒有被引導的情況下,主動提到希望能有更容易碰面的方式」——這種在獨立對話裡不約而同浮現的共識,讓這個決定變得很清楚。Smith 也坦承其中的取捨:「雖然我們始終相信,設計的靈感和社群是可以在城市之外找到的,但待在康瓦爾,確實讓我們少了很多每天不經意撞見創意圈子的機會。」工作室採取了漸進式的搬遷策略:先在六個月前用倫敦的共同工作空間試水溫,一個月前才正式租下專屬的工作室空間,預計年底前完成全面搬遷。Smith 給其他工作室的建議是:「在做決定之前,先搞清楚壓力真正的來源是什麼」——對 Studio Kiln 來說,真正的問題從來不是客戶案源或地點造成的業務困難,而是團隊之間的凝聚力,這件事最終蓋過了地點自由帶來的好處。"
+        },
+        {
+          "title": "Counter-Print's new book argues merch is making a big comeback",
+          "url": "https://www.creativeboom.com/resources/counter-prints-new-book-makes-the-case-that-merch-is-making-a-comeback/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "出版社 Counter-Print 的新書主張,周邊商品已經從容易被遺忘的促銷贈品,演變成一種策略性的行銷工具——書裡強調,「實體、有觸感、經久耐用」的周邊,能讓品牌真正走進人們的日常生活,透過反覆使用累積出情感連結。書裡舉了幾個案例:Hey Studio 替 Casa Ñidro 做的設計,用復古的 1970 年代字體和紅白配色,一致套用在條紋遮陽棚、托特包、和員工制服上,把創意具體轉化成看得到、摸得到的周邊商品;Jens Nilsson 替瑞典植物性餐廳 Dirty Vegan 做的設計,則反其道而行,拋開健康餐廳常見的清新形象,改走夜店般的叛逆風格,一個令人過目不忘的舔嘴唇 logo,出現在霓虹燈招牌、貼紙、繡章、和印著「Dirt Bag」字樣的紙袋上;Angel & Anchor 替 2023 世界 AeroPress 咖啡沖煮大賽做的周邊,則用澳洲復古奶昔店的懷舊風格,做出印著「Yeah Nah, Nah Yeah」的馬克杯和瓶蓋造型徽章托特包。這本書最終想說的是:當周邊商品被當成策略、而不是隨便做做的附屬品時,它能強化品牌識別和價值觀——真正有效的周邊,展現的是設計選擇跟品牌個性之間的高度一致,創造出能延伸行銷活動生命力的難忘接觸點。"
+        },
+        {
+          "title": "Gabriel Abascal's ethereal graphic design evokes daydreams of childhood clip art, Nintendogs and Hannah Montana CDs",
+          "url": "https://www.itsnicethat.com/articles/gabriel-abascal-graphic-design-art-discover-070926",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "委內瑞拉出生、現居布魯克林的設計師 Gabriel Abascal,用數位拼貼和繪畫,把高雅藝術和通俗文化融合在一起,創作出一種空靈的圖像設計風格。他從個人的記憶庫裡取材——流行文化、復古玩具、和網路上的殘餘碎片——建構出一個個沉浸式的視覺世界;他形容自己的創作是「療癒十二歲的自己的一種方式」,透過打造世界觀,去處理自己移民美國的經驗和身分認同的形成過程。他的視覺語彙,喚起的是那種介於半夢半醒之間的童年美學:低解析度的剪貼素材、Nintendogs 的宣傳圖像、Bratz 娃娃、灑滿亮片的素材庫照片,搭配發光的拉布拉多犬、神秘學風格的圖表、和 iSpy 尋物遊戲式的物件收藏,散落在超現實的數位風景裡。他分享:「我對打造世界觀和材質工藝的執著,是從 2007 年、我九歲收到那張《Hannah Montana 2: Meet Miley Cyrus》CD 開始的」——這段記憶後來也啟發了他在文化轉換期間創作的樂迷風格專輯封面。他在羅德島設計學院的畢業作品《I And Love And You》,把這些影響融合成一個個多變、充滿玩心的世界,「毫不掩飾地」慶祝自己所愛的一切,把商業性的懷舊情懷,轉化成一種帶有療癒作用的創作實踐。"
+        },
+        {
+          "title": "How do you illustrate arguments? Igor Bastidas on illustrating You Be The Judge",
+          "url": "https://www.itsnicethat.com/features/igor-bastidas-illustration-spotlight-070926",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "委內瑞拉插畫家 Igor Bastidas,三年來每週替《衛報》的「You Be The Judge」專欄畫插畫——這個專欄會把真實生活裡的糾紛攤出來,讓讀者公開評判。他的創作方法著重在簡單和情感上的真實,而不是耍花俏的視覺技巧。他解釋,爭執真正的張力往往藏在表面議題底下:「大多數時候,爭吵根本不是在吵標題裡那個東西,而是在吵自尊、大方、掌控欲、公平、習慣、或期待」——找出這些藏在底下的情感利害關係,才能做出真正有共鳴的視覺方案。他的流程是:讀完每則故事後畫出兩個草稿概念,再刻意刪掉不必要的元素;他提到:「我學到,只要故事本身夠精彩,不是每一張圖都需要靠視覺花招取勝。」這系列插畫用色塊和細黑線構成,卡通感隨著時間愈來愈強——誇張的人體比例、俏皮的透視、和富有表現力的角色塑造,已經累積了超過 156 幅插畫,風格始終保持一致。對設計師和插畫師的啟發是:找到故事底下真正的情感核心,往往比堆疊視覺技巧更能做出打動人心的作品。"
+        }
+      ],
+      "buzz": "今天的案例都圍繞著「怎麼把限制或張力轉化成創作優勢」這個主題:Studio Tyrrell 把 Manta 巧克力「原料很少」這個看似的限制,變成整套識別的核心優勢;Studio Kiln 從康瓦爾搬到倫敦的故事則提醒我們,決定該怎麼安排工作室的樣貌,終究該從團隊真正的需求出發,而不是外在的壓力或潮流。Counter-Print 的新書則證明,周邊商品只要被當成策略來設計,就能變成品牌識別最有記憶點的延伸;Gabriel Abascal 和 Igor Bastidas 這兩位創作者,則不約而同示範了同一件事——不管是處理個人的移民記憶,還是別人的日常糾紛,找到情感底下真正的核心,永遠比視覺技巧本身更重要。"
+    }
+  },
+  {
     "date": "2026-09-03",
     "daily_summary": "今天 Product 和 Brand 圈都圍繞著「當 AI 開始自己動手做事,人的判斷力該放在哪裡」這個問題——從工程師不再是唯一能說「可不可行」的人、到 agentic 畫布重新定義誰在掌控局面,再到 TWA 誠實面對 AI 插畫系統背後仍需要的人工把關,今天的重點是:執行變得愈來愈廉價,但誠實的判斷、克制、和深度研究,才是真正拉開差距的地方。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例橫跨了品牌操作裡最不同的媒材和情境:Berlin Museum 的重塑,示範了怎麼從一座城市的日常視覺文化裡萃取出一套識別,而不是套用現成的美學;Johnson Banks 替 IWM London 做的展覽 campaign,示範了怎麼用一個懷舊物件製造出刻意的不安感,讓觀眾真正停下來思考;Women in Brand 的故事則從產業倡議的角度,示範了「不是乞求一個位子,是建自己的桌子」這種主動出擊的社群建立哲學;Heaps Normal 的包裝設計,則展現了怎麼把三個看似不相干的文化參照(曼菲斯設計、Devo、Barbara Kruger)融合成一套一致的品牌語言;Ana Paganini 的戰役重演攝影系列,則從最個人的角度收尾,提醒我們攝影本身就是一種為沒有影像的歷史建立視覺檔案的方式。"
-    }
-  },
-  {
-    "date": "2026-08-06",
-    "daily_summary": "今天 Product 圈圍繞著同一個命題——人的判斷力和知識,在 AI 時代該怎麼被保存、翻譯、策展;Brand 圈則用一間拿酒換品牌重塑的工作室、Polaroid 的反 AI campaign、和幾位創作者的真誠告白,示範了在資源有限或市場擁擠的情況下,真誠和巧思永遠比追逐策略更有力量。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Defining ethical design for machines",
-          "url": "https://uxdesign.cc/defining-ethical-design-for-machines-10d8f7309eec",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Michael Buckley 主張,AI 輔助設計需要把倫理原則翻譯成具體、機器可讀的規則——而不是模糊的期望。他認為「在倫理原則能夠指引 AI 之前,必須先被翻譯成人們能夠達成共識的規則」。他對比技術規則和倫理原則的差異:技術規則運作得很好,像「主要字體用 Inter」或「內文字級 16px」;但倫理原則卻失靈,像「尊重使用者自主權」對機器來說根本不夠具體。他提出「五大支柱」框架,把自主性、透明度、隱私、包容性、福祉這幾個概念翻譯成可衡量的標準——光是自主性這一項,就可能包含:「取消訂閱需要的步驟數不能比註冊多」或「除非使用者明確選擇加入,否則絕不能用問卷打斷導航流程」。他也解釋了為什麼無障礙設計能成功:WCAG 之所以有效,是因為它提供了可測試的量化指標(4.5:1 的對比度),這是花了幾十年凝聚身心障礙倡議者、研究者、政府共識才建立起來的。實際的啟發是:從小處開始——挑一個倫理支柱,做出一條設計師和 AI 都能驗證的可衡量規則,就像無障礙工具檢查對比度那樣。"
-        },
-        {
-          "title": "Bottle your judgment and make it outlive you",
-          "url": "https://uxdesign.cc/bottle-your-judgment-and-make-it-outlive-you-14f422772262",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Dan Maccarone 主張,專家判斷力——一個人最有價值的資產——過去一直被困在個人腦袋裡,一旦這個人離開就跟著消失了。AI 現在提供了第一個真正可行的工具,能把這種隱性知識外顯化,讓其他人也能取用,不需要專家本人親自在場。他舉了兩種對照的做法:「系統化派」——一位共同創辦人把自己的決策過程、email、和推理邏輯餵給 AI,做出一個可攜帶版本的判斷力;「導師派」——另一位共同創辦人拒絕這樣做,相信真正的專業只能透過親近和師徒制傳承,不能靠文件化。他用《小子難纏》來類比:就像丹尼爾靠不斷重複練習學會功夫,而不是靠說明手冊,有些專業本來就活在實踐裡,而不是解說裡。文章引用了幾個關鍵概念:Michael Polanyi 的「隱性知識」——「我們知道的,比我們能說出來的更多」;Leonard 和 Swap 的「深度智慧」——那種一旦專家離開就跟著走掉的、辛苦累積的判斷力;野中郁次郎的「外顯化」——把說不出口的知識轉化成明確的形式。實際的啟發是:最好的策略是同時採用兩種做法——把判斷力允許被寫下來的部分都寫下來,同時對那些沒辦法被化約的部分,保留親自傳承的師徒制。"
-        },
-        {
-          "title": "The future of work belongs to the knowledge DJs",
-          "url": "https://uxdesign.cc/the-future-of-work-belongs-to-the-knowledge-djs-7cc596be1f77",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "隨著 AI 讓生成內容變得輕而易舉,人類的價值正從「創作」轉移到「篩選」——作者主張「生成是廉價的,篩選不是」,意思是真正的技能現在在於判斷複雜情境裡什麼資訊真正重要,而這正是 AI 系統目前還很不擅長的事。文章提出「知識 DJ」的概念:一種靠維護策展過的「情境容器」——為特定專案或客戶持續累積的相關文件、洞察、和沒被寫下來的知識庫——來協調資訊、指揮 AI 代理人的專業人士。就像 DJ 透過聰明的選曲和排序創造價值、而不是自己創作音樂,這些工作者將靠著從雜訊裡篩出訊號、維持人和 AI 系統之間共同理解的一致性而蓬勃發展。實際的建議是:立刻開始行動——為每個專案建立專屬的情境容器;無情地移除不相干的素材;把沒被寫下來的組織知識記錄下來;隨著情況演變定期更新;當彼此的共同理解夠穩固時,放心地把任務交給 AI 代理人去做。"
-        },
-        {
-          "title": "Code, craft, and the making of nested folders",
-          "url": "https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 的團隊一開始遵循傳統的產品開發流程,但過程中途轉了向。Ethan Adams 解釋:「與其在冗長的 Slack 討論串或會議裡爭論產品需求,我們直接用程式碼當提案」——這個轉變讓團隊能透過 pull request 快速測試想法,而不是寫落落長的規格文件。幾個關鍵的工藝考量包括:模糊的角色分工、共享的專業——團隊刻意跨越了學科界線,工程師做設計決策、設計師寫程式碼、產品經理則專注在客戶關係上,而不是日常執行細節,設計師 Cai Charniga 說這需要知道「自己的專業界線在哪裡」;建立在信任上的協作——成功仰賴既有的關係,團隊透過每週的 bug bash、跨職能同步會議、即時的設計工程配對、和里程碑慶祝這些儀式,維持大家對共同目標的一致理解;以客戶為中心的驗證——產品經理 Sachi Shah 把注意力重新導向早期使用者,從全球社群和意見領袖設計師身上獲得回饋,這種紮根的做法避免了純理論式的辯論。這個做法把巢狀資料夾從一個功能需求,轉化成一個需要重新思考權限模型的基礎架構改動。"
-        },
-        {
-          "title": "Two Berlin graduates asked 30 design leaders if AI has ended their industry. The answers were somewhat surprising",
-          "url": "https://www.creativeboom.com/resources/two-berlin-graduates-asked-30-design-leaders-if-ai-has-ended-their-industry-the-answers-surprised-them/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "兩位柏林設計系畢業生 Max Voigt 和 Erik Burdach,訪談了將近 50 位設計領袖,把其中最精闢的 30 則回覆整理成一本 240 頁的書,探討 AI 是不是終結了設計這個行業。主要發現是:沒有共識——這本書呈現的不是明確的答案,而是業界領袖之間真實的分歧,一位受訪者說:「AI 能取代的,只是那些『剛好夠好』的東西」,這句話把焦慮重新框架成:商業設計本來有沒有真的瞄準過「夠好」以上的目標?大型代理商反而有續航力——品牌塑造涉及知識傳遞、客戶管理、和對受眾的理解,受訪者認為這些是「任何 prompt 都沒辦法抄捷徑的」任務;人性的元素持續存在——其中一則被濃縮成一句話的回覆特別讓人印象深刻:「去喝醉,AI 做不到」——這句話點出一個更深層的真相:自發性、共同的經歷、和人類的直覺,依然很難被自動化。這本書還做了一個「隱喻雷達」,整理設計師怎麼形容 AI 本身:黑魔法、能力弱的實習生、速食、造夢機器、外骨骼、或「賦能科技」——這種用詞上的多元,顯示這個產業連「AI 到底是什麼」都還沒達成共識,更別說它的影響了。"
-        }
-      ],
-      "buzz": "今天的文章圍繞著同一個核心命題:當 AI 能做的事情越來越多,人的判斷力和知識該怎麼被保存、被翻譯、被策展。Michael Buckley 主張倫理原則必須被翻譯成機器讀得懂的具體規則;Dan Maccarone 則從相反的角度切入——怎麼把專家判斷力外顯化、留下來,同時不犧牲親身傳承的師徒制;Connor Joyce 的「知識 DJ」概念,把這陣子一直在談的「情境策展」講得更具體——生成是廉價的,篩選才是稀缺的;Figma 自己的 nested folders 案例,則示範了團隊怎麼透過模糊角色分工和以程式碼為提案的方式,把工藝感注入產品開發流程;最後那本柏林畢業生訪談 30 位設計領袖做出來的書,則提醒我們業界對 AI 的看法遠比想像中分歧——連「AI 到底是什麼」都還沒有共識。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Meet the design studio that's paid in wine, meals and travel rather than money",
-          "url": "https://www.creativeboom.com/insight/meet-the-design-studio-thats-paid-in-wine-meals-and-travel-rather-than-money/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "立陶宛工作室 andstudio,透過一個叫做「Wine Design Exchange」的計畫,發展出一種很不傳統的接案模式——不收傳統的設計費,而是接受旅費、住宿、和餐飲作為報酬。做法是:每年一次,andstudio 會搬到全球某個酒莊待上一週,團隊參與採收、參加試酒會、跟釀酒師建立關係;交換條件是,他們要交付一套完整的品牌重塑——策略、定位、識別、包裝全包,酒莊只需要負擔旅費、住宿、和餐飲。這個模式表面上看起來很慷慨,實際上背後有精算過的商業邏輯——合夥人 Augustinas Paukštė 解釋:「我們知道一間義大利酒莊發現一間立陶宛品牌工作室的機率非常小」,透過拿掉合作的門檻,andstudio 消除了接案最大的障礙。這個安排讓雙方都受益:酒莊得到急需的品牌重塑(根據 andstudio 的研究,85% 的消費者只憑酒標就決定要買哪一瓶);andstudio 則得到案例、更深的客戶關係、和冷開發根本換不來的媒體曝光。核心啟發是:沉浸式的工作方式,比傳統的 brief 文件做出來的成果更好,而用服務去交換創作自由和敘事權,有時候比微薄的專案費更有價值。"
-        },
-        {
-          "title": "Polaroid's Patricia Varella chats long-game strategies, imperfection and that anti-AI viral campaign",
-          "url": "https://www.itsnicethat.com/features/in-house-polaroid-patricia-varella-creative-industry-050826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Polaroid 創意總監 Patricia Varella,從代理商工作轉型到企業內部創意職務,她把這份工作定位成「一場馬拉松,不是短跑」。她優先考慮品牌建立的過程,而不是短期指標,把「不完美」定位成 Polaroid 的核心優勢。她的做法包括:靠反覆溝通建立共識——「你必須把願景轉譯成具體的東西,一天一天地做」;招募有才華、又懂得合作的人;在提出解決方案之前先理解利害關係人面對的挑戰;專注在長期影響力,而不是即時的績效數據。她主導的「反 AI」病毒式行銷 campaign,慶祝類比生活、對抗數位化——關鍵訊息像是「AI 沒辦法生成腳趾間的沙子」和「像沒有人在錄影一樣跳舞」。這個策略把核心問題從「產品創新」重新框架成一個存在性的問題:在 AI 時代,Polaroid 存在的理由是什麼?這個 campaign 裡最挑釁的元素,是付錢給網紅「不要發文」,要求他們斷線、而不是產出數位內容——這直接跟一般品牌和網紅的合作關係反著來,同時強化了反 AI 的訊息。"
-        },
-        {
-          "title": "Luke McConkey on what making box art for a game can teach you about standing out",
-          "url": "https://www.creativeboom.com/resources/designing-for-a-crowded-shelf-what-party-game-illustration-can-teach-you-about-standing-out/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "插畫家 Luke McConkey 替 Alley Cat Games 的《What The Sketch?》做包裝插畫,分享了在競爭激烈的市場裡做設計的幾個關鍵心得。過程重於規劃——他的做法很直覺,而不是有條理的方法論,他解釋:「很大一部分是不要對每個角色想太多,我就讓鉛筆開始動」,角色是有機地發展出來的,個性隨著紙上粗略的形狀慢慢浮現。真誠勝過策略——與其追逐潮流或模仿對手,McConkey 主張真正投入的創作承諾,他指出「用心投入一件事,能帶來很大的差別」,因為觀眾感覺得出來,真心做出來的作品和精算出來的設計選擇之間的差異。理解受眾——最大的挑戰不是插畫本身,而是在不同年齡層之間平衡吸引力,對同時鎖定大人和小孩的派對遊戲來說,角色設計變得至關重要,因為它會標示出「這個遊戲是給誰的」,直接影響購買決策。市場現實——McConkey 坦言競爭很殘酷:「外面真的很卷!」遊戲店的貨架上塞滿了各種鮮豔搶眼的競爭作品,全都在爭奪消費者短短幾秒鐘的注意力。"
-        },
-        {
-          "title": "Sam Wenc's handmade album covers for independent music prove the importance of doing it yourself",
-          "url": "https://www.itsnicethat.com/articles/sam-wenc-lobby-art-editions-illustration-graphic-design-discover-050826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "費城藝術家 Sam Wenc 有超過十年的 DIY 音樂經驗,透過手作拼貼的方法論創作專輯封面。他的設計用了木刻版畫、掃描過的檔案素材、剪紙造型、和手作攝影——一種紮根於觸感真實性、不做作的手法。身為獨立唱片廠牌 Lobby Art Editions 的共同創辦人,Wenc 優先考慮能榮耀音樂作品本身的視覺語言。他說:「我想知道有沒有一個人真的碰過它、用手指摸過它、做過決定」。他的創作哲學核心,是認可各種創意領域裡的勞動——從設計決策到出貨這種實體勞動——都是創作過程裡不可或缺的一部分。這種對手作美學的堅持,反映了他相信專輯的呈現方式,應該跟音樂本身一樣真誠。"
-        },
-        {
-          "title": "\"I take the silliness very seriously\": Joe Lycett on taxidermy, extinction and his debut solo exhibition",
-          "url": "https://www.itsnicethat.com/features/joe-lycett-every-thing-must-go-art-spotlight-050826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "喜劇演員轉型藝術家的 Joe Lycett,首場個展《Every Thing Must Go》展現了他招牌的幽默和認真並存的風格——他刻意把輕鬆感和物種滅絕、環境流失、城市衰敗這類份量沉重的主題結合在一起。他的創作方法核心,是在嚴肅的主題裡找到樂趣——他解釋:「我把荒謬這件事看得很認真」,意思是他把玩心十足的視覺語言,當成傳達沉重議題的載體。他沒有選擇傳統的嚴肅感,而是用鮮豔的色彩、誇張的造型、和機智的引用——像是一幅劍齒虎畫作,標題寫著「Invisalign 品牌大使」——去吸引觀眾關注生態和文化議題。這場展覽有受標本剝製術啟發的作品(包括一隻變形的粉紅色長毛象 Martin),搭配用幽默細節描繪已故朋友的肖像,慶祝他們喜劇性的本質。透過把展覽紮根在他的家鄉伯明罕、處理像 Electric Cinema 這種在地的失去,Lycett 證明了有意義的藝術不需要放棄幽默,也能達到情感上的共鳴。"
-        }
-      ],
-      "buzz": "今天的案例剛好從不同角度回答「品牌和創作者怎麼在資源有限或市場擁擠的情況下站穩腳步」這個問題:andstudio 用酒莊交換品牌重塑的做法,示範了一種極具創意的接案模式;Patricia Varella 在 Polaroid 主導的反 AI campaign,把品牌存在的理由重新框架成一個存在性問題;Luke McConkey 的包裝插畫心得提醒我們,真誠投入比追逐策略更容易讓作品脫穎而出;Sam Wenc 的手作專輯封面,則示範了 DIY 音樂圈怎麼用觸感真實性對抗數位時代的量產感;Joe Lycett 的首場個展,則證明了幽默和嚴肅的主題可以並存,不需要互相犧牲。"
     }
   }
 ]
