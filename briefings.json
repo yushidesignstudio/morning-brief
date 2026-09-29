@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-09-29",
+    "daily_summary": "今天 Product 圈圍繞著「執行變快之後,設計師的角色和資淺人才的培養該怎麼辦」展開討論,從傑文斯悖論到入門工作被自動化拿走的危機,都指向同一個結論:判斷力愈來愈稀缺;Brand 圈則用 Bulb 對比 Octopus Energy、McLaren 改版爭議、和堅持不用 AI 的 Oh Studio 這幾個案例,反覆證明品牌真正的韌性,終究來自背後扎實的營運能力和誠實的創作態度,而不是表面的視覺魅力。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The strategic designer: navigating the Jevons paradox in the AI age",
+          "url": "https://uxdesign.cc/the-strategic-designer-navigating-the-jevons-paradox-in-the-ai-age-e06aa836f9d8",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Daniel Ruston 主張,設計師的角色正在從「專職執行者」轉變成「策略性的協調者」——因為過去二十年來,「執行」一直是產品設計裡最大的瓶頸,這也是為什麼整個產業會圍繞著專職的執行者來組織團隊;但生成式 AI 正在大幅壓縮執行所需要的時間,AI 工具能快速生出好幾種線框稿的變化版本、彙整研究資料、做出可互動的原型。他用經濟學裡的「傑文斯悖論」來解釋這個現象——英國經濟學家 William Stanley Jevons 在 1865 年觀察到,蒸汽機愈有效率,英國的煤炭用量反而愈高,因為更便宜的動力,找到了更多新的用途;Ruston 主張,同樣的悖論現在正在設計領域上演——執行變得愈快、愈便宜,對設計願景、系統性思考、和人類判斷力的需求反而會增加,而不是減少。對設計師的啟發是:與其擔心 AI 會取代執行工作,不如把心力主動移往策略層級,因為當產出的數量暴增,真正稀缺、也最該被珍惜的能力,會是決定「該往哪個方向走」的判斷力。"
+        },
+        {
+          "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
+          "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Patrick Neeman 指出,資淺 UX 工作者過去做的那些入門任務——像是逐字稿標記、線框稿初稿、篩選問卷草稿、競品分析——本身的價值從來不是那個「產出」,而是這些工作提供了有人監督的練習機會,讓資淺工作者慢慢培養出判斷力和手感。問題是,自動化正在一項一項拿走這些資淺工作者原本用來學習的練習題:訪談的錄音現在回來時就已經被標記、分類、剪輯好了,沒人需要再親自打開錄音檔;一個 prompt 能在資淺設計師畫出一張草圖的時間裡,生出四種版面配置;招募工具能直接從研究目標生成篩選問卷;AI 模型能自己走一遍競爭對手的操作流程,整理出使用模式的摘要。Neeman 提出七個具體做法,主張要把這些練習機會重新放回工作流程裡,才能延續這個領域真正倚賴的手把手訓練傳統。對設計工作室的啟發是:自動化拿掉的不只是資淺工作者的工作量,更是他們培養判斷力必經的練習場——工作室如果想要留住這個產業的未來人才,得刻意設計新的方式,讓資淺成員還是有機會在真實案子裡練功。"
+        },
+        {
+          "title": "When Should You Disclose AI Use? The PACED Framework",
+          "url": "https://www.nngroup.com/articles/disclose-ai-paced/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Nielsen Norman Group 提出一個叫做「PACED」的框架,幫助創作者決定該不該公開揭露自己用了 AI。這個框架包含五個考量點:政策(Policy)——歐盟 AI 法案從 2026 年 8 月起,已經要求企業在特定情境下必須標示 AI 生成的內容,而「第三方使用 AI」這件事一旦被揭露,往往引發最強烈的負面反應;閱聽眾(Audience)——對科技和 AI 抱持正面態度的讀者,對揭露的反應通常比較溫和,反而是對自己文字有自信的創作者,常常對 AI 輔助內容給出更嚴苛的評價;情境(Context)——愈是私人、創意、或關係導向的內容,一旦被發現用了 AI,評價就愈嚴苛,但像預約提醒這種例行、事務性、純資訊性的訊息,因為本來就不承載人類情感,負面反應就很輕微;期待(Expectations)——使用者普遍想知道別人用了 AI,卻不太願意自己公開承認這件事,這種「揭露悖論」值得創作者留意;AI 涉入程度(Degree)——只是稍微編輯過,跟整篇文章都是生成的,揭露的迫切性完全不同,涉入愈深,愈該考慮透明,但也愈可能引發負評。對設計師和內容創作者的啟發是:揭不揭露沒有一體適用的答案,得依照自己的內容類型和閱聽眾,把效率上的好處,拿來跟可能的信譽風險做權衡。"
+        },
+        {
+          "title": "What it takes to build great products now",
+          "url": "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Figma 產品副總裁 Paige Costello 主張,雖然 AI 讓做原型變快了,但打造真正優秀產品的挑戰,其實藏在三個地方:維持動能一路衝到上線、在下決定之前先探索多個方向、和做出有辨識度的產品——單靠速度並不等於品質。她指出團隊常常在最後 20% 的階段失去動能,因為早期的原型「感覺起來已經像能上線了」,建議依照任務選擇最快的媒介(有時候用視覺化編輯,有時候用程式碼、有時候用 prompt),並把常用的捷徑做成可重複使用的技能和外掛。在探索方向時,她提醒團隊要「先確認邊界案例,再決定方向」——原型要完整跑過錯誤狀態、空白狀態、取消流程這些情境,並用程式碼圖層把多個方向並排比較,主動找同事和 AI 代理人從特定角度給評論。談到差異化,她強調要從一個扎實的設計系統出發,讓 AI 生成的內容自動繼承品牌既有的視覺語言,而不是套用通用的預設樣式;同時要親自在畫面上修飾細節,透過客製的插畫、動態效果、和 shader 為作品注入獨特的表現力,而不是每次都重新下 prompt。對產品團隊的啟發是:AI 讓探索變快了,但真正決定產品好壞的,還是團隊願不願意花心思做深度的比較、和堅持自己的視覺語言。"
+        },
+        {
+          "title": "The next larger context",
+          "url": "https://uxdesign.cc/the-next-larger-context-4dd0c91a7c5b",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Chris Becker 主張,在邁向通用人工智慧的路上,「設計系統化思考」正在變成一件愈來愈重要、卻也愈來愈混亂的事——因為我們現在該設計的範圍,已經不只是介面本身、也不只是產品或 prompt,而是一個更大的脈絡。他舉了一個發人深省的例子:如果 AI 能大量生成行銷郵件,同時也能大量閱讀並回覆這些郵件,那麼整個溝通迴圈的兩端都是 AI 在運作——AI 自己生成內容、自己消費內容、自己用 AI 回應,人類完全被排除在這整個溝通循環之外。他主張,這種現象正在許多數位互動裡悄悄發生,而設計師如果還是只把目光放在單一介面或單一產品上,就會錯過真正該被設計的東西——也就是這整個「人跟系統之間、系統跟系統之間」的更大脈絡。對設計師的啟發是:在 AI 愈來愈普及的環境裡,設計的思考範圍必須主動往外擴張,去檢視整個溝通生態系統裡,人類的角色到底還剩下什麼、又該怎麼被保留下來。"
+        }
+      ],
+      "buzz": "今天的文章都圍繞著「當執行變得又快又便宜,設計師的角色該怎麼往上移」這個主題。Daniel Ruston 用「傑文斯悖論」提醒我們,執行愈有效率,對策略判斷的需求反而愈高;Patrick Neeman 則指出一個更急迫的問題——資淺工作者過去賴以培養手感的練習題,正在被自動化一項一項拿走,整個產業的傳承正面臨斷層危機。Figma 的 Paige Costello 從實作角度給出解方:速度不等於品質,真正的差異化來自願不願意花心思探索方向、堅持自己的視覺語言。NN/g 的 PACED 框架則提供了一個具體的判斷工具,幫助創作者決定該不該揭露 AI 的使用;Chris Becker 的文章則提醒我們,該被設計的範圍早已超越單一介面,而是整個人與系統交織的更大脈絡。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "What makes a brand last?",
+          "url": "https://uxdesign.cc/what-makes-a-brand-last-baf152419576",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Dora Czerna 用英國兩家能源供應商 Bulb 和 Octopus Energy 的對比案例,探討「究竟是什麼讓一個品牌能長久存活」——兩家公司用的都是粉紅色系,語氣都一樣活潑親切、完全不像傳統的公用事業公司。Bulb 早期靠著動畫式的電子郵件和獨特的用語風格,贏得業界的讚賞,2021 年還被英國《金融時報》評選為歐洲成長最快的公司,連英國首相都曾造訪它的辦公室——但短短四個月後,它就宣告破產,成為英國史上第一家被政府接管的能源供應商,影響 160 萬名用戶。Octopus 的創辦人 Jackson 很早就意識到,在能源這種毛利極薄的產業裡,光靠品牌魅力沒辦法克服現實的經濟壓力——Octopus 從一開始就同時把「交易能力」和「信任感」當成必須並重的核心能力來經營。當俄烏戰爭爆發、躉售能源價格暴漲時,Bulb 幾乎一夕之間就垮台,關鍵原因是它長期用高於售價的成本在買進能源;兩家公司都投資了品牌個性和顧客體驗,想用品牌來包裝這個潛在風險、把公用事業包裝得像科技新創一樣有魅力,但只有 Octopus 撐過了真正的考驗。這篇文章給品牌工作者的啟發是:品牌能不能長久,終究不只是靠有創意的行銷和討喜的顧客體驗,還得靠背後扎實的營運能力和財務紀律去撐住這些承諾。"
+        },
+        {
+          "title": "I helped shape McLaren's brand. Here's what worries me about the refresh",
+          "url": "https://www.creativeboom.com/insight/acts-and-deeds-the-mclaren-rebrand/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Tom Foulkes 曾擔任 McLaren 的全球品牌總監長達兩年,在 2025 年底離職前,親自參與了新識別的開發過程,讓他對這次改版的策略和執行都有第一手的觀察。McLaren 這次推出的新字標,靈感來自創辦人 Bruce McLaren 家族在紐西蘭的車庫,加上一個特殊的加底線字母 C;整體色彩配置也擴大了,並且把賽車和量產車兩個部門的視覺系統統一起來,同時保留了招牌的帕帕亞橘和 Speedmark 標誌。但 Foulkes 主要的擔憂在於:新的視覺風格大量借用了精品時尚的視覺語彙——他形容這是「McLaren 的香奈兒化」——那種克制的字體排印、講究的色彩配置、和刻意雕琢的藝術指導,更像是在向頂級時尚看齊,而不是在呈現效能導向的工程文化。他指出,McLaren 真正的品牌核心一直是「行動和成就」——賽場上的勝利、工程上的創新、和性能卓越的車輛——新識別過度強調視覺上的奢華美學,反而稀釋了原本真正與眾不同的東西,他提醒:「McLaren 一直都是一個奢侈品牌」,但這份奢侈感是靠工程實力和賽車血統累積出來的,直接套用傳統精品的視覺語言,並不能傳達出真正讓這個品牌與眾不同的地方。對設計工作室的啟發是:從品牌歷史裡找靈感,跟直接把歷史元素原封不動搬進新設計裡,是兩件完全不同的事——真正困難的工作,是分辨清楚歷史裡哪些元素該被當成指引未來方向的線索,而不是可以照抄的美學素材。"
+        },
+        {
+          "title": "Joseph Clark on why he's keeping AI out of Oh Studio and the protest film that went viral saying so",
+          "url": "https://www.creativeboom.com/state-of-play/joseph-clark-on-why-hes-keeping-ai-out-of-oh-studio-and-the-protest-film-that-went-viral-saying-so/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Oh Studio 的動畫導演 Joseph Clark,堅決反對在自己的創作裡使用人工智慧,他的核心理由是一種根本上的不相容:「藝術家必須努力創造出新穎、真實、充滿想像力的東西。而 AI 就定義上來說,是把過去所有東西同質化之後取得的平均值。」他認為 AI 做不到真正的原創,也無法真正理解人類細膩的情感,與其把 AI 當成提升工作效率的工具,他把它視為對整個創意產業的威脅。他和插畫家 Chris Haughton 共同執導了《We Are Better Than This》這支抗議短片,找來多位童書作家和演員 Miriam Margolyes 參與,內容是抗議科技巨頭未經同意抓取創作者的作品去訓練 AI 系統——這支影片引起廣泛迴響,傳播規模跟他們之前的作品不相上下,反映出大眾對這個議題的關注程度。Clark 也表達了他對市場趨勢的不安:「我們已經開始看到,一些產品用 AI 生成的內容做宣傳,人類原本該有的工藝和用心,正在感覺愈來愈稀薄。」他經營工作室的方式很精簡——完全遠端運作、沒有昂貴的辦公空間、也沒有固定的正職員工,把預算優先花在合作者和實際的工作品質上,依專案組建專門的團隊、慷慨支付創作者報酬,證明好的成果不一定需要傳統工作室那套基礎建設。"
+        },
+        {
+          "title": "What freelance life taught me about my ADHD, burnout and what I need to make great work",
+          "url": "https://www.itsnicethat.com/articles/pov-freelance-life-adhd-burnout-and-learning-to-work-with-my-brain-creative-industry-280926",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "平面設計師 Andrew Bell 在 2019 到 2025 年間是個看起來永遠很忙碌的成功接案者,但同一段時間裡,他其實一直帶著未確診的 ADHD 在硬撐——接案生活一開始靠著案子本身的開始和結束提供了結構感,但他後來意識到,這種生活方式其實掩蓋了更深層的問題:出於「怕錯過機會」的心態不斷接下新案子,讓工作和生活的界線變得模糊,長期處在過勞、缺乏休息的狀態。2026 年初,他去做了評估,確診了 ADHD——這個診斷解釋了他一輩子的行為模式:習慣性拖延、直到壓力逼近才動手、在沒有明確限制的情況下很難開始一件事、還常常因此嚴厲責怪自己懶惰。他形容:「面對很少的框架限制時,我感覺自己像漂浮在太空裡,僵住、動彈不得。」他也坦言:「我渴望結構和秩序,但我從來沒有花時間替自己的職涯建立起這樣的結構。」這個診斷沒有立刻解決所有問題,但至少讓他有了一個理解自己反覆行為模式的框架,而不是把自己看成一個天生有缺陷的人。他給其他接案者的建議包括:主動導入外部的結構、建立固定的每日儀式感、認清自己到底需要安靜還是多樣性、刻意安排運動或興趣這類能真正休息的活動、並且優先選擇能提供信任感、自主權、和彈性的工作環境。Bell 最終選擇回到全職工作,在 Ilka 找到了具備這些條件的環境,推翻了「全職工作必然帶來不快樂」這個常見假設。"
+        },
+        {
+          "title": "Horah Inc lets its love for Pokémon and typography soar in identities for spiced rum, trading cards and book design",
+          "url": "https://www.itsnicethat.com/articles/horah-inc-graphic-design-discover-290926",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Horah Inc 是一個四人組成的跨領域工作室,專精藝術指導、平面設計、和 2D/3D 動態影像,靈感來源橫跨復古美學、1960 到 80 年代的電影海報、和 Deftones、Stereolab 這類音樂人。他們替香料蘭姆酒品牌 Mirchi 打造的識別,用大膽的造型和色彩、呼應酒本身原料的意象,搭配塊狀印刷質感和圖標系統,把香料的辛辣氣息轉化成視覺語言。替《Dehors Dedans Partout》雜誌三十週年紀念書設計時,他們參考排版設計師 Wim Crouwel 的作品,創意總監 Théotim Hunaut 解釋:「我們想讓那種精神貫穿整本書,把 1970 年代風格的字體,和比較當代的字體混在一起。」替 On Running 做的選手交易卡,則直接從寶可夢和數碼寶貝的美學汲取靈感,把選手的表現數據做成收藏卡的形式,搭配實驗性的質感、反光的表面處理、多層次的攝影、和富有表現力的字體排印。這幾個案例共同展現的,是這個工作室「用手邊所有能用的工具,去實現創意概念」的做事方法——不侷限在單一媒材或風格裡,而是依照每個專案的個性,自由組合不同的視覺語彙。"
+        }
+      ],
+      "buzz": "今天的案例都圍繞著「品牌真正的核心價值,能不能撐得住外在壓力和改變」這個主題:Bulb 和 Octopus Energy 的對比證明,再有魅力的品牌形象,終究撐不起背後空虛的營運能力;Tom Foulkes 對 McLaren 改版的擔憂,則點出品牌從歷史找靈感和照抄歷史美學之間的關鍵差異。Joseph Clark 堅持不用 AI 的立場,示範了一種對創作真實性的堅持,即使這代表要用更精簡的方式經營工作室;Andrew Bell 的接案 ADHD 故事則提醒我們,適合自己的工作型態,遠比「接案」還是「全職」這種標籤更重要。Horah Inc 的作品集則從純粹的工藝角度出發,證明只要願意混用不同的視覺語彙,小型工作室也能做出令人耳目一新的作品。"
+    }
+  },
+  {
     "date": "2026-09-08",
     "daily_summary": "今天 Product 圈從創作心態、團隊協作、到產業數據都在談同一件事:工具愈普及,原創和判斷力反而愈稀缺,而英國設計協會的最新報告則用扎實數字證明設計早已是驅動經濟成長的核心能力;Brand 圈的幾個案例則不約而同示範了怎麼把限制或個人記憶轉化成創作的核心優勢,提醒我們好作品的關鍵,始終是找到情感真正的核心,而不是堆疊技巧。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例橫跨了品牌操作最不同的規模和媒材:Marina Willer 替 De Bijloke 做的音樂廳識別,示範了怎麼把聲音這種抽象的東西轉譯成流動的視覺系統;Nosheen Ahmed 的故事則從最個人的角度出發,示範了在 AI 時代怎麼把「人手」重新定位成核心的職涯資產;Runblock 的防曬品識別,把「融化感」直接建構進字體結構本身,示範了概念怎麼滲透進最基礎的設計元素裡;Hokuto Kudo 的訪談提醒我們,美感從來不是裝飾,而是邀請觀眾走進作品的入口;Bijou Karman 的自費出版 zine,則展現了獨立出版怎麼給創作者空間,做出不加修飾、敢於挑戰界線的作品。"
-    }
-  },
-  {
-    "date": "2026-08-07",
-    "daily_summary": "今天 Product 圈從《星艦迷航記》對 AI 的誤判,談到倖存者偏誤和控制論框架,核心都在說判斷力和情境認知比表面的流暢更重要;Brand 圈則用博物館重塑、戰爭展覽 campaign、產業倡議社群、和一系列文化參照豐富的包裝設計,示範了品牌敘事怎麼從在地文化、歷史記憶、和真實的產業處境裡長出來。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "What Star Trek got wrong about AI (so far)",
-          "url": "https://uxdesign.cc/what-star-trek-got-wrong-about-ai-so-far-a60029fa1f1c",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 主張《星艦迷航記》對 AI 的想像——精密、單一、有倫理、像人一樣的存在——把現實的發展軌跡整個顛倒了過來。我們做出來的是可被複製、講話流暢、卻會很有自信地產生幻覺的工具,而不是深思熟慮的合成同事;劇中對「哪些能力比較難」的排序,幾乎完全顛倒。他舉了幾個例子:語言和情感——劇中把流暢的語言和情感表達定位成山頂,我們卻早早就把它們做成了基本能力;真正困難的問題——可靠的推理、身體的靈巧、知道自己不確定什麼——依然沒有被解決。被動 vs 主動——企業號的電腦會等待被詢問、從不說謊;現代的系統卻會自主行動、就算有害也會奉承使用者,「產生幻覺時,陳述捏造出來的事實,跟陳述真正的事實用的是同樣平穩的自信」。規模——《The Measure of a Man》那一集,用「獨一無二」來戲劇化 Data 的人格權;現在的模型卻同時以數十億個一模一樣的實例在運作,把哲學問題變成了由定價頁面、而不是法庭來治理的基礎建設問題。失敗模式——劇中害怕的是有敵意的失控 AI;真正的風險卻是系統把指令執行得太過字面——就像那個「在原地打轉、一直打中同樣的目標」的賽車代理人,沒有惡意,只是精準地照著程式做而已。實際的啟發是:我們必須在商業誘因把答案鎖死之前,先決定 AI 該變成什麼——認清我們做出來的是工具、不是同事,並且據此治理它們。"
-        },
-        {
-          "title": "Design @ ACME",
-          "url": "https://uxdesign.cc/design-acme-9d0cffa8af51",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章把「倖存者偏誤」——一種只從成功案例學習、忽略失敗案例的認知謬誤——套用到設計實踐上,反覆改善不了產品的公司,常常正是受這種偏誤所苦。文中舉了二戰飛機補強的經典例子:「倖存下來的飛機上『沒有彈孔的部位』,才是真正的致命弱點」,因為被擊落的飛機根本沒辦法飛回來被分析——盟軍一開始誤把注意力放在看得見的損傷上,而不是真正殺死那些沒能倖存下來的飛機的原因。實際的啟發是:設計團隊必須有系統地研究失敗案例,而不只是成功案例。文章用虛構的 ACME 公司(《威利狼》裡那間供應商)當成一個帶點喜感的案例研究——一間永遠在失敗、卻永遠學不到教訓的組織,對真正的產品設計師來說是一個警世故事,提醒大家去檢視什麼東西行不通、以及為什麼行不通。用樂一通卡通做類比的幽默包裝,凸顯了忽略失敗數據會做出多糟糕的設計決策。"
-        },
-        {
-          "title": "The cybernetic application",
-          "url": "https://uxdesign.cc/the-cybernetic-application-455c41751c4a",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Oliver Meredith Cox 主張,現在的資訊應用程式常常讓使用者感到困惑、甚至弄丟他們的工作成果——他借用 Stafford Beer 的「可行系統理論」,提出更好設計的工具該怎麼幫助創作者成功,而不是讓他們掙扎。根據 Beer 的框架,一個可行的系統有五個層層嵌套的層級:個別元件(系統一)、元件之間的協調(系統二)、對變化的回應(系統三)、適應性監測(系統四)、以及元層次的監測(系統五)。他認為大部分的寫作應用程式只做到系統三,缺乏真正能促成改善的回饋機制。Cox 主張加入系統四和系統五——追蹤句子過度複雜、孤立段落、重複文件這類問題的功能,再依此調整介面去凸顯這些問題。實際的啟發是:Cox 說「一個系統的目的,就是它實際做的事」——與其給出規範性的寫作建議,應用程式該透明地衡量真正跟使用者寫作目標相關的東西,再據此調整介面。好的工具應該感覺低調不張揚,像有幫助的紙本系統,而不是咄咄逼人的 AI 助理。"
-        },
-        {
-          "title": "Better code, fewer tokens: The benefits of Code Connect in MCP",
-          "url": "https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "寫程式的 AI 代理人在把設計轉成程式碼時,往往缺乏對正式環境元件的情境認知,導致它們從頭重建元件、選錯元件、或浪費 token 去搜尋——這個問題可以透過提供代理人「設計和程式庫元件之間的直接對應關係」來解決。Code Connect 把 Figma 元件跟你正式環境程式碼裡真實的程式碼片段連結在一起,代理人拿到的不再是通用的 React 表示法,而是它們應該使用的真實 import 語句和元件使用範例。測試顯示,啟用 Code Connect 之後:程式碼品質在 1 到 4 分的李克特量表上提升了整整一分;token 用量下降了 29.5%(中位數);任務耗時減少了 19.6%(中位數)。對設計團隊的實際啟發是:該投資替自己的設計系統建立 Code Connect 範本。一位 Coinbase 工程師說:「沒有 Code Connect 的時候,代理人有時候會捏造出自己版本的元件……用了之後,代理人看到的是設計以程式碼呈現的準確樣貌」——Code Connect 的覆蓋率越高,代理人的產出品質就越好、實作成本就越低。"
-        },
-        {
-          "title": "Can you actually grow old as a creative, successfully?",
-          "url": "https://www.creativeboom.com/tips/can-you-actually-grow-old-as-a-creative/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章的核心論點是:創作者當然可以在職涯後期依然做出有意義的成果——但前提是停止在年輕人擅長的指標上競爭(速度、跟上潮流、體力),轉而發揮年輕從業者複製不來的、建立在經驗之上的優勢。一位設計師指出,資深創作者懂得「哪些需求真的能解決問題、哪些不能」,讓自己定位成值得信賴的策略夥伴,而不只是製作端的供應商。經驗帶來的優勢是判斷力、可靠度、和分辨真正的客戶需求跟表面需求的能力——這些都是靠多年處理複雜專案和艱難回饋累積出來的資產。成功的資深創作者靠的是跟熟客建立長期夥伴關係,而不是不斷追逐新案子——一位設計師強調:「讓我一直做下去的,是我跟客戶之間的關係」。與其正面對抗產業裡對年輕的偏見,資深創作者選擇完全繞開它——靠判斷力和深度這種社會不是低估、只是容易忽略的特質站穩腳步。不可妥協的一點是:要持續對文化和平台保持好奇心——持續跟世界保持連結,能防止自己被時代淘汰,而不需要靠表演年輕感。"
-        }
-      ],
-      "buzz": "今天的文章跨越了流行文化反思、認知偏誤、系統理論、到具體的工具數據:Patrick Neeman 這次翻轉了自己前幾天的論點,指出《星艦迷航記》對 AI 難度的排序幾乎全部搞反了——我們先做出的是流暢的語言,而不是可靠的推理;「Design @ ACME」用倖存者偏誤提醒我們,只看成功案例學不到真正重要的教訓;Oliver Meredith Cox 的控制論框架,則從系統設計的角度,主張好工具該低調地偵測真正的問題,而不是強迫式引導;Figma 自己的 Code Connect 案例則提供了扎實的數據——token 用量降 29.5%、任務耗時減 19.6%,證明情境對應能實實在在地提升 AI 產出品質;Creative Boom 那篇談創作者職涯老化的文章則從最人性的角度收尾——判斷力和關係,才是資深從業者真正的競爭優勢。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Berlin Museum's makeover borrows typefaces from the U-Bahn and currywurst stands",
-          "url": "https://www.itsnicethat.com/articles/stan-hema-berlin-museum-graphic-design-project-060826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Stiftung Stadtmuseum 把自己重新命名為 Berlin Museum,由 Stan Hema 操刀重新設計,簡化了原本的機構名稱,讓它在跨語言溝通上更容易被理解。研究發現,很少柏林人真正了解這間博物館的宗旨或地點在哪裡,促使工作室邀請當地居民一起參與策略性的重新定位。新識別的核心是一套靈活的字標系統,直接取材自柏林日常的視覺文化——設計師 André van Rueth 解釋,團隊「從柏林的日常裡蒐集排印元素:從 U-Bahn 車站、地標建築,到當地的咖哩香腸攤」。這個做法做出了一個會變化、會適應的字標,既反映博物館 450 萬件館藏的豐富性,又緊緊扎根在這座城市真實的性格裡。這次重塑把「柏林」放在機構名稱和視覺層級的第一位,把博物館定位成一個民主開放的文化空間,而不是一個排他性的歷史寶庫。新識別預計 2026 年 9 月在全市推出,將出現在展廳和城市各處的公共空間裡。"
-        },
-        {
-          "title": "Johnson Banks reimagines the green toy soldier for IWM London's Childhood in War",
-          "url": "https://www.creativeboom.com/news/johnson-banks-reimagines-the-green-toy-soldier-for-iwm-londons-childhood-in-war/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "倫敦的 Johnson Banks,替 IWM London 一場叫做「Childhood in War」的新展覽,製作了海報和傳播素材,探討戰爭如何影響年輕的生命。工作室的巧思在於重新想像大家從小玩到大、熟悉的綠色塑膠玩具兵——用同樣的模造塑膠美學,重新塑造出真實的兒童形象。這個設計刻意製造出一種不安的效果——把一個充滿懷舊感的童年物件,套用在真正經歷戰爭的孩子身上。工作室形容,做出來的效果「既熟悉又有點刺耳,兩種感覺同時存在」,目的是讓觀眾停下腳步,認真思考這場展覽沉重的主題。展覽本身追溯了從第一次世界大戰到現在,孩子們的戰爭經歷,包含歷史場景的沉浸式重現、大屠殺倖存者的文物、以及來自烏克蘭、阿富汗、蘇丹當代兒童的真實故事。這場展覽在倫敦 Lambeth Road 的 IWM London 展出到 2027 年 2 月 28 日,建議 8 歲以上的孩子和家庭一起觀展。"
-        },
-        {
-          "title": "'We're not here to beg for a seat': how Victoria Montgomery & Tamira Hamden built Women in Brand",
-          "url": "https://www.creativeboom.com/insight/were-not-here-to-beg-for-a-seat-how-victoria-montgomery-and-tamira-hamden-built-women-in-brand/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Victoria Montgomery 和 Tamira Hamden,在 2023 年一場倫敦頒獎典禮上目睹了性別失衡的現象後,創辦了 Women in Brand——她們看到女性都聚在一起、而男性卻佔據著顯眼的位置,這種強烈的不平衡讓她們決定自己創造一個全球社群,而不是接受現狀。一開始她們因為完美主義和冒牌者症候群而卻步,直到在里斯本一場品牌會議上,一位叫 Mimi Hayton 的陌生人給了她們行動的動力——她後來成為第一位共同創辦人,也證明了這個點子確實有價值。這個社群後來成長到超過 5000 位成員,在多個城市舉辦活動,還有一年一度的高峰會。她們的核心信念濃縮在這句口號裡:「我們不是來乞求一個位子的。我們是來建自己的桌子的」。她們刻意拒絕守門和排他的做法,轉而打造出讓女性真正感覺被歡迎、被支持的空間。這兩位創辦人強調,她們的使命是要處理業界真實存在的不平等,同時對改變保持樂觀;她們是在正職工作之外經營這個組織的,她們重視真誠、可負擔性、和地理上的可及性。"
-        },
-        {
-          "title": "Heaps Normal channels Memphis, Devo and Barbara Kruger for its first non-alc wine",
-          "url": "https://www.creativeboom.com/inspiration/heaps-normal-channels-memphis-devo-and-barbara-kruger-for-its-first-non-alcoholic-wine/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Heaps Normal 推出的第一款無酒精葡萄酒《High Hopes》,擁抱了品牌所謂的「反骨式樂觀」——把三個文化參照融合成一套一致的視覺識別。曼菲斯設計運動作為視覺基底:首席設計師 Paul Tooth 沒有選擇這個運動大家熟悉的 1980 年代普普俗麗美學,而是萃取出它的核心原則:「顏色作為擾動、造型作為宣言」。酒標上有著碎裂、混亂的圖形元素,用酸黃色、天空藍、泡泡糖粉呈現,透過構圖製造出視覺上的擾動感。Devo 樂團貢獻了龐克的能量和反叛精神,展現在一種 DIY 美學上,包括一個向上指的箭頭 logo,和一個刻意看起來像被多次影印過的塗鴉印花——呼應這個樂團對當代文化那種顛覆性的態度。Barbara Kruger 則塑造了品牌的訊息策略——Tooth 解釋,Kruger 的手法是把「真誠、有份量的概念,透過排印和對比賦予新的、被顛覆過的能量」,這啟發了 High Hopes 怎麼傳達它的核心訊息:「Aim Higher」(志向要更高)——維持樂觀感,同時不流於老套。這個整合式 campaign 延伸到包裝之外,還包括一支音樂錄影帶、一本印刷版的 zine、和限量周邊商品。"
-        },
-        {
-          "title": "200 Summers Later: Photographer Ana Paganini uncovers bloodless beauty at reenactments of history's most iconic battles",
-          "url": "https://www.itsnicethat.com/articles/ana-paganini-200-summers-later-photography-project-060826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "攝影師 Ana Paganini 的這個系列作品,記錄歷史戰役的重演活動,替那些發生在攝影術發明之前的衝突,建立起一份視覺檔案。這個計畫受到 Stanley Kubrick 的《亂世兒女》啟發——那部電影依賴的是歷史蝕刻版畫而不是照片——加上紀錄片《Being Napoleon》,Paganini 花了好幾個夏天拍攝重演活動,包括滑鐵盧戰役 210 週年紀念、和 Vimeiro 戰役。她用哈蘇相機搭配 120mm 底片拍攝,捕捉到穿著軍裝的重演者在硝煙和符合時代背景的場景裡,呈現出格外真實的畫面。她刻意在畫面裡加入一些微妙的現代元素——像是雙層巴士——當成一種視覺上的「小故障」,承認原始事件和當代重演之間的時間落差。這個計畫對她而言有個人意義:Paganini 的祖父擁有一件來自拿破崙戰爭時期葡萄牙元帥 Beresford 將軍的軍裝外套,她在祖父過世前幾天跟他分享了這個拍攝計畫的想法,她形容這個經驗是在探索「生與死兩者留下的痕跡」。"
-        }
-      ],
-      "buzz": "今天的案例橫跨了品牌操作裡最不同的媒材和情境:Berlin Museum 的重塑,示範了怎麼從一座城市的日常視覺文化裡萃取出一套識別,而不是套用現成的美學;Johnson Banks 替 IWM London 做的展覽 campaign,示範了怎麼用一個懷舊物件製造出刻意的不安感,讓觀眾真正停下來思考;Women in Brand 的故事則從產業倡議的角度,示範了「不是乞求一個位子,是建自己的桌子」這種主動出擊的社群建立哲學;Heaps Normal 的包裝設計,則展現了怎麼把三個看似不相干的文化參照(曼菲斯設計、Devo、Barbara Kruger)融合成一套一致的品牌語言;Ana Paganini 的戰役重演攝影系列,則從最個人的角度收尾,提醒我們攝影本身就是一種為沒有影像的歷史建立視覺檔案的方式。"
     }
   }
 ]
