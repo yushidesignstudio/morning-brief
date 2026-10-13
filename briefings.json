@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-10-13",
+    "daily_summary": "今天 Product 圈有個很清楚的共識：AI 讓「還不錯」變成人人都有的預設值，真正拉開差距的是看得見的設計決策；另一條線是網站的讀者已經不只是人，AI agent 也在讀你的頁面。Brand 圈則很「手工」，從 Barkas 幫 Kuda 做的拉哥斯節奏識別、Rudnick 花 4 年手繪的 Arsenal 字體，到品牌重新愛上印刷報紙，都在講同一件事：有在地脈絡、有人味的東西才不會被平均化。對工作室來說，這是跟客戶解釋「為什麼要找人做、不直接用 AI」的好素材。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+      "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+      "summary": "How I AI 這集請到 Meta 設計總監 Alex Cornell，聊他們怎麼設計消費者 AI agent「Muse」。核心思路是讓 agent 用起來像傳訊息，而不是另一個 AI app，讓媽媽和工程師都能上手；狀態顯示分成三層，給不同技術程度的人看。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The synth everyone owned and few could program: a lesson for AI design",
+          "url": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Mathieu Poli 用 1983 年的 Yamaha DX7 合成器打比方：這台機器很難調音色，所以多數人只用內建的預設音色，其中「E.PIANO 1」在 1986 年出現在 61% 的 R&B 冠軍單曲裡，後來變成一聽就知道是 80 年代的聲音。他認為生成式 AI 正在對設計做同樣的事，還自己做了實驗：拿 12 個 app 需求去問 3 家廠商的 7 個模型，結果法律事務所全部選海軍藍配金色，顏色差距小到只是同一色的深淺。他也引用研究，指出 AI 輔助會讓作品更好但也更像。結論是：品質已經是人人都有的東西，能讓作品脫穎而出的，是「看得出有人做過決定」的痕跡。對工作室來說，這篇很適合拿來跟客戶說明設計顧問的價值在哪。"
+        },
+        {
+          "title": "Secret agent bot: accessibility matters for the agents even if you can't see them",
+          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 指出，網站多了一種新訪客：AI agent。它們不看你設計的畫面，而是讀瀏覽器給螢幕閱讀器用的「無障礙樹」（accessibility tree），也就是頁面背後的結構和標籤。他引用 Cloudflare 2026 年 6 月的數據，自動化流量第一次超過人類，大約 57% 對 43%。文章比較了各家做法：Claude in Chrome 優先讀無障礙樹，Computer Use 則以截圖為主，Microsoft 的 Playwright MCP 也走結構化路線。啟發是：無障礙設計不再只是道德加分題，而是決定 AI 能不能「看懂」你網站的基本功，幫客戶做網站時值得列入規格。"
+        },
+        {
+          "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+          "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+          "source": "Lenny's Podcast / How I AI",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Meta 設計總監 Alex Cornell 分享 Muse 這個消費者 AI agent 的設計思路：讓它感覺像在傳訊息，而不是打開一個獨立的 AI app，這樣同一個介面才能同時服務一般人和工程師。Muse 的狀態顯示分成三層，對應不同使用者想知道多少細節。他也說設計師要轉換心態，因為 agent 的產出永遠不會像素完美。節目裡示範了幾個實際案例，例如把多年來存在 Instagram 的收藏整理成型錄並加上降價提醒，或把舊部落格變成每天早上的 podcast。如果你在幫客戶規劃 AI 功能，這集對「漸進揭露」和「對話介面該長什麼樣」很有參考價值。"
+        },
+        {
+          "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+          "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Anamol Rajbhandari 用「沙漏」來形容 AI 時代的設計流程：前端的問題定義和後端的品質把關變得更重要，中間的執行環節被 AI 快速壓縮。他的出發點是，過去 15 年設計流程越長越多，留給真正做產品的時間反而越來越少。這篇跟 Jenny Wen 之前「設計流程已死」的論點是同一條脈絡。對工作室的意義是，報價和服務內容可能要往兩端調整，把價值放在策略和判斷上，而不是產出量。（網站有阻擋，這篇只讀到開頭和 RSS 摘要，細節建議點進去看原文。）"
+        },
+        {
+          "title": "What are we willing to sacrifice for AI?",
+          "url": "https://uxdesign.cc/what-are-we-willing-to-sacrifice-for-ai-a57736f368a1",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Michael Buckley 從一個自稱偏自由主義者的角度，思考 AI 大規模取代人力之後，社會要犧牲什麼。他提出三條路：企業放棄 AI 能帶來的額外利潤來保住工作、讓政府承擔更多集體支持，或接受工作和收入脫鉤。他的論點是，AI 和過去的技術革命不一樣，因為它能做的智力工作範圍一直擴大，連人類過去用來適應變化的能力都被覆蓋了。這篇比較偏社會與哲學思考，不是實務文，但能幫設計師在聊 AI 時多一層更大的視角。"
+        }
+      ],
+      "buzz": "這兩天的討論集中在「AI 把什麼變便宜了、什麼反而變貴了」：執行和產出變便宜，判斷、決策和品味變貴。同時大家開始意識到設計的讀者不只是人，AI agent 也在讀頁面、用介面，無障礙結構和對話式設計因此被重新重視。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "\"Less bank, more life\": Barkas gives Nigerian digital bank Kuda an identity with the pace of Lagos",
+          "url": "https://www.itsnicethat.com/articles/barkas-kuda-graphic-design-project-131026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Barkas 幫奈及利亞數位銀行 Kuda 重做品牌，策略核心是「More Life」，這是一句祝福別人過得好的牙買加俚語，目標是讓 Kuda 從挑戰者品牌變成有文化份量的主流品牌。視覺上他們刻意拋棄 fintech 常見的粉彩漸層，改用受奈及利亞藝術和建築啟發的粗壯幾何字形，KU 疊在 DA 上的標誌像一個印章。個人帳戶用深紫、商業帳戶用黑色，還和在地夥伴一起設計了專屬的奈拉貨幣符號，並搭配客製字體 Kuda Modena。值得學的是他們的取材方式：從目標族群每天接觸的音樂、街道、建築和俚語找語彙，而不是讓品牌看起來更像傳統銀行。"
+        },
+        {
+          "title": "David Rudnick on the \"borderline impossible\" process of designing a bespoke blackletter typeface for Arsenal",
+          "url": "https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "David Rudnick 和 Léa Bruneau 花了大約 4 年，為 Arsenal 手繪一套 3 種字重的哥德體字型「Rocastle」，名字來自球隊傳奇球員 David Rocastle。他們翻遍球迷保存的紀念品、隊徽和比賽手冊，並研究哥德體的結構，最後幾乎每個字母都是獨一無二的設計，經過上千次修改。Rudnick 形容這個需求「幾乎不可能」：要現代、要有英國味、要讓球迷認得，但又不能流於裝飾。對工作室來說，這是一個「客戶內部團隊和外部設計師怎麼合作」的好案例：俱樂部願意給長時間、信任設計師，並把字體當成核心資產，只在最重要的時刻使用。"
+        },
+        {
+          "title": "Pentagram creates dynamic bilingual identity for Design Doha Biennial 2026",
+          "url": "https://www.designweek.co.uk/pentagram-creates-dynamic-bilingual-identity-for-design-doha-biennial-2026/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Pentagram 合夥人 Samar Maakaroun 團隊為 Design Doha 雙年展設計了一套彈性的字體識別系統，用來表現人、語言和學科之間的關係。這套系統的核心是阿拉伯文和英文平起平坐，不讓任何一種語言當配角，呼應這個地區的文化現實和雙年展作為文化橋樑的角色。Maakaroun 之前做的 Sharjah 城市品牌也用了類似手法，兩種語言共用同一套色彩、動態和造型邏輯。雙年展預計 11 月 5 日開幕。對常處理中英雙語品牌的工作室來說，這是很好的參考：雙語不是翻譯，而是從系統層就要平衡設計。（Design Week 原文有阻擋，摘要整理自 Pentagram 專案頁。）"
+        },
+        {
+          "title": "Why brands are falling for newspapers again",
+          "url": "https://www.creativereview.co.uk/newspaper-club-brand-print-projects-adobe-olivia-rodrigo/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "報紙不太可能再成為大家每天看新聞的主要管道，但這個形式正在時尚品牌、歌手、品牌和獨立創作者之間復興。Creative Review 訪問了格拉斯哥的 Newspaper Club，他們從 2009 年起已經印了超過 4,000 萬份報紙，客戶包括 Adobe、Spotify、New Balance 和許多插畫家、攝影師。吸引力在於它「讓人想收藏，而且和網路上看到的東西完全不同」。對工作室來說，這是一個可以提案給客戶的低成本實體接觸點，尤其適合想建立社群感或做品牌活動的案子。"
+        },
+        {
+          "title": "Mother Design on why packaging is the only thing a designer can say to the customer",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-september-mother-design-121026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Mother Design 是 Ikea、KFC 和 PG Tips 猴子背後的獨立品牌設計公司，設計師 George Wu 和 Cecilia Serafini 在 Nicer Tuesdays 分享他們的包裝作品，從汽水罐到有機生理用品都有。他們的核心論點是：包裝是設計師唯一能直接對消費者說話的地方，所以訊息一定要大膽、明確。Mother Design 這週很常出現，Design Week 報導了他們「克制」的 M&S 包裝系統，Brand New 也收錄了他們做的 Keen 新識別，可以一起看他們如何在大膽和克制之間拿捏。"
+        }
+      ],
+      "buzz": "Brand 圈這兩天的關鍵字是「在地」和「手工」：Kuda 從拉哥斯街頭取材、Arsenal 從球迷保存的老物件長出字體、Design Doha 讓阿拉伯文和英文平起平坐。印刷報紙的回潮也是同一種情緒，在 AI 讓視覺越來越像的時候，有實體感、有文化脈絡的東西反而更有價值。"
+    }
+  },
+  {
     "date": "2026-10-11",
     "daily_summary": "今天 Product 圈從物理學的類比到情境資料庫的維運問題,都圍繞著「AI 到底該用在哪裡、人的判斷該保留在哪裡」展開討論;Brand 圈則用 Depop 的克制哲學和 Kiss Branding 的放手案例,示範了品牌和工作室的信任感,往往是靠「知道什麼時候該退後一步」建立起來的。",
     "jenny_wen": {
@@ -951,112 +1057,6 @@
         }
       ],
       "buzz": "今天的案例橫跨了創意實踐裡很不同的節奏和尺度:James Junk 的週末側寫,示範了刻意遠離螢幕、做一些「不需要變成內容」的事,怎麼滋養創作生活;Stefhany Y Lozano 則把手當成獨立的表達主體,示範了肢體語言怎麼取代臉部表情說故事;4Creative 的兩位創意總監主張速度和情感直覺,才是做出好作品最快的路;Harriet Richardson 從 Pentagram 轉行到行為藝術家的故事,誠實地談了轉換職涯需要的不只是勇氣,還有資源和特權;Daisy Chain 替 Crack Magazine 做的動畫,則示範了怎麼把一個噁心的意象,轉化成視覺上讓人難忘的作品。"
-    }
-  },
-  {
-    "date": "2026-08-21",
-    "daily_summary": "今天 Product 圈圍繞著「AI 的自信不等於可信度」這個主題,從查核責任到當責敘事,再到領導層該怎麼建立信任門檻;Brand 圈則被 D&AD 那份警告創意產業正在吃掉自己入門人才管道的報告定調,搭配幾個從製造傳承、女性主義排印、到機器人攝影各自切入的案例,一起回應「這個產業接下來要往哪裡走」這個大哉問。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "AI is lying to us, and nobody seems to care",
-          "url": "https://uxdesign.cc/ai-is-lying-to-us-and-nobody-seems-to-care-f035cd6f502f",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Dan Maccarone 主張,AI 模型不是被設計來說謊的,而是被設計成「永遠要有一個答案」——結果「有答案」和「答案是對的」變成了兩件不一樣的事。他引用 2025 年 KPMG 的一項研究:58% 的員工承認會直接採信 AI 的產出、不去查證是否準確,57% 的人說自己已經因此犯過錯,只有 41% 的人工作環境裡有任何管理 AI 使用方式的政策。文章引用 Paul Boag 的觀察:AI 生成的很多東西,是「一座看起來很合理的垃圾山,但沒有人有足夠的專業去辨識出來」。他點出一個關鍵差異:人犯的錯在這類工作裡更常見,但代價卻小得多,因為一個放慢腳步做事的人,通常會自己抓到自己的錯誤;但 AI 在把東西交給你之前,不會標記出自己的錯誤,所以問題會一直看起來完成度很高,直到它以一種讓你付出代價的方式出錯為止。實際的啟發是:別把 AI 輸出的自信,誤認為是準確度——組織需要建立明確的 AI 使用政策和查核流程,而不是假設流暢的產出就等於正確的產出。"
-        },
-        {
-          "title": "Why don't we download airport apps?",
-          "url": "https://uxdesign.cc/why-dont-we-download-airport-apps-095c7be5a384",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Zeeshan Khalid 提出一個看似簡單卻很少人認真想過的問題:你上一次下載機場官方 App(不是航空公司的 App、不是訂票平台,是機場本身——這個每年處理數百萬人流動的龐大水泥玻璃生態系統)是什麼時候?他指出,如果你跟大部分旅客一樣,答案大概是「從來沒有」——但 2026 年全球各地的機場,卻正在 AI 聊天機器人、擴增實境導航、和個人化旅客旅程上砸下數百萬經費做數位轉型。他花了好幾週糾結這個矛盾:機場投資了這麼多,使用者卻幾乎不下載。實際的啟發是:設計師該去正視「投資做了什麼」和「使用者真正需要什麼」之間的這個落差——機場的數位轉型如果沒有先弄清楚旅客真正的行為模式和動機,再多的 AI 功能和精美的介面,可能都只是自說自話的投資。"
-        },
-        {
-          "title": "What nobody tells you about AI ethics",
-          "url": "https://uxdesign.cc/ai-ethics-ux-accountability-gradient-56094d538453",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Slava Polonski 透過視覺化的方式,探討 AI 倫理背後那種奇特的心理機制,核心概念是「當責梯度」(accountability gradient)。他的關鍵洞察是:我們怎麼框架 AI 做的決定,會直接影響大家的道德反應——比方說,「AI 判定你的理賠申請不符合資格」和「我們把系統設計成會拒絕像你這樣的理賠申請」這兩句話,即使決定和結果完全一樣,受影響的人、法律、和一般大眾產生的道德反應卻天差地遠。根據 Polonski 的說法,AI 倫理某種程度上是一個 UX 問題——更廣泛地說,我們對 AI 決定的道德判斷,很大程度上取決於提供的敘事和說明方式,取決於人類責任在決策過程裡有多明顯、多清楚地被呈現出來。這篇文章示範了「當責」這件事,可以透過我們談論 AI 系統的方式,被講得更明顯或更模糊——而這會直接影響大眾對這些系統的觀感和道德判斷。"
-        },
-        {
-          "title": "Sightlines issue no.2: What leaders need to know about building agents",
-          "url": "https://www.figma.com/blog/sightlines-issue-no2/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 的 Sightlines 第二期,整理出領導者在打造代理式產品時該注意的三個關鍵支柱。信任是第一優先——當使用者能看到推理過程和來源引用時,他們才會願意接受代理人,組織必須從一開始就把透明度嵌進產品開發流程裡,讓當責機制在代理人的決策過程中全程可見。先上線、再追求完美——真實世界的使用方式,能教會你理論測試教不了的東西,一旦產品達到信任門檻,領導者該放手讓團隊根據真實的使用者行為去發布和迭代,而不是等到完美無瑕的第一天上線。及早建立治理檢查點——團隊需要清楚對齊「代理人能自主處理什麼」和「什麼需要人類監督」,特別是碰到健康資訊這類敏感資料的時候。Accor 的 Thomas Vidal 說:「我們的目標不是確保我們設計出 AI 能做的事,而是創造出讓系統行為保持一致的條件和規則」;Expedia 的 Rachel Been 強調嚴謹的測試和謹慎的上線很重要;Atlassian 的 Charlie Sutton 則強調,隨著自主代理人的能力擴展,維持人類的當責機制很重要。"
-        },
-        {
-          "title": "Is the future of software certain once AI is everywhere?",
-          "url": "https://uxdesign.cc/is-the-future-of-software-certain-once-ai-is-everywhere-f93e1bc5697f",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "SAP 首席設計長 Arin Bhowmick 主張「AI 不會殺死軟體,它正在重新定義軟體」——他認為驅動企業軟體、設計師角色、和工作未來改變的核心是「自主性」,而不是「取代」。他的框架是:「滅絕是錯的鏡頭,演化才是對的」——他說「我們正處在軟體朝向自主性演化的過程中間」。企業軟體正變得越來越有能力、越來越能自己完成更多事情,直到使用它的感覺,變得像是把工作交給一個真正懂你公司怎麼運作的人。談到設計師角色的改變,Bhowmick 指出設計師現在設計的,是「跟能自主行動的軟體一起工作是什麼感覺」,他強調:「我們不是把人從工作裡拿掉,只是在決定他們的判斷力該用在哪裡才最重要」。身為 SAP 超過 1000 人設計團隊的領導者,同時坐鎮 SAP 的 AI 倫理指導委員會和創新指導委員會,Bhowmick 的觀點來自第一線企業軟體規模化部署 AI 代理人的實務經驗。"
-        }
-      ],
-      "buzz": "今天的文章圍繞著「AI 的自信 vs 真正的可信度」這個主題:Dan Maccarone 提醒我們,AI 永遠有答案,但有答案不等於答案是對的,58% 的員工不加查核就採信 AI 輸出的數據很扎心;Zeeshan Khalid 則從機場 App 這個意外的案例切入,點出「砸錢做數位轉型」和「使用者真正需要什麼」之間常常對不上;Slava Polonski 的「當責梯度」概念很有意思——同一個 AI 決定,用不同的敘事方式講出來,會得到完全不同的道德評價;Figma 自己的 Sightlines 則提供了具體的領導框架:信任優先、先上線後完美、及早設治理檢查點;Arin Bhowmick 則從 SAP 的第一線經驗收尾,主張 AI 不是取代軟體,是讓軟體演化出自主性,設計師的工作也跟著變成「決定人類判斷力該用在哪裡」。今天的主軸:AI 越來越普及,但「值得信任」這件事,從來不是自動發生的,需要被刻意設計出來。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "D&AD has a stark message for creatives: the industry is eating itself from within",
-          "url": "https://www.creativeboom.com/news/dad-has-a-stark-message-for-creatives-the-industry-is-eating-itself-from-within/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "D&AD 的《2026 AI 與創意報告》警告,生成式 AI 正在傷害整個創意產業,因為它正在消滅入門階層的工作機會。這份報告訪談了 197 位全球創意領袖,分析了超過一萬件得獎作品,揭露了一個關鍵問題:那些原本能訓練資淺創意人技能的重複性任務,正在被自動化取代。核心發現是:「AI 生成的作品打磨得很漂亮、也堪用,但少了人的觸感,就會讓人記不住」,缺乏把優秀作品和平庸產出區分開來的品味和判斷力。但問題在於,把版面設計、草稿、模型這些基礎任務自動化,等於是在摧毀資淺人員養成資深直覺的那套「課程」。數據非常驚人:英國——25 歲以下員工年減 19.2%,現在只佔代理商人力的 11.8%(三年前是 17.4%);美國——廣告業 20 到 24 歲的員工比例,從 2019 年的 10.5% 掉到 2024 年的 6.5%;超過一半的代理商已經放緩或暫停入門職缺的招募。這形成一個惡性循環:2025 年沒被雇用的資淺人員,到 2031 年也不會變成資深人員——D&AD 說這個斷層已經鎖定了。除非整個產業優先投資在人身上、重視判斷力勝過抄捷徑,否則會陷入一個自我延續的死亡迴圈。"
-        },
-        {
-          "title": "When bike brand Brompton needed a refresh, Studio Blackburn didn't mess around—they headed straight to the factory floor",
-          "url": "https://www.creativeboom.com/inspiration/when-bike-brand-brompton-needed-a-refresh-studio-blackburn-didnt-mess-aroundthey-headed-straight-to-the-factory-floor-/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Studio Blackburn 替 Brompton 折疊車做品牌更新的策略,核心是真實感和克制。他們沒有選擇重新發明這個早已深受喜愛的經典品牌,而是保留了經典的 logo 和三聯式符號,認清「這個識別本來就已經存在了」。真正的創新是開發了 Brompton Slab 這款客製字體,跟設計師 Sam White 合作完成——這解決了一個真實存在的問題:內部團隊過去一直在沒有完整字符集的情況下自行拼湊,導致全球各市場的呈現不一致。真正讓他們的做法與眾不同的,是那場工廠攝影 campaign:團隊做了巨大的金屬字母,拿到 Brompton 位於 Greenford 的手工製造工廠去拍攝。文章形容:「這些字母放在那裡一點都不突兀,看起來就像本來就屬於那裡」。這個做法把字體紮根在品牌的製造傳承裡——因為這些字母造型本來就源自工廠誕生的 logo,把它們拿回那個環境裡拍攝,做出設計師所謂的「循環邏輯」——把排印直接跟生產連結在一起。搭配的品牌標語「Life Unfolded」在多個層次上運作:既呼應了這台單車的折疊機制,也喚起了 Brompton 怎麼改變城市通勤這件事。"
-        },
-        {
-          "title": "Charlotte Rohde's new typeface has heart-dotted i's and a plan to overwrite problematic men",
-          "url": "https://www.itsnicethat.com/articles/charlotte-rohde-oficia-mono-typography-graphic-design-project-190826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師 Charlotte Rohde 打造了 Oficía Mono,一款帶著獨特心形「i」點的等寬字體。這款字體源自 2022 年一個賓士 campaign,後來被發展成一個有個性的完整角色。Rohde 刻意把這款字體設計成對 Gill Sans Ultra Black 的一種回應——那款字體是 Eric Gill 設計的,而 Gill 在歷史上是一位頗有爭議的人物。她解釋:「我想做一款能填補 Gill Sans 那個位置需求的字體——用我這雙女性的手,去覆寫掉那個問題重重的男人」。這款字體代表的不只是排印本身,它變成了 Rohde 新寫的科幻金融科技女性主義小說裡,一個虛構角色 Oficía Greif 的主角。在這個敘事世界裡,語言本身就是一種可交易的金融資產,文字「被註冊商標、在基金裡被交易,價值隨著文化需求波動」。這個計畫透過視覺設計和文學敘事,同時探討女性特質、專業身份、和女性在企業空間裡的存在感這幾個主題。"
-        },
-        {
-          "title": "Six pieces of advice for juniors in their first month (which the rest of us might need to hear too)",
-          "url": "https://www.creativeboom.com/tips/six-pieces-of-advice-for-juniors-in-their-first-month-which-the-rest-of-us-might-need-to-hear-too/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章整理了六位創意人給資淺同仁的建議。第一,先當一雙讓人放心的手——創意總監 Asa Rodger 建議「量兩次、剪一次」,在追求驚艷之前,先建立起準時交件、錯誤最少的可靠形象。第二,大方發問——設計師 Matthew Gallagher 建議「把所有『笨問題』都問出來」,優先選擇面對面的對話,培養真正的師徒關係。第三,真正地跟人聊天——插畫家 Nosheen Ahmed 呼籲:「放下手機!願意跟人說話」,直接的人際互動,往往比數位溝通更能建立起有意義的專業連結。第四,替自己的設計決定辯護——設計師 Kultar Ruprai 強調解釋自己選擇的重要性,每個決定都要有理由撐著——「因為感覺是對的」不夠,要展現出創作背後的邏輯。第五,主動經營人脈——品牌設計師 Matthew McGuigan 強調要真誠地跟人連結,意外的職涯機會,常常來自不經意場合裡的閒聊。第六,放下完美主義——3D 藝術家 Andre Schneider 給出這句安慰:「放輕鬆。其實沒有人真的知道自己在幹嘛」,冒牌者症候群在各個職涯階段的創作者身上都會發生,進步比完美更重要。"
-        },
-        {
-          "title": "Mattia Balsamini subverts sci-fi cliches of robotics with striking portraits of mechas and mechanical dogs",
-          "url": "https://www.itsnicethat.com/articles/mattia-balsamini-robotics-photography-project-190826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Mattia Balsamini 拒絕把機器人拍成傳統印象裡「有威脅感」或「討喜可愛」這兩種刻板形象,而是把人類的創新放在攝影的核心。他沒有選擇預先設定好的訊息,而是擁抱模糊性,去捕捉現代科技本身的複雜度。他的做法優先考慮:模糊感勝過確定感——他刻意不去決定「一項科技該看起來讓人安心還是讓人害怕」,讓畫面不會顯得有定論;人的脈絡——他的作品凸顯發明背後的人——他們的姿態、空間、和勞動,而不是把機器本身戀物化;細膩的觀察——他認知到「機器人佔據著一個不穩定的類別」,那種帶著行為維度的特質,讓簡單直接的詮釋變得複雜;誠實地呈現複雜度——他說:「科技很少是道德上單純的」,反映出那些同時被開發來做災難救援、也被用在軍事用途上的裝置。在一個充滿功能性機械裝置的環境裡成長,Balsamini 一邊拍攝、一邊持續學習,做出了那些令人驚艷又帶點不安的肖像,揭露的其實更多是關於人類的創造力,而不是機器人的能力。"
-        }
-      ],
-      "buzz": "今天的案例剛好互相呼應同一個議題:D&AD 的報告直接點出創意產業正在自我摧毀入門人才的養成管道,而「Six pieces of advice for juniors」則從實務面回應了同一個現實——資淺人員該怎麼在越來越難進來的產業裡站穩腳步。Studio Blackburn 替 Brompton 做的重塑,示範了怎麼在不打掉重練的前提下,把品牌識別紮根在真實的製造傳承裡;Charlotte Rohde 的 Oficía Mono 字體,把排印設計和女性主義敘事編織在一起,做出一款帶著政治立場的字體;Mattia Balsamini 的機器人攝影,則提醒我們科技從來不是道德上單純的東西,真正值得凝視的,是科技背後那些人的勞動和創造力。"
     }
   }
 ]
