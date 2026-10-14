@@ -1,5 +1,127 @@
 [
   {
+    "date": "2026-10-14",
+    "daily_summary": "今天兩邊不約而同在講「判斷力」：Product 圈開始反駁「品味就是護城河」，主張好設計要能拿出研究和證據來說服人，也提醒設計師先確認問題是不是真的出在畫面上。Brand 圈則從 AI 吉祥物、日本雙人工作室 Kanaisasaki 到 Publicis 的在地洞察，都在說人的觀察和溫度做不出來。對工作室最實用的一句話是：提案時別只說「這樣比較好看」，要說得出為什麼。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Taste is not a design methodology",
+          "url": "https://uxdesign.cc/taste-is-not-a-design-methodology-e02b37aea148",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Patrick Neeman 反駁 2026 年最流行的一句話「Taste is the new moat」：他認為品味只是偏好，兩個人意見不同時沒辦法分對錯；判斷力則是可以被檢驗的主張，背後有研究和使用者證據。他舉了幾個例子：把白酒染紅，54 位品酒師就用紅酒的詞來形容；日立 1995 年的 ATM 研究發現，人覺得「好不好用」其實跟「好不好看」高度相關；NN/g 的研究也顯示不同年齡層對同一畫面的美感評價不一樣。他建議用 Fitts's Law、Nielsen 十大原則、Dieter Rams 原則這類可以被討論的標準來做判斷，再用持續的使用者研究補足。對工作室來說，這是一套跟客戶溝通的說法：「如果你說不出背後的事實或研究，那就只是意見。」"
+        },
+        {
+          "title": "The design of recipes on the internet",
+          "url": "https://medium.com/design-bootcamp/the-design-of-recipes-on-the-internet-0bd8a11700cf",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "前 Wikipedia 桌機版改版設計師 Alex Hollender 分享他自己做食譜 CMS「Recipe.Site」三年的過程，沒有募資、100% 自己持有。他先拆解知名料理創作者的網站：有些找代理商花了 10–20 萬美元，品牌很美，但食譜頁連份量換算、防止螢幕休眠、跨裝置收藏都沒有。他的原型從真實下廚的痛點出發：把食材名稱放在數量前面方便掃讀、步驟大綱、內嵌計時器、可收合的步驟讓你不會找不到做到哪。最後他的心得是：做產品幾乎都是在經營關係，計畫沒有關係重要。對工作室來說，這篇是很好的提醒：客戶花大錢做的網站，如果只顧品牌好看、沒顧到核心使用情境，價值就會打折。"
+        },
+        {
+          "title": "The Interface Is Where Problems Become Visible. It's Not Always Where They Begin.",
+          "url": "https://medium.com/design-bootcamp/the-interface-is-where-problems-become-visible-its-not-always-where-they-begin-aca5644249ba",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Mounika Konidala 描述一個很常見的流程：會議上冒出問題、有人提出解法、轉頭問設計師能做什麼，幾天內就有 wireframe 可以看。她說這種「要趕快交出看得到的東西」的壓力，正是讓設計師「把錯的東西設計得很漂亮」的原因。她用自己面試候選人的白板題舉例：題目是主管填不完績效流程，候選人馬上開始改欄位和排版，卻沒先問問題是不是出在流程、跨部門交接或更早的產品決策。她主張 UX 真正的價值在於選擇要解哪個問題、挑戰哪些假設。對接案團隊來說，這是在 brief 階段就該多問一句：「客戶要我們改的，真的是壞掉的那個地方嗎？」"
+        },
+        {
+          "title": "How to tell if a startup has a moat",
+          "url": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+          "source": "Lenny's Newsletter",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Lenny 和 Dan Hockenmaier 提出一個一小時就能用的框架，判斷一家新創有沒有護城河：找出複利優勢、評估它能多強、檢查它有沒有在發揮作用。他們認為真正的複利優勢只有 4 種：轉換成本、網路效應、規模經濟、資料效應。速度、通路、品牌、團隊和資金都只是「燃料」，能讓車開起來，但不會讓車自己往下坡滾。特別值得設計顧問注意的是，他們直說品牌對新創來說比較像買廣告：投錢換成長，要像 Coke、Nike、Apple 那樣變成護城河需要很長時間。對工作室來說，這是了解新創客戶怎麼看品牌投資的好角度，提案時可以把品牌和產品的複利優勢連在一起講。"
+        },
+        {
+          "title": "AI just cloned Adobe's apps for free. Is this design software's Napster moment?",
+          "url": "https://www.creativeboom.com/news/ai-just-cloned-adobes-apps-for-free-is-this-design-softwares-napster-moment/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "開發者 Brandon Thomas 想取消 Adobe 訂閱時被收了提前解約費，一氣之下用 Claude 做出 ArtCraft：7 個免費開源 app，分別模仿 Photoshop、Illustrator、Premiere、Lightroom、After Effects、InDesign 和 Acrobat Pro。作者 Tom May 把這件事比作 1999 年的 Napster：專業創意軟體過去靠龐大工程團隊和多年累積築起門檻，AI 可能讓個人也能做出替代品。Design Week 上週也討論過同一件事，可見業界很有感。不過作者也承認，這些工具的穩定度和長期維護都還沒被驗證。對工作室來說，短期可以重新檢視軟體訂閱成本，長期要思考：當工具變便宜，客戶付錢買的就更是判斷和想法，而不是軟體操作能力。"
+        }
+      ],
+      "buzz": "Product 圈今天在反思「品味」這個詞：大家開始說好設計靠的是可以被檢驗的判斷力，不是說不清楚的品味，而且設計師要先確認問題真的出在畫面上，才動手畫。另一條線是 AI 讓工具和產品都變便宜，從 Adobe 被免費複製到新創的護城河，大家都在問什麼才是真正難以取代的東西。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "POV: AI needs mascots and only humans can make them",
+          "url": "https://www.itsnicethat.com/articles/pov-ai-needs-mascots-and-only-humans-can-make-them-animation-121026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "BUCK 創意長 Kevin Walker 觀察到 Meta 的 Muse、OpenAI 的 Dots、Anthropic 的 Claw'd、Notion 都在幫 AI 加上臉和個性。他用心理學的 SEEK 框架解釋原因：人需要連結、需要預測和理解世界、也習慣用自己當模型去理解別的東西，所以擬人化能讓陌生的技術變得親近。BUCK 幫 Notion 做的 AI 角色，就是從插畫家 Roman Muradov 畫的臉出發，再為「思考、搜尋、寫作、打招呼、出錯」等狀態設計動態行為。他提醒吉祥物是用來解釋互動，不是誇大能力，否則會傷害信任。對品牌設計師來說，重點是把吉祥物當成一套說故事的系統，設計的不只是外型，還有時間感、停頓和反應。"
+        },
+        {
+          "title": "Kanaisasaki is formed from in-house designers who have made a career out of staying curious",
+          "url": "https://www.creativeboom.com/work/kanaisasaki-is-formed-from-in-house-designers-who-have-made-a-career-out-of-staying-curious/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Kanaisasaki 是金井亜希和佐々木拓組成的雙人設計組合，兩人在日本文具家具品牌 KOKUYO 內部工作了 17 年，同時接外部的識別、產品、展覽案。他們操刀的 KOKUYO 新識別以粗黑字標搭配多色斜條紋，背後是一套有規則的彈性系統，可以一直長出不同變化，跟著公司一起演進。他們的合作方式是一人起稿、兩人一起看、另一人接手修，來回傳檔直到完成，用這種方式跳脫各自的盲點。他們也堅持客戶案和個人實驗並行，因為兩者會互相餵養。對兩人共同經營的工作室來說，這篇幾乎是可以直接參考的協作模式。"
+        },
+        {
+          "title": "Publicis Groupe's Jason Williams on the importance of listening",
+          "url": "https://www.creativereview.co.uk/publicis-groupes-jason-williams-on-the-importance-of-listening/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Publicis Groupe 亞太與中東非創意總監 Jason Williams 管 15 個市場，他說最重要的能力是傾聽，因為每個在地文化都很複雜。他舉的案例裡有台灣李奧貝納幫麥當勞做的「Kung Fries」、香港 Publicis 幫國泰做的「Back to Kai Tak」，以及拿下坎城獅子獎的菲律賓麥當勞「Unbranded Menu」，示範全球品牌怎麼在保持一致的同時貼近在地。他也提到很多亞洲客戶缺乏創意自信，代理商要幫他們敢冒險；創作者應該被當成創意夥伴，而不只是買流量的管道。AI 是用來解決語言和製作問題的工具，不是取代創意。對工作室來說，「教練客戶、幫他們建立對大膽想法的信心」是很值得放進服務裡的一環。"
+        },
+        {
+          "title": "\"I'm merely cosplaying as a type designer\": Raoul Gottschling on chasing ridiculous 'what if' questions",
+          "url": "https://www.itsnicethat.com/articles/raoul-gottschling-graphic-design-project-121026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Raoul Gottschling 是自學出身、住在柏林的設計師，待過紐約的 Pentagram 和 2X4，現在獨立接案，跟 Collins（Nike 案）、Something Special Studio 合作，也在德國設計學校教 workshop。他的字體常從荒謬的「如果……會怎樣」出發：Ciron 想做一款能在內文和標題之間調整風味的字，Quasar 則限制自己只用單一大小寫、沒有上下伸部。靈感也來自生活：Kleber 來自 1960 年代的工業膠水廣告，Plätze 延伸自柏林地鐵站牌。他坦承常覺得自己只是在「cosplay 字體設計師」，但仍然珍惜這種玩心。對獨立接案者來說，這篇證明了個人實驗可以變成接大品牌案的名片。"
+        },
+        {
+          "title": "Source material: Creative director Manon Macasaet's spirituality shapes her process",
+          "url": "https://www.figma.com/blog/source-material-manon-macasaet/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 這期專訪服裝品牌 Poison Candy Apple 的創辦人兼創意總監 Manon Macasaet。她的視覺語言是從 2020 年的網路影集《STORY OF MY FUCKING LIFE》練出來的，參考來源很雜：原宿時尚、早期 Tumblr、老派 rave 圖像、kidrobot，「風格聖經」是蜷川實花的《Helter Skelter》。她開工前會先設定意圖，有時甚至祈禱，然後放 library jazz 進入狀態；她也說自己已經看膩極簡主義了。對做 art direction 的人來說，重點是：建立一個比本業更廣的參考庫，並刻意跟流行美學保持距離，才會有自己的觀點。"
+        }
+      ],
+      "buzz": "Brand 圈今天的關鍵字是「人」：從 AI 公司搶著做吉祥物、到 Publicis 強調先聽懂在地文化，都在說讓人有感的東西還是得靠人的觀察。另一條線是小團隊的工作方式，Kanaisasaki 和 Raoul Gottschling 都示範了個人實驗和客戶案互相餵養，是小工作室累積辨識度的方法。"
+    },
+    "highlights": {
+      "summary": [
+        "好設計要能拿出研究和證據來說服人",
+        "人的觀察和溫度做不出來",
+        "要說得出為什麼"
+      ],
+      "product": [
+        "可以被檢驗的判斷力",
+        "先確認問題真的出在畫面上",
+        "什麼才是真正難以取代的東西"
+      ],
+      "brand": [
+        "還是得靠人的觀察",
+        "個人實驗和客戶案互相餵養"
+      ]
+    }
+  },
+  {
     "date": "2026-10-13",
     "daily_summary": "今天 Product 圈有個很清楚的共識：AI 讓「還不錯」變成人人都有的預設值，真正拉開差距的是看得見的設計決策；另一條線是網站的讀者已經不只是人，AI agent 也在讀你的頁面。Brand 圈則很「手工」，從 Barkas 幫 Kuda 做的拉哥斯節奏識別、Rudnick 花 4 年手繪的 Arsenal 字體，到品牌重新愛上印刷報紙，都在講同一件事：有在地脈絡、有人味的東西才不會被平均化。對工作室來說，這是跟客戶解釋「為什麼要找人做、不直接用 AI」的好素材。",
     "jenny_wen": {
@@ -966,112 +1088,6 @@
         }
       ],
       "buzz": "今天最有意思的討論是創意圈對 Instagram 新 logo 的分歧看法——這場爭論本身,反而證明了大家都在認真思考設計原則這件事。其餘幾篇則從不同角度示範了創作實踐裡的細膩之處:Natalie Liu 替 Björk 做的音樂錄影帶,示範了手繪和數位 CGI 怎麼在張力中共存;Simji Park 把日常片刻轉化成療癒性的插畫;Gaia Alari 刻意保留手繪的不完美痕跡,對抗數位平滑處理;Minyoung Kim 則用「幾乎看不見貓」的方式畫貓,示範了克制和暗示,反而比直白的呈現更有懸念。"
-    }
-  },
-  {
-    "date": "2026-08-23",
-    "daily_summary": "今天 Product 圈圍繞著「AI 的接管方式跟想像的不一樣」——不是戲劇性的機器起義,而是安靜地、一步步地重新分配判斷力的價值;Brand 圈則從週末創作生活、肢體語言表達、創意速度哲學,到誠實的職涯轉換故事,示範了創意實踐裡值得被認真對待的,往往是那些不追求效率、願意慢下來或誠實面對現實的時刻。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "What The Matrix got wrong about AI (so far)",
-          "url": "https://uxdesign.cc/what-the-matrix-got-wrong-about-ai-so-far-c35f8e7f091c",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 指出,《駭客任務》擔心的是機器覺醒、奪取控制權,但生成式 AI 走的路完全相反。他點出這部電影對生成式 AI「猜反的五件事」,每一件都把電影的一個前提整個顛倒過來,合起來指向這場「起義」故事真正掩蓋掉的東西——這是一場靠「交接」完成的接管,不是靠武力。與其是一場戲劇性的戰爭,AI 是透過摘要工具和副駕駛式助理,禮貌地一次要求一項任務,讓使用者一項一項接受——接管是「被邀請」來的,不是一台機器強行奪取控制權,而是我們自己把控制權交出去的。生成式 AI 進入日常工作的方式,就像電力進入工廠一樣:安靜地、一項任務接著一項任務,因為有人發現這樣做比其他選擇更便宜。這篇文章探討的是 AI 採用的現實,跟《駭客任務》那種機器起義的反烏托邦預言,差距有多大。"
-        },
-        {
-          "title": "It really wasn't your fault, Coyote (part 2)",
-          "url": "https://uxdesign.cc/it-really-wasnt-your-fault-coyote-e82dbecc43bd",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Perre DiCarlo 繼續他用樂一通卡通角色 Wile E. Coyote 當隱喻的系列文章(這是第二篇),探討 77 年來 Coyote 一直抓不到跑得快的 Road Runner,不是因為他不夠努力,而常常是因為他手上的工具根本不可靠。這篇文章聚焦在 ACME——這家在卡通裡不斷供應產品給 Coyote 的公司——DiCarlo 主張,Coyote 每次失敗,ACME 其實也該分攤一部分責任。這系列文章用諷刺的手法,透過 ACME 產品線的視角,檢視設計失敗和產品問題——本質上是在說:當工具本身就有缺陷,使用者「用不好」不完全是使用者的錯,設計者和工具供應商也該被檢視。這篇文章延續了他先前那篇「Design @ ACME」的主題,用同一套幽默的框架繼續探討設計責任歸屬的問題。"
-        },
-        {
-          "title": "Artificial Intelligence: Glossary",
-          "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "NNGroup 整理了一份用白話文解釋 AI 術語的資源,涵蓋「產品和設計工作裡會遇到的 AI 詞彙,從 token、情境窗口,到代理人、評估、和 prompt injection」。這份詞彙表包含超過 80 個依字母排序的條目,每個都連結到 NNGroup 更深入的相關文章。涵蓋的重點領域包括:基礎概念(模型、神經網路、transformer)、實作層面(prompting、RAG、工具使用)、訓練方法(監督式/非監督式學習、RLHF)、以及關鍵的設計考量(幻覺、偏見、自動化偏誤、對齊)。對設計師的實際啟發是:這份詞彙表強調「模型通常只是一個 LLM 產品裡的其中一部分」——設計師必須理解的不只是 AI 的運作機制,還有它對人的意涵——擬人化怎麼影響信任感、為什麼「有根據」(grounding)對對抗幻覺很重要、以及該怎麼替高風險決策架構人類監督的迴圈。這份資源把 AI 術語定位成一種必要的翻譯工具,幫助在技術能力和使用者體驗現實之間搭橋。"
-        },
-        {
-          "title": "AI-Generated Images Can Perform as Well as Stock Photography",
-          "url": "https://www.nngroup.com/articles/ai-generated-images/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "當使用者不知道圖片來源時,AI 生成的圖像表現得跟一般圖庫照片差不多好。這項研究發現「沒有證據顯示我們測試的 AI 生成圖像會降低使用者對網站的信任感」,在可信度、專業感、真實感這幾個指標上,評分甚至略微偏向 AI 圖像。具體數據:77 位美國受訪者評估了六個版本的網頁,分別用 AI 或真實圖像;AI 圖像在信任感/專業感上高了 0.2 分、在真實感上高了 0.4 分(7 分量表);只有真實感這項差異達到統計顯著,但差距依然很小;多元代表性對觀感的影響,比圖片來源本身更大。實際的啟發是:組織不該預設 AI 圖像天生就比較差,而該用一般的設計標準去評估每一張圖:它有沒有支撐訊息?有沒有包容地呈現多元性?細節看起來可信嗎?但如果使用者「發現」一張圖是 AI 生成的,觀感可能會轉為負面——這一點在歐盟 AI 法案這類要求揭露合成內容的透明度法規下,特別值得注意。"
-        },
-        {
-          "title": "Lindsay Adler on why a photographer's perspective will matter more in the future, not less",
-          "url": "https://www.creativeboom.com/tips/adobe-creative-collective-member-lindsay-adler-on-why-photographic-skills-will-matter-more-in-future-not-less/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Lindsay Adler 主張,隨著 AI 讓技術執行變得越來越容易取得,攝影師獨特的觀點反而會變得越來越有價值。她解釋:「當科技變得越來越容易取得、AI 讓技術執行變簡單,你的觀點就變成你最大的資產」。她的核心論點是:當影像製作的機械層面被商品化之後,真正能區分創作者高下的,是他們獨特的視野、品味、和觀點。她沒有害怕自動化,反而把這個轉變看成一個機會——越多例行性的技術任務被科技接手,客戶就會越重視真實的創意觀點和個人化的藝術指導。Adler 強調,培養這種獨特的聲音,需要透過刻意的練習、多元的靈感來源、以及誠實地反思自己天生擅長什麼、真正在乎什麼。"
-        }
-      ],
-      "buzz": "今天的文章圍繞著「AI 的接管方式,跟我們想像的不一樣」這個主題:Patrick Neeman 指出,《駭客任務》預言的是機器起義,現實卻是我們一項任務一項任務地把控制權「交」出去;Perre DiCarlo 則用 Coyote 的隱喻繼續探討設計責任——工具不可靠時,不能全怪使用者不會用;NNGroup 的兩篇則提供了扎實的參考資料——一份 AI 術語詞彙表,和一份數據顯示 AI 生成圖像其實不輸圖庫照片,除非被使用者發現來源。Lindsay Adler 的攝影觀點文章則呼應了這陣子一直在談的主題:當技術執行被商品化,真正的觀點和品味,反而變得更值錢。今天的主軸:AI 不是靠戲劇性的接管改變一切,而是安靜地、一步一步地重新分配「誰的判斷力值錢」這件事。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "The Weekend With James Junk",
-          "url": "https://www.itsnicethat.com/features/the-weekend-with-james-junk-210826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "洛杉磯設計師 James Junk,週末的優先順位是遠離螢幕。他重視動手創作、消費非數位內容,這些主題也貫穿在他的 Substack 專欄《Paperless Publishing》裡。他的週末推薦包括:在 Silver Lake 的 Rockii Studios 上串珠工作坊、逛 Gustaf Westman 在日落大道的快閃店;吃的部分推薦 Echo Park 的 Donna's(要透過候補名單、坐在吧台、先點大蒜麵包);閱讀推薦 Carl Lorenz Cervantes 探討菲律賓傳承的《Sikodiwa》,和從倫敦一間書店買到的 Ben Lerner《Transcription》;娛樂方面推薦 HBO 的《The Chair Company》搭配《亞特蘭大嬌妻》;音樂推薦 Sports 的同名專輯,和 Sean Schumacher 的設計 podcast《Did I Do That?》。在創作實踐上,Junk 刻意做一些「永遠不需要變成內容」的東西,優先重視沒被記錄下來的體驗和手作,而不是數位存檔——他正在考慮買一張圓形、色彩繽紛的咖啡桌,替他身兼工作室的公寓注入創意氛圍。"
-        },
-        {
-          "title": "'Hands are the protagonist': Stefhany Y Lozano on communicating with fingers and gestures in her paintings",
-          "url": "https://www.creativeboom.com/inspiration/hands-are-the-protagonist-stefhany-y-lozano-on-communicating-with-fingers-and-gestures-in-her-paintings/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Lozano 把手當成自己創作裡主要的表達媒介,用手來傳達情感和敘事,而不是依賴臉部表情。她說:「一個細微的動作、一根手指的緊繃感、或是一隻手的姿勢,能完全改變一幅畫的情感解讀」。她的創作策略優先考慮把肢體語言當成一種無聲的溝通——與其描繪臉孔,她靠手的姿勢和手指的緊繃感,獨力完成畫面裡的情感敘事。這個做法讓她能單靠肢體姿態,去探索親密的片刻和心理狀態。她的代表系列作品《剪刀石頭布》,由 26 幅手部畫作組成,展現了她對這個主題的長期投入——透過在整張畫布上聚焦手部,Lozano 把手提升成獨立的藝術主體,而不只是輔助性的解剖元素。"
-        },
-        {
-          "title": "4Creative's Miketta Lane and David Wigglesworth on why the best creative work happens quickly",
-          "url": "https://www.itsnicethat.com/features/in-house-4creative-miketta-lane-david-wigglesworth-creative-industry-190826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Miketta Lane 和 David Wigglesworth 相信,速度是 4Creative 創意品質的驅動力。他們的做法核心是:當一個點子在情感上引起共鳴時,果斷地行動。Wigglesworth 強調動能的重要性:「當你遇到一個讓你興奮、或讓你害怕的東西,你行動得越快——去搞清楚是什麼讓你害怕或興奮——那就是抵達好作品最快的路」。與其花很長時間反覆斟酌,他們主張用快速的實驗去搞懂一個點子到底哪裡吸引人。這種快速執行,讓團隊能透過行動、而不是無止盡的規劃去打磨概念。兩位主管都認為,快速行動展現的是創意上的自信,能防止過度思考稀釋掉原本的點子。他們也強調,維持一個讓大家都敢主動提出想法、沒有層級障礙的文化,自然會加速整個創意流程。透過用執行力保護點子、緊貼著作品本身,他們確保概念能在越來越擁擠的媒體環境裡,真實地、以最大的影響力觸及觀眾。"
-        },
-        {
-          "title": "\"I bumped into my ex (boss): Harriet Richardson on life after design\"",
-          "url": "https://www.itsnicethat.com/features/i-bumped-into-my-ex-boss-harriet-richardson-on-life-after-design-creative-industry-spotlight-190826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Harriet Richardson 描述了一次跟前老闆——她曾任職五年的知名設計工作室 Pentagram——的偶遇,這次相遇讓她開始反思自己離開平面設計、轉行成為行為藝術家的這段路。Richardson 解釋,設計工作一開始感覺像是成功的證明,但現實卻變得令人疲憊、缺乏成就感。她意識到自己不想要前老闆那種表面光鮮的生活,轉折點是她理解到「一條路不再適合你的時候,不需要假裝它一文不值」。她沒有全盤否定自己的設計背景,反而發現這門學科教會她珍貴的創意技能——策略性思考、無情地編輯、理解層級和克制——這些工具現在支撐著她的表演創作,從海報設計到搞笑段子的結構安排都用得上。透過訪談其他轉換職涯的創作者,Richardson 承認,重新開始需要的不只是勇氣,還需要實質的資源。她強調轉換方向不該被浪漫化成純粹關於勇敢——她也認知到經濟穩定和特權,對這類決定的影響有多大。最終,Richardson 把自己的設計職涯重新定義成「抵達那個地方之前的那個地方」——一段替她真正的志業做準備的養成訓練,而不是一個該被抹去的錯誤。"
-        },
-        {
-          "title": "How Daisy Chain made it's brilliantly icky animation for Crack Magazine about a smoker inhaling a fly",
-          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-july-daisy-chain-210826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "動態工作室 Daisy Chain,由 Harry Butt 和 Connor Campbell 共同執導,替 Crack Magazine 製作了一支描繪「癮君子吸進一隻蒼蠅」的動畫。在七月一場 Nicer Tuesdays 的活動上,兩位共同導演分享了他們鮮豔、如夢似幻的動畫作品集,並詳細介紹了這個特定的專案。這對搭檔把一隻平凡的昆蟲,轉化成整支作品的核心角色。他們用自己的創意願景,重新打造這本刊物的視覺識別,融入了受黏液質感啟發的 3D 圖像。這次合作展現了他們把充滿想像力的敘事和獨特視覺美學結合的能力,做出一支刻意挑釁、視覺上很有衝擊力的作品——正如標題所形容的「棒得噁心的動畫」。"
-        }
-      ],
-      "buzz": "今天的案例橫跨了創意實踐裡很不同的節奏和尺度:James Junk 的週末側寫,示範了刻意遠離螢幕、做一些「不需要變成內容」的事,怎麼滋養創作生活;Stefhany Y Lozano 則把手當成獨立的表達主體,示範了肢體語言怎麼取代臉部表情說故事;4Creative 的兩位創意總監主張速度和情感直覺,才是做出好作品最快的路;Harriet Richardson 從 Pentagram 轉行到行為藝術家的故事,誠實地談了轉換職涯需要的不只是勇氣,還有資源和特權;Daisy Chain 替 Crack Magazine 做的動畫,則示範了怎麼把一個噁心的意象,轉化成視覺上讓人難忘的作品。"
     }
   }
 ]
