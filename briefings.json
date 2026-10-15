@@ -1,5 +1,128 @@
 [
   {
+    "date": "2026-10-15",
+    "daily_summary": "今天兩邊都在講「把價值說清楚」：Product 圈有人教你用投資報酬率跟 CFO 談設計，也有人提醒官網改版前要先想清楚產品到底要解釋什麼；同時 AI 圈開始承認，沒人想再多打開一個 AI app。Brand 圈則從包裝撞款、Arsenal 的專屬字體到 Pohoda 音樂節 30 週年，都在說品牌要靠形體、動態和歷史累積出辨識度。對工作室最實用的是：跟客戶提案時，把設計翻譯成對方聽得懂的數字和任務。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "What I told the CFO when he asked why design matters",
+          "url": "https://uxdesign.cc/what-i-told-the-cfo-when-he-asked-why-design-matters-ceadb07c929e",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計領導者 Arin Bhowmick 分享被 CFO 當面問「多投一百萬在設計，會比投在工程或行銷划算嗎？」之後，他怎麼改變談設計的方式。他的第一個答案是：用財務看所有投資的兩個問題來看設計，也就是多久回本、報酬率多少；他引用 Forrester 2025 年替 UserTesting 做的研究，上線前先找使用者驗證設計，讓迭代週期縮短 25%、省下 250 萬美元的工程返工，三年 ROI 415%、不到半年回本。第二個答案是「轉換率是已經花錢買來的營收」：Baymard Institute 統計七成購物車死在結帳頁，修好已知的結帳設計問題，大型電商轉換率可提升 35%。對工作室來說，這篇幾乎是現成的提案話術：別只說設計很重要，要把成果換成客戶財務長看得懂的格式。"
+        },
+        {
+          "title": "Before You Redesign Your SaaS Website, Decide What Needs Explaining",
+          "url": "https://medium.com/design-bootcamp/before-you-redesign-your-saas-website-decide-what-needs-explaining-a6424f982c1b",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Merge Rocks 行銷主管 Ihor Ostin 用義大利 AI 行銷平台 Bytek 的官網改版前後對照，說明 SaaS 官網改版真正要處理的是「解釋」而不是「好不好看」。舊版其實已經有產品模組、客戶 logo 和服務內容，問題是承諾太廣；新版把產品產出的東西（預測）、對應的工作任務、以及專家負責設定哪些部分串在一起，買家才知道自己買到什麼。他提醒「讓它更產品導向」這種 brief 太模糊，設計師可以重組故事，但創辦人得先把產品講清楚；而舊站裡正確的資訊也不該因為是舊設計就丟掉。他給的檢驗標準很實用：創辦人在簡報時，能不能直接指著網頁講，還是得繞著網頁補充說明。"
+        },
+        {
+          "title": "Nobody wants your AI app",
+          "url": "https://uxdesign.cc/nobody-wants-your-ai-app-cff8629064a4",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Dan Maccarone 主張「獨立的 AI app」是個比大家願意承認的更糟的點子，未來的 AI 會消失在使用者已經在用的工具裡。他引用 RevenueCat 對 11.5 萬個 app 的分析：AI app 付費轉換比一般 app 快，但流失也快約三分之一，一年後只剩五分之一還在付錢；Bessemer 也警告企業 AI 工具會遇到同樣的懸崖，Snyk 調查 3,000 多個企業環境，發現公司都是把 AI 縫進既有系統，而不是另外買新工具。他用 Google+ 和 Nir Eyal 的 Hook Model 解釋：AI app 只給了一次驚豔，沒有讓人明天回來的理由。最有意思的矛盾是，企業要 AI 對使用者「隱形」，卻要對管理者「完全透明」，有稽核紀錄和儀表板，誰能同時滿足兩者誰就贏。對設計師來說，接 AI 案子時與其畫一個新入口，不如先問它該嵌進哪個既有流程。"
+        },
+        {
+          "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
+          "url": "https://www.lennysnewsletter.com/p/metas-new-muse-wonder-model-good",
+          "source": "Lenny's Newsletter（How I AI）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "How I AI 主持人 Claire Vo 把 Meta 新模型 Muse Wonder 接進 Claude Code，跑了將近 20 個任務實測，涵蓋原型、agent 工作流、寫程式、寫作和創意產出，再用 LLM 評審加上自己的語音筆記打分。結果很兩極：Muse 在三個 agent 任務拿第一，「個人與工作 agent」的定位大致站得住；但設計產出她直接說「不好」，SVG 和短影音也輸給 Opus 5.5 等模型，而且一次性任務很快、agent 任務反而慢。對設計師的啟發是：模型很會做事，不代表很會做設計，選工具時要拿自己的設計任務實測，別只看廠商宣傳。"
+        },
+        {
+          "title": "Looks done is not the same as ready",
+          "url": "https://medium.com/design-bootcamp/looks-done-is-not-the-same-as-ready-c699f50beef7",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Deep Adalja 指出元件「看起來做完了」只代表在你打的文字、你選的背景、你看的那個狀態下沒問題，交付後的 bug 大多藏在這個落差裡。他整理出交付前要問元件的 6 個問題：塞進真實內容撐不撐得住（長字、空值、全大寫、CJK、320px 寬等 42 種組合）、在實際疊加的背景上對比度夠不夠、token 寫成程式碼長什麼樣、是否準備好給 AI 生成程式、各狀態之間到底改了什麼等。他舉例一組自認完成的元件，55 個元素中只有 13 個通過對比檢查；一個輸入框有 85 個綁定 token、35 個寫死數值。他把這套檢查做成 Figma 外掛 CalibrateDS，但就算不用外掛，這 6 個問題本身就是很好的交付前檢查清單，特別適合要把設計交給客戶工程團隊的工作室。"
+        }
+      ],
+      "buzz": "Product 圈這兩天很務實：一邊在練習把設計價值翻譯成回本期和轉換率，一邊在檢討官網和元件「看起來完成」跟「真的可用」之間的落差。AI 話題也轉向冷靜，開始承認獨立 AI app 留不住人，AI 應該嵌進既有流程裡；新模型的實測也提醒大家，會做事不等於會做設計。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Why brands are rethinking packaging norms",
+          "url": "https://www.creativereview.co.uk/rethinking-packaging-norms-graphic-design-branding/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Rebecca Fulleylove 從一場美妝撞款事件切入：Fenty Beauty、Glow Recipe 和 Huda Beauty 九月幾乎同時推出長得一模一樣的旋轉式眼膜罐，韓國品牌 Wonder Bath 七月就用過類似形式，Huda Kattan 事後怪罪共用的包材供應商謊稱獨家。文章主張在擁擠市場裡，包裝不該只追求新奇吸睛，而是回頭重新思考實體物件本身怎麼用、摸起來的感覺、怎麼長期被認出來，並以 Polygraph Creative 的 One Tricky Pony、Two Times Elliott 的 AKT 體香膏為例。對工作室來說，有兩個很實際的提醒：做包裝提案時把觸感和使用方式納入設計範圍；如果用供應商的現成包材，記得白紙黑字確認獨家性。"
+        },
+        {
+          "title": "Arsenal unveils bespoke typeface inspired by a club legend",
+          "url": "https://www.creativereview.co.uk/arsenal-football-club-rocastle-typeface-david-rudnick/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Arsenal 推出以已故中場球星 David Rocastle 命名的專屬字體 Rocastle，由 David Rudnick 與 Léa Bruneau 花了好幾年開發，靈感來自球隊的哥德體字標和隊徽。主力字重在每個字母中間畫一條線，象徵倫敦在地與全球球迷之間的連結，也呼應球隊從 Woolwich 搬到北倫敦、以及 Rocastle 本人從南倫敦走到 Highbury 的路。這套字體跟既有的傳統標誌並存，讓球隊在時尚、音樂、藝術等跨界合作上有更大發揮空間，另外還推出一個獨立使用的大寫「A」。這件事這週同時被 It's Nice That、Brand New、Creative Review 報導，是很好的案例：把品牌故事直接寫進字體結構裡，比做一句 slogan 更耐久。"
+        },
+        {
+          "title": "Andrej & Andrej gives Pohoda Festival an identity refresh, complete with 3D babies and a futuristic typeface",
+          "url": "https://www.itsnicethat.com/articles/andrej-and-andrej-pohoda-festival-30th-anniversary-graphic-design-project-141026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "斯洛伐克最大的音樂藝術節 Pohoda 邁入第 30 年，找來布拉提斯拉瓦的雙人工作室 Andrej & Andrej 做第三代識別，包含新 logo、字體和配色。招牌的雙胞胎嬰兒從 1997 年的照片、2001 年的平面圖像，這次和 3D 藝術家合作重新變回立體，還延伸成充氣雕塑和透明鑰匙圈；新字體以 2010 年前的舊字形為基礎，小寫 a、e、s 跟大寫一樣高，讓每個藝人名字都像獨立的字標。糖果色呼應 90 年代舞曲 MV，也回收了過去的條紋圖案。這是很好的「老品牌翻新」示範：不推倒重來，而是從自己的歷史裡挖素材，讓老粉認得、新世代也覺得新鮮。"
+        },
+        {
+          "title": "Remote Introduces New Brand Identity for the Next Chapter of Global Workforce Finance",
+          "url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/pr-newswire/remote-introduces-new-brand-identity-for-the-next-chapter-of-global-workforce-finance/2444778",
+          "source": "PR Newswire（Manila Times）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "遠端聘僱平台 Remote 和 COLLINS 合作推出新品牌，定位從「發薪工具」升級成「全球勞動力的金融作業系統」，強調能在 150 多個國家一站搞定聘僱和付薪。視覺上，配色取材自各國貨幣，用紅、橘、綠、藍、紫的漸層；核心圖形是一個立方體，代表單一模組可以堆疊成更大的基礎設施。新品牌搭配公司史上最大的廣告活動「For a World That Works」，第四季在七個城市投放。這是新聞稿，細節不多，但可以看到 B2B 品牌重塑的典型做法：先改定位、再找一個能承載「規模化」意義的簡單圖形。"
+        },
+        {
+          "title": "Can motion design have a “body language”? Studio Kiln thinks so",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-september-studio-kiln-141026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "服務過 MTV、Vinted、Netflix 和 BAFTA 的動態設計工作室 Studio Kiln，在 It's Nice That 的 Nicer Tuesdays 講座上提出一個觀點：品牌可以有「肢體語言」。就像一個人的姿態和動作會透露情緒，品牌的精緻、優雅或驚奇感，也能透過動態表現出來，不只靠靜態視覺。文章本身比較短、沒有列出具體案例，但概念對品牌工作室很有用：做識別規範時，除了定義品牌長什麼樣子，也值得定義它「怎麼動」，包括節奏、緩動曲線和轉場，讓動態成為品牌一致性的一部分。"
+        }
+      ],
+      "buzz": "Brand 圈這兩天在談「辨識度從哪裡來」：包裝撞款事件讓大家重新思考，靠新奇造型撐不久，要回到形體和使用感受。Arsenal 和 Pohoda 都示範了從自身歷史挖素材做出新字體和新識別，Studio Kiln 則把品牌一致性延伸到動態，主張品牌也要有自己的肢體語言。"
+    },
+    "highlights": {
+      "summary": [
+        "把價值說清楚",
+        "沒人想再多打開一個 AI app",
+        "把設計翻譯成對方聽得懂的數字和任務"
+      ],
+      "product": [
+        "把設計價值翻譯成回本期和轉換率",
+        "獨立 AI app 留不住人",
+        "會做事不等於會做設計"
+      ],
+      "brand": [
+        "靠新奇造型撐不久",
+        "從自身歷史挖素材",
+        "品牌也要有自己的肢體語言"
+      ]
+    }
+  },
+  {
     "date": "2026-10-14",
     "daily_summary": "今天兩邊不約而同在講「判斷力」：Product 圈開始反駁「品味就是護城河」，主張好設計要能拿出研究和證據來說服人，也提醒設計師先確認問題是不是真的出在畫面上。Brand 圈則從 AI 吉祥物、日本雙人工作室 Kanaisasaki 到 Publicis 的在地洞察，都在說人的觀察和溫度做不出來。對工作室最實用的一句話是：提案時別只說「這樣比較好看」，要說得出為什麼。",
     "jenny_wen": {
@@ -982,112 +1105,6 @@
         }
       ],
       "buzz": "今天的案例橫跨了品牌操作裡各種不同的尺度和情感重量:Laura Clink 替 Phillips Print 做的識別,示範了小型家族企業怎麼用彈性的多款 logo 系統,把「個人化」這個核心價值具象化;Teddy Blanks 的電影片頭設計,則展現了字體考據能有多細緻——從 eBay 二手娃娃到中世紀手稿都能成為靈感來源;Myriam Wares 的超現實冬季系列,用視覺隱喻處理了跨國搬遷帶來的錯位感;Alfie Whiteman 替托特納姆熱刺做的社群 campaign,則提醒我們,真正打動人心的品牌故事,往往藏在球員之外的社群裡;最後的字體精選則從最基礎的排印素材出發,提醒我們每個月都有新的工具值得留意。"
-    }
-  },
-  {
-    "date": "2026-08-24",
-    "daily_summary": "今天 Product 圈從歷史脈絡(廣告業的舊儀式)談到具體數據(Figma Make 的生產力提升),核心都在說 AI 帶來的速度是真的,但判斷力有沒有被清楚編碼進流程裡,才是決定品質的關鍵;Brand 圈則被 Instagram 新 logo 的兩極討論定調,搭配幾位插畫家和藝術家的創作實踐,示範了刻意的不完美、克制、和留白,怎麼比追求平滑或直白更有力量。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
-          "url": "https://uxdesign.cc/sterling-cooper-built-your-ux-process-we-need-to-redefine-it-in-the-age-of-ai-and-systems-520a2d3b2a60",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 主張,現在 UX 團隊運作的方式,很多儀式感其實源自 1960 年代廣告公司的做法——威士忌、提案會議室、客戶經理、campaign——就像影集《廣告狂人》裡 Sterling Cooper 那間廣告公司一樣。他的核心論點不是要把 Sterling Cooper 的影響全部拆掉,而是要去注意「我們保留了哪些習慣,卻從來沒有真正決定過要不要保留它們」,並確認這些習慣現在是不是還說得通。他指出,現代創意工作的架構,本質上是在二十世紀中期的廣告公司裡被組裝起來的,而 UX 這個領域,幾乎是整套繼承了這個表演式的流程——現在正是在 AI 時代重新盤點這套流程的時候。實際的啟發是:別把現有的 UX 流程當成理所當然,該回頭檢視流程裡的每一步,問問看它是真的必要,還是只是從一個已經過時的產業慣例裡繼承下來的表演。"
-        },
-        {
-          "title": "Nobody wants a blank page. Nobody touches a perfect one.",
-          "url": "https://uxdesign.cc/nobody-wants-a-blank-page-nobody-touches-a-perfect-one-48d452a26dae",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Takuma Kakehi 探討一個創作心理上的弔詭:人沒辦法從一片空白開始,卻也不願意去碰一個已經完成得很完美的東西。他引用 Thomas Ward 在 1994 年《認知心理學》期刊上的研究,說明人的想像力其實被熟悉的模式限制住——這篇文章的核心主張是,真正能激發參與感的,是那種「還沒完成、但已經有點樣子」的中間狀態:一片空白會讓人不知道從哪裡下手,產生抗拒感;但一個已經打磨到完美的東西,則會讓人覺得不該去碰它、去改動它感覺像是在破壞什麼。實際的啟發是:設計師如果想邀請別人一起參與、一起貢獻想法,該刻意呈現出一種「未完成但有方向」的狀態,而不是一片空白畫布、也不是一個打磨到無懈可擊的完稿——這種留白但有骨架的呈現方式,才最能引發別人真正動手參與和修改的意願。"
-        },
-        {
-          "title": "How to Move Fast Toward the Right Thing",
-          "url": "https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "AI 讓打造產品這件事變得人人可及,能加快執行速度。但單靠速度是很危險的——團隊必須把快速開發和刻意的決策判斷搭配在一起,不然很容易「把錯的東西做得很好」。文章點出幾個關鍵問題:認知投降——不加審視地接受打磨得很漂亮的 AI 產出,把表面上的品質誤認為是紮實的決策;代理式工程——開發者的重心從「寫程式碼」轉移到「表達意圖」,搭配決定性的層次(測試、型別檢查)、高訊號的情境(規格、元件)、和清楚的介面來支撐;「平均值」變成預設值——AI 模型是在龐大的資料集上訓練出來的,天生就會往既有的模式靠攏——幾何造型加漸層的 logo、無襯線字體的簡報、標準卡片元件——這讓真正有辨識度的作品變得更難做出來。實際的啟發是:三件事值得投資——優先把「到底要做什麼」在前期就講清楚;建立像設計系統這樣扎實的情境層,有效引導 AI 代理人;把用心思考當成不可妥協的事,而不是阻礙效率的摩擦——這樣才能確保「你的判斷力」在塑造產出,而不是模型的預設值。"
-        },
-        {
-          "title": "Measuring time savings from Figma Make",
-          "url": "https://www.figma.com/blog/measuring-time-savings-from-figma-make/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 的資料科學團隊做了一個隨機對照試驗,找了 100 位參與者(50 位設計師、50 位產品經理),衡量 Figma Make 帶來的生產力提升。結果顯示:整體效率提升——「整體來說,設計工作用 Figma Make 變快了 20%、變簡單了 16%」;產品經理獲益最大——產品經理的任務完成速度提升了 23%,是最大的受益族群;任務類型影響效益分布——設計師在複雜任務上受益最多,產品經理則在比較簡單、快速的設計工作上獲益較多。這次研究特別選擇隨機對照試驗的做法,是因為傳統的 A/B 測試和因果推論方法,沒辦法排除經驗程度、任務複雜度、熟悉度這些干擾變數——隨機分配參與者、標準化任務、控制中介變數,才能確保因果關係、而不只是相關性。實際的啟發是:這項研究證明了像 Figma Make 這樣的 AI 工具,能讓設計能力更普及,特別是對非設計背景的人(產品經理)來說幫助最大,同時也讓專業設計師能更快處理更複雜的工作。"
-        },
-        {
-          "title": "Try these 10 skills—and show off your own",
-          "url": "https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 推出了撰寫「skills」的功能——用 Markdown 寫成的指令集,能客製化 Figma 的設計代理人,讓它反映你個人的設計哲學和工作流程。這篇文章展示了社群創作、並分享出來的 10 個 skills,示範了在動態設計、元件、無障礙、和設計系統這幾個領域的實際應用。這 10 個精選 skills 包括:`/xray-scan` 做出 X 光透視效果、`/find-animation-opportunities` 找出缺少動態的地方、`/component-handoff` 自動生成文件、`/analyze-components` 做元件稽核、`/usability-test-guide` 準備易用性測試研究。實際的啟發是:與其用通用的 AI 輔助,skills 讓設計師能把自己的個人判斷、標準、和最佳實踐編碼進去——文章寫道:「skills 很適合用來捕捉每個設計師身上都帶著的那些意見和判斷」——實際的好處是:把例行性任務自動化,同時保留創作意圖,讓團隊能透過這個代理人本身,用每位設計師各自的風格工作。"
-        }
-      ],
-      "buzz": "今天的文章從歷史脈絡談到具體數據:Patrick Neeman 提醒我們,現在的 UX 流程很多儀式感是從 1960 年代廣告公司繼承來的,AI 時代正是重新盤點這些習慣的時候;Takuma Kakehi 則從創作心理學切入,主張「未完成但有方向」的狀態,比空白畫布或完美成品更能激發參與感;Figma 自己一連三篇則提供了完整的 AI 協作實務框架——先講清楚意圖、再看具體的生產力數據(設計工作快 20%、PM 快 23%)、最後是怎麼把個人判斷編碼成可重複使用的 skills。今天的主軸:AI 帶來的速度和普及性是真實的,但真正決定產出品質的,依然是「判斷力有沒有被清楚地表達出來、編碼進流程裡」。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Creatives are deeply divided over the new Instagram logo, and I think that points to a broader issue",
-          "url": "https://www.creativeboom.com/insight/creatives-are-deeply-divided-over-the-new-instagram-logo-and-i-think-that-points-to-a-broader-issue/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "創意圈對 Instagram 重新設計的字標意見分歧很大,這款字標混合了手寫和幾何字體。批評者主張,混合出來的「r」看起來像「z」,做出了一個「instagzam」的效果——一位設計師形容:「整個東西感覺就是不對勁,像兩款字體在互相爭吵」。這場爭論揭露了更深層的設計原則問題:logo 到底該優先考慮易讀性,還是已經累積了龐大品牌資產的老牌可以玩不同的規則?設計該被單獨拿出來評斷,還是該放進完整的視覺系統裡一起看?支持者在看到這個 logo 放進 Instagram 完整的品牌重塑——包含新字體和版面系統——之後,對它的看法就不一樣了。這場根本性的分歧顯示,創意社群對「當代設計該追求什麼」還沒有共識:是易讀性和清晰度,還是個性和演化。文章的結論很有意思:「創意社群對這件事意見這麼分歧,某種程度上根本不是壞事——反而更像是我們大家都在認真做這份工作的訊號」。"
-        },
-        {
-          "title": "Step inside Natalie Liu's painterly music video created for Björk's new song, Nerve Bloom",
-          "url": "https://www.creativeboom.com/inspiration/step-inside-natalie-lius-painterly-music-video-created-for-bjoerks-new-song-nerve-bloom/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "CGI 導演 Natalie Liu 跟畫家 Natalia Kleszczewska 合作,替 Björk 的新歌《Nerve Bloom》拍了一支融合傳統手繪和數位藝術的音樂錄影帶。Liu 圍繞著 Kleszczewska 手繪的生物和背景,打造出一個數位維度,整個創作是從歌曲的敘事和歌詞出發。整個製作過程投入大量研究,同時實驗了最新和已經成熟的 CGI 工具,像是 C4D 和 Houdini。Liu 強調:「繪畫和寫程式都是一種工藝形式」,兩者「可以共存、彼此強化」。影片裡最亮眼的一刻出現在最後的副歌段落,畫面裡的生物們融合在一起——Liu 提到,每次重看這個段落都會讓她深受感動,因為手繪油畫和數位 CGI 之間的視覺張力,在那個瞬間達到了最強烈的狀態。這個計畫反映了 Liu 更廣泛的創作使命:把新興科技和傳統工藝結合在一起,同時維持一種人性化、有機的感受,反抗純粹科技導向的做法。"
-        },
-        {
-          "title": "Simji Park turns everyday moments into dreamlike vignettes",
-          "url": "https://www.itsnicethat.com/articles/simji-park-illustration-discover-200826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Simji Park 把日常的感官經驗,轉化成印象派風格的插畫,作為一種情感出口。她的靈感來自平凡的日常片刻——遛狗、偷聽到的對話、觸覺上的感受——她把這些經驗轉譯成平靜、帶著象徵意義的作品,畫面裡有昆蟲、動物、和身處自然場景裡的人。她的創作過程很直覺、也很依賴媒材本身的特性;她會依照想要表達的情緒基調,選擇鉛筆、水彩、油畫、或數位媒材。Park 形容自己的創作是一種療癒:「畫畫有點像是一種治療。當太多情緒在心裡累積,做點東西能幫我把它們慢慢釋放出來、給它們一個形狀」。她的插畫作品像是如夢似幻的小品——帶著層層疊疊的象徵意義,連她自己都沒辦法完全用言語說清楚。透過把內在情緒轉化成視覺敘事,Park 做出的作品既很內省、又有普世共鳴的感染力,捕捉到那些讓人感覺格外鮮活、格外有連結感的稍縱即逝的片刻。"
-        },
-        {
-          "title": "'I just love dogs': Gaia Alari on her wobbly, tactile drawings of animals, bodies and emotions",
-          "url": "https://www.creativeboom.com/inspiration/i-just-love-dogs-gaia-alari-on-her-wobbly-tactile-drawings-of-animals-bodies-and-emotions/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Gaia Alari 做的手繪插畫,特色是刻意保留看得見的不完美——搖晃的鉛筆線條、炭筆的暈染痕跡、精細的交叉線影法,展現出她親手創作這件事本身的痕跡。她的作品刻意避開數位平滑處理或 AI 算圖。她獨特的風格,透過充滿想像力的意象探索情感和身體經驗:被花朵吞沒的角色、纏在細繩裡的鴿子、伸展中彷彿在做夢的身體。她解釋:「我知道我得從 A 走到 B,但中間可以發生任何事」,把自己的創作過程形容成一場自己跟自己玩的「精緻屍體遊戲」。Alari 橫跨多種媒材工作——手繪動畫、黏土、還有替 Coldplay 和 MoMA 這類大客戶做的委託案——但她總是從紙開始,她形容紙是「唯一一個讓我感覺可以安心移動的空間」。她對民間傳說、原型、和人類情感的興趣,塑造了她的創作哲學:她的目標是「提出問題」,而不是提供答案。"
-        },
-        {
-          "title": "Cats take centre stage in Minyoung Kim's surreal and subtle paintings",
-          "url": "https://www.creativeboom.com/inspiration/cats-take-centre-stage-in-minyoung-kim-surreal-and-subtle-paintings/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "駐點倫敦的南韓藝術家 Minyoung Kim,畫出一系列謎樣的作品,貓很少直接現身,而是透過細微的暗示被呈現出來——一隻勾在桌緣的爪子、窗簾後發光的眼睛、或是透過半透明布料濾出的一道影子。這種間接的呈現手法,強調的是「一道影子、一隻從物件後面探出來的爪子、或只是房間裡一種微妙的存在感」,這種克制感創造出一種懸念和模糊感。她的畫布結合日常物件和詭異的元素——有人臉的茶壺、有表情的罐子、有貓眼睛的龍蝦。她形容自己「對那個熟悉的東西開始變得有點陌生的時刻很感興趣」。Kim 的創作方式是先決定色調,再決定構圖——她常常從某個吸引她注意的特定色調組合開始一幅畫。她會畫初步的草稿,但避免畫得太仔細的底稿,讓作品在創作過程中「有機地演變」,不斷調整色彩、光線、和物件之間的關係。她最近在阿姆斯特丹 Enari Gallery 的個展《Whispers Inside Things》展現了這種獨特的手法。"
-        }
-      ],
-      "buzz": "今天最有意思的討論是創意圈對 Instagram 新 logo 的分歧看法——這場爭論本身,反而證明了大家都在認真思考設計原則這件事。其餘幾篇則從不同角度示範了創作實踐裡的細膩之處:Natalie Liu 替 Björk 做的音樂錄影帶,示範了手繪和數位 CGI 怎麼在張力中共存;Simji Park 把日常片刻轉化成療癒性的插畫;Gaia Alari 刻意保留手繪的不完美痕跡,對抗數位平滑處理;Minyoung Kim 則用「幾乎看不見貓」的方式畫貓,示範了克制和暗示,反而比直白的呈現更有懸念。"
     }
   }
 ]
