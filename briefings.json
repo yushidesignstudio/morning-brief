@@ -1,5 +1,128 @@
 [
   {
+    "date": "2026-10-17",
+    "daily_summary": "今天兩圈的共同關鍵字是「判斷力」：Product 圈從 NN/g 的合成使用者實驗到 Smashing 的 AI 導入長文，都在說 AI 讓速度變快，但決定什麼值得留下的還是人。Brand 圈則有 Design Bridge and Partners 創意長提醒「人們不信任完美的系統」，Just Eat 也放下名人改講生活小確幸。對工作室最實用的一句話：AI 導入是變革管理，不是裝軟體，這正好是顧問能切入的服務。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+          "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NN/g 的 Rachel Banawa 拿一份 604 位真人填過的開放式問卷，用 Synthetic Users 平台生成 120 位 AI 受訪者回答同一題，結果大方向一致（都說 UX 這個詞最常用），但 AI 的答案明顯被「磨平」。真人用了 50 多種不同說法、很多只出現一次，AI 只收斂成十來個，冷門說法全部消失；更明顯的是 93% 的 AI 產品經理用了 UX 相關詞，真人產品經理只有 44%，等於 AI 把不同角色都推向同一個標準答案。作者的結論很直接：「Research with synthetic users is still not user research.」對工作室的啟發是：合成使用者可以拿來快速發想假設、檢查大趨勢，但要找邊緣案例、新興用語或族群差異時，還是得找真人，向客戶報價時也可以用這篇說明為什麼研究預算不能省。"
+        },
+        {
+          "title": "Is Your Organization Messing Up AI Adoption?",
+          "url": "https://www.smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Paul Boag 用他 2014 年寫數位轉型的經驗，指出企業正在用同樣的方式搞砸 AI 導入：IT 買了一堆 Copilot 授權、辦場通用訓練就當作完成，但 AI 其實是文化與變革管理問題。他列出幾個常見坑：效率提升的好處全歸公司、員工沒有誘因；喊著要創新，卻沿用舊 KPI，甚至有員工剛被要求用 AI 就因 token 用量太高被約談；治理規則太長讓人乾脆不用；官方工具不夠用，員工只好偷用私人 ChatGPT、Claude，形成 shadow AI。他的建議是從員工最討厭的工作開始、讓熱衷者帶頭並辦內部展示、用幾張海報式原則取代厚厚的政策，並把 shadow AI 當成「工具哪裡不夠」的診斷資料。對顧問型工作室來說，這篇幾乎就是一份服務菜單：AI 導入不只是工具設定，KPI、流程和溝通設計才是客戶真正卡住的地方（作者本身也在賣 UX 團隊的 AI 培訓，閱讀時可留意這個角度）。"
+        },
+        {
+          "title": "AI Won't Kill the Design Process. It Will Expose Bad Ones.",
+          "url": "https://medium.com/design-bootcamp/ai-wont-kill-the-design-process-it-will-expose-bad-ones-9715211836e0",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patric Hadzsinicsev 回應「設計流程已死」的說法，認為流程沒有死，只是被加速。他把設計工作分成兩種：答案還不明確的「非結構化工作」（新產品、新流程）在畫布上畫幾筆往往比寫完美 prompt 更快；而元件、模式都已確立的「結構化工作」則越來越適合直接在程式碼裡做。他舉了個很實際的例子：如果改一個顏色要 prompt 三次，而在 Figma 改三個數值只要 15 秒，那用 AI 並沒有比較有效率。他也提醒 Double Diamond 還在，AI 只是加快了發散與收斂的速度，問題是理解錯問題也會錯得更快；加上 LLM 很會附和，資深設計師的價值正在轉向「決定什麼值得留下」。對設計師的啟發：工具選擇的標準應該是多快做出好決策，而不是用了多少 AI。"
+        },
+        {
+          "title": "I tried to get past LinkedIn's dark patterns, and here is how far I got",
+          "url": "https://medium.com/design-bootcamp/i-tried-to-get-past-linkedins-dark-patterns-and-here-is-how-far-i-got-ffbfa6d70699",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Chidrupa Mamunooru 被裁員後重新找工作，發現 LinkedIn 列表卡片寫著「8 小時前發布、搶先應徵」，點進去才看到其實是「重新刊登、已有 100 多人應徵」，而且不告訴你原始刊登日期。一天看 40 張卡片，每張都要花一次點擊和約 20 秒才能拿到做決定所需的資訊。於是她做了一個 Chrome 擴充功能，在每張卡片下加上彩色小標籤：真實刊登日期（太舊直接紅色寫 skip）、是否看過或應徵過、被自己拒絕過卻又悄悄回來的職缺、同一職缺在多個城市重複出現等。整篇最值得帶走的設計原則是：把「決定要不要點」的資訊放在做決定的地方，而不是點下去之後。對設計師來說，這也是一個很好的案例，說明列表頁和詳細頁資訊不一致本身就是一種 dark pattern。"
+        },
+        {
+          "title": "Is AI your tool, or your crutch?",
+          "url": "https://medium.com/design-bootcamp/is-ai-your-tool-or-your-crutch-43d021d876c8",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Jessica Tenuta 是 AI 教育平台 Packback 的創辦人，現在經營產品設計與品牌工作室 Color/Math。她指出教育界對 AI 分成「全面擁抱」和「完全禁止」兩派，但兩派都沒抓到重點。她回憶大學設計系幾乎不教軟體，而是教怎麼找出專案真正目標、挖洞察、把概念推到更遠，這讓她在 AI 出現時知道怎麼有意識地使用它。她特別點出 AI 跟 Illustrator 不同，它能「自動化思考」而不只是自動化生產，所以很容易把創意和批判思考也一起外包出去。她給的檢驗方式很簡單：「如果這個工具被拿走，我還能達成目標嗎？」對工作室帶新人或自我檢視都很實用：能在工具之間自由切換，才代表 AI 是工具而不是拐杖。"
+        }
+      ],
+      "buzz": "這 48 小時 Product 圈的主旋律是「AI 讓速度變快，但判斷力更值錢」。NN/g 用數據證明合成使用者會把答案磨平，Bootcamp 的長文則說流程沒死、只是被加速，判斷錯了也會錯得更快；Smashing 把焦點拉到組織面，指出卡住 AI 導入的往往是 KPI 和治理，而不是工具。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "design/leader: Emma Follett, Chief Creative Officer at Design Bridge and Partners",
+          "url": "https://www.designweek.co.uk/design-leader-emma-follett-chief-creative-officer-at-design-bridge-and-partners/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Emma Follett 2000 年以 Studio Junior 身分進入 Design Bridge and Partners，一路做到全球創意長。她最核心的一句話是「People don't trust perfect systems; they trust real people」，品牌要有缺陷、價值觀和鮮明個性。她提到 Jonathan Anderson 談 Dior 時說「門把的設計跟手提包一樣重要」，每個接觸點都要好好設計；也用工作室裡一幅由 Pantone 色票拼成的畫比喻品牌：遠看是統一的大圖，近看每個小元素都有自己的個性。她認為設計領導者最被低估的能力是 EQ，最擔心的是 AI 讓工作節奏太快，新人沒有時間犯錯、學習手藝；她也希望客戶「多打開一點、讓我們進去」。對小型工作室來說，這篇談的帶人、提案說服力和客戶夥伴關係都很能直接借鏡。"
+        },
+        {
+          "title": "Just Eat finds joy in staying put in VCCP campaign",
+          "url": "https://www.creativereview.co.uk/just-eat-vccp-stay-where-you-are-campaign-advertising/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Just Eat 和新代理商 VCCP 推出全球品牌平台「Stay Just Where You Are」，正式告別過去 Craig David、Snoop Dogg、Katy Perry 撐場的「Did Somebody Say」名人路線。新平台建立在一個簡單的人性洞察上：當你正開心的時候，最不想做的就是離開，品牌引用的研究指出 81% 的人希望在享受的時刻多待一會。主片是一位答應幫全家煮飯的爺爺，抱著新生孫子捨不得放手，只好偷偷叫外送；其他素材還有搶音樂祭門票、跟貓玩、父女一起打鼓等日常片段。品牌把重點從「送什麼」轉向「外送讓你可以做什麼」，舊的聲音記憶點則以更新版本保留在片尾。對品牌策略來說，這是一個從名人聲量轉向真實洞察、同時保留品牌資產的好例子。"
+        },
+        {
+          "title": "ROVE Launches New Brand Identity and Website, Signs Ashley McKim Consulting",
+          "url": "https://roastbrief.us/rove-launches-new-brand-identity-and-website-signs-ashley-mckim-consulting",
+          "source": "Roastbrief",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "ROVE 是 2017 年由兩位夥伴創立的創意工作室，最初是只有兩個人、以實拍為主的小團隊，現在已經變成橫跨美國和加拿大的全遠端設計與動態團隊，客戶包括 Google、Spotify、Disney。七年前做的品牌已經跟不上現在的業務，所以這次保留 ROVE 名字，加上「Beyond」表達好奇心和創作廣度，並和外部設計師合作做了新字標與印章圖形。新網站以動態為主，擴充了案例研究、新 showreel，連 404 頁都做成互動小遊戲。合夥人 Jay Brown 說：「我們不想被單一風格或專業定義。」同時他們也簽下外部顧問負責品牌與代理商的業務開發。對隅室這樣的工作室來說，這是「服務範圍變了，就該重新整理自己的品牌和業務管道」的現成參考。"
+        },
+        {
+          "title": "Apple Music's 'miserable' new logo is giving mixed messages",
+          "url": "https://www.creativebloq.com/news/apple-musics-miserable-new-logo-is-giving-mixed-messages",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Apple Music 正在換 logo，這件事最早在倫敦 Apple Music Hall 的宣傳中曝光，之後陸續出現在 iOS 27.2 和 macOS 27.2 的測試版裡。根據 MacRumors、9to5Mac 等多家媒體報導，新版的「Music」改成小寫、字重更粗，而在 10 月 13 日的 beta 4 裡，App 圖示更從經典的紅底白音符改成黑白單色，深色模式則是反白版本。Creative Bloq 用「miserable」形容這個新圖示，認為它跟品牌傳遞的情緒互相矛盾，也有讀者吐槽「不是說極簡已經退流行了嗎？」。這個案例值得追蹤：當平台型品牌為了系統一致性拿掉最具辨識度的顏色，換來的是整齊，還是失去個性？官方目前尚未正式宣布，測試版內容也可能再變。"
+        },
+        {
+          "title": "Lloyds Banking Group to unite Black Horse, Lex Autolease and Tusker under Lloyds Auto brand",
+          "url": "https://news.europawire.eu/lloyds-banking-group-to-unite-black-horse-lex-autolease-and-tusker-under-lloyds-auto-brand/eu-press-release/2026/10/16/17/45/03/183351",
+          "source": "EuropaWire",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Lloyds Banking Group 宣布把旗下汽車金融、租賃和員工購車方案的三個品牌 Black Horse、Lex Autolease、Tusker，逐步整合成單一對外品牌「Lloyds Auto」。理由是客戶和合作夥伴越來越期待「簡單、串連、好用」的服務，一個清楚的品牌也能集中投資、加快創新；這也延續了先前把 Halifax 改成 Lloyds 的品牌簡化策略。三個老品牌的信譽和專業會被帶進新品牌，現有合約和服務都不變，並會在轉換期間主動通知客戶，甚至特別提醒防詐騙。這是一個典型的品牌架構（brand architecture）決策：從「多品牌組合」走向「母品牌統一」。對接品牌案的工作室來說，可以拿來跟客戶討論子品牌該留還是該收的判斷依據。"
+        }
+      ],
+      "buzz": "Brand 圈這兩天在討論「品牌要像人，不要像機器」。Just Eat 從名人代言轉向真實生活時刻，Design Bridge and Partners 的 Emma Follett 強調 EQ 和每個接觸點都要設計；另一頭則是 Apple Music 改成黑白單色、Lloyds 把三個子品牌收進一個名字，品牌簡化與個性之間的拉扯仍在持續。"
+    },
+    "highlights": {
+      "summary": [
+        "決定什麼值得留下的還是人",
+        "人們不信任完美的系統",
+        "AI 導入是變革管理，不是裝軟體"
+      ],
+      "product": [
+        "AI 讓速度變快，但判斷力更值錢",
+        "判斷錯了也會錯得更快",
+        "卡住 AI 導入的往往是 KPI 和治理"
+      ],
+      "brand": [
+        "品牌要像人，不要像機器",
+        "每個接觸點都要設計",
+        "品牌簡化與個性之間的拉扯"
+      ]
+    }
+  },
+  {
     "date": "2026-10-16",
     "daily_summary": "今天 Product 圈的關鍵字是「畫面之外」：Figma 在 Config India 把程式碼、規格文件搬上畫布，UX Collective 兩篇長文則提醒，AI 時代真正的設計工作在內容架構和權限邊界，而不是那顆確認按鈕。Brand 圈也在往畫面外走，從 Bentley 的聲音與觸覺識別，到 Pictoplasma 只用兩個點撐起整套系統。對工作室最實際的一句話：提案時把「discovery 和系統」當成交付物來賣，別只賣畫面。",
     "jenny_wen": {
@@ -1015,112 +1138,6 @@
         }
       ],
       "buzz": "今天的案例都在回應同一個問題:當 AI 能做的事愈來愈多,品牌和設計師該怎麼證明「人的判斷」依然不可取代。TWA 對 AI 插畫的回應示範了一個誠實的立場——AI 系統要真的動人,還是得靠人類全程把關創意方向;「該不該重塑品牌」這篇則提醒接案者,九月常見的重塑衝動,很多時候是在逃避真正該面對的商業問題。Monzo 的專訪則說明,就算公司規模擴大到主流市場,設計依然可以是平等的策略夥伴,而不是交付功能的部門;Optical Arts 和 Darius Ou 這兩個創作者案例,則不約而同示範了同一件事——刻意的節制、和願意花時間深入研究非顯而易見的靈感來源,才是讓作品脫穎而出的關鍵。今天 Product 和 Brand 兩邊的默契依然一致:AI 讓執行變得更容易,但真正的判斷力、創意方向、和誠實面對自己動機的能力,才是稀缺的東西。"
-    }
-  },
-  {
-    "date": "2026-08-27",
-    "daily_summary": "今天 Product 和 Brand 兩邊不約而同都在談同一件事:當 AI 讓產出速度和精緻度都變得唾手可得,設計師和品牌該怎麼證明自己值得被信任——從儀表板該先想清楚要推動什麼決策、到 AI 插畫系統少了手感就打不動人心,再到把社區真實聲音嵌進識別系統裡,今天的重點是「真實感」和「判斷力」正在變成比效率更稀缺的資產。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Meriem Benhabiles 主張,一個成功的儀表板,80% 的關鍵決策發生在打開設計軟體之前——大部分儀表板失敗,不是因為資料不準確,而是從一開始就沒有針對「該推動哪個決策」被設計出來。她用「安斯庫姆四重奏」這個經典統計案例當佐證:四組統計數字完全相同的資料集,畫成散布圖卻長得完全不一樣,證明視覺化揭露的是數字本身藏不住的「操作真相」。她也舉了實際案例對比:一個聚焦在「使用者在哪裡流失」這個具體問題的結帳流程分析,做出一個一眼看穿付款頁面瓶頸的簡單漏斗圖,反而比塞滿資料的儀表板更有用;另一個企業人才管理平台的案例,重新設計後讓主管從被動看月報,變成主動每週互動,使用者留存率也明顯提升。她建議設計前先問三個問題:要回答什麼具體的營運問題、誰會根據這個資料做決策、看完之後該產生什麼行動——先決定圖表的幾何形式,並讓色彩系統在使用者還沒進入畫面前就先教會他們怎麼讀。"
-        },
-        {
-          "title": "Why Your Website Should Never Stop Changing",
-          "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
-          "source": "Smashing Magazine",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Pierre Burgy 主張,網站上線後品質衰退,通常不是技術出問題,而是團隊根本沒有餘力持續維護——與其接受這種必然的腐朽,不如讓自動化代理人接手例行維護工作,把人力留給真正需要判斷力的決策。他強調自主權不是全有全無的選項,同一項技術改動對不同角色的意義不同:比方說「深色模式改成預設」這件事,對設計師來說是品牌識別的決定,但對工程師來說只是一個簡單的設定——需要用不同的自主層級去對待。實際案例包括:當某個元件更新沒有正確同步到所有頁面時,代理人能自動抓出來並修正;無障礙合規檢查(替代文字、對比度驗證)這類規律、有規則可循的工作,很適合直接交給自動化處理。他建議把工作分成三類——可自動化的例行維護、絕不能碰的創意決策、和需要依角色判斷的灰色地帶,並針對每一個代理人分別設定權限、逐步擴大信任範圍。他提醒,真正的風險不是「網站被亂改」,而是「一個完全不再改變的網站」正在悄悄變得過時。"
-        },
-        {
-          "title": "Researcher-in-the-loop",
-          "url": "https://uxdesign.cc/researcher-in-the-loop-18a8ffddf48e",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Jennifer Bowie 提出「研究員在迴圈中」這個模型,刻意反轉大家熟悉的「人類在迴圈中」——後者假設機器是研究者、人只是逐案檢查機器產出的安全網,但她指出這個做法根本無法規模化。她主張把這個關係倒過來:研究員不該只是把關者,而應該是設計和治理整個研究系統的人——親自決定用什麼方法、什麼時候該信任 AI 的產出、什麼時候該介入。她跳脫「AI 會不會取代 UX 研究員」這種老掉牙的辯論,提出一個更關鍵的問題:當人人都能做研究之後,誰來確保研究的品質和誠信不打折扣。對設計工作室來說,這篇文章的啟發是,與其把 AI 工具當成外包對象、事後檢查產出品質,不如一開始就把研究方法論和判斷標準設計進整個工作流程裡,讓人始終保有治理的位置。"
-        },
-        {
-          "title": "What luxury bags can teach designers about how to adapt to a changing deal",
-          "url": "https://uxdesign.cc/what-luxury-bags-can-teach-designers-about-how-to-adapt-to-a-changing-deal-3c06caba673d",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Kai Wong 指出,設計師長期以來仰賴一種沒有人明文寫下來的默契,如今正在悄悄失效——過去,一個花了兩週打磨出來的高擬真畫面,本身就是一種訊號:它告訴所有人,有個夠格的專業者在階層、導覽、色彩、空白狀態這些細節上做了上百個決定。但當 AI 能在幾分鐘內生成同樣精緻的畫面時,這個累積時間換來的信任訊號就不再成立。他用精品包這類講究工藝的商品做類比:真正的價值從來不是表面看起來多光鮮,而是藏在看不見的細節和決策裡——設計師現在面臨的挑戰,是要找到新的方式,把這些原本靠「花時間」自然傳達出來的判斷力和專業度,重新變得可見。對接案設計師和工作室來說,這代表得更主動地把決策過程說出來,而不能再假設客戶會自己看懂畫面背後的功夫。"
-        },
-        {
-          "title": "What Blade Runner got right about AI",
-          "url": "https://uxdesign.cc/what-blade-runner-got-right-about-ai-99cc75c0f761",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 在這篇文章裡主張,大家記得《銀翼殺手》的雨景、霓虹燈,或是爭論戴克到底是不是複製人,但這部 1982 年的電影(以及 2017 年的續集)真正厲害的地方,是精準預測了我們至今仍解不開的設計難題——從人造記憶,到我們現在還在爭吵的介面設計。他指出,這部片幾乎所有對硬體的預測都錯了:沒有智慧型手機、螢幕還是映像管的質感、飛天車也沒有出現——但它賭對了一件事:真正困難的問題會是情感層面的,而不是技術層面的。他舉了羅伊・貝提的死亡場景當例子——這個複製人在生命最後一刻,救了原本要來殺他的人,然後坐在雨中放走一隻白鴿,任由自己的身體逐漸關機,「一個人造生命體,在自己的記憶逐漸熄滅時哀悼著它們」。對設計師的啟發是:在打造 AI 產品時,真正該花心思解決的往往不是技術規格,而是這些技術會如何觸碰到使用者的情感和記憶。"
-        }
-      ],
-      "buzz": "今天的文章圍繞著一個共同主題:在 AI 讓「產出」變得又快又便宜的時代,人的判斷力該怎麼被看見、被信任。Kai Wong 提醒我們,過去靠「花時間」自然傳達出來的專業訊號正在失效,設計師得更主動證明自己的價值;Jennifer Bowie 則呼籲研究員別只當 AI 產出的把關者,而要成為整個研究系統的治理者。兩篇 Smashing 的文章則從實作角度切入——儀表板設計要先想清楚該推動什麼決策,網站維護則可以放心把例行工作交給代理人、把判斷力留給真正重要的地方。Patrick Neeman 的《銀翼殺手》文章則從另一個角度提醒我們:AI 帶來的真正難題,從來就不是硬體規格,而是情感與記憶這些說不清楚的東西。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Studio Thonik's typographic orchestra identity mimics the movement of a conductor's baton",
-          "url": "https://www.itsnicethat.com/articles/studio-thonik-phion-symphony-orchestra-graphic-design-discover-260826",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "阿姆斯特丹的 Studio Thonik,替沒有固定駐地、四處巡演的 Phion 交響樂團打造了一套彈性識別系統,選擇用「音樂本身」而不是場地或建築當作設計的根基。設計總監 Falco van Burg 解釋:「我們選擇讓音樂當基礎」——因為樂團沒有固定的家,識別系統必須能隨著每一場演出調整,同時又要在不同場館間維持可辨識度。整套系統的核心是 Grilli Type 的可變字體 GT Planar,這款字體有一個連續 90 度的傾斜軸——van Burg 說:「GT Planar 有些細節只有在你把它傾斜之後才會出現」。這個字體會依照音樂的情緒自己變化:激昂的曲目會讓字母劇烈彎曲、單字碎裂開來,平靜的作品則維持開闊、安靜的字形,系統裡還包含展示這種變化的動畫。van Burg 強調:「一切永遠從音樂開始,不是從版面開始」——這套識別最終呈現出的效果,就像指揮棒的動作一樣,精準、富有表現力,又能把整個樂團的視覺形象統一起來。"
-        },
-        {
-          "title": "Bob Neville on Berghaus, Manchester culture and the British brand everyone thinks is German",
-          "url": "https://www.creativeboom.com/insight/bob-neville-on-berghaus-manchester-culture-and-the-british-brand-everyone-thinks-is-german/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "擁有 60 年歷史的英國戶外品牌 Berghaus,在曼徹斯特 Arndale 開出第一間旗艦店,目的是把品牌識別重新收回自己手上——過去因為在各大零售通路都能買到,品牌形象被稀釋成「中價位、隨處可見」,反而流失了原本的獨特性。Pentland 集團零售總監 Bob Neville 把這間店定位成「通往戶外世界的入口」,結合零售功能和社群空間,提供免費裝備維修服務,還規劃了在地活動。門市選址靠近品牌起源地——1966 年,創辦人 Peter Lockey 和 Gordon Davison 就是在紐卡索創立了這個品牌;90 年代,這個品牌還曾經因為被 Liam Gallagher 等人穿出街頭風格而擁有文化聲量,後來卻因為過度鋪貨而失去了這個定位。Neville 說:「品牌會經歷循環。人來來去去。但總會有重新歸零的一刻。」對設計工作室的啟發是:自營門市和批發通路扮演的角色完全不同——一個能讓品牌掌控敘事、展現價值觀的實體空間,最終反而能替其他通路上的產品增添意義,強化整體的批發關係。"
-        },
-        {
-          "title": "Why are so many brands ditching celebrities for ordinary people?",
-          "url": "https://www.creativeboom.com/insight/why-are-so-many-brands-ditching-celebrities-for-ordinary-people/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章主張,品牌正在用「素人」取代名人代言,原因是名氣本身在數位時代已經碎片化——傳統靠大眾媒體操作的名人代言,不再能保證觸及廣泛的閱聽眾,變成一項報酬率愈來愈低的行銷投資。文章舉了三個案例:Spotify 的「Fan Life」campaign 找來真正的樂迷(像格拉斯哥的 Geese 樂團超級粉絲 Kye O'Hagan),而不是找音樂人本身出鏡;百事可樂替紐約尼克隊做的「WE OUTSIDE」campaign,主角是真正的球迷而不是球員或名人;Yorkshire Building Society 的「Here for Every Stage」campaign,則找來公司真正的員工,搭配他們真實的人生故事。百事可樂的行銷長曾在 2023 年說過一句被反覆引用的話:「你沒辦法再用過去的方式打造品牌了」,點出媒體消費碎片化,讓傳統的大眾市場操作方式徹底失效。對設計工作室的啟發是:與其圍繞著名人去發想概念,不如去挖掘社群裡真正有熱情的素人和第一線工作者——這種真實感是任何簽約代言人都做不出來的,成本更低,也更能說服愈來愈不信任精緻名人代言的閱聽眾。"
-        },
-        {
-          "title": "This rebrand of a voice-journalling app looks lovely, but is an 'AI illustration system' the right call?",
-          "url": "https://www.creativeboom.com/inspiration/this-rebrand-of-voice-journaling-app-untold-shows-what-happens-when-ai-branding-doesnt-look-like-ai/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "設計工作室 The Working Assembly,替語音日記 app Untold 做了重新設計,搭配它新推出的「Perspectives」功能——包含引導式流程、視覺化的趨勢地圖、和個人化洞察。整套識別圍繞三個概念展開:自由表達、被理解、和有意圖地成長,視覺風格用了低飽和的大地色調、看得見筆觸的插畫、和私密的構圖,刻意避開企業感的冰冷。但文章作者 Tom May 也提出了核心的質疑:這套客製的 AI 插畫系統,乍看很好看,但仔細看還是看得出演算法的痕跡——他坦言:「我還是不太確定」AI 生成的插畫系統真的能做到工作室宣稱的那種情感共鳴。The Working Assembly 的 Jolene Delisle 則說:「每一種視覺表達,都從同一個想法出發……你的聲音很重要」。文章認為,反而是那個帶點不完美手感的襯線字標和 logo 圖案更成功,app 畫面裡用手繪筆觸取代冷冰冰的數位長條圖來呈現情緒資料,證明有時候「刻意的手作感限制」比技術本身的能耐更能打動人。"
-        },
-        {
-          "title": "The world's press descended on Ashton-in-Makerfield and missed the real story. StudioDBD didn't",
-          "url": "https://www.creativeboom.com/inspiration/the-worlds-press-descended-on-ashton-in-makerfield-and-missed-the-real-story-studiodbd-didnt/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "設計師 David Sedgwick 和他的 StudioDBD,替威根 Ashton-in-Makerfield 一項耗資 660 萬英鎊、把歷史停車場改造成社區公共空間的開發案 Ashton Square,打造了一整套品牌識別。他沒有選擇落入工業懷舊風的老套路,而是圍繞著「Made in Makerfield」這個敘事平台展開——持續慶祝這個社區至今仍在發生的創造力。整套視覺系統包含:從機械造型和工具取材的客製字體、呼應在地「Walking Day」傳統(居民過去會在市集購買緞帶)的緞帶圖案、搭配溫暖色調和以人為主角的攝影風格,營造出親近感;整個設計刻意保留「未完成」的空間,讓社區成員可以持續把自己的故事加進這套識別裡。Sedgwick 解釋自己的設計哲學:「它自信但不企業化,講究工藝但不矯情,驕傲地展現北英格蘭特色卻不落入陳腔濫調。」對設計工作室最有價值的啟發是:深入的在地研究能解鎖真正的敘事——與其預設套用刻板的懷舊美學,不如像 Sedgwick 一樣去理解社區真正想要的是自信和大膽,把社區直接嵌進識別系統本身,讓這套品牌變成一個能隨著每次使用而愈長愈茁壯的活平台。"
-        }
-      ],
-      "buzz": "今天的案例都圍繞著「真實感要怎麼被設計出來」這個問題:Studio Thonik 讓音樂本身、而不是版面決定識別系統該長什麼樣子;Berghaus 靠一間旗艦店把品牌敘事的主導權從批發通路拿回來;素人代言的趨勢則直接點名,名人光環已經比不上真實的熱情有說服力。Untold 的 AI 插畫辯論特別值得放在心上——就算 AI 生成的畫面再精緻,少了那種看得見的手感,還是很難讓人真正相信;StudioDBD 的 Ashton Square 案例則證明,把社區真正的聲音嵌進識別系統裡,比套用任何懷舊風格都更有生命力。今天 Brand 和 Product 兩邊的默契很一致:AI 讓「看起來很好」變得非常廉價,但「讓人相信」這件事,終究還是得靠人親自介入才能做到。"
     }
   }
 ]
