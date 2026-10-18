@@ -1,5 +1,127 @@
 [
   {
+    "date": "2026-10-18",
+    "daily_summary": "今天兩圈不約而同在講「看不見的地方」：Product 圈從設定頁、律師用的 AI 筆記到 Figma Specs，都在說真正決定體驗好壞的，是那些沒人設計的角落和背後的規則。Brand 圈則有沖繩的顧問直接勸客戶先別花 100 萬改網站，因為員工答不出理念，外面再漂亮也只是鍍金。對工作室最實用的提醒：接到改版案時，先問清楚內部準備好了沒，往往比直接開工更有價值。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The settings page is where most products go to die, a quick guide to fix",
+          "url": "https://medium.com/design-bootcamp/the-settings-page-is-where-most-products-go-to-die-a-quick-guide-to-fix-5de850448c53",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Riya Jawandhiya 在某個行銷工具裡想改寄件人名稱，結果點了 9 步、花了約 90 秒，還被問了兩次要不要儲存；而寄件人名稱偏偏是 42% 消費者決定要不要打開信的第一眼。她整理出設定頁最常見的三個問題：分類照後端系統來排（使用者得先搞懂你的架構才找得到東西）、所有欄位看起來一樣重要、不同區塊各自儲存卻沒人說。最有價值的是她提出的分類格子：別只看「使用頻率」，還要看「出錯的代價」——像 DKIM 這種很少碰但沒設好信就寄不出去的設定，不該藏在「進階」裡，而是要用狀態顯示＋引導設定。她也建議先釐清使用者打開設定頁的四種意圖（初次設定、確認、改一個東西、排除問題）再來排版。對設計師的啟發：設定頁不是工程師的收納櫃，用「任務」而不是「系統模組」來分組，是一個很容易向客戶說明價值的改善點。"
+        },
+        {
+          "title": "A notetaker lawyers can trust",
+          "url": "https://medium.com/design-bootcamp/a-notetaker-lawyers-can-trust-8b4b56bed58a",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這是一份自主提案的案例研究：作者從 2024 年 Otter.ai 把投資人私下討論的逐字稿寄給所有與會者的真實事件出發，想像如果換成律師事務所，就是機密外洩加上保險理賠。他指出 Otter、Fireflies 這類 AI 會議筆記工具本來就是為「分享越多越好」的團隊設計的：自動加入行事曆會議、把摘要寄給每個人、資料存在廠商雲端，因為每封摘要信其實都是產品最好的行銷。但律師需要的是「圍堵」而不是「擴散」：每個人都要同意錄音、筆記要依客戶與案件歸檔、要標記哪些內容受保密特權保護。整篇最值得帶走的觀點是：同一個功能放到不同產業，可能從賣點變成風險，產品的成長邏輯會直接形塑使用者體驗。對做垂直領域案子的設計師來說，這是很好的提醒：先搞懂該產業的規範和責任歸屬，再談介面。"
+        },
+        {
+          "title": "Introducing Specs: Markdown as a medium",
+          "url": "https://www.figma.com/blog/introducing-figma-specs/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 推出 Specs，一種直接放在畫布上的 Markdown 文件，可以多人協作，也能讓 AI agent 一起讀寫。它的出發點是：Markdown 已經變成跟 AI agent 溝通的標準格式，但通常是一個人寫、散落各處、跟設計稿脫節。Specs 可以嵌入 Frame、FigJam 或任何畫布元素，接上 GitHub、Hex 等外部資料，也能透過 Figma MCP server 把規格直接交給寫程式的 agent；官方舉的例子包括工程師用 spec 引導 coding agent、Intuit 設計師記錄 icon 規範。目前付費方案開放 beta。對工作室的意義是：交付物正在從「設計稿＋文件」變成「設計稿＋AI 讀得懂的規格」，寫得好的 spec 本身就是一種可以收費的專業。"
+        },
+        {
+          "title": "AI Workflow — AI-Native Design Infrastructure",
+          "url": "https://medium.com/design-bootcamp/ai-workflow-ai-native-design-infrastructure-8be6b1eee317",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Siddhant Goral 分享他在 ShipStation 的做法：他認為多數設計師用 AI 只是「做得更快」，但真正的機會是拿掉對其他團隊的依賴。他把 Figma 透過 MCP 接上 Claude Code，再寫了專屬的 SKILL.md，規定所有顏色都要綁 token、元件只能用既有的，結果自己做出了已經上線的通知中心前端，沒有交接文件也沒排工程師。他也把 Claude Code 接上 Amplitude 和 LogRocket，直接查數據、看使用行為，不用等分析師排隊。重點不在工具清單，而是思路：設計師的 AI 價值在於「擁有更完整的決策鏈」，而 design system 寫成 AI 讀得懂的規則，是讓產出能直接上線的關鍵。（文章帶有作者個人作品集性質，閱讀時可留意。）"
+        },
+        {
+          "title": "What an Amazon Warehouse Tour Leaves Out",
+          "url": "https://medium.com/design-bootcamp/what-an-amazon-warehouse-tour-leaves-out-97b5993363ff",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Christine Ying 參加了 Amazon 加州倉庫的公開導覽，詳細記下看到的流程：隨機上架（起因竟是哈利波特預購塞爆同一排貨架）、機器人把貨架送到人面前揀貨、螢幕自動決定箱子大小，導覽員則花很多時間講員工福利和「人的溫度」。但她指出，導覽本身就是公關工具，帶你參觀的人不是訂業績目標的人；她事後查了加州 AB 701 法案、美國參議院報告（Amazon 倉庫受傷率比業界高 30% 以上）和自動化取代人力的內部文件，補上導覽沒說的部分。對研究者的啟發很直接：被安排好的參訪、訪談和 demo 都是「精心挑選過的版本」，要問的往往是現場沒人能回答的問題。這也適用在接案時聽客戶簡報，記得追問簡報沒提到的東西。"
+        }
+      ],
+      "buzz": "這兩天 Product 圈的焦點從「AI 讓我們更快」轉向「AI 和產品背後的規則」：Figma 把 Markdown 規格搬上畫布，實務文章也在說把 design system 寫成 AI 讀得懂的規則才是關鍵。另一條線是「沒人設計的角落」，從設定頁到律師的會議筆記，都在提醒好體驗取決於產品的預設邏輯，而不只是介面。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "ホームページ刷新で100万ドブに捨てるな。ロゴを変える前に「インナー」を整えるべき理由",
+          "url": "https://note.com/rocky59318/n/n9ebcb2181fb4",
+          "source": "note",
+          "lang": "日文",
+          "studio_related": true,
+          "summary": "作者テルヤヒロキ分享一個真實案例：沖縄一家老字號批發商的社長準備花 100～150 萬日圓改版網站和拍徵才影片，他卻勸對方先暫停，先把內部品牌（inner branding）整理好。他把只改外觀、沒有內涵的品牌稱為「鍍金的品牌」：理念沒在公司內部共享，面試時員工答不出來，對外的網站和影片就會跟現實對不上，反而損害信任、讓新人很快離職。他用保齡球的 1 號瓶比喻企業的「自我風格」，中心定住了，組織、徵才、網站這些周邊施策才會連動起來。文末他提供一個 Yes/No 檢查流程（理念有沒有寫成文字、員工能不能馬上回答、內外形象是否一致），還建議花 5 分鐘在閒聊時問員工公司的強項是什麼。對工作室來說，這是很好的提案切入點：在網站或識別改版前，先賣一段內部訪談與品牌共識的工作坊。"
+        },
+        {
+          "title": "Pentawards 2026: Living Wine Labels, Keystone Dippers, and 20 Years of Structural Packaging",
+          "url": "https://www.designweek.co.uk/pentawards-2026-living-wine-labels-keystone-dippers-and-20-years-of-structural-packaging/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "包裝設計獎 Pentawards 迎來 20 週年，最高的鑽石獎頒給克羅埃西亞的 Studio Sonda，他們為氣泡酒 Piquentum Brut Nature 設計的標籤，是用釀酒過程中原本會丟掉的酵母沉澱，混合酒莊的廢紙漿做成，在地窖陳放時會長出天然霉斑，讓每一瓶的標籤都獨一無二，也成為年份與真偽的證明。白金獎同樣亮眼：Heinz Dipper 直接在薯條盒正面折出番茄醬口袋，形狀還是 Heinz 招牌的拱頂石；Poco Vino 把葡萄酒做成 187ml 單人小瓶；Even Realities 的 AR 眼鏡盒用一張紙折成、不需要泡棉。評審共同的語言是「品牌資產＋結構設計一起發力」和「不完美之美」。對工作室的啟發：包裝不只是平面，把品牌的招牌元素放進結構裡，才是最難被抄的記憶點。"
+        },
+        {
+          "title": "Sun Life refreshes global brand identity",
+          "url": "https://www.marketing-interactive.com/sun-life-refreshes-global-brand-identity",
+          "source": "Marketing-Interactive",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "加拿大保險集團 Sun Life 進行 25 年來最大的視覺更新：名字從兩個字的「Sun Life」合成一個字「Sunlife」，換上新 logo，並推出全球標語「Making life brighter」。背後的原因是業務已經從傳統壽險擴展到資產管理、健康和財富規劃，需要一個在數位和國際市場都更一致的形象；他們的調查顯示 72% 的受訪者希望健康、財務、保障能整合在一起。亞洲是重要推力，Sunlife Asia 服務 8 個市場、超過 3,000 萬客戶。新品牌會分階段推出，先從數位和面對客戶的接觸點開始，過渡期新舊識別會並存。對設計師的啟發：大型品牌改名往往不是為了好看，而是業務邊界改變了，識別要跟上「我們現在是誰」。"
+        },
+        {
+          "title": "Are you triggered by GTA 6's giant Paris advert?",
+          "url": "https://www.creativebloq.com/news/are-you-triggered-by-the-design-problem-with-gta-6s-giant-paris-advert",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "GTA 6 在巴黎近郊 Les Mercuriales 大樓外牆掛上巨幅廣告，重現遊戲經典封面插畫，但眼尖的玩家發現兩把槍被拿掉了，女主角 Lucia 手上沒了手槍、另一格角色的手臂則像在指著天空發呆。作者指出，GTA 的主視覺本來就是靠角色姿勢和手上的東西來說故事，槍拿掉之後，整個構圖的張力和平衡就跑掉了，只好用裁切來補救。這是一個很實際的品牌延展課題：為遊戲盒、網站設計的 key art，放到城市尺度、面對當地居民的接受度時，不一定撐得住。對工作室的啟發：設計主視覺時就該預想不同場景會被刪改什麼，留好「拿掉某元素還成立」的版本。"
+        },
+        {
+          "title": "Ikea throws shade at Tesla with \"safe and affordable\" flying car",
+          "url": "https://www.creativebloq.com/news/ikea-throws-shade-at-tesla-with-safe-and-affordable-flying-car",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Tesla 剛發表會「飛」的 Roadster 概念車，預約押金據說要 50 萬美元、最快 2028 年才交車，IKEA 台灣立刻在 Instagram 回應：用 12.99 美元的 Lillabo 玩具車組加一條 Brokglim 浴巾，拼出「安全、平價」的家用版飛天車，還模仿 Tesla 的貼文寫「Real life, baby」。文章稱讚 IKEA 的行銷團隊反應快、梗接得自然，而且完全沒偏離品牌核心：平價、居家、給一般人用。這是在地團隊做即時行銷的好案例，重點不在搞笑，而是用自家產品把對方的「炫」翻轉成自己的「實在」。對工作室的啟發：品牌語氣定得夠清楚，第一線團隊才敢在 24 小時內接熱點而不走鐘。"
+        }
+      ],
+      "buzz": "Brand 圈這 48 小時圍繞著「品牌的內外一致」：從 Sunlife 因業務擴張而改名，到日本顧問勸客戶先整理內部再改網站，都在說識別要跟上真實的自己。Pentawards 則把焦點放在把品牌資產做進包裝結構，GTA 6 和 IKEA 台灣的例子則提醒：主視覺和品牌語氣要經得起不同場景的延展與即時應變。"
+    },
+    "highlights": {
+      "summary": [
+        "真正決定體驗好壞的",
+        "外面再漂亮也只是鍍金",
+        "先問清楚內部準備好了沒"
+      ],
+      "product": [
+        "AI 和產品背後的規則",
+        "好體驗取決於產品的預設邏輯"
+      ],
+      "brand": [
+        "品牌的內外一致",
+        "識別要跟上真實的自己",
+        "把品牌資產做進包裝結構"
+      ]
+    }
+  },
+  {
     "date": "2026-10-17",
     "daily_summary": "今天兩圈的共同關鍵字是「判斷力」：Product 圈從 NN/g 的合成使用者實驗到 Smashing 的 AI 導入長文，都在說 AI 讓速度變快，但決定什麼值得留下的還是人。Brand 圈則有 Design Bridge and Partners 創意長提醒「人們不信任完美的系統」，Just Eat 也放下名人改講生活小確幸。對工作室最實用的一句話：AI 導入是變革管理，不是裝軟體，這正好是顧問能切入的服務。",
     "jenny_wen": {
@@ -1032,112 +1154,6 @@
         }
       ],
       "buzz": "今天的案例都圍繞著「怎麼把限制或張力轉化成創作優勢」這個主題:Studio Tyrrell 把 Manta 巧克力「原料很少」這個看似的限制,變成整套識別的核心優勢;Studio Kiln 從康瓦爾搬到倫敦的故事則提醒我們,決定該怎麼安排工作室的樣貌,終究該從團隊真正的需求出發,而不是外在的壓力或潮流。Counter-Print 的新書則證明,周邊商品只要被當成策略來設計,就能變成品牌識別最有記憶點的延伸;Gabriel Abascal 和 Igor Bastidas 這兩位創作者,則不約而同示範了同一件事——不管是處理個人的移民記憶,還是別人的日常糾紛,找到情感底下真正的核心,永遠比視覺技巧本身更重要。"
-    }
-  },
-  {
-    "date": "2026-09-03",
-    "daily_summary": "今天 Product 和 Brand 圈都圍繞著「當 AI 開始自己動手做事,人的判斷力該放在哪裡」這個問題——從工程師不再是唯一能說「可不可行」的人、到 agentic 畫布重新定義誰在掌控局面,再到 TWA 誠實面對 AI 插畫系統背後仍需要的人工把關,今天的重點是:執行變得愈來愈廉價,但誠實的判斷、克制、和深度研究,才是真正拉開差距的地方。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "AI took away engineering's right to say no",
-          "url": "https://uxdesign.cc/ai-took-away-engineerings-right-to-say-no-839b9b6256f2",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Dan Maccarone 主張,工程師過去的權威,並不是來自他們知道答案,而是來自「只有他們能讓東西真正被做出來」這個壟斷地位——當工程師說一件事很難、或需要多久時間,沒有人能反駁,因為只有他們掌握把想法變成現實的能力。他以「vibe coding」這個現象當核心論據:AI 研究者 Andrej Karpathy 提出的這種工作方式——把想要的東西描述給 AI 聽、接受它給出的結果、幾乎不去看程式碼本身、然後一個能動的東西就這樣出現了——在他提出概念僅僅九個月後,就被 Collins 字典選為年度詞彙,象徵這個轉變有多快。Maccarone 強調,AI 並沒有動搖工程師真正擁有的專業知識,但它終結了工程師「唯一能判斷什麼可行」的守門人地位——現在幾乎任何人都能生成看起來能動的程式碼,讓「這件事做不做得到」不再是工程師說了算的問題。對設計工作室的啟發是:當技術實作的門檻消失,團隊裡真正稀缺、也最該被重新看重的,會是判斷「這件事該不該做、做得好不好」的能力,而不是「能不能做出來」。"
-        },
-        {
-          "title": "How Coinbase used Code Connect to guide agents and shrink token costs",
-          "url": "https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 分享了 Coinbase 設計系統團隊做的一項對照實驗:用完全相同的設計稿、prompt、和模型(Claude Sonnet 3.5),測試 Code Connect(把 Figma 元件對應到程式碼元件的工具)能不能改善 AI 代理人生成程式碼的品質。結果顯示,搭配 Code Connect 之後,token 用量減少 11.5%、實作時間縮短 22.3%、整體成本降低 22.5%,而且每一輪測試都一致有進步。最關鍵的發現是元件選擇的準確度:有了 Code Connect,代理人會穩定選對正確的元件(就算是像 Stepper、ListCell 這種複雜元件),而不是從最基本的元素重新兜出一個相似的東西;團隊原本遇到的「代理人自己捏造插圖和圖示名稱」這個問題,在完整導入 Code Connect 之後完全消失。Coinbase 團隊用自動化流程,在四小時內就把數百個元件遷移完成。對設計團隊的實際啟發是:與其把 Code Connect 當成可有可無的加分項,不如把它當成基礎建設來投資——當模型能力愈來愈強,乾淨的上下文會變成對抗 AI 幻覺最重要的優勢。"
-        },
-        {
-          "title": "What Minority Report got right about AI",
-          "url": "https://uxdesign.cc/what-minority-report-got-right-about-ai-45b9f1106431",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 指出,《關鍵報告》裡「少數派報告」發生的情境——三個先知中有一個看到不同的結果,系統把這個不同意見藏起來,只呈現一個乾淨俐落的單一結論——這個壓制異議的過程本身,就是一個設計決策,而且精準預言了我們現在還在犯的錯。他提出的核心論點是:一個設計該有多少「摩擦力」,應該對應到你對這個 AI 生成結果有多少信心——一封等你確認才送出的草稿,錯了也沒什麼代價,但一次逮捕行動,錯了就是災難。他主張,解方不是限制 AI 的能力,而是刻意加入摩擦:把模型原本猶豫不決的兩個答案都攤開來給人看,讓人親自打字做出這個有後果的決定,而不是輕輕點一下「接受」就結束。Neeman 提醒,這種做法之所以很少真的被做到,是因為「肯定」永遠比「懷疑」上線得快——團隊習慣把信心值無條件往上抓,讓文字語氣暗示出一種模型其實從未真正擁有的篤定感。對設計師的啟發是:呈現不確定性、把來源攤在答案旁邊、給使用者一個能提出異議的管道,這些都該是高風險 AI 產品設計裡不能省略的步驟。"
-        },
-        {
-          "title": "Behind the build: Generative plugins and shaders at Figma",
-          "url": "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 產品設計師 Rogie King 分享了團隊怎麼打造「生成式外掛和 shader」這項新功能——讓設計師能直接在畫布上,用自然語言請 AI 生成客製的設計能力(像是 3D 渲染、粒子系統、根據滑鼠位置和時間變化的互動效果)。技術上,團隊用 WebGPU 的管線架構把圖形運算隔離在獨立的沙盒環境裡執行,還打造了一套叫 PropsKit 的元件套件,讓代理人能動態生成調整這些 shader 參數的控制介面;產出的程式碼還能直接匯出成 HTML 或 React 格式,方便在其他地方使用。團隊在流程上也做了明顯的取捨:他們捨棄了傳統的 PRD 文件和正式評圖,改成每週 demo 和快速做原型;King 提到,「用 vibe coding 做出來的原型,對設計師來說是很好用的溝通工具」,但團隊發現跟利害關係人對齊方向時,靜態的 mockup 反而更有效,等要驗證解法可不可行時才切回真正能跑的程式碼。整個專案只有兩個月時間趕上 Config 2026 大會,團隊被迫簡化色彩調色盤控制、砍掉一些功能才如期上線。對設計團隊的啟發是:快速迭代往往比完美規劃更能溝通願景,而設計師親自寫程式碼、直接跟工程師一起提交 PR,能大幅減少交接的摩擦成本。"
-        },
-        {
-          "title": "When the canvas starts acting, who's really in control?",
-          "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Aurélie Radom 指出,介面過去的運作邏輯一直是:人透過點擊、拖曳、輸入、選取來告訴系統該做什麼,系統再被動回應——但隨著「能主動行動的畫布」(agentic canvas)出現,這個關係正在翻轉。這種新一代的工具,能把散落在不同軟體裡的脈絡資訊整合到同一個地方,然後不需要一步一步下指令,就能自己動手執行任務。她主張,這代表 UX 設計裡幾條奉行已久的經典原則——像是系統狀態的可見性、「辨識優於回想」、使用者的控制感和自由度、錯誤預防——現在都必須被重新檢視和設計,因為當系統自己會做事之後,「誰才是真正在掌控局面的人」這個問題,不再有理所當然的答案。對設計師的實際啟發是:在打造 agentic 產品時,不能只是把舊有的互動設計原則原封不動套用上去,而要重新思考,當系統主動介入時,該怎麼讓使用者依然感覺自己保有主導權。"
-        }
-      ],
-      "buzz": "今天的文章都圍繞著同一個問題:當 AI 開始自己動手做事,「誰還握有主導權」該怎麼被重新定義。Dan Maccarone 提醒我們,AI 拿走的不是工程師的專業知識,而是他們「唯一能判斷可不可行」的守門人地位;Aurélie Radom 則指出,當畫布自己會行動,UX 設計裡幾條奉行已久的經典原則都得重新檢視。Patrick Neeman 從《關鍵報告》延伸出一個很實用的設計原則:摩擦力該對應到你對 AI 生成結果的信心程度,愈高風險的決定,愈需要刻意增加一點阻力。Figma 自己的兩篇文章則從實作面給出佐證——Coinbase 的案例證明,乾淨的元件上下文能大幅降低 AI 產出的幻覺和成本;Figma 內部打造生成式 shader 工具的過程,也證明快速原型比完美規劃更能對齊團隊方向。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "I questioned TWA's use of AI illustration in a branding project: here's their fascinating response",
-          "url": "https://www.creativeboom.com/insight/i-questioned-twas-use-of-ai-illustration-in-a-branding-project-heres-their-fascinating-response/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章是上週 Untold 語音日記 app 重新設計報導的後續——作者 Tom May 直接質疑設計工作室 The Working Assembly(TWA)為什麼在品牌案裡選擇用 AI 插畫,而不是委託真人插畫家。TWA 創辦人 Jolene Delisle 給出的回應相當坦誠:這個決定完全不是為了省錢,而是因為他們需要一套「能隨著使用者情緒動態回應、並隨著使用行為演化」的插畫系統,這是任何固定的插畫素材庫都做不到的。她解釋整個流程是先從真人繪製的視覺參考出發,再「打造一個有嚴格規則框限的客製 AI 代理人」,而不是單純對圖像生成器下 prompt——團隊花了大量時間反覆調整質地、色調、光線、構圖,全程維持人類的創意主導權。Delisle 也坦承這件事本身存在的張力:「我懂那種矛盾——像聲音這麼私人的東西,被一台機器視覺化詮釋」,並強調這不代表工作室貶低插畫家的價值,TWA 平時仍固定委託傳統插畫師接案。對設計工作室的啟發是:AI 工具真正有意義的用法,是拿來解決具體的問題,而不是單純省成本——而且成功與否,終究取決於人類創意方向的把關和反覆篩選,而不是技術本身的能耐。"
-        },
-        {
-          "title": "Should you rebrand yourself this September, or just hold your nerve?",
-          "url": "https://www.creativeboom.com/tips/should-you-rebrand-yourself-this-september-or-just-hold-your-nerve/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章直接點出九月總會讓創作者萌生「想要重塑自己」的衝動,但作者提醒,重新做品牌很多時候其實是一種逃避,而不是真正的策略——關鍵在於分辨清楚:你是真的成長、需要新方向來承載,還是在逃避一件讓你害怕的事(像是主動去接觸潛在客戶、開口談案子)。文章建議自問一個核心問題:「我是因為自己已經進化了才想換方向,還是在逃避某件讓我害怕的事?」創作者通常比觀眾更早對自己的品牌感到厭倦,而很多知名的重塑案例後來都被打回原樣,這都在提醒我們改變常常下得太早。如果真的想調整,文章建議採取風險較低的實驗性做法:先從更新簡介開始、把新方向拿來跟現有作品並陳測試、給自己幾個月觀察反應再做決定,或者乾脆用一個副品牌或化名去實驗,不去驚動現有的客戶關係。文章最後提醒:「不管做哪個決定都有風險。維持現狀,你冒著停滯不前的風險;改變,你可能會失去一些追蹤者和客戶。」對接案者的啟發是:動手改版之前,先誠實檢查自己是不是在解決一個真實的商業問題,還是只是在逃避不舒服的接案雜事。"
-        },
-        {
-          "title": "Vuokko Aro and Coral Garvey on Monzo's design-led move into the mainstream",
-          "url": "https://www.itsnicethat.com/features/in-house-monzo-vuokko-aro-coral-garvey-creative-industry-020926",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇專訪找來 Monzo 的首席設計長 Vuokko Aro(2017 年加入至今)和創意總監 Coral Garvey(2024 年加入),談這間曾經是新創挑戰者的金融科技公司,如何在成長到超過 1600 萬名用戶、變得愈來愈主流的同時,依然守住設計上的堅持。Monzo 的做法把行銷設計和產品設計整合成同一個團隊、由一致的領導方式統籌,避免設計淪為「純執行的交付部門」;Aro 強調:「我見過設計變成純粹交付功能之後會發生什麼事。我們是平等的夥伴,是合作關係,不是交付部門。」品牌裡像招牌珊瑚橘色這種核心元素、情感連結、以顧客為中心的堅持維持不變,但視覺規範本身保有彈性,允許持續演化;使用者研究、社群論壇、和社群意見回饋,則同時餵養產品和創意兩邊的決策。Garvey 補充:「同理心是關鍵。你要能說出引起共鳴的故事,也要能傾聽不同的意見。」對設計師的啟發是:在團隊裡建立心理安全感、用協作而非權威的方式領導,同時把自己獨特的價值主張磨利,但也務實地對齊組織整體的目標。"
-        },
-        {
-          "title": "Optical Arts is a design studio that deals in optical illusions, in-camera worlds and unobvious choices",
-          "url": "https://www.itsnicethat.com/articles/optical-arts-advertisements-and-idents-film-animation-project-020926",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "倫敦的 CGI 與動態設計工作室 Optical Arts,替 Apple、Channel 4、Nike、Dyson 等大品牌打造電視台形象包裝、廣告、和實驗性的動態作品,擅長打造視覺錯覺和「實拍式」的世界。創意總監 Fabrice Le Nezet 和 Joe Jackson 的做法是把實體拍攝和數位技術結合——盡量用真實的物件、玻璃、和燈光在鏡頭前直接拍出效果,再進到後製階段細修,而不是完全仰賴電腦生成。他們刻意從自動化倉庫、微距攝影、古典繪畫、科學攝影這些「非設計」的意外來源找靈感,避免作品變得像是演算法生成的老套視覺。Fabrice 強調:「設計和燈光才是我們創作真正的骨幹」,Joe 也補充:「每個元素的存在都要有理由;鏡頭運動是用來凸顯,不是用來遮掩。」談到跟 Channel 4 的合作,Fabrice 說:「不同聲音和風格的並置,正是這個專案美麗的地方。」對設計工作室的啟發是:多去研究一些表面上「不美」的素材、擁抱簡單而不是一味堆疊複雜、並且給自己足夠的時間做研究和實驗——刻意的節制,往往比不斷的視覺刺激更有力量。"
-        },
-        {
-          "title": "Darius Ou on building type systems from sci-fi, linguistics and G-code",
-          "url": "https://www.creativeboom.com/inspiration/darius-ou-on-building-type-systems-from-sci-fi-linguistics-and-g-code/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "新加坡設計師 Darius Ou 把字體設計當成一種根植於深度研究的概念語言,而不是表面的美學選擇——他會先徹底鑽研一個題目的文學、科學、或技術脈絡,再讓字體去體現這個專案真正的內核。他替一場展覽設計的字體,靈感來自娥蘇拉・勒瑰恩的短篇小說《The Author of the Acacia Seeds》,刻意打破「以人類為中心」的排印慣例,還替這套字體編寫了一整套虛構的設定,去解釋每一個設計決定背後的邏輯。他的作品《Manual》是一本 3D 列印書籍,直接把印表機的 G-code 指令嵌進書本實體裡,讓排印本身和生產方式再也分不開;另一件作品《As above, so below》則用連接不同行文字的垂直連字,在文本內部創造出一種建築式的空間關係——他的 Hyperpress 系列書籍已經有六本被新加坡美術館和 V&A 博物館典藏。Ou 說:「我一定會透過閱讀、研究、或親身體驗,徹底鑽研題目本身。」對設計師的啟發是:這種先深入調查、再讓形式從內容裡自然長出來的做法,能把單純的功能性設計,轉化成一種概念性的敘事,讓觀者也能感受到當初驅動這個作品誕生的那份好奇心。"
-        }
-      ],
-      "buzz": "今天的案例都在回應同一個問題:當 AI 能做的事愈來愈多,品牌和設計師該怎麼證明「人的判斷」依然不可取代。TWA 對 AI 插畫的回應示範了一個誠實的立場——AI 系統要真的動人,還是得靠人類全程把關創意方向;「該不該重塑品牌」這篇則提醒接案者,九月常見的重塑衝動,很多時候是在逃避真正該面對的商業問題。Monzo 的專訪則說明,就算公司規模擴大到主流市場,設計依然可以是平等的策略夥伴,而不是交付功能的部門;Optical Arts 和 Darius Ou 這兩個創作者案例,則不約而同示範了同一件事——刻意的節制、和願意花時間深入研究非顯而易見的靈感來源,才是讓作品脫穎而出的關鍵。今天 Product 和 Brand 兩邊的默契依然一致:AI 讓執行變得更容易,但真正的判斷力、創意方向、和誠實面對自己動機的能力,才是稀缺的東西。"
     }
   }
 ]
