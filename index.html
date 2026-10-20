@@ -206,6 +206,33 @@
     .podcast-body h3 a:hover { color: var(--accent); text-decoration: none; }
     .podcast-body p { font-size: 13.5px; color: var(--muted); line-height: 1.6; }
 
+    /* ── 品牌經營案例 ── */
+    .case-card { padding: 20px 22px; margin-bottom: 12px; }
+    .case-title { font-size: 16px; font-weight: 700; line-height: 1.45; letter-spacing: -.01em; }
+    .case-title a { color: var(--text); }
+    .case-title a:hover { color: var(--accent); text-decoration: none; }
+    .case-title-zh { font-size: 13.5px; color: var(--muted); margin-top: 2px; }
+    .tag-cat { background: #F3EEFF; color: #6D28D9; }
+    .case-note { font-size: 12px; color: #B45309; margin-top: 8px; }
+    /* 四段故事：原本的問題 → 顧問怎麼做 → 結果 → 工作室可以學什麼 */
+    .case-story { display: grid; gap: 10px; margin-top: 14px; }
+    .case-story-item { border-left: 2px solid var(--border); padding-left: 12px; }
+    .case-story-label { font-size: 11px; font-weight: 700; letter-spacing: .06em; color: var(--muted); margin-bottom: 2px; }
+    .case-story-item p { font-size: 14px; line-height: 1.7; }
+    .case-story-item.takeaway { border-left-color: #6D28D9; }
+    /* 逐段導讀：預設收起 */
+    .case-guide { display: none; margin-top: 16px; padding-top: 16px; border-top: 1px dashed var(--border); }
+    .case-guide.expanded { display: block; }
+    .case-guide h4 { font-size: 14px; font-weight: 700; margin: 18px 0 6px; }
+    .case-guide h4:first-child { margin-top: 0; }
+    .case-guide p { font-size: 14px; line-height: 1.8; color: #33332F; }
+    .case-quote {
+      margin-top: 8px; padding: 8px 12px; background: var(--bg); border-radius: 6px;
+      font-size: 13px; line-height: 1.7; color: var(--muted);
+    }
+    .case-quote .ja { color: var(--text); display: block; }
+    .case-card .expand-btn { padding-left: 0; margin-top: 12px; }
+
     /* ── Empty State ── */
     .empty-state { padding: 40px 0; text-align: center; color: var(--muted); font-size: 14px; }
 
@@ -238,6 +265,14 @@
     const btn = document.getElementById(id + '-btn');
     const expanded = el.classList.toggle('expanded');
     btn.textContent = expanded ? '↑ 收起' : '↓ 展開完整重點';
+  }
+
+  // 品牌案例的逐段導讀：展開／收起
+  function toggleGuide(id) {
+    const el  = document.getElementById(id);
+    const btn = document.getElementById(id + '-btn');
+    const expanded = el.classList.toggle('expanded');
+    btn.textContent = expanded ? '↑ 收起導讀' : '↓ 展開逐段導讀';
   }
 
   // ── 日期格式化：2026-05-14 → 5/14
@@ -340,6 +375,52 @@
       html += `<div class="buzz"><div class="buzz-label">業界聊什麼</div><p>${brand.buzz}</p></div>`;
     }
     html += `</div>`;
+
+    // 品牌經營案例（舊資料沒有這個欄位就不顯示）
+    if (data.brand_cases && data.brand_cases.length) {
+      html += `<div class="section">`;
+      html += `<div class="section-title">品牌經營案例</div>`;
+      data.brand_cases.forEach((c, i) => {
+        const gid = `c-${i}`;
+        const s = c.story || {};
+        // 四段故事
+        const storyParts = [
+          ['原本的問題', s.problem, ''],
+          ['顧問怎麼做', s.approach, ''],
+          ['結果', s.result, ''],
+          ['工作室可以學什麼', s.takeaway, 'takeaway'],
+        ].filter(p => p[1])
+         .map(p => `<div class="case-story-item ${p[2]}"><div class="case-story-label">${p[0]}</div><p>${p[1]}</p></div>`)
+         .join('');
+        // 逐段導讀：每段有小標、內容，可附日文原句＋中譯
+        const guide = (c.guide || []).map(g => `
+          <h4>${g.heading}</h4>
+          <p>${g.body}</p>
+          ${g.quote_ja ? `<div class="case-quote"><span class="ja">「${g.quote_ja}」</span>${g.quote_zh || ''}</div>` : ''}
+        `).join('');
+        // 來源列：媒體、語言、分類、發表時間、品牌／顧問
+        const meta = [c.published, c.brand_name, c.consultant ? `顧問：${c.consultant}` : '']
+          .filter(Boolean).map(t => `<span class="article-source">· ${t}</span>`).join('');
+
+        html += `
+          <div class="card case-card">
+            <div class="case-title"><a href="${c.url}" target="_blank">${c.title}</a></div>
+            ${c.title_zh ? `<div class="case-title-zh">${c.title_zh}</div>` : ''}
+            <div class="article-source-row">
+              <span class="article-source">${c.source}</span>
+              ${langTag(c.lang || '日文')}
+              ${c.category ? `<span class="tag tag-cat">${c.category}</span>` : ''}
+              ${meta}
+            </div>
+            ${c.partial ? '<div class="case-note">※ 付費文章，導讀僅根據公開部分</div>' : ''}
+            <div class="case-story">${storyParts}</div>
+            ${guide ? `
+              <div class="case-guide" id="${gid}">${guide}</div>
+              <button class="expand-btn" id="${gid}-btn" onclick="toggleGuide('${gid}')">↓ 展開逐段導讀</button>` : ''}
+          </div>`;
+      });
+      html += `</div>`;
+    }
 
     // Lenny's Podcast
     if (lenny && lenny.has_content) {
