@@ -1,5 +1,184 @@
 [
   {
+    "date": "2026-10-22",
+    "daily_summary": "今天 Product 圈一直在問同一件事：AI 讓「做出來」幾乎免費，但「判斷好不好」沒有變便宜，創業者和設計師都得重新證明自己的價值在哪。Brand 圈則出現兩個有趣的方向：Apple Music 真的用聲音「塑形」出新 logo，製作公司 To Be Formed 乾脆把混亂做進識別。品牌經營案例今天看北海道老店サザエ食品，西澤明洋怎麼陪它把商品砍到剩三分之二，只守住おはぎ和おむすび。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "A founder with a tool is not a founder with a clue",
+          "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "作者 Dan Maccarone 反駁創投圈正流行的說法：「創業者自己用 AI 做不出產品就不該創業，找設計公司或外包代表你不懂自己的產品」。他的核心論點是 AI 讓「做出東西」的成本趨近零，但「判斷做得好不好」的成本一點也沒降，週末 vibe-code 出一個 app，只證明你很會週末 vibe-code。他引用研究指出，單人創辦人只有在本身具備深厚產品打造經驗時，才能跟團隊打平；並用自己 1999 年在 iXL 把 40 人專案砍成 8 位專精者、反而順利上線的經驗，說明小而專的團隊才是解法。對工作室的啟發：AI 時代客戶不缺「做出來」的能力，我們真正要賣的是判斷力，提案時要把這件事講清楚。"
+        },
+        {
+          "title": "AI doesn’t care about your job title",
+          "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 認為 AI 對你的衝擊取決於每週實際在做的任務，而不是職稱。他引用 OpenAI 與賓州大學的研究：80% 的美國工作者至少有一成任務會受影響，19% 至少一半。判斷方法很實用：一項任務如果能用兩句話說清楚、而且檢查比做還快，就是高曝險。他建議列出一週內超過 30 分鐘的任務逐項打分，每週把一小時從高曝險任務挪到決策、利害關係人溝通或接觸使用者，並把作品集案例改寫成「我做了哪些取捨」而不是「我畫了什麼」。"
+        },
+        {
+          "title": "The Trust Gap: Why AI Adoption Will Be Won or Lost on How Systems Signal Uncertainty",
+          "url": "https://medium.com/design-bootcamp/the-trust-gap-why-ai-adoption-will-be-won-or-lost-on-how-systems-signal-uncertainty-9a7db2c0c06e",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "有 22 年企業產品設計經驗的作者指出，AI 產出最大的問題不是會錯，而是「每句話看起來都一樣可信」，讓使用者找不到懷疑的施力點。他舉例：團隊拿 AI 合成的 persona 問卷開會，格式看起來像真研究，大家直接跳到決策，幾週後訪談真人才發現漏掉的重點。他區分兩種信任結構：企業用戶要能追溯資料從哪來，一般消費者則看來源權威，同一套信心呈現無法同時滿足兩者。他主張「信心 UI」應該成為獨立的設計功課，而且歐盟 AI 法第 50 條已要求 AI 生成內容必須清楚標示，不能藏在頁尾。"
+        },
+        {
+          "title": "Claude Duet is beautiful. I still forgot to use it",
+          "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+          "source": "Lenny's Newsletter（How I AI）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "How I AI 主持人 Claire Vo 實測 Anthropic 新推的個人代理 Claude Duet，用它處理信箱、Slack、業務 pipeline、簡報，甚至幫小孩找球賽門票。她說這是看過最精緻的代理產品，入門流程、任務清單、頻道設計都很好，但用了一陣子還是忘了打開它。原因是 Duet 從不主動找她、回應延遲讓即時協作很煩，也還沒有桌面版和多人協作。給設計師的提醒：精緻只是門檻，主動性和速度才決定使用者會不會回來。"
+        },
+        {
+          "title": "Design v ADHD",
+          "url": "https://uxdesign.cc/design-vs-adhd-4411c3b81d1b",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者 Kristian Mikhel 是研究無障礙的博士生，本身也有 ADHD。他認為常見的「ADHD 友善設計」建議，例如減少雜訊、簡化資訊架構，根本沒碰到問題核心；真正的問題是整個網路被靠搶注意力賺錢的商業模式塑造，他從 1990 年代彈出式廣告的發明一路講起。他指出只要成長優先於照顧使用者，無障礙就會永遠被放在 backlog 最底層。對設計師的啟發：替神經多樣性使用者設計不只是調整介面，而是要敢挑戰產品背後的商業誘因。"
+        }
+      ],
+      "buzz": "這兩天的文章幾乎都在講 AI 之後「人還剩什麼」：答案不是職稱，而是判斷力，也就是知道該不該做、哪裡不對、什麼時候該懷疑 AI。另一條線是 AI 產品本身怎麼設計：代理太被動會被遺忘，信心一律滿格會讓人無從懷疑，「讓人知道 AI 有多確定」正在變成一門新的設計功課。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Apple Music unveils new design rebrand, with logo ‘made by sound’",
+          "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound",
+          "source": "9to5Mac",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Apple 10 月 21 日正式發表 Apple Music 新識別，主軸是「made by sound」：新 logo 不是在電腦上畫的，而是請 Fred again.. 和 NEST Acoustics 做了一段原創音樂，用聲音實際塑形，全程用攝影機實拍。這延續了 2025 年 11 月 Apple TV 改版的實拍手法，Apple 自己的總結是「just music, made visible」，新面貌會隨 iOS 27.2 上線。值得看的是品牌怎麼把「服務本身是什麼」直接變成生成視覺的方法，而不是另外找一個象徵物來代表它。"
+        },
+        {
+          "title": "The brand for Lance Oppenheim’s production company has chaos built in",
+          "url": "https://www.itsnicethat.com/articles/tbf-day-job-graphic-design-project-211026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "洛杉磯工作室 Day Job 替導演 Lance Oppenheim 的製作公司 To Be Formed 做識別。Oppenheim 的作品遊走在虛構與紀實之間，Day Job 共同創辦人 Rion Harmon 說目標是做出「說不清楚是什麼」的東西。主字標混用粗重字形和粗細、x 高度都不一的書法字母，看起來像還在成形；團隊另外做了約 20 個副字標，有些在諷刺企業媒體文化，網站則用每部片的紀念物當導覽。連公司名都是原本的暫定名，因為像他的片沒有固定劇本就留下來了；Harmon 認為把混亂做進識別裡，持續變化的表現本身就會成為品牌資產。"
+        },
+        {
+          "title": "Rosemaund brings a Guy Ritchie flavour to English whisky",
+          "url": "https://www.creativereview.co.uk/rosemaund-english-whisky-branding-guy-ritchie-the-gentlemen/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國 Herefordshire 的 Rosemaund 蒸餾廠推出英格蘭單一麥芽威士忌，背後是 Tyrrells 洋芋片和 Chase 蒸餾廠的創辦人，Guy Ritchie 的 Netflix 影集《The Gentlemen》裡也出現這個品牌。識別由內部團隊操刀，方向是「讓品牌只可能來自這裡」：字標和字體系統取自蒸餾廠建築的比例，玫瑰徽章呼應英格蘭傳統，色彩取自紅土、綠地和蘋果園，標籤用蘋果廢料製成。發表時機剛好碰上英格蘭威士忌取得地理標示保護，策略是建立英格蘭自己的身分，而不是模仿蘇格蘭威士忌。"
+        },
+        {
+          "title": "Why self-publishing pays off: No Ideas studio on the journey behind building their own imprint",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-no-ideas-201026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "布魯克林設計工作室 No Ideas 在 Nicer Tuesdays 分享兩本代表作：Erik Carter 的《Design Harder》和 Figma 2026 Config 特刊。重點是他們冒險成立自己的出版品牌 Book Ideas，結果反而帶來更大的案子，也讓工作室直接擁有自己的讀者。創辦人 Philip DiBello 的總結是「If you build it, they will come」。文章沒有提供營收或印量數字，但對工作室是很清楚的訊號：自己發起的作品，可以變成接案的入口。"
+        },
+        {
+          "title": "Anime and the future of creativity",
+          "url": "https://www.creativereview.co.uk/anime-creativity-ai-territory-design/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Territory Studio 藝術總監 Erich Nemcek 從日本動畫的「作畫」（sakuga）文化切入：粉絲能從動作認出是哪位原畫師，還會逐格討論場景，就像影迷討論攝影師。他的論點是最讓人記住的作品通常不是最貴、最精緻的，而是有「活著的感覺」的瞬間，例如一個變形的表情或一個怪異又具體的動作，並以宮崎駿《起風了》為例。在自動化越來越主導創作的時候，他認為人手的存在可能比以往更重要；放到品牌設計上，就是獨特的手感細節會越來越值錢。"
+        }
+      ],
+      "buzz": "Brand 圈今天的作品都在找只屬於自己的來源：Apple Music 讓真實的聲音塑形 logo，Rosemaund 威士忌從蒸餾廠建築長出字體，To Be Formed 從「名字還沒定」的狀態長出一套會變的識別。另一個聲音是，在 AI 量產的時代，看得見人手的痕跡反而更值錢，工作室自己出書、經營讀者也成了接大案的方法。"
+    },
+    "highlights": {
+      "summary": [
+        "「判斷好不好」沒有變便宜",
+        "把混亂做進識別",
+        "把商品砍到剩三分之二"
+      ],
+      "product": [
+        "答案不是職稱，而是判斷力",
+        "「讓人知道 AI 有多確定」正在變成一門新的設計功課"
+      ],
+      "brand": [
+        "只屬於自己的來源",
+        "看得見人手的痕跡反而更值錢"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "ブランドとしての「約束と生き様」を決めた2年間のリブランディングプロジェクト",
+        "title_zh": "決定品牌「承諾與生存姿態」的兩年品牌再造計畫",
+        "url": "https://www.sazae.co.jp/specialty/interview/rebrandingproject/",
+        "source": "サザエ食品「つくり手の想い」",
+        "lang": "日文",
+        "published": "2024",
+        "category": "盤點整理",
+        "brand_name": "サザエ食品（北海道おはぎ・おむすび老店）",
+        "consultant": "西澤明洋（エイトブランディングデザイン）",
+        "partial": false,
+        "story": {
+          "problem": "サザエ食品是北海道做おはぎ（萩餅）、おむすび（飯糰）等和菓子與熟食的老店，東西好吃，但商品線越拉越廣，在設計上跟超市裡的其他商品看不出差別。2020 年剛上任不久的社長石水創覺得，公司缺少「會讓人想轉述給別人聽」的品牌概念和策略。",
+          "approach": "石水創因為認同西澤明洋書裡「品牌是傳話遊戲」這句話而找上他，雙方花約 2 年，從經營策略一路做到商品企畫、品牌概念、logo、店面和網站。第一刀是砍商品：西澤指出品項太廣，社長先平等地聽員工意見，確認大家也覺得太雜，才決定只守住おはぎ和おむすび兩根主軸，品項縮到原本約三分之二。概念「手のひらに、想いをのせて。」很快定案；logo 則選了連西澤都反問「真的要這個嗎」的大膽幾何設計，社內意見分歧時，由社長親自說明「非變不可」後拍板。",
+          "result": "2024 年 10 月底發表創業以來第一次品牌再造。店面統一基調色、重調照明，陳列只聚焦兩大主力，西澤表示店面改造已實際帶動業績；同時推出經過 3 次試賣的スティックおはぎ（棒狀萩餅），赤飯也改用自家小豆煮汁上色、拿掉色素。",
+          "takeaway": "第一，品牌再造的第一刀常常是商品收斂，而且讓老闆先聽員工的聲音，砍品項才有內部共識。第二，顧問提出大膽方案時，要問清楚「你真的要嗎」，最後的拍板和對內說服必須由老闆來扛。第三，西澤把發表定位成「起點」並持續陪跑展店，這是把一次性專案變成長期合作的好模式，隅室接案時可以直接把「發表後陪跑」寫進提案。"
+        },
+        "guide": [
+          {
+            "heading": "從一句話開始的委託",
+            "body": "2020 年 2 月，サザエ食品社長石水創在福岡一場經營者會議上第一次見到西澤明洋。讓他決定委託的，是西澤書中「ブランディングは伝言ゲームである」（品牌是一場傳話遊戲）這句話：石水覺得當時的サザエ雖然有好商品，卻沒有一個讓人想轉述給別人聽的品牌概念和策略。西澤第一次在北海道買來吃，驚訝每樣都好吃，但包裝設計跟超市架上其他商品沒有區別，因此判斷這個品牌的潛力很大。專案範圍從經營策略、商品企畫、品牌概念、logo、店面到網站，前後約 2 年，2024 年 10 月底對外發表，是サザエ創業以來第一次品牌再造。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "第一刀：只守住おはぎ和おむすび",
+            "body": "西澤看完整體商品後，第一個意見是「品項拉得太廣了」。石水其實也有同樣的感覺。他當時上任不久，所以刻意用平等的姿態聽員工意見，結果發現很多員工也認為商品太雜。最後決定以おはぎ（萩餅）和おむすび（飯糰）為主軸，其他收斂，品項變成原本約三分之二。西澤形容這是「相當大膽的收斂」；石水則坦言這是一個伴隨營收下滑風險的經營判斷。值得注意的順序是：先決定賣什麼、不賣什麼，後面的概念和設計才有東西可以站。",
+            "quote_ja": "サザエにとって守るべき存在であるおはぎとおむすびの軸だけはぶらさないように、絞り込むことを決めました。",
+            "quote_zh": "我們決定收斂品項，唯獨おはぎ和おむすび這條對サザエ來說必須守住的主軸，絕對不能動搖。"
+          },
+          {
+            "heading": "概念是承諾，logo 是旗幟",
+            "body": "商品方向一定下來，品牌概念「手のひらに、想いをのせて。」（把心意放在掌心）很快就成形。因為サザエ是在自家門市現做，「手作的美味」這個方向是自然長出來的，石水再把社內意見彙整進去打磨。西澤把品牌設計理解成「約束と生き様」（承諾與生存姿態）：概念是對外的承諾，logo 則是活出這個承諾時舉起的旗幟。他也觀察到，logo 一旦定案，整個專案的溫度就跟著定了。",
+            "quote_ja": "僕はブランディングデザインとは「約束と生き様」だと思っていて、コンセプトはブランドとしての約束を示すものであり、ロゴデザインは生き様を示していく上での旗印となる存在だと考えています。",
+            "quote_zh": "我認為品牌設計就是「承諾與生存姿態」：概念代表品牌的承諾，logo 則是展現生存姿態時的旗幟。"
+          },
+          {
+            "heading": "連顧問都反問「真的要嗎」的 logo",
+            "body": "最後選出的 logo 非常大膽，大膽到西澤本人都回頭確認「真的可以嗎？」社內意見也分成兩派，石水向員工說明「我們非改變不可」之後拍板，他事後回想，如果沒選這個 logo，就不會有現在的品牌再造。這個 logo 只用直線和圓組成，在一片和風收尾的和菓子、熟食品牌裡，刻意表現「創造新東西」的姿態。西澤的設計判斷是：元素削到這麼少的極簡設計不容易被流行淘汰，預期可以用上 10 年、20 年。",
+            "quote_ja": "これだけ要素を削ったミニマルなデザインは時代の流れに左右されないので、今後10年、20年と使っていただけるのではないかと考えています。",
+            "quote_zh": "元素削減到這種程度的極簡設計，不會被時代潮流左右，我想今後可以使用 10 年、20 年。"
+          },
+          {
+            "heading": "讓店面本身變成 logo",
+            "body": "店面陳列只聚焦おはぎ和おむすび，讓整個空間成為 logo 的延伸，西澤表示這已實際反映在業績上。團隊反覆調整照明的色溫和打光角度，讓商品看起來更好吃；原本各店基調色有黑色、紅豆色各不相同，這次全部統一。牆面放上以北海道地形為底、散布商品插畫的作品，刻意不走「老店風」，而是用現代表現傳達北海道代表企業的格調，再搭配 POP 和價格卡統一整體。網站和品牌影片則同時瞄準兩件事：讓更多人認識，以及讓人想來サザエ工作，所以拍攝時請門市和工廠的員工一起入鏡。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "發表只是起點：新品與文化",
+            "body": "品牌再造後誕生了兩種新品：回歸原點的「とみのおはぎ」，以及發明型的「スティックおはぎ」（棒狀萩餅），後者為了解決製作時間等現場作業問題，做了 3 次試賣才正式上架。北海道的赤飯習慣加甘納豆，是喜慶日子的特別食物文化，石水認為守住它是サザエ的使命，於是把原本使用色素的做法，改成用集團旗下十勝製餡煮小豆剩下的湯汁上色。石水希望在公司裡建立「每年推出一個新品」的文化；西澤則表示會繼續陪跑之後的店面翻新與展店，並把這次專案定位為起點。",
+            "quote_ja": "今回のリブランディングプロジェクトはあくまでスタート地点なので、これからきちんとブランドを育てていくことが重要だと考えています。",
+            "quote_zh": "這次的品牌再造專案終究只是起點，接下來好好培育品牌才是重點。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "daily_summary": "今天 Product 圈的關鍵字是「人的注意力」：AI 代理 1 小時能產出人要讀 6 小時的東西，瓶頸從做不出來變成看不完；另一篇則提醒，設計流程能跑多完整，取決於你跟利害關係人之間的信任。Brand 圈則一再出現「從自己身上找答案」：Fulham 從球場牆上的手繪字長出專屬字體，Kuda 從奈及利亞的建築和真實客戶取材。品牌經營案例今天從原點開始：中川政七怎麼把一家借款是營收 1.5 倍的波佐見產地批發商救回來。",
     "jenny_wen": {
@@ -1177,112 +1356,6 @@
         }
       ],
       "buzz": "今天的案例橫跨了職業生涯的轉折、科學傳播、感官敘事、和創作日常:Alan Dye 在關掉經營 29 年的工作室之後,選擇用「喜悅」這個詞,重新定義他眼中好設計該有的樣子;Mucho 替 Biotic 做的識別,則示範了怎麼用最簡單的視覺語言,讓複雜的科學變得容易理解、值得信任。Aesop 的全球香氛裝置,把產品體驗拆解成原料、詮釋、成品三個階段,證明感官體驗本身也能被精心敘事化;Danny Ische 和 Lakshya Bhargava 這兩位創作者,則不約而同示範了同一件事——不管是用鉛筆模仿數位質感,還是用繪畫處理記憶和關係,持續的手感練習和願意暴露過程裡的不完美,才是真正讓作品動人的關鍵。"
-    }
-  },
-  {
-    "date": "2026-09-29",
-    "daily_summary": "今天 Product 圈圍繞著「執行變快之後,設計師的角色和資淺人才的培養該怎麼辦」展開討論,從傑文斯悖論到入門工作被自動化拿走的危機,都指向同一個結論:判斷力愈來愈稀缺;Brand 圈則用 Bulb 對比 Octopus Energy、McLaren 改版爭議、和堅持不用 AI 的 Oh Studio 這幾個案例,反覆證明品牌真正的韌性,終究來自背後扎實的營運能力和誠實的創作態度,而不是表面的視覺魅力。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The strategic designer: navigating the Jevons paradox in the AI age",
-          "url": "https://uxdesign.cc/the-strategic-designer-navigating-the-jevons-paradox-in-the-ai-age-e06aa836f9d8",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Daniel Ruston 主張,設計師的角色正在從「專職執行者」轉變成「策略性的協調者」——因為過去二十年來,「執行」一直是產品設計裡最大的瓶頸,這也是為什麼整個產業會圍繞著專職的執行者來組織團隊;但生成式 AI 正在大幅壓縮執行所需要的時間,AI 工具能快速生出好幾種線框稿的變化版本、彙整研究資料、做出可互動的原型。他用經濟學裡的「傑文斯悖論」來解釋這個現象——英國經濟學家 William Stanley Jevons 在 1865 年觀察到,蒸汽機愈有效率,英國的煤炭用量反而愈高,因為更便宜的動力,找到了更多新的用途;Ruston 主張,同樣的悖論現在正在設計領域上演——執行變得愈快、愈便宜,對設計願景、系統性思考、和人類判斷力的需求反而會增加,而不是減少。對設計師的啟發是:與其擔心 AI 會取代執行工作,不如把心力主動移往策略層級,因為當產出的數量暴增,真正稀缺、也最該被珍惜的能力,會是決定「該往哪個方向走」的判斷力。"
-        },
-        {
-          "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
-          "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 指出,資淺 UX 工作者過去做的那些入門任務——像是逐字稿標記、線框稿初稿、篩選問卷草稿、競品分析——本身的價值從來不是那個「產出」,而是這些工作提供了有人監督的練習機會,讓資淺工作者慢慢培養出判斷力和手感。問題是,自動化正在一項一項拿走這些資淺工作者原本用來學習的練習題:訪談的錄音現在回來時就已經被標記、分類、剪輯好了,沒人需要再親自打開錄音檔;一個 prompt 能在資淺設計師畫出一張草圖的時間裡,生出四種版面配置;招募工具能直接從研究目標生成篩選問卷;AI 模型能自己走一遍競爭對手的操作流程,整理出使用模式的摘要。Neeman 提出七個具體做法,主張要把這些練習機會重新放回工作流程裡,才能延續這個領域真正倚賴的手把手訓練傳統。對設計工作室的啟發是:自動化拿掉的不只是資淺工作者的工作量,更是他們培養判斷力必經的練習場——工作室如果想要留住這個產業的未來人才,得刻意設計新的方式,讓資淺成員還是有機會在真實案子裡練功。"
-        },
-        {
-          "title": "When Should You Disclose AI Use? The PACED Framework",
-          "url": "https://www.nngroup.com/articles/disclose-ai-paced/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Nielsen Norman Group 提出一個叫做「PACED」的框架,幫助創作者決定該不該公開揭露自己用了 AI。這個框架包含五個考量點:政策(Policy)——歐盟 AI 法案從 2026 年 8 月起,已經要求企業在特定情境下必須標示 AI 生成的內容,而「第三方使用 AI」這件事一旦被揭露,往往引發最強烈的負面反應;閱聽眾(Audience)——對科技和 AI 抱持正面態度的讀者,對揭露的反應通常比較溫和,反而是對自己文字有自信的創作者,常常對 AI 輔助內容給出更嚴苛的評價;情境(Context)——愈是私人、創意、或關係導向的內容,一旦被發現用了 AI,評價就愈嚴苛,但像預約提醒這種例行、事務性、純資訊性的訊息,因為本來就不承載人類情感,負面反應就很輕微;期待(Expectations)——使用者普遍想知道別人用了 AI,卻不太願意自己公開承認這件事,這種「揭露悖論」值得創作者留意;AI 涉入程度(Degree)——只是稍微編輯過,跟整篇文章都是生成的,揭露的迫切性完全不同,涉入愈深,愈該考慮透明,但也愈可能引發負評。對設計師和內容創作者的啟發是:揭不揭露沒有一體適用的答案,得依照自己的內容類型和閱聽眾,把效率上的好處,拿來跟可能的信譽風險做權衡。"
-        },
-        {
-          "title": "What it takes to build great products now",
-          "url": "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 產品副總裁 Paige Costello 主張,雖然 AI 讓做原型變快了,但打造真正優秀產品的挑戰,其實藏在三個地方:維持動能一路衝到上線、在下決定之前先探索多個方向、和做出有辨識度的產品——單靠速度並不等於品質。她指出團隊常常在最後 20% 的階段失去動能,因為早期的原型「感覺起來已經像能上線了」,建議依照任務選擇最快的媒介(有時候用視覺化編輯,有時候用程式碼、有時候用 prompt),並把常用的捷徑做成可重複使用的技能和外掛。在探索方向時,她提醒團隊要「先確認邊界案例,再決定方向」——原型要完整跑過錯誤狀態、空白狀態、取消流程這些情境,並用程式碼圖層把多個方向並排比較,主動找同事和 AI 代理人從特定角度給評論。談到差異化,她強調要從一個扎實的設計系統出發,讓 AI 生成的內容自動繼承品牌既有的視覺語言,而不是套用通用的預設樣式;同時要親自在畫面上修飾細節,透過客製的插畫、動態效果、和 shader 為作品注入獨特的表現力,而不是每次都重新下 prompt。對產品團隊的啟發是:AI 讓探索變快了,但真正決定產品好壞的,還是團隊願不願意花心思做深度的比較、和堅持自己的視覺語言。"
-        },
-        {
-          "title": "The next larger context",
-          "url": "https://uxdesign.cc/the-next-larger-context-4dd0c91a7c5b",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Chris Becker 主張,在邁向通用人工智慧的路上,「設計系統化思考」正在變成一件愈來愈重要、卻也愈來愈混亂的事——因為我們現在該設計的範圍,已經不只是介面本身、也不只是產品或 prompt,而是一個更大的脈絡。他舉了一個發人深省的例子:如果 AI 能大量生成行銷郵件,同時也能大量閱讀並回覆這些郵件,那麼整個溝通迴圈的兩端都是 AI 在運作——AI 自己生成內容、自己消費內容、自己用 AI 回應,人類完全被排除在這整個溝通循環之外。他主張,這種現象正在許多數位互動裡悄悄發生,而設計師如果還是只把目光放在單一介面或單一產品上,就會錯過真正該被設計的東西——也就是這整個「人跟系統之間、系統跟系統之間」的更大脈絡。對設計師的啟發是:在 AI 愈來愈普及的環境裡,設計的思考範圍必須主動往外擴張,去檢視整個溝通生態系統裡,人類的角色到底還剩下什麼、又該怎麼被保留下來。"
-        }
-      ],
-      "buzz": "今天的文章都圍繞著「當執行變得又快又便宜,設計師的角色該怎麼往上移」這個主題。Daniel Ruston 用「傑文斯悖論」提醒我們,執行愈有效率,對策略判斷的需求反而愈高;Patrick Neeman 則指出一個更急迫的問題——資淺工作者過去賴以培養手感的練習題,正在被自動化一項一項拿走,整個產業的傳承正面臨斷層危機。Figma 的 Paige Costello 從實作角度給出解方:速度不等於品質,真正的差異化來自願不願意花心思探索方向、堅持自己的視覺語言。NN/g 的 PACED 框架則提供了一個具體的判斷工具,幫助創作者決定該不該揭露 AI 的使用;Chris Becker 的文章則提醒我們,該被設計的範圍早已超越單一介面,而是整個人與系統交織的更大脈絡。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "What makes a brand last?",
-          "url": "https://uxdesign.cc/what-makes-a-brand-last-baf152419576",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Dora Czerna 用英國兩家能源供應商 Bulb 和 Octopus Energy 的對比案例,探討「究竟是什麼讓一個品牌能長久存活」——兩家公司用的都是粉紅色系,語氣都一樣活潑親切、完全不像傳統的公用事業公司。Bulb 早期靠著動畫式的電子郵件和獨特的用語風格,贏得業界的讚賞,2021 年還被英國《金融時報》評選為歐洲成長最快的公司,連英國首相都曾造訪它的辦公室——但短短四個月後,它就宣告破產,成為英國史上第一家被政府接管的能源供應商,影響 160 萬名用戶。Octopus 的創辦人 Jackson 很早就意識到,在能源這種毛利極薄的產業裡,光靠品牌魅力沒辦法克服現實的經濟壓力——Octopus 從一開始就同時把「交易能力」和「信任感」當成必須並重的核心能力來經營。當俄烏戰爭爆發、躉售能源價格暴漲時,Bulb 幾乎一夕之間就垮台,關鍵原因是它長期用高於售價的成本在買進能源;兩家公司都投資了品牌個性和顧客體驗,想用品牌來包裝這個潛在風險、把公用事業包裝得像科技新創一樣有魅力,但只有 Octopus 撐過了真正的考驗。這篇文章給品牌工作者的啟發是:品牌能不能長久,終究不只是靠有創意的行銷和討喜的顧客體驗,還得靠背後扎實的營運能力和財務紀律去撐住這些承諾。"
-        },
-        {
-          "title": "I helped shape McLaren's brand. Here's what worries me about the refresh",
-          "url": "https://www.creativeboom.com/insight/acts-and-deeds-the-mclaren-rebrand/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Tom Foulkes 曾擔任 McLaren 的全球品牌總監長達兩年,在 2025 年底離職前,親自參與了新識別的開發過程,讓他對這次改版的策略和執行都有第一手的觀察。McLaren 這次推出的新字標,靈感來自創辦人 Bruce McLaren 家族在紐西蘭的車庫,加上一個特殊的加底線字母 C;整體色彩配置也擴大了,並且把賽車和量產車兩個部門的視覺系統統一起來,同時保留了招牌的帕帕亞橘和 Speedmark 標誌。但 Foulkes 主要的擔憂在於:新的視覺風格大量借用了精品時尚的視覺語彙——他形容這是「McLaren 的香奈兒化」——那種克制的字體排印、講究的色彩配置、和刻意雕琢的藝術指導,更像是在向頂級時尚看齊,而不是在呈現效能導向的工程文化。他指出,McLaren 真正的品牌核心一直是「行動和成就」——賽場上的勝利、工程上的創新、和性能卓越的車輛——新識別過度強調視覺上的奢華美學,反而稀釋了原本真正與眾不同的東西,他提醒:「McLaren 一直都是一個奢侈品牌」,但這份奢侈感是靠工程實力和賽車血統累積出來的,直接套用傳統精品的視覺語言,並不能傳達出真正讓這個品牌與眾不同的地方。對設計工作室的啟發是:從品牌歷史裡找靈感,跟直接把歷史元素原封不動搬進新設計裡,是兩件完全不同的事——真正困難的工作,是分辨清楚歷史裡哪些元素該被當成指引未來方向的線索,而不是可以照抄的美學素材。"
-        },
-        {
-          "title": "Joseph Clark on why he's keeping AI out of Oh Studio and the protest film that went viral saying so",
-          "url": "https://www.creativeboom.com/state-of-play/joseph-clark-on-why-hes-keeping-ai-out-of-oh-studio-and-the-protest-film-that-went-viral-saying-so/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Oh Studio 的動畫導演 Joseph Clark,堅決反對在自己的創作裡使用人工智慧,他的核心理由是一種根本上的不相容:「藝術家必須努力創造出新穎、真實、充滿想像力的東西。而 AI 就定義上來說,是把過去所有東西同質化之後取得的平均值。」他認為 AI 做不到真正的原創,也無法真正理解人類細膩的情感,與其把 AI 當成提升工作效率的工具,他把它視為對整個創意產業的威脅。他和插畫家 Chris Haughton 共同執導了《We Are Better Than This》這支抗議短片,找來多位童書作家和演員 Miriam Margolyes 參與,內容是抗議科技巨頭未經同意抓取創作者的作品去訓練 AI 系統——這支影片引起廣泛迴響,傳播規模跟他們之前的作品不相上下,反映出大眾對這個議題的關注程度。Clark 也表達了他對市場趨勢的不安:「我們已經開始看到,一些產品用 AI 生成的內容做宣傳,人類原本該有的工藝和用心,正在感覺愈來愈稀薄。」他經營工作室的方式很精簡——完全遠端運作、沒有昂貴的辦公空間、也沒有固定的正職員工,把預算優先花在合作者和實際的工作品質上,依專案組建專門的團隊、慷慨支付創作者報酬,證明好的成果不一定需要傳統工作室那套基礎建設。"
-        },
-        {
-          "title": "What freelance life taught me about my ADHD, burnout and what I need to make great work",
-          "url": "https://www.itsnicethat.com/articles/pov-freelance-life-adhd-burnout-and-learning-to-work-with-my-brain-creative-industry-280926",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "平面設計師 Andrew Bell 在 2019 到 2025 年間是個看起來永遠很忙碌的成功接案者,但同一段時間裡,他其實一直帶著未確診的 ADHD 在硬撐——接案生活一開始靠著案子本身的開始和結束提供了結構感,但他後來意識到,這種生活方式其實掩蓋了更深層的問題:出於「怕錯過機會」的心態不斷接下新案子,讓工作和生活的界線變得模糊,長期處在過勞、缺乏休息的狀態。2026 年初,他去做了評估,確診了 ADHD——這個診斷解釋了他一輩子的行為模式:習慣性拖延、直到壓力逼近才動手、在沒有明確限制的情況下很難開始一件事、還常常因此嚴厲責怪自己懶惰。他形容:「面對很少的框架限制時,我感覺自己像漂浮在太空裡,僵住、動彈不得。」他也坦言:「我渴望結構和秩序,但我從來沒有花時間替自己的職涯建立起這樣的結構。」這個診斷沒有立刻解決所有問題,但至少讓他有了一個理解自己反覆行為模式的框架,而不是把自己看成一個天生有缺陷的人。他給其他接案者的建議包括:主動導入外部的結構、建立固定的每日儀式感、認清自己到底需要安靜還是多樣性、刻意安排運動或興趣這類能真正休息的活動、並且優先選擇能提供信任感、自主權、和彈性的工作環境。Bell 最終選擇回到全職工作,在 Ilka 找到了具備這些條件的環境,推翻了「全職工作必然帶來不快樂」這個常見假設。"
-        },
-        {
-          "title": "Horah Inc lets its love for Pokémon and typography soar in identities for spiced rum, trading cards and book design",
-          "url": "https://www.itsnicethat.com/articles/horah-inc-graphic-design-discover-290926",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Horah Inc 是一個四人組成的跨領域工作室,專精藝術指導、平面設計、和 2D/3D 動態影像,靈感來源橫跨復古美學、1960 到 80 年代的電影海報、和 Deftones、Stereolab 這類音樂人。他們替香料蘭姆酒品牌 Mirchi 打造的識別,用大膽的造型和色彩、呼應酒本身原料的意象,搭配塊狀印刷質感和圖標系統,把香料的辛辣氣息轉化成視覺語言。替《Dehors Dedans Partout》雜誌三十週年紀念書設計時,他們參考排版設計師 Wim Crouwel 的作品,創意總監 Théotim Hunaut 解釋:「我們想讓那種精神貫穿整本書,把 1970 年代風格的字體,和比較當代的字體混在一起。」替 On Running 做的選手交易卡,則直接從寶可夢和數碼寶貝的美學汲取靈感,把選手的表現數據做成收藏卡的形式,搭配實驗性的質感、反光的表面處理、多層次的攝影、和富有表現力的字體排印。這幾個案例共同展現的,是這個工作室「用手邊所有能用的工具,去實現創意概念」的做事方法——不侷限在單一媒材或風格裡,而是依照每個專案的個性,自由組合不同的視覺語彙。"
-        }
-      ],
-      "buzz": "今天的案例都圍繞著「品牌真正的核心價值,能不能撐得住外在壓力和改變」這個主題:Bulb 和 Octopus Energy 的對比證明,再有魅力的品牌形象,終究撐不起背後空虛的營運能力;Tom Foulkes 對 McLaren 改版的擔憂,則點出品牌從歷史找靈感和照抄歷史美學之間的關鍵差異。Joseph Clark 堅持不用 AI 的立場,示範了一種對創作真實性的堅持,即使這代表要用更精簡的方式經營工作室;Andrew Bell 的接案 ADHD 故事則提醒我們,適合自己的工作型態,遠比「接案」還是「全職」這種標籤更重要。Horah Inc 的作品集則從純粹的工藝角度出發,證明只要願意混用不同的視覺語彙,小型工作室也能做出令人耳目一新的作品。"
     }
   }
 ]
