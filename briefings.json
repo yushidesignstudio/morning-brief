@@ -1,5 +1,195 @@
 [
   {
+    "date": "2026-10-23",
+    "daily_summary": "今天兩邊都在問同一件事：AI 讓「做出來」變得很便宜，那真正值錢的是什麼？Product 圈開始算 AI 自建工具的維護帳，Brand 圈則提醒工作室要分清楚哪些可以交給 AI 量產、哪些必須由人親手決定。對隅室來說，現在正是把「人來拍板、AI 來延伸」寫進服務流程的好時機。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 主張「要買現成工具還是自己做」不再只是 PM 和財務的事，設計師應該在決策前就上桌。他算了一筆帳：兩個人花兩週用 AI 做內部工具約 2.4 萬美元，每年再抓 30% 維護費，三年下來要 4.56 萬，比 25 人份的訂閱（1.8 萬）貴得多，而且沒有客服。買現成的則是連同對方的資料模型、改版節奏一起帶進來。他建議別問哪個便宜，而是問「複雜度最後落在誰身上」：自己的程式碼、廠商的 roadmap，還是使用者。實際做法是挑一個真實任務，跨系統走一遍，記下每次切換和重打資料的次數。"
+        },
+        {
+          "title": "How to put your design system to work with the Figma agent",
+          "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 教你怎麼讓 AI agent 做出「像你們品牌」的畫面，而不是通用模板。步驟是：先在 agent 對話框連上已發布的元件庫，讓它用既有元件、token 和變數；用 @ 指定要換的元件；在元件庫裡寫下團隊規則（例如「下單」按鈕一律用主要樣式），agent 會照著做；再放一頁「Examples」完整設計稿當示範。重複的流程（像設計系統稽核）可以包成 skill 用斜線指令叫出來。對工作室來說，交付給客戶的設計系統，未來也要考慮「AI 讀不讀得懂」。"
+        },
+        {
+          "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
+          "url": "https://www.figma.com/blog/lufthansa-figma-make/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Lufthansa Systems 做的是飛行員在駕駛艙用的 iPad 航圖 app，動態地圖過去用 Sketch、XD、Framer 都很難做原型。首席產品設計師在內部黑客松用 Figma Make 串上 Mapbox 地圖和 OpenSky 即時航班資料，直接做出可以縮放、飛機起飛會變色的原型，完全不用碰正式的 SwiftUI 程式碼。飛行員一看就懂，團隊也能在工程開發前反覆找領域專家測試。設計主管補充：工具再強，深厚的領域知識和固定接觸使用者一樣重要。"
+        },
+        {
+          "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+          "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NN/g 拿 120 個 AI 合成受訪者和 604 位真人回答同一題，結論方向一樣，但 AI 的答案很「平」：真人給出 50 多種說法，AI 只集中在十來種。更危險的是群體差異被抹平，AI 扮演的 PM 有 93% 用 UX 相關詞，真人 PM 只有 44%。建議把合成使用者當成發想假設的工具，要找少見反應、意外用詞或分眾差異時一定要找真人。UX Collective 10/20 的〈Let AI have the average user〉也接著這份研究談：平均值交給 AI，使用者「狀況不好的那天」才是研究員該花力氣的地方。"
+        },
+        {
+          "title": "How AI has exposed the cracks in the creative industry",
+          "url": "https://www.creativereview.co.uk/ai-exposed-cracks-creative-industry-mike-teevee-report/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "作者根據 MikeTeevee《Brand Perspectives 2026》對品牌端創意主管的訪談，主張別把創意產業的問題都怪到 AI 頭上。產量壓力、流程磨掉好點子、沒空培養創意判斷力，這些早在 AI 之前就存在，是產業長期把速度和量放在原創之前的結果；社群演算法又獎勵熟悉的套路，造成「演算法單一文化」。AI 只是把這股追求效率的力道放大。文章以質性觀察為主、缺少硬數據，但對小工作室是個提醒：先檢查自己有沒有被「求快求多」綁架，替判斷力留時間。"
+        }
+      ],
+      "buzz": "這兩天 Product 圈的關鍵字是「AI 讓東西變便宜之後，帳要怎麼算」：自建工具看似一個下午的事，維護成本卻沒人編列；合成使用者給得出結論，卻給不出意外。另一條線是把設計系統和真實資料餵給 AI，讓原型更早、更貼近真實情境地被測試。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Surge or authorship: which studio are you building?",
+          "url": "https://www.designweek.co.uk/surge-or-authorship-which-studio-are-you-building/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Paul Melcher 說每間用生成式工具的工作室，其實都在默默選邊：走「量產」路線，讓 AI 生成大量素材，力氣全花在審稿；或走「作者」路線，產量不變，概念、影像、版面都由人決定，AI 只做縮放、修圖、翻譯等製作工作。量產的問題是生產成本趨近零、審核成本不變，最後變成資淺的人在審幾百張圖，錯的 logo 就這樣上線。作者路線的問題是「什麼算創意」的界線會被軟體更新一直往前推。他的建議是「母版由人創作、衍生版交給機器」，並在工具裡鎖死 logo 等欄位，界定 AI 只能改編、不能原創。"
+        },
+        {
+          "title": "Does brand design have a longevity problem?",
+          "url": "https://www.designweek.co.uk/does-brand-design-have-a-longevity-problem/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Bud Rodecker 從 HBO Max 改名 Max、Jaguar 丟掉躍豹談起，擔心品牌設計正在被當成用完即丟的東西：為了搶上線當天的注目追逐新奇，結果大家長得越來越像。他長期幫百年機構做識別，認為成功的標準是十年後還在用。對照 JKR 幫 Coca-Cola 的翻新，保留字體和紅色、重新整理成系統。他給出六條原則：建立在原則而非潮流上、設計系統而非單件作品、留演化空間、清楚勝過新奇、投資字體比例等耐用元素、在一致與時效間取平衡。"
+        },
+        {
+          "title": "The Body Shop returns the Pod to its packaging",
+          "url": "https://www.designweek.co.uk/the-body-shop-returns-the-pod-to-its-packaging/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "The Body Shop 重推 1992 年起賣的招牌身體霜系列，Together Design London 從品牌歷史裡挖回「Pod」這個種莢圖形，從配角升格成整個包裝系統的核心，放在源自創辦人第一家店的品牌綠上。Pod 裡面放插畫家 Sally Caulwell 色彩濃烈的成分插畫，讓每款香味有自己的個性。最大挑戰是要撐起格式、品名、成分都不同的龐大產品線。這是一個「從自家資產找答案」的好案例：先問品牌已經有什麼值得再被看見。"
+        },
+        {
+          "title": "Studio Herrström draws on car culture and carton typography for Milkshake rebrand",
+          "url": "https://www.itsnicethat.com/articles/studio-herrstrom-milkshake-graphic-design-201026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "斯德哥爾摩音樂廠牌 Milkshake（隸屬 Sony Music）隨著另類流行歌手陣容擴大，請維也納的 Studio Herrström 重做識別。設計從廠牌名字的由來切入：這名字是在一趟開車途中想出來的，所以整套視覺借用車窗貼紙的形式，搭配路標感的圖示和 Gates 無襯線字體。色彩保留原本的鮮豔，但往奶昔口味的色調調整，閃電形 logo 傳達能量。Design Week 上週也報導了這個案子，是本週被多方提到的品牌更新。"
+        },
+        {
+          "title": "East Surrey Council reveals in-house brand identity ahead of 2027 launch",
+          "url": "https://www.designweek.co.uk/east-surrey-council-reveals-in-house-brand-identity-ahead-of-2027-launch/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國新成立的 East Surrey Council 沒找外部公司，而是讓各區議會的 6 位內部設計師提案，先用線上問卷問居民「East Surrey 代表什麼」，得出社區、鄉野、水道、歷史等關鍵字。提案收斂到 10 個後匿名交給議員選，並事先引導議員放下個人喜好。最後選出層疊葉片暗示地形、藏著小寫 e 的標誌，主字體用易讀的 Lexend。上線採漸進汰換，招牌和車輛等到該換時才換，不提早丟棄，是公部門品牌很務實的做法。"
+        }
+      ],
+      "buzz": "Brand 圈這兩天在吵「快」的代價：AI 量產讓品牌標準失守，追逐新奇讓識別壽命越來越短。反方向的案例也很多，The Body Shop 把舊圖形找回來當核心，East Surrey 用問卷和漸進汰換讓品牌落地，大家都在回頭珍惜既有的品牌資產。"
+    },
+    "highlights": {
+      "summary": [
+        "真正值錢的是什麼",
+        "人來拍板、AI 來延伸"
+      ],
+      "product": [
+        "帳要怎麼算",
+        "卻給不出意外"
+      ],
+      "brand": [
+        "讓品牌標準失守",
+        "珍惜既有的品牌資產"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "リブランディングで企業を元気に！驚きの手法の舞台裏：読んで分かる「カンブリア宮殿」",
+        "title_zh": "用品牌再造讓企業重新振作！令人驚訝的手法幕後：用讀的《カンブリア宮殿》",
+        "url": "https://www.tv-tokyo.co.jp/plus/business/entry/202506/17044.html",
+        "source": "テレ東プラス（カンブリア宮殿）",
+        "lang": "日文",
+        "published": "2025-06",
+        "category": "策略抉擇",
+        "brand_name": "COEDO、ナナズグリーンティー、産泰神社、サザエ食品 等",
+        "consultant": "西澤明洋（エイトブランディングデザイン）",
+        "partial": false,
+        "story": {
+          "problem": "西澤明洋的客戶各有困境：川越的「小江戸ビール」（小江戶啤酒）是觀光伴手禮地啤酒，熱潮退去後啤酒事業轉為虧損；群馬的産泰神社（產泰神社）因少子化參拜人數下滑；北海道サザエ食品（飯糰和萩餅老店，60 家店）客群和員工一起老化。",
+          "approach": "西澤的共通手法是「找出最強的那一點，然後大膽地變」。COEDO 把既有地啤酒全部停賣，從伴手禮轉型成職人釀造的精釀啤酒，六款酒用日本傳統色命名；産泰神社把原本並列的安產、七五三、除厄收斂成只講安產，連社紋、御守都重做；連鎖抹茶店ナナズグリーンティー則以「社外設計部長」的身份伴走，連經營策略和商品企劃一起參與。",
+          "result": "サザエ食品飯糰和萩餅營收增加 2 成；産泰神社網站瀏覽數變 10 倍、收入增約 2 成；牙科器材品牌 SALWAY 有產品訂單變 4 倍；COEDO 從伴手禮地啤酒變成國際得獎的精釀品牌。",
+          "takeaway": "對隅室最有用的是兩件事：第一，品牌再造的關鍵常常是「刪」，敢把舊品項停掉、把訴求收斂到一個點；第二，用「我們是你的設計部」的長期伴走關係，比單次交件更能真正影響經營。連鎖店案例裡「哪些全店統一、哪些可以各店發揮」的分級規則，也很適合直接套用在多店家客戶身上。"
+        },
+        "guide": [
+          {
+            "heading": "什麼是品牌再造？從サザエ食品營收 2 成成長說起",
+            "body": "節目以北海道的サザエ食品開場。這家 1957 年創業、道內 60 家店的老店，招牌是飯糰（人氣第一的「元祖えび天おむすび」334 日圓）和手作萩餅。問題是店裡還是昭和氛圍，客人和員工一起變老。石水創社長聽到「希望讓年輕一代也吃得到」的聲音，於是找上西澤。2024 年 11 月，西澤把 logo 從紅豆色換成有活力的紅色，包裝文字改得更清爽，從塑膠袋到封口膠帶，所有客人看得到的東西全部換掉。結果家庭客和年輕客人變多，飯糰和萩餅營收增加 2 成。文章介紹西澤是エイトブランディングデザイン（Eight Branding Design）代表，做過ヤマサ醤油、キリン生茶、ドトールコーヒー、ユースキン等品牌，下一個案子是「白い恋人」的石屋製菓，正在為 2026 年 12 月上市 50 週年檢討 logo。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "當客戶的「設計部長」：ナナズグリーンティー",
+            "body": "抹茶、焙茶連鎖咖啡店ナナズグリーンティー（Nana's Green Tea，國內外 80 家以上）由西澤操刀，概念定為「現代的茶室」，logo 改成以茶筅為意象，菜單背景改黑色讓抹茶綠更跳。西澤不只做視覺，還參與經營策略和商品企劃，用的說法是請對方把他們當成公司內部的設計部。這是他和一般設計師最大的不同：從經營角度做設計。",
+            "quote_ja": "『御社のデザイン部長であり、僕らの会社がデザイン部であるように見てください』と言っているんです",
+            "quote_zh": "我會跟客戶說：「請把我當成貴公司的設計部長，把我們公司當成你們的設計部。」"
+          },
+          {
+            "heading": "加盟店的分級規則：統一什麼、放手什麼",
+            "body": "面對加盟展店，西澤訂出一套規則：logo 等核心全店統一；杯子設計可以小幅調整；店內裝潢可以大幅改變。例如浦安市イクスピアリ店用天花板垂掛的蕾絲做出光影濃淡表現「侘寂」，又因為鄰近主題樂園設了兒童區。80 多家店他一家一家監修，做出「有統一感、又各有個性」的連鎖。代表朽網一人評價，西澤幫他們建立了能加速展店的規則。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "收斂到一個強項：産泰神社只講「安產」",
+            "body": "群馬縣前橋市的産泰神社以安產、育兒聞名，社殿建於江戶時代，但少子化讓參拜者減少。原本的官網把安產祈願、七五三、除厄並排。西澤把網站重新設計成只講安產，標語是「泰（やす）らかに産み、育てる」（安心地生、安心地養）；把歷史悠久的社紋改成圓潤柔和、以孕婦為對象的樣子；停掉在其他神社也買得到的通用御守，改做安產專屬的原創御守。結果網站瀏覽數變 10 倍，參拜者增加，收入成長約 2 成。神社方坦言找設計師是一場冒險，但認為要把神社傳承下去就必須改變。",
+            "quote_ja": "神社でデザイナーさんを入れることはなかなか冒険でした",
+            "quote_zh": "神社請設計師進來，其實是相當大的冒險。"
+          },
+          {
+            "heading": "COEDO：把所有舊商品停掉的大膽決定",
+            "body": "西澤的起點是 COEDO。原本的「小江戸ビール」是賣給觀光客的伴手禮地啤酒，地啤酒熱退燒後啤酒事業陷入赤字。朝霧重治社長經大學恩師介紹找上剛獨立、毫無實績的西澤，一聊覺得想法契合，當場決定合作。他們做出的決定是把既有地啤酒品項全部停賣，從「伴手禮」轉向「職人講究釀造的精釀啤酒」，社長的目標是開創一個新市場並在其中站穩位置，一開始就把世界市場放進視野。西澤以社長的想法為基礎推進，六款酒標採用日本傳統色，命名為「瑠璃」「紅赤」等，瓶型也選用當時少見的形狀來表現新意。",
+            "quote_ja": "地ビールではなく、人間起点のクラフトビールというマーケットを新しくつくっていく。",
+            "quote_zh": "不是地啤酒，而是要從零打造一個「以人為起點的精釀啤酒」市場。"
+          },
+          {
+            "heading": "現場的不安，與設計師的定位",
+            "body": "大改造讓釀造現場的職人很困惑：一直以來做的東西要怎麼翻新？外觀一變，客人的印象也會變。社長則是抱著「只能堅決做下去」的決心推進。西澤對自己的定位是「把經營者腦中的想法具體化的專家」，而不是自己想做什麼就做什麼。最後小江戸ビール變成在世界獲得肯定、連超市都買得到的 COEDO。文章沒有提供 COEDO 的營收或銷量數字。",
+            "quote_ja": "経営者の考えていることを具現化するプロでいようと。",
+            "quote_zh": "我要當一個把經營者的想法具體實現的專業者。"
+          },
+          {
+            "heading": "醫療器材也能品牌化：SALWAY",
+            "body": "群馬的石原総合歯科医院有一批在後台清洗、滅菌、重複使用的器材。西澤把這些道具統整成「SALWAY」一個品牌，原本一個產品一本的型錄合成一本，官網也新增 SALWAY 分類重新整理。結果有產品訂單變成 4 倍。副院長說設計時髦又有統一感，讓人更信任；經銷商業務則說因為更好懂，每個產品的說明時間縮短，業務效率提高。這個案例說明品牌化不只是好看，也能直接降低銷售溝通成本。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "村上龍的編後記：獨立設計師的起點",
+            "body": "主持人村上龍說，一開始不太懂什麼是品牌設計，和西澤聊過之後才有具體畫面。西澤 1976 年生於滋賀，京都工藝纖維大學研究所畢業後進入東芝，2004 年離職、2006 年成立公司前身。獨立後完全不跑業務，從 COEDO 的設計開始接案。被問到獨立最大的難關，他認為資金或許是最大的牆，但找成功的設計師當標竿、以及擁有什麼都能商量的導師也同樣重要。對同樣是獨立工作室的隅室來說，這段很有共鳴。",
+            "quote_ja": "",
+            "quote_zh": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "daily_summary": "今天 Product 圈一直在問同一件事：AI 讓「做出來」幾乎免費，但「判斷好不好」沒有變便宜，創業者和設計師都得重新證明自己的價值在哪。Brand 圈則出現兩個有趣的方向：Apple Music 真的用聲音「塑形」出新 logo，製作公司 To Be Formed 乾脆把混亂做進識別。品牌經營案例今天看北海道老店サザエ食品，西澤明洋怎麼陪它把商品砍到剩三分之二，只守住おはぎ和おむすび。",
     "jenny_wen": {
@@ -1250,112 +1440,6 @@
         }
       ],
       "buzz": "今天的案例都圍繞著「品牌的信任感,是怎麼透過放手和克制建立起來的」這個主題:Steve Dool 在 Depop 的做法,示範了品牌該怎麼靠「不做什麼」來維持一致性;Kiss Branding 的創辦人則證明,刻意從自己的重塑案裡退後一步,反而讓團隊變得更有自信。《Busier briefs》這篇給接案者和工作室的建議提醒我們,第四季的生存之道,終究要靠把身心健康正常化、而不是硬撐。MacFadden & Thorpe 替 Art + Water 做的識別,則示範了怎麼用「流動」這個概念,打造出一套能持續被社群重新塑造的視覺語言;William Goldsmith 的記憶漫畫,則從純粹的個人創作出發,證明重複和疊加本身也能變成一種敘事語言。"
-    }
-  },
-  {
-    "date": "2026-10-10",
-    "daily_summary": "今天 Product 圈圍繞著「AI 讓事情變快,但複雜度、風險、和驗證成本其實跑去了哪裡」展開討論,從泰斯勒定律到合成使用者研究的警示,都指向同一個結論:判斷力和驗證能力變得比產出速度更重要;Brand 圈則用 NB Studio 關閉後重新出發的故事、和 Mucho 替科學非營利組織做的識別,提醒我們不管是職業生涯還是品牌敘事,真正能打動人的,始終是誠實面對不完美、和願意把複雜的東西講得讓人聽得懂的能力。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Tesler's Law: complexity moved to a different part of the journey",
-          "url": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 用「泰斯勒定律」來解釋一個現象——軟體先驅 Larry Tesler 提出的這個原則認為,每個應用程式都帶有一定量「無法消除」的複雜度,這個複雜度不會真正消失,只會在使用者、開發者、平台、和系統之間轉移。他主張,AI 聊天介面看起來解決了複雜度的問題,但其實只是把它藏到別的地方——這個轉移悄悄發生在四個角色之間:使用者現在要寫詳細的需求說明、驗證產出結果,而不是學習選單操作;應用程式開發者得把 prompt 當成產品邏輯和評估流程來管理;平台開發者得仰賴模型供應商、承擔對方隨時可能改變能力的風險;還多出一個全新的角色——審核者,負責替自己沒有產出的東西背書。他引用具體數據佐證:METR 在 2025 年的研究發現,經驗豐富的開發者使用 AI 工具後,實際速度反而慢了 19%,儘管他們原本預期會快 24%,原因是驗證產出所花的勞力完全沒被算進去;史丹佛 RegLab 的研究則發現,法律研究工具的幻覺率高達 17% 到 33%,暴露出有些確定性要求極高的領域,複雜度根本沒有地方可以轉移。他提醒:「介面上的簡單,幾乎總是別人要承擔的工作量」——一個空白的文字輸入框,完全看不出背後藏著多少成本。對設計師的啟發是:主動標示出複雜度到底被轉移到哪一欄、把驗證時間明確編列進預算裡,而不是只算生成時間。"
-        },
-        {
-          "title": "What the AI era owes you",
-          "url": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Dan Maccarone 主張,不會有任何人——不管是企業、政府、還是科技巨頭——出手拯救因為 AI 而被取代的勞工;「新的、更好的工作會出現」這個說法技術上沒錯,但本質上很誤導,因為新工作的樣貌事先根本無法預測、轉型期帶來的衝擊會延續數十年之久,而且目前沒有任何可信的計畫,能在這段空窗期裡真正支撐人們。他引用歷史案例:1815 年,手搖織布工人的週薪在動力織布機出現後十年內,從 240 便士暴跌到不到 100 便士;1780 到 1840 年間的「恩格斯停滯」顯示,英國產出成長了 46%,但實質工資只成長 12%——繁榮足足花了 80 年才真正惠及一般人;盧德份子曾向國會請願要求漸進式轉型和再培訓,得到的回應卻是軍隊鎮壓和處決;1865 年美國唯一一次認真的勞工再培訓計畫「自由民局」,原本只有 900 名人員要服務 400 萬人,七年後就被解散。現在的數據同樣令人警覺:22 到 25 歲、處於高度暴露 AI 風險產業的年輕勞工,就業率相對年長勞工下降了 13%;只有 40% 到 45% 的職業能真正「乾淨地」轉型成跟 AI 互補的角色;到 2030 年,每 100 位勞工裡有 59 位需要再培訓,但其中 11 位大概拿不到這個機會。當被問到具體會出現什麼新工作時,黃仁勳舉的例子是「做 spa」(一個古老的行業),馬斯克的回答則只有「不用擔心」——這種空泛的回應,暴露出這整個安慰性說法的破綻。對接案設計師的啟發是:把自己的職涯當成一個需要不斷演進的產品來經營,同時培養「能辨識 AI 產出什麼時候悄悄出錯」的判斷力,而不是被動等待一個不會到來的救援。"
-        },
-        {
-          "title": "Synthetic users are making me rethink \"imperfect research\"",
-          "url": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Kyle Soucy 質疑把「合成使用者研究」跟「不完美但真實」的研究歸在同一類的做法——他的核心擔憂是,合成使用者的回應會製造出一種虛假的信心,而不是真正的洞察:跟樣本量太小、或訪談流程有缺陷但對象是真人不同,合成參與者產出的是「模擬預測」,不是真正被觀察到的行為,這會製造出一種很危險的「已經驗證過」的假象。他引用 MeasuringU 的研究:用真實 ChatGPT 使用者建立的「數位分身」,在滿分 100 分的 SUS 量表上,跟真人的分數只差 4 到 7 分,表面上看起來有 93% 到 95% 的「準確度」——但這個數字背後講的是完全不同的故事:真人參與者的評分範圍是 B+ 到 A,合成版本卻全部都是 A+;一個團隊如果看合成資料,可能會覺得一切都很完美,但看真實資料,就會發現明顯有改進空間。另一份《Science Advances》的研究也顯示,用超過 500 筆真人過去回答建構出來的數位分身,跟真人實際回應之間的相關性其實很弱,甚至不比只用 14 項人口統計資料做出來的簡單人物誌更準確。Soucy 區分了兩種情況:「不完美的研究」涉及的是真實的人,只是洞察不完整;「合成研究」則是用生成出來的回應,去取代真人的回應。對研究者和設計師的啟發是:合成使用者只該用在事前練習,要主動追問合成參與者是怎麼被建構出來的,並且在評估時反問自己——這個合成結果真的會改變你的產品路線圖決策嗎?"
-        },
-        {
-          "title": "The New Siri's Biggest Strength Is Not Intelligence",
-          "url": "https://www.nngroup.com/articles/ai-assistant-context/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章主張,蘋果新版 Siri 真正的優勢,不是它的 AI 智能有多強,而是它能存取使用者的個人情境——一個真正好用的 AI 助理需要三個條件同時到位:能存取相關的個人資訊、有能力有意義地處理這些資訊、以及一套能在完成任務的過程中、始終保留使用者原本意圖的 UX 設計。文章舉了幾個實測案例:當作者問 Siri「我弟弟 Emmett 推薦的紐約餐廳,我去過哪幾家」時,新版 Siri 能直接翻出對話訊息、回答出來,完全不需要手動蒐集資訊;反觀 ChatGPT 因為沒有訊息存取權限,即使對話能力很強,也完全幫不上忙。找照片的任務也一樣:舊版 Siri 只給出一般的網路圖片,ChatGPT 給了新聞連結,新版 Siri 卻能直接找到作者自己旅行時拍的照片——證明個人情境加上 AI 能力,效果遠勝過只有其中一項。但文章也點出一個「情境流失」的問題:就算 Siri 已經確認「Emmett 的地址」是路線起點,打開 Google 地圖時,顯示的卻變成「你的所在位置」——證明情境資訊在不同 app 之間切換時,很容易就這樣消失不見。對設計師的啟發是:清楚標示系統搜尋過哪些資料來源、在任務失敗代價很高時主動要求使用者確認、確保已確認過的細節能一路延續到最終使用的 app 裡,並且替每個非直覺的步驟說明理由,幫使用者建立起正確的心理模型。"
-        },
-        {
-          "title": "4 team rituals that drive AI adoption",
-          "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Figma 整理了四個來自不同公司、能有效推動團隊採用 AI 的具體做法。第一個是「同儕主導的學習小組」——Figma 內部的 Jake Geller 把設計師依技能分成五組,每組每週聚會一次、連續六週,由志願者帶領 20 分鐘教學和 40 分鐘實作練習,營造出一個可以安心提問的環境。第二個是「以過程為主的分享論壇」——Sephora 的 Sneha Narahalli 把原本展示成果的雙週分享會,改成揭露整個過程、包括失敗的實驗,搭配 Slack 頻道持續討論,讓「這是我試過但沒成功」這種坦承變得理所當然,比起由上而下的宣導,同儕之間的分享更有說服力。第三個是「跨職能訓練」——Mercari 的 Aki Alkhatib 讓設計師學基礎的程式撰寫、工程師學基礎的設計原則,讓任何人都能先做出一個有用的初版,再交給真正的專家精修。第四個是「原型優先的評圖」——Atlassian 的 Charlie Sutton 要求團隊評圖時先展示用 Figma Make 這類工具做出來的互動原型,再解釋背後的理由,強迫團隊規律地練習使用 AI 工具,同時讓做原型的價值變得具體可見。對設計工作室的啟發是:推動團隊真正採用 AI,靠的不是一次性的大型培訓,而是建立起規律、低壓力、同儕互相支持的日常儀式。"
-        }
-      ],
-      "buzz": "今天的文章都圍繞著「AI 讓事情變快的同時,複雜度和風險其實跑去了哪裡」這個主題。Patrick Neeman 用泰斯勒定律提醒我們,複雜度從來沒有真正消失,只是悄悄轉移到使用者、開發者、和審核者身上;Dan Maccarone 則用紡織工人和盧德份子的歷史,警告我們不該被動等待一個不會到來的轉型救援,而該主動把自己的職涯當成需要持續演進的產品來經營。Kyle Soucy 從研究方法論的角度切入,提醒我們合成使用者研究製造的是虛假的信心,而不是真正的洞察。NN/g 的 Siri 拆解則示範了個人情境加上 AI 能力,才能做出真正好用的助理;Figma 的四個團隊儀式則從組織層面給出具體的實踐方法,證明推動 AI 採用,靠的是日常的規律練習,而不是一次性的訓練。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "NB Studio's Alan Dye on 29 years, starting again and why design needs more joy",
-          "url": "https://www.creativeboom.com/insight/nb-studio-is-closing-after-29-years-alan-dye-wants-to-talk-about-joy/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "倫敦知名設計工作室 NB Studio 的共同創辦人 Alan Dye 和 Nick Finney,在經營了 29 年之後,於 2026 年 6 月 20 日決定關閉這間備受讚譽的工作室——但他們沒有把這件事當成失敗,而是把它框架成一種演進。他們在告別聲明裡寫道:「我們在 1997 年走進的那個世界,充滿希望和可能性。現在依然如此。只是看起來不一樣了,我們自己也不一樣了。」儘管關掉了一間重要的工作室,Dye 對重新開始卻展現出真誠的興奮——他形容回到親自動手做設計的狀態讓他感到「喜悅」,也樂於再次當一個「完全的初學者」;60 歲的他,反而被這種帶有不確定性的創作挑戰重新點燃了熱情。他引用 Michael Wolff 和 Maya Angelou 的話當作核心哲學:「人們會忘記你說過的話,忘記你做過的事,但沒有人會忘記你帶給他們的感覺」,也引用王爾德的話勉勵創作者:「做自己。因為其他人都已經有人做了。」Dye 最核心的憂慮,是現在的設計變得愈來愈同質化、愈來愈規避風險——他堅持這個產業迫切需要更多的機智、幽默、和色彩,這些正是當年 NB Studio 作品與眾不同的特質。被問到這篇專訪該取什麼標題時,Dye 只給了一個字:「喜悅」。"
-        },
-        {
-          "title": "Mucho reaches beyond Silicon Valley with the branding for Biotic",
-          "url": "https://www.itsnicethat.com/articles/mucho-biotic-spudcells-graphic-design-project-081026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "舊金山和巴塞隆納雙base的設計公司 Mucho,替非營利組織 Biotic 打造了品牌識別——這個組織負責管理「SpudCells」,一種帶有 36 個基因、用來加速開發藥物、材料、和解決疾病、污染、氣候挑戰的合成細胞。設計師 Drew Endy、Chris Raggio、和 Jan Jedryszek,跟主導 SpudCells 研究的科學家 Kate Adamala 博士密切合作,在打造視覺識別之前,先讓自己徹底沉浸在這門科學裡,把「讓人理解」放在「做得好看」之前。整套視覺系統的核心包括:一個代表單一細胞的簡單圓點 logo,任何人都能一看就懂;刻意限縮在黑白兩色的色彩系統,呼應細胞本身的純粹;用 Karl Sims 開發的「反應-擴散」軟體做出的動態語言,把細胞的繁殖過程,擬人化成一種社群建構的意象;模仿指紋紋理的擴散質感插畫素材,把人性感嵌進科學創新裡,同時呈現科學社群本身的多元性。品牌標語「Ex Uno Plures」(意思是「一化為眾」)刻意反轉了美國的國家格言「合眾為一」,象徵 Biotic 代表的是科學和生命的全新可能性。創意總監 Rob Duncan 說:「我們的責任不是把合成生物學做得好看,而是把這個世代最重要的科學故事之一,變得容易理解、容易親近、而且讓人想靠近。」整套識別傳達的是希望和可能性,而不是大眾對科學突破常有的恐懼感。"
-        },
-        {
-          "title": "Aesop explores scent and storytelling through fragrance installations around the world",
-          "url": "https://www.dezeen.com/2026/10/09/aesop-fragrant-fables-perfumes-installation-video/",
-          "source": "Dezeen",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Aesop 把全球 10 個國家、超過 15 間門市,暫時改造成展示 12 款香氛的臨時香水店,把「氣味」和「敘事」結合在一起,讓香氛不只是嗅覺體驗,更成為說故事的媒介。整個裝置用了懸吊的紙張(有層疊式、波浪式、垂墜式等不同造型)、堆疊的白紙充當琥珀色香水瓶的展示台、印著寓言風格文字的大型卷軸、以及模仿書脊造型的包裝設計,還直接展示未經處理的原始植物原料。位於東京國立博物館的旗艦裝置最為突出,Aesop 跟日本手漉和紙職人谷野博子(Tesuki Washi Tanino 工作室)合作,開發了三種客製和紙材質,把每款香氛對應的植物原料融進紙張紋理裡——紙張造型包括懸掛在大理石柱之間的垂墜紙片、迷宮般的結構、瀑布般的垂墜造型、裝在木框裡的卷軸造型,還有替《Unforeseen Aer》這款香氛特別做出的肉豆蔻質感紙張。這個 campaign 最獨特的策略,是把每款香氛拆成三個體驗階段來呈現:原始植物原料、自然詮釋過程、和最終完成的香水——這種層層遞進的安排,把原本被動的觀看體驗,轉化成主動的感官探索,把 Aesop 定位成一個「把氣味和敘事結合在一起」的品牌,而不只是單純賣香水。"
-        },
-        {
-          "title": "Danny Ische draws pixels, cross-stitch and paperclips – all with a trusty pencil",
-          "url": "https://www.creativeboom.com/work/danny-ische-draws-pixels-cross-stitch-and-paperclips-all-with-a-trusty-pencil/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "插畫家 Danny Ische 用鉛筆畫出超寫實的作品,模仿數位影像的質感——像素化的貓、十字繡圖案、迴紋針笑臉——儘管看起來像是螢幕截圖或實體手工藝品,每一筆其實都是純手繪完成的,他形容這個過程就像「用一根睫毛去粉刷一整棟房子」。他的作品刻意製造視覺上的錯覺來欺騙觀者:早期作品明確模仿數位和織品的質感,後來逐漸演變成更傳統的美術方向——靜物、風景、和寫實繪畫;他刻意不斷變換自己的創作方式,避免落入公式化的重複。Ische 的創作哲學是重視每天穩定的產出,而不是空等靈感降臨——他身邊有很多充滿熱情的創作者,這種帶點競爭意味的氛圍,反而轉化成他持續產出的動力;他那些看似天馬行空的過程筆記(像是「棋盤格拼貼電話線杆」),常常要等幾年後重新翻閱才看得懂當時在想什麼。他替《I Heard That Noise》設計的專輯封面,畫了三隻中途躍起的靈犬,用羽毛般輕盈的鉛筆筆觸呈現,角落還藏了幾隻模糊的天鵝,營造出一種緊迫又引人好奇的視覺張力。Ische 做過各種藝術相關的工作、畫廊助理、甚至做過披薩,兩年前才正式轉為全職接案,現在他替唱片封面、雜誌插畫畫圖,甚至替 Carhartt WIP 設計鉛筆手繪的 T 恤圖案。"
-        },
-        {
-          "title": "Lakshya Bhargava on finding home, memory and meaning in the act of painting",
-          "url": "https://www.creativeboom.com/work/lakshya-bhargava-on-finding-home-memory-and-meaning-in-the-act-of-painting/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Lakshya Bhargava 在印度加濟阿巴德長大,原本在準備醫學院的入學考試,後來才轉向藝術,先在邦加羅爾視覺藝術學院就讀,現在在倫敦的斯萊德美術學院深造。他的創作方式是先從自己拍的照片開始,常常在好幾個月後、照片的意義已經有所轉變時,才重新回頭使用它——他解釋:「我比較不在意一個人長什麼樣子,而更在意認識這個人是什麼感覺。」他的畫面構圖同時講究形式結構、又刻意打破這種結構——有時候依循三分法和黃金比例,有時候故意讓這些原則失衡。他的壓克力畫作用了薄透、層疊的筆法,靈感來自孟加拉水洗技法,畫面裡統一出現一種溫暖的橘色光線——這種光是想像出來的,不是觀察寫實而來,色彩的選擇主導著觀者視線該往哪裡看;畫面裡的人物常常被裁切、或停在動作中途,房間、衣物、和局部的身體,在敘事裡佔有同等重要的地位。他作品最獨特的地方,在於層層疊加的時間感和情感——在《Once It Felt Like Home》裡,他把一張原始的水彩畫直接嵌進完成的畫作裡;在《Xiaorui at the Door》裡,他刻意讓畫中人物的鞋子保持未完成的狀態,並融入早期的草稿,用這種做法創造出一種反映關係變化的時間複雜度。"
-        }
-      ],
-      "buzz": "今天的案例橫跨了職業生涯的轉折、科學傳播、感官敘事、和創作日常:Alan Dye 在關掉經營 29 年的工作室之後,選擇用「喜悅」這個詞,重新定義他眼中好設計該有的樣子;Mucho 替 Biotic 做的識別,則示範了怎麼用最簡單的視覺語言,讓複雜的科學變得容易理解、值得信任。Aesop 的全球香氛裝置,把產品體驗拆解成原料、詮釋、成品三個階段,證明感官體驗本身也能被精心敘事化;Danny Ische 和 Lakshya Bhargava 這兩位創作者,則不約而同示範了同一件事——不管是用鉛筆模仿數位質感,還是用繪畫處理記憶和關係,持續的手感練習和願意暴露過程裡的不完美,才是真正讓作品動人的關鍵。"
     }
   }
 ]
