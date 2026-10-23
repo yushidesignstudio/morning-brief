@@ -232,6 +232,15 @@
     }
     .case-quote .ja { color: var(--text); display: block; }
     .case-card .expand-btn { padding-left: 0; margin-top: 12px; }
+    /* 案例圖片：直接顯示原網站的圖，點了連回原文 */
+    .case-cover {
+      display: block; margin: -20px -22px 16px; aspect-ratio: 16 / 9;
+      border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; background: var(--bg);
+    }
+    .case-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .case-figure { margin: 12px 0 4px; }
+    .case-figure img { width: 100%; border-radius: 8px; display: block; background: var(--bg); }
+    .case-figure figcaption { font-size: 12px; color: var(--muted); margin-top: 6px; }
 
     /* ── Empty State ── */
     .empty-state { padding: 40px 0; text-align: center; color: var(--muted); font-size: 14px; }
@@ -393,8 +402,14 @@
          .map(p => `<div class="case-story-item ${p[2]}"><div class="case-story-label">${p[0]}</div><p>${p[1]}</p></div>`)
          .join('');
         // 逐段導讀：每段有小標、內容，可附日文原句＋中譯
+        // 圖片：loading="lazy" 捲到才載入；導讀收起時不會下載；原網站擋圖或刪圖就整塊隱藏
         const guide = (c.guide || []).map(g => `
           <h4>${g.heading}</h4>
+          ${g.image && g.image.url ? `
+            <figure class="case-figure">
+              <img src="${g.image.url}" alt="${g.image.caption || ''}" loading="lazy" onerror="this.parentElement.remove()">
+              ${g.image.caption ? `<figcaption>${g.image.caption}（圖片來源：${c.source}）</figcaption>` : ''}
+            </figure>` : ''}
           <p>${g.body}</p>
           ${g.quote_ja ? `<div class="case-quote"><span class="ja">「${g.quote_ja}」</span>${g.quote_zh || ''}</div>` : ''}
         `).join('');
@@ -404,6 +419,10 @@
 
         html += `
           <div class="card case-card">
+            ${c.cover_image ? `
+              <a class="case-cover" href="${c.url}" target="_blank">
+                <img src="${c.cover_image}" alt="${c.title}" loading="lazy" onerror="this.parentElement.remove()">
+              </a>` : ''}
             <div class="case-title"><a href="${c.url}" target="_blank">${c.title}</a></div>
             ${c.title_zh ? `<div class="case-title-zh">${c.title_zh}</div>` : ''}
             <div class="article-source-row">
