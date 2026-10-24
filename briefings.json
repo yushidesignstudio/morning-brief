@@ -1,5 +1,199 @@
 [
   {
+    "date": "2026-10-24",
+    "daily_summary": "今天兩邊都在講「快不等於好」：NN/g 調查發現 AI 讓工作變快，但省下的時間常被更多產出吃掉；Goodpatch 則說 AI 只做得到 80 分，客戶真正買的是事業成長。Brand 圈這邊，Penguin 把出版社做成可以親身參與的活動，案例區的神戸屋也證明品牌要落地，靠的是組織運作而不是一本規範。對隅室來說，該把服務重心從「交付成果物」移到「陪客戶跑起來」。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NN/g 調查 521 位 UX 工作者：99% 都能用生成式 AI，66% 用過 agent 類工具，但只有 12% 能自由選工具。AI 最常拿來寫程式、做桌面研究、分析研究資料，最少用在訪談使用者（61% 從沒用過）和使用者測試。整體感受只是「微正面」（3.57/5），69% 的開放回答帶負面情緒，主要是輸出不可靠、檢查很累。作者提醒：單一任務變快，省下的時間常被更高的產出要求或幫別人修 AI 成果吃掉，所以要用「整個流程交出及格品質要花多少人力」來算生產力。真的變好的人，都是把省下的時間拿回去打磨品質。"
+        },
+        {
+          "title": "「AIでデザイナーの仕事はなくなるの？」グッドパッチの事業責任者はどう答えているのか",
+          "url": "https://goodpatch.com/blog/2026-10-kawakita",
+          "source": "Goodpatch Blog",
+          "lang": "日文",
+          "studio_related": true,
+          "summary": "日本設計公司 Goodpatch 的設計夥伴事業負責人川北受訪。他認為 AI 產出的只是「人腦已經想得到的 80 分」，取代不了的是比客戶更投入對方事業的「姿態」，以及透過訪談收集脈絡、找出問題再落成形狀的完整設計工作。Goodpatch 今年 9 月把組織從職能別改成「Studio 制」，每個 studio 都有 UI/UX、服務設計、BX、工程、PdM、策略等多種角色，由 director 背事業目標經營。客戶要的不是漂亮的成果物，而是事業成長，所以超出委託範圍的提案在他們是日常。對隅室這種小工作室，這是很直接的定位參考：用「對結果負責」拉開和 AI 量產的距離。"
+        },
+        {
+          "title": "6 ways teams are experimenting with code layers",
+          "url": "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 整理 6 個團隊怎麼用 code layers（畫布上可運作的程式碼圖層）。Dell 用和工程師同一套 React 元件做原型，複製圖層並排比較方案；Cox Automotive 的 PM 不是設計師，一小時內跑了 19 個版本來對齊四種功能方案；顧問公司 Merkle 說迭代快了 30%，互動規格文件少花一半時間；Checkout.com 的設計師丟 app 截圖給 agent 對齊品牌樣式，幫客戶做 demo。共同訊號是：原型可以直接是真的程式，可運作的原型本身就能當規格，而「怎麼下 prompt」變成設計師的新技能。數據多是客戶自述，要打點折扣看。"
+        },
+        {
+          "title": "Entering Atomic Design from the screen",
+          "url": "https://uxdesign.cc/entering-atomic-design-from-the-screen-bae744ecc288",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Sepeda Rafael 提醒，Atomic Design 不是一定要從原子一路往上組的流程。多數團隊盤點畫面時只問「這裡有哪些元件」（按鈕、輸入框、徽章），卻看不到元件之間的關係。作者主張改從「範圍」切入：每個操作會改變哪一塊資料或介面？以後台表格為例，排序按鈕雖然放在欄位標頭，卻會重排整張表；搜尋和篩選決定哪些資料出現；「新增成員」影響整頁。元件是靠行為範圍連在一起，不是靠位置遠近。對做 B2B 後台或幫客戶整理設計系統的人，這是比元件清單更貼近使用者任務的拆解方式。"
+        },
+        {
+          "title": "Accordion Icons: Which Work Best?",
+          "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Vitaly Friedman 引用 NN/g 研究，談手風琴選單（accordion）的 icon 怎麼選。沒有 icon 時，使用者多半以為點了會換頁；自創 icon 常常傳達不出「會展開」；加號和箭頭雖然看得懂，但意義太多，多層選單容易混淆。最穩的做法是：向下的 caret 當預設，展開後改朝上；如果是連結就加底線、不放 icon；避免「文字是連結、icon 是展開」的分離按鈕，改成整列都負責展開，再在裡面放一個「Overview」連結。一個控制項只做一件事，是很實用的檢查清單。"
+        }
+      ],
+      "buzz": "這兩天 Product 圈在重新算「AI 省下的時間去哪了」：NN/g 發現速度變快但滿意度沒跟上，Goodpatch 則把價值重新定義成對客戶事業成長負責。另一條線是原型越來越接近真正的產品，可運作的原型本身就能當規格，交接文件跟著變少。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Derek Man drives the design thinking behind Penguin’s events",
+          "url": "https://www.designweek.co.uk/derek-man-drives-the-design-thinking-behind-penguins-events/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國有 35% 的人自認「以前會讀、現在不讀」，16–24 歲更高達 44%，而出版業一年還在出約 18.8 萬本新書。Penguin Random House 的品牌行銷團隊於是跑到年輕人會去的地方：和 Grind 咖啡合作快閃咖啡車、辦約會活動和晚餐會，還附上專屬紀念品。2025 年加入的設計總監 Derek Man 說，活動讓人「體驗」Penguin，而不只是「看見」它，重點是證明自己懂文化，而不是硬推書。這對做品牌的工作室是提醒：老品牌的知名度不等於存在感，體驗設計可以是品牌識別的延伸。"
+        },
+        {
+          "title": "Kiln designs identity for new weight-loss product, Reset",
+          "url": "https://www.creativereview.co.uk/kiln-studio-identity-weight-loss-product-reset/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Kiln 為減重產品 Reset 設計識別，訴求是給不想計算每一口熱量的人「理解」與「同理」。核心是一個叫 Ester 的方塊角色，它就是 app 本身，不只是聊天功能；方塊的翻轉和重組同時構成 logo 和介面動態。Ester 刻意沒有人臉表情，用方塊的流動表現猶豫、鼓勵和小小的進步，讓使用者自己投射感受。Kiln 認為過度熱情的吉祥物是「建立信任的捷徑」，反而該避開。這是品牌角色與產品介面合一的好例子，健康類客戶特別值得參考。"
+        },
+        {
+          "title": "Getty Images is bankrupt but, still in business thanks to massive Koch deal",
+          "url": "https://www.designweek.co.uk/getty-images-is-bankrupt-but-still-in-business-thanks-to-massive-koch-deal/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Getty Images 聲請美國破產法第 11 章重整，由 Getty 家族和 Koch Equity Development 收回私有化。這篇是評論專欄：作者指出 Getty 年營收約 9 億美元，並不是真的沒錢，而是背了 21 億美元債務，加上 37 億英鎊併購 Shutterstock 被英國監管擋下，才用重整甩掉債務、犧牲小股東。他批評這是靠持有影像版權收租的「租金經濟」，把大家的視覺歷史再租回給創作者。對常要幫客戶買圖庫授權的工作室，這是重新檢視用圖策略的時機：自拍、委託攝影或替代圖庫都可以列入評估。"
+        },
+        {
+          "title": "Thirst designs canteen-inspired bottle for Archie Rose and Chris Hemsworth",
+          "url": "https://www.designweek.co.uk/thirst-designs-canteen-inspired-bottle-for-archie-rose-and-chris-hemsworth/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "雪梨威士忌品牌 Archie Rose 要走向國際（演員 Chris Hemsworth 成了共同擁有者），找獨立工作室 Thirst 重做識別與包裝。概念是「made for the journey」：威士忌不是冒險終點的獎賞，而是在旅途中，所以瓶身參考旅人的水壺，玻璃表面做出像旅行磕碰過的斑駁觸感，標籤撕邊環繞瓶身中段，呼應綁水壺的皮帶。Thirst 刻意不用袋鼠、綠金配色這類國家符號，而是從澳洲地景的赭土、岩石、天空找「輕快又粗獷」的個性。創辦人說得好：品牌不需要看起來更像國際威士忌，而是要有帶著原本個性出國的自信。"
+        },
+        {
+          "title": "All Work is Women’s Work recovers the forgotten history of Amsterdam’s seamstresses",
+          "url": "https://www.itsnicethat.com/articles/hanka-van-der-voet-all-work-is-womens-work-publishing-project-221026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "研究者 Hanka van der Voet 和設計師 Beau Bertens 合作出書，挖掘 20 世紀初阿姆斯特丹「裁縫女工工會」用印刷品對抗剝削的歷史。設計上只用女性設計的字體（內文 TorreFarfan、標題 Wondertype、地圖 CCM Coda），回應女性長期被排除在印刷與字體設計之外；版面找回當年左派報刊的 Art Deco 裝飾，延續工會刊物樸素實用的風格。書裡附地圖和貼紙讓讀者標記剝削地點，還把當年的報紙印成衣服，讓故事回到現場。這是「選字體本身就是論述」的漂亮示範。"
+        }
+      ],
+      "buzz": "這兩天 Brand 圈的主軸是品牌從「被看見」走向「被體驗」：Penguin 辦活動、Reset 讓品牌角色直接變成 app 介面。另一條線是拒絕現成符號，Archie Rose 不靠袋鼠講澳洲，Kiln 不用熱情吉祥物換信任。Getty 破產則讓大家重新討論圖庫版權的收租模式。"
+    },
+    "highlights": {
+      "summary": [
+        "快不等於好",
+        "客戶真正買的是事業成長",
+        "從「交付成果物」移到「陪客戶跑起來」"
+      ],
+      "product": [
+        "AI 省下的時間去哪了",
+        "可運作的原型本身就能當規格"
+      ],
+      "brand": [
+        "從「被看見」走向「被體驗」",
+        "拒絕現成符號"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "【神戸屋 Vol.1】100年企業が「これからの100年」を見据えて取り組んだ、2年間のリブランディング。",
+        "title_zh": "【神戸屋 Vol.1】百年企業為了「下一個百年」投入的 2 年品牌再造",
+        "url": "https://note.com/arence/n/n917407608f80",
+        "source": "ARENCE（note）",
+        "lang": "日文",
+        "published": "2026-08",
+        "category": "盤點整理",
+        "brand_name": "神戸屋（百年麵包企業）",
+        "consultant": "八木彩（ARENCE）",
+        "partial": false,
+        "cover_image": "https://assets.st-note.com/production/uploads/images/304460854/rectangle_large_type_2_0aaf4e5021f9a10814004b0f5ba1100d.jpeg?fit=bounds&quality=85&width=1280",
+        "story": {
+          "problem": "1918 年創業的神戸屋知名度很高，但年輕人被社群上亮眼的新品牌吸走。公司剛賣掉包裝麵包事業，想從「做麵包、賣麵包的公司」轉型成「創造飲食文化的公司」，可是旗下因歷史和事業部擴張，一度分出 14 個以上的品牌，到底在乎什麼已經說不清楚。",
+          "approach": "ARENCE 先做三層研究：訪談經營層與各部門關鍵人物、實地走訪不同型態的門市並訪談店長、深訪老顧客與年輕潛在客群。接著把每個品牌的「概念」「提供價值」「麵包特色」三件事拆開重新定義，分成掛神戸屋名字的品牌和獨立世界觀的品牌，再把核心品牌依客群與使用情境重組。然後提出貫穿全體的宣言「Be Playful」，做成定位為「教科書」而非「規則」的品牌規範，並設立品牌管理者、規劃推行順序。",
+          "result": "內部第一次有一張看得懂品牌定位的「骨架」，跨部門讀書會讓公關、招募等部門有了判斷依據和共同語言。但 logo 尺寸、指定色這類形式規則雖然推行了，「做出來的東西夠不夠像神戸屋」的品質控管至今仍在摸索。",
+          "takeaway": "接老品牌整併案時，可以借用「概念／提供價值／產品特色」三欄表，逐一填每個子品牌，矛盾和重複會自己浮出來。交付規範時要一起設計「誰來守、先跟誰講、誰看得到」，並且誠實跟客戶說：規範推得動的是形式，表現品質需要持續陪跑，這正好也是工作室延續合作的理由。"
+        },
+        "guide": [
+          {
+            "heading": "起點：知名度很高，但只停在知名度",
+            "body": "這是 ARENCE 寫神戸屋案的三篇連載第一篇，專案從 2024 年開始，前後約 2 年。神戸屋是 1918 年（大正 7 年）創業的麵包老店，是把麵包帶進日本日常的先驅，旗下有「神戸屋レストラン」「神戸屋キッチン」等大家都看過的門市。委託人是 2021 年接班上任的社長桐山晋。當時公司剛轉讓包裝麵包事業、體制重整，新訂的經營理念是從「製造販售麵包的公司」變成「創造飲食文化的公司」。社長第一次見面就說了一句讓顧問印象很深的話：知名度高，但好像也就只有知名度了，要趁品牌風化之前，把未來的神戸屋說清楚、做出形狀。他要的不是短期衝營收的招式，而是百年尺度的方向，以及讓新理念真正滲進公司內外。",
+            "quote_ja": "神戸屋の認知度は高い。しかし、それだけで終わっているのではないかと感じている。",
+            "quote_zh": "神戸屋的知名度很高，但我覺得好像也就只停在知名度而已。"
+          },
+          {
+            "heading": "診斷：百年歷史長出 14 個品牌",
+            "body": "顧問第一件事是拆解現狀。外界看神戸屋只有「老字號麵包店」一個印象，但公司內部因為歷史因素和事業部各自擴張，一度衍生出 14 種以上的品牌。門市地點、麵包做法、商品分類好幾條軸線糾纏在一起，結果是「神戸屋到底重視什麼」變得很難看懂。顧問的判斷是：職人技術和對麵包的熱情這些品牌資產確實存在，問題出在沒有整理就一路多角化，導致對外的訊息和體驗都被稀釋掉了。"
+          },
+          {
+            "heading": "研究：三個角度聽真話",
+            "body": "ARENCE 刻意不在腦中先下結論，而是做三層研究。第一是內部訪談：從經營團隊到企劃、製造、門市營運、人才培育各部門的關鍵人物，問他們怎麼理解新理念、日常工作卡在哪裡，同時挖出值得傳下去的資產，例如從大正時代起把西方飲食文化帶進日本的先驅身分。第二是門市走訪和店長訪談：實際觀察不同營運型態的店，看空間、陳列、接客氛圍和顧客動線，再聽店長講地區客群差異和現場的小巧思。第三是顧客深訪：不只問老顧客，也訪談想爭取的年輕族群，除了「對神戸屋的印象」「什麼時候會想去」，還問平常的生活方式、被哪些別家店吸引、怎麼看麵包，從中找出購買行為背後的真實動機，以及認知和實際之間的落差。",
+            "image": {
+              "url": "https://assets.st-note.com/img/1786968588-kXEhRxp2Fr9oGOVmYg80MUzI.jpg?width=1200",
+              "caption": "神戸屋過去的公關刊物，社長說想再做出當年那種讓人興奮的感覺"
+            }
+          },
+          {
+            "heading": "整理：把三件事拆開重新定義",
+            "body": "有了大量訪談和觀察，顧問開始拆解 14 個品牌的結構。重點不是單純把數量砍少，而是把過去混在一起的三個要素分開：品牌概念（這個品牌獨有的想法與存在意義）、提供價值（顧客在店裡或商品上得到的體驗）、麵包特色（製法、素材、職人技術等商品本身的強項）。重新定義後，先把品牌分成兩群：掛「神戸屋」名字的，以及刻意不提神戸屋、自己建立世界觀的。掛名的核心品牌，再依目標客群和使用情境系統性地重組合併。最後在神戸屋這把大傘下，每個品牌賣什麼麵包、提供什麼價值都一目了然，公司內部第一次有了共同看得懂的「骨架」。"
+          },
+          {
+            "heading": "宣言：Be Playful，找回創業時的玩心",
+            "body": "貫穿整個骨架的新宣言是「Be Playful」。它的根源是創辦人當年第一次遇到日本人還不熟悉的麵包時，那份對未知的好奇和想把新美味帶給大家的挑戰精神；以前的神戸屋也很敢玩，例如 1970 年大阪萬博的「空中ビュッフェ」（空中自助餐）。但百年來太專注於守傳統、講誠實，不知不覺整個企業姿態變得太「認真」。社長說，目標是不怕改變，用自由發想和玩心創造多元飲食文化，讓麵包店真心帶著玩心給客人驚喜。顧問強調這不是公關口號，而是對內對外宣告轉型決心。",
+            "quote_ja": "パン屋が本気で遊び心を持って、お客様に驚きやワクワクをお届けする。",
+            "quote_zh": "麵包店認真地帶著玩心，把驚喜和雀躍送到客人手上。",
+            "image": {
+              "url": "https://assets.st-note.com/img/1786968763-j8eh2Es0KQB4viV5rkqXWtUS.jpg?width=1200",
+              "caption": "1970 年大阪萬博「空中自助餐」的宣傳單，是 Be Playful 想找回的精神"
+            }
+          },
+          {
+            "heading": "規範：是教科書，不是綁手綁腳的規則",
+            "body": "理念確定後，ARENCE 把它轉成視覺和結構上的品牌規範。他們最小心的一點是：規範不能變成限制自由的規則。越老的企業越擔心一做規範，審核流程變嚴、現場不敢發想、製作速度變慢。所以在內部讀書會和窗口會議上，顧問把規範定義成「品牌的教科書」：教科書寫的是通往答案的提示，不是答案本身，守住基礎之後，接下來的發想交給現場自由延伸。同時也講明，這不是做完就不能改的完美文件，而是要在實務中邊用邊長大、持續更新的未完成工具。",
+            "quote_ja": "このガイドラインは、自由を縛るルールではなく『ブランドの教科書』です。",
+            "quote_zh": "這份規範不是綁住自由的規則，而是「品牌的教科書」。",
+            "image": {
+              "url": "https://assets.st-note.com/img/1786968675-n6eDCXksL9lAt7VQN1pfK3Ri.jpg?width=1200",
+              "caption": "傳達「Be Playful」宣言的海報"
+            }
+          },
+          {
+            "heading": "困難：推行時撞上的三道牆",
+            "body": "把宣言和規範變成組織日常，過程並不順，最大的課題是「運作體制和順序怎麼排」。第一道牆是品牌管理者：規範只是發下去一定會流於形式，必須在公司內立一位核心的品牌管理者，並培養他自己有判斷標準。第二道牆是推行路線和權限：先跟誰說明、哪些資訊開放給誰、治理架構怎麼建，一口氣全公司推開反而會造成實務混亂。第三道牆是「品牌管理」和「品質管理」的落差：logo 最小尺寸、指定色這種形式規則慢慢推得動，但做出來的東西有沒有神戸屋的世界觀和完成度，不是一朝一夕的事，這部分到現在仍在邊試邊陪跑。顧問自己的結論是：設計做好不是終點，認真面對體制建立和內部糾結，才是品牌再造真正的起跑線。"
+          },
+          {
+            "heading": "成果與結論：規則和留白都要設計",
+            "body": "經過反覆嘗試，規範讀書會開始吸引跨部門成員參加，大家感覺終於能脫離「憑感覺」的作法。有人說接手公關時原本沒有規則、很迷惘，現在字體和顏色整理好了，有了判斷依據；也有人說新制度和招募進行中，全公司語氣一致，對求職者更有說服力；還有人說，大家開始覺得規範不是被迫遵守，而是一起共創的東西。除了配色優先順序這類技術規則，「神戸屋＝誠實，再加上玩心和洗鍊」這種質性的意識，也逐漸成為員工的共同語言。顧問最後的結論是：只做出完美的設計系統沒有意義，重要的是保住該守的一致性，同時留下現場能挑戰的彈性，讓組織遇到迷惘時有地方回頭看、能自己跑下去。下一篇會談企業品牌的全貌和「神戸屋キッチン」的改版。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-23",
     "daily_summary": "今天兩邊都在問同一件事：AI 讓「做出來」變得很便宜，那真正值錢的是什麼？Product 圈開始算 AI 自建工具的維護帳，Brand 圈則提醒工作室要分清楚哪些可以交給 AI 量產、哪些必須由人親手決定。對隅室來說，現在正是把「人來拍板、AI 來延伸」寫進服務流程的好時機。",
     "jenny_wen": {
@@ -1382,112 +1576,6 @@
         "「在地」和「手工」",
         "有實體感、有文化脈絡的東西反而更有價值"
       ]
-    }
-  },
-  {
-    "date": "2026-10-11",
-    "daily_summary": "今天 Product 圈從物理學的類比到情境資料庫的維運問題,都圍繞著「AI 到底該用在哪裡、人的判斷該保留在哪裡」展開討論;Brand 圈則用 Depop 的克制哲學和 Kiss Branding 的放手案例,示範了品牌和工作室的信任感,往往是靠「知道什麼時候該退後一步」建立起來的。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Designing for an idea before it exists",
-          "url": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Hiroshi Sato 用一個粒子物理學的故事來比喻設計思考——這個故事他最早是在數學家 Marcus du Sautoy 的《我們無法知道的事》裡讀到的。1960 年代初期,物理學家試圖整理次原子粒子的分類時,發現許多粒子能用一種叫 SU(3) 的對稱性分類法排列出來,形成一種出奇優雅的「家族」結構。其中一個家族理論上該有十個位置,但當時已知的粒子只填滿了九個——如果這個結構真的捕捉到了世界運作的某種真相,那麼第十個粒子理論上必須存在,而物理學家後來真的找到了它。Sato 用這個故事來類比設計思考:有時候,我們能透過一個結構性的脈絡,預先感知到一個「還不存在的東西」該長在哪個位置上,即使我們還沒有真正做出它——設計師的工作,不只是回應已經存在的需求,還包括辨識出結構裡那個「空著的位置」,並朝著那個方向去設計。對設計師的啟發是:有時候最有價值的設計洞察,來自於注意到一個系統或脈絡裡明顯缺了什麼,而不是等到使用者明確說出他們想要什麼。"
-        },
-        {
-          "title": "Are synthetic users (really) the future of UX research?",
-          "url": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Arin Bhowmick 針對「合成使用者」在 UX 研究裡的角色,提出一個務實的中間立場——他指出業界目前分成兩派:一派認為用人工生成的角色去測試服務真人的產品,根本上不道德;另一派則主張這是讓使用者研究變得更有效率的實用工具。Bhowmick 的立場是:合成使用者應該只被用來「擴大」你已經做過的真人研究的規模,而不是取代它——他直言,「設計產品是為了服務人類,但資料卻只來自非人類」這件事根本說不通。他主張合成使用者在研究流程的早期階段,可以當作第一個接觸點來使用,幫助團隊快速建立對問題空間的大致理解,這是合成使用者唯一真正明顯的優勢——在研究初期階段,能讓團隊更快速地往前推進。對研究者的啟發是:把合成使用者定位成「加速早期探索」的工具,而不是「取代真人驗證」的捷徑,真正重要的決策,終究需要回到真人身上做確認——這個立場正好跟近期有人提出的質疑互相呼應,兩種觀點一起讀,能幫助團隊更精準地判斷合成使用者的使用邊界在哪裡。"
-        },
-        {
-          "title": "AI-generated UI is fast design, not UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Sophie Shrimpton 主張,AI 生成的介面代表的是一種「快速設計」——把速度放在深思熟慮的問題解決之前,就像當年的「快時尚家具」把製造效率放在品質之前一樣。她認為,企業如果用 AI 來跳過真正的使用者研究和問題發掘,犧牲的是工藝本身,最終做出的是「AI 垃圾」——功能上失敗、卻包裝成設計的東西。她用自己的親身經歷開場:小時候家裡擺滿古董家具,對比現在家裡那張桌面不平整、邊角還會戳到人的現代餐桌;她引用《華盛頓郵報》的報導,指出家具產業已經從講究木材品質,轉向使用廉價的中國製合板,導致掩埋場的家具廢棄物比 1960 年代暴增了 450%。她也舉了一個真實的失敗案例:加拿大航空的聊天機器人曾經捏造出不存在的奔喪票價政策,導致一場官司,仲裁庭認定公司在上線前沒有做好應有的評估,判賠使用者。她引用 NN/g「UX 的看管時代」這個概念,指出設計師正在從創新的領導者,淪為替 AI 生成的混亂善後的清潔工。她主張解方不是拒絕 AI,而是在完成扎實的人本設計工作之後,才把 AI 拿來用——就像紡車提升了編織的效率,卻沒有取代這門工藝本身。對設計師的啟發是:先問「使用者真正需要什麼」,再談生成解決方案;把 AI 當成工具而不是替代品;並且主動替「探索、提問、容許失敗」這種發想過程的價值辯護,對抗「下一次 prompt 就上線」的文化。"
-        },
-        {
-          "title": "Context Libraries: How AI Power Users Manage Context Engineering",
-          "url": "https://www.nngroup.com/articles/context-libraries/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章主張,AI 代理人的表現,取決於引導它們行為的「情境資料庫」——也就是一套經過整理、承載組織知識的檔案集合;但大多數使用者都很難長期維護這些資料庫,因為平台缺乏相應的支援工具,也沒有建立起最佳實務。文章指出一個關鍵問題:研究參與者花在「整理情境」上的力氣,竟然比花在「寫 prompt」上的還多,而且每個人都是自己摸索出一套流程——檔案會逐漸過時、跟外部資料庫的連結會中斷,受訪者甚至常常找不到自己當初建立的情境檔案。文章舉了幾個具體案例:一位受訪者原本設定的每日任務摘要自動化流程,隨著他的工作流程演變早就失去意義,但他從來沒有更新過它,即使他對自己的信件和逐字稿都有持續的存取權限;一位使用者在訪談過程中,意外在一個自己早就忘記存在的情境檔案裡,發現了重要的全域治理規則;一份原本是為某個播客專案設計的視覺風格指南,卻神祕地套用到一個完全無關的 app 上,造成情境「滲漏」的問題。唯一真正有效的做法,來自一個擁有超過 2700 個檔案的大型資料庫——它用階層式的資料夾結構,在每個資料夾裡放一張 CLAUDE.md 索引卡,並嚴格遵守一條規則:「必須先往上或往下移動,才能橫向移動」,限制每個工作階段能存取的範圍。對設計師的啟發是:讓 AI 代理人自己負責維護情境檔案、而不是手動編輯;用索引卡檔案記錄每個資料夾的用途;把檔案長度控制在幾百行以內;把情境侷限在局部範圍,避免不相關專案之間互相污染。"
-        },
-        {
-          "title": "Sightlines issue no.3: Raise the bar for how teams use AI",
-          "url": "https://www.figma.com/blog/sightlines-issue-no3/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章點出一個關鍵落差——AI 的潛力和它實際在產品團隊裡發揮的影響力之間,存在明顯的距離,核心主張是「單靠速度,並不等於真正的進展」,團隊該用 AI 去徹底探索方向、打磨品質,而不只是用來更快出貨。OpenAI 的 Ian Silber 強調:「速度不是目標……如果我們動得很快、但出的是垂圾貨,那根本不算好事。」文章主張,領導者該把 AI 帶來的這種速度,重新導向更深入的探索和邊界案例測試,而不是單純加速交付——目標是「往對的方向移動」,不是單純移動得快。至於怎麼在組織層面真正推動採用,文章強調個人工具熟練度終究有極限,全公司性的 AI 能力需要靠同儕主導的學習空間、把 AI 整合進既有工作流程、同時分享成功和失敗的實驗經驗、以及領導者親自示範和參與。Figma 的 Gui Seiz 也主張,主管該「替團隊創造空間,讓他們能玩、能犯錯、能自己想清楚」。對設計團隊的啟發是:主動保留探索的時間、把實驗失敗正常化、讓領導層親自參與 AI 工具的使用來建立正當性,並在追求速度的同時,保有對產品方向的刻意判斷。"
-        }
-      ],
-      "buzz": "今天的文章圍繞著「AI 到底該用在哪裡、不該用在哪裡」這個核心問題,從好幾個不同角度切入。Hiroshi Sato 用物理學的類比,提醒我們設計有時候是在替一個「還不存在的東西」預留位置;兩篇關於合成使用者的文章互相呼應——Arin Bhowmick 認為合成使用者可以用來擴大真人研究的規模,但終究不能取代它。Sophie Shrimpton 用「快時尚家具」當類比,警告我們 AI 生成的介面如果跳過真正的問題發掘,做出來的只是包裝成設計的功能性失敗。NN/g 的情境資料庫研究則揪出一個很實際的維運問題——AI 代理人的表現,取決於一套需要持續維護、卻很少有人真正照顧好的知識庫。Figma 的 Sightlines 則從組織文化的角度提醒我們:速度不等於進展,真正該被鼓勵的是探索的空間和容許失敗的文化。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Depop's Steve Dool on how to build a brand with a strong sense of self",
-          "url": "https://www.itsnicethat.com/features/in-house-depop-steve-dool-creative-industry-071026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Depop 的品牌與創意高級總監 Steve Dool 認為,強大的品牌,往往是由「不做什麼」來定義的,程度不亞於「做了什麼」——他的策略核心是克制、長遠思考、和清楚知道這個品牌有資格在哪些場合現身。他的做法是「選擇性參與」:每次有熱門話題出現時,他會先問 Depop「有沒有資格加入這場對話」,拒絕為了追逐跟品牌調性不符的病毒式話題而犧牲長期的一致性,就算這代表短期內要做出一些犧牲。他也不把資料和創意看成對立的兩端,而是把兩者都視為由不同輸入資訊支撐的策略選擇——他說:「有人在決定該用哪個字體……這跟解讀資料一樣,都是基於資訊做出的策略決定。」他舉了幾個具體案例:在 YouTube 投放廣告時,團隊從簡單直白的功能性訊息「上架商品,賺點錢」開始,逐步加入創意元素——用大家熟悉的授權歌曲提升廣告記憶度、找知名人物客串增加顯著度,慢慢在內部累積信心,才敢做更冒險的專案;替 Zara Larsson 做的 campaign 裡,為了在永續議題裡注入幽默感,他找了喜劇演員 Jo Sunday 寫腳本、但不設限具體的話題,再讓 Zara Larsson 自己編輯加上笑點,這種真正的協作做出了感覺真實、而不是刻意行銷的廣告;在 Daisy Chain Fields 音樂節的實體活動裡,團隊設計了簡單的二手商品抽獎體驗,呼應顧客日常真正的互動方式,而不是硬塞一個刻意設計的品牌時刻。對設計師的啟發是:跟外部代理商或夥伴合作時,要找「願意把現有作品再推進一步、而不是直接否定」的「建造而非破壞」心態的團隊,而彼此合不合拍、好不好相處,在執行複雜、面向大眾的創意專案時,重要性超乎想像。"
-        },
-        {
-          "title": "Kiss Branding on what happens when studio founders stay out of their own rebrand",
-          "url": "https://www.creativeboom.com/insight/kiss-branding-in-what-happens-when-founders-stay-out-of-their-own-rebrand/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "里茲的品牌顧問公司 Kiss Branding,在替自己做品牌重塑時,共同創辦人 Poonam Saini Kilb 和 Matt Kilb 刻意從創作過程裡退後一步——他們負責制定策略並記錄下來,然後把視覺識別的執行完全交給團隊,刻意克制自己插手的衝動。他們圍繞著「戀人原型」建立起清楚的方向——他們的核心洞察是:「最好的品牌,能在企業和它所服務的人之間,瞬間激發出一見鍾情的吸引力」,這個概念成為整套識別的基礎,邱比特則成為象徵這個連結瞬間的吉祥物。整個執行過程包括:這個角色經過超過 100 次的手繪草稿反覆修改;客製字標花了大約一個月時間細修;還藏了一些刻意設計的細節(K 和 I 兩個字母悄悄組成一個心形;一個箭頭貫穿整個字形)。Poonam 解釋選用吉祥物的過程:「一開始選他只是概念階段的一點小趣味……但隨著團隊不斷嘗試,我們全都愛上了他。」談到這類設計趨勢,她說:「符號本身就帶有很原始的力量。當一個標誌被賦予人格,人們會給它情感和動態,這是扁平的 logo 做不到的。」這次經驗讓他們發現,放手反而讓團隊更有自信、也帶來了全新的視角。Poonam 的建議是:「先把團隊準備好,然後信任他們……這樣才有足夠的時間支持他們,直到你真正放心把事情交給他們為止。」"
-        },
-        {
-          "title": "Busier briefs, shorter days: 8 ways to survive the last quarter of the year",
-          "url": "https://www.creativeboom.com/tips/busy-briefs-shortening-days-10-ways-to-survive-the-last-quarter-of-the-year/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "這篇文章指出,十月到十二月對創意工作者來說是一場完美風暴——截止日期接連不斷、日照時間變短、團隊早已疲憊、客戶的壓力卻愈來愈大,整篇文章提供了八個具體的應對策略。像是固定散步能刷新思考、降低壓力,影片製作人 Nick Hill 說:「我不知道沒有每天遛狗這件事,我會變成什麼樣子」;設計師 Asa Rodger 為了對抗蘇格蘭冬天的黑暗,會在午餐後安排長時間的散步,再把工作時間往晚上延伸;作家 Juliana Salcedo 分享:「關掉通知對我來說效果好得驚人」;藝術家 Destiny Hankerson 則提到:「就算只是短暫的午睡,對我來說也差很多」;設計師 Matthew Gallagher 堅持:「年底的那些假期是神聖不可侵犯的」;文章也建議在截止日期最緊繃的時候反而該刻意休息一下,往往比硬撐著繼續做更快找到解法;插畫家 Lyndsey Yates 則靠季度性的同儕 review 通話,找到「知道自己不是孤單一人」的安慰感,降低孤立感帶來的壓力;攝影師 Erik Sven 建議列出自己完成的事,而不是列出失敗的事:「你能走到這裡,是因為你已經很努力了。」對接案者和工作室的實際啟發是:把彈性排程、休息時間正常化、建立互相督促的同儕網絡、盡可能把重要截止日期提前到十月之前排好,並明確把團隊的身心狀態放進第四季的管理考量裡。"
-        },
-        {
-          "title": "MacFadden & Thorpe gives Dave Eggers's free alternative to art school a bendy, salty identity",
-          "url": "https://www.creativeboom.com/work/macfadden-thorpe-gives-dave-eggerss-free-alternative-to-art-school-a-bendy-salty-identity/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "設計工作室 MacFadden & Thorpe 和設計師 Anisha Sachar,替 Art + Water 打造了一套品牌識別——這是作家 Dave Eggers 和藝術家 JD Beltran,在舊金山 29 號碼頭創立的免費藝術家工作室和師徒制計畫,提供 10 位資深藝術家免費的工作空間,讓他們指導 20 位新興藝術家,搭配展覽和公共活動。整套識別圍繞著「流動」這個概念展開——同時呼應濱水的地理位置,也呼應藝術家之間知識交流的過程;設計師刻意拒絕機構式的僵硬感,選擇用彈性和生命力取代。視覺元素包括:一個帶有彎曲、柔軟字形的客製字標;沿著曲線路徑蜷曲的字體排印;把圖像裝進會「膨脹、收縮、位移」的造型容器裡;帶有擺動、拉伸、閃爍效果的動態設計;搭配大膽的螢光粉和電光水藍色系為主色,輔以一些被形容為「出乎意料、大膽、帶點灣區海水鹹味」的輔助色。這套識別的核心精神,是打造一種「能持續被使用者重新塑造的視覺語言」,強調彈性而不是固定的規則——很適合一個本質上就是由社群共同塑造的藝術計畫。"
-        },
-        {
-          "title": "William Goldsmith's comics explore memory and 'the strange patterns that shape it'",
-          "url": "https://www.itsnicethat.com/articles/william-goldsmith-illustration-discover-081026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "倫敦插畫家 William Goldsmith 透過漫畫、zine、和書籍創作,探索記憶這個主題——他刻意運用「重複、疊加、和抽象化」的手法,呈現記憶本身那種飄忽不定的特質,打造出層層疊加的視覺敘事,探討地點和瞬間如何塑造我們的記憶。他的作品畫面色彩鮮豔、圖案密集,帶著玩心和一絲超現實的暗流。他最近出版的《The Suitcase》——一本限量 100 本的孔版印刷漫畫——正好體現了這種創作方法:這本書把一段「爬進機場行李轉盤」的童年記憶,跟雅典、格拉斯哥、和莫斯科的場景交織在一起,探索「塑造記憶的那些奇怪模式」。他的作品有兩個特別突出的地方:第一,他會把奇幻或想像中的空間,扎根在可觀察的真實人際互動裡——他說,畫裡的角色「必須感覺像我真正遇過的人」,靈感來自真實的對話節奏;第二,他同時身兼作者和插畫家的雙重角色,讓敘事始終紮根在真實的敘事聲音裡。旅行對他的創作氛圍影響很大——像是這個夏天在捷克的長期駐地經驗,直接影響了他的視覺發展和創作主題。"
-        }
-      ],
-      "buzz": "今天的案例都圍繞著「品牌的信任感,是怎麼透過放手和克制建立起來的」這個主題:Steve Dool 在 Depop 的做法,示範了品牌該怎麼靠「不做什麼」來維持一致性;Kiss Branding 的創辦人則證明,刻意從自己的重塑案裡退後一步,反而讓團隊變得更有自信。《Busier briefs》這篇給接案者和工作室的建議提醒我們,第四季的生存之道,終究要靠把身心健康正常化、而不是硬撐。MacFadden & Thorpe 替 Art + Water 做的識別,則示範了怎麼用「流動」這個概念,打造出一套能持續被社群重新塑造的視覺語言;William Goldsmith 的記憶漫畫,則從純粹的個人創作出發,證明重複和疊加本身也能變成一種敘事語言。"
     }
   }
 ]
