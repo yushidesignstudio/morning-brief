@@ -1,5 +1,205 @@
 [
   {
+    "date": "2026-10-25",
+    "daily_summary": "今天兩邊其實在講同一件事：AI 讓「做得漂亮」變便宜了，真正值錢的是判斷和看得見的過程。Product 圈提醒設計師回頭愛上問題本身，Brand 圈則從 Apple Music 新識別看到「過程本身就是證明」，對工作室來說，把思考過程攤開給客戶看會越來越重要。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Fall in Love With the Problem Again",
+          "url": "https://medium.com/design-bootcamp/fall-in-love-with-the-problem-again-7b8deeeb001f",
+          "source": "Bootcamp (Medium)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計主管 Ashish Jain 從一次面試說起：作品集畫面很精緻，但問到「使用者是誰、原本卡在哪」時，對方答得像 prompt 生出來的。他認為 AI 讓產出變便宜後，以前「做一版很貴」逼我們先想清楚問題的那層過濾消失了，於是出現兩種 AI slop：一種是長得都一樣的產出，另一種更危險的是流程上的 slop，例如先開 prompt 而不是先跟使用者聊。他呼籲把重心從 output 拉回 outcome，並重新重視設計審查與 craft。對工作室來說，提案時能講出「只有親自理解問題才知道的細節」，會是跟 AI 產出拉開差距的關鍵。"
+        },
+        {
+          "title": "The design industry is changing faster than we notice",
+          "url": "https://medium.com/design-bootcamp/the-design-industry-is-changing-faster-than-we-notice-ce58c55b2e2a",
+          "source": "Bootcamp (Medium)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "一位做了 7 年行動產品的設計師回顧工作內容的轉變：從「把東西做好看」變成看 paywall 測試結果、改 onboarding 流失點、做 5 版 App Store 截圖比下載率。核心論點是「Screens are cheap now. Decisions are not.」——公司要問的不再是你做不做得出來，而是該做哪一版、為什麼。他也觀察到 UI/UX 界線消失、設計越來越貼近數據，他靠漏斗實驗讓訂閱轉換提升 10–15%。啟發是：技能「太廣」不再是弱點，能讀數據、用目標驅動設計的人更吃香。"
+        },
+        {
+          "title": "The hidden design cost of building with AI",
+          "url": "https://medium.com/design-bootcamp/the-hidden-design-cost-of-building-with-ai-168e509a8025",
+          "source": "Bootcamp (Medium)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者在一場兩天的黑客松裡用 ChatGPT、Claude、Copilot 做 AI agent，發現 AI 讓「做」變快，卻沒讓「檢查」變快。省下的時間全搬去逐行讀程式碼、校對內容，而且 AI 產出永遠看起來像完成品，最危險的就是這點。團隊差點漏掉三件事：agent 到底該給使用者什麼、文字語氣對不對、整體視覺該長怎樣——AI 能十秒生十版，卻幫不了大家選一版。對接案團隊的提醒：用 AI 估工時，要把審查與共識的時間算進去。"
+        },
+        {
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NN/g 的 Raluca Budiu 整理了 26 個 UX 相關領域的定義，從 UX、UI、互動設計、服務設計到 DesignOps，還有行銷、市場研究等鄰近領域。重點在釐清容易混淆的邊界：視覺設計管「長怎樣」、互動設計管「怎麼動」，UI 是兩者合體；產品管理決定做什麼和為什麼，產品設計決定怎麼對使用者運作；UX 研究看使用者行為，市場研究看市場與競品。文章也提醒職稱沒有統一標準。對工作室很實用：跟客戶談範疇、寫報價單時，可以用它對齊「這個案子到底包含哪些專業」。"
+        },
+        {
+          "title": "Industrial Romanticism 2 展に向け、参加デザイナー7名が語る、デザインのロマンとはなにか（前編）",
+          "url": "https://www.axismag.jp/posts/2026/10/727542.html",
+          "source": "AXIS",
+          "lang": "日文",
+          "studio_related": false,
+          "summary": "10/30 起在 AXIS Gallery 展出的「Industrial Romanticism 2」前導座談，來自 Sony、Sharp、TOTO、Panasonic、Yamaha、POLA、三菱電機的 7 位 in-house 設計師聊「設計的浪漫」。多數人坦言在企業裡很難把個人想法說出口，但都在找縫隙放進自己的視角；POLA 的松本亜弓說不需要被 100 個人都接受，打動一兩個人就好。最有意思的是 Sharp 和三菱電機的設計師提到：當 AI 能輕易做出漂亮造型，「無法下指令的東西」——個人情感，可能就是設計師的角色。和今天其他文章呼應，從工業設計角度看同一個問題。"
+        }
+      ],
+      "buzz": "Product 圈這兩天的共識是：畫面變便宜，決策變貴。好幾篇文章都在說 AI 省下的製作時間並沒有消失，而是搬到檢查和判斷上；設計師的價值正從產出移回理解使用者、讀懂數據、在多個版本中選對那一個。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Oh, Apple Music has a new logo. We talk with Curtis Free about why the making matters more in an AI world.",
+          "url": "https://www.designweek.co.uk/oh-apple-music-has-a-new-logo-we-talk-with-curtis-free-about-why-the-making-matters-more-in-an-ai-world/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Apple Music 新識別是用油槽、燈光和換能器，讓 Fred Again 的聲音在油面造出紋路做成的。Conran Design Group 設計總監 Curtis Free 認為這代表市場的轉向：AI 讓精緻變便宜，精緻就不再能證明背後的功力，於是「看得見的過程」成了信任訊號——他的說法是 process becomes proof。他也舉 OpenAI 用 35mm 底片拍廣告、Anthropic 廣告走電影質感，說明連做 AI 的公司都在展示人的參與。對工作室的啟發：提案和作品集可以多呈現手作、實驗和方法論，這本身就是價值。"
+        },
+        {
+          "title": "How Ben & Jerry's became a beacon of brand bravery",
+          "url": "https://www.creativebloq.com/news/how-ben-and-jerrys-became-a-beacon-of-brand-bravery",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Creative Bloq 專訪 Ben & Jerry's 行銷長 Jay Curley，談品牌怎麼把價值觀變成行動：從把口味 Chubby Hubby 改名 Hubby Hubby 支持婚姻平權，到發起關閉監獄的倡議。他認為多數企業不表態是因為傳統上的風險趨避，但有社群的品牌必須現身；Patagonia、Lush、Penzeys Spices 都是例子。選議題的原則是從價值觀出發，再看自己在哪裡真的能有影響；內部有人不同意也沒關係，重點是說明清楚為什麼這麼做。對品牌顧問很有參考價值：理念不是寫在牆上，而是要能回答「我們願意為它承擔什麼風險」。"
+        },
+        {
+          "title": "The ambitious EA Sports rebrand looks great from every angle",
+          "url": "https://www.creativebloq.com/news/the-ambitious-ea-sports-rebrand-looks-great-from-every-angle",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "品牌專家 Heinrich Paravicini 評析 DixonBaxi 為 EA FC 27 做的新識別。背景是 2023 年 EA 和 FIFA 結束 30 年合作改名 EA FC，當時的三角形 logo 來自遊戲中球員頭上的游標。這次 DixonBaxi 把三角形變成可自由變形的形狀，能依情境長出不同的視覺詮釋，整體語言更接近 TikTok、Twitch 而非傳統體育轉播。創意總監 Karun Agimal 說這是一個「被活出來」而不只是被玩的品牌。啟發是：好的符號系統不是死守 logo，而是保留核心、給使用情境足夠的彈性。"
+        },
+        {
+          "title": "Pentagram looks to Grand Central Oyster Bar's iconic lettering for its gorgeously gaudy Storefront Gala 2026 identity",
+          "url": "https://bpando.org/2026/10/22/pentagram-new-york-storefront-gala-2026-event-identity-design/",
+          "source": "BP&O",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Pentagram 紐約辦公室 Natasha Jen 團隊自 2012 年起就為非營利組織 Storefront for Art and Architecture 設計年度募款晚會識別。今年場地在 Grand Central Oyster Bar，團隊把 Rudolph de Harak 設計的餐廳 logo 字形延伸成完整字母，八角形的 O 定下整套幾何，粗黑外框加上鮮豔填色，套用在海報、菜單、刺繡帽和動態影像上。評論者認為改造經典 logo 本來有被罵的風險，但因為場地本身就是出處，引用顯得有根據而不是隨便挪用。對工作室的啟發：活動識別可以從「場地的視覺資產」出發，讓設計有在地的理由。"
+        },
+        {
+          "title": "design/leader: Daniel Nicholas, design director & partner at Super Okay",
+          "url": "https://www.designweek.co.uk/design-leader-daniel-nicholas-design-director-partner-at-super-okay/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Design Week 專訪紐約工作室 Super Okay 的設計總監兼合夥人 Daniel Nicholas。他想寫的專書叫「在平凡中找美」，舉飲水機和紐約行人號誌的外蓋當例子，說最用心的設計常常沒人注意。他認為設計領導者被低估的能力是同理心，新人不可妥協的特質是要有明確觀點；最希望客戶多重視過程，因為過程才是大部分，但很少客戶認真走完。內容短但對小型工作室很有共鳴：怎麼讓客戶參與並珍惜過程，跟今天 Apple Music 那篇談的「過程就是證明」正好呼應。"
+        }
+      ],
+      "buzz": "Brand 圈在聊品牌怎麼在 AI 時代證明「有人在做」：Apple Music 用油和聲波做 logo，把製作過程當成信任訊號。另一條線是品牌要不要表態，Ben & Jerry's 認為價值觀要落實成行動；EA FC 和 Pentagram 的案子則示範了如何把既有符號長成靈活的系統。"
+    },
+    "highlights": {
+      "summary": [
+        "真正值錢的是判斷和看得見的過程",
+        "過程本身就是證明",
+        "把思考過程攤開給客戶看"
+      ],
+      "product": [
+        "畫面變便宜，決策變貴",
+        "搬到檢查和判斷上",
+        "在多個版本中選對那一個"
+      ],
+      "brand": [
+        "把製作過程當成信任訊號",
+        "價值觀要落實成行動",
+        "長成靈活的系統"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "【よーじや】「みんなが喜ぶ京都にする」ためのブランディングデザイン。",
+        "title_zh": "【よーじや】為了「打造讓大家都開心的京都」所做的品牌設計",
+        "url": "https://note.com/arence/n/n098aeaaea7c7",
+        "source": "note（ARENCE 八木彩）",
+        "lang": "日文",
+        "published": "2025-03",
+        "category": "理念落地",
+        "brand_name": "よーじや（京都吸油面紙老店）",
+        "consultant": "八木彩（ARENCE）",
+        "partial": false,
+        "cover_image": "https://assets.st-note.com/production/uploads/images/177130247/rectangle_large_type_2_115140ce3f43c8f3ff5f2e671f6ed89c.jpeg?fit=bounds&quality=85&width=1280",
+        "story": {
+          "problem": "よーじや創業於 1904 年，靠吸油面紙大紅，結果被定型成「京都伴手禮店」，在地人反而覺得跟自己無關。加上觀光過度讓京都居民越來越難住、育兒家庭外移，第四代社長國枝昂開始有危機感：一家在京都做了 120 年生意的公司，應該為京都做點什麼。",
+          "approach": "花約一年和社長與員工反覆討論，先定下「不依賴觀光、為住在京都的人貢獻」的方針，再請文案蛭田瑞穗把它濃縮成標語「みんなが喜ぶ京都にする」。經營理念刻意讓 VISION 和標語用同一句話，避免新詞讓公司內部理解分歧；VALUE 的五個詞則直接取自員工訪談。視覺上做了一個大膽決定：把用了幾十年、辨識度極高的鏡中女性「よじこ」從 logo 拿掉，改成獨立角色，logo 只留手鏡剪影、以 Optima 為基礎重新設計。",
+          "result": "最終產出五樣東西：新 logo（企業與品牌各一）、由 Suica 企鵝作者坂崎千春重繪的よじこ角色、第一份品牌指南、名片海報等內部工具，以及京都新聞 15 段全版廣告與 60 秒概念影片。原本對角色不安的員工後來很喜歡新よじこ，自發延伸出很多廣告與周邊。",
+          "takeaway": "一是「角色分工」的思路：強烈但綁手綁腳的舊資產不一定要丟，可以換個位置繼續用。二是理念用語要盡量少、盡量從員工嘴裡來，VISION 直接等於標語，降低內部溝通成本。三是名片這種小工具也能讓員工自己選圖，是讓理念進到日常最便宜的入口。"
+        },
+        "guide": [
+          {
+            "heading": "背景：從「伴手禮店」回到京都人的日常",
+            "body": "よーじや創業於明治 37 年（1904 年），最早叫「國枝商店」。當時把牙刷叫做「楊枝（ようじ）」，大家就暱稱這家店「よーじやさん」，名字就這樣來的。後來吸油面紙爆紅，品牌形象越來越偏向「京都的伴手禮店」，跟在地生活的連結反而變淡了。同時京都面臨觀光過度，居民生活受影響，市區還有育兒世代往外搬的問題。社長國枝昂的危機感是這個專案的起點：不只是生意考量，也是對京都的愛——長年在京都做生意的よーじや，有責任回饋這座城市。",
+            "quote_ja": "京都で長い間事業を営んできたよーじやとして、京都に貢献する必要がある。",
+            "quote_zh": "作為長年在京都經營的よーじや，我們有必要為京都做出貢獻。"
+          },
+          {
+            "heading": "方針與標語：一句話統合多元事業",
+            "body": "よーじや的事業很雜，有美妝品、咖啡廳，還贊助運動賽事，大家對「品牌是什麼」並沒有共識。八木和社長、員工開了很多次會，討論的核心問題不是「現在的よーじや是什麼」，而是「接下來應該是什麼樣子」。最後定下的方針是：不依賴觀光業，要對住在京都的人有貢獻、被他們喜愛。接著請文案蛭田瑞穗把這股想法化成企業標語與宣言，標語定為「みんなが喜ぶ京都にする」（打造讓大家都開心的京都）。這一步花了不少時間，但它是後面所有設計的地基。",
+            "quote_ja": "現在の姿ではなく、これからよーじやはどうあるべきなのか？",
+            "quote_zh": "不是現在的樣子，而是よーじや接下來應該成為什麼樣子？"
+          },
+          {
+            "heading": "經營理念：少造新詞，用員工的話",
+            "body": "在宣言之外也一起整理了經營理念。MISSION、VISION、VALUE、PURPOSE 這些詞的角色常常讓公司內部搞不清楚，所以八木先把每個詞的功能理清。關鍵判斷是：VISION 直接用和標語一樣的句子，因為再造新詞只會讓大家的理解更分散。VALUE 有五個——正直、溫柔、有用、挑戰、貼近京都——全部取自員工訪談裡實際說出來的話。MISSION「讓京都的魅力發光，為整個京都做出貢獻」則來自社長一句很重的話：如果做不到這件事，他做這門生意就沒有意義。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://assets.st-note.com/img/1741964835-6ad8v2i9WEgIBmxuJzhPfGKR.jpg?width=1200",
+              "caption": "よーじや新整理的經營理念架構（VISION、MISSION、VALUE）"
+            }
+          },
+          {
+            "heading": "Logo：把最有名的臉拿掉",
+            "body": "舊 logo 是吸油面紙上那位「手鏡裡的女性」，名叫よじこ。它對品牌知名度功不可沒，但印象太強烈，反而讓品牌形象很難更新——這是整個案子最大的兩難。最後的決定很大膽：把臉從 logo 拿掉，よじこ改當角色繼續用，等於做了一次「角色分工」。新做了企業 logo 和品牌 logo 兩種，品牌 logo 保留手鏡的剪影、整體簡化。字體以 Hermann Zapf 設計的 Optima 為基礎，理由是它的柔和感符合 VALUE 裡的「溫柔」，也能兼顧百年品牌的正統感和現代感。製作順序是先做英文 logo，再讓日文 logo 跟著同一套設計語言調整細節。",
+            "quote_ja": "思い切って、ロゴからはこの顔を外し、この女性はキャラクターとして今後使用していくという、役割の整理を行うことになりました。",
+            "quote_zh": "我們下定決心把這張臉從 logo 拿掉，讓這位女性往後以角色的身份登場，做了一次角色分工的整理。",
+            "image": {
+              "url": "https://assets.st-note.com/img/1740898934-ubRcg2QsilJMydH0VezjmS5f.jpg?width=1200",
+              "caption": "新的よーじや企業 logo，拿掉了鏡中女性的臉"
+            }
+          },
+          {
+            "heading": "角色：請 Suica 企鵝的作者重畫よじこ",
+            "body": "よじこ從 logo 退下來後，變成獨立角色，由畫過 JR 東日本「Suica 企鵝」、千葉縣吉祥物「チーバくん」的插畫家坂崎千春重新設計。八木坦白說自己一開始也擔心角色會變成什麼樣子，但第一次開會看到草稿就放心了。よーじや的員工原本也很不安，後來卻非常喜歡新的よじこ，自己延伸出廣告、周邊等許多應用。這說明了一件事：理念能不能落地，常常取決於員工願不願意主動拿去用。",
+            "quote_ja": "坂崎さんのイラストの魅力で、よじこに新たな命が吹き込まれました。",
+            "quote_zh": "坂崎小姐插畫的魅力，為よじこ注入了新的生命。",
+            "image": {
+              "url": "https://assets.st-note.com/img/1740898954-ScFwmrNMukeTDQ75LVCBUJvp.jpg?width=1200",
+              "caption": "坂崎千春重新繪製的角色よじこ"
+            }
+          },
+          {
+            "heading": "品牌指南與內部工具：讓理念進到每天的工作",
+            "body": "よーじや過去沒有品牌指南，這次第一次做。內容分兩層：上層是思想（品牌組合、經營理念、宣言），下層是規則（色票、建議字體等）。另外也做了小冊子、名片、海報這些內部工具，目的是讓宣言和角色在公司內外被認識、被喜歡。名片是很巧的設計：背面放よじこ插圖，員工可以自己挑喜歡的圖案。八木說名片雖小，卻是開啟對話的重要工具——每次交換名片，都是員工親手傳遞新品牌的機會。",
+            "quote_ja": "名刺は小さなツールですが、コミュニケーションのきっかけとなる大切なツール。",
+            "quote_zh": "名片雖然是小工具，卻是開啟溝通的重要工具。"
+          },
+          {
+            "heading": "廣告：用角色讓大家輕鬆認識新よーじや",
+            "body": "對外則做了京都新聞的 15 段全版廣告（2025 年 3 月 27 日早報刊登）和一支 60 秒概念影片，目標是讓公司內外都知道よーじや的新姿態。表現上刻意用新角色、走輕鬆有趣的路線，而不是嚴肅宣告。文末八木提到新事業也在規劃中，並附上よーじや的品牌更新特設頁。整體來看，這個案子是「先想清楚要成為什麼，再讓每個接觸點都說同一句話」的完整示範。",
+            "quote_ja": "",
+            "quote_zh": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "daily_summary": "今天兩邊都在講「快不等於好」：NN/g 調查發現 AI 讓工作變快，但省下的時間常被更多產出吃掉；Goodpatch 則說 AI 只做得到 80 分，客戶真正買的是事業成長。Brand 圈這邊，Penguin 把出版社做成可以親身參與的活動，案例區的神戸屋也證明品牌要落地，靠的是組織運作而不是一本規範。對隅室來說，該把服務重心從「交付成果物」移到「陪客戶跑起來」。",
     "jenny_wen": {
@@ -1454,127 +1654,6 @@
       "brand": [
         "還是得靠人的觀察",
         "個人實驗和客戶案互相餵養"
-      ]
-    }
-  },
-  {
-    "date": "2026-10-13",
-    "daily_summary": "今天 Product 圈有個很清楚的共識：AI 讓「還不錯」變成人人都有的預設值，真正拉開差距的是看得見的設計決策；另一條線是網站的讀者已經不只是人，AI agent 也在讀你的頁面。Brand 圈則很「手工」，從 Barkas 幫 Kuda 做的拉哥斯節奏識別、Rudnick 花 4 年手繪的 Arsenal 字體，到品牌重新愛上印刷報紙，都在講同一件事：有在地脈絡、有人味的東西才不會被平均化。對工作室來說，這是跟客戶解釋「為什麼要找人做、不直接用 AI」的好素材。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": true,
-      "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
-      "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
-      "summary": "How I AI 這集請到 Meta 設計總監 Alex Cornell，聊他們怎麼設計消費者 AI agent「Muse」。核心思路是讓 agent 用起來像傳訊息，而不是另一個 AI app，讓媽媽和工程師都能上手；狀態顯示分成三層，給不同技術程度的人看。"
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The synth everyone owned and few could program: a lesson for AI design",
-          "url": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Mathieu Poli 用 1983 年的 Yamaha DX7 合成器打比方：這台機器很難調音色，所以多數人只用內建的預設音色，其中「E.PIANO 1」在 1986 年出現在 61% 的 R&B 冠軍單曲裡，後來變成一聽就知道是 80 年代的聲音。他認為生成式 AI 正在對設計做同樣的事，還自己做了實驗：拿 12 個 app 需求去問 3 家廠商的 7 個模型，結果法律事務所全部選海軍藍配金色，顏色差距小到只是同一色的深淺。他也引用研究，指出 AI 輔助會讓作品更好但也更像。結論是：品質已經是人人都有的東西，能讓作品脫穎而出的，是「看得出有人做過決定」的痕跡。對工作室來說，這篇很適合拿來跟客戶說明設計顧問的價值在哪。"
-        },
-        {
-          "title": "Secret agent bot: accessibility matters for the agents even if you can't see them",
-          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 指出，網站多了一種新訪客：AI agent。它們不看你設計的畫面，而是讀瀏覽器給螢幕閱讀器用的「無障礙樹」（accessibility tree），也就是頁面背後的結構和標籤。他引用 Cloudflare 2026 年 6 月的數據，自動化流量第一次超過人類，大約 57% 對 43%。文章比較了各家做法：Claude in Chrome 優先讀無障礙樹，Computer Use 則以截圖為主，Microsoft 的 Playwright MCP 也走結構化路線。啟發是：無障礙設計不再只是道德加分題，而是決定 AI 能不能「看懂」你網站的基本功，幫客戶做網站時值得列入規格。"
-        },
-        {
-          "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
-          "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
-          "source": "Lenny's Podcast / How I AI",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Meta 設計總監 Alex Cornell 分享 Muse 這個消費者 AI agent 的設計思路：讓它感覺像在傳訊息，而不是打開一個獨立的 AI app，這樣同一個介面才能同時服務一般人和工程師。Muse 的狀態顯示分成三層，對應不同使用者想知道多少細節。他也說設計師要轉換心態，因為 agent 的產出永遠不會像素完美。節目裡示範了幾個實際案例，例如把多年來存在 Instagram 的收藏整理成型錄並加上降價提醒，或把舊部落格變成每天早上的 podcast。如果你在幫客戶規劃 AI 功能，這集對「漸進揭露」和「對話介面該長什麼樣」很有參考價值。"
-        },
-        {
-          "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
-          "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Anamol Rajbhandari 用「沙漏」來形容 AI 時代的設計流程：前端的問題定義和後端的品質把關變得更重要，中間的執行環節被 AI 快速壓縮。他的出發點是，過去 15 年設計流程越長越多，留給真正做產品的時間反而越來越少。這篇跟 Jenny Wen 之前「設計流程已死」的論點是同一條脈絡。對工作室的意義是，報價和服務內容可能要往兩端調整，把價值放在策略和判斷上，而不是產出量。（網站有阻擋，這篇只讀到開頭和 RSS 摘要，細節建議點進去看原文。）"
-        },
-        {
-          "title": "What are we willing to sacrifice for AI?",
-          "url": "https://uxdesign.cc/what-are-we-willing-to-sacrifice-for-ai-a57736f368a1",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Michael Buckley 從一個自稱偏自由主義者的角度，思考 AI 大規模取代人力之後，社會要犧牲什麼。他提出三條路：企業放棄 AI 能帶來的額外利潤來保住工作、讓政府承擔更多集體支持，或接受工作和收入脫鉤。他的論點是，AI 和過去的技術革命不一樣，因為它能做的智力工作範圍一直擴大，連人類過去用來適應變化的能力都被覆蓋了。這篇比較偏社會與哲學思考，不是實務文，但能幫設計師在聊 AI 時多一層更大的視角。"
-        }
-      ],
-      "buzz": "這兩天的討論集中在「AI 把什麼變便宜了、什麼反而變貴了」：執行和產出變便宜，判斷、決策和品味變貴。同時大家開始意識到設計的讀者不只是人，AI agent 也在讀頁面、用介面，無障礙結構和對話式設計因此被重新重視。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "\"Less bank, more life\": Barkas gives Nigerian digital bank Kuda an identity with the pace of Lagos",
-          "url": "https://www.itsnicethat.com/articles/barkas-kuda-graphic-design-project-131026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Barkas 幫奈及利亞數位銀行 Kuda 重做品牌，策略核心是「More Life」，這是一句祝福別人過得好的牙買加俚語，目標是讓 Kuda 從挑戰者品牌變成有文化份量的主流品牌。視覺上他們刻意拋棄 fintech 常見的粉彩漸層，改用受奈及利亞藝術和建築啟發的粗壯幾何字形，KU 疊在 DA 上的標誌像一個印章。個人帳戶用深紫、商業帳戶用黑色，還和在地夥伴一起設計了專屬的奈拉貨幣符號，並搭配客製字體 Kuda Modena。值得學的是他們的取材方式：從目標族群每天接觸的音樂、街道、建築和俚語找語彙，而不是讓品牌看起來更像傳統銀行。"
-        },
-        {
-          "title": "David Rudnick on the \"borderline impossible\" process of designing a bespoke blackletter typeface for Arsenal",
-          "url": "https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "David Rudnick 和 Léa Bruneau 花了大約 4 年，為 Arsenal 手繪一套 3 種字重的哥德體字型「Rocastle」，名字來自球隊傳奇球員 David Rocastle。他們翻遍球迷保存的紀念品、隊徽和比賽手冊，並研究哥德體的結構，最後幾乎每個字母都是獨一無二的設計，經過上千次修改。Rudnick 形容這個需求「幾乎不可能」：要現代、要有英國味、要讓球迷認得，但又不能流於裝飾。對工作室來說，這是一個「客戶內部團隊和外部設計師怎麼合作」的好案例：俱樂部願意給長時間、信任設計師，並把字體當成核心資產，只在最重要的時刻使用。"
-        },
-        {
-          "title": "Pentagram creates dynamic bilingual identity for Design Doha Biennial 2026",
-          "url": "https://www.designweek.co.uk/pentagram-creates-dynamic-bilingual-identity-for-design-doha-biennial-2026/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Pentagram 合夥人 Samar Maakaroun 團隊為 Design Doha 雙年展設計了一套彈性的字體識別系統，用來表現人、語言和學科之間的關係。這套系統的核心是阿拉伯文和英文平起平坐，不讓任何一種語言當配角，呼應這個地區的文化現實和雙年展作為文化橋樑的角色。Maakaroun 之前做的 Sharjah 城市品牌也用了類似手法，兩種語言共用同一套色彩、動態和造型邏輯。雙年展預計 11 月 5 日開幕。對常處理中英雙語品牌的工作室來說，這是很好的參考：雙語不是翻譯，而是從系統層就要平衡設計。（Design Week 原文有阻擋，摘要整理自 Pentagram 專案頁。）"
-        },
-        {
-          "title": "Why brands are falling for newspapers again",
-          "url": "https://www.creativereview.co.uk/newspaper-club-brand-print-projects-adobe-olivia-rodrigo/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "報紙不太可能再成為大家每天看新聞的主要管道，但這個形式正在時尚品牌、歌手、品牌和獨立創作者之間復興。Creative Review 訪問了格拉斯哥的 Newspaper Club，他們從 2009 年起已經印了超過 4,000 萬份報紙，客戶包括 Adobe、Spotify、New Balance 和許多插畫家、攝影師。吸引力在於它「讓人想收藏，而且和網路上看到的東西完全不同」。對工作室來說，這是一個可以提案給客戶的低成本實體接觸點，尤其適合想建立社群感或做品牌活動的案子。"
-        },
-        {
-          "title": "Mother Design on why packaging is the only thing a designer can say to the customer",
-          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-september-mother-design-121026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Mother Design 是 Ikea、KFC 和 PG Tips 猴子背後的獨立品牌設計公司，設計師 George Wu 和 Cecilia Serafini 在 Nicer Tuesdays 分享他們的包裝作品，從汽水罐到有機生理用品都有。他們的核心論點是：包裝是設計師唯一能直接對消費者說話的地方，所以訊息一定要大膽、明確。Mother Design 這週很常出現，Design Week 報導了他們「克制」的 M&S 包裝系統，Brand New 也收錄了他們做的 Keen 新識別，可以一起看他們如何在大膽和克制之間拿捏。"
-        }
-      ],
-      "buzz": "Brand 圈這兩天的關鍵字是「在地」和「手工」：Kuda 從拉哥斯街頭取材、Arsenal 從球迷保存的老物件長出字體、Design Doha 讓阿拉伯文和英文平起平坐。印刷報紙的回潮也是同一種情緒，在 AI 讓視覺越來越像的時候，有實體感、有文化脈絡的東西反而更有價值。"
-    },
-    "highlights": {
-      "summary": [
-        "看得見的設計決策",
-        "AI agent 也在讀你的頁面",
-        "有在地脈絡、有人味的東西才不會被平均化"
-      ],
-      "product": [
-        "判斷、決策和品味變貴",
-        "AI agent 也在讀頁面、用介面"
-      ],
-      "brand": [
-        "「在地」和「手工」",
-        "有實體感、有文化脈絡的東西反而更有價值"
       ]
     }
   }
