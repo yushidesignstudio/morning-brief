@@ -1,5 +1,209 @@
 [
   {
+    "date": "2026-10-26",
+    "daily_summary": "今天兩邊都在問同一件事：AI 到處都是之後，人的判斷還值多少錢？Product 圈開始反省那顆到處都有的閃亮 AI 按鈕，主張別硬把聊天框塞給專家；Brand 圈則發現連 AI 公司都找人類設計師做品牌，因為品牌靠的是信任不是好看。對工作室來說，幫客戶判斷什麼不該加，正變成最好賣的能力。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+      "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+      "summary": "《The Power of Pull》作者 Rob Snyder 一步步拆解怎麼找到 product-market fit，核心是他的 PULL 框架：客戶手上有個專案（Project）、這件事躲不掉（Unavoidable）、他已經在比較選項（List of options）、但現有選項都有限制（Limitations）。他強調「拉力是被發現的，不是被創造的」、要賣給一個人而不是一間公司，也談冷開發、第一次業務會議、反對找 design partner，以及怎麼建立可重複的案例產出流程。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Nobody asked for the sparkle button",
+          "url": "https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計師 Jon Sabutis 每天用 AI 寫程式，卻每週都在找關掉 AI 的開關。他指出筆記、試算表、信箱、銀行 app 裡的 AI 都是同一個右側聊天面板加閃亮圖示，因為大家買的是同一個模型 API 的 demo，等於「轉寄」而不是設計。強制開啟、更新後又被打開的設定，教會使用者的不是「這功能很煩」，而是「這家公司會推翻我的選擇」，信任損失會擴散到整個品牌；Apple 新聞摘要誤報 BBC 新聞、Procreate 宣布永不加生成式 AI 反而爆紅都是例子。背後原因是雲端巨頭的巨額資本支出要回收，但 MIT 研究顯示 95% 企業的生成式 AI 試點沒有可衡量回報。他的結論是：用 AI 做功能，而不是做「AI 功能」。"
+        },
+        {
+          "title": "The Blessing and Curse of AI: Now Everyone Can Build Anything.",
+          "url": "https://medium.com/design-bootcamp/the-blessing-and-curse-of-ai-now-everyone-can-build-anything-292825367162",
+          "source": "Bootcamp (Medium)",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "做了近 30 年 UX 的 Sandra Monien 觀察：現在誰都能用 prompt 幾分鐘生出「看起來很專業」的網站，但不懂什麼重要的人，就看不出少了什麼、錯了什麼。她舉例：一頁目的清楚的內容頁被 AI 改成塞滿卡片、icon、CTA 的無限長 landing page，冒出不屬於品牌的顏色和字體，UX writing 多年精簡的文字也被改回「創新解決方案將永續改變您的數位未來」這種空話。拿自家舊網站餵 AI 也一樣，它會連舊問題一起複製。她強調 AI 很會「加」，但知道什麼該拿掉仍需要經驗。對工作室來說，這正是跟客戶溝通價值的切入點：我們賣的是判斷，不是產出。"
+        },
+        {
+          "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+          "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+          "source": "Lenny's Podcast",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Rob Snyder 輔導過 50 多家新創從 0 做到 100 萬美元 ARR，自己也曾花兩年推一個市場不要的產品。他的 PULL 框架主張：客戶要有正在進行、躲不掉的專案，已經在比較選項而且對現有選項不滿，才會真的買單；這種「拉力」只能被發現，不能被製造。節目也具體談到用兩張投影片測試假設、冷開發的基準數字、第一次業務會議怎麼開、為什麼不建議找 design partner，以及用 churn 反推理想客戶。雖然談的是新創，但「賣給一個人而不是一間公司」「建立案例產出流程」對工作室接案開發同樣實用。"
+        },
+        {
+          "title": "Where to draw the line before AI reaches professional users",
+          "url": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 長年觀察理賠員、律師、供應鏈規劃師這類專家用戶，認為幾乎每個 B2B 產品都想加聊天框，卻沒人先問「這是給誰的」。專家在軟體裡累積的快捷鍵、存好的檢視、自創的捷徑都是投資，不是沉沒成本，砍掉介面等於叫他們再付一次學費。他提出六個判斷問題，並給出分工原則：例行任務留在介面、罕見任務交給聊天、持續性任務交給背景 agent。行動建議包括：從客服工單找出真正該做的對話功能、讓每個答案落到可調整的畫面、衡量「驗證時間」而非「生成時間」、保留舊路徑並追蹤使用者實際選哪條。做 B2B 案子時可以直接拿來當檢查清單。"
+        },
+        {
+          "title": "Making the Wait Worth It: Three Rules for AI Products",
+          "url": "https://medium.com/design-bootcamp/making-the-wait-worth-it-three-rules-for-ai-products-a8068dc3b89b",
+          "source": "Bootcamp (Medium)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "金融科技與 SaaS 設計師 Adimchi Oka 指出，AI 產品裡使用者盯最久的介面往往是一個什麼都不說的轉圈圈。他受 Claude Code 不斷變換狀態文字的啟發，做了開源元件 fun-loader，歸納出三條規則：訊息要隨等待時間改變（前幾秒輕鬆、超過 8 秒承認比較久、超過 20 秒道謝致歉）；不要宣稱自己不知道的事，例如付款時別寫「正在驗證收款人」，只描述等待本身；產品若真的知道進度，再換成自己的步驟訊息。小細節，但很適合放進 AI 產品的設計規範裡。"
+        }
+      ],
+      "buzz": "Product 圈這兩天集體對 AI 功能踩煞車：大家不反對 AI，反對的是沒人要、關不掉的 AI 面板。好幾篇文章都把重點拉回使用者是誰、任務是例行還是偶發，以及設計師該負責判斷什麼要留下、什麼要拿掉。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Why do AI platforms want humans to design their branding?",
+          "url": "https://www.creativebloq.com/news/why-do-ai-platforms-want-humans-to-design-their-branding",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Tom May 注意到一個矛盾：最想用 AI 取代設計師的 AI 公司，品牌卻都找人類做。例子包括 How&How 幫 AI 繪圖工具 Ideogram 重塑品牌、Lazarev 做 AI 影片 app Elva、Meta 請字體藝術家 Jessica Hische 畫新 AI 平台 Muse 的 logo。他的解釋是：品牌從來不是讓東西好看，而是讓人相信你，而 AI 公司現在正有信任問題。Hische 接案後在 Threads 被罵，她說 12,500 美元酬勞能撐住兩間小店與員工；作者認為拒絕也擋不住這波，不如收下錢、做出好作品，提醒大家為什麼要找人。對工作室：接 AI 客戶的倫理與定價，值得內部先討論出立場。"
+        },
+        {
+          "title": "Just Eat's AI apocalypse raises a glaring question",
+          "url": "https://www.creativebloq.com/news/just-eats-ai-apocalypse-raises-a-pretty-obvious-question",
+          "source": "Creative Bloq",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國外送平台 Just Eat 用文字生圖幫餐廳菜單自動配圖，結果字面理解到荒謬：「jacket potato」變成一件印著馬鈴薯的外套、tiger prawns 變成一碗小老虎、toad in the hole 真的放了蟾蜍、「lighter breakfast」配了打火機。Just Eat 已道歉並移除圖片，Uber Eats 三年前也出過同樣的糗。作者追問更根本的問題：就算 AI 生成得完美，用假的食物照片本身就註定帶來失望與客訴。對品牌的提醒是，自動化圖像省下的成本，可能用信任來付。"
+        },
+        {
+          "title": "Hono’s label branding for Temper cider animates the last rally of the 2008 Wimbledon final",
+          "url": "https://www.itsnicethat.com/articles/studio-hono-temper-branding-project-261026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "維也納工作室 Hono 為網球物件品牌 Temper 與蘋果酒釀造者 Luka Zeichmann 的聯名蘋果酒設計標籤，要在溫布頓首週於英國上市。他們不畫那場近五小時的 2008 年 Nadal 對 Federer 決賽，而是只取最後一分的四秒鐘，切成 60 格，一瓶一格，用綠紫格線呈現。標籤沒有印 60 種，而是在慕尼黑用 Risograph 印一個底稿，再手工加工與編號；網球的位置被打孔挖空，光線穿過時，瓶裡的酒就成了那顆球。排在一起就是一本翻頁動畫。小量聯名品也能用一個好概念做出收藏價值。"
+        },
+        {
+          "title": "Design as a unifying language: Arsh Raziuddin on how her World Cup identity united NYC",
+          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-arsh-raziuddin-231026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計師、插畫家暨創意總監 Arsh Raziuddin 在 Nicer Tuesdays 紐約場回顧自己的職涯：編輯設計與書封設計的背景，如何塑造她做圖像的方式。重點案例是她為 Mamdani 的紐約世界盃活動做的識別，她把所有作品都看成「用設計建立社群與共同點」的工具。這篇是講座摘要，內容不長，但適合想把品牌識別當成凝聚社群工具的人參考。"
+        },
+        {
+          "title": "【追悼・村上龍さん】『カンブリア宮殿』で見つめ続けた、「時代をサバイブする企業」の共通点と「優れた広報」の条件",
+          "url": "https://www.advertimes.com/20261026/article561607/",
+          "source": "宣伝会議 AdverTimes",
+          "lang": "日文",
+          "studio_related": false,
+          "summary": "宣伝会議為追悼作家村上龍，重新刊出他談主持《カンブリア宮殿》（寒武紀宮殿）多年的訪談。他觀察上節目的經營者有共通點：都很謙虛，即使外界看來很成功，本人也不覺得自己成功，總在找下一個生意線索；例如日高屋的神田正會長不搭計程車，自己走遍山手線內外想「這裡開店會不會賺」。節目來賓八成是一般人沒聽過的公司，所以他會徹底讀資料、VTR 看三遍才找得到提問切入點。對做品牌顧問的人來說，這種「先把對方讀透再發問」的功夫，跟我們做品牌訪談是同一件事。"
+        }
+      ],
+      "buzz": "Brand 圈一邊看 Just Eat 用 AI 生菜單圖翻車，一邊討論 AI 公司為什麼反而找人類設計師做品牌，結論很一致：品牌是讓人相信你，AI 圖反而會掉信任。另一頭，手工、限量、把過程留在作品上的包裝案又被拿出來讚賞。"
+    },
+    "highlights": {
+      "summary": [
+        "人的判斷還值多少錢",
+        "品牌靠的是信任不是好看",
+        "幫客戶判斷什麼不該加"
+      ],
+      "product": [
+        "沒人要、關不掉的 AI 面板",
+        "任務是例行還是偶發",
+        "什麼要留下、什麼要拿掉"
+      ],
+      "brand": [
+        "品牌是讓人相信你",
+        "AI 圖反而會掉信任",
+        "把過程留在作品上"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "「BtoBブランディングとは、選ばれる存在になること」──エイトブランディングデザイン・西澤明洋が2年間伴走した、ユポ社のリブランディング",
+        "title_zh": "「BtoB 品牌經營，就是成為被選擇的存在」──西澤明洋陪跑 2 年的 YUPO 品牌再造",
+        "url": "https://webdesigning.book.mynavi.jp/article/33079/",
+        "source": "Web Designing（マイナビ）",
+        "lang": "日文",
+        "published": "2026-07",
+        "category": "策略抉擇",
+        "brand_name": "ユポ（YUPO 合成紙）",
+        "consultant": "西澤明洋（エイトブランディングデザイン）",
+        "partial": false,
+        "cover_image": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/07/u_main2.jpg",
+        "story": {
+          "problem": "ユポ（YUPO）是做合成紙的公司，產品用在選票、戶外廣告、標籤，日本市占第一超過 45 年、行銷 80 多國。問題不是業績差，而是「外面看不出它哪裡有困擾」：一般人只知道它是「淋濕也不會壞的紙」「選票用的紙」，公司本身則想從經營策略層級改組織、開新市場。",
+          "approach": "西澤明洋團隊花 2 年陪跑，配合公司前一年新設的「戰略企劃本部」推動跨部門改革。最大的決定是放棄已經做到第一的「合成紙」定位，把自己重新定義成「創意素材」公司，產品線改成按類別重組，網站也重新設計成同時顧到 SEO 與生成式 AI 搜尋（GEO）的資料結構。社長刻意不參加工作坊，讓下一代員工自己吵、自己決定；最後採用了最大膽的不規則 logo，並把原本保密的多層結構技術公開。",
+          "result": "2026 年 4 月公司改名為「株式会社ユポ」，7 月發表新 logo 與新概念「Value Co-Creator」（價值共創者）。工作坊裡原本「繼續當合成紙第一」和「擴大業態挑戰」兩派各半，最後收斂成「我們不只是做東西來賣的公司」。",
+          "takeaway": "接到「看起來沒問題」的穩定企業時，真正的題目往往是組織要不要轉向，而不是 logo 要不要換。讓客戶內部自己做決定（老闆退一步、下一代上場），比顧問給答案更能讓新定位落地；而把概念變成具體行動（像公開技術），才是讓口號可信的關鍵。"
+        },
+        "guide": [
+          {
+            "heading": "前情：一家「不缺什麼」的公司為什麼要改",
+            "body": "這篇出自 Web Designing 的連載「做品牌的網站設計」，由エイトブランディングデザイン（EIGHT BRANDING DESIGN）的西澤明洋談自家案例。主角是ユポ（YUPO），1960 年代日本因擔心森林資源枯竭而發展出合成紙，YUPO 一路做到國內市占第一、80 多國採用，產品用在選票、戶外廣告、各種標籤。2026 年 4 月 1 日，它把公司名從「ユポ・コーポレーション」改成更短的「ユポ」；7 月 1 日在總部辦發表會，公開新 logo 和新概念「Value Co-Creator」。文章想回答的是：一家市占第一的公司，為什麼現在要重做品牌？",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/07/01.jpeg",
+              "caption": "YUPO 的應用範圍：標籤、模內標籤、戶外廣告、植物工廠、吸盤貼，以及「合成紙市場日本市占第一 45 年以上、80 多國採用」"
+            }
+          },
+          {
+            "heading": "重新定義：從「合成紙」到「創意素材」",
+            "body": "這次品牌再造的核心方針，是不再自稱「合成紙廠商」，而是「處理創意素材的企業」。它的強項是從原料設計、生產、二次加工到售後服務一條龍，所以思考方式從「我們賣什麼」轉成「我們能跟客戶一起創造什麼價值」。配合這個方向，原本非常龐雜的產品線，也改成讓客戶能直覺挑選的分類方式。發表會上西澤特別提到，花最多時間的其實是網站全面改版：要讓它成為 B2B 的品牌平台，不只顧傳統 SEO，也重新設計成能應付生成式 AI 搜尋（GEO，生成引擎最佳化）的資料結構。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "現況診斷：「看起來沒困擾」的優良企業",
+            "body": "西澤坦白說，剛接觸時，從外面完全看不出 YUPO 在煩惱什麼，但對方一開始就明確說要「從經營策略層級做品牌再造」。深談之後他才發現，客戶要的不是表面換設計，而是覺得「公司內部需要組織改革」。在顧問進場前約一年，YUPO 已經新設「戰略企劃本部」來統整經營策略；品牌再造就是把這個本部提出的改革案，拉著各部門一起落地。他也點出 B2B 的難處：起點就是「世人幾乎不認識你」。在印刷業界 YUPO 很有名，但外界頂多知道是「淋濕也不怕的紙」「選票用的紙」，更不可能知道它在做創意素材。西澤認為，日本還有很多營收很大、卻因為是 B2B 而沒沒無聞的公司。",
+            "quote_ja": "外部から見ている分には“何に困っているのか”わかりませんでした。",
+            "quote_zh": "從外面看，完全看不出他們「到底在困擾什麼」。",
+            "image": {
+              "url": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/05/eight_MCC.png",
+              "caption": "エイトブランディングデザイン的「MCC」框架：把企業活動分成經營（Management）、內容（Contents）、溝通（Communication）三層來看"
+            }
+          },
+          {
+            "heading": "最大的抉擇：主動放下已經做到第一的定位",
+            "body": "西澤說這次最根本的改變是「定位」。YUPO 在合成紙領域是國內壓倒性第一、全球利基市場的龍頭，但新的經營策略是不停在這裡，而要開發新市場。難的地方在於：網路上搜「合成紙」馬上就跳出 YUPO，這個詞已經是它的知名度資產，連 SEO 上都等於要拿掉一個建立好的關鍵字，他形容這「等同公司重生」。在跟員工開的工作坊裡，意見幾乎對半分：一派主張「繼續穩穩當合成紙第一」，另一派主張「擴大業態去挑戰」。最後結論是「我們不只是做東西來賣的公司」，但西澤說大家直到最後一刻都還在掙扎。",
+            "quote_ja": "これは会社が生まれ変わるのに等しい、大きな決断だったと思います。",
+            "quote_zh": "我認為這是等同公司重生的重大決定。"
+          },
+          {
+            "heading": "理念落地：新 logo，以及刻意不出席的社長",
+            "body": "新 logo 以代表 YUPO 的長方形為中心，周圍長出搖曳、往外擴散的有機形狀，象徵跟客戶、夥伴一起創造價值的「Value Co-Creator」。舊 logo 其實也很好，當年還是員工投票選出來的，所以內部有人主張謹慎。西澤的說服理由是：新訊息如果沒有相稱的新視覺，再好的概念也傳不出去。他提了好幾個方案，最後被選中的是最大膽的一個，在給人穩重印象的素材產業裡，這種不規則的 logo 相當少見。另一個關鍵是社長內藤勝弘刻意不參加工作坊，避免變成由上而下，他的立場是「希望下一代成員自己想、自己決定」，並一再強調讓員工能自主做決策，才是這次品牌再造的重點。",
+            "quote_ja": "新しいメッセージにふさわしい（新たな）ビジュアルを用意しなければ、せっかくコンセプトを新しく発信しても伝わりにくくなってしまいます。",
+            "quote_zh": "如果不準備與新訊息相稱的視覺，好不容易對外發布的新概念也很難傳達出去。",
+            "image": {
+              "url": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/07/YUPO.webp",
+              "caption": "YUPO 新品牌 logo：以長方形為核心，向外擴散的不規則有機造形"
+            }
+          },
+          {
+            "heading": "把口號變成行動：公開原本保密的技術",
+            "body": "西澤認為整件事的本質，是不被「合成紙」框住，成為能被用在各種用途的創意素材，而「Value Co-Creator」就是對「怎麼做到」的回答：社會問題不是一家公司能解決的，要大家一起來。最有象徵性的做法是公開技術。YUPO 的合成紙是多層結構，為了防止競爭對手追上，過去一直對細節保密；但既然要成為跟外部工程師、創作者合作的存在，內部討論後決定把技術開示出來。西澤說這是把概念當成「姿態」而不只是「口號」的好例子。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/07/upo_n-2096x1180.jpg",
+              "caption": "發表會資料「技術の見える化」：用圖解公開 YUPO 合成紙的多層結構、微孔構造與加工步驟"
+            }
+          },
+          {
+            "heading": "結論：B2B 品牌經營，就是成為被選擇的存在",
+            "body": "西澤對 B2B 品牌的定義，是在眾多合作夥伴和供應商中，建立「遇到問題就想找 YUPO」的地位，顧問的角色則是用設計來支援這件事。他也提醒，經營穩定的公司，通常不管提什麼都會被反對，「維持現狀就好」的聲音一定比較多；YUPO 的難得之處在於員工自己選了「走向不同位置」，再一項項在內部決定要怎麼做到，這些累積才是未來發展的基礎。文章最後預告，新網站的細節會在連載後續介紹。",
+            "quote_ja": "BtoB企業におけるブランディングとは、選ばれる存在になっていくことだと考えています。",
+            "quote_zh": "我認為 B2B 企業的品牌經營，就是逐步成為被選擇的存在。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "daily_summary": "今天兩邊其實在講同一件事：AI 讓「做得漂亮」變便宜了，真正值錢的是判斷和看得見的過程。Product 圈提醒設計師回頭愛上問題本身，Brand 圈則從 Apple Music 新識別看到「過程本身就是證明」，對工作室來說，把思考過程攤開給客戶看會越來越重要。",
     "jenny_wen": {
@@ -1532,128 +1736,6 @@
         "靠新奇造型撐不久",
         "從自身歷史挖素材",
         "品牌也要有自己的肢體語言"
-      ]
-    }
-  },
-  {
-    "date": "2026-10-14",
-    "daily_summary": "今天兩邊不約而同在講「判斷力」：Product 圈開始反駁「品味就是護城河」，主張好設計要能拿出研究和證據來說服人，也提醒設計師先確認問題是不是真的出在畫面上。Brand 圈則從 AI 吉祥物、日本雙人工作室 Kanaisasaki 到 Publicis 的在地洞察，都在說人的觀察和溫度做不出來。對工作室最實用的一句話是：提案時別只說「這樣比較好看」，要說得出為什麼。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Taste is not a design methodology",
-          "url": "https://uxdesign.cc/taste-is-not-a-design-methodology-e02b37aea148",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Patrick Neeman 反駁 2026 年最流行的一句話「Taste is the new moat」：他認為品味只是偏好，兩個人意見不同時沒辦法分對錯；判斷力則是可以被檢驗的主張，背後有研究和使用者證據。他舉了幾個例子：把白酒染紅，54 位品酒師就用紅酒的詞來形容；日立 1995 年的 ATM 研究發現，人覺得「好不好用」其實跟「好不好看」高度相關；NN/g 的研究也顯示不同年齡層對同一畫面的美感評價不一樣。他建議用 Fitts's Law、Nielsen 十大原則、Dieter Rams 原則這類可以被討論的標準來做判斷，再用持續的使用者研究補足。對工作室來說，這是一套跟客戶溝通的說法：「如果你說不出背後的事實或研究，那就只是意見。」"
-        },
-        {
-          "title": "The design of recipes on the internet",
-          "url": "https://medium.com/design-bootcamp/the-design-of-recipes-on-the-internet-0bd8a11700cf",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "前 Wikipedia 桌機版改版設計師 Alex Hollender 分享他自己做食譜 CMS「Recipe.Site」三年的過程，沒有募資、100% 自己持有。他先拆解知名料理創作者的網站：有些找代理商花了 10–20 萬美元，品牌很美，但食譜頁連份量換算、防止螢幕休眠、跨裝置收藏都沒有。他的原型從真實下廚的痛點出發：把食材名稱放在數量前面方便掃讀、步驟大綱、內嵌計時器、可收合的步驟讓你不會找不到做到哪。最後他的心得是：做產品幾乎都是在經營關係，計畫沒有關係重要。對工作室來說，這篇是很好的提醒：客戶花大錢做的網站，如果只顧品牌好看、沒顧到核心使用情境，價值就會打折。"
-        },
-        {
-          "title": "The Interface Is Where Problems Become Visible. It's Not Always Where They Begin.",
-          "url": "https://medium.com/design-bootcamp/the-interface-is-where-problems-become-visible-its-not-always-where-they-begin-aca5644249ba",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Mounika Konidala 描述一個很常見的流程：會議上冒出問題、有人提出解法、轉頭問設計師能做什麼，幾天內就有 wireframe 可以看。她說這種「要趕快交出看得到的東西」的壓力，正是讓設計師「把錯的東西設計得很漂亮」的原因。她用自己面試候選人的白板題舉例：題目是主管填不完績效流程，候選人馬上開始改欄位和排版，卻沒先問問題是不是出在流程、跨部門交接或更早的產品決策。她主張 UX 真正的價值在於選擇要解哪個問題、挑戰哪些假設。對接案團隊來說，這是在 brief 階段就該多問一句：「客戶要我們改的，真的是壞掉的那個地方嗎？」"
-        },
-        {
-          "title": "How to tell if a startup has a moat",
-          "url": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
-          "source": "Lenny's Newsletter",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Lenny 和 Dan Hockenmaier 提出一個一小時就能用的框架，判斷一家新創有沒有護城河：找出複利優勢、評估它能多強、檢查它有沒有在發揮作用。他們認為真正的複利優勢只有 4 種：轉換成本、網路效應、規模經濟、資料效應。速度、通路、品牌、團隊和資金都只是「燃料」，能讓車開起來，但不會讓車自己往下坡滾。特別值得設計顧問注意的是，他們直說品牌對新創來說比較像買廣告：投錢換成長，要像 Coke、Nike、Apple 那樣變成護城河需要很長時間。對工作室來說，這是了解新創客戶怎麼看品牌投資的好角度，提案時可以把品牌和產品的複利優勢連在一起講。"
-        },
-        {
-          "title": "AI just cloned Adobe's apps for free. Is this design software's Napster moment?",
-          "url": "https://www.creativeboom.com/news/ai-just-cloned-adobes-apps-for-free-is-this-design-softwares-napster-moment/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "開發者 Brandon Thomas 想取消 Adobe 訂閱時被收了提前解約費，一氣之下用 Claude 做出 ArtCraft：7 個免費開源 app，分別模仿 Photoshop、Illustrator、Premiere、Lightroom、After Effects、InDesign 和 Acrobat Pro。作者 Tom May 把這件事比作 1999 年的 Napster：專業創意軟體過去靠龐大工程團隊和多年累積築起門檻，AI 可能讓個人也能做出替代品。Design Week 上週也討論過同一件事，可見業界很有感。不過作者也承認，這些工具的穩定度和長期維護都還沒被驗證。對工作室來說，短期可以重新檢視軟體訂閱成本，長期要思考：當工具變便宜，客戶付錢買的就更是判斷和想法，而不是軟體操作能力。"
-        }
-      ],
-      "buzz": "Product 圈今天在反思「品味」這個詞：大家開始說好設計靠的是可以被檢驗的判斷力，不是說不清楚的品味，而且設計師要先確認問題真的出在畫面上，才動手畫。另一條線是 AI 讓工具和產品都變便宜，從 Adobe 被免費複製到新創的護城河，大家都在問什麼才是真正難以取代的東西。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "POV: AI needs mascots and only humans can make them",
-          "url": "https://www.itsnicethat.com/articles/pov-ai-needs-mascots-and-only-humans-can-make-them-animation-121026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "BUCK 創意長 Kevin Walker 觀察到 Meta 的 Muse、OpenAI 的 Dots、Anthropic 的 Claw'd、Notion 都在幫 AI 加上臉和個性。他用心理學的 SEEK 框架解釋原因：人需要連結、需要預測和理解世界、也習慣用自己當模型去理解別的東西，所以擬人化能讓陌生的技術變得親近。BUCK 幫 Notion 做的 AI 角色，就是從插畫家 Roman Muradov 畫的臉出發，再為「思考、搜尋、寫作、打招呼、出錯」等狀態設計動態行為。他提醒吉祥物是用來解釋互動，不是誇大能力，否則會傷害信任。對品牌設計師來說，重點是把吉祥物當成一套說故事的系統，設計的不只是外型，還有時間感、停頓和反應。"
-        },
-        {
-          "title": "Kanaisasaki is formed from in-house designers who have made a career out of staying curious",
-          "url": "https://www.creativeboom.com/work/kanaisasaki-is-formed-from-in-house-designers-who-have-made-a-career-out-of-staying-curious/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Kanaisasaki 是金井亜希和佐々木拓組成的雙人設計組合，兩人在日本文具家具品牌 KOKUYO 內部工作了 17 年，同時接外部的識別、產品、展覽案。他們操刀的 KOKUYO 新識別以粗黑字標搭配多色斜條紋，背後是一套有規則的彈性系統，可以一直長出不同變化，跟著公司一起演進。他們的合作方式是一人起稿、兩人一起看、另一人接手修，來回傳檔直到完成，用這種方式跳脫各自的盲點。他們也堅持客戶案和個人實驗並行，因為兩者會互相餵養。對兩人共同經營的工作室來說，這篇幾乎是可以直接參考的協作模式。"
-        },
-        {
-          "title": "Publicis Groupe's Jason Williams on the importance of listening",
-          "url": "https://www.creativereview.co.uk/publicis-groupes-jason-williams-on-the-importance-of-listening/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Publicis Groupe 亞太與中東非創意總監 Jason Williams 管 15 個市場，他說最重要的能力是傾聽，因為每個在地文化都很複雜。他舉的案例裡有台灣李奧貝納幫麥當勞做的「Kung Fries」、香港 Publicis 幫國泰做的「Back to Kai Tak」，以及拿下坎城獅子獎的菲律賓麥當勞「Unbranded Menu」，示範全球品牌怎麼在保持一致的同時貼近在地。他也提到很多亞洲客戶缺乏創意自信，代理商要幫他們敢冒險；創作者應該被當成創意夥伴，而不只是買流量的管道。AI 是用來解決語言和製作問題的工具，不是取代創意。對工作室來說，「教練客戶、幫他們建立對大膽想法的信心」是很值得放進服務裡的一環。"
-        },
-        {
-          "title": "\"I'm merely cosplaying as a type designer\": Raoul Gottschling on chasing ridiculous 'what if' questions",
-          "url": "https://www.itsnicethat.com/articles/raoul-gottschling-graphic-design-project-121026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Raoul Gottschling 是自學出身、住在柏林的設計師，待過紐約的 Pentagram 和 2X4，現在獨立接案，跟 Collins（Nike 案）、Something Special Studio 合作，也在德國設計學校教 workshop。他的字體常從荒謬的「如果……會怎樣」出發：Ciron 想做一款能在內文和標題之間調整風味的字，Quasar 則限制自己只用單一大小寫、沒有上下伸部。靈感也來自生活：Kleber 來自 1960 年代的工業膠水廣告，Plätze 延伸自柏林地鐵站牌。他坦承常覺得自己只是在「cosplay 字體設計師」，但仍然珍惜這種玩心。對獨立接案者來說，這篇證明了個人實驗可以變成接大品牌案的名片。"
-        },
-        {
-          "title": "Source material: Creative director Manon Macasaet's spirituality shapes her process",
-          "url": "https://www.figma.com/blog/source-material-manon-macasaet/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 這期專訪服裝品牌 Poison Candy Apple 的創辦人兼創意總監 Manon Macasaet。她的視覺語言是從 2020 年的網路影集《STORY OF MY FUCKING LIFE》練出來的，參考來源很雜：原宿時尚、早期 Tumblr、老派 rave 圖像、kidrobot，「風格聖經」是蜷川實花的《Helter Skelter》。她開工前會先設定意圖，有時甚至祈禱，然後放 library jazz 進入狀態；她也說自己已經看膩極簡主義了。對做 art direction 的人來說，重點是：建立一個比本業更廣的參考庫，並刻意跟流行美學保持距離，才會有自己的觀點。"
-        }
-      ],
-      "buzz": "Brand 圈今天的關鍵字是「人」：從 AI 公司搶著做吉祥物、到 Publicis 強調先聽懂在地文化，都在說讓人有感的東西還是得靠人的觀察。另一條線是小團隊的工作方式，Kanaisasaki 和 Raoul Gottschling 都示範了個人實驗和客戶案互相餵養，是小工作室累積辨識度的方法。"
-    },
-    "highlights": {
-      "summary": [
-        "好設計要能拿出研究和證據來說服人",
-        "人的觀察和溫度做不出來",
-        "要說得出為什麼"
-      ],
-      "product": [
-        "可以被檢驗的判斷力",
-        "先確認問題真的出在畫面上",
-        "什麼才是真正難以取代的東西"
-      ],
-      "brand": [
-        "還是得靠人的觀察",
-        "個人實驗和客戶案互相餵養"
       ]
     }
   }
