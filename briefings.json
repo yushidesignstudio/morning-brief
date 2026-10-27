@@ -1,5 +1,211 @@
 [
   {
+    "date": "2026-10-27",
+    "daily_summary": "今天兩邊都在講「規則要先寫清楚」：Product 圈開始把設計規範整理成 AI 讀得懂的樣子，讓 AI 做出來的東西還是自家風格；Brand 圈則是幾個重塑案都先回頭挖品牌原本的信念，才動 logo 和顏色。對工作室來說，幫客戶把規範寫清楚本身就是一門可以賣的服務。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+      "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+      "summary": "How I AI 節目訪問 Reddit 首席 UX 工程師 Blair Metcalf，介紹內部原型工具 Reddit Proto：設計師不碰 Git 就能做出原型，平台上已有 700 多個原型。重點是把 Figma MCP、Cursor 和設計系統 MCP 串起來，並用真實資料，讓原型的樣子和行為都接近正式產品。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "デザインハーネスとは？　AIの出力精度を高め、自社らしいデザインを作る4つの仕組みと始め方を解説",
+          "url": "https://goodpatch.com/blog/2026-10-design-harness",
+          "source": "Goodpatch Blog",
+          "lang": "日文",
+          "studio_related": true,
+          "summary": "Goodpatch 提出「デザインハーネス（設計馬具）」的概念：生成式 AI 的輸出本來就會飄，光改 prompt 管不住品質，要在 AI 外面搭一套環境，讓誰來做都維持自家水準。這套環境有四個部分：限制（能用的元件、顏色、用語）、資訊（目的、使用者是誰等前提）、評估（用機器、AI、人眼檢查有沒有照規則）、修正（偏掉就改，並回寫進規則）。案例包括エス・エム・エス 的照護產品讓 UI 設計師用 Claude Code 直接做到實作、用視覺回歸測試防跑版，以及 KOKUYO 的 TEAMUS 把品牌調性做成 Gemini 的 Gem，讓各部門都能自己檢查簡報。它也提醒不必一開始就完美，先檢查色彩字型間距有沒有寫成文件、品質標準有沒有被記錄，從缺的地方補起。對工作室來說，這等於一份新的服務菜單：幫客戶把品牌規範整理成 AI 用得了的版本。"
+        },
+        {
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Christine Vallaure 發現把 Figma 檔丟給 AI 轉程式碼時，最可怕的不是程式寫得爛，而是 AI 會自己「發明」檔案沒說的事：焦點順序、錯誤狀態、螢幕閱讀器念什麼、清單空了怎麼辦，這些截圖看不出來、review 也抓不到。她自己比對過，React 元件能表達的東西 Figma 大概只蓋到 17%，CSS 約 45%。所以她把方向反過來：設計系統從程式碼開始，Figma 只是鏡子，兩邊不一樣時以程式碼為準。文章附上實際流程：拿一個碰不到正式環境的分支、開 Storybook 看真元件、用 Figma Console MCP 先搬 tokens 和文字樣式、再先試做 Button 和 Alert 兩個元件，搬不過去的一律記進 GAPS.md。對設計師的啟發是：AI 時代，名稱和屬性跟程式碼一字不差，比畫得漂亮更重要。"
+        },
+        {
+          "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+          "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "source": "Lenny's Newsletter（How I AI）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Lenny 旗下 How I AI 節目，Claire Vo 訪問 Reddit 首席 UX 工程師 Blair Metcalf，聊他打造的內部原型工具 Reddit Proto。目標是讓設計師和 PM 不碰 Git 也能從點子做出可分享的原型，目前整個 UX 和產品部門都在用，平台上已有超過 700 個原型。做法是自製 Figma MCP 搭配 Cursor，再加一個把 Reddit 元件對應到正式程式碼的設計系統 MCP，而且用真實的 Reddit 資料而不是假資料，原型的表現就更接近真產品。設計師可以直接在原型上標註某個元素，轉成 Cursor 裡精準的程式修改；交接工程時則用「feature capsule」和「Rosetta stone」把設計和程式的用語對起來。啟發是：原型要建在真的設計系統和真資料上，給主管看可以操作的原型，而不是靜態稿。"
+        },
+        {
+          "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
+          "url": "https://uxdesign.cc/does-apples-homeview-reduce-effort-or-ask-for-our-attention-ad7e892d17e2",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Heenesh Patel 評 Apple 新出的 7 吋智慧家庭螢幕 HomeView：廣告裡它放在餐桌正中央、全家圍著它轉，但它要插電，現實中很難放在桌子中間；更根本的問題是，餐桌正是家人最想保持沒有螢幕的地方。他用一個簡單的測試檢查所有聯網產品：它是在幫人省力，還是在要人注意力？他引用 Mark Weiser「最深刻的技術會消失在日常裡」和 Amber Case 的 Calm Technology 原則，指出 HomeView 落入「看得見＝有用」的陷阱。他自己家裡裝滿智慧設備，實際上家人只用來放音樂和看門鈴鏡頭，好的自動化應該是設定好就忘掉。這個「省力還是搶注意力」的提問，很適合拿來檢查客戶想加的新功能。"
+        },
+        {
+          "title": "Who gets to name the future?",
+          "url": "https://uxdesign.cc/who-gets-to-name-the-future-436d069f16af",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Nicole Alexandra Michaelis 有次開會聽到「one-shot 一個原型」「組個 tiger team」「客戶需要 forward-deployed engineer」，事後才發現像是坐在軍事簡報裡。她追查 AI 時代流行語的出處：forward-deployed engineer 來自 Palantir 派駐軍方的工程師（職缺一年成長超過 1,000%），tiger team 出自 1964 年航太論文，red team 來自冷戰時的 RAND，blitzscaling 借自德軍閃電戰。她的論點是，這套語言帶著性別、階級和膚色，是同一群人在定義未來，並且很客氣地告訴其他人「這裡不是你的地方」。她也承認自己常這樣講話。對設計師來說，這是一個提醒：產品文案和團隊用語，同樣會決定誰覺得自己被歡迎。"
+        }
+      ],
+      "buzz": "AI 進到設計流程後，大家發現問題不在 AI 會不會畫，而是它會自己補沒寫清楚的地方。所以 Goodpatch、Reddit 和設計系統圈都在做同一件事：讓程式碼和規範當唯一的標準，AI 只照著做。另一條線是在問科技該不該一直搶注意力，連業界的用語都被拿出來檢討。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Applied Mschf on bringing its creativity to brands",
+          "url": "https://www.creativereview.co.uk/applied-mschf-creativity-advertising/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "以惡搞藝術聞名的紐約團體 Mschf 在 2025 年 8 月成立商業部門 Applied Mschf，專門接品牌案。他們的接案方式是請客戶用白話說清楚生意、受眾和目標，再找一個意想不到的解法，而不是直接套廣告格式。組織上把客戶管理和製作合在一起，設計、製作、法務、人資共用集團資源，同一位創意總監從發想一路跟到上市。案例有為 Cash App 做的像素風點擊遊戲 Cash Apples（玩家能贏真錢），以及為保養品牌 The Ordinary 開的免費接駁巴士（上路不到一週就被叫停）。對工作室的啟發是：專案要圍繞和客戶共同的目標來設計，提案形式也不必只有簡報，草圖、原型都可以，並靠每天開放式的發想保持跨產業的手感。"
+        },
+        {
+          "title": "Conran Design Group rebrands luxury accommodation provider Cheval",
+          "url": "https://www.designweek.co.uk/conran-design-group-rebrands-luxury-accommodation-provider-cheval/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦高級服務式公寓品牌 Cheval 面對飯店集團和生活風格品牌搶進市場，請 Conran Design Group 重塑品牌，好支撐國際擴張。策略上，Conran 把定位從講產品轉成講體驗，提出「Generous by design」作為品牌平台，搭配標語「Because space matters」，強調寬敞的空間、對住客的用心，以及不被死板時間表綁住的自由。新 logo 是一個拉長的 C 框住兩匹馬，典故來自品牌 40 多年前起家的 Knightsbridge，抬起的馬蹄象徵歡迎；配色捨棄奢華品牌慣用的黑白金，改用沉穩的藍綠色，每個據點還有自己的旗幟式徽章。創意總監 Lee Hoddy 說，市場變動時品牌要回頭挖出真正的信念，否則重塑只會停留在表面。對外名稱也從「Cheval Collection」簡化成「Cheval」。"
+        },
+        {
+          "title": "Royal Designers for Industry rebrands as it turns 90",
+          "url": "https://www.creativereview.co.uk/royal-designers-for-industry-rebrands-90-birthday/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國皇家藝術學會 1936 年創立的 Royal Designers for Industry（RDI）滿 90 歲，換上新識別。設計由兩位成員 Margaret Calvert 和 Ian Cartlidge 操刀，大部分時間就在 Calvert 家的廚房餐桌上完成。系統以 Calvert 自己的 New Rail Alphabet 字體為基礎，「Royal Designers」拆成兩行大字，RDI 縮寫放在青色圓形裡，另有 9 和 0 重疊的 90 週年標誌。原本的深藍改成更亮的青色，目的是吸引年輕設計師。這套彈性字體框架要服務約 200 位跨領域成員，也呼應 RDI「連結世代、支持新銳設計師」的目標，示範了老機構怎麼在保留身分的前提下變年輕。"
+        },
+        {
+          "title": "Apple Music unveils logo that was physically \"made by sound\"",
+          "url": "https://www.dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound/",
+          "source": "Dezeen",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Apple Music 自 2015 年上線以來第一次重塑品牌，新 logo 的波紋是真的用聲音做出來的。Apple 把 app 圖示形狀的塑膠片放進一淺池礦物油裡，由音樂人 Fred Again 和 NEST Acoustics 做出音頻，再透過換能器轉成震動，讓油面形成波紋。Apple 說核心想法是「讓聲音創造視覺」，這段聲音同時也是品牌的聲音識別。字標改成全小寫的客製 SF Pro 粗體，和其他 Apple 服務一致，配色也從紅色改成黑白。這已經是本週第三家媒體深入報導，在 AI 生成當道的時候，大品牌刻意強調「實體製作過程」本身就成了故事。"
+        },
+        {
+          "title": "Australian Fintech Blossom Refreshes Brand Identity, Offering Lessons for Small Business Marketing",
+          "url": "https://smallbusinessconnections.com.au/australian-fintech-blossom-refreshes-brand-identity-offering-lessons-for-small-business-marketing",
+          "source": "Small Business Connections",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "澳洲儲蓄投資平台 Blossom 和當地品牌工作室 SUPERHAUS 合作更新識別。客戶研究發現大家存錢是為了具體目標，例如買第一間房、存緊急預備金，所以訊息從「解釋固定收益產品」改成「你能達成什麼」。新定位是「Purpose-Built Saving」，搭配「Your Savings Sweet Spot」，品牌標誌用四個相連的 B 形代表複利與朝目標前進，並延伸到 app 裡，產品本身沒有變。文章整理給小品牌的教訓：講客戶的成果而不是產品功能、重塑要建立在客戶洞察上、所有接觸點訊息一致、清楚告訴老客戶什麼變了什麼沒變。也提醒有時只要改網站文案和關鍵訊息就有效，不一定要整套重塑，這點很適合拿來和預算有限的客戶溝通。"
+        }
+      ],
+      "buzz": "這兩天的重塑案有個共通點：先找回品牌本來就相信的事，再談視覺，Cheval 的「Generous by design」和 Blossom 從賣產品改成講客戶目標都是這樣。手作過程也繼續被當成賣點，Apple Music 用聲波在油上做出 logo。至於 Applied Mschf，則是把「出乎意料的點子」直接做成一種接案模式。"
+    },
+    "highlights": {
+      "summary": [
+        "規則要先寫清楚",
+        "先回頭挖品牌原本的信念",
+        "幫客戶把規範寫清楚"
+      ],
+      "product": [
+        "它會自己補沒寫清楚的地方",
+        "讓程式碼和規範當唯一的標準",
+        "科技該不該一直搶注意力"
+      ],
+      "brand": [
+        "先找回品牌本來就相信的事",
+        "手作過程也繼續被當成賣點",
+        "直接做成一種接案模式"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "【飯尾醸造】京都・丹後の老舗醸造所のブランディングデザイン。",
+        "title_zh": "【飯尾醸造】京都丹後老字號釀醋廠的品牌設計",
+        "url": "https://note.com/arence/n/n302372b58d24",
+        "source": "note（ARENCE 八木彩）",
+        "lang": "日文",
+        "published": "2024-12",
+        "category": "理念落地",
+        "brand_name": "飯尾醸造（富士酢，京都丹後百年釀醋廠）",
+        "consultant": "八木彩（ARENCE）",
+        "partial": false,
+        "cover_image": "https://assets.st-note.com/production/uploads/images/165310059/rectangle_large_type_2_48160e8ff49c8152e0e195af74079ff7.jpeg?fit=bounds&quality=85&width=1280",
+        "story": {
+          "problem": "飯尾醸造是 1893 年創業的釀醋廠，招牌「富士酢」在高級超市很受歡迎，經營理念「モテるお酢屋。（受歡迎的醋屋）」也早就在實踐。但品牌的視覺沒有統一，顏色只靠口頭代代相傳，官網和型錄調性不一致。五代目飯尾彰浩找上 ARENCE，需求是「想提高品牌的解析度」。",
+          "approach": "八木彩先去現場看釀造廠、自營餐廳、契約農家的梯田和丹後小鎮，確認要用設計把這家公司的誠實「看得見」。接著和文案寫手一起，把對內的「受歡迎」改寫成對外的「人生が変わるお酢。（改變人生的醋）」。她一開始就決定不放設計師的自我，不重做而是整理既有資產：先用文字定下 Look&Feel，再把口傳的顏色名定成標準色、補做缺少的「富士酢醸造元」字樣，最後才做型錄和官網。",
+          "result": "完成標語、Look&Feel、色票、logo 字標和設計規範，並據此改版型錄和官網；官網新增「人生が変わるお酢。」專訪單元，訪問被富士酢改變人生的人。文章沒有提供營收數字。",
+          "takeaway": "老品牌的案子不一定要大改，「整理和精修」本身就是一種有價值的提案，而且客戶接受度高。內部理念和對外語言可以分開：內部口號保留，對外換一句符合品牌個性的話。還有一個可以直接用的做法：把客戶內部習慣的口語叫法（例如「黑富士」）收進規範裡，客戶比較容易認同、也比較會用。"
+        },
+        "guide": [
+          {
+            "heading": "委託的起點：已經有理念，缺的是「解析度」",
+            "body": "飯尾醸造位在京都北部的丹後，1893 年（明治 26 年）創業，130 多年來以「富士酢」為主力，做出許多在高級超市受歡迎的商品。2024 年 1 月，五代目當主飯尾彰浩來找 ARENCE，說想「提高品牌的解析度」，具體需求是建立視覺識別，讓官網和型錄調性一致。這不是一家經營出問題的店，而是理念清楚、但視覺跟不上的店，所以這個案子的重點不是診斷問題，而是怎麼把已經存在的理念翻譯成看得見的東西。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://assets.st-note.com/img/1733887895-4RVxAyNvzl17dWhnMXcGUisD.jpg",
+              "caption": "主力商品：富士酢 Premium 與富士酢"
+            }
+          },
+          {
+            "heading": "「モテるお酢屋。」：六種關係人的經營理念",
+            "body": "飯尾當時給八木彩看的，是他寫好的經營理念「モテるお酢屋。」，意思是要被六種關係人喜歡：員工、使用者、契約農家、在地、同業夥伴和往來廠商。而且這不只是口號：契約農家用不灑農藥的方式種原料米，飯尾醸造用農協收購價的 3 倍買下；對在地，則自己經營餐廳，做成讓人專程造訪的目的地。八木彩認為，不追眼前利潤、看著六種關係人追求永續成長，是這家公司最值得被看見的地方。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "動手前先去現場：設計要讓誠實被看見",
+            "body": "開始設計前，ARENCE 團隊先到飯尾醸造實地走一趟：釀醋的倉庫、飯尾經營的義式餐廳「aceto」、契約農家的梯田，以及丹後的街道。他們感受到的是從種米到醋完成都一絲不苟的做事態度，還有對丹後這塊土地的感情。這趟視察決定了整個案子的方向：設計的任務是把這份誠實和態度「可視化」，而不是幫品牌加上新的形象。",
+            "quote_ja": "皆さんの姿勢や企業の誠実さをデザインで可視化する必要がある、と強く感じました。",
+            "quote_zh": "我強烈感受到，必須用設計把大家的態度和企業的誠實可視化。"
+          },
+          {
+            "heading": "標語：把「受歡迎」換成「改變人生」",
+            "body": "第一步是寫品牌宣言（statement），找的是文案寫手李和淑，因為她的文字給人誠懇、溫柔的感覺，和飯尾醸造要說的話很合。關鍵討論在於「モテる（受歡迎）」這個詞：它很好記，但大聲對外宣傳「受歡迎」，和這家公司踏實的個性可能不搭。結論是，「モテるお酢屋。」繼續當內部經營理念，對外則換一句話，於是有了「人生が変わるお酢。（改變人生的醋）」。提案只有一案，背後的想法是要成為一家能把各種關係人都捲進來、改變他們人生的醋屋，飯尾醸造的人也很有共鳴。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "設計師的態度：不放自我，整理既有資產",
+            "body": "接下來是精修 logo 和製作設計規範。八木彩從一開始就給自己定了一條原則：不放設計師的自我，盡量讓自己「透明」。理由是飯尾醸造已經有 130 多年的歷史和許多傳下來的資產，這個案子的價值不在創造新東西，而在一點一點提高品質、把品牌整理好。這是整篇最值得工作室參考的一段：面對老品牌，「不重做」本身就是一個需要說服客戶、也需要自制的專業判斷。",
+            "quote_ja": "デザイナーとしてのエゴを出さず、極力自分を透明にして取り組もう",
+            "quote_zh": "不放設計師的自我，盡可能讓自己透明地投入這份工作。"
+          },
+          {
+            "heading": "先用文字定世界觀，再把口傳的顏色定下來",
+            "body": "實際作業的第一步是決定 Look&Feel 的關鍵字，這些詞都是和飯尾及員工聊天時反覆出現的說法。先用文字定義品牌的世界觀，才進入設計。接著是品牌色：飯尾醸造的設計一直靠口頭傳承，公司內部會用「黒富士（黑富士）」「青富士」「紅芋の色（紫芋色）」這樣的名字來稱呼顏色、做包裝。ARENCE 把這些口傳的顏色定成具體的色號，讓紙本和螢幕都能用得一致，而且保留了原本的叫法。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://assets.st-note.com/img/1733888048-TxMNtsLSY0dE1z4fXRAp5cgq.jpg",
+              "caption": "飯尾醸造的品牌色票，沿用「黑富士」「青富士」等內部叫法"
+            }
+          },
+          {
+            "heading": "補齊字標，再落到型錄和官網",
+            "body": "公司名「飯尾醸造」原本就有字型檔，但沒有「富士酢」的字樣，所以 ARENCE 用同樣的風格新做了「富士酢醸造元（富士酢釀造元）」，同時微調字級和字距，讓它能長期使用。這些素材整理好之後，才拿來改版型錄和公司官網。設計時特別考量長年愛用富士酢的年長顧客，讓他們看了覺得親切、用起來方便，而不是為了「年輕化」犧牲老客人。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://assets.st-note.com/img/1733888067-SaLsxN8M6pYHiAvJFT3zXqc5.jpg",
+              "caption": "精修後的 logo 字標：飯尾醸造與新做的「富士酢醸造元」"
+            }
+          },
+          {
+            "heading": "把理念變成內容：「人生が変わるお酢。」專訪",
+            "body": "官網上新增了一個叫「人生が変わるお酢。」的專訪單元，實際訪問了被富士酢改變人生的人。這個單元的作用，是把「被六種關係人喜歡」這個經營理念，用看得見的方式說給外面的人聽。換句話說，標語不是做完就放著，而是延伸成可以持續更新的內容。文章最後沒有營收或銷量數字，比較像設計方的過程紀錄，適合拿來學「理念怎麼一路落到標語、顏色、字標和內容」的順序。",
+            "quote_ja": "",
+            "quote_zh": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-26",
     "daily_summary": "今天兩邊都在問同一件事：AI 到處都是之後，人的判斷還值多少錢？Product 圈開始反省那顆到處都有的閃亮 AI 按鈕，主張別硬把聊天框塞給專家；Brand 圈則發現連 AI 公司都找人類設計師做品牌，因為品牌靠的是信任不是好看。對工作室來說，幫客戶判斷什麼不該加，正變成最好賣的能力。",
     "jenny_wen": {
@@ -1613,129 +1819,6 @@
         "識別要延伸到聲音和觸覺",
         "兩個點就能撐起一整套系統",
         "自主專案常常就是下一個好案子的入口"
-      ]
-    }
-  },
-  {
-    "date": "2026-10-15",
-    "daily_summary": "今天兩邊都在講「把價值說清楚」：Product 圈有人教你用投資報酬率跟 CFO 談設計，也有人提醒官網改版前要先想清楚產品到底要解釋什麼；同時 AI 圈開始承認，沒人想再多打開一個 AI app。Brand 圈則從包裝撞款、Arsenal 的專屬字體到 Pohoda 音樂節 30 週年，都在說品牌要靠形體、動態和歷史累積出辨識度。對工作室最實用的是：跟客戶提案時，把設計翻譯成對方聽得懂的數字和任務。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "What I told the CFO when he asked why design matters",
-          "url": "https://uxdesign.cc/what-i-told-the-cfo-when-he-asked-why-design-matters-ceadb07c929e",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "設計領導者 Arin Bhowmick 分享被 CFO 當面問「多投一百萬在設計，會比投在工程或行銷划算嗎？」之後，他怎麼改變談設計的方式。他的第一個答案是：用財務看所有投資的兩個問題來看設計，也就是多久回本、報酬率多少；他引用 Forrester 2025 年替 UserTesting 做的研究，上線前先找使用者驗證設計，讓迭代週期縮短 25%、省下 250 萬美元的工程返工，三年 ROI 415%、不到半年回本。第二個答案是「轉換率是已經花錢買來的營收」：Baymard Institute 統計七成購物車死在結帳頁，修好已知的結帳設計問題，大型電商轉換率可提升 35%。對工作室來說，這篇幾乎是現成的提案話術：別只說設計很重要，要把成果換成客戶財務長看得懂的格式。"
-        },
-        {
-          "title": "Before You Redesign Your SaaS Website, Decide What Needs Explaining",
-          "url": "https://medium.com/design-bootcamp/before-you-redesign-your-saas-website-decide-what-needs-explaining-a6424f982c1b",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Merge Rocks 行銷主管 Ihor Ostin 用義大利 AI 行銷平台 Bytek 的官網改版前後對照，說明 SaaS 官網改版真正要處理的是「解釋」而不是「好不好看」。舊版其實已經有產品模組、客戶 logo 和服務內容，問題是承諾太廣；新版把產品產出的東西（預測）、對應的工作任務、以及專家負責設定哪些部分串在一起，買家才知道自己買到什麼。他提醒「讓它更產品導向」這種 brief 太模糊，設計師可以重組故事，但創辦人得先把產品講清楚；而舊站裡正確的資訊也不該因為是舊設計就丟掉。他給的檢驗標準很實用：創辦人在簡報時，能不能直接指著網頁講，還是得繞著網頁補充說明。"
-        },
-        {
-          "title": "Nobody wants your AI app",
-          "url": "https://uxdesign.cc/nobody-wants-your-ai-app-cff8629064a4",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Dan Maccarone 主張「獨立的 AI app」是個比大家願意承認的更糟的點子，未來的 AI 會消失在使用者已經在用的工具裡。他引用 RevenueCat 對 11.5 萬個 app 的分析：AI app 付費轉換比一般 app 快，但流失也快約三分之一，一年後只剩五分之一還在付錢；Bessemer 也警告企業 AI 工具會遇到同樣的懸崖，Snyk 調查 3,000 多個企業環境，發現公司都是把 AI 縫進既有系統，而不是另外買新工具。他用 Google+ 和 Nir Eyal 的 Hook Model 解釋：AI app 只給了一次驚豔，沒有讓人明天回來的理由。最有意思的矛盾是，企業要 AI 對使用者「隱形」，卻要對管理者「完全透明」，有稽核紀錄和儀表板，誰能同時滿足兩者誰就贏。對設計師來說，接 AI 案子時與其畫一個新入口，不如先問它該嵌進哪個既有流程。"
-        },
-        {
-          "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
-          "url": "https://www.lennysnewsletter.com/p/metas-new-muse-wonder-model-good",
-          "source": "Lenny's Newsletter（How I AI）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "How I AI 主持人 Claire Vo 把 Meta 新模型 Muse Wonder 接進 Claude Code，跑了將近 20 個任務實測，涵蓋原型、agent 工作流、寫程式、寫作和創意產出，再用 LLM 評審加上自己的語音筆記打分。結果很兩極：Muse 在三個 agent 任務拿第一，「個人與工作 agent」的定位大致站得住；但設計產出她直接說「不好」，SVG 和短影音也輸給 Opus 5.5 等模型，而且一次性任務很快、agent 任務反而慢。對設計師的啟發是：模型很會做事，不代表很會做設計，選工具時要拿自己的設計任務實測，別只看廠商宣傳。"
-        },
-        {
-          "title": "Looks done is not the same as ready",
-          "url": "https://medium.com/design-bootcamp/looks-done-is-not-the-same-as-ready-c699f50beef7",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Deep Adalja 指出元件「看起來做完了」只代表在你打的文字、你選的背景、你看的那個狀態下沒問題，交付後的 bug 大多藏在這個落差裡。他整理出交付前要問元件的 6 個問題：塞進真實內容撐不撐得住（長字、空值、全大寫、CJK、320px 寬等 42 種組合）、在實際疊加的背景上對比度夠不夠、token 寫成程式碼長什麼樣、是否準備好給 AI 生成程式、各狀態之間到底改了什麼等。他舉例一組自認完成的元件，55 個元素中只有 13 個通過對比檢查；一個輸入框有 85 個綁定 token、35 個寫死數值。他把這套檢查做成 Figma 外掛 CalibrateDS，但就算不用外掛，這 6 個問題本身就是很好的交付前檢查清單，特別適合要把設計交給客戶工程團隊的工作室。"
-        }
-      ],
-      "buzz": "Product 圈這兩天很務實：一邊在練習把設計價值翻譯成回本期和轉換率，一邊在檢討官網和元件「看起來完成」跟「真的可用」之間的落差。AI 話題也轉向冷靜，開始承認獨立 AI app 留不住人，AI 應該嵌進既有流程裡；新模型的實測也提醒大家，會做事不等於會做設計。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Why brands are rethinking packaging norms",
-          "url": "https://www.creativereview.co.uk/rethinking-packaging-norms-graphic-design-branding/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Rebecca Fulleylove 從一場美妝撞款事件切入：Fenty Beauty、Glow Recipe 和 Huda Beauty 九月幾乎同時推出長得一模一樣的旋轉式眼膜罐，韓國品牌 Wonder Bath 七月就用過類似形式，Huda Kattan 事後怪罪共用的包材供應商謊稱獨家。文章主張在擁擠市場裡，包裝不該只追求新奇吸睛，而是回頭重新思考實體物件本身怎麼用、摸起來的感覺、怎麼長期被認出來，並以 Polygraph Creative 的 One Tricky Pony、Two Times Elliott 的 AKT 體香膏為例。對工作室來說，有兩個很實際的提醒：做包裝提案時把觸感和使用方式納入設計範圍；如果用供應商的現成包材，記得白紙黑字確認獨家性。"
-        },
-        {
-          "title": "Arsenal unveils bespoke typeface inspired by a club legend",
-          "url": "https://www.creativereview.co.uk/arsenal-football-club-rocastle-typeface-david-rudnick/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Arsenal 推出以已故中場球星 David Rocastle 命名的專屬字體 Rocastle，由 David Rudnick 與 Léa Bruneau 花了好幾年開發，靈感來自球隊的哥德體字標和隊徽。主力字重在每個字母中間畫一條線，象徵倫敦在地與全球球迷之間的連結，也呼應球隊從 Woolwich 搬到北倫敦、以及 Rocastle 本人從南倫敦走到 Highbury 的路。這套字體跟既有的傳統標誌並存，讓球隊在時尚、音樂、藝術等跨界合作上有更大發揮空間，另外還推出一個獨立使用的大寫「A」。這件事這週同時被 It's Nice That、Brand New、Creative Review 報導，是很好的案例：把品牌故事直接寫進字體結構裡，比做一句 slogan 更耐久。"
-        },
-        {
-          "title": "Andrej & Andrej gives Pohoda Festival an identity refresh, complete with 3D babies and a futuristic typeface",
-          "url": "https://www.itsnicethat.com/articles/andrej-and-andrej-pohoda-festival-30th-anniversary-graphic-design-project-141026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "斯洛伐克最大的音樂藝術節 Pohoda 邁入第 30 年，找來布拉提斯拉瓦的雙人工作室 Andrej & Andrej 做第三代識別，包含新 logo、字體和配色。招牌的雙胞胎嬰兒從 1997 年的照片、2001 年的平面圖像，這次和 3D 藝術家合作重新變回立體，還延伸成充氣雕塑和透明鑰匙圈；新字體以 2010 年前的舊字形為基礎，小寫 a、e、s 跟大寫一樣高，讓每個藝人名字都像獨立的字標。糖果色呼應 90 年代舞曲 MV，也回收了過去的條紋圖案。這是很好的「老品牌翻新」示範：不推倒重來，而是從自己的歷史裡挖素材，讓老粉認得、新世代也覺得新鮮。"
-        },
-        {
-          "title": "Remote Introduces New Brand Identity for the Next Chapter of Global Workforce Finance",
-          "url": "https://www.manilatimes.net/2026/10/13/tmt-newswire/pr-newswire/remote-introduces-new-brand-identity-for-the-next-chapter-of-global-workforce-finance/2444778",
-          "source": "PR Newswire（Manila Times）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "遠端聘僱平台 Remote 和 COLLINS 合作推出新品牌，定位從「發薪工具」升級成「全球勞動力的金融作業系統」，強調能在 150 多個國家一站搞定聘僱和付薪。視覺上，配色取材自各國貨幣，用紅、橘、綠、藍、紫的漸層；核心圖形是一個立方體，代表單一模組可以堆疊成更大的基礎設施。新品牌搭配公司史上最大的廣告活動「For a World That Works」，第四季在七個城市投放。這是新聞稿，細節不多，但可以看到 B2B 品牌重塑的典型做法：先改定位、再找一個能承載「規模化」意義的簡單圖形。"
-        },
-        {
-          "title": "Can motion design have a “body language”? Studio Kiln thinks so",
-          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-september-studio-kiln-141026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "服務過 MTV、Vinted、Netflix 和 BAFTA 的動態設計工作室 Studio Kiln，在 It's Nice That 的 Nicer Tuesdays 講座上提出一個觀點：品牌可以有「肢體語言」。就像一個人的姿態和動作會透露情緒，品牌的精緻、優雅或驚奇感，也能透過動態表現出來，不只靠靜態視覺。文章本身比較短、沒有列出具體案例，但概念對品牌工作室很有用：做識別規範時，除了定義品牌長什麼樣子，也值得定義它「怎麼動」，包括節奏、緩動曲線和轉場，讓動態成為品牌一致性的一部分。"
-        }
-      ],
-      "buzz": "Brand 圈這兩天在談「辨識度從哪裡來」：包裝撞款事件讓大家重新思考，靠新奇造型撐不久，要回到形體和使用感受。Arsenal 和 Pohoda 都示範了從自身歷史挖素材做出新字體和新識別，Studio Kiln 則把品牌一致性延伸到動態，主張品牌也要有自己的肢體語言。"
-    },
-    "highlights": {
-      "summary": [
-        "把價值說清楚",
-        "沒人想再多打開一個 AI app",
-        "把設計翻譯成對方聽得懂的數字和任務"
-      ],
-      "product": [
-        "把設計價值翻譯成回本期和轉換率",
-        "獨立 AI app 留不住人",
-        "會做事不等於會做設計"
-      ],
-      "brand": [
-        "靠新奇造型撐不久",
-        "從自身歷史挖素材",
-        "品牌也要有自己的肢體語言"
       ]
     }
   }
