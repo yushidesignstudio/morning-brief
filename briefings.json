@@ -1,5 +1,209 @@
 [
   {
+    "date": "2026-10-28",
+    "daily_summary": "今天兩邊都在提醒同一件事：快不等於對。Product 圈的數據顯示 AI 讓工作變快，大家卻沒有更安心，關鍵在有沒有先做真實的使用者研究；Brand 圈則在批評一路修順、修到沒個性的重塑，品牌原本的怪癖反而是資產。對工作室來說，能幫客戶守住「方向」和「個性」，比幫他們做得更快更值錢。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+      "summary": "How I AI 主持人 Claire Vo 單獨上陣，實測 Anthropic 的個人助理 Claude Duet。她覺得這是目前最精緻的個人 agent，onboarding、任務清單和 artifacts 都做得好，用 connector 分析業務資料也很準；但整理信箱和 Slack 時抓不到重點，多步驟任務常跑超過 10 分鐘又沒什麼進度回饋，所以還沒成為她每天會用的工具。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Going nowhere fast",
+          "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Tristan Free 用「超車後還是停在同一個紅燈」比喻產品團隊用 AI 抄捷徑：以前是垃圾進、垃圾出，現在垃圾進去、出來的東西還很亮眼，讓人以為自己贏了。他引用 Atlassian《State of Product 2026》：PM 用 AI 每天多出將近 2 小時，但 84% 仍擔心產品會失敗，速度上去了、信心沒有。直接叫 AI 生 persona、旅程地圖，得到的是網路上的平均值，不是你客戶今天的痛。他主張由下而上：先用訪談、客服紀錄、使用數據把問題定義清楚，再讓 AI 加速。對工作室來說，這正是跟客戶解釋「為什麼研究不能省」的好說法。"
+        },
+        {
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "NN/g 調查 521 位 UX 從業者：99% 能用 AI、66% 用過至少一種 agent 工具，對「變快」打 4.2 分（滿分 5），但整體感受只有 3.57 分。最大的障礙是產出品質（54%）和資料隱私（50%），開放題裡 69% 帶有負面情緒，常見抱怨是公司硬性規定要用、以及要花時間驗證不可靠的產出。AI 最常用在桌面研究和寫程式，但 61% 從沒用在使用者訪談。研究員比設計師更悲觀，23% 覺得自己的角色會縮小（設計師是 12%）。結論很實際：把 AI 產出當草稿，並把「檢查時間」算進工時和報價。"
+        },
+        {
+          "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+          "source": "Lenny's Newsletter / How I AI",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Claire Vo 實測 Claude Duet 的誠實心得：上手流程、任務清單、artifacts、頻道設計都很成熟，透過 connector 分析業務 pipeline 表現不錯；但幫忙整理信箱和 Slack 時抓錯優先順序，平行任務常常跑 10 分鐘以上又缺乏回饋，通知也太安靜，讓人沒理由回來看。她用它做的業務簡報「堪用但不像自家品牌」，本機的 Claude skills 也不能直接帶過去。對設計師的啟發是：AI agent 的體驗瓶頸已經不在功能，而在等待回饋、通知節奏和品牌一致性這些 UX 細節。"
+        },
+        {
+          "title": "Pour it in once: building your brand for AI as a system of connected vessels",
+          "url": "https://medium.com/design-bootcamp/pour-it-in-once-building-your-brand-for-ai-as-a-system-of-connected-vessels-123fd46b8b3e",
+          "source": "Bootcamp (Medium)",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Ewelina Surlej 幫幾個品牌做過「AI 版品牌系統」後的實戰筆記。她指出寫一份很棒的品牌 .md 檔發給大家是陷阱：每次上傳都是一份複本，三月改了顏色，別人專案裡還是二月的版本，AI 會很有自信地套用舊規則；放在 SharePoint 共用也不行，多數 agent 進不去公司登入。她的解法是「連通管」：用一個 repo 放規則、數值和素材當唯一來源，品牌手冊、設計系統、簡報 skill、Figma 變數都從這裡自動同步，用 Claude Code 和 MCP 串起來。對工作室來說，「幫客戶把品牌變成 AI 用得了的系統」已經是一個具體可報價的服務。"
+        },
+        {
+          "title": "I Ran a Design System Token Audit in Claude Free. Here Is What Broke.",
+          "url": "https://medium.com/design-bootcamp/i-ran-a-design-system-token-audit-in-claude-free-here-is-what-broke-f4d9a98a5219",
+          "source": "Bootcamp (Medium)",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者用免費版 Claude 幫一份故意弄亂的 token 清單做健檢，要求它整理成 Global／Semantic／Component 三層。Claude 抓到同一個色碼被取了兩個名字並合併、發現叫 accent-orange 的顏色其實是琥珀色、點出名字裡帶版本號和大小寫混用的問題，還順手標了白字配琥珀色對比只有約 2:1。比較好的是它沒有硬把 6、10、14px 這些不在格線上的間距改掉，只建議當成第二步。對小團隊的啟發是：交件給工程師前，花幾分鐘用 AI 做一次 token 健檢，成本幾乎是零。"
+        }
+      ],
+      "buzz": "這兩天 Product 圈一直在講 AI 帶來的速度：NN/g 調查發現大家做事變快、心情卻只是普通，因為檢查 AI 產出很花時間。另一條線是把規範整理成 AI 讀得到的唯一來源，從 token 命名到品牌規則，都希望改一次就全部同步。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "POV: Football is branding the life out of itself",
+          "url": "https://www.itsnicethat.com/articles/pov-football-is-branding-the-life-out-of-itself-graphic-design-271026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "藝術指導、紐卡索死忠球迷 Will Knight 批評足球俱樂部套用企業品牌那一套：每次重塑都做很多「看起來合理」的小修，把怪癖一個個磨掉，他稱為設計的「風洞化」，最後得到稱職但沒有面孔的識別。例子包括紐卡索新隊徽把喜鵲換成城堡印章，Everton 和馬德里競技都因球迷反彈而改回，Ajax 也回到舊隊徽；反例是 Arsenal 請 David Rudnick 做的 Rocastle 字體、Fulham 和 F37 合作的字體。他的結論是：俱樂部已經擁有品牌最想要的歷史和忠誠，該問「能加什麼」，而不是「能簡化什麼」。這對接老品牌重塑的工作室是很好的提醒。"
+        },
+        {
+          "title": "Uncommon's rebrand of global powerhouse White & Case ditches every law firm cliché",
+          "url": "https://www.creativeboom.com/work/this-rebrand-ditches-every-law-firm-cliche-as-white-case-loses-the-navy-blue/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Uncommon Creative Studio 為國際律師事務所 White & Case 做了 13 年來第一次大改版：拿掉律所標配的海軍藍，換成電光藍「Catalyst Blue」，標題用會動的襯線字。策略上把「複雜」重新定義成機會，海報一邊寫「Complexity creates risk」、另一邊寫「We see opportunity」。logo 參考羅馬石刻，斜切讓字母看起來向前傾，& 符號獨立成 monogram，還開發了把照片轉成色彩光流的自有工具。這是「先找到一句定位，視覺全部跟著那句話走」的好示範，也說明專業服務業一樣可以不保守。"
+        },
+        {
+          "title": "Why Codea studio has launched a shoe range",
+          "url": "https://www.creativereview.co.uk/codea-design-studio-shoe-range-dover-street-market/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "獨立設計工作室 Codea 推出自有鞋款品牌 od.A，只在倫敦 Dover Street Market 販售。共同創辦人 Alex Marti 說，起點是一個自問：「如果沒有客戶，我們會做什麼？」他們想試試看，自己做產品、自己賣，能不能換來接案以外的創作自由和財務自由。工作室在藝術、運動、時尚案子裡累積的能力，正好拿來做自己的東西，發表時機也刻意對上 Frieze London 和新辦公室開幕。Marti 甚至認為獨立工作室在這件事上「做得還不夠多」。對隅室來說，這是思考自有品牌、降低對接案依賴的一個參考。"
+        },
+        {
+          "title": "生成AIに選ばれる企業は何が違う？生成AIの回答を左右する「メディア露出」と「一貫性」",
+          "url": "https://www.advertimes.com/20261027/article561854/",
+          "source": "AdverTimes（宣伝会議）",
+          "lang": "日文",
+          "studio_related": false,
+          "summary": "電通數位和電通 PR 顧問分析了 91 萬多筆生成式 AI 的回答，看 AI 會推薦哪些品牌。39 個商品裡，媒體曝光量和被 AI 提到的次數相關係數高達 0.80（無線耳機甚至 0.97）。四家大型零售商在 31 個品類裡，B 公司在 30 個品類都是第一個被提到，但服飾類卻是 A 公司領先（60.2% 對 38.8%），原因追溯到 A 公司從 2022 年起累積的網路新聞報導。重點是：AI 時代的品牌能見度，靠的是長期、一致的對外說法，而不只是廣告投放。"
+        },
+        {
+          "title": "Lego and Daft Punk's team-up highlights exactly how brands should interact with fans",
+          "url": "https://www.creativeboom.com/insight/lego-and-daft-punks-team-up-highlights-exactly-how-brands-should-interact-with-fans/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Tom May 認為多數品牌聯名很快就被忘記，Lego 和 Daft Punk 的合作卻示範了正確做法。他整理四點：點子來自粉絲（一對父子做的金字塔舞台模型變成官方套組）；用一顆紅色積木當神祕預告，讓粉絲自己解謎；發表影片平均融合兩個品牌的視覺風格；不急著推一堆周邊，慢慢發展。核心是聽粉絲說話、把功勞歸給粉絲、和他們一起長期經營。做聯名或社群企劃時可以直接拿這四點當檢查表。"
+        }
+      ],
+      "buzz": "Brand 圈今天有一股反「磨平」的聲音：足球俱樂部被批評把隊徽修得太乾淨，White & Case 則刻意丟掉律師事務所的海軍藍。另外也有人在談品牌和粉絲一起創作，以及工作室推出自有品牌、不只靠接案過活。"
+    },
+    "highlights": {
+      "summary": [
+        "快不等於對",
+        "先做真實的使用者研究",
+        "守住「方向」和「個性」"
+      ],
+      "product": [
+        "做事變快、心情卻只是普通",
+        "改一次就全部同步"
+      ],
+      "brand": [
+        "反「磨平」的聲音",
+        "不只靠接案過活"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "【神戸屋 Vol.2】コーポレートブランディングの展開と「神戸屋キッチン」の刷新。",
+        "title_zh": "【神戸屋 Vol.2】企業品牌的展開，以及「神戸屋キッチン」的全面翻新",
+        "url": "https://note.com/arence/n/n91c1fe52ee23",
+        "source": "ARENCE（note）",
+        "lang": "日文",
+        "published": "2026-08",
+        "category": "理念落地",
+        "brand_name": "神戸屋（百年麵包企業）",
+        "consultant": "八木彩、青田剛（ARENCE）",
+        "partial": false,
+        "cover_image": "https://assets.st-note.com/production/uploads/images/304464542/rectangle_large_type_2_6a2901a8f20f63be04431d3e3546ea8f.jpeg?fit=bounds&quality=85&width=1280",
+        "story": {
+          "problem": "神戸屋花了 2 年和 ARENCE 對話，定出品牌宣言「Be Playful」：以做麵包的誠實為底，加上自由發想和玩心，帶給客人驚喜。但宣言只是一句抽象的話，接下來的難題是：怎麼讓 logo、店面、制服、商品、公關都說同一句話，同時又不丟掉 100 年累積下來、客人早就認得的東西（鷲鳥標誌、白色磁磚、藍格子圍裙、格子紙袋）。",
+          "approach": "動手設計前，先定「Look & Feel」三個關鍵詞：誠實、洗鍊、玩心，讓整個專案團隊有同一把尺。接著每個接觸點都問「留什麼、換什麼」：logo 留鷲鳥、加入火焰；品牌 logo 留橢圓框；店面留正方形磁磚、把白色換成像烤好麵包的米色；制服換成米白色，但把用了近 40 年的藍色留在絲巾上。商品交給拿過兩次世界冠軍的職人團隊，用「Be Playful」開發限定款；公關則在公司內部組 PR 小組，從 2025 年 12 月起上了 8 堂課，自己準備發表會。",
+          "result": "約 40 年來第一次更新企業 logo，2026 年 8 月第一家翻新店「神戸屋キッチン アトレ恵比寿店」開幕，開幕前一天由社長親自向媒體說明百年企業為什麼要改變事業結構。內部 PR 團隊從此能自己操作，而不是每次都外包。",
+          "takeaway": "接老品牌案時，可以把「留什麼、換什麼」做成一張清單，每個接觸點逐項討論：保留「形狀」換掉「材質或顏色」，常常是兩邊都能接受的解法。另外，交付時順便幫客戶培養內部團隊（像這裡的 8 堂 PR 課），能讓品牌在工作室離開後還走得下去，也是可以另外報價的服務。"
+        },
+        "guide": [
+          {
+            "heading": "前情提要：一句宣言，要變成看得到的東西",
+            "body": "這是 ARENCE 寫神戸屋重塑的第二篇。上一篇講的是怎麼盤點 14 個以上的子品牌、整理出品牌骨架；這一篇接著講「做出來的東西」。經過 2 年對話，神戸屋定下的品牌宣言是「Be Playful」，意思是：以做麵包的「誠實」為基礎，加上自由的發想和幽默感，帶給客人驚喜和雀躍。文章要回答的問題很明確：這種抽象的理念，怎麼一路落實到 logo、紙袋、店面、制服、商品和公關，而且每一處都講同一件事。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "企業識別：先定「感覺」，再畫 logo",
+            "body": "這次最具代表性的成果，是約 40 年來第一次更新的企業 logo 和標誌。但 ARENCE 沒有一開始就畫形狀，而是先定「Look & Feel」，也就是品牌散發的氣質和空氣感。整個專案團隊一起挑字、對齊溫度，最後定下三個關鍵詞：「誠実（誠實）」「洗練（洗鍊）」「遊び心（玩心）」，作為之後所有判斷的共同標準。造型上，神戸屋從創業就用的「鷲」被保留下來，原本代表「開拓未來、不愧鳥中之王的品質」，這次再融入代表不斷挑戰的「炎（火焰）」，同時象徵熱情和烤麵包的火。字體是以鷲翼為靈感自製的原創字型，品牌色選了象徵麥子和光明未來的淺棕色。",
+            "quote_ja": "まずは「どんな言葉や情緒で世界観を捉えるか」という感覚的な目線合わせを行うことが重要です。",
+            "quote_zh": "首先要做的，是在感覺上對齊：要用什麼樣的語言和情緒來捕捉這個世界觀。",
+            "image": {
+              "url": "https://assets.st-note.com/img/1786969243-JrH3i4XTlkqPnz7GZasb1EOQ.jpg",
+              "caption": "神戸屋新舊企業 logo 對照：保留鷲鳥，加入火焰元素"
+            }
+          },
+          {
+            "heading": "品牌 logo 與紙袋：留住客人認得的東西",
+            "body": "兩個主力品牌「神戸屋レストラン（神戸屋餐廳）」和「神戸屋キッチン（神戸屋廚房）」的 logo 也跟著更新，但刻意保留了大家熟悉的橢圓形外框，只把造型修得更現代、更俐落。紙袋和塑膠袋也是同樣思路：舊款一直是「白底加格子紋」，對客人來說等於「我在神戸屋買了麵包」的記號，所以格子紋照留，再以毫米為單位重新調整新 logo 的位置、配色和留白，目標是讓客人願意提著它在街上走。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "空間設計：白色磁磚換成「麵包色」",
+            "body": "ARENCE 的特色是品牌和建築設計同步進行，第一家落地的是 2026 年 8 月重新開幕的「神戸屋キッチン アトレ恵比寿店」。這家店直接面向車站通道、門面很寬，於是把陳列架和三明治製作區對著通道擺，陳列架後方再開大窗，讓路人直接看到職人在廚房烤麵包。最大的討論點是「留什麼、換什麼」。說到神戸屋，很多人會想到白色磁磚：神戸屋キッチン 原本就是從餐廳抽出「廚房」功能的業態，乾淨的白磁磚有它的意義，但放在現在的空間裡顯得冰冷。最後的解法是保留正方形的形狀，材質換成特製的米色磁磚，像烤好的麵包一樣溫暖，每片顏色還帶自然色差。展示櫃和燈具則用了做擀麵棍的櫻桃木，以及舊 logo 用過的黃銅，讓歷史感換個方式留下來。",
+            "quote_ja": "そして、今回の改修において最も注力したのが「何を残し、何を変えるのか」という歴史の継承のあり方でした。",
+            "quote_zh": "這次改裝最用心的地方，是「留下什麼、改變什麼」這種傳承歷史的方式。",
+            "image": {
+              "url": "https://assets.st-note.com/img/1786969347-g3ekuCmsYIwfoWEiA7UrdV8x.jpg",
+              "caption": "神戸屋キッチン アトレ恵比寿店，米色正方形磁磚牆與開放式廚房"
+            }
+          },
+          {
+            "heading": "新制服：放下用了 40 年的藍格子",
+            "body": "另一個大決定是換掉店員制服。從 1987 年起，藍色格子圍裙和裙子當了將近 40 年的品牌象徵。換掉這麼經典的東西需要勇氣，但神戸屋接下來想要的是「每位員工都是主角、能做自己」的工作環境，所以問題變成：什麼樣的衣服，讓不分性別年齡的人都好活動、穿得驕傲？答案是以柔和的米白色為主，跟麵包和空間融在一起；而熟悉的藍色沒有消失，變成絲巾等配件上的點綴色，把 40 年的歷史接到未來。",
+            "quote_ja": "長年親しまれてきたアイコンを変えることには、当然大きな勇気が必要でした。",
+            "quote_zh": "要改變長年受人喜愛的象徵，當然需要很大的勇氣。",
+            "image": {
+              "url": "https://assets.st-note.com/img/1786969384-DxmGLPZSrfcNzpkFvU9OMAt8.jpg",
+              "caption": "神戸屋キッチン 新制服：米白色為主，藍色留在絲巾上"
+            }
+          },
+          {
+            "heading": "限定商品：把「玩心」做進麵包裡",
+            "body": "「Be Playful」不只在店面和制服，也要做進商品本身。開幕限定商品交給曾在麵包世界大賽兩度奪冠的職人團隊開發。招牌是「背徳の溺れバター塩パン（罪惡感爆棚的淹奶油鹽麵包）」：一般鹽奶油捲是捲起來烤，奶油會流到烤盤上浪費掉，他們改用模具烤成環形，把融化的法國發酵奶油全部關在模子裡，讓底部像炸過一樣酥脆、裡面多汁，再配上給宏德鹽。另外還有「クリームに溺れるシューデニッシュ」「窯出しプリンデニッシュ」等限定品。這段示範了理念怎麼變成產品規格：不是在包裝上寫「好玩」，而是真的改了做法。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "公關：不辦一次性活動，而是培養內部團隊",
+            "body": "開幕前一天辦了媒體圓桌會，重點不是展示新店新品，而是讓桐山社長親口講「百年企業為什麼要大幅改變事業結構、挑戰重塑」的背景故事。ARENCE 在這裡強調兩件事：從媒體的角度設計話題，以及培養公司內部的團隊。他們派專門的 PR 指導團隊，在神戸屋內部組成 PR 小組，從 2025 年 12 月起上了 8 堂課，一起討論社會趨勢和媒體需要的脈絡，打磨新聞稿的標題和結構；活動當天也安排試吃、拍照點和拍攝動線，讓記者容易取材。最後由內部團隊主導完成，把這次定位為「第 100 年的第二次創業」對外發聲。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "結語：品牌不是把外表整理好就結束",
+            "body": "兩年前第一次開會，桐山社長就說神戸屋要成為「食文化創造企業」，不只是做麵包、賣麵包的公司，這句話成了整個專案的指南針。ARENCE 回顧這次的工作：重新整理分散的品牌骨架、把規範培養成公司內部的共同語言，再把「Be Playful」一致地放進店面、制服、商品和公關。作者最後強調，品牌設計要深入聽企業的歷史和真正的強項，定義出和經營方針連在一起的目標，然後陪著一起走。下一篇 Vol.3 會談新業態「THE STAND」的翻新。",
+            "quote_ja": "ブランディングとは、見た目をきれいに整えて終わるものではありません。",
+            "quote_zh": "品牌設計，不是把外表整理好看就結束了。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "daily_summary": "今天兩邊都在講「規則要先寫清楚」：Product 圈開始把設計規範整理成 AI 讀得懂的樣子，讓 AI 做出來的東西還是自家風格；Brand 圈則是幾個重塑案都先回頭挖品牌原本的信念，才動 logo 和顏色。對工作室來說，幫客戶把規範寫清楚本身就是一門可以賣的服務。",
     "jenny_wen": {
@@ -1697,128 +1901,6 @@
         "品牌要像人，不要像機器",
         "每個接觸點都要設計",
         "品牌簡化與個性之間的拉扯"
-      ]
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "daily_summary": "今天 Product 圈的關鍵字是「畫面之外」：Figma 在 Config India 把程式碼、規格文件搬上畫布，UX Collective 兩篇長文則提醒，AI 時代真正的設計工作在內容架構和權限邊界，而不是那顆確認按鈕。Brand 圈也在往畫面外走，從 Bentley 的聲音與觸覺識別，到 Pictoplasma 只用兩個點撐起整套系統。對工作室最實際的一句話：提案時把「discovery 和系統」當成交付物來賣，別只賣畫面。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Build by design: New workflows for new ways of building",
-          "url": "https://www.figma.com/blog/build-by-design/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 在印度舉辦史上最大的海外 Config，Dylan Field 提出 AI 讓寫程式變便宜後，團隊會在「為了思考而做」（快速原型）和「為了上線而做」（細節打磨）兩種模式之間切換，而 Figma 要把兩者都收進畫布。具體發表包括：code layers（開放 beta，可以把 GitHub、本機資料夾或真實網站抓成可編輯的程式碼圖層）、Specs（把決策、PRD、流程圖放進畫布並連到設計和程式碼，還能透過 MCP 交給 coding agent）、設計系統的 guidelines 與 system checks（讓 agent 照規範做事），以及併購開源 CMS Payload 後整合進 Figma Make。對工作室的意義是：交付物正在從「一包設計稿」變成「設計＋規格＋可運作的原型」，而設計系統文件寫得好不好，會直接決定 AI 幫你做事的品質。"
-        },
-        {
-          "title": "The AI experience doesn't care about your org chart",
-          "url": "https://uxdesign.cc/the-ai-experience-doesnt-care-about-your-org-chart-5ed595c7b373",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Kate Agena 用一個例子開場：財務經理問 AI 助理供應商何時能收到款，AI 說發票已核准、可以付款，但其實發票因金額跟採購單對不上被卡住了。問題可能出在文件、資料、權限或模型理解，各自屬於不同部門，但對使用者來說就是一個壞掉的體驗。她借用 NN/g Sarah Gibbons 的四種「AI 設計」分類，指出內容設計正在分化成內容系統、模型行為設計等專業，並主張內容設計師要學會 taxonomy、ontology、knowledge graph 這類語意架構，因為系統把兩個使用者認為不同的概念當成同一件事，就會變成 UX 問題。對設計師的啟發是：接企業 AI 案時，別只設計對話介面，要追問背後的名詞定義和資料關係誰在管。"
-        },
-        {
-          "title": "Human in the loop means making sure the human is not out of the loop",
-          "url": "https://uxdesign.cc/designing-for-ai-human-in-the-loop-means-making-sure-the-human-is-not-out-of-the-loop-e38826309c91",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 主張，在 AI agent 前面加一個「確認」按鈕不會解決責任問題，只會把責任推給資訊最少、權力最小的那個人。他引用 NASA 研究：使用輔助系統的人在系統出錯時只有 65% 正確率，沒用的人有 97%；也引用 Anthropic 自己的數據，資深使用者更常全自動放行，但也更常中途打斷，代表「打斷」比「逐步核准」更像真正的判斷。他用 Uber 自駕車事故和 Air Canada 聊天機器人判決說明「道德緩衝區」：出事時總是離現場最近的人背鍋。他提出的設計原則很清楚：主動程度要跟「能不能復原」掛鉤，而不是跟 AI 有多自信掛鉤；草擬、標記可以大膽，寄出、刪除、付款就要事先寫清楚授權範圍。"
-        },
-        {
-          "title": "KPIs Are Not the Problem: Why Solving the Right UX Issues Improves Performance",
-          "url": "https://medium.com/design-bootcamp/kpis-are-not-the-problem-why-solving-the-right-ux-issues-improves-performance-b4927a2aab23",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Dare Egan 指出多數團隊看到轉換率下降，第一反應就是改標題、換按鈕、跑 A/B test，但 KPI 只是儀表板上的警示燈，不是故障本身。她建議先用兩個維度判斷下一步：問題清楚程度、解法信心程度，兩者都低就該先做研究，而不是直接改版。她也把體驗拆成使用者心中的兩個問題：「我為什麼要做這件事？」靠文案回答，「我能不能輕鬆做到？」靠設計回答，例如把模糊的「Get Started」改成「Start your free trial」就能減少猶豫。對工作室來說，這是面對「幫我們把轉換率拉高」這種 brief 時很好用的提案框架，能自然地把 discovery 包進報價裡。"
-        },
-        {
-          "title": "The Interface Is the Last Thing You Design",
-          "url": "https://medium.com/design-bootcamp/the-interface-is-the-last-thing-you-design-15504243bc5f",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "同樣出自 Dare Egan，這篇談的是 UX 最大的誤解：以為設計從線框和畫面開始。她認為 design thinking 的本質是降低不確定性、提高決策信心，所以要先搞清楚問題是什麼、誰遇到、為什麼重要、有哪些限制。她特別強調 discovery 最大的價值是「對齊」：產品、設計、工程、主管和使用者看到的往往是不同問題，甚至好幾個團隊在用不同方案解同一個問題，而工作坊、旅程地圖、服務藍圖等活動的目的不是產出文件，是建立共識。對顧問工作室來說，這篇可以當成跟客戶解釋「為什麼不能直接開始畫」的說帖。"
-        }
-      ],
-      "buzz": "Product 圈這兩天的共同主題是「設計的重心正在往畫面後面移」：Figma 把程式碼和規格文件搬上畫布，UX Collective 則一篇談內容架構、一篇談 agent 的權限邊界，都在說 AI 體驗的成敗取決於看不到的系統設計。另一條線是回到基本功，有人提醒 KPI 只是症狀、介面是最後才設計的東西，先診斷問題再動手。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Why the future of branding is multisensory",
-          "url": "https://www.creativereview.co.uk/sensory-experiences-multisensory-branding-bentley/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Creative Review 專訪研究型設計實驗室 Sensory Experiences，創辦人 Russell Jones 團隊研究感官如何影響感知與情緒將近二十年。文章的論點是：品牌花大錢在 logo、色彩和字體上，聲音往往最後才補，其他感官更是有需要才想到，但產品摸起來、聽起來、聞起來的感覺，可能跟長相一樣是識別的核心。最具體的案例是他們和 Bentley 長達五年的合作，為新一代電動車重新設計車內體驗，結合燈光、圖像、聲音和觸覺回饋，還包括電動 V8 的聲音識別。對品牌設計師的啟發是：識別系統未來可能要規範「行為和回饋」，不只是視覺。"
-        },
-        {
-          "title": "How two simple dots gave Pictoplasma a fresh personality for 2026",
-          "url": "https://www.creativeboom.com/work/how-two-simple-dots-gave-pictoplasma-a-face-after-20-years-of-neutral-design/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "柏林角色設計節 Pictoplasma 過去二十年刻意讓品牌低調，好讓藝術家作品當主角；立陶宛工作室 andstudio 接手後，做了一套客製字體 Pictoplasma Melun，加入一個「雙眼」字符，讓文字當身體、兩個點當眼睛，打字就能生出角色感，標語是「Never faceless」。他們刻意不畫完整角色，避免離品牌原本的中性太遠；每屆顏色版面可換，只有字體和兩個點固定。實體應用很省錢：在帳篷挖兩個洞、只刺兩個點的刺青攤、在城市各處貼點點當游擊宣傳，2026 柏林場也提前六週售罄。對小預算案子很有參考價值：一個夠簡單的符號，就能撐起整套延伸應用。"
-        },
-        {
-          "title": "Pregnant Then Screwed subverts the conventions of retail design to highlight a vital gender issue",
-          "url": "https://www.creativeboom.com/news/pregnant-then-screwed-makes-clever-use-of-simple-design-to-highlight-a-vital-gender-issue/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國倡議組織 Pregnant Then Screwed 的新活動「Thanks for your service*」，把超市特價用的螢光「33% OFF」爆炸貼直接貼在女性臉上，暗示她們像滯銷品一樣被打折，對應英國女性退休金平均比男性少三分之一的事實。另一組視覺是皺巴巴的收據，品項寫著「1x Pregnancy」「1x Redundancy」，小計是「-Motherhood Tax」。創意總監 Gemma Phillips 和設計師 Rachel Many 借用大家一眼就懂的零售視覺語言，反過來講沉重議題，在倫敦、格拉斯哥等七個城市投放。對設計師的啟發是：挪用熟悉的視覺符號，往往比創造新符號更快讓人讀懂訊息。"
-        },
-        {
-          "title": "Sewell Killingstad on why making “art for art’s sake” lands you the briefs you love",
-          "url": "https://www.itsnicethat.com/articles/sewell-killingstad-graphic-design-discover-151026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "巴爾的摩的設計師兼插畫家 Sewell Killingstad 為 Olivia Rodrigo 的音樂節 Daisy Chain Fields 做了用掃描花朵組成的動態字體，而這個案子的起點，是一個純粹做好玩的個人實驗被人在 DM 裡看到。另一個例子是他們替歌手 Clairo 做的「假 Coachella 周邊」，結果引起品牌 Vanilla Mace 經紀人注意，變成長期合作。他們的結論是：沒有捷徑能接到大客戶，靠的是運氣、時機、人脈、持續發 DM，以及一個清楚的個人聲音。對工作室的啟發是：自主專案不是浪費時間，它是最誠實的作品集，也決定了你會吸引到什麼樣的客戶。"
-        },
-        {
-          "title": "How Foam Magazine has constantly reinvented itself for 25 years, all in service of the photographic image",
-          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-september-foam-magazine-151026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "阿姆斯特丹攝影雜誌 Foam Magazine 主編 Katy Hundertmark 和前藝術總監 Hamid Sallali 在 Nicer Tuesdays 分享雜誌 25 年的歷程。重點是 Foam 的視覺方向一直在變，卻始終服務於同一件事：讓攝影作品被好好看見；他們用主題式的每一期建立各自的個性，也把檔案照片當成活的創作素材。這篇適合拿來對照今天 Pictoplasma 的案例：一個長壽品牌可以讓表層不斷變化，只要核心目的夠清楚。文章本身細節偏少，比較像演講摘要，適合有空時延伸看。"
-        }
-      ],
-      "buzz": "Brand 圈這兩天在討論品牌識別的邊界：Bentley 的案例說識別要延伸到聲音和觸覺，Pictoplasma 證明兩個點就能撐起一整套系統，Pregnant Then Screwed 則示範挪用熟悉的零售視覺來講議題。另一條線是創作者的經營，Sewell Killingstad 的經驗提醒大家，自主專案常常就是下一個好案子的入口。"
-    },
-    "highlights": {
-      "summary": [
-        "真正的設計工作在內容架構和權限邊界",
-        "把「discovery 和系統」當成交付物來賣"
-      ],
-      "product": [
-        "設計的重心正在往畫面後面移",
-        "取決於看不到的系統設計",
-        "KPI 只是症狀"
-      ],
-      "brand": [
-        "識別要延伸到聲音和觸覺",
-        "兩個點就能撐起一整套系統",
-        "自主專案常常就是下一個好案子的入口"
       ]
     }
   }
