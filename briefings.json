@@ -1,5 +1,200 @@
 [
   {
+    "date": "2026-10-30",
+    "daily_summary": "今天兩邊都在提醒同一件事：看起來對，不等於真的對。Product 這邊有研究員發現 AI 根本沒看影片、卻寫出一份很像樣的分析，AI 產出一定要回頭驗證證據；Brand 這邊則在談品牌的差異化要從產品體驗本身挖，聲音、觸感都算，而不是跟著同一套美學走。案例區推合羽橋的釜浅商店，看一句「良理道具」怎麼變成老店做每個決定的指南針。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "When AI makes up your UX research findings",
+          "url": "https://medium.com/design-bootcamp/when-ai-makes-up-your-ux-research-findings-54da257b2867",
+          "source": "Bootcamp（Daniela Nguyen Trong）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者用生成式 AI 分析 10 場一小時的可用性測試錄影，事前寫好主提示詞、53 個分析問題，還規定「不准捏造證據、證據不足可以直說」。問到第 20 題左右，AI 才冒出一句「如果我能看到影片的話……」，原來它根本沒在分析影片，而是拿作者給的背景資料和網路資訊編出看起來很合理的答案。作者的結論是：叫模型用證據，不等於確認它真的拿得到證據；讀過輸出也不等於驗證過。對工作室來說，用 AI 做研究整理前，要先用一個可檢查的小問題（例如某個時間點誰說了什麼）測它是不是真的讀得到檔案。"
+        },
+        {
+          "title": "How we’re training a Figma-fluent editing model",
+          "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+          "source": "Figma Blog",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 說明他們怎麼訓練一個專門做「設計微調」的小模型，像是改間距、依回饋重排版面這類反覆又難自動驗證的工作。做法是先用大模型在 Figma 原生檔案格式上生成大量「原稿＋修改需求」的配對，經自動檢查和視覺評審篩過後做監督式訓練，再加上強化學習，並請資深設計師校準評分標準，把結構正確和視覺品質分開評。成果是 agent 任務快約 20%、使用者評分高 33%、被復原（undo）的次數少 60%。對設計師的意義是：重複性的小改動會越來越可以交給工具，自己的時間要往判斷和方向移。"
+        },
+        {
+          "title": "Good Product Design Is About Decisions, Not Screens",
+          "url": "https://medium.com/design-bootcamp/good-product-design-is-about-decisions-not-screens-9ecff3d468ca",
+          "source": "Bootcamp（Helena Borges）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者在一個跨國電商平台當 UX Architect，發現每個團隊各自達標，整體購物體驗卻還是不好。例子是首頁團隊用「導去產品頁的人數」當成功指標，但使用者其實沒有因此更接近購買決策，有些人早就知道要什麼，多繞幾頁反而是阻力。她的做法是在各團隊進細節設計前，先把大家拉到一起對齊整體 UX 概念和客戶旅程。重點是：局部指標要搭配一個共同的「對客戶來說什麼叫成功」，在 AI 讓產出變容易的時代更重要。"
+        },
+        {
+          "title": "We built an audit report before understanding the questions it needed to answer",
+          "url": "https://medium.com/design-bootcamp/we-built-an-audit-report-before-understanding-the-questions-it-needed-to-answer-25eef2f07239",
+          "source": "Bootcamp（Aneetta Davis）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者和夥伴做了 Shopify 商店健檢工具 Shopscan，先照競品的指標做出 MVP，約 850 家店用過免費版，但看操作錄影發現大家只是掃過報告。問題包括：只給分數不解釋意義、沒告訴店主先修哪個、建議太籠統（「優化圖片」卻沒指出是哪張）、沒有顯示問題出現在哪、也沒給升級付費的理由。她改去論壇看店主真正在問什麼，歸納出「為什麼沒人來」和「為什麼有流量沒訂單」兩種完全不同的問題，再據此重做報告。給小團隊的啟發：先找出使用者要回答的問題，再決定要量什麼、怎麼呈現。"
+        },
+        {
+          "title": "We’re Designing AI to Explain Its Answers. What About the Tools Themselves?",
+          "url": "https://medium.com/design-bootcamp/were-designing-ai-to-explain-its-answers-what-about-the-tools-themselves-7e188d39e2d8",
+          "source": "Bootcamp（Mounika Konidala）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "業界談 AI 可解釋性多半在講「這個答案怎麼來的」，作者想問的是更前面的問題：使用者怎麼知道這個工具擅長什麼、哪裡會失手、什麼時候該用它。她觀察到大家把 AI 當傳統軟體在學（找按鈕），但其實要學的是怎麼溝通和該期待什麼；另一個常見狀況是「某工具好用一次就什麼都用它」或「失敗一次就放棄」。她用帶新同事的比喻說明，要先了解對方強項和怎麼交代任務。作者也坦白這是非正式觀察而非研究，但對設計 AI 產品的 onboarding 很有參考價值。"
+        }
+      ],
+      "buzz": "這兩天 Product 圈的關鍵字是「驗證」：AI 讓分析、編輯、產出都變快，但大家開始追問 AI 到底有沒有拿到該拿的證據、使用者知不知道一個工具擅長什麼。另一條線是回到決策本身，局部指標漂亮不代表整條旅程對使用者有幫助，好設計要從使用者真正要回答的問題倒推。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "The sound of things to come in branding",
+          "url": "https://www.designweek.co.uk/the-sound-of-things-to-come-in-branding/",
+          "source": "Design Week（Natalie Prout）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者認為當品牌都用同一批參考、趨勢和美學，就會長得一樣，失去讓人選擇的理由。她以 Apple Music 新識別為例：Apple 和 TBWA\\Media Arts Lab 不是看競品，而是往內看產品，讓聲音本身塑造新標誌，還請製作人 Fred again.. 從頭參與創作，而不是最後才找藝人背書。她也提醒，人更常透過耳朵、手和習慣接觸品牌，Netflix 的「ta-dum」和 Intel 的音效不輸 logo。對工作室的啟發：提案時先貼近客戶的產品體驗，找出那一個別人偷不走的感官細節，再把它轉成概念。"
+        },
+        {
+          "title": "How do I exorcise a nightmare client and ensure they don't rise from the dead?",
+          "url": "https://www.creativeboom.com/dear-boom/dear-boom-how-do-i-exorcise-a-nightmare-client-and-ensure-they-dont-rise-from-the-dead/",
+          "source": "Creative Boom（Dear Boom）",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "一位接案者和同一個客戶合作快兩年，需求一直擴張、做完的案子一再被翻出來，每次寫告別信都越改越軟，最後根本不像告別。社群給的建議很實際：先確定自己真的要走，不要用重新議價拖延；回頭看合約的通知期，沒有的話把談好的工作做完就夠；不一定要給理由；告別信要寫清楚不再接新工作、目前工作完成就結束，用祝福當句點，別加「以後還可以合作」。下次則靠合約條款、固定排程和事前篩選客戶保護自己，這對工作室管理客戶關係很直接可用。"
+        },
+        {
+          "title": "Oxford Street gets its first ever brand identity as it enters a new era",
+          "url": "https://www.creativereview.co.uk/oxford-street-london-brand-identity-koto/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦牛津街第一次有自己的品牌識別，由 Koto 和大倫敦政府、牛津街開發公司合作，配合部分路段改為行人徒步區。這條街長年被聯想到塞車、污染和零售衰退，新識別「For Everyone」想把它從購物街重新定位成文化、休閒和公共生活的地方。概念抓住「for」這個字，代表街道服務各種人，搭配標語「Where London meets」；字體用 London Sans 和 London Serif 兼顧現代與歷史，主色是呼應綠化的綠色。這是一個用一個小字撐起整個城市空間重新定位的好例子。"
+        },
+        {
+          "title": "OurCreative. crafts standalone brand identity for Asda’s Asquith 1965 range",
+          "url": "https://www.designweek.co.uk/ourcreative-crafts-standalone-brand-identity-for-asdas-asquith-1965-range/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國超市 Asda 推出自有精釀系列 Asquith 1965，名字來自 1965 年 Asquith 兄弟和 Associated Dairies 合併的歷史，並找 Westons Cider、Ossett 等真正的酒廠合作配方。關鍵策略是包裝上完全不放 Asda 品牌，讓它直接和獨立精釀在貨架上競爭，於是「工藝可信度」全部壓在視覺上。OurCreative. 沒有套一個死板模板，而是七款各自畫插畫、對準各品類的視覺慣例：司陶特和苦啤用傳統麥酒語彙，IPA 和蘋果酒用鮮豔大膽的風格，再用共同的架構和標語「Allies of Craft」串成家族。對做自有品牌或多產品線的案子很有參考價值。"
+        },
+        {
+          "title": "Span's identity for Illinois Department of Human Rights turns a common piece of punctuation into a rallying cry",
+          "url": "https://www.creativeboom.com/work/spans-identity-for-illinois-department-of-human-rights-turns-a-common-piece-of-punctuation-into-a-rallying-cry/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "芝加哥工作室 Span 幫伊利諾州人權廳做新識別，要解決的是公部門給人僵硬、官僚、工作內容看不見的印象，而且是在大眾對機構信任脆弱的時候。核心概念是等號：「Human Rights」排成兩行大字，「Illinois Department of」夾在中間，整體就形成一個等號，還沒讀字就看得到公平。字體用粗壯的 HEX Franklin，藍白配色參考過去民權運動的海報標語，另外做了社群和緊急訊息的使用套件，以及活動用的旗幟、貼紙和服裝。示範了公部門品牌如何用一個符號做到「先看懂、再讀字」。"
+        }
+      ],
+      "buzz": "Brand 圈在討論差異化從哪裡來：當大家都用同一套參考和美學，品牌就會長得一樣，答案可能在產品體驗本身，包括聲音和觸感。實作面上，城市街區、公部門、超市自有品牌都在用一個清楚的概念撐起整套系統；Creative Boom 也聊到工作室怎麼乾脆地結束一段消耗人的客戶關係。"
+    },
+    "highlights": {
+      "summary": [
+        "看起來對，不等於真的對",
+        "AI 產出一定要回頭驗證證據",
+        "從產品體驗本身挖"
+      ],
+      "product": [
+        "AI 到底有沒有拿到該拿的證據",
+        "局部指標漂亮不代表整條旅程對使用者有幫助"
+      ],
+      "brand": [
+        "品牌就會長得一樣",
+        "答案可能在產品體驗本身",
+        "乾脆地結束一段消耗人的客戶關係"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "伝統ある「良理道具」を伝えていく　釜浅商店のリブランディング",
+        "title_zh": "把傳承下來的「良理道具」傳出去：釜浅商店的品牌再造",
+        "url": "https://forbesjapan.com/articles/detail/61065",
+        "source": "Forbes JAPAN（Podcast「VISION TO THE FUTURE」對談整理，文＝久野照美）",
+        "lang": "日文",
+        "published": "2023-02",
+        "category": "定義方向",
+        "brand_name": "釜浅商店（東京合羽橋百年料理道具老店）",
+        "consultant": "エイトブランディングデザイン（西澤明洋）；本文為第 4 代店主熊澤大介親述",
+        "partial": false,
+        "cover_image": "https://images.forbesjapan.com/media/article/61065/images/main_image_327d0f8799c9d4c2097679624a61e56485aea4ad.jpg",
+        "story": {
+          "problem": "釜浅商店 1908 年創業，位在東京料理道具街合羽橋，客人原本以職業廚師為主。泡沫經濟崩壞後餐飲業不景氣，業務用道具又能在網路和居家賣場買到，來店客年年減少；合羽橋傳統的「商品堆滿、找不到東西」陳列方式，也越來越不適合變多的一般客人。第 4 代店主熊澤大介隱約覺得，照舊做下去遲早撐不住。",
+          "approach": "熊澤一開始只想「做個帥氣的網站」，透過朋友找到設計師（エイトブランディングデザイン），對方直接回他：要做的不是 Web，是品牌。熊澤起初聽不太懂，也擔心錢和人手撐不起這麼大的事，但想到自己對商品知識有自信、卻沒傳達給客人，決定投入。雙方花時間把老店的價值定義成一句概念「良理道具」：好道具都有它的道理，只賣能把事情做好、保有物件本質的道具，而不是追求便利。店面、商品挑選等後續動作，都回到這句話來判斷。",
+          "result": "2011 年、創業滿 100 年時完成大規模品牌再造，店面成了合羽橋最醒目的一家；客層從職業廚師擴大到一般人和外國觀光客。2018 年在美食重鎮巴黎開店。熊澤認為這次再造最有價值的不是店面設計，而是「良理道具」這個概念本身。",
+          "takeaway": "客戶來找我們常常只說「想做網站／換 logo」，隅室可以學這位設計師的做法：先指出真正要處理的是品牌，再用一句能當判斷標準的概念收斂方向。好的品牌概念要能回答「這個商品要不要進貨」「這件事要不要做」，而不只是一句好聽的標語。另外，概念最好從老店本來就在堅持的事挖出來（祖父、父親那代只賣有道理的東西），而不是外面套進來。"
+        },
+        "guide": [
+          {
+            "heading": "開場：一間從合羽橋走到巴黎的料理道具老店",
+            "body": "這篇是 Forbes JAPAN 把 Podcast「VISION TO THE FUTURE」的對談整理成文字，主持人是 Kitchen & Company 的中道大輔，來賓是釜浅商店第 4 代店主熊澤大介。釜浅商店在東京合羽橋（かっぱ橋，日本最大的料理道具批發街），1908 年以「熊澤鋳物店」起家，賣鍋具、菜刀等料理道具。熊澤 1974 年在淺草出生，讀服裝專門學校、在家具店工作，1999 年回到家業，2004 年接任第 4 代店主。2011 年剛好創業滿 100 年，老店卻做了一次大規模品牌再造，店面變成合羽橋最顯眼的一家，2018 年更在巴黎開店。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "為什麼回家：25 歲之約，和「食」的可能性",
+            "body": "熊澤說父親一直跟他講「做什麼都可以，但 25 歲要回家」。他原本在古董家具店工作，從衣食住的角度想，發現家業跟「食」連在一起，而食是人絕對少不了的東西，反而最有發展空間，覺得有趣就回來了。這段看似是個人經歷，但其實也是後來品牌再造的伏筆：他是帶著「這門生意還有可能性」的眼光回來的，而不只是被動接班。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "危機：合羽橋慢慢變冷清，堆貨陳列也不管用了",
+            "body": "熊澤住在店樓上，在這條街長大。泡沫經濟崩壞後餐廳變少，再加上網路和居家賣場也買得到業務用品，來店客一年比一年少。合羽橋每家店都是商品成堆擺放的陳列方式，客人是職業廚師的年代還行得通，因為廚師自己知道要什麼；但景氣讓職業客變少、一般客變多後，這種店對外行人就很難逛。主持人中道也說，他第一次去合羽橋時，只對釜浅商店留下清楚印象。熊澤坦白，2011 年時他只是隱約覺得，照原樣做下去遲早會很辛苦。",
+            "quote_ja": "合羽橋はどこの店も商品がダーッと積んであって、どこに何があるかわからない。",
+            "quote_zh": "合羽橋每家店都把商品一股腦堆起來，根本不知道什麼東西在哪。",
+            "image": {
+              "url": "https://images.forbesjapan.com/media/article/61065/images/editor/8c0597c0256dc3e1af9cf738c7ad859025cb5ae9.jpg",
+              "caption": "合羽橋典型的店內陳列：鍋具、湯桶套著塑膠袋層層堆在鐵架上"
+            }
+          },
+          {
+            "heading": "轉機：一個「埋進土裡的寶箱」",
+            "body": "讓熊澤覺得「好像可以做很多事」的契機很小：朋友請他做一個要埋進土裡的寶箱。他去找合作很久的工廠，剛好遇到回來接班的工廠兒子，兩人一拍即合把東西做出來。這次經驗讓他發現，店不只能賣現成品，還能串起職人做出新東西，這個做法可以延伸到其他事業。那大約是他回家業的第 2、3 年，之後才慢慢走到現在的店面樣貌。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "「不是 Web，是品牌」：從想做網站到品牌再造",
+            "body": "熊澤一開始的念頭很單純，他自己也說是外行人想法：做個帥氣的網站，生意或許就會不一樣。透過朋友介紹找到設計師（依 Business Insider Japan 等報導，是西澤明洋的エイトブランディングデザイン），對方卻直接說網站做了也沒用，要做的是品牌。熊澤當時其實不太懂「品牌」是什麼意思，經濟和人手都不寬裕，事情一下子變大讓他很困惑。但他同時有兩個認知：商店街再衰退下去，自己的生意也會跟著縮；而且他對商品的知識和經驗很有自信，問題是這些沒有傳到客人那裡。這兩點讓他決定接受。",
+            "quote_ja": "いや、それはWebなんかやってもしょうがないです。ブランディングです",
+            "quote_zh": "不，那個就算做了網站也沒用。要做的是品牌。"
+          },
+          {
+            "heading": "定義「良理道具」：好道具都有它的道理",
+            "body": "品牌再造的核心是一句概念「良理道具」，意思是「好的道具，都有它的道理（理，ことわり）」。釜浅商店賣的不是追求方便的調理器具，而是能確實把工作做好、保留物件本質的道具；這也是祖父、父親那代就一直在做的事：只賣說得出道理的東西。主持人中道特別稱讚這段定義過程做得很仔細，而且之後所有東西都連回這個概念。熊澤則說，這次再造最有價值的就是把這句話定下來，現在他們在工作上猶豫時，都會回到「良理道具」來想。",
+            "quote_ja": "「良理道具」は自分たちが仕事で迷った時に立ち返って考える、そういう指針になっています。",
+            "quote_zh": "「良理道具」成了我們工作上猶豫時，可以回頭思考的指南針。",
+            "image": {
+              "url": "https://images.forbesjapan.com/media/article/61065/images/editor/57b28a7c8115257b3e2a98b1cf3fcf63103ca17f.jpg",
+              "caption": "釜浅商店的鐵製炒鍋，用深色背景、單純構圖拍出道具本身的質感"
+            }
+          },
+          {
+            "heading": "下一步：一開始就去巴黎",
+            "body": "品牌定下來後，熊澤覺得光靠合羽橋，能讓好道具被看見的範圍有限。他的判斷是：既然要做，就直接去最想去的「食的本場」巴黎，在那裡被理解的東西自然會擴散出去，於是 2018 年在巴黎開了店。這個選擇也跟「良理道具」一致：要讓更多人知道真正好的東西，就要主動走出去，而不是在合羽橋等客人上門。",
+            "quote_ja": "どうせやるなら一番やりたい食の本場パリに最初から行っちゃおうって。",
+            "quote_zh": "反正要做，就一開始直接去最想去的美食重鎮巴黎吧。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "daily_summary": "今天兩邊都在談「回到本質」：Product 圈有兩篇長文同時引用 Figma 調查，58% 設計師把 craft 當成視覺打磨，偏偏這正是 AI 最會做的部分；Brand 圈則是 Design Week 把獎項改成 £95 一口價、7 人工作室 SMLXL 說規模剛好才玩得起來，小工作室的生存方式被認真討論。品牌案例接上今天 Snow Peak 焚火台 30 週年的新聞，看它怎麼靠聽顧客抱怨從谷底翻身。",
     "jenny_wen": {
@@ -1863,127 +2058,5 @@
         "cover_image": "https://story.nakagawa-masashichi.jp/wp-content/uploads/2021/05/000-2.jpg"
       }
     ]
-  },
-  {
-    "date": "2026-10-18",
-    "daily_summary": "今天兩圈不約而同在講「看不見的地方」：Product 圈從設定頁、律師用的 AI 筆記到 Figma Specs，都在說真正決定體驗好壞的，是那些沒人設計的角落和背後的規則。Brand 圈則有沖繩的顧問直接勸客戶先別花 100 萬改網站，因為員工答不出理念，外面再漂亮也只是鍍金。對工作室最實用的提醒：接到改版案時，先問清楚內部準備好了沒，往往比直接開工更有價值。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The settings page is where most products go to die, a quick guide to fix",
-          "url": "https://medium.com/design-bootcamp/the-settings-page-is-where-most-products-go-to-die-a-quick-guide-to-fix-5de850448c53",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Riya Jawandhiya 在某個行銷工具裡想改寄件人名稱，結果點了 9 步、花了約 90 秒，還被問了兩次要不要儲存；而寄件人名稱偏偏是 42% 消費者決定要不要打開信的第一眼。她整理出設定頁最常見的三個問題：分類照後端系統來排（使用者得先搞懂你的架構才找得到東西）、所有欄位看起來一樣重要、不同區塊各自儲存卻沒人說。最有價值的是她提出的分類格子：別只看「使用頻率」，還要看「出錯的代價」——像 DKIM 這種很少碰但沒設好信就寄不出去的設定，不該藏在「進階」裡，而是要用狀態顯示＋引導設定。她也建議先釐清使用者打開設定頁的四種意圖（初次設定、確認、改一個東西、排除問題）再來排版。對設計師的啟發：設定頁不是工程師的收納櫃，用「任務」而不是「系統模組」來分組，是一個很容易向客戶說明價值的改善點。"
-        },
-        {
-          "title": "A notetaker lawyers can trust",
-          "url": "https://medium.com/design-bootcamp/a-notetaker-lawyers-can-trust-8b4b56bed58a",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這是一份自主提案的案例研究：作者從 2024 年 Otter.ai 把投資人私下討論的逐字稿寄給所有與會者的真實事件出發，想像如果換成律師事務所，就是機密外洩加上保險理賠。他指出 Otter、Fireflies 這類 AI 會議筆記工具本來就是為「分享越多越好」的團隊設計的：自動加入行事曆會議、把摘要寄給每個人、資料存在廠商雲端，因為每封摘要信其實都是產品最好的行銷。但律師需要的是「圍堵」而不是「擴散」：每個人都要同意錄音、筆記要依客戶與案件歸檔、要標記哪些內容受保密特權保護。整篇最值得帶走的觀點是：同一個功能放到不同產業，可能從賣點變成風險，產品的成長邏輯會直接形塑使用者體驗。對做垂直領域案子的設計師來說，這是很好的提醒：先搞懂該產業的規範和責任歸屬，再談介面。"
-        },
-        {
-          "title": "Introducing Specs: Markdown as a medium",
-          "url": "https://www.figma.com/blog/introducing-figma-specs/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 推出 Specs，一種直接放在畫布上的 Markdown 文件，可以多人協作，也能讓 AI agent 一起讀寫。它的出發點是：Markdown 已經變成跟 AI agent 溝通的標準格式，但通常是一個人寫、散落各處、跟設計稿脫節。Specs 可以嵌入 Frame、FigJam 或任何畫布元素，接上 GitHub、Hex 等外部資料，也能透過 Figma MCP server 把規格直接交給寫程式的 agent；官方舉的例子包括工程師用 spec 引導 coding agent、Intuit 設計師記錄 icon 規範。目前付費方案開放 beta。對工作室的意義是：交付物正在從「設計稿＋文件」變成「設計稿＋AI 讀得懂的規格」，寫得好的 spec 本身就是一種可以收費的專業。"
-        },
-        {
-          "title": "AI Workflow — AI-Native Design Infrastructure",
-          "url": "https://medium.com/design-bootcamp/ai-workflow-ai-native-design-infrastructure-8be6b1eee317",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Siddhant Goral 分享他在 ShipStation 的做法：他認為多數設計師用 AI 只是「做得更快」，但真正的機會是拿掉對其他團隊的依賴。他把 Figma 透過 MCP 接上 Claude Code，再寫了專屬的 SKILL.md，規定所有顏色都要綁 token、元件只能用既有的，結果自己做出了已經上線的通知中心前端，沒有交接文件也沒排工程師。他也把 Claude Code 接上 Amplitude 和 LogRocket，直接查數據、看使用行為，不用等分析師排隊。重點不在工具清單，而是思路：設計師的 AI 價值在於「擁有更完整的決策鏈」，而 design system 寫成 AI 讀得懂的規則，是讓產出能直接上線的關鍵。（文章帶有作者個人作品集性質，閱讀時可留意。）"
-        },
-        {
-          "title": "What an Amazon Warehouse Tour Leaves Out",
-          "url": "https://medium.com/design-bootcamp/what-an-amazon-warehouse-tour-leaves-out-97b5993363ff",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Christine Ying 參加了 Amazon 加州倉庫的公開導覽，詳細記下看到的流程：隨機上架（起因竟是哈利波特預購塞爆同一排貨架）、機器人把貨架送到人面前揀貨、螢幕自動決定箱子大小，導覽員則花很多時間講員工福利和「人的溫度」。但她指出，導覽本身就是公關工具，帶你參觀的人不是訂業績目標的人；她事後查了加州 AB 701 法案、美國參議院報告（Amazon 倉庫受傷率比業界高 30% 以上）和自動化取代人力的內部文件，補上導覽沒說的部分。對研究者的啟發很直接：被安排好的參訪、訪談和 demo 都是「精心挑選過的版本」，要問的往往是現場沒人能回答的問題。這也適用在接案時聽客戶簡報，記得追問簡報沒提到的東西。"
-        }
-      ],
-      "buzz": "這兩天 Product 圈的焦點從「AI 讓我們更快」轉向「AI 和產品背後的規則」：Figma 把 Markdown 規格搬上畫布，實務文章也在說把 design system 寫成 AI 讀得懂的規則才是關鍵。另一條線是「沒人設計的角落」，從設定頁到律師的會議筆記，都在提醒好體驗取決於產品的預設邏輯，而不只是介面。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "ホームページ刷新で100万ドブに捨てるな。ロゴを変える前に「インナー」を整えるべき理由",
-          "url": "https://note.com/rocky59318/n/n9ebcb2181fb4",
-          "source": "note",
-          "lang": "日文",
-          "studio_related": true,
-          "summary": "作者テルヤヒロキ分享一個真實案例：沖縄一家老字號批發商的社長準備花 100～150 萬日圓改版網站和拍徵才影片，他卻勸對方先暫停，先把內部品牌（inner branding）整理好。他把只改外觀、沒有內涵的品牌稱為「鍍金的品牌」：理念沒在公司內部共享，面試時員工答不出來，對外的網站和影片就會跟現實對不上，反而損害信任、讓新人很快離職。他用保齡球的 1 號瓶比喻企業的「自我風格」，中心定住了，組織、徵才、網站這些周邊施策才會連動起來。文末他提供一個 Yes/No 檢查流程（理念有沒有寫成文字、員工能不能馬上回答、內外形象是否一致），還建議花 5 分鐘在閒聊時問員工公司的強項是什麼。對工作室來說，這是很好的提案切入點：在網站或識別改版前，先賣一段內部訪談與品牌共識的工作坊。"
-        },
-        {
-          "title": "Pentawards 2026: Living Wine Labels, Keystone Dippers, and 20 Years of Structural Packaging",
-          "url": "https://www.designweek.co.uk/pentawards-2026-living-wine-labels-keystone-dippers-and-20-years-of-structural-packaging/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "包裝設計獎 Pentawards 迎來 20 週年，最高的鑽石獎頒給克羅埃西亞的 Studio Sonda，他們為氣泡酒 Piquentum Brut Nature 設計的標籤，是用釀酒過程中原本會丟掉的酵母沉澱，混合酒莊的廢紙漿做成，在地窖陳放時會長出天然霉斑，讓每一瓶的標籤都獨一無二，也成為年份與真偽的證明。白金獎同樣亮眼：Heinz Dipper 直接在薯條盒正面折出番茄醬口袋，形狀還是 Heinz 招牌的拱頂石；Poco Vino 把葡萄酒做成 187ml 單人小瓶；Even Realities 的 AR 眼鏡盒用一張紙折成、不需要泡棉。評審共同的語言是「品牌資產＋結構設計一起發力」和「不完美之美」。對工作室的啟發：包裝不只是平面，把品牌的招牌元素放進結構裡，才是最難被抄的記憶點。"
-        },
-        {
-          "title": "Sun Life refreshes global brand identity",
-          "url": "https://www.marketing-interactive.com/sun-life-refreshes-global-brand-identity",
-          "source": "Marketing-Interactive",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "加拿大保險集團 Sun Life 進行 25 年來最大的視覺更新：名字從兩個字的「Sun Life」合成一個字「Sunlife」，換上新 logo，並推出全球標語「Making life brighter」。背後的原因是業務已經從傳統壽險擴展到資產管理、健康和財富規劃，需要一個在數位和國際市場都更一致的形象；他們的調查顯示 72% 的受訪者希望健康、財務、保障能整合在一起。亞洲是重要推力，Sunlife Asia 服務 8 個市場、超過 3,000 萬客戶。新品牌會分階段推出，先從數位和面對客戶的接觸點開始，過渡期新舊識別會並存。對設計師的啟發：大型品牌改名往往不是為了好看，而是業務邊界改變了，識別要跟上「我們現在是誰」。"
-        },
-        {
-          "title": "Are you triggered by GTA 6's giant Paris advert?",
-          "url": "https://www.creativebloq.com/news/are-you-triggered-by-the-design-problem-with-gta-6s-giant-paris-advert",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "GTA 6 在巴黎近郊 Les Mercuriales 大樓外牆掛上巨幅廣告，重現遊戲經典封面插畫，但眼尖的玩家發現兩把槍被拿掉了，女主角 Lucia 手上沒了手槍、另一格角色的手臂則像在指著天空發呆。作者指出，GTA 的主視覺本來就是靠角色姿勢和手上的東西來說故事，槍拿掉之後，整個構圖的張力和平衡就跑掉了，只好用裁切來補救。這是一個很實際的品牌延展課題：為遊戲盒、網站設計的 key art，放到城市尺度、面對當地居民的接受度時，不一定撐得住。對工作室的啟發：設計主視覺時就該預想不同場景會被刪改什麼，留好「拿掉某元素還成立」的版本。"
-        },
-        {
-          "title": "Ikea throws shade at Tesla with \"safe and affordable\" flying car",
-          "url": "https://www.creativebloq.com/news/ikea-throws-shade-at-tesla-with-safe-and-affordable-flying-car",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Tesla 剛發表會「飛」的 Roadster 概念車，預約押金據說要 50 萬美元、最快 2028 年才交車，IKEA 台灣立刻在 Instagram 回應：用 12.99 美元的 Lillabo 玩具車組加一條 Brokglim 浴巾，拼出「安全、平價」的家用版飛天車，還模仿 Tesla 的貼文寫「Real life, baby」。文章稱讚 IKEA 的行銷團隊反應快、梗接得自然，而且完全沒偏離品牌核心：平價、居家、給一般人用。這是在地團隊做即時行銷的好案例，重點不在搞笑，而是用自家產品把對方的「炫」翻轉成自己的「實在」。對工作室的啟發：品牌語氣定得夠清楚，第一線團隊才敢在 24 小時內接熱點而不走鐘。"
-        }
-      ],
-      "buzz": "Brand 圈這 48 小時圍繞著「品牌的內外一致」：從 Sunlife 因業務擴張而改名，到日本顧問勸客戶先整理內部再改網站，都在說識別要跟上真實的自己。Pentawards 則把焦點放在把品牌資產做進包裝結構，GTA 6 和 IKEA 台灣的例子則提醒：主視覺和品牌語氣要經得起不同場景的延展與即時應變。"
-    },
-    "highlights": {
-      "summary": [
-        "真正決定體驗好壞的",
-        "外面再漂亮也只是鍍金",
-        "先問清楚內部準備好了沒"
-      ],
-      "product": [
-        "AI 和產品背後的規則",
-        "好體驗取決於產品的預設邏輯"
-      ],
-      "brand": [
-        "品牌的內外一致",
-        "識別要跟上真實的自己",
-        "把品牌資產做進包裝結構"
-      ]
-    }
   }
 ]
