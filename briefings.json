@@ -1,5 +1,191 @@
 [
   {
+    "date": "2026-10-31",
+    "daily_summary": "今天 Product 圈最值得看的是 NN/g 的提醒：AI 原生開發藍圖只把 UX 當成餵給 AI 的背景資料，卻沒留位置給研究和評估，所以設計師要主動認領判斷權。Brand 這邊，Trustpilot 和 White & Case 兩個大案都在示範同一招：把品牌最核心的東西拆成一套系統，而不只是換一個 logo，接品牌案時很可以拿來當提案參考。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "The Role of UX in Agentic Software Factories",
+          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Anthropic、Google、OpenAI 提出的 AI 原生開發流程，把 UX 縮減成提供給 AI 的脈絡，沒有給它明確的階段或審核關卡。作者指出 UX 其實有三項工作：決定什麼值得做、評估做出來的成果、為 AI 提供脈絡，而藍圖只涵蓋最後一項。文中舉例：新功能採用率低，系統監控卻一切正常，真正原因是標籤不清，而上線前也沒找真實使用者測過。實務建議包括設計以使用者需求為核心的 intent.md 範本、明定哪些變更必須由 UX 審查、把放棄率和客服工單納入監控。對工作室來說，這是向客戶說明「AI 時代為什麼還需要設計顧問」的好論據。"
+        },
+        {
+          "title": "Experience Design: Dropping the “User” from “User Experience”",
+          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 代理開始替人操作產品後，「使用者就是人」的假設被打破，NN/g 因此主張用「體驗設計」這個更廣的名稱，但成功標準仍是人有沒有達成目標。範圍分三類：人使用產品、代理使用系統、人與代理協作。問題最常出在交接處，例如代理幫忙訂機票時要求登入航空公司網站，使用者卻因內建瀏覽器無法使用密碼管理工具而卡住。作者建議把人機當成一個整體來測試，並讓人能檢視和撤銷代理的行動。"
+        },
+        {
+          "title": "The people using AI should set its strategy",
+          "url": "https://uxdesign.cc/the-people-using-ai-should-set-its-strategy-473c7f2ebb94",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者提出「評估落差」：批准採購工具的人，和看得出輸出錯在哪的人，往往不是同一個。開場例子是研究員丟 12 份逐字稿給工具，因為親自訪過其中 6 場，一分鐘內就認出某句引述根本沒人說過，談合約的主管卻看不出來。文中引用多份數據，例如 UX Tools 調查有 59.1% 設計師半年內用 AI 自製過工具。結論是策略應該由實際使用者負責，營運團隊負責把選擇變安全的基礎工作；衡量標準也該從座位數改成「有多少結論經得起回查」。"
+        },
+        {
+          "title": "Unearned confidence: when AI makes design look finished",
+          "url": "https://medium.com/design-bootcamp/unearned-confidence-why-ai-speed-is-breaking-the-design-thought-process-aacb93a9e3e9",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "AI 產出的原型看起來很完整，但那份自信不一定是思考換來的。作者比較長期用 Claude Code 和回到 Figma 的感受：直接操作畫面時，每個改動都會引出新問題；和 AI 協作則常要把腦中的決定翻譯成文字，反而像在繳思考稅。文中舉代理更動雲端設定的確認畫面為例，兩個按鈕看起來合理，卻沒回答為什麼此時要批准、被拒絕後怎麼辦、收到請求的人有沒有權限。提醒我們驗收 AI 原型時，要看背後的決定，不是只看畫面。"
+        },
+        {
+          "title": "Building rubrics for AI agents: a starter guide for designers and researchers",
+          "url": "https://medium.com/design-bootcamp/building-rubrics-for-ai-agents-a-starter-guide-for-designers-and-researchers-68227b3bc6b0",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "代理的體驗越來越取決於它自己做什麼決定，而評估只能獎勵評分規則明確寫出來的事，所以設計師和研究員應該參與寫規則。作者把 rubric 定義成評分合約：哪些行為算數、可用什麼證據、每種情況怎麼計分，而資訊不足時要單獨標成「無法判斷」。文中用多個情境說明「感覺可以」的陷阱，例如只修一條規則卻悄悄濾掉多數房源，或答案碰巧正確但中間步驟其實失敗。這是設計師可以馬上用的入門框架。"
+        }
+      ],
+      "buzz": "這兩天的討論都圍繞著同一個問題：AI 把開發流程加速後，判斷品質的人站在哪裡。NN/g 指出開發藍圖遺漏了研究與評估，UX Collective 主張工具策略該交給看得出錯誤的實際使用者，Bootcamp 則提醒精緻原型會掩蓋沒想清楚的決定。共同結論是設計師的價值正從畫畫面移向定義什麼叫做好。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Trustpilot reveals new brand identity by Further",
+          "url": "https://www.designweek.co.uk/trustpilot-reveals-new-brand-identity-by-further/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦 Further 把 Trustpilot 用了近 20 年的綠色星星拆成模組：星星的角度變成排列、縮放和動態的結構格線，用來處理桌機版和商家嵌入元件上的評論內容。另外設計「訊號元件」來框出關鍵評論和驗證資訊，攝影改成溫暖、不擺拍的紀實風格，字體是 Trustpilot Sans，新口號是 Take everyone else’s word for it。策略上，品牌要從被動的評分徽章，轉成連結消費者感受與商業洞察的平台。很好的示範：不換掉高辨識資產，而是讓它長成一套系統。"
+        },
+        {
+          "title": "Energy drives Uncommon Creative Studio’s rebrand of White & Case",
+          "url": "https://www.creativereview.co.uk/white-and-case-rebrand-uncommon-creative-studio/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "這是 White & Case 13 年來第一次品牌重塑，由新領導團隊發起，目的是跳脫法律業的同質化。策略核心是不迴避「複雜」，而把它當成專長，定位成能在高風險情境挺身而出的角色。字標捨棄無襯線體，改為靈感來自圖拉真柱和羅馬碑文的客製字體；還有自製影像工具 Energy Studio 和主色 Catalyst Blue。值得學的是把客戶最難解釋的特質轉成品牌主張。"
+        },
+        {
+          "title": "From wax seals to postal stamps, Aplomb perfume’s packaging has the intimacy of a handwritten letter",
+          "url": "https://www.itsnicethat.com/articles/studio-lotta-nieminen-aplomb-branding-project-291026",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "赫爾辛基的 Studio Lotta Nieminen 替香水品牌 Aplomb 定下一個概念：每瓶香水都是寫給某人的信，因為每款都以一位真實的人為靈感。難處在於信件質感溫暖，卻容易變得太手作、不夠高級。團隊原本想用火漆封口，覺得太直白，改把蠟滴造型做在瓶蓋上；每款還有放在凹壓邊框裡的專屬插畫郵票。這是小型工作室處理隱喻的好範例：概念留下來，但表現手法往回收一步。"
+        },
+        {
+          "title": "Why Studio Atipus designed a wine label to look like it's been shot from a speeding train",
+          "url": "https://www.creativeboom.com/work/why-studio-atipus-designed-a-wine-label-to-look-like-its-been-shot-from-a-speeding-train/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "製酒商 Maria Rigol Ordi 以卡瓦氣泡酒聞名，這款 Vinya Llarga 是第一款靜態葡萄酒。Atipus 直接從酒名下手：它在加泰隆尼亞語的意思是「長長的葡萄園」，於是用環繞瓶身的黃綠藍橫向條紋做出火車窗外的動態模糊，到背標才聚焦成綠葉。文字克制地排在上下，再用蠟封帶出手工感。對小品牌包裝案很實用：名字本身常常就是最省力的概念來源。"
+        },
+        {
+          "title": "The Monthly Interview: Kirsten Rutherford",
+          "url": "https://www.creativereview.co.uk/the-monthly-interview-kirsten-rutherford/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "DoorDash 執行創意總監 Kirsten Rutherford 談為什麼離開廣告代理商、進到品牌內部帶創意工作室 Superette：這樣能更早看到商業機會，讓創意直接回應業務問題。她認為內部團隊懂業務，外部夥伴則有距離感和不同視角，關鍵是責任劃清楚，彼此能挑戰又不互斥。對工作室來說，這是了解品牌方怎麼看外部夥伴的好窗口，也提醒我們提案時要帶進內部團隊沒有的視角。"
+        }
+      ],
+      "buzz": "這兩天的大案有個共同方向：不只換標誌，而是把品牌的核心資產變成一套能運作的系統。Trustpilot 把星星拆成格線和動態規則，White & Case 把複雜變成品牌主張。小案則是另一種功夫，Aplomb 和 Vinya Llarga 都從一個簡單概念出發，再靠工藝細節撐起質感。"
+    },
+    "highlights": {
+      "summary": [
+        "卻沒留位置給研究和評估",
+        "把品牌最核心的東西拆成一套系統"
+      ],
+      "product": [
+        "判斷品質的人站在哪裡",
+        "精緻原型會掩蓋沒想清楚的決定",
+        "從畫畫面移向定義什麼叫做好"
+      ],
+      "brand": [
+        "把品牌的核心資產變成一套能運作的系統",
+        "靠工藝細節撐起質感"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "「潰れたって聞いたよ」　倒産寸前から年商2.5億円へ、二度の経営危機を乗り越えた「トタンバケツメーカー」",
+        "title_zh": "「聽說你們倒了」：從瀕臨倒閉到年營收 2.5 億日圓，撐過兩次經營危機的鍍鋅鐵桶工廠",
+        "url": "https://www.itmedia.co.jp/business/articles/2606/18/news022.html",
+        "source": "ITmedia ビジネスオンライン",
+        "lang": "日文",
+        "published": "2026-06",
+        "category": "推廣通路",
+        "brand_name": "渡辺金属工業（OBAKETSU／オバケツ，姬路鍍鋅鐵桶工廠）",
+        "consultant": "無外部顧問，由第 4 代社長渡辺政雄親述自家品牌經營",
+        "partial": false,
+        "cover_image": "https://image.itmedia.co.jp/business/articles/2606/18/cover_news022.jpg",
+        "story": {
+          "problem": "1923 年創業的渡辺金属工業，1970 年代因塑膠桶普及，員工從 20 人減少，年營收跌到 500 萬日圓。靠 OBAKETSU 回升到最高 2 億日圓後，2000 年前後又被海外仿品和百元商店類似品打到只剩 5000 萬日圓。更糟的是商品透過批發商流通，目錄還換上批發商的 logo，市場幾乎不知道這個品牌。",
+          "approach": "第 4 代渡辺政雄 2006 年回家業，2007 年用手工搭的攤位第一次參加東京國際禮品展，並聽從前輩建議持續參展。他從來客最常問的「這個桶要裝什麼」和一位女性說想要好看的米桶，看出問題在用途。接著結合 30 年前做過的米桶技術，把「什麼都能裝的桶」改成用途明確的商品。此後每年推新品，並保留全程手工、不借款、能自己做就自己做的經營方式。",
+          "result": "2011 年 Rice Stocker（ライスストッカー）在展會競賽得到準大獎，生協訂單從 100 個增加到 1000 個，累計賣出 70 萬個。現在產品有 80 種，公司 13 人、年營收 2.5 億日圓；2023 年再推新系列 TUB。",
+          "takeaway": "第一，客戶若靠通路代賣，品牌診斷時要先問「終端客戶到底知不知道你」，這家公司的問題不只是產品，更是沒有自己的聲音。第二，傳統材料的老產品，可以從展場和客人最常問的問題找定位，把通用品改成明確用途。第三，老闆自己的話最有力，可以幫他整理成能在展場和官網講的故事。"
+        },
+        "guide": [
+          {
+            "heading": "日本最後的鍍鋅鐵桶專門廠",
+            "body": "故事從 7-Eleven 門口的鐵製傘架說起，做它的是姬路一家 13 人小工廠渡辺金属工業。根據公司說法，它是日本僅存的鍍鋅鐵桶專門廠。這種桶耐用、比外觀看起來輕，但價格高。文章要回答的問題是：一家做夕陽產品的工廠，怎麼兩度差點關門又活下來。"
+          },
+          {
+            "heading": "第一次危機：媽媽看美劇想到的點子",
+            "body": "昭和時期不必推銷也賣得動，1970 年代塑膠桶一普及，需求急遽下滑，原本 20 名員工陸續離開，年營收只剩 500 萬日圓，連人事費都付不出來。父親說出想收掉公司時，母親從美劇裡的垃圾桶得到靈感：如果桶子好看到可以放在家裡，就能當室內雜貨賣。父母花 1 到 2 年試作，1978 年做出 OBAKETSU。命名是在「桶」（バケツ）前加上敬語的「お」，讓實用品多一點親切感。"
+          },
+          {
+            "heading": "直闖東急ハンズ，標籤上的電話成了業務",
+            "body": "1983 年，父親聽說東急ハンズ（生活雜貨連鎖）關西一號店開幕，直接抱著桶子排到收銀台前請店員進貨，採購當場決定上架。意外的是，母親自製的標籤上印了電話，各地雜貨店採購看到後直接打來工廠，店頭商品變成最好的業務員。銷路因此擴及全國，幾年內年營收最高達 2 億日圓。",
+            "image": {
+              "url": "https://image.itmedia.co.jp/business/articles/2606/18/kuma_obaketsu06.jpg",
+              "caption": "OBAKETSU 初期的標籤，左下角小字印著工廠電話"
+            }
+          },
+          {
+            "heading": "第二次危機與最痛的一句話",
+            "body": "2000 年前後，海外仿品和百元商店類似品湧入，年營收掉到高峰的四分之一。渡辺政雄原本在東京的函授教育公司做型錄與設計，2006 年回家業，把東京租屋處當營業所。他對業務和材料都不懂，談生意時常要躲到大樓角落打給父親問意思；跑了幾個月，第一張訂單是 1 個桶、5000 日圓，對方還是已申請重整的公司。2007 年首次參加禮品展時，他才發現真相：批發商把目錄換成自己的 logo，品牌根本沒被市場認識，還有人問是不是中國製。",
+            "quote_ja": "オバケツってまだあったんだ。潰れたって聞いたよ",
+            "quote_zh": "OBAKETSU 還在啊？我聽說你們倒了。"
+          },
+          {
+            "heading": "從「什麼都能裝」到「就是拿來裝米」",
+            "body": "有參展者建議他，要取得採購信任至少連續參展 3 年，他便繼續投入。展場上最常被問的是「這個桶要裝什麼」。在家閒聊時，母親的朋友說想要好看的米桶，而公司約 30 年前做過後來停產的方形米桶，鐵材不透光、能抑制濕氣、耐鏽又可水洗，條件剛好符合。2011 年 Rice Stocker 在展會競賽拿下準大獎，但他原本看好的其實是附面紙盒的款式。得獎通知來時，他正好在和生協採購洽談，訂單當場成立，從 100 個增加到 200 個，幾個月後達 1000 個。後續的蔬菜桶、尿布除臭桶、蚊香桶也延續同一思路，產品線到 2026 年有 80 種。",
+            "quote_ja": "自分たちの言葉で商品の価値を伝えなければ",
+            "quote_zh": "我們必須用自己的話，把商品的價值說出來。",
+            "image": {
+              "url": "https://image.itmedia.co.jp/business/articles/2606/18/kuma_obaketsu09.jpg",
+              "caption": "人氣商品 Rice Stocker（ライスストッカー）米桶"
+            }
+          },
+          {
+            "heading": "不借錢、自己來，還有下一步",
+            "body": "公司創業百年來維持無借款經營。泡沫經濟時期，父親拒絕超出能力的投資，靠賣桶的利潤添購機器；連修機器、抹工廠地板都盡量自己做，因為他們認為整理工具和環境也是製造的一部分。OBAKETSU 由 6 名職人經 20 到 40 道工序手工完成，學會要 5 到 6 年，人手不足因此是眼前最大課題。2023 年百週年時，由渡辺的太太主導推出傘架、托盤等新系列 TUB，公司預期它未來能和 OBAKETSU 各佔一半。",
+            "quote_ja": "自分たちができる範囲内でやる。",
+            "quote_zh": "只做自己能力範圍內的事。",
+            "image": {
+              "url": "https://image.itmedia.co.jp/business/articles/2606/18/kuma_obaketsu16.jpg",
+              "caption": "為百週年開發的新系列 TUB"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "daily_summary": "今天兩邊都在提醒同一件事：看起來對，不等於真的對。Product 這邊有研究員發現 AI 根本沒看影片、卻寫出一份很像樣的分析，AI 產出一定要回頭驗證證據；Brand 這邊則在談品牌的差異化要從產品體驗本身挖，聲音、觸感都算，而不是跟著同一套美學走。案例區推合羽橋的釜浅商店，看一句「良理道具」怎麼變成老店做每個決定的指南針。",
     "jenny_wen": {
@@ -1799,263 +1985,6 @@
           }
         ],
         "cover_image": "https://www.sazae.co.jp/specialty/interview/wp-content/uploads/sites/7/2025/01/taidan_top_pc-900x506.jpg"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-20",
-    "daily_summary": "今天 Product 圈的關鍵字是「人的注意力」：AI 代理 1 小時能產出人要讀 6 小時的東西，瓶頸從做不出來變成看不完；另一篇則提醒，設計流程能跑多完整，取決於你跟利害關係人之間的信任。Brand 圈則一再出現「從自己身上找答案」：Fulham 從球場牆上的手繪字長出專屬字體，Kuda 從奈及利亞的建築和真實客戶取材。品牌經營案例今天從原點開始：中川政七怎麼把一家借款是營收 1.5 倍的波佐見產地批發商救回來。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": true,
-      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
-      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
-      "summary": "Anthropic 的可解釋性研究員 Emmanuel Ameisen 聊打開語言模型內部看到了什麼：為什麼「預測下一個字」低估了模型其實會事先規劃、為什麼模型是「長出來」而不是「做出來」的、平滑的擴展曲線為何看起來像能力突然跳升，以及這些研究跟 AI 安全的關係。適合想搞懂 AI 為什麼有時聰明、有時離譜的設計師。"
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Human attention is the new old bottleneck. We have to design for it even more.",
-          "url": "https://uxdesign.cc/anthropic-october-2026-study-human-attention-is-the-new-old-bottleneck-d7bc4642668a",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Anthropic 2026 年 10 月的研究顯示，到 8 月時員工指揮的 AI 代理，每花人 1 小時就會跑出 6 小時的工作量，而代理約有 80% 的時間在空等人回覆。作者把這叫做「閱讀稅」：光讀完代理的產出，非工程背景的人就要花掉超過半週。他引用 Herbert Simon「資訊造成注意力貧乏」和醫院警報疲勞的研究，提出 7 個做法，例如用每分鐘 250 字算出每週要讀多久、替代理的請求分級並把例行事項打包成摘要、把審核畫面設計成「改了什麼對照原本」且風險最高的排第一、把決策寫下來讓代理看得到。對設計師的啟發：下一個要設計的不是生成，而是「人怎麼審」。"
-        },
-        {
-          "title": "The skill that UX textbooks can't teach",
-          "url": "https://medium.com/design-bootcamp/the-skill-that-ux-textbooks-cant-teach-45a72448b025",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "作者在新創和大企業待了 15 年，結論是：你能跑多完整的設計流程，取決於你跟利害關係人累積了多少信任，而不是方法本身多好。教科書假設有時間做研究、主管願意聽、找得到使用者、問題已經定義清楚，現實裡很少同時成立。她的做法是保留研究的「目的」、換掉「形式」：用非正式聊天、一週內做幾場訪談、翻客服紀錄和數據，甚至替探索階段換個名字讓組織接受；團隊已經很懂問題時，就直接畫線框把知識具象化。對接案工作室特別實用：先用小案子做出看得見的成果換信任，客戶才會接受完整流程；但使用者安全、無障礙基本盤和誠實說明取捨不能讓步。"
-        },
-        {
-          "title": "From Figma to a design system an AI can read",
-          "url": "https://medium.com/design-bootcamp/from-figma-to-a-design-system-an-ai-can-read-2104295a9407",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "GoodBarber（手機 App 建置平台）的設計主管分享：他們的設計系統從 Photoshop、XD、zeroheight 一路搬到 Figma variables，但數值始終是「畫」出來的，機器讀不懂。2026 年夏天他們改寫成兩個文字檔：design.md 是一組有邊界的參數詞彙，component.md 是元件挑選目錄，每個值都對回原始來源並存成 token，再讓 AI 只靠這兩份檔案生成畫面來驗證，一次就做出 3 個食譜 App 畫面。關鍵觀念是 design.md 只「限制範圍」、不「決定長相」：數值依序取客戶指定的風格、元件預設，最後才是 design.md。這跟工作室現在用 design.md 當風格真實來源的做法同方向，取值順序可以直接參考。"
-        },
-        {
-          "title": "The AI said \"92% match.\" The user had chest pain.",
-          "url": "https://medium.com/design-bootcamp/the-ai-said-92-match-the-user-had-chest-pain-e3d6d308ea8d",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "一個 AI 健康檢測 App：使用者輸入「爬樓梯會胸痛，從昨天開始」，AI 回「最可能是肌肉拉傷（92% 吻合）」，旁邊還放運動按摩折扣。作者指出畫面再精緻，三個產品決策都錯了：碰到胸痛這種危險徵兆不該猜，要直接叫人就醫（NHS 的建議就是如此）；醫療建議裡放廣告是利益衝突；下一步應該是「何時該看醫生」「附近的醫療院所」，而不是繼續聊天把人留在 App 裡。她給三個檢查問題：AI 的信心有沒有超過情況允許？每個元素服務的是誰？下一步把人帶去哪、他真的需要去嗎？做任何 AI 建議類介面都適用。"
-        },
-        {
-          "title": "Beyond the Canvas",
-          "url": "https://uxdesign.cc/beyond-the-canvas-03fce0bcbf7b",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma Config India 2026（班加羅爾）的現場心得。核心訊息是寫程式越來越容易，設計反而變成差異化的關鍵。Figma 新推的 Code Layers、Specs、Payload 讓設計師、工程師和 AI 代理在同一個脈絡裡工作，所以代理更需要人給清楚的意圖和判斷；TJ Pitre 說設計系統是「一組決策」而不是元件庫；Ather Energy 會拿未完成的原型直接給客戶測，也有講者質疑公共服務設計一味求快。Razorpay、Swiggy 的創辦人都深度參與設計，作者的結論是「設計素養正在變成高階主管的必備能力」。跟客戶老闆談設計價值時，這是很好用的論點。"
-        }
-      ],
-      "buzz": "Product 圈這兩天的共同焦慮是「人跟不上」：AI 產出暴增，真正的瓶頸變成審核與判斷，設計系統也開始改寫成 AI 讀得懂的文字檔。另一條線回到人的層面，不管是 AI 健康建議要對使用者誠實，還是設計流程要先贏得信任，都在說工具再強，判斷和責任還是在人身上。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Fulham F.C gets a brand refresh built on hand-rendered lettering found on the walls of its stadium",
-          "url": "https://www.itsnicethat.com/articles/music-f37-foundry-fulham-football-club-refresh-graphic-design-project-191026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Fulham 足球俱樂部的長期合作代理商 Music 替球隊做品牌更新。問題是球迷越來越多元：老球迷、新球迷、海外觀眾、包廂客人從不同管道接觸球隊，需要一套好辨認、又能在數位平台上變化的識別，同時迎接 150 週年和看台、碼頭等新設施。Music 深入研究倫敦最古老的球場 Craven Cottage，在球場裡找到一段手繪字，再和 F37 Foundry 做成專屬字體 FFC Original，用在比賽日圖像、社群、零售和影片。創意總監的說法很值得記：「傳統就是讓識別變現代的東西」，而不是另外疊上去的懷舊裝飾。替老品牌做更新時，先去現場挖素材，比從外面套一個風格更有說服力。"
-        },
-        {
-          "title": "What does Britishness mean today?",
-          "url": "https://www.creativereview.co.uk/britishness-branding-advertising-rick-chant/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "We Are Pi 的 Rick Chant 接到「讓品牌感覺很英國」的需求，發現下午茶、紅色巴士、米字旗這些符號都沒抓到重點。他認為英國感是一種「語氣」：輕描淡寫、不正經、習慣戳破過度認真的東西。例子是美國那趟有 Katy Perry 參與的全女性太空飛行被包裝成感人的進步時刻，英國電台 DJ 的反應是請聽眾提名「該送哪些名人上太空」，聽眾秒速組出荒謬名單，被點名的名人還跟著玩，整個過程沒有簡報、沒有開會。對品牌設計的提醒：國家或地方特色別只靠符號堆疊，要找出那群人說話的方式。"
-        },
-        {
-          "title": "Digital bank Kuda targets young Nigerians with new rebrand",
-          "url": "https://www.creativereview.co.uk/digital-bank-kuda-rebrand-barkas/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "哥本哈根代理商 Barkas 替奈及利亞數位銀行 Kuda 重做品牌，對象是熟悉數位工具、對錢精打細算的年輕人。核心概念是源自牙買加的「more life」：給你好用的理財工具，讓你少花時間擔心錢、多花時間生活。每個元素都回到在地：字標的幾何字形取自奈及利亞的藝術與建築，共有 4 種版本；和在地夥伴重畫奈拉貨幣符號；專屬字體 Kuda Modena；請奈及利亞攝影師 Rachel Seidu 用紀實風格拍真實客戶，取代冷冰冰的圖庫照。CEO 說銀行早就忘了帳號後面是人。金融品牌想擺脫冷硬感，這是很完整的參考。"
-        },
-        {
-          "title": "CrazyGames stakes its claim in the 'web rush' with bold rebrand",
-          "url": "https://www.creativereview.co.uk/crazygames-rebrand-ziggy-dixonbaxi/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "瀏覽器遊戲平台 CrazyGames（每月 6,000 萬活躍用戶、今年累積 30 億次遊玩）找 DixonBaxi 做 2014 年成立以來最大的品牌改造。背景是 WebGL、WebGPU 讓瀏覽器也能跑高品質遊戲，免下載、免專用硬體，業界稱為「web rush」。難題是平台上的遊戲風格五花八門，品牌要好辨認，又不能搶走每款遊戲的光彩。解法是把原本低調的貓耳吉祥物 Ziggy 放大成表情豐富的角色，貫穿網站、App、社群和周邊，並保留發展成 IP 的空間，再搭配標語「Your kind of crazy」。內容不是自己做的平台型品牌要怎麼建立辨識度，吉祥物是一個好答案。"
-        },
-        {
-          "title": "Studio Herrström gives disruptor music label a lightning logomark and palette made of milkshake flavours",
-          "url": "https://www.itsnicethat.com/articles/studio-herrstrom-milkshake-graphic-design-201026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "維也納的 Studio Herrström 替 Sony Music 旗下的斯德哥爾摩唱片公司 Milkshake 重做識別。品牌名是在一趟開車途中想出來的，設計團隊就把「車」當主題：Logo 組合仿汽車車窗貼紙，搭配 Context Type 的 Gates 字體和路標風格的圖示；色彩保留舊版的鮮豔，但調成奶昔口味的色調；閃電形狀的標誌傳達速度感。整套識別在「平凡常見的視覺」和「華麗造型」之間拉出張力。這是從命名故事延伸出整套視覺語言的好例子，比從抽象形容詞出發更有記憶點。"
-        }
-      ],
-      "buzz": "Brand 圈這兩天反覆出現「答案在自己身上」：Fulham 從球場牆上的手繪字長出專屬字體，Kuda 從奈及利亞建築和真實客戶取材，Milkshake 則從命名時的那趟車程延伸出整套視覺。Creative Review 也提醒，地方特色不是符號拼貼，而是那群人說話的語氣。"
-    },
-    "highlights": {
-      "summary": [
-        "瓶頸從做不出來變成看不完",
-        "從自己身上找答案",
-        "借款是營收 1.5 倍"
-      ],
-      "product": [
-        "真正的瓶頸變成審核與判斷",
-        "判斷和責任還是在人身上"
-      ],
-      "brand": [
-        "答案在自己身上",
-        "不是符號拼貼"
-      ]
-    },
-    "brand_cases": [
-      {
-        "title": "工芸再生支援で倒産危機からV字回復。マルヒロが地元に公園「HIROPPA」をつくる理由",
-        "title_zh": "靠工藝再生支援從倒閉邊緣 V 字反彈：マルヒロ為什麼要在家鄉蓋一座公園「HIROPPA」",
-        "url": "https://story.nakagawa-masashichi.jp/211546",
-        "source": "中川政七商店の読みもの",
-        "lang": "日文",
-        "published": "2021-12",
-        "category": "長期成果",
-        "brand_name": "マルヒロ（HASAMI）",
-        "consultant": "中川政七",
-        "partial": false,
-        "story": {
-          "problem": "長崎波佐見町的產地批發商マルヒロ，過去替「有田燒」代工日常餐具。2000 年前後產地標示變嚴，改稱「波佐見燒」後營收直落，整個產地產值從泡沫時期的 175 億日圓跌到 2011 年的 41 億。2009 年マルヒロ的借款是營收的 1.5 倍，接班的兒子馬場匡平當時既不懂公司數字，也不懂陶瓷。",
-          "approach": "中川政七先補基本功：每月指定一本書（會計書、《誰搬走了我的乳酪》），要求寫心得並說明怎麼用在自家公司，經營數字亂答會被罵。目標訂在 10 個月後的展覽會推出新品。他不替對方決定做什麼，而是逼出「你真正想做的」：第一版穩妥的提案被推翻，改成以 60 年代美國餐廳大眾餐具為主題的彩色馬克杯。中川自己也懷疑過會不會賣，最後仍以「品牌要做本人想做的事」拍板。第一年中川主導，第二年起換マルヒロ自己提案。",
-          "result": "2010 年 6 月 HASAMI 推出，向選物店出貨約 5 萬件，還接到服飾品牌的 OEM 邀約。2 年顧問期結束後約 10 年，マルヒロ營收超過 3 億日圓，2021 年在家鄉開了約 1,200 坪、免費開放的公園 HIROPPA。",
-          "takeaway": "中川政七交付的不是一套漂亮識別，而是先讓接班人有經營能力，再陪他把「自己想做的事」變成品牌，並刻意在第二年交棒讓客戶自己提案。隅室接品牌案時，可以把「教客戶看懂自己的數字」和「交接期」寫進提案，結案後品牌才活得下去。"
-        },
-        "guide": [
-          {
-            "heading": "前言：第一號客戶的 12 年後",
-            "body": "中川政七商店從 2009 年開始做工藝廠商的經營再生顧問，第一個客戶就是マルヒロ。這篇是兩人相識 12 年後的對談採訪，作者川內イオ從當年那通求救電話一路寫到現在：マルヒロ不只活了下來，還在家鄉蓋了一座公園。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "波佐見燒和マルヒロ的處境",
-            "body": "波佐見町長年是佐賀「有田燒」的代工產地，負責量產日常餐具，生坯、模具、窯場各自分工。產地批發商（産地問屋）的角色，是接下外面的訂單、分派給各個職人，再收貨安排出貨。マルヒロ是馬場廣男在 1957 年創立的批發商。2000 年前後產地標示變嚴，波佐見不能再掛「有田燒」，改稱「波佐見燒」後營收急跌，整個產地的產值從泡沫時期的 175 億日圓掉到 2011 年的 41 億。第二代馬場幹也走投無路，2009 年夏天打電話給中川政七商店。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://story.nakagawa-masashichi.jp/wp-content/uploads/2021/12/002-3.jpg",
-              "caption": "マルヒロ的陶瓷商品"
-            }
-          },
-          {
-            "heading": "「這下傷腦筋了」：從補基本功開始",
-            "body": "中川政七在 2008 年出版的書裡寫過想協助工藝廠商重生，結果看了書真的打電話來的，只有馬場一家。第一次見面在奈良本店，同行的兒子馬場匡平（現任社長）幾乎沒開口，對公司數字和陶瓷都不熟，中川心想「這下傷腦筋了」。於是他每個月給匡平一本指定書，從會計書到《誰搬走了我的乳酪》，要他寫讀後感並說明能怎麼用在自家公司；經營數字隨便回答會被當場罵。匡平和設計師新里李紗每個月在中川來訪前都在趕作業，甚至去機場接人時故意不走高速公路來爭取時間。當時借款是營收的 1.5 倍，父子倆約定：這 2 年，中川說什麼就做什麼。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "壓力大到吐：HASAMI 誕生",
-            "body": "2009 年夏天訂下目標：在 2010 年 6 月中川政七商店主辦的展覽會推出新品。進行方式不是中川下指令，而是把マルヒロ想做的事做出來。第一版提案是看起來穩妥、中川政七商店應該會收的商品，但那不是匡平真正想做的，中途整個轉向，最後變成以「60 年代美國餐廳大眾餐具」為主題的彩色馬克杯系列 HASAMI。中川一度也猶豫「這樣真的賣得出去嗎？」，匡平和新里專程到奈良說明，中川最後用下面這句話拍板。匡平說那段時間壓力大到開車時會吐，因為失敗就只能收掉公司。2010 年 6 月 HASAMI 推出，大獲成功，向選物店出貨約 5 萬件，還有服飾品牌找上門做 OEM。第一年由中川主導，第二年起改由マルヒロ自己提案。",
-            "quote_ja": "ブランドは、本人がやりたいことをどう具現化してやり続けるのかが大切",
-            "quote_zh": "品牌最重要的，是怎麼把當事人想做的事具體做出來，並且一直做下去。"
-          },
-          {
-            "heading": "從「波佐見樂園」到 HIROPPA",
-            "body": "2011 年顧問期結束。第二年尾聲，中川和匡平聊「再遠一點的願景」，從「想在波佐見蓋電影院」聊出了「波佐見樂園（波佐見パーク）」這個詞。2017 年左右，匡平轉向「做陶瓷廠不會做的事」：和美國字體設計公司 House Industries 合作新品牌「ものはら」，也跟滑板品牌聯名。有了小孩後，他發現鎮上沒有能讓孩子盡情玩的公園，也想要一個讓朋友和工作夥伴隨時聚會的地方，於是在 2021 年 10 月開了約 1,200 坪的免費公園 HIROPPA。園裡種了 5 萬株向日葵，今年卻被大雨全毀；他還計畫把葵花子炒過調味販售，或做成可保存約 3 年、給登山客的行動糧。工藝圈有人笑他要去搞觀光農業，他的回答是下面這句。中川也提到，自己從 2013 年在燕三條辦「工場の祭典」以來，就一直主張產業觀光的重要。開幕後來客比預期多，園內店鋪的營收也跟著成長。",
-            "quote_ja": "町が残らないと工芸が残らない。",
-            "quote_zh": "小鎮沒了，工藝也留不下來。",
-            "image": {
-              "url": "https://story.nakagawa-masashichi.jp/wp-content/uploads/2021/12/005-3.jpg",
-              "caption": "2021 年開幕的公園 HIROPPA 入口"
-            }
-          },
-          {
-            "heading": "顧問到底留下了什麼",
-            "body": "中川認為最大的成果是：明明風險數不完，匡平還是毫不猶豫地去做。「認真面對自己想做的事，總會有辦法」這個態度，就是顧問期留給マルヒロ的東西。別人常說「你真敢衝」，匡平本人倒不覺得有那麼嚴重。中川提到自己在奈良蓋的複合商場「鹿猿狐ビルヂング」，坦言羨慕匡平做出了自己沒有的世界觀。兩人也聊到「別在最後做難看的掙扎」：撐不下去還硬撐是錯的，這讓匡平做 HIROPPA 時決定不要拖泥帶水。中川的結語是，匡平很會把人拉進來、放手讓大家自由發揮，最後又能接回生意，跟第一次見面相比真的長大了。",
-            "quote_ja": "",
-            "quote_zh": ""
-          }
-        ],
-        "cover_image": "https://story.nakagawa-masashichi.jp/wp-content/uploads/2021/12/001-5.jpg"
-      },
-      {
-        "title": "中川政七商店のもうひとつの顔。「工芸メーカーの再生支援」をする理由",
-        "title_zh": "中川政七商店的另一張臉：為什麼要幫其他工藝廠商重生",
-        "url": "https://story.nakagawa-masashichi.jp/142535",
-        "source": "中川政七商店の読みもの",
-        "lang": "日文",
-        "published": "2021-05",
-        "category": "理念落地",
-        "brand_name": "マルヒロ（HASAMI）等 50 件",
-        "consultant": "中川政七商店",
-        "partial": false,
-        "story": {
-          "problem": "工藝是分工制，一只陶器背後有黏土、顏料、模具、生坯、窯場好幾家。中川政七商店和全國約 800 家製造者一起開發商品，卻一年收到好幾封「我們要收掉公司了」的問候。只要其中一環倒下，自家商品就做不出來，這是中川政七商店自己的生存問題。",
-          "approach": "2009 年起，用自家當年靠品牌化走出經營危機的經驗，以「日本の工芸を元気にする！」為旗幟，提供約 2 年的再生支援：多次到現場，從看懂財報、商品設計到年度生產計畫都教，一起做品牌和商品開發，最後用自家主辦的合同展「大日本市」幫忙打通銷售。以マルヒロ為例，連銷售數據管理、包裝方式、展場怎麼介紹商品，都逐項討論「應該怎麼做」。",
-          "result": "マルヒロ在 2010 年推出 HASAMI，現在約 700 家零售店販售；之後 2015 年翻新工廠直營店、2016 年串連 4 個町辦「ぐるぐる肥前」，帶動整個波佐見的觀光。再生支援至今累計 50 件，包括新潟三條的菜刀、兵庫豐岡的包包、大阪和泉的地毯。",
-          "takeaway": "品牌顧問的範圍不只到 Logo 和商品：財報、生產計畫、包裝、展場話術、通路全都在裡面，而最後一哩「幫客戶找到第一批買家」常是成敗關鍵。工作室若要往品牌經營顧問發展，可以想想自己能給客戶什麼樣的通路或展示機會。"
-        },
-        "guide": [
-          {
-            "heading": "開場：一家雜貨製造商的兩張臉",
-            "body": "中川政七商店的主業，是以工藝為基礎的生活雜貨製造商；近年較為人知的另一個身分，是「幫工藝廠商重生的公司」。文章要回答的問題是：一家製造商，為什麼要去救別家製造商？答案藏在日本工藝廠商的處境裡。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "「我們要收掉公司了」",
-            "body": "第 13 代中川政七回憶，以前每年都會收到好幾封結束營業的問候。工藝是分工制，以陶瓷為例，黏土商、顏料商、模具商、生坯商、窯場缺一不可。中川政七商店和全國約 800 家製造者一起開發商品，任何一環倒下，自家的東西就做不出來。2009 年開始做再生支援，出發點就是這份危機感。",
-            "quote_ja": "このままでは、うちのものづくりもできなくなる",
-            "quote_zh": "再這樣下去，連我們自己的東西也做不出來了。"
-          },
-          {
-            "heading": "為什麼覺得自己幫得上忙",
-            "body": "中川政七商店自己也經歷過經營危機，是靠品牌化走出來的。既然手上有這套方法，也許能救同樣處境的公司；再加上不想看日本工藝繼續衰退，這份想法變成了使命感，於是以「日本の工芸を元気にする！（讓日本工藝重新有活力）」為願景啟動再生支援計畫。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "第一號客戶マルヒロ與支援內容",
-            "body": "第一個舉手的是長崎波佐見町的マルヒロ。波佐見長年是有田的代工產地，產地標示變嚴、改稱「波佐見燒」後營收大跌，マルヒロ的借款一度是營收的 1.5 倍。支援期約 2 年，中川政七商店多次到現場，從怎麼看財報、商品設計到年度生產計畫，把自家 know-how 全部分享出去；品牌和商品一起做，最後再讓他們參加自家主辦的合同展「大日本市」，連通路都幫忙接上。細到銷售數據怎麼管、怎麼包裝、展場上怎麼介紹商品，都一項項討論「應該是什麼樣子」。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://story.nakagawa-masashichi.jp/wp-content/uploads/2021/05/2009%E5%B9%B4_HASAMI%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E6%99%82-800x600.jpg",
-              "caption": "2009 年，中川政七（右）與マルヒロ討論中"
-            }
-          },
-          {
-            "heading": "HASAMI：背起產地的名字",
-            "body": "2010 年 HASAMI 推出。名字有兩層意思：扛起「波佐見」這個產地的決心，加上替陶器上釉時用的工具「釉薬バサミ（上釉夾）」。主力商品是馬克杯，粗獷可愛又能堆疊收納，透過大型選物店販售和雜誌報導打開知名度，現在約有 700 家零售店販售，成為全國窯場羨慕的對象。マルヒロ也一步步重整經營：2015 年翻新工廠直營店，2016 年串連周邊 4 個町辦「ぐるぐる肥前」，成為波佐見燒近年大躍進的推手。鎮上的咖啡店、雜貨店變多，也開始有人專程來過夜旅行。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://story.nakagawa-masashichi.jp/wp-content/uploads/2021/05/005-1-800x500.jpg",
-              "caption": "HASAMI 可堆疊的彩色馬克杯"
-            }
-          },
-          {
-            "heading": "為什麼要把 know-how 分享出去",
-            "body": "常有人問：為什麼把重要的 know-how 分給別家？文章的回答是一個循環：各地工藝發光，使用者就有更多好用的生活道具；使用者變多，製造者就有收入；全國製造者有活力，中川政七商店才能繼續做東西。目前再生支援已達 50 件，包括新潟三條的菜刀、兵庫豐岡的包包、大阪和泉的地毯。在「大日本市」，出道的品牌親自向採購介紹自己的東西，這些商品也和自家商品並列在中川政七商店的門市和網店。據說全國有 300 個工藝產地，文章以「讓這些火繼續燒下去」作結。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://story.nakagawa-masashichi.jp/wp-content/uploads/2021/05/002-1-800x500.jpg",
-              "caption": "合同展「大日本市」：製造者直接向採購介紹商品"
-            }
-          }
-        ],
-        "cover_image": "https://story.nakagawa-masashichi.jp/wp-content/uploads/2021/05/000-2.jpg"
       }
     ]
   }
