@@ -1,5 +1,177 @@
 [
   {
+    "date": "2026-11-03",
+    "daily_summary": "今天 Product 圈的主線是 AI 背後看不見的東西怎麼設計：Taras Bakusevych 談費用該在什麼時機讓人看見，Pekka Puhakka 則用一顆 260 種變體的按鈕，說明設計系統真正該保存的是判斷。Brand 這邊最值得工作室看的是 HOW+HOW：把多年給客戶的建議用在自己身上，連官網都為 AI 搜尋重做，很適合拿來檢視隅室自己的門面。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+      "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+      "summary": "Wispr Flow 內容主管 Hector Serrano 分享他怎麼管理 50 位創作者，每月產出 500–600 支付費 UGC 廣告，把直營消費品牌常用的打法搬到 SaaS。這集偏成長行銷，和設計距離較遠，所以沒排進今天的 Product 5 篇。網站上的重點整理在付費牆後，這裡只根據公開的節目介紹與大綱。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "How to design transparent AI cost controls",
+          "url": "https://uxdesign.cc/how-to-design-transparent-ai-cost-controls-a44fd52b9104",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Taras Bakusevych 認為，AI 費用設計其實是兩個決定：使用者看到的計價單位，以及他們在什麼時機理解成本。token 是系統的貨幣，不是使用者的，「用了 382,000 tokens」無法幫人判斷下一步。他比較 token、金額、credits、任務與額度，指出關鍵差別在不確定性由誰承擔。實作上，昂貴的批次工作要在開始前顯示價格或合理區間，日常對話則適合用額度，避免把嘗試變成記帳。接 AI 產品案時，可以直接用這個框架檢查定價畫面。"
+        },
+        {
+          "title": "State of a system",
+          "url": "https://uxdesign.cc/state-of-a-system-5c8473db1e9",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "設計顧問 Pekka Oskari Puhakka 回顧一個大型企業設計系統的整併案：約 40 個元件，交付時有 1,786 個變體，光按鈕就有 260 個，其中只有 15 個需要真正思考，其餘 245 個都是算術。他的主張是，僵硬的設計套件只是設計決定的快取，很快會過時，而只靠文件又讓維護一致性的人有責任沒權力。他提出的假設是，治理一份 LLM skill 可能比元件或文件更適合當演進中的系統基礎，但他也承認這還需要實際專案驗證。顧問可以學的是：交付前先分清楚哪些是決定，哪些只是變化。"
+        },
+        {
+          "title": "Context is the new interface",
+          "url": "https://uxdesign.cc/context-is-the-new-interface-c16b7f6e77be",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Aurélie Radom 指出，使用者的意圖不會照 App 的邊界走，過去都是人自己把脈絡從一個產品帶到另一個。她以 Apple 的 App Intents 為例，說明當 AI 能跨產品接手任務，設計問題就變成在對的時刻提供對的資訊與能力。文中也提醒，記得不等於仍然適用：系統該讓人看到它打算使用的脈絡，例如那間餐廳是朋友半年前推薦的，好讓人有機會修正。對設計師的啟發是，要把脈絡當成設計材料，主動決定什麼該記住、分享或保持私密。"
+        },
+        {
+          "title": "How Figma's PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "source": "How I AI（Lenny's Newsletter）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Figma 成長 PM Ezra Mechaber 發現公司裡很少非工程師把 AI 用在真正的工作上，於是把自己的 Claude Code 設定做成共用 repo，累積 31 個 skill，已有 60 多位 PM 使用。節目示範了每天跑六次的 Slack 整理、用 Codex 抓 bug，以及只留一個人工檢查點的自動實驗流程 AutoXP。這裡只根據節目介紹與大綱，沒有讀到逐字稿。對小工作室的啟發（這是我的推論）：可以把設計評論、交付檢查這類重複工作做成共用 skill。"
+        },
+        {
+          "title": "Virtue ethics in everyday interface design",
+          "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Michael Buckley 用德行倫理學重新看介面：設計師的善意不能代替判斷，因為我們決定了什麼被看見、什麼被鼓勵。他用一個假設的分享對話框舉例，當使用者還沒打開文章就要分享，介面可以加一句提醒，並把「閱讀文章」設成主按鈕，但仍保留直接分享的選項。這讓摩擦變成支持思考，而不是剝奪自主。實際用法是，在評估流程時除了問「任務好不好完成」，也問這個流程讓人練習了什麼。"
+        }
+      ],
+      "buzz": "這 48 小時大家都在談 AI 進到產品後，設計的工作往介面之外移動：成本怎麼揭露、脈絡怎麼傳遞、設計系統怎麼交給 LLM 治理。另一條線是團隊實作，Figma 的 PM 把個人的 AI 流程做成共用 skill 庫，可重複使用的工作方法本身變成資產。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "How&How launches a new name, strategy, visual identity and website",
+          "url": "https://www.creativeboom.com/news/london-and-la-studio-howhow-launches-a-new-name-visual-identity-and-website/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "倫敦與洛杉磯的品牌工作室 How&How 成立六年後改名 HOW+HOW，整個品牌建立在一句「Turn up your truth」上。創辦人 Cat How 說，他們多年告訴客戶要放大自己的獨特觀點，這次是照自己的建議做。logo 像類比音量旋鈕，可隨版面伸縮，再搭配 3D 插畫、Wagram 襯線字與名為 Gello 的黃綠色，文案也變得更短更直接。官網還為 AI 搜尋重做，讓大型語言模型更容易讀取。對隅室來說，這是很具體的自我檢查：我們的門面有沒有做到自己對客戶說的話。"
+        },
+        {
+          "title": "Swiss Typefaces crafts a warmer, friendlier custom font for Swiss Post",
+          "url": "https://www.creativeboom.com/work/swiss-typefaces-crafts-a-warmer-friendlier-custom-font-for-swiss-post/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Swiss Typefaces 花三年為瑞士郵政打造 Swiss Post Sans，目標反而是不引人注意，清晰易讀優先。新字體必須直接替換舊字體而不動到版面，所以要對齊原本的字面份量，還要支援德、法、義與羅曼什語四種語言。預設使用等寬數字，讓價格和時刻表對齊；斜體不是單純傾斜，而是加入手寫特徵，用來擔任標題與招牌上的品牌聲音。這個案子示範了，大型品牌的字體工作常常是在限制裡，把溫度一點一點加回去。"
+        },
+        {
+          "title": "Children’s toys don’t need to be an eyesore with Odd Works’ tasteful identity for Toyto",
+          "url": "https://www.itsnicethat.com/articles/odd-works-toyto-graphic-design-project-021126",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "柏林木製玩具品牌 Toyto 想成為螢幕娛樂的替代選擇，里斯本與倫敦的工作室 Odd Works 沒有走童趣路線，而是參考包浩斯、瑞士風格與 Braun 這些「大人的設計」。字標的字母由呼應木玩具的形狀構成，再用 Labil Grotesk 會傾斜的字形帶入玩心。包裝乾淨到可以直接放書架，靠壓印和複雜色彩創造觸感。值得學的是定位思考：這類產品的買家是家長，所以視覺要同時對大人和孩子說話。"
+        },
+        {
+          "title": "This celebrity ad shows what a difference it makes when you don't use CGI",
+          "url": "https://www.creativeboom.com/work/isobels-financial-services-ad-shows-what-a-difference-it-makes-when-you-dont-use-cgi/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Isobel 為金融服務公司 St. James's Place 製作「See your wealth differently」廣告，主張好的理財建議是幫人理解已知的資訊，不是塞更多資訊。影片中 Keeley Hawes 迷失在印刷紙張堆成的高牆迷宮裡，高牆用真紙在攝影棚搭建，沒有使用 CGI。紙張與沙漏的意象也延伸到品牌的其他素材。這是金融這種抽象類別很好的參考：用一個實體比喻代替大量文案，再讓比喻長成品牌的視覺母題。"
+        },
+        {
+          "title": "Indian Garage drops 'Co' from name, unveils new brand identity with Suryakumar Yadav",
+          "url": "https://www.medianews4u.com/indian-garage-drops-co-from-name-unveils-new-brand-identity-with-suryakumar-yadav/",
+          "source": "Medianews4u",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "印度男裝品牌 Indian Garage Co 改名拿掉 Co，並更新 logo 與視覺識別，定位轉向「Everyday Hero」：白手起家、有國際視野，不想為品牌溢價買單的印度男性。品牌同時主打為印度人身形設計的版型與本土價格，並在孟買的店面辦發表活動。這篇偏新聞稿，視覺決策著墨不多，可參考的是它怎麼把名字的車庫創業故事接到目標客群的自我認同。"
+        }
+      ],
+      "buzz": "品牌圈這兩天的案子都在走克制而有實體感的路：Swiss Post 花三年做一套不搶戲的字體，Toyto 用大人的設計語言做玩具，St. James's Place 用真紙搭出迷宮而不靠 CGI。HOW+HOW 的改版則提醒大家，工作室自己的品牌也會被客戶拿來檢驗。"
+    },
+    "highlights": {
+      "summary": [
+        "費用該在什麼時機讓人看見",
+        "真正該保存的是判斷",
+        "把多年給客戶的建議用在自己身上"
+      ],
+      "product": [
+        "設計的工作往介面之外移動",
+        "可重複使用的工作方法本身變成資產"
+      ],
+      "brand": [
+        "克制而有實體感",
+        "工作室自己的品牌也會被客戶拿來檢驗"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "年商20億円の食器「ARAS」 伝統工芸産地で新ブランドが未来を拓く",
+        "title_zh": "年營收 20 億日圓的餐具 ARAS：在傳統工藝產地，用新品牌打開未來",
+        "url": "https://forbesjapan.com/articles/detail/95464",
+        "source": "Forbes JAPAN",
+        "lang": "日文",
+        "published": "2026-04",
+        "category": "策略抉擇",
+        "brand_name": "石川樹脂工業（ARAS，石川縣加賀市樹脂餐具品牌）",
+        "consultant": "上町達也（secca）",
+        "partial": false,
+        "cover_image": "https://images.forbesjapan.com/media/article/95464/images/main_image_4bfe6d66be562f2fe4782579f05f34ea4f006077.jpg",
+        "story": {
+          "problem": "石川樹脂工業位在山中漆器產地（石川縣加賀市），長年以 OEM 量產樹脂胎漆器，但光靠代工已很難撐下去。當地過疎化嚴重，據說 20 年後生產人口會減半。更早推出的「ゆらぎタンブラー」雖然獲星野集團採用，每個 300 日圓的價格卻賺不到足夠營收。",
+          "approach": "第三代石川勤 2016 年回到家業，決定發展自有品牌，並找金澤創作團隊 secca 的上町達也合作。兩人考慮過各種形式後，選擇正面挑戰自己從小熟悉的「器」。2018 年啟動專案，產品同時追求不易摔破的機能與工藝般的美感。記取タンブラー的教訓，他們訂出合理價格、找齊各領域專業人才、建立行銷體制，並以電商直售為主，同時把顧客意見放回產品開發。",
+          "result": "ARAS 於 2020 年上市，5 年達到年營收 20 億日圓，占公司總營收七成以上，也擴展到餐廳、飯店等業務市場，並取得 40 件以上設計權。海外營收目前只占幾個百分點，是下一階段的課題。",
+          "takeaway": "第一，產品被好評不等於生意成立，提案時要把定價和行銷體制一起設計，不能只交付造型。第二，品牌的第一步可以是選戰場：回到自己最有資格談的品類。第三，自有品牌讓企業能重新決定哪些工序交給機器、哪些留給人，這也是對製造業客戶很有力的提案角度。"
+        },
+        "guide": [
+          {
+            "heading": "代工撐不下去，產地也在消失",
+            "body": "山中漆器有 400 年以上的歷史，石川樹脂工業戰後從木胎製造起家，後來以 OEM 量產樹脂胎漆器。問題有兩層：公司只靠代工，事業很難延續；產地持續過疎化，據說 20 年後生產人口會減半。石川勤 2016 年回到家業，把自有品牌視為出路。他的危機感不只關於自家公司，也關於地方文化能否傳下去。",
+            "quote_ja": "このままでは日本の工芸も、地域の文化自体も次世代に継承できない。",
+            "quote_zh": "再這樣下去，日本的工藝和地方文化本身，都無法傳承給下一代。"
+          },
+          {
+            "heading": "找對夥伴，再選定戰場",
+            "body": "石川勤向金澤創作團隊 secca 的代表上町達也諮詢。一位有素材研究背景，一位專注設計飲食體驗，兩人在造物的想法上很有共鳴。他們討論過各種可能的形式，最後選了「器」。理由很直接：石川勤從小身邊就是山中漆器和九谷燒，所以決定用產地最核心的品類一決勝負。這是一個帶著風險的選擇，但也是他最有立場去做的。"
+          },
+          {
+            "heading": "把樹脂做出工藝感",
+            "body": "專案在 2018 年啟動，目標是做出不易摔破、用得安心、能長久使用的器。它雖是樹脂量產品，卻要有工藝的美感，也要讓配菜和擺盤更有樂趣。量產品的每一件仍帶有各自的個性，這讓它跳脫了一般樹脂餐具的印象。銷售以電商直售為主，很快打開市場，後來也擴展到餐廳和飯店等業務用途。"
+          },
+          {
+            "heading": "300 日圓杯子留下的教訓",
+            "body": "ARAS 之前，他們開發過「ゆらぎタンブラー」，雖然得到星野集團採用，評價很好，但每個 300 日圓的價格無法帶來足夠營收。這次經驗直接改變了 ARAS 的做法：訂出合理價格，各部門找來專業人才，建立行銷體制，把顧客的聲音反映到產品，並持續投資宣傳。最後 ARAS 占公司營收七成以上。這段是全文對顧問最有用的地方：好產品要有對應的商業結構才能成立。"
+          },
+          {
+            "heading": "品牌也改變了工廠裡的分工",
+            "body": "石川勤說，這份價值不只傳到顧客那邊，也傳到職人身上。因為是自有品牌，他們可以從設計階段就規劃哪些工序用機器人提高效率，哪些工序留給人手。代工時只能照別人的規格做，有了品牌才有這個決定權。文章也提到，他們已經取得 40 件以上的設計權，防止仿冒傷害品牌與產地信任，同時增加海外談判的籌碼。",
+            "quote_ja": "職人の仕事の価値を残し、高めることができるのです",
+            "quote_zh": "這樣就能保留職人工作的價值，並進一步提升它。"
+          },
+          {
+            "heading": "下一步：連飲食文化一起賣，把人帶回產地",
+            "body": "海外營收目前只占幾個百分點，但新工廠即將完工，正準備全面拓展海外。他們的策略是連飲食文化一起賣，因為海外客人會問為什麼在日本、為什麼在山中製造。因此他們仔細說明品牌由來和加賀、山中的歷史，也希望一併推廣山中漆器和九谷燒。具體行動包括與海外代理商規劃產業觀光和工藝產地套裝行程，以多語言、多幣別的跨境電商為主軸，並在舊金山和香港推展。文章把他的海外策略歸納為重視信任勝過效率。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "daily_summary": "今天 Product 圈最值得看的是 NN/g 的提醒：AI 原生開發藍圖只把 UX 當成餵給 AI 的背景資料，卻沒留位置給研究和評估，所以設計師要主動認領判斷權。Brand 這邊，Trustpilot 和 White & Case 兩個大案都在示範同一招：把品牌最核心的東西拆成一套系統，而不只是換一個 logo，接品牌案時很可以拿來當提案參考。",
     "jenny_wen": {
@@ -1793,198 +1965,6 @@
           }
         ],
         "cover_image": "https://tv-tokyo.imgix.net/txcms/media/plus_content/61/bc/02a57823a8f6aefeff50146c0295.jpg?auto=format,compress"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-22",
-    "daily_summary": "今天 Product 圈一直在問同一件事：AI 讓「做出來」幾乎免費，但「判斷好不好」沒有變便宜，創業者和設計師都得重新證明自己的價值在哪。Brand 圈則出現兩個有趣的方向：Apple Music 真的用聲音「塑形」出新 logo，製作公司 To Be Formed 乾脆把混亂做進識別。品牌經營案例今天看北海道老店サザエ食品，西澤明洋怎麼陪它把商品砍到剩三分之二，只守住おはぎ和おむすび。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "A founder with a tool is not a founder with a clue",
-          "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "作者 Dan Maccarone 反駁創投圈正流行的說法：「創業者自己用 AI 做不出產品就不該創業，找設計公司或外包代表你不懂自己的產品」。他的核心論點是 AI 讓「做出東西」的成本趨近零，但「判斷做得好不好」的成本一點也沒降，週末 vibe-code 出一個 app，只證明你很會週末 vibe-code。他引用研究指出，單人創辦人只有在本身具備深厚產品打造經驗時，才能跟團隊打平；並用自己 1999 年在 iXL 把 40 人專案砍成 8 位專精者、反而順利上線的經驗，說明小而專的團隊才是解法。對工作室的啟發：AI 時代客戶不缺「做出來」的能力，我們真正要賣的是判斷力，提案時要把這件事講清楚。"
-        },
-        {
-          "title": "AI doesn’t care about your job title",
-          "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 認為 AI 對你的衝擊取決於每週實際在做的任務，而不是職稱。他引用 OpenAI 與賓州大學的研究：80% 的美國工作者至少有一成任務會受影響，19% 至少一半。判斷方法很實用：一項任務如果能用兩句話說清楚、而且檢查比做還快，就是高曝險。他建議列出一週內超過 30 分鐘的任務逐項打分，每週把一小時從高曝險任務挪到決策、利害關係人溝通或接觸使用者，並把作品集案例改寫成「我做了哪些取捨」而不是「我畫了什麼」。"
-        },
-        {
-          "title": "The Trust Gap: Why AI Adoption Will Be Won or Lost on How Systems Signal Uncertainty",
-          "url": "https://medium.com/design-bootcamp/the-trust-gap-why-ai-adoption-will-be-won-or-lost-on-how-systems-signal-uncertainty-9a7db2c0c06e",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "有 22 年企業產品設計經驗的作者指出，AI 產出最大的問題不是會錯，而是「每句話看起來都一樣可信」，讓使用者找不到懷疑的施力點。他舉例：團隊拿 AI 合成的 persona 問卷開會，格式看起來像真研究，大家直接跳到決策，幾週後訪談真人才發現漏掉的重點。他區分兩種信任結構：企業用戶要能追溯資料從哪來，一般消費者則看來源權威，同一套信心呈現無法同時滿足兩者。他主張「信心 UI」應該成為獨立的設計功課，而且歐盟 AI 法第 50 條已要求 AI 生成內容必須清楚標示，不能藏在頁尾。"
-        },
-        {
-          "title": "Claude Duet is beautiful. I still forgot to use it",
-          "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
-          "source": "Lenny's Newsletter（How I AI）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "How I AI 主持人 Claire Vo 實測 Anthropic 新推的個人代理 Claude Duet，用它處理信箱、Slack、業務 pipeline、簡報，甚至幫小孩找球賽門票。她說這是看過最精緻的代理產品，入門流程、任務清單、頻道設計都很好，但用了一陣子還是忘了打開它。原因是 Duet 從不主動找她、回應延遲讓即時協作很煩，也還沒有桌面版和多人協作。給設計師的提醒：精緻只是門檻，主動性和速度才決定使用者會不會回來。"
-        },
-        {
-          "title": "Design v ADHD",
-          "url": "https://uxdesign.cc/design-vs-adhd-4411c3b81d1b",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者 Kristian Mikhel 是研究無障礙的博士生，本身也有 ADHD。他認為常見的「ADHD 友善設計」建議，例如減少雜訊、簡化資訊架構，根本沒碰到問題核心；真正的問題是整個網路被靠搶注意力賺錢的商業模式塑造，他從 1990 年代彈出式廣告的發明一路講起。他指出只要成長優先於照顧使用者，無障礙就會永遠被放在 backlog 最底層。對設計師的啟發：替神經多樣性使用者設計不只是調整介面，而是要敢挑戰產品背後的商業誘因。"
-        }
-      ],
-      "buzz": "這兩天的文章幾乎都在講 AI 之後「人還剩什麼」：答案不是職稱，而是判斷力，也就是知道該不該做、哪裡不對、什麼時候該懷疑 AI。另一條線是 AI 產品本身怎麼設計：代理太被動會被遺忘，信心一律滿格會讓人無從懷疑，「讓人知道 AI 有多確定」正在變成一門新的設計功課。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Apple Music unveils new design rebrand, with logo ‘made by sound’",
-          "url": "https://9to5mac.com/2026/10/21/apple-music-unveils-new-design-rebrand-with-logo-made-by-sound",
-          "source": "9to5Mac",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Apple 10 月 21 日正式發表 Apple Music 新識別，主軸是「made by sound」：新 logo 不是在電腦上畫的，而是請 Fred again.. 和 NEST Acoustics 做了一段原創音樂，用聲音實際塑形，全程用攝影機實拍。這延續了 2025 年 11 月 Apple TV 改版的實拍手法，Apple 自己的總結是「just music, made visible」，新面貌會隨 iOS 27.2 上線。值得看的是品牌怎麼把「服務本身是什麼」直接變成生成視覺的方法，而不是另外找一個象徵物來代表它。"
-        },
-        {
-          "title": "The brand for Lance Oppenheim’s production company has chaos built in",
-          "url": "https://www.itsnicethat.com/articles/tbf-day-job-graphic-design-project-211026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "洛杉磯工作室 Day Job 替導演 Lance Oppenheim 的製作公司 To Be Formed 做識別。Oppenheim 的作品遊走在虛構與紀實之間，Day Job 共同創辦人 Rion Harmon 說目標是做出「說不清楚是什麼」的東西。主字標混用粗重字形和粗細、x 高度都不一的書法字母，看起來像還在成形；團隊另外做了約 20 個副字標，有些在諷刺企業媒體文化，網站則用每部片的紀念物當導覽。連公司名都是原本的暫定名，因為像他的片沒有固定劇本就留下來了；Harmon 認為把混亂做進識別裡，持續變化的表現本身就會成為品牌資產。"
-        },
-        {
-          "title": "Rosemaund brings a Guy Ritchie flavour to English whisky",
-          "url": "https://www.creativereview.co.uk/rosemaund-english-whisky-branding-guy-ritchie-the-gentlemen/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國 Herefordshire 的 Rosemaund 蒸餾廠推出英格蘭單一麥芽威士忌，背後是 Tyrrells 洋芋片和 Chase 蒸餾廠的創辦人，Guy Ritchie 的 Netflix 影集《The Gentlemen》裡也出現這個品牌。識別由內部團隊操刀，方向是「讓品牌只可能來自這裡」：字標和字體系統取自蒸餾廠建築的比例，玫瑰徽章呼應英格蘭傳統，色彩取自紅土、綠地和蘋果園，標籤用蘋果廢料製成。發表時機剛好碰上英格蘭威士忌取得地理標示保護，策略是建立英格蘭自己的身分，而不是模仿蘇格蘭威士忌。"
-        },
-        {
-          "title": "Why self-publishing pays off: No Ideas studio on the journey behind building their own imprint",
-          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-no-ideas-201026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "布魯克林設計工作室 No Ideas 在 Nicer Tuesdays 分享兩本代表作：Erik Carter 的《Design Harder》和 Figma 2026 Config 特刊。重點是他們冒險成立自己的出版品牌 Book Ideas，結果反而帶來更大的案子，也讓工作室直接擁有自己的讀者。創辦人 Philip DiBello 的總結是「If you build it, they will come」。文章沒有提供營收或印量數字，但對工作室是很清楚的訊號：自己發起的作品，可以變成接案的入口。"
-        },
-        {
-          "title": "Anime and the future of creativity",
-          "url": "https://www.creativereview.co.uk/anime-creativity-ai-territory-design/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Territory Studio 藝術總監 Erich Nemcek 從日本動畫的「作畫」（sakuga）文化切入：粉絲能從動作認出是哪位原畫師，還會逐格討論場景，就像影迷討論攝影師。他的論點是最讓人記住的作品通常不是最貴、最精緻的，而是有「活著的感覺」的瞬間，例如一個變形的表情或一個怪異又具體的動作，並以宮崎駿《起風了》為例。在自動化越來越主導創作的時候，他認為人手的存在可能比以往更重要；放到品牌設計上，就是獨特的手感細節會越來越值錢。"
-        }
-      ],
-      "buzz": "Brand 圈今天的作品都在找只屬於自己的來源：Apple Music 讓真實的聲音塑形 logo，Rosemaund 威士忌從蒸餾廠建築長出字體，To Be Formed 從「名字還沒定」的狀態長出一套會變的識別。另一個聲音是，在 AI 量產的時代，看得見人手的痕跡反而更值錢，工作室自己出書、經營讀者也成了接大案的方法。"
-    },
-    "highlights": {
-      "summary": [
-        "「判斷好不好」沒有變便宜",
-        "把混亂做進識別",
-        "把商品砍到剩三分之二"
-      ],
-      "product": [
-        "答案不是職稱，而是判斷力",
-        "「讓人知道 AI 有多確定」正在變成一門新的設計功課"
-      ],
-      "brand": [
-        "只屬於自己的來源",
-        "看得見人手的痕跡反而更值錢"
-      ]
-    },
-    "brand_cases": [
-      {
-        "title": "ブランドとしての「約束と生き様」を決めた2年間のリブランディングプロジェクト",
-        "title_zh": "決定品牌「承諾與生存姿態」的兩年品牌再造計畫",
-        "url": "https://www.sazae.co.jp/specialty/interview/rebrandingproject/",
-        "source": "サザエ食品「つくり手の想い」",
-        "lang": "日文",
-        "published": "2024",
-        "category": "盤點整理",
-        "brand_name": "サザエ食品（北海道おはぎ・おむすび老店）",
-        "consultant": "西澤明洋（エイトブランディングデザイン）",
-        "partial": false,
-        "story": {
-          "problem": "サザエ食品是北海道做おはぎ（萩餅）、おむすび（飯糰）等和菓子與熟食的老店，東西好吃，但商品線越拉越廣，在設計上跟超市裡的其他商品看不出差別。2020 年剛上任不久的社長石水創覺得，公司缺少「會讓人想轉述給別人聽」的品牌概念和策略。",
-          "approach": "石水創因為認同西澤明洋書裡「品牌是傳話遊戲」這句話而找上他，雙方花約 2 年，從經營策略一路做到商品企畫、品牌概念、logo、店面和網站。第一刀是砍商品：西澤指出品項太廣，社長先平等地聽員工意見，確認大家也覺得太雜，才決定只守住おはぎ和おむすび兩根主軸，品項縮到原本約三分之二。概念「手のひらに、想いをのせて。」很快定案；logo 則選了連西澤都反問「真的要這個嗎」的大膽幾何設計，社內意見分歧時，由社長親自說明「非變不可」後拍板。",
-          "result": "2024 年 10 月底發表創業以來第一次品牌再造。店面統一基調色、重調照明，陳列只聚焦兩大主力，西澤表示店面改造已實際帶動業績；同時推出經過 3 次試賣的スティックおはぎ（棒狀萩餅），赤飯也改用自家小豆煮汁上色、拿掉色素。",
-          "takeaway": "第一，品牌再造的第一刀常常是商品收斂，而且讓老闆先聽員工的聲音，砍品項才有內部共識。第二，顧問提出大膽方案時，要問清楚「你真的要嗎」，最後的拍板和對內說服必須由老闆來扛。第三，西澤把發表定位成「起點」並持續陪跑展店，這是把一次性專案變成長期合作的好模式，隅室接案時可以直接把「發表後陪跑」寫進提案。"
-        },
-        "guide": [
-          {
-            "heading": "從一句話開始的委託",
-            "body": "2020 年 2 月，サザエ食品社長石水創在福岡一場經營者會議上第一次見到西澤明洋。讓他決定委託的，是西澤書中「ブランディングは伝言ゲームである」（品牌是一場傳話遊戲）這句話：石水覺得當時的サザエ雖然有好商品，卻沒有一個讓人想轉述給別人聽的品牌概念和策略。西澤第一次在北海道買來吃，驚訝每樣都好吃，但包裝設計跟超市架上其他商品沒有區別，因此判斷這個品牌的潛力很大。專案範圍從經營策略、商品企畫、品牌概念、logo、店面到網站，前後約 2 年，2024 年 10 月底對外發表，是サザエ創業以來第一次品牌再造。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "第一刀：只守住おはぎ和おむすび",
-            "body": "西澤看完整體商品後，第一個意見是「品項拉得太廣了」。石水其實也有同樣的感覺。他當時上任不久，所以刻意用平等的姿態聽員工意見，結果發現很多員工也認為商品太雜。最後決定以おはぎ（萩餅）和おむすび（飯糰）為主軸，其他收斂，品項變成原本約三分之二。西澤形容這是「相當大膽的收斂」；石水則坦言這是一個伴隨營收下滑風險的經營判斷。值得注意的順序是：先決定賣什麼、不賣什麼，後面的概念和設計才有東西可以站。",
-            "quote_ja": "サザエにとって守るべき存在であるおはぎとおむすびの軸だけはぶらさないように、絞り込むことを決めました。",
-            "quote_zh": "我們決定收斂品項，唯獨おはぎ和おむすび這條對サザエ來說必須守住的主軸，絕對不能動搖。",
-            "image": {
-              "url": "https://www.sazae.co.jp/specialty/interview/wp-content/uploads/sites/7/2025/01/taidan_3-900x600.jpg",
-              "caption": "被留下來的核心商品：おはぎ"
-            }
-          },
-          {
-            "heading": "概念是承諾，logo 是旗幟",
-            "body": "商品方向一定下來，品牌概念「手のひらに、想いをのせて。」（把心意放在掌心）很快就成形。因為サザエ是在自家門市現做，「手作的美味」這個方向是自然長出來的，石水再把社內意見彙整進去打磨。西澤把品牌設計理解成「約束と生き様」（承諾與生存姿態）：概念是對外的承諾，logo 則是活出這個承諾時舉起的旗幟。他也觀察到，logo 一旦定案，整個專案的溫度就跟著定了。",
-            "quote_ja": "僕はブランディングデザインとは「約束と生き様」だと思っていて、コンセプトはブランドとしての約束を示すものであり、ロゴデザインは生き様を示していく上での旗印となる存在だと考えています。",
-            "quote_zh": "我認為品牌設計就是「承諾與生存姿態」：概念代表品牌的承諾，logo 則是展現生存姿態時的旗幟。"
-          },
-          {
-            "heading": "連顧問都反問「真的要嗎」的 logo",
-            "body": "最後選出的 logo 非常大膽，大膽到西澤本人都回頭確認「真的可以嗎？」社內意見也分成兩派，石水向員工說明「我們非改變不可」之後拍板，他事後回想，如果沒選這個 logo，就不會有現在的品牌再造。這個 logo 只用直線和圓組成，在一片和風收尾的和菓子、熟食品牌裡，刻意表現「創造新東西」的姿態。西澤的設計判斷是：元素削到這麼少的極簡設計不容易被流行淘汰，預期可以用上 10 年、20 年。",
-            "quote_ja": "これだけ要素を削ったミニマルなデザインは時代の流れに左右されないので、今後10年、20年と使っていただけるのではないかと考えています。",
-            "quote_zh": "元素削減到這種程度的極簡設計，不會被時代潮流左右，我想今後可以使用 10 年、20 年。",
-            "image": {
-              "url": "https://www.sazae.co.jp/specialty/interview/wp-content/uploads/sites/7/2025/01/taidan_4-900x600.jpg",
-              "caption": "新 logo「サザエ」"
-            }
-          },
-          {
-            "heading": "讓店面本身變成 logo",
-            "body": "店面陳列只聚焦おはぎ和おむすび，讓整個空間成為 logo 的延伸，西澤表示這已實際反映在業績上。團隊反覆調整照明的色溫和打光角度，讓商品看起來更好吃；原本各店基調色有黑色、紅豆色各不相同，這次全部統一。牆面放上以北海道地形為底、散布商品插畫的作品，刻意不走「老店風」，而是用現代表現傳達北海道代表企業的格調，再搭配 POP 和價格卡統一整體。網站和品牌影片則同時瞄準兩件事：讓更多人認識，以及讓人想來サザエ工作，所以拍攝時請門市和工廠的員工一起入鏡。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://www.sazae.co.jp/specialty/interview/wp-content/uploads/sites/7/2025/01/taidan_7-900x600.jpg",
-              "caption": "店面牆上的品牌插畫，讓整間店成為 logo"
-            }
-          },
-          {
-            "heading": "發表只是起點：新品與文化",
-            "body": "品牌再造後誕生了兩種新品：回歸原點的「とみのおはぎ」，以及發明型的「スティックおはぎ」（棒狀萩餅），後者為了解決製作時間等現場作業問題，做了 3 次試賣才正式上架。北海道的赤飯習慣加甘納豆，是喜慶日子的特別食物文化，石水認為守住它是サザエ的使命，於是把原本使用色素的做法，改成用集團旗下十勝製餡煮小豆剩下的湯汁上色。石水希望在公司裡建立「每年推出一個新品」的文化；西澤則表示會繼續陪跑之後的店面翻新與展店，並把這次專案定位為起點。",
-            "quote_ja": "今回のリブランディングプロジェクトはあくまでスタート地点なので、これからきちんとブランドを育てていくことが重要だと考えています。",
-            "quote_zh": "這次的品牌再造專案終究只是起點，接下來好好培育品牌才是重點。"
-          }
-        ],
-        "cover_image": "https://www.sazae.co.jp/specialty/interview/wp-content/uploads/sites/7/2025/01/taidan_top_pc-900x506.jpg"
       }
     ]
   }
