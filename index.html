@@ -191,6 +191,7 @@
     }
 
     /* ── Buzz Box ── */
+    .empty-note { font-size: 13.5px; color: #888; padding: 4px 2px; }
     .buzz { margin-top: 16px; background: var(--accent-bg); border-radius: 8px; padding: 14px 16px; }
     .buzz-label {
       font-size: 11px; font-weight: 700; letter-spacing: .08em;
@@ -351,6 +352,10 @@
         </div>`;
     });
     html += `</div>`;
+    // 品質不夠就不選，這次沒有文章時給一句說明
+    if (!(product.articles || []).length) {
+      html += `<p class="empty-note">這次沒有夠好的文章，寧缺勿濫。</p>`;
+    }
     if (product.buzz) {
       html += `<div class="buzz"><div class="buzz-label">業界聊什麼</div><p>${product.buzz}</p></div>`;
     }
@@ -380,6 +385,10 @@
         </div>`;
     });
     html += `</div>`;
+    // 品質不夠就不選，這次沒有文章時給一句說明
+    if (!(brand.articles || []).length) {
+      html += `<p class="empty-note">這次沒有夠好的文章，寧缺勿濫。</p>`;
+    }
     if (brand.buzz) {
       html += `<div class="buzz"><div class="buzz-label">業界聊什麼</div><p>${brand.buzz}</p></div>`;
     }
