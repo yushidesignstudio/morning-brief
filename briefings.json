@@ -1,5 +1,179 @@
 [
   {
+    "date": "2026-11-04",
+    "daily_summary": "今天 Product 圈的共同話題是 AI 代理（agent）開始自己動手之後，設計師該守住哪條線：要設計 AI 在哪裡停下來，也發現代理卡關的地方正好暴露了老問題。Brand 這邊兩篇都來自 Koto，一篇點出電動車品牌越長越像、只剩規格可比，一篇示範 Nubank 怎麼在擴張時刻意不加東西，對隅室提案時講「為什麼要不一樣」很有用。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Everyone is building AI agents. Who’s designing the stop button?",
+          "url": "https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者 Michał Krztoń 指出，AI 每次回答不一樣本身不是問題，問題是當回答變成「動作」（訂貨、改客戶資料、寄信給 4,000 人）時，沒有人決定哪些步驟可以不確定。他引用 Thinking Machines Lab 的實驗：同一個 prompt、溫度設 0 跑 1,000 次，仍得到 80 種結果；又引用 Stanford AI Index，88% 企業在用 AI，但真正讓 agent 跑業務流程的仍是個位數。文章主張設計師的新工作是畫出「AI 自主的邊界」：哪裡可以讓它自由發揮、哪裡必須是固定規則、哪裡要停下來讓人確認。幫客戶做 AI 功能時，可以直接拿這個框架當 workshop 的討論題。"
+        },
+        {
+          "title": "Agents struggle with the same bad UX we do",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Stephen Patterson 在做「代替人操作網站」的 agent，看過上千次執行後發現：agent 卡住的地方幾乎都是人也會卡的地方，只是人會猜、會亂點、會問同事，把設計債默默吸收掉了。他整理出 5 種卡點：只有內行人懂的按鈕標籤、藏起來的狀態（hover 才出現的選單、沒說原因的 disabled 按鈕）、突然跳出的彈窗、會過期的 session、成功了卻沒告訴你。這些修法其實就是無障礙設計，形成新的 curb-cut effect。對工作室來說，這是說服客戶做可用性與無障礙改善的新論點：網站以後不只給人用，也要給 AI 用。"
+        },
+        {
+          "title": "I let AI build. I don’t let AI decide.",
+          "url": "https://uxdesign.cc/i-let-ai-build-i-dont-let-ai-decide-b3892a87feb3",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "資深 UX 設計師 Patrick Neeman 分享他的分工原則：不是照「難或簡單」分給 AI，而是看這件事有沒有「外部檢驗」。查資料、寫初稿、做原型、自動化重複工作都有外部檢驗（來源打得開、按鈕點了會動），錯了幾分鐘內就知道，可以交給 AI；論點、取捨、會簽上自己名字的決定沒有外部檢驗，必須自己來。他也引用 BCG 實驗：顧問用 GPT-4 在能力範圍內快 25%、品質高 40%，但超出範圍反而比不用還差。小工作室可以直接借用這把尺，決定哪些交付可以交給 AI 加速。"
+        },
+        {
+          "title": "What I learned teaching AI prototyping at university",
+          "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Jay Aragones 在馬德里理工大學教時尚系學生做 app 原型，這學期把 Figma 換成 Google Stitch、AI Studio、Lovable。學生很快做出「會動的真 app」，但也出現新問題：以為做出來的 app 自帶 AI 魔法、只會丟籠統 prompt、AI 生出的流程跟自己腦中的心智模型對不上。他的解法是要學生先寫清楚每一頁要給使用者看什麼、讓他做什麼，再去 prompt，並重申原型的老規則「fake it, don't make it」。結論是 AI 原型工具讓「想清楚要做什麼」比「怎麼做出來」更重要，跟客戶或新人協作時一樣適用。"
+        },
+        {
+          "title": "One year as the designer at a cybersecurity startup",
+          "url": "https://medium.com/design-bootcamp/one-year-as-the-designer-at-a-cybersecurity-startup-08aed525dc43",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Alexandra Pituru 接手一家做企業登入權限（IAM）的新創，沒有交接、產品又極度技術。工程師用 Claude Code 越做越快，她發現 Figma 設計再交接、來回確認 edge case 的成本比任何專案都高，於是決定直接進程式碼裡設計。她從一個週末做 email 簽名檔學 commit 和 merge request 開始，再一張一張修現有畫面的可用性問題，從工程師幫她 merge 到現在自己負責。這是很具體的「設計師進 code」轉型紀錄，適合想評估工作室要不要往這個方向走時參考。"
+        }
+      ],
+      "buzz": "這兩天大家都在談 AI 代理開始自己動手之後的設計責任：有人主張要先畫出 AI 自主的邊界，有人發現 agent 卡關的地方正好暴露了人類默默吞下的設計債。另一條線是設計師的角色重劃，從「AI 負責動手、人負責決定」到直接進程式碼裡設計，大家都在找新的分工方式。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Koto: We need to talk about how all electric car brands look the same",
+          "url": "https://www.creativeboom.com/insight/is-it-a-problem-that-all-electric-car-brands-all-look-the-same/",
+          "source": "Creative Boom",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Koto 發表一份電動車品牌觀察報告：換電動車的人 96% 下次還會買電動車，但只有約一半會留在同一個品牌，Edmunds 調查更有 85% 願意買沒買過的牌子。原因是技術、介面、規格越來越像，車廠擅長賣「電動車的好處」，卻沒賣好「自己」。Koto 用自家 18 項指標評分，Rivian 銷量第 9 但品牌力第 1，VW 銷量第 3 品牌力卻第 10。報告丟出三個問題：你是車還是電腦？要延續傳統還是重新發明？在 YouTube 評測、口碑、AI 搜尋這些碎片化的接觸點上能不能保持一致？任何「產品越來越像」的產業都能用這三題來診斷品牌。"
+        },
+        {
+          "title": "Nubank unveils global brand refresh by Koto ahead of US launch",
+          "url": "https://www.designweek.co.uk/nubank-unveils-global-brand-refresh-by-koto-ahead-of-us-launch/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "巴西數位銀行 Nubank（1.4 億用戶）進軍美國前，和 Koto 一起翻新品牌系統。關鍵決策是保留原本的 logo 和招牌紫色，只重建周邊系統：擴充色盤、兩款自有字體 Nu Sans Display／Text、第一套全球攝影庫、用 Rive 做動態的插畫庫，連 AI 理財助理的語氣都一起定義，也要能撐住高端子品牌 Ultravioleta 和年輕的 Croma。Koto 創意總監說，品牌變大時的誘惑是一直加規則和素材，他們反其道而行，只留下真正有資產價值的東西。這是「品牌改版不等於換 logo」的好範例，也能拿來跟客戶解釋什麼該留、什麼該動。"
+        }
+      ],
+      "buzz": "這兩天 Brand 圈的焦點落在 Koto 身上：一份報告直指電動車品牌越長越像，消費者只剩價格和規格可比；另一個 Nubank 案例則示範擴張時刻意不加東西，保留有價值的資產再重建系統。兩篇放在一起看，主題都是同一件事：品牌的辨識度要靠取捨，不是靠堆素材。"
+    },
+    "highlights": {
+      "summary": [
+        "要設計 AI 在哪裡停下來",
+        "代理卡關的地方正好暴露了老問題",
+        "擴張時刻意不加東西"
+      ],
+      "product": [
+        "先畫出 AI 自主的邊界",
+        "人類默默吞下的設計債",
+        "直接進程式碼裡設計"
+      ],
+      "brand": [
+        "電動車品牌越長越像",
+        "保留有價值的資產再重建系統",
+        "品牌的辨識度要靠取捨"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "中川政七商店が考える、日本の工芸が100年先も生き残る道とは？",
+        "title_zh": "中川政七商店怎麼想：日本工藝要怎麼再活 100 年？",
+        "url": "https://www.itmedia.co.jp/business/articles/1607/20/news023.html",
+        "source": "ITmedia ビジネスオンライン",
+        "lang": "日文",
+        "published": "2016-07",
+        "category": "現況診斷",
+        "brand_name": "中川政七商店（奈良三百年麻織品老店，兼工藝廠商顧問）",
+        "consultant": "中川淳（第 13 代中川政七）",
+        "partial": false,
+        "cover_image": "https://image.itmedia.co.jp/business/articles/1607/20/l_porter01_mf.jpg",
+        "story": {
+          "problem": "中川淳 2002 年從富士通回到家業時，雜貨部門是赤字，公司沒有願景也沒有社是，主力生意是批發，門市只是展示間，消費者只覺得是「賣日式東西的雜貨店」。整個日本工藝市場在 1990 到 2005 年間從 5,000 億日圓、2.6 萬家縮到 1,900 億日圓、1.3 萬家，每年都有工坊來打招呼說要收掉。",
+          "approach": "他先自己決定轉做製造零售（SPA），理由是商品本身能傳達的有限，要由自家店員把製造背景和企劃意圖講給客人聽，交給別人賣就無法掌控。接著用 will／can／must 三個圈的交集定出「讓日本工藝變得有活力」的願景。替其他工藝廠商做顧問時，他的診斷是問題不在設計，而在這些工坊根本沒有「經營」：過去只是產地批發商底下的製造部門，批發商失靈後突然得自己經營。所以他把顧問定位成「經營的家教」，先教做預算表這種基本功，再做品牌、商品和通路。",
+          "result": "中川淳 2008 年接任社長後，到 2016 年 2 月期營收達 46.8 億日圓，成長超過 10 倍。顧問案大多 1 年內推出商品、約 3 期後做出成果；マルヒロ 爆紅後連續 5 年以上營收沒掉。",
+          "takeaway": "接品牌案前先看客戶「有沒有在經營」：預算、賣得好的商品有沒有優先生產，這些不對，再好的設計也救不了。中川淳會在客戶不照做時主動退出，隅室也可以在合約裡寫清楚雙方的責任，把「客戶要執行」當成合作前提。"
+        },
+        "guide": [
+          {
+            "heading": "一家 300 年老店的兩條腿",
+            "body": "文章是一橋大學 ICS 大薗恵美教授為「波特獎得獎企業」連載做的訪談。中川政七商店 1716 年在奈良以麻布「奈良晒（奈良曬布）」起家，現在一邊做自有工藝品牌的製造零售，經營「中川政七商店」「遊 中川」「日本市」三種門市；另一邊替各地工藝廠商做顧問，目標是讓產地不靠政府補助也能賺錢。2016 年 2 月期營收 46.8 億日圓，比 2008 年中川淳接任時成長 10 倍以上。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://image.itmedia.co.jp/business/articles/1607/20/porter01_mf.jpg",
+              "caption": "中川政七商店的手帕品牌「motta」"
+            }
+          },
+          {
+            "heading": "沒有計畫的接班",
+            "body": "中川淳坦白說，回家時不只沒有計畫，連家業在做什麼都不太清楚。他在富士通做了 2 年，第一年就當子公司專案的 PM，想去一家「做多少就給多少位子」的小公司。剛好家裡在東京開了第一家「遊 中川」，感覺在成長，就決定轉職，結果父親一句「アカン（不行）」反對，他低頭拜託才在 2002 年進公司。大企業的專案管理經驗，後來成為他整頓家業的底子。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "願景從 will／can／must 長出來",
+            "body": "剛進公司時雜貨部門赤字，第一要務是止血。等狀況好轉，他開始思考「為了什麼而工作」，答案是三個圈的交集：will 是作為消費者，工藝消失會很難過；can 是即使不是麻製品，也有辦法讓情況變好；must 是看著工坊一家家來告別，擔心再這樣下去自己也做不出東西。統計也印證這個危機：工藝產值 15 年內少了六成、廠商少了一半。",
+            "quote_ja": "これ以上の目減りを避けるためにも、何とか当社が生き残っていくことがマスト条件だろうと思ったのです。",
+            "quote_zh": "為了不讓產業再縮下去，我認為我們自己先活下來是必要條件。"
+          },
+          {
+            "heading": "為什麼一定要自己開店",
+            "body": "父親的主力是批發，原有的 3 家店只是兼業務據點的展示間，認得這個品牌的人很少。中川淳判斷，不自己做零售就建立不了強品牌，而且這不是賺不賺的問題，是不做就活不下去。他想掌控的是「溝通」：商品本身能說的有限，要由自家店員直接把製造背景和企劃意圖講給客人聽，交給別人賣就失去控制。",
+            "quote_ja": "商品だけで伝えられることは限定的です。",
+            "quote_zh": "單靠商品本身能傳達的東西很有限。",
+            "image": {
+              "url": "https://image.itmedia.co.jp/business/articles/1607/20/porter02_mf.jpg",
+              "caption": "中川政七商店 LUMINE 新宿店的店內陳列"
+            }
+          },
+          {
+            "heading": "診斷：工藝廠商缺的是「經營」",
+            "body": "他觀察到政府常見的支援方式是派名設計師去產地做商品，但幾乎沒有因此重生的公司，因為問題本質不在那裡。過去工坊掛在產地批發商底下，形式上是獨立公司，實際上只是一個製造部門，只要照訂單準時交貨；批發商失靈後，他們突然得自己經營，卻從沒學過。中川政七商店自己以前也一樣：A 商品賣得好，工廠卻一直做 B，理由只是「比較好做」。所以他把顧問服務定位成「經營的家教」，先做預算表這類理所當然的經營，再做新品牌、新商品、跟進通路。",
+            "quote_ja": "問題の本質は、工芸メーカーに「経営」がないことです。",
+            "quote_zh": "問題的本質是，工藝廠商沒有「經營」。"
+          },
+          {
+            "heading": "不挑客戶，但會退出",
+            "body": "被問到顧問案為什麼都成功、是不是只挑會成功的公司，他說不挑：中川政七商店自己也沒有特殊製造技術，所以相信別人沒有獨門技術也做得起來。但既然是家教，說的事就一定要做，這點客戶沒有選擇權；真的有不照做的公司，他們就主動退出。節奏上，進場後先做品牌，通常 1 年內推出商品，3 期左右大部分公司都看得到成果。"
+          },
+          {
+            "heading": "不追觀光客、不賭爆紅",
+            "body": "網路銷售他原本反對，但後來佔營收 6〜7%、客單價高，目標 10%，不過他認為前提是先有實體店。對訪日觀光客，他明確指示「不要特別迎合」，因為那是一時的甜頭；對廠商來說最怕一陣爆紅。マルヒロ（長崎波佐見燒廠商）雖然突然熱賣，但 5 年多營收都沒掉，他就不把它當熱潮。增產要投資但不亂投資，因為工坊要賺到能雇人、能交棒的程度，後繼無人的真正原因是養不起人，不是沒人想做。"
+          },
+          {
+            "heading": "在每個產地做出「一番星」",
+            "body": "下一步是在每個產地做出像マルヒロ 那樣的「一番星（第一顆星）」，有了領頭羊，第二、第三家就會跟上，整個產地被拉起來。他也重視「旅行」：新潟燕三條的「工場の祭典」吸引數萬人，看過製造現場的人都會買東西。但光有漂亮工坊只會吸引狂熱者，還要有在地餐廳和好旅館，廠商有責任一起把環境做出來。如果 100 年後日本約 300 個產地都還活著，就會成為真正的「工藝大國」。",
+            "quote_ja": "",
+            "quote_zh": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "daily_summary": "今天 Product 圈的主線是 AI 背後看不見的東西怎麼設計：Taras Bakusevych 談費用該在什麼時機讓人看見，Pekka Puhakka 則用一顆 260 種變體的按鈕，說明設計系統真正該保存的是判斷。Brand 這邊最值得工作室看的是 HOW+HOW：把多年給客戶的建議用在自己身上，連官網都為 AI 搜尋重做，很適合拿來檢視隅室自己的門面。",
     "jenny_wen": {
@@ -1762,209 +1936,6 @@
             "body": "經過反覆嘗試，規範讀書會開始吸引跨部門成員參加，大家感覺終於能脫離「憑感覺」的作法。有人說接手公關時原本沒有規則、很迷惘，現在字體和顏色整理好了，有了判斷依據；也有人說新制度和招募進行中，全公司語氣一致，對求職者更有說服力；還有人說，大家開始覺得規範不是被迫遵守，而是一起共創的東西。除了配色優先順序這類技術規則，「神戸屋＝誠實，再加上玩心和洗鍊」這種質性的意識，也逐漸成為員工的共同語言。顧問最後的結論是：只做出完美的設計系統沒有意義，重要的是保住該守的一致性，同時留下現場能挑戰的彈性，讓組織遇到迷惘時有地方回頭看、能自己跑下去。下一篇會談企業品牌的全貌和「神戸屋キッチン」的改版。"
           }
         ]
-      }
-    ]
-  },
-  {
-    "date": "2026-10-23",
-    "daily_summary": "今天兩邊都在問同一件事：AI 讓「做出來」變得很便宜，那真正值錢的是什麼？Product 圈開始算 AI 自建工具的維護帳，Brand 圈則提醒工作室要分清楚哪些可以交給 AI 量產、哪些必須由人親手決定。對隅室來說，現在正是把「人來拍板、AI 來延伸」寫進服務流程的好時機。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
-          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 主張「要買現成工具還是自己做」不再只是 PM 和財務的事，設計師應該在決策前就上桌。他算了一筆帳：兩個人花兩週用 AI 做內部工具約 2.4 萬美元，每年再抓 30% 維護費，三年下來要 4.56 萬，比 25 人份的訂閱（1.8 萬）貴得多，而且沒有客服。買現成的則是連同對方的資料模型、改版節奏一起帶進來。他建議別問哪個便宜，而是問「複雜度最後落在誰身上」：自己的程式碼、廠商的 roadmap，還是使用者。實際做法是挑一個真實任務，跨系統走一遍，記下每次切換和重打資料的次數。"
-        },
-        {
-          "title": "How to put your design system to work with the Figma agent",
-          "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Figma 教你怎麼讓 AI agent 做出「像你們品牌」的畫面，而不是通用模板。步驟是：先在 agent 對話框連上已發布的元件庫，讓它用既有元件、token 和變數；用 @ 指定要換的元件；在元件庫裡寫下團隊規則（例如「下單」按鈕一律用主要樣式），agent 會照著做；再放一頁「Examples」完整設計稿當示範。重複的流程（像設計系統稽核）可以包成 skill 用斜線指令叫出來。對工作室來說，交付給客戶的設計系統，未來也要考慮「AI 讀不讀得懂」。"
-        },
-        {
-          "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
-          "url": "https://www.figma.com/blog/lufthansa-figma-make/",
-          "source": "Figma Blog",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Lufthansa Systems 做的是飛行員在駕駛艙用的 iPad 航圖 app，動態地圖過去用 Sketch、XD、Framer 都很難做原型。首席產品設計師在內部黑客松用 Figma Make 串上 Mapbox 地圖和 OpenSky 即時航班資料，直接做出可以縮放、飛機起飛會變色的原型，完全不用碰正式的 SwiftUI 程式碼。飛行員一看就懂，團隊也能在工程開發前反覆找領域專家測試。設計主管補充：工具再強，深厚的領域知識和固定接觸使用者一樣重要。"
-        },
-        {
-          "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
-          "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NN/g 拿 120 個 AI 合成受訪者和 604 位真人回答同一題，結論方向一樣，但 AI 的答案很「平」：真人給出 50 多種說法，AI 只集中在十來種。更危險的是群體差異被抹平，AI 扮演的 PM 有 93% 用 UX 相關詞，真人 PM 只有 44%。建議把合成使用者當成發想假設的工具，要找少見反應、意外用詞或分眾差異時一定要找真人。UX Collective 10/20 的〈Let AI have the average user〉也接著這份研究談：平均值交給 AI，使用者「狀況不好的那天」才是研究員該花力氣的地方。"
-        },
-        {
-          "title": "How AI has exposed the cracks in the creative industry",
-          "url": "https://www.creativereview.co.uk/ai-exposed-cracks-creative-industry-mike-teevee-report/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "作者根據 MikeTeevee《Brand Perspectives 2026》對品牌端創意主管的訪談，主張別把創意產業的問題都怪到 AI 頭上。產量壓力、流程磨掉好點子、沒空培養創意判斷力，這些早在 AI 之前就存在，是產業長期把速度和量放在原創之前的結果；社群演算法又獎勵熟悉的套路，造成「演算法單一文化」。AI 只是把這股追求效率的力道放大。文章以質性觀察為主、缺少硬數據，但對小工作室是個提醒：先檢查自己有沒有被「求快求多」綁架，替判斷力留時間。"
-        }
-      ],
-      "buzz": "這兩天 Product 圈的關鍵字是「AI 讓東西變便宜之後，帳要怎麼算」：自建工具看似一個下午的事，維護成本卻沒人編列；合成使用者給得出結論，卻給不出意外。另一條線是把設計系統和真實資料餵給 AI，讓原型更早、更貼近真實情境地被測試。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Surge or authorship: which studio are you building?",
-          "url": "https://www.designweek.co.uk/surge-or-authorship-which-studio-are-you-building/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Paul Melcher 說每間用生成式工具的工作室，其實都在默默選邊：走「量產」路線，讓 AI 生成大量素材，力氣全花在審稿；或走「作者」路線，產量不變，概念、影像、版面都由人決定，AI 只做縮放、修圖、翻譯等製作工作。量產的問題是生產成本趨近零、審核成本不變，最後變成資淺的人在審幾百張圖，錯的 logo 就這樣上線。作者路線的問題是「什麼算創意」的界線會被軟體更新一直往前推。他的建議是「母版由人創作、衍生版交給機器」，並在工具裡鎖死 logo 等欄位，界定 AI 只能改編、不能原創。"
-        },
-        {
-          "title": "Does brand design have a longevity problem?",
-          "url": "https://www.designweek.co.uk/does-brand-design-have-a-longevity-problem/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Bud Rodecker 從 HBO Max 改名 Max、Jaguar 丟掉躍豹談起，擔心品牌設計正在被當成用完即丟的東西：為了搶上線當天的注目追逐新奇，結果大家長得越來越像。他長期幫百年機構做識別，認為成功的標準是十年後還在用。對照 JKR 幫 Coca-Cola 的翻新，保留字體和紅色、重新整理成系統。他給出六條原則：建立在原則而非潮流上、設計系統而非單件作品、留演化空間、清楚勝過新奇、投資字體比例等耐用元素、在一致與時效間取平衡。"
-        },
-        {
-          "title": "The Body Shop returns the Pod to its packaging",
-          "url": "https://www.designweek.co.uk/the-body-shop-returns-the-pod-to-its-packaging/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "The Body Shop 重推 1992 年起賣的招牌身體霜系列，Together Design London 從品牌歷史裡挖回「Pod」這個種莢圖形，從配角升格成整個包裝系統的核心，放在源自創辦人第一家店的品牌綠上。Pod 裡面放插畫家 Sally Caulwell 色彩濃烈的成分插畫，讓每款香味有自己的個性。最大挑戰是要撐起格式、品名、成分都不同的龐大產品線。這是一個「從自家資產找答案」的好案例：先問品牌已經有什麼值得再被看見。"
-        },
-        {
-          "title": "Studio Herrström draws on car culture and carton typography for Milkshake rebrand",
-          "url": "https://www.itsnicethat.com/articles/studio-herrstrom-milkshake-graphic-design-201026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "斯德哥爾摩音樂廠牌 Milkshake（隸屬 Sony Music）隨著另類流行歌手陣容擴大，請維也納的 Studio Herrström 重做識別。設計從廠牌名字的由來切入：這名字是在一趟開車途中想出來的，所以整套視覺借用車窗貼紙的形式，搭配路標感的圖示和 Gates 無襯線字體。色彩保留原本的鮮豔，但往奶昔口味的色調調整，閃電形 logo 傳達能量。Design Week 上週也報導了這個案子，是本週被多方提到的品牌更新。"
-        },
-        {
-          "title": "East Surrey Council reveals in-house brand identity ahead of 2027 launch",
-          "url": "https://www.designweek.co.uk/east-surrey-council-reveals-in-house-brand-identity-ahead-of-2027-launch/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國新成立的 East Surrey Council 沒找外部公司，而是讓各區議會的 6 位內部設計師提案，先用線上問卷問居民「East Surrey 代表什麼」，得出社區、鄉野、水道、歷史等關鍵字。提案收斂到 10 個後匿名交給議員選，並事先引導議員放下個人喜好。最後選出層疊葉片暗示地形、藏著小寫 e 的標誌，主字體用易讀的 Lexend。上線採漸進汰換，招牌和車輛等到該換時才換，不提早丟棄，是公部門品牌很務實的做法。"
-        }
-      ],
-      "buzz": "Brand 圈這兩天在吵「快」的代價：AI 量產讓品牌標準失守，追逐新奇讓識別壽命越來越短。反方向的案例也很多，The Body Shop 把舊圖形找回來當核心，East Surrey 用問卷和漸進汰換讓品牌落地，大家都在回頭珍惜既有的品牌資產。"
-    },
-    "highlights": {
-      "summary": [
-        "真正值錢的是什麼",
-        "人來拍板、AI 來延伸"
-      ],
-      "product": [
-        "帳要怎麼算",
-        "卻給不出意外"
-      ],
-      "brand": [
-        "讓品牌標準失守",
-        "珍惜既有的品牌資產"
-      ]
-    },
-    "brand_cases": [
-      {
-        "title": "リブランディングで企業を元気に！驚きの手法の舞台裏：読んで分かる「カンブリア宮殿」",
-        "title_zh": "用品牌再造讓企業重新振作！令人驚訝的手法幕後：用讀的《カンブリア宮殿》",
-        "url": "https://www.tv-tokyo.co.jp/plus/business/entry/202506/17044.html",
-        "source": "テレ東プラス（カンブリア宮殿）",
-        "lang": "日文",
-        "published": "2025-06",
-        "category": "策略抉擇",
-        "brand_name": "COEDO、ナナズグリーンティー、産泰神社、サザエ食品 等",
-        "consultant": "西澤明洋（エイトブランディングデザイン）",
-        "partial": false,
-        "story": {
-          "problem": "西澤明洋的客戶各有困境：川越的「小江戸ビール」（小江戶啤酒）是觀光伴手禮地啤酒，熱潮退去後啤酒事業轉為虧損；群馬的産泰神社（產泰神社）因少子化參拜人數下滑；北海道サザエ食品（飯糰和萩餅老店，60 家店）客群和員工一起老化。",
-          "approach": "西澤的共通手法是「找出最強的那一點，然後大膽地變」。COEDO 把既有地啤酒全部停賣，從伴手禮轉型成職人釀造的精釀啤酒，六款酒用日本傳統色命名；産泰神社把原本並列的安產、七五三、除厄收斂成只講安產，連社紋、御守都重做；連鎖抹茶店ナナズグリーンティー則以「社外設計部長」的身份伴走，連經營策略和商品企劃一起參與。",
-          "result": "サザエ食品飯糰和萩餅營收增加 2 成；産泰神社網站瀏覽數變 10 倍、收入增約 2 成；牙科器材品牌 SALWAY 有產品訂單變 4 倍；COEDO 從伴手禮地啤酒變成國際得獎的精釀品牌。",
-          "takeaway": "對隅室最有用的是兩件事：第一，品牌再造的關鍵常常是「刪」，敢把舊品項停掉、把訴求收斂到一個點；第二，用「我們是你的設計部」的長期伴走關係，比單次交件更能真正影響經營。連鎖店案例裡「哪些全店統一、哪些可以各店發揮」的分級規則，也很適合直接套用在多店家客戶身上。"
-        },
-        "guide": [
-          {
-            "heading": "什麼是品牌再造？從サザエ食品營收 2 成成長說起",
-            "body": "節目以北海道的サザエ食品開場。這家 1957 年創業、道內 60 家店的老店，招牌是飯糰（人氣第一的「元祖えび天おむすび」334 日圓）和手作萩餅。問題是店裡還是昭和氛圍，客人和員工一起變老。石水創社長聽到「希望讓年輕一代也吃得到」的聲音，於是找上西澤。2024 年 11 月，西澤把 logo 從紅豆色換成有活力的紅色，包裝文字改得更清爽，從塑膠袋到封口膠帶，所有客人看得到的東西全部換掉。結果家庭客和年輕客人變多，飯糰和萩餅營收增加 2 成。文章介紹西澤是エイトブランディングデザイン（Eight Branding Design）代表，做過ヤマサ醤油、キリン生茶、ドトールコーヒー、ユースキン等品牌，下一個案子是「白い恋人」的石屋製菓，正在為 2026 年 12 月上市 50 週年檢討 logo。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://www.tv-tokyo.co.jp/txcms/media/plus_content/70/17/5ab2a18717d7894424fd8c941e4c.jpg",
-              "caption": "サザエ食品統一後的包裝與提袋"
-            }
-          },
-          {
-            "heading": "當客戶的「設計部長」：ナナズグリーンティー",
-            "body": "抹茶、焙茶連鎖咖啡店ナナズグリーンティー（Nana's Green Tea，國內外 80 家以上）由西澤操刀，概念定為「現代的茶室」，logo 改成以茶筅為意象，菜單背景改黑色讓抹茶綠更跳。西澤不只做視覺，還參與經營策略和商品企劃，用的說法是請對方把他們當成公司內部的設計部。這是他和一般設計師最大的不同：從經營角度做設計。",
-            "quote_ja": "『御社のデザイン部長であり、僕らの会社がデザイン部であるように見てください』と言っているんです",
-            "quote_zh": "我會跟客戶說：「請把我當成貴公司的設計部長，把我們公司當成你們的設計部。」"
-          },
-          {
-            "heading": "加盟店的分級規則：統一什麼、放手什麼",
-            "body": "面對加盟展店，西澤訂出一套規則：logo 等核心全店統一；杯子設計可以小幅調整；店內裝潢可以大幅改變。例如浦安市イクスピアリ店用天花板垂掛的蕾絲做出光影濃淡表現「侘寂」，又因為鄰近主題樂園設了兒童區。80 多家店他一家一家監修，做出「有統一感、又各有個性」的連鎖。代表朽網一人評價，西澤幫他們建立了能加速展店的規則。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "收斂到一個強項：産泰神社只講「安產」",
-            "body": "群馬縣前橋市的産泰神社以安產、育兒聞名，社殿建於江戶時代，但少子化讓參拜者減少。原本的官網把安產祈願、七五三、除厄並排。西澤把網站重新設計成只講安產，標語是「泰（やす）らかに産み、育てる」（安心地生、安心地養）；把歷史悠久的社紋改成圓潤柔和、以孕婦為對象的樣子；停掉在其他神社也買得到的通用御守，改做安產專屬的原創御守。結果網站瀏覽數變 10 倍，參拜者增加，收入成長約 2 成。神社方坦言找設計師是一場冒險，但認為要把神社傳承下去就必須改變。",
-            "quote_ja": "神社でデザイナーさんを入れることはなかなか冒険でした",
-            "quote_zh": "神社請設計師進來，其實是相當大的冒險。",
-            "image": {
-              "url": "https://www.tv-tokyo.co.jp/txcms/media/plus_content/98/b3/47c2182d3bf0b8efff207f5709ee.jpg",
-              "caption": "産泰神社改成圓潤柔和的新社紋"
-            }
-          },
-          {
-            "heading": "COEDO：把所有舊商品停掉的大膽決定",
-            "body": "西澤的起點是 COEDO。原本的「小江戸ビール」是賣給觀光客的伴手禮地啤酒，地啤酒熱退燒後啤酒事業陷入赤字。朝霧重治社長經大學恩師介紹找上剛獨立、毫無實績的西澤，一聊覺得想法契合，當場決定合作。他們做出的決定是把既有地啤酒品項全部停賣，從「伴手禮」轉向「職人講究釀造的精釀啤酒」，社長的目標是開創一個新市場並在其中站穩位置，一開始就把世界市場放進視野。西澤以社長的想法為基礎推進，六款酒標採用日本傳統色，命名為「瑠璃」「紅赤」等，瓶型也選用當時少見的形狀來表現新意。",
-            "quote_ja": "地ビールではなく、人間起点のクラフトビールというマーケットを新しくつくっていく。",
-            "quote_zh": "不是地啤酒，而是要從零打造一個「以人為起點的精釀啤酒」市場。",
-            "image": {
-              "url": "https://www.tv-tokyo.co.jp/txcms/media/plus_content/a5/c7/73ea6fe86e42f6890c30a573f6f0.jpg",
-              "caption": "COEDO 啤酒，6 種口味以標籤顏色區分"
-            }
-          },
-          {
-            "heading": "現場的不安，與設計師的定位",
-            "body": "大改造讓釀造現場的職人很困惑：一直以來做的東西要怎麼翻新？外觀一變，客人的印象也會變。社長則是抱著「只能堅決做下去」的決心推進。西澤對自己的定位是「把經營者腦中的想法具體化的專家」，而不是自己想做什麼就做什麼。最後小江戸ビール變成在世界獲得肯定、連超市都買得到的 COEDO。文章沒有提供 COEDO 的營收或銷量數字。",
-            "quote_ja": "経営者の考えていることを具現化するプロでいようと。",
-            "quote_zh": "我要當一個把經營者的想法具體實現的專業者。"
-          },
-          {
-            "heading": "醫療器材也能品牌化：SALWAY",
-            "body": "群馬的石原総合歯科医院有一批在後台清洗、滅菌、重複使用的器材。西澤把這些道具統整成「SALWAY」一個品牌，原本一個產品一本的型錄合成一本，官網也新增 SALWAY 分類重新整理。結果有產品訂單變成 4 倍。副院長說設計時髦又有統一感，讓人更信任；經銷商業務則說因為更好懂，每個產品的說明時間縮短，業務效率提高。這個案例說明品牌化不只是好看，也能直接降低銷售溝通成本。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "村上龍的編後記：獨立設計師的起點",
-            "body": "主持人村上龍說，一開始不太懂什麼是品牌設計，和西澤聊過之後才有具體畫面。西澤 1976 年生於滋賀，京都工藝纖維大學研究所畢業後進入東芝，2004 年離職、2006 年成立公司前身。獨立後完全不跑業務，從 COEDO 的設計開始接案。被問到獨立最大的難關，他認為資金或許是最大的牆，但找成功的設計師當標竿、以及擁有什麼都能商量的導師也同樣重要。對同樣是獨立工作室的隅室來說，這段很有共鳴。",
-            "quote_ja": "",
-            "quote_zh": ""
-          }
-        ],
-        "cover_image": "https://tv-tokyo.imgix.net/txcms/media/plus_content/61/bc/02a57823a8f6aefeff50146c0295.jpg?auto=format,compress"
       }
     ]
   }
