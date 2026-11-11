@@ -1,5 +1,189 @@
 [
   {
+    "date": "2026-11-11",
+    "daily_summary": "今天 Product 圈在拆解 AI 原型的真相：接上設計系統不等於用了真元件，AI 做出來的只是一份「很像的複本」；也有人提醒職位正在合併，設計師的身分感會先被挑戰。Brand 這邊最值得讀的是 White Space 創辦人談把公司做倒再重來，財務紀律和慷慨對待團隊，對經營工作室很受用。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "summary": "Google Gemini 產品負責人 Tulsee Doshi 談前沿 AI 模型怎麼做：一半是工程、一半是手感，量化評測（eval）和主觀的「感覺對不對」都要顧。她分享 60-20-20 的資源分配法（現在能用的、快要能用的、更遠的探索），也示範怎麼寫第一個 eval。完整筆記在付費牆後，公開部分沒有直接談設計，但對做 AI 產品的設計師來說，「判斷輸出品質」正在變成核心能力。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
+          "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "作者 Christine Vallaure 發現很多團隊把設計系統接上 AI builder，做出來的畫面主管很滿意，工程師打開程式碼卻只能整個重寫：因為這些工具是「讀了你的設計系統再自己做一份」，元件根本不是真的。她實測 Claude Design，按鈕的屬性和 token 都對，但底層換掉、型別消失，工具自己也寫明這是「給設計和原型用的重製版」。解法不是更好的 prompt，而是兩樣東西：一份從程式碼自動產生、列出每個元件屬性與預設值的清單（manifest），加上讓 AI 隨時查詢的 MCP 連線。她還附了兩段可直接用的提問，讓你檢查任何 AI 工具到底有沒有用真元件；對幫客戶導入 AI 原型流程的工作室很實用。"
+        },
+        {
+          "title": "Your design job is merging with the ones next to it",
+          "url": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者訪問資深產品人 Christian Crumlish，從 90 年代出版社的故事切入：一本書原本要經過打字員、排版、貼版、校對等五種人手，PC 出現後打字員消失，願意轉型的排版師變成一人包辦的桌面排版人員，不願意的就此離場。他認為設計、研究、PM、工程的分工本來就是「配合當時工具的權宜安排」，AI 正在讓這些界線合併，而設計師因為把身分認同綁在「我是做創意的」上，會特別難受。作者自己也親身經歷：同事被裁，供應商合約和資安審查全落到他這個設計主管身上，職稱和薪水都沒變。對設計師的提醒是：想清楚自己真正離不開的是哪一部分工作。"
+        },
+        {
+          "title": "Otherwise you’re just a machine",
+          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "設計主管 Nil Thyrion 說，他寧可看一張畫在紙上的好點子，也不要一個解錯問題的漂亮 vibe-coded 原型，因為前者看得出你怎麼想。他把設計師的底子拆成幾塊：工藝＝知識 × 熟練度（懂很多理論不等於做得好）、品味＝知道「在這裡」什麼是好（借 Loewy 的 MAYA 原則：最先進但還能被接受）、直覺＝還說不出理由的判斷。他特別反駁「還沒做研究不能有想法」的風氣：研究很重要，但要帶著假設去，讓證據挑戰你的判斷，而不是取代你該負的判斷責任。"
+        },
+        {
+          "title": "Specialize in the why, not the how",
+          "url": "https://medium.com/design-bootcamp/specialize-in-the-why-not-the-how-dc2529080664",
+          "source": "Bootcamp（Medium）",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "做很多種東西的創作者，常被問「你到底做什麼」就卡住，作者引用損失規避解釋：選定方向感覺像要丟掉其他技能。她的解法是不以「管道」定位，而以「目的」定位：用 40→20→10→5 字逐步刪減的方法寫出一句話，並整理出三條規則：刪泛用的字、留獨特的字；「誰、處在什麼狀態、想帶來什麼改變」三樣不能刪；動詞決定這句話是空話還是行動。最後她的定位從「激勵創意人」變成「把陷在泥沼裡的創意人拉出來」。工作室寫自我介紹或幫客戶定位都能直接套用這個練習。"
+        },
+        {
+          "title": "Beyond the broken handoff: why the AI era demands the return of the master builder for design",
+          "url": "https://medium.com/design-bootcamp/beyond-the-screen-why-the-era-of-ai-calls-for-systems-first-design-leadership-977e7c5a9230",
+          "source": "Bootcamp（Medium）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者是建築背景出身、後來在 Amazon 做企業 UX 的設計主管。她認為 PM、設計、工程之間的交接斷層不是科技業發明的，而是從商業營建業繼承了 500 年的老問題：設計和施工被切開，沒人看得到整體。AI 讓畫面產出變快，但「空白輸入框讓使用者猜要問什麼」「看不出進度的讀取狀態」這類偷懶設計反而更多。她主張設計領導要回到哥德教堂時代「總營造師」的角色：懂系統、懂技術限制，用機制而不是好意來解決協作問題。"
+        }
+      ],
+      "buzz": "這兩天 Product 圈最大的焦慮是 AI 原型的「最後一哩」：做出來的畫面看起來完成了，其實是一份很像的複本，要靠元件清單和 MCP 才接得回真的設計系統。另一條線是角色重組，職位正在合併，大家開始重新討論設計師的身分、手藝和判斷力，也就是工具變強後人還剩下什麼。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "design/leader: Paul Mabin, creative director of White Space",
+          "url": "https://www.designweek.co.uk/design-leader-paul-mabin-creative-director-of-white-space/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "White Space 創意總監 Paul Mabin 說他的專書會叫「怎麼把成功的公司做倒，再蓋一間更好的」：2013 年他的前一家公司有 15 人、年營收快 100 萬英鎊，帳面漂亮，卻因為沒盯數字、讓客戶主導不合理的付款條件、拖太久不做困難決定而清算。後來和夥伴買下 White Space，他把財務紀律變成每天的功課，並保留健康的現金準備、只接認同的客戶；也因為員工一句「你不像個真正的總經理」，決定和夥伴共同領導、互相當魔鬼代言人。他還談到 AI 造成品牌長得越來越像的隱憂，以及「慷慨對待團隊是投資不是成本」。很適合兩人合夥經營的隅室對照。"
+        },
+        {
+          "title": "Have we maxed out on maxxing?",
+          "url": "https://www.designweek.co.uk/have-we-maxed-out-on-maxxing/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Dictionary.com 把「maxxing」（蛋白質 maxxing、纖維 maxxing…）選為年度字詞，作者從這股「極致優化」風潮看包裝設計：健康類品牌普遍採用實驗室感的視覺語彙，例如粗暴字體、紅綠燈色碼、連續紀錄，把「30g 蛋白質」放在包裝最上層，像 Warburtons 吐司的「Fibre」標示和蛋白棒品牌 David。她認為設計放大了追求完美的壓力，而現在正出現反向訊號：「反優化」、紀律與放縱並存（先上皮拉提斯再去派對）。對做食品、生活品牌的設計師，這是下一波視覺語彙可能轉向的提醒。"
+        },
+        {
+          "title": "Butterfly Cannon reimagines calvados with disruptive Bad Appel brand identity",
+          "url": "https://www.designweek.co.uk/butterfly-cannon-reimagines-calvados-with-disruptive-bad-appel-brand-identity/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "諾曼第蘋果白蘭地（calvados）新品牌 Bad Appel 由 Butterfly Cannon 從策略、命名、包裝一路做到客製瓶型。起點是一個數字：英國只有 35% 成人聽過 calvados，所以品牌刻意不走「餐後慢慢喝的傳統酒」，而是定位成年輕人的調酒基酒，發起「Corrupt the Classics」邀調酒師改編經典調酒。視覺上用亞當夏娃的「純潔與誘惑」當主軸：藥瓶造型、瓶頸直接鑄出一條蛇，古典插畫疊上手寫紅字，讓傳統與叛逆正面衝突。是「品類老、認知低時，故意顛覆品類規則」的清楚示範。"
+        }
+      ],
+      "buzz": "Brand 圈這兩天的話題比較分散：一邊是工作室經營，把財務紀律和團隊文化當成設計公司能活下去的底子；另一邊是品類語彙的反思，健康品牌的優化美學開始讓人疲乏，酒類品牌則示範怎麼故意打破品類規則去接觸年輕人。"
+    },
+    "highlights": {
+      "summary": [
+        "一份「很像的複本」",
+        "設計師的身分感會先被挑戰",
+        "財務紀律和慷慨對待團隊"
+      ],
+      "product": [
+        "AI 原型的「最後一哩」",
+        "元件清單和 MCP",
+        "工具變強後人還剩下什麼"
+      ],
+      "brand": [
+        "財務紀律和團隊文化",
+        "優化美學開始讓人疲乏",
+        "故意打破品類規則"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "和える 矢島里佳 | 中小企業を蘇らせるリブランディングの方法！",
+        "title_zh": "和える矢島里佳｜讓中小企業重新活過來的品牌再造方法",
+        "url": "https://sogyotecho.jp/aeru-yashima-interview/",
+        "source": "創業手帳",
+        "lang": "日文",
+        "published": "2023-05",
+        "category": "定義方向",
+        "brand_name": "マコト眼鏡（AYUMI，福井鯖江眼鏡廠）等",
+        "consultant": "矢島里佳（株式会社和える）",
+        "partial": false,
+        "cover_image": "https://sogyotecho.jp/wp-content/uploads/2023/05/interview-top-2023-05-31T112016.991-1.png",
+        "story": {
+          "problem": "日本中小企業經營者平均年齡約 70 歲，接班迫在眉睫；很多公司東西很好，但沒跟上時代，品牌的哲學也沒被說清楚，全靠老闆一個人，所以傳不下去。福井鯖江的マコト眼鏡長年替大型眼鏡通路做 OEM 代工，社長為了做出反映自家理念的產品，創了自有品牌「歩（AYUMI）」，到了 15 週年想再往前走。",
+          "approach": "矢島不先決定要做 logo 或包裝，而是用「伴走型」對話：先把公司或品牌當成一個人來描述，把它的個性和原點寫成文字。哲學一清楚，和它落差最大的地方就是該先處理的課題；她只挑那個「一解開、其他問題也跟著鬆動」的切入點。因為是對話出發，最後的產出常常和社長一開始想要的不一樣，例如發現該先改招募制度而不是做設計。マコト眼鏡的原點最後被收斂成「眼鏡每天戴，所以要講究好不好戴」。",
+          "result": "品牌哲學變成公司內部的共識後，每個人都能對自有品牌提出意見，2022 年的新款由最年輕的職人主導開發。營收成長到 1.27 倍、經銷店數 1.33 倍，同時經費削減了 75%。",
+          "takeaway": "接品牌案時，不一定要一開始就承諾交付物；先賣「對話與定義」的階段，等課題浮現再決定要不要做設計，對客戶和工作室都比較誠實。把品牌「擬人化」描述、找出理念和現況落差最大的地方，是隅室可以直接放進提案流程的診斷工具。也可以參考她的做法：初次諮詢就用接近正式 session 的提問，讓客戶一小時內就有收穫。"
+        },
+        "guide": [
+          {
+            "heading": "為什麼是她：自己創業，也自己接班",
+            "body": "這篇是創業手帳對「和える（aeru）」創辦人矢島里佳的專訪。和える在 2011 年、她大學四年級時創立，起點是她 19 歲開始全國採訪職人時的疑問：日本明明有這麼多寶物，為什麼大家都說傳統產業在衰退？她的答案是「大家根本沒機會認識」，於是做了「0 歲開始的傳統品牌 aeru」，和全國職人一起做嬰兒也能用的碗和杯子。後來她把重心放在「伴走型リブランディング」（陪跑式品牌再造），幫企業整理原點、讓魅力被看見。特別的是，她同時也在接手母親經營的幼兒律動加盟事業，所以她既是創業者，也是接班當事人，這是她和一般顧問公司、廣告代理商不一樣的地方。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://sogyotecho.jp/wp-content/uploads/2023/05/kijinaka-83.png",
+              "caption": "和える的「0 歲開始的傳統品牌 aeru」：孩子用職人做的漆器、陶碗吃飯"
+            }
+          },
+          {
+            "heading": "中小企業的兩個問題：沒人接、說不清",
+            "body": "矢島點出兩個問題。第一是接班：中小企業經營者平均年齡約 70 歲，沒時間等了。第二是公司有好東西，卻跟不上時代變化，品牌哲學沒有被寫成文字、全靠老闆一個人，所以傳不下去。她認為中小企業倒下不只是經濟問題，因為地方的祭典、扛神轎的年輕人、辦活動的經費，靠的都是在地企業；企業消失，地方文化也會跟著消失。她也鼓勵想做有社會意義的事、但不知道從哪開始的年輕人，可以考慮「接班」這條路。",
+            "quote_ja": "中小企業がなくなるということは、各地の文化が消えることに直結するのです。",
+            "quote_zh": "中小企業消失，就等於各地的文化跟著消失。"
+          },
+          {
+            "heading": "第一步：把公司當成一個人來描述",
+            "body": "被問到品牌再造從哪裡開始，她的回答是「擬人化」。法人是唯一擁有「人格」的非人類存在，但中小企業和老店的人格常常很模糊，或是和社長本人混在一起。所以第一步是把企業或品牌當成一個獨立的人，用文字描述它，回頭看它的原點。思想和哲學一旦清楚，和哲學落差最大的地方就是課題；之後所有措施都沿著這條軸線想，自然就有一致性。",
+            "quote_ja": "思想哲学が明確になることで、それと一番乖離しているところが課題となります",
+            "quote_zh": "思想哲學一旦清楚，和它落差最大的地方就是課題。",
+            "image": {
+              "url": "https://sogyotecho.jp/wp-content/uploads/2023/05/kijinaka-78.png",
+              "caption": "矢島里佳（左）在和える的空間裡和經營者進行品牌再造 session"
+            }
+          },
+          {
+            "heading": "不先承諾交付物：課題對話後才會浮現",
+            "body": "伴走型的難處在於，一開始沒有明確的交付物，不是「來做一個 logo」。在 session 裡對話下去，常會發現「與其設計什麼，不如先把概念定下來、重新檢視招募制度」。社長一開始想要的，和最後真正的產出可能完全不同，她坦白說「老實講，不做做看也不知道」。因此她在第一次諮詢時就用接近正式 session 的方式提問，就算只談一小時，對方也常能帶走一些小發現。她也指出現實限制：很多中小企業沒有本錢投資在「成果不確定」的事情上，因此行政單位的整合和資金支援很重要；例如 2022 年她參與奈良市「Nara Crafts' Cross Project」，約半年的 session 後，一開始半信半疑的職人整理出自己工藝的定義與想守住的東西，成了新品牌起步的基礎。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "案例：マコト眼鏡從代工廠到自有品牌的共識",
+            "body": "和える第一個伴走型案子是福井縣鯖江市的マコト眼鏡（Makoto 眼鏡）。他們原本接大型眼鏡通路的 OEM 訂單，照對方指示生產；社長想做出反映自家哲學的產品，創了自有品牌「歩（AYUMI）」，在 15 週年時找上和える。雙方先回頭看公司的原點，收斂出最想守住的品牌哲學：「眼鏡每天都要戴，所以要講究好不好戴」。把這套哲學一項項整理、寫成全公司都懂的語言之後，公司裡每個人都能對自有品牌發表意見；2022 年的新款就是以最年輕的職人為中心推動的。點子不再偏離品牌軸線，社內討論變順，對外宣傳的方向也變清楚。數字上，營收變成 1.27 倍、經銷店數 1.33 倍，同時經費削減了 75%。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://sogyotecho.jp/wp-content/uploads/2023/05/kijinaka-79.png",
+              "caption": "マコト眼鏡自有品牌「歩 AYUMI」的 logo 與職人手工修整鏡框的現場"
+            }
+          },
+          {
+            "heading": "顧問的角色：當社長的對話對象，找出連鎖解法",
+            "body": "矢島強調和える不提供「正確答案」，也不寫事業計畫書或給個別解決方案，而是透過和經營層對話，回到原點、整理出不會動搖的軸，再去檢視商業模式和實際業務。中小企業老闆常常沒有可以討論的對象，加上太深入日常，眼前問題一大堆，什麼都想做、反而抓不到重點。顧問以第三者身分冷靜地陪他對話，把社長「模模糊糊看到的未來」一起講清楚，然後聚焦在「從哪裡下手，問題會連鎖解開」。她也認為和える本身就是中小企業、經營多種事業，懂實際的難處，是一個優勢。",
+            "quote_ja": "問題や課題はたくさんありますが、どこからアプローチすると連鎖的に解決していけるのかに焦点を絞ります。",
+            "quote_zh": "問題和課題很多，我們聚焦在從哪裡切入能讓它們連鎖解開。"
+          },
+          {
+            "heading": "接班也是一種品牌再造",
+            "body": "最後她從自己接班的經驗談：她先從「當初為什麼開始」「這家公司對社會有什麼用」開始訪談，等自己真的感受到公司的存在意義，才打從心底想接下來。她認為接班成功的關鍵有四個：深入理解創業者的思想；相信接班人年輕的感性；理解不同世代的價值觀差異；以及能用一句話說出「這家公司為了什麼而存在」。那句話會變成公司的羅盤，讓員工、客人、夥伴產生共鳴。",
+            "quote_ja": "",
+            "quote_zh": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "daily_summary": "今天 Product 圈的關鍵字是給 AI 看的地圖：有團隊把服務藍圖改寫成 AI 代理讀得懂的資料，答對率從 29% 拉到 71%；也有人提醒，AI 生得出合規的介面，卻分不出哪個時刻該慶祝。Brand 這邊推薦 Studio Cronica 的合併品牌案，示範不做大揭曉、邊做邊給客戶看的提案方式，隅室可以直接拿來用。",
     "jenny_wen": {
@@ -1706,206 +1890,6 @@
             "body": "西澤對 B2B 品牌的定義，是在眾多合作夥伴和供應商中，建立「遇到問題就想找 YUPO」的地位，顧問的角色則是用設計來支援這件事。他也提醒，經營穩定的公司，通常不管提什麼都會被反對，「維持現狀就好」的聲音一定比較多；YUPO 的難得之處在於員工自己選了「走向不同位置」，再一項項在內部決定要怎麼做到，這些累積才是未來發展的基礎。文章最後預告，新網站的細節會在連載後續介紹。",
             "quote_ja": "BtoB企業におけるブランディングとは、選ばれる存在になっていくことだと考えています。",
             "quote_zh": "我認為 B2B 企業的品牌經營，就是逐步成為被選擇的存在。"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-10-25",
-    "daily_summary": "今天兩邊其實在講同一件事：AI 讓「做得漂亮」變便宜了，真正值錢的是判斷和看得見的過程。Product 圈提醒設計師回頭愛上問題本身，Brand 圈則從 Apple Music 新識別看到「過程本身就是證明」，對工作室來說，把思考過程攤開給客戶看會越來越重要。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Fall in Love With the Problem Again",
-          "url": "https://medium.com/design-bootcamp/fall-in-love-with-the-problem-again-7b8deeeb001f",
-          "source": "Bootcamp (Medium)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計主管 Ashish Jain 從一次面試說起：作品集畫面很精緻，但問到「使用者是誰、原本卡在哪」時，對方答得像 prompt 生出來的。他認為 AI 讓產出變便宜後，以前「做一版很貴」逼我們先想清楚問題的那層過濾消失了，於是出現兩種 AI slop：一種是長得都一樣的產出，另一種更危險的是流程上的 slop，例如先開 prompt 而不是先跟使用者聊。他呼籲把重心從 output 拉回 outcome，並重新重視設計審查與 craft。對工作室來說，提案時能講出「只有親自理解問題才知道的細節」，會是跟 AI 產出拉開差距的關鍵。"
-        },
-        {
-          "title": "The design industry is changing faster than we notice",
-          "url": "https://medium.com/design-bootcamp/the-design-industry-is-changing-faster-than-we-notice-ce58c55b2e2a",
-          "source": "Bootcamp (Medium)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "一位做了 7 年行動產品的設計師回顧工作內容的轉變：從「把東西做好看」變成看 paywall 測試結果、改 onboarding 流失點、做 5 版 App Store 截圖比下載率。核心論點是「Screens are cheap now. Decisions are not.」——公司要問的不再是你做不做得出來，而是該做哪一版、為什麼。他也觀察到 UI/UX 界線消失、設計越來越貼近數據，他靠漏斗實驗讓訂閱轉換提升 10–15%。啟發是：技能「太廣」不再是弱點，能讀數據、用目標驅動設計的人更吃香。"
-        },
-        {
-          "title": "The hidden design cost of building with AI",
-          "url": "https://medium.com/design-bootcamp/the-hidden-design-cost-of-building-with-ai-168e509a8025",
-          "source": "Bootcamp (Medium)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者在一場兩天的黑客松裡用 ChatGPT、Claude、Copilot 做 AI agent，發現 AI 讓「做」變快，卻沒讓「檢查」變快。省下的時間全搬去逐行讀程式碼、校對內容，而且 AI 產出永遠看起來像完成品，最危險的就是這點。團隊差點漏掉三件事：agent 到底該給使用者什麼、文字語氣對不對、整體視覺該長怎樣——AI 能十秒生十版，卻幫不了大家選一版。對接案團隊的提醒：用 AI 估工時，要把審查與共識的時間算進去。"
-        },
-        {
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "NN/g 的 Raluca Budiu 整理了 26 個 UX 相關領域的定義，從 UX、UI、互動設計、服務設計到 DesignOps，還有行銷、市場研究等鄰近領域。重點在釐清容易混淆的邊界：視覺設計管「長怎樣」、互動設計管「怎麼動」，UI 是兩者合體；產品管理決定做什麼和為什麼，產品設計決定怎麼對使用者運作；UX 研究看使用者行為，市場研究看市場與競品。文章也提醒職稱沒有統一標準。對工作室很實用：跟客戶談範疇、寫報價單時，可以用它對齊「這個案子到底包含哪些專業」。"
-        },
-        {
-          "title": "Industrial Romanticism 2 展に向け、参加デザイナー7名が語る、デザインのロマンとはなにか（前編）",
-          "url": "https://www.axismag.jp/posts/2026/10/727542.html",
-          "source": "AXIS",
-          "lang": "日文",
-          "studio_related": false,
-          "summary": "10/30 起在 AXIS Gallery 展出的「Industrial Romanticism 2」前導座談，來自 Sony、Sharp、TOTO、Panasonic、Yamaha、POLA、三菱電機的 7 位 in-house 設計師聊「設計的浪漫」。多數人坦言在企業裡很難把個人想法說出口，但都在找縫隙放進自己的視角；POLA 的松本亜弓說不需要被 100 個人都接受，打動一兩個人就好。最有意思的是 Sharp 和三菱電機的設計師提到：當 AI 能輕易做出漂亮造型，「無法下指令的東西」——個人情感，可能就是設計師的角色。和今天其他文章呼應，從工業設計角度看同一個問題。"
-        }
-      ],
-      "buzz": "Product 圈這兩天的共識是：畫面變便宜，決策變貴。好幾篇文章都在說 AI 省下的製作時間並沒有消失，而是搬到檢查和判斷上；設計師的價值正從產出移回理解使用者、讀懂數據、在多個版本中選對那一個。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Oh, Apple Music has a new logo. We talk with Curtis Free about why the making matters more in an AI world.",
-          "url": "https://www.designweek.co.uk/oh-apple-music-has-a-new-logo-we-talk-with-curtis-free-about-why-the-making-matters-more-in-an-ai-world/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Apple Music 新識別是用油槽、燈光和換能器，讓 Fred Again 的聲音在油面造出紋路做成的。Conran Design Group 設計總監 Curtis Free 認為這代表市場的轉向：AI 讓精緻變便宜，精緻就不再能證明背後的功力，於是「看得見的過程」成了信任訊號——他的說法是 process becomes proof。他也舉 OpenAI 用 35mm 底片拍廣告、Anthropic 廣告走電影質感，說明連做 AI 的公司都在展示人的參與。對工作室的啟發：提案和作品集可以多呈現手作、實驗和方法論，這本身就是價值。"
-        },
-        {
-          "title": "How Ben & Jerry's became a beacon of brand bravery",
-          "url": "https://www.creativebloq.com/news/how-ben-and-jerrys-became-a-beacon-of-brand-bravery",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Creative Bloq 專訪 Ben & Jerry's 行銷長 Jay Curley，談品牌怎麼把價值觀變成行動：從把口味 Chubby Hubby 改名 Hubby Hubby 支持婚姻平權，到發起關閉監獄的倡議。他認為多數企業不表態是因為傳統上的風險趨避，但有社群的品牌必須現身；Patagonia、Lush、Penzeys Spices 都是例子。選議題的原則是從價值觀出發，再看自己在哪裡真的能有影響；內部有人不同意也沒關係，重點是說明清楚為什麼這麼做。對品牌顧問很有參考價值：理念不是寫在牆上，而是要能回答「我們願意為它承擔什麼風險」。"
-        },
-        {
-          "title": "The ambitious EA Sports rebrand looks great from every angle",
-          "url": "https://www.creativebloq.com/news/the-ambitious-ea-sports-rebrand-looks-great-from-every-angle",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "品牌專家 Heinrich Paravicini 評析 DixonBaxi 為 EA FC 27 做的新識別。背景是 2023 年 EA 和 FIFA 結束 30 年合作改名 EA FC，當時的三角形 logo 來自遊戲中球員頭上的游標。這次 DixonBaxi 把三角形變成可自由變形的形狀，能依情境長出不同的視覺詮釋，整體語言更接近 TikTok、Twitch 而非傳統體育轉播。創意總監 Karun Agimal 說這是一個「被活出來」而不只是被玩的品牌。啟發是：好的符號系統不是死守 logo，而是保留核心、給使用情境足夠的彈性。"
-        },
-        {
-          "title": "Pentagram looks to Grand Central Oyster Bar's iconic lettering for its gorgeously gaudy Storefront Gala 2026 identity",
-          "url": "https://bpando.org/2026/10/22/pentagram-new-york-storefront-gala-2026-event-identity-design/",
-          "source": "BP&O",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Pentagram 紐約辦公室 Natasha Jen 團隊自 2012 年起就為非營利組織 Storefront for Art and Architecture 設計年度募款晚會識別。今年場地在 Grand Central Oyster Bar，團隊把 Rudolph de Harak 設計的餐廳 logo 字形延伸成完整字母，八角形的 O 定下整套幾何，粗黑外框加上鮮豔填色，套用在海報、菜單、刺繡帽和動態影像上。評論者認為改造經典 logo 本來有被罵的風險，但因為場地本身就是出處，引用顯得有根據而不是隨便挪用。對工作室的啟發：活動識別可以從「場地的視覺資產」出發，讓設計有在地的理由。"
-        },
-        {
-          "title": "design/leader: Daniel Nicholas, design director & partner at Super Okay",
-          "url": "https://www.designweek.co.uk/design-leader-daniel-nicholas-design-director-partner-at-super-okay/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Design Week 專訪紐約工作室 Super Okay 的設計總監兼合夥人 Daniel Nicholas。他想寫的專書叫「在平凡中找美」，舉飲水機和紐約行人號誌的外蓋當例子，說最用心的設計常常沒人注意。他認為設計領導者被低估的能力是同理心，新人不可妥協的特質是要有明確觀點；最希望客戶多重視過程，因為過程才是大部分，但很少客戶認真走完。內容短但對小型工作室很有共鳴：怎麼讓客戶參與並珍惜過程，跟今天 Apple Music 那篇談的「過程就是證明」正好呼應。"
-        }
-      ],
-      "buzz": "Brand 圈在聊品牌怎麼在 AI 時代證明「有人在做」：Apple Music 用油和聲波做 logo，把製作過程當成信任訊號。另一條線是品牌要不要表態，Ben & Jerry's 認為價值觀要落實成行動；EA FC 和 Pentagram 的案子則示範了如何把既有符號長成靈活的系統。"
-    },
-    "highlights": {
-      "summary": [
-        "真正值錢的是判斷和看得見的過程",
-        "過程本身就是證明",
-        "把思考過程攤開給客戶看"
-      ],
-      "product": [
-        "畫面變便宜，決策變貴",
-        "搬到檢查和判斷上",
-        "在多個版本中選對那一個"
-      ],
-      "brand": [
-        "把製作過程當成信任訊號",
-        "價值觀要落實成行動",
-        "長成靈活的系統"
-      ]
-    },
-    "brand_cases": [
-      {
-        "title": "【よーじや】「みんなが喜ぶ京都にする」ためのブランディングデザイン。",
-        "title_zh": "【よーじや】為了「打造讓大家都開心的京都」所做的品牌設計",
-        "url": "https://note.com/arence/n/n098aeaaea7c7",
-        "source": "note（ARENCE 八木彩）",
-        "lang": "日文",
-        "published": "2025-03",
-        "category": "理念落地",
-        "brand_name": "よーじや（京都吸油面紙老店）",
-        "consultant": "八木彩（ARENCE）",
-        "partial": false,
-        "cover_image": "https://assets.st-note.com/production/uploads/images/177130247/rectangle_large_type_2_115140ce3f43c8f3ff5f2e671f6ed89c.jpeg?fit=bounds&quality=85&width=1280",
-        "story": {
-          "problem": "よーじや創業於 1904 年，靠吸油面紙大紅，結果被定型成「京都伴手禮店」，在地人反而覺得跟自己無關。加上觀光過度讓京都居民越來越難住、育兒家庭外移，第四代社長國枝昂開始有危機感：一家在京都做了 120 年生意的公司，應該為京都做點什麼。",
-          "approach": "花約一年和社長與員工反覆討論，先定下「不依賴觀光、為住在京都的人貢獻」的方針，再請文案蛭田瑞穗把它濃縮成標語「みんなが喜ぶ京都にする」。經營理念刻意讓 VISION 和標語用同一句話，避免新詞讓公司內部理解分歧；VALUE 的五個詞則直接取自員工訪談。視覺上做了一個大膽決定：把用了幾十年、辨識度極高的鏡中女性「よじこ」從 logo 拿掉，改成獨立角色，logo 只留手鏡剪影、以 Optima 為基礎重新設計。",
-          "result": "最終產出五樣東西：新 logo（企業與品牌各一）、由 Suica 企鵝作者坂崎千春重繪的よじこ角色、第一份品牌指南、名片海報等內部工具，以及京都新聞 15 段全版廣告與 60 秒概念影片。原本對角色不安的員工後來很喜歡新よじこ，自發延伸出很多廣告與周邊。",
-          "takeaway": "一是「角色分工」的思路：強烈但綁手綁腳的舊資產不一定要丟，可以換個位置繼續用。二是理念用語要盡量少、盡量從員工嘴裡來，VISION 直接等於標語，降低內部溝通成本。三是名片這種小工具也能讓員工自己選圖，是讓理念進到日常最便宜的入口。"
-        },
-        "guide": [
-          {
-            "heading": "背景：從「伴手禮店」回到京都人的日常",
-            "body": "よーじや創業於明治 37 年（1904 年），最早叫「國枝商店」。當時把牙刷叫做「楊枝（ようじ）」，大家就暱稱這家店「よーじやさん」，名字就這樣來的。後來吸油面紙爆紅，品牌形象越來越偏向「京都的伴手禮店」，跟在地生活的連結反而變淡了。同時京都面臨觀光過度，居民生活受影響，市區還有育兒世代往外搬的問題。社長國枝昂的危機感是這個專案的起點：不只是生意考量，也是對京都的愛——長年在京都做生意的よーじや，有責任回饋這座城市。",
-            "quote_ja": "京都で長い間事業を営んできたよーじやとして、京都に貢献する必要がある。",
-            "quote_zh": "作為長年在京都經營的よーじや，我們有必要為京都做出貢獻。"
-          },
-          {
-            "heading": "方針與標語：一句話統合多元事業",
-            "body": "よーじや的事業很雜，有美妝品、咖啡廳，還贊助運動賽事，大家對「品牌是什麼」並沒有共識。八木和社長、員工開了很多次會，討論的核心問題不是「現在的よーじや是什麼」，而是「接下來應該是什麼樣子」。最後定下的方針是：不依賴觀光業，要對住在京都的人有貢獻、被他們喜愛。接著請文案蛭田瑞穗把這股想法化成企業標語與宣言，標語定為「みんなが喜ぶ京都にする」（打造讓大家都開心的京都）。這一步花了不少時間，但它是後面所有設計的地基。",
-            "quote_ja": "現在の姿ではなく、これからよーじやはどうあるべきなのか？",
-            "quote_zh": "不是現在的樣子，而是よーじや接下來應該成為什麼樣子？"
-          },
-          {
-            "heading": "經營理念：少造新詞，用員工的話",
-            "body": "在宣言之外也一起整理了經營理念。MISSION、VISION、VALUE、PURPOSE 這些詞的角色常常讓公司內部搞不清楚，所以八木先把每個詞的功能理清。關鍵判斷是：VISION 直接用和標語一樣的句子，因為再造新詞只會讓大家的理解更分散。VALUE 有五個——正直、溫柔、有用、挑戰、貼近京都——全部取自員工訪談裡實際說出來的話。MISSION「讓京都的魅力發光，為整個京都做出貢獻」則來自社長一句很重的話：如果做不到這件事，他做這門生意就沒有意義。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://assets.st-note.com/img/1741964835-6ad8v2i9WEgIBmxuJzhPfGKR.jpg?width=1200",
-              "caption": "よーじや新整理的經營理念架構（VISION、MISSION、VALUE）"
-            }
-          },
-          {
-            "heading": "Logo：把最有名的臉拿掉",
-            "body": "舊 logo 是吸油面紙上那位「手鏡裡的女性」，名叫よじこ。它對品牌知名度功不可沒，但印象太強烈，反而讓品牌形象很難更新——這是整個案子最大的兩難。最後的決定很大膽：把臉從 logo 拿掉，よじこ改當角色繼續用，等於做了一次「角色分工」。新做了企業 logo 和品牌 logo 兩種，品牌 logo 保留手鏡的剪影、整體簡化。字體以 Hermann Zapf 設計的 Optima 為基礎，理由是它的柔和感符合 VALUE 裡的「溫柔」，也能兼顧百年品牌的正統感和現代感。製作順序是先做英文 logo，再讓日文 logo 跟著同一套設計語言調整細節。",
-            "quote_ja": "思い切って、ロゴからはこの顔を外し、この女性はキャラクターとして今後使用していくという、役割の整理を行うことになりました。",
-            "quote_zh": "我們下定決心把這張臉從 logo 拿掉，讓這位女性往後以角色的身份登場，做了一次角色分工的整理。",
-            "image": {
-              "url": "https://assets.st-note.com/img/1740898934-ubRcg2QsilJMydH0VezjmS5f.jpg?width=1200",
-              "caption": "新的よーじや企業 logo，拿掉了鏡中女性的臉"
-            }
-          },
-          {
-            "heading": "角色：請 Suica 企鵝的作者重畫よじこ",
-            "body": "よじこ從 logo 退下來後，變成獨立角色，由畫過 JR 東日本「Suica 企鵝」、千葉縣吉祥物「チーバくん」的插畫家坂崎千春重新設計。八木坦白說自己一開始也擔心角色會變成什麼樣子，但第一次開會看到草稿就放心了。よーじや的員工原本也很不安，後來卻非常喜歡新的よじこ，自己延伸出廣告、周邊等許多應用。這說明了一件事：理念能不能落地，常常取決於員工願不願意主動拿去用。",
-            "quote_ja": "坂崎さんのイラストの魅力で、よじこに新たな命が吹き込まれました。",
-            "quote_zh": "坂崎小姐插畫的魅力，為よじこ注入了新的生命。",
-            "image": {
-              "url": "https://assets.st-note.com/img/1740898954-ScFwmrNMukeTDQ75LVCBUJvp.jpg?width=1200",
-              "caption": "坂崎千春重新繪製的角色よじこ"
-            }
-          },
-          {
-            "heading": "品牌指南與內部工具：讓理念進到每天的工作",
-            "body": "よーじや過去沒有品牌指南，這次第一次做。內容分兩層：上層是思想（品牌組合、經營理念、宣言），下層是規則（色票、建議字體等）。另外也做了小冊子、名片、海報這些內部工具，目的是讓宣言和角色在公司內外被認識、被喜歡。名片是很巧的設計：背面放よじこ插圖，員工可以自己挑喜歡的圖案。八木說名片雖小，卻是開啟對話的重要工具——每次交換名片，都是員工親手傳遞新品牌的機會。",
-            "quote_ja": "名刺は小さなツールですが、コミュニケーションのきっかけとなる大切なツール。",
-            "quote_zh": "名片雖然是小工具，卻是開啟溝通的重要工具。"
-          },
-          {
-            "heading": "廣告：用角色讓大家輕鬆認識新よーじや",
-            "body": "對外則做了京都新聞的 15 段全版廣告（2025 年 3 月 27 日早報刊登）和一支 60 秒概念影片，目標是讓公司內外都知道よーじや的新姿態。表現上刻意用新角色、走輕鬆有趣的路線，而不是嚴肅宣告。文末八木提到新事業也在規劃中，並附上よーじや的品牌更新特設頁。整體來看，這個案子是「先想清楚要成為什麼，再讓每個接觸點都說同一句話」的完整示範。",
-            "quote_ja": "",
-            "quote_zh": ""
           }
         ]
       }
