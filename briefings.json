@@ -1,5 +1,170 @@
 [
   {
+    "date": "2026-11-13",
+    "daily_summary": "今天 Product 圈的主旋律是「AI 的代價」：Lenny 的就業報告說設計職缺創新低、PM 與設計師比拉到 3.8 比 1，同時好幾篇文章提醒，AI 功能值不值得做、每次點擊要花多少錢、最會用 AI 的人反而最累，都是設計師該接手的題目。Brand 這邊看 HOW+HOW 怎麼幫 Pets 把保險、兒童俱樂部、基金會收成一個品牌家族；日本案例則是八木彩的工作室自己做了一個香皂品牌，很適合隅室參考。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "Claude Code + Obsidian: My family's AI brain | Scott Farrar",
+      "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+      "summary": "數學老師 Scott Farrar 受不了 AI 聊天會忘事，乾脆用 Claude Code 加一個資料夾的 Markdown 檔，做出全家共用的「家庭大腦」：家電保固、保單、待辦清單都在裡面，還能拿來比價車險、規劃修繕，並在牆上螢幕顯示本週要事和「最近的小勝利」。這集不談設計，但「把零散資訊收成一個自己的知識庫」的做法，工作室管理案子也用得上。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "State of the tech job market: late 2026",
+          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "source": "Lenny's Newsletter",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Lenny 用 TrueUp 和 Live Data Technologies 兩份資料看科技業就業，結論是 PM 在 AI 時代反而吃香，設計職缺則持續探底。全球科技公司開出的產品設計職缺只剩約 1,900 個，比一年前少 28%；美國去年只聘了約 12,600 位產品設計師，不到 2022 年的一半，而 PM 對設計的職缺比從 2023 年的 1.9 一路升到 3.8。使用者研究更慘，美國招聘量比 2022 年少了 66%，全球只剩 108 個 UXR 職缺，Lenny 認為原因是產品節奏變快、大家寧可先上線再修。對工作室來說，這代表企業內部設計與研究人力變少，「能快速交付、又懂研究」的外部夥伴可能反而有機會。"
+        },
+        {
+          "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
+          "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "source": "Smashing Magazine",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "UX 研究員 Victor Yocco 提出一套判斷 AI 功能值不值得做的四個問題：真的有減少使用者的總工作量嗎（別忘了檢查 AI 結果也是工作）？比使用者現在的做法好嗎？使用者抓得到 AI 的錯嗎？用了一年後，使用者還有能力判斷結果對不對？他舉保險公司的例子：原本讓 AI 直接寫理賠判定，專員反而變慢，改成只幫忙找出相關條款、文字留給專員寫後才好用。每個問題都會產出一條寫進 brief 的設計條件，很適合在接 AI 專案的 kickoff 時拿來跟客戶對齊。"
+        },
+        {
+          "title": "Every click has a price now. Who designs how that “feels”?",
+          "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "前 IBM 設計主管 Arin Bhowmick 指出，AI 產品「吃到飽」的時代結束了，越來越多產品改成按點數或用量計費，成本變成一種要被設計的材料，就像載入時間和錯誤狀態一樣。他用 GitHub Copilot 改成用量計費的風波當例子：有人兩小時就燒掉 8% 的月額度，最讓人火大的不是貴，而是事前不知道會花多少。他主張在按下去之前就顯示預估花費、讓額度消耗看得見，別讓「已達每日上限，5 小時後再試」這種訊息突然出現。對做 AI 產品的設計師來說，這是一個新的、還沒有標準答案的設計題目。"
+        },
+        {
+          "title": "The AI mind tax that afflicts those who use AI best",
+          "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Dan Maccarone 訪談多位行銷主管後發現，越會用 AI 的人越累：一位一個人扛起整個新創行銷的資深行銷人，每天在 Figma、CRM、Claude、ChatGPT、Slack 之間切換，說自己「從裡面融化」，卻一個工具都不願意放棄。他引用調查指出，98% 的行銷團隊都在用 AI，但只有 3% 把它串起來，公司沒有建立連接的那一層，最能幹的人就自己變成那一層。這篇對小型工作室特別有感：工具越多，人越可能變成「人肉整合層」，值得刻意設計自己的工作流程。"
+        },
+        {
+          "title": "Look closely at your AI-written specs — where did the user go?",
+          "url": "https://medium.com/design-bootcamp/look-closely-at-your-ai-written-specs-where-did-the-user-go-5280cfa21c55",
+          "source": "Bootcamp",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Kyrylo Slavetski 觀察到一個容易忽略的問題：讓 AI 寫產品文件時，主詞常常從使用者變成介面，例如「供應商儀表板會比較交期和價格」，好像是畫面在做決定。他把句子改寫成「儀表板幫採購比較交期和價格、選出合適的供應商」，讓人和目標回到主角位置。作者用活動理論解釋：工具可以接手例行操作，但判斷和動機一定在人身上。設計師審 AI 寫的規格或提案時，可以直接用這個檢查點：每一句話的主詞是誰？"
+        }
+      ],
+      "buzz": "這兩天 Product 圈都在算 AI 的帳：設計職缺跌到歷史新低、PM 與設計的職缺比拉到 3.8 比 1，同時大家開始追問 AI 功能到底有沒有幫使用者省事。另一條線是成本和疲勞：用量計費讓「每次點擊要花多少」變成設計題目，而最會用 AI 的人反而被一堆工具壓垮。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "HOW+HOW creates unified sub-brand system for pet retailer Pets",
+          "url": "https://www.designweek.co.uk/howhow-creates-unified-sub-brand-system-for-pet-retailer-pets/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "英國寵物零售龍頭 Pets（旗下有 Pets at Home 等 450 家店、400 家動物醫院）業務越長越多，品牌顧問 HOW+HOW 幫它把寵物保險、兒童俱樂部 Pet Pals、公益基金會整理成一個品牌家族。三個子品牌各有自己的定位、語氣和視覺：保險走「寵物不可預測，但保障可以很穩」的安心路線，兒童俱樂部做成有角色 Pogo 的動畫世界觀，基金會則用叫做「zoomies」的流動線條帶出動感。關鍵在於底層用共同的設計原則把三者拉回主品牌，讓每個子品牌能獨立說話、又看得出是一家人。工作室遇到客戶業務擴張、子品牌越長越亂時，這是很好的品牌架構參考。"
+        },
+        {
+          "title": "Decoding 22, A Million: Eric Timothy Carlson on carving Bon Iver's iconic visual universe ten years later",
+          "url": "https://www.itsnicethat.com/articles/eric-timothy-carlson-bon-iver-22-a-million-graphic-design-101126",
+          "source": "It's Nice That",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Bon Iver 專輯《22, A Million》十週年，當年的設計師 Eric Timothy Carlson 回頭談整套視覺怎麼來：樂團給的方向是「22」代表二元與鏡像、「a million」代表所有人，他畫了大約 100 個看起來像真實符號的圖形，拼成三張 33×33 英寸的正方形拼貼，十週年版則把黑底反轉成白底。除了實體作品，他也同時發展出一套數位語彙：系統字體、低畫質手機影片、向量色塊，對應專輯有機和合成並存的聲音。這篇示範了怎麼把一個抽象概念（二元性）一路展開成可延伸的視覺系統。"
+        }
+      ],
+      "buzz": "這兩天 Brand 圈新聞不多，值得看的是品牌架構：大品牌業務擴張後，怎麼讓子品牌各自說話、又看得出是一家人。另一篇回顧經典專輯視覺，提醒好的識別系統是從一個清楚的概念長出來的。"
+    },
+    "highlights": {
+      "summary": [
+        "設計職缺創新低",
+        "AI 功能值不值得做",
+        "自己做了一個香皂品牌"
+      ],
+      "product": [
+        "設計職缺跌到歷史新低",
+        "AI 功能到底有沒有幫使用者省事",
+        "最會用 AI 的人反而被一堆工具壓垮"
+      ],
+      "brand": [
+        "讓子品牌各自說話、又看得出是一家人",
+        "從一個清楚的概念長出來的"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "【QUIENSUM】ブランディングデザインの会社が、自社ブランドをはじめました。",
+        "title_zh": "【QUIENSUM】品牌設計公司，開始做自己的品牌了",
+        "url": "https://note.com/arence/n/n3f86a5e86016",
+        "source": "八木彩（ARENCE note）",
+        "lang": "日文",
+        "published": "2024-10",
+        "category": "定義方向",
+        "brand_name": "QUIENSUM（ARENCE 自創的固形香皂品牌）",
+        "consultant": "八木彩／青田（ARENCE）",
+        "partial": false,
+        "cover_image": "https://assets.st-note.com/production/uploads/images/150227056/rectangle_large_type_2_bf4c9e32c16e4e1745097c55fe51b816.jpeg?fit=bounds&quality=85&width=1280",
+        "story": {
+          "problem": "ARENCE 是八木彩離開電通後在 2023 年 11 月成立的品牌設計公司，平常幫客戶把想法變成品牌。每個案子都要在時間和預算限制下取捨：商品開發、人事、設計、倉儲、運費，樣樣都是成本。但這些環節他們一直是「在旁邊陪」，從來沒有自己從頭到尾做過一次。",
+          "approach": "他們決定自己做一個品牌，由品牌製作人青田主導，從 2023 年 7 月開始籌備、花了一年多。題目不是先看市場，而是先列出青田個人真正著迷的東西，選了他長年在意的「香氣」。靈感來自他在歐洲修道院和修士一起生活時，每天祈禱儀式留下的氣味，於是把概念定成「給現代人的樸素儀式」，用固形香皂把淨化自己的時刻帶進日常。命名、字體、攝影都從修道院延伸：自創拉丁字 QUIENSUM、以修道院建築的比例系統為基礎重新設計專屬字體、照片刻意不把商品拍清楚，讓人聯想氣味帶出的記憶。",
+          "result": "2024 年 10 月 1 日正式上線，推出 3 款反覆試作出來的香味，透過官網 quiensum.com 販售，字體統一用在包裝和網站上。文章沒有公開銷售數字。",
+          "takeaway": "設計工作室自己做一次品牌，最大的收穫是親身體會客戶在成本和取捨上的難處，之後提案會更務實。另外，八木彩強調品牌一定要有人「真心相信」才撐得下去，所以題目從團隊成員的真實熱愛出發，而不是從市場空缺出發。隅室如果想做自有品牌，可以先從夥伴各自著迷的東西盤點起。"
+        },
+        "guide": [
+          {
+            "heading": "為什麼品牌設計公司要自己做品牌",
+            "body": "ARENCE 在 2023 年 11 月從電通獨立後接了不少品牌案，2024 年 10 月 1 日推出自有品牌 QUIENSUM，由品牌製作人青田主導，籌備期從 2023 年 7 月算起超過一年。動機有兩個：第一，做品牌顧問時，每個案子都要在理想和現實之間找平衡，在時間和費用的限制下排出優先順序，而商品開發、人事、設計、倉儲、運費這些成本，他們平常只是在旁邊協助，從沒自己扛過。親手跑完一輪，可以讓品牌設計的功力更紮實。第二個動機很單純：想把「自己覺得好的品牌」做出來看看。",
+            "quote_ja": "仕事のなかで、理想と現実を埋めていく作業が必ず発生します。",
+            "quote_zh": "工作中，一定會遇到要把理想與現實之間的落差補起來的時候。"
+          },
+          {
+            "heading": "從個人的執著挑題目，而不是從市場",
+            "body": "要做什麼商品？團隊先把青田個人的興趣一條條列出來，最後選了「香氣」，因為這是他長年真正在意的東西，團隊判斷這樣做出來的東西才會有個性。靈感來自青田在歐洲遊學時的經驗：他造訪了修士建築家 Hans van der Laan 設計的修道院，那裡的建築用一套叫「plastic number」的比例系統決定尺度，連家具和衣服都照同一套尺寸設計。他在修道院和修士一起生活了一段時間，每天祈禱儀式中的氣味一直留在記憶裡。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://assets.st-note.com/img/1721619614747-b8GIyoTVJC.jpg",
+              "caption": "啟發 QUIENSUM 的修道院內部：光線從高窗斜射進禮拜堂"
+            }
+          },
+          {
+            "heading": "把概念收成一句話：給現代人的樸素儀式",
+            "body": "香氣被認為有讓心情平靜的效果，而都市生活壓力大，團隊於是問自己：能不能像修士向神祈禱那樣，把「淨化自己」的儀式放進日常？答案是固形香皂，每天洗手、洗澡都會用到，最適合當儀式的載體。品牌名 QUIENSUM 是自創的拉丁風造字，結合 QUIES（休息）和 INCENSUM（薰香）。八木彩在這裡點出一個重點：品牌如果沒有人打從心底相信，是做不長久的，這也是為什麼題目要從個人的熱愛出發。",
+            "quote_ja": "私たちは固形石鹸を通じて、「現代人の為の素朴な儀式」を提供したいと考えました。",
+            "quote_zh": "我們想透過固形香皂，提供「給現代人的樸素儀式」。"
+          },
+          {
+            "heading": "專屬字體當品牌的臉",
+            "body": "視覺同樣回到修道院找根據：Van der Laan 當年也為修道院設計了自己的字體。但團隊發現直接拿來用，在長文裡可讀性不夠好，於是參考同樣的 plastic number 比例，重新設計了 QUIENSUM 專屬字體，統一用在包裝和網站上。這一步很有參考價值：靈感來源可以很浪漫，但落到實際使用時，仍要回到可讀性這種功能面去修正。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://assets.st-note.com/img/1721662057273-xEFJWsL3ZO.jpg",
+              "caption": "QUIENSUM 專屬字體的字母、數字與符號一覽，淡紅色框線是比例參考格線"
+            }
+          },
+          {
+            "heading": "攝影刻意「不拍清楚」",
+            "body": "商品照交給攝影師熊谷勇樹，方向很特別：不把香皂本身拍得一清二楚，而是拍一些曖昧、帶有氛圍的畫面，讓人聯想到某個氣味喚起的記憶。賣的是「儀式」和「感受」，所以畫面也服務於感受，而不是商品規格。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "三款香味：反覆試作出來的成果",
+            "body": "最後推出三款香味，每一款都經過多次試作。CARBO NOCTURNUS 以大馬士革玫瑰和帶煙燻感的炭香為主，配上依蘭和檜木，是偏夜晚、性感的味道；TERRA ROSEA 以青無花果為中心，加上黑醋栗、桃子、覆盆子，再用含羞草、紫丁香、茉莉收尾，是年輕的「玫瑰色大地」；MEL PALADISI 前調是糖、忍冬和玫瑰，中調百香果和蘭姆酒，後調麝香和蜂蜜，是甜而危險的「天堂之蜜」。三款的名字都延續拉丁語的命名系統，讓整個品牌世界觀一致。文章最後只附上官網連結，沒有公開價格和銷售數字。",
+            "quote_ja": "何度も試作を重ねて完成した3種類の香りは、どれも他にはない香りだと自負しています。",
+            "quote_zh": "經過多次試作完成的三種香味，我們自認每一款都是別處沒有的味道。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "daily_summary": "今天 Product 圈在拆解 AI 原型的真相：接上設計系統不等於用了真元件，AI 做出來的只是一份「很像的複本」；也有人提醒職位正在合併，設計師的身分感會先被挑戰。Brand 這邊最值得讀的是 White Space 創辦人談把公司做倒再重來，財務紀律和慷慨對待團隊，對經營工作室很受用。",
     "jenny_wen": {
@@ -1686,210 +1851,6 @@
             "body": "官網上新增了一個叫「人生が変わるお酢。」的專訪單元，實際訪問了被富士酢改變人生的人。這個單元的作用，是把「被六種關係人喜歡」這個經營理念，用看得見的方式說給外面的人聽。換句話說，標語不是做完就放著，而是延伸成可以持續更新的內容。文章最後沒有營收或銷量數字，比較像設計方的過程紀錄，適合拿來學「理念怎麼一路落到標語、顏色、字標和內容」的順序。",
             "quote_ja": "",
             "quote_zh": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-10-26",
-    "daily_summary": "今天兩邊都在問同一件事：AI 到處都是之後，人的判斷還值多少錢？Product 圈開始反省那顆到處都有的閃亮 AI 按鈕，主張別硬把聊天框塞給專家；Brand 圈則發現連 AI 公司都找人類設計師做品牌，因為品牌靠的是信任不是好看。對工作室來說，幫客戶判斷什麼不該加，正變成最好賣的能力。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": true,
-      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
-      "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
-      "summary": "《The Power of Pull》作者 Rob Snyder 一步步拆解怎麼找到 product-market fit，核心是他的 PULL 框架：客戶手上有個專案（Project）、這件事躲不掉（Unavoidable）、他已經在比較選項（List of options）、但現有選項都有限制（Limitations）。他強調「拉力是被發現的，不是被創造的」、要賣給一個人而不是一間公司，也談冷開發、第一次業務會議、反對找 design partner，以及怎麼建立可重複的案例產出流程。"
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "Nobody asked for the sparkle button",
-          "url": "https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師 Jon Sabutis 每天用 AI 寫程式，卻每週都在找關掉 AI 的開關。他指出筆記、試算表、信箱、銀行 app 裡的 AI 都是同一個右側聊天面板加閃亮圖示，因為大家買的是同一個模型 API 的 demo，等於「轉寄」而不是設計。強制開啟、更新後又被打開的設定，教會使用者的不是「這功能很煩」，而是「這家公司會推翻我的選擇」，信任損失會擴散到整個品牌；Apple 新聞摘要誤報 BBC 新聞、Procreate 宣布永不加生成式 AI 反而爆紅都是例子。背後原因是雲端巨頭的巨額資本支出要回收，但 MIT 研究顯示 95% 企業的生成式 AI 試點沒有可衡量回報。他的結論是：用 AI 做功能，而不是做「AI 功能」。"
-        },
-        {
-          "title": "The Blessing and Curse of AI: Now Everyone Can Build Anything.",
-          "url": "https://medium.com/design-bootcamp/the-blessing-and-curse-of-ai-now-everyone-can-build-anything-292825367162",
-          "source": "Bootcamp (Medium)",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "做了近 30 年 UX 的 Sandra Monien 觀察：現在誰都能用 prompt 幾分鐘生出「看起來很專業」的網站，但不懂什麼重要的人，就看不出少了什麼、錯了什麼。她舉例：一頁目的清楚的內容頁被 AI 改成塞滿卡片、icon、CTA 的無限長 landing page，冒出不屬於品牌的顏色和字體，UX writing 多年精簡的文字也被改回「創新解決方案將永續改變您的數位未來」這種空話。拿自家舊網站餵 AI 也一樣，它會連舊問題一起複製。她強調 AI 很會「加」，但知道什麼該拿掉仍需要經驗。對工作室來說，這正是跟客戶溝通價值的切入點：我們賣的是判斷，不是產出。"
-        },
-        {
-          "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
-          "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
-          "source": "Lenny's Podcast",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Rob Snyder 輔導過 50 多家新創從 0 做到 100 萬美元 ARR，自己也曾花兩年推一個市場不要的產品。他的 PULL 框架主張：客戶要有正在進行、躲不掉的專案，已經在比較選項而且對現有選項不滿，才會真的買單；這種「拉力」只能被發現，不能被製造。節目也具體談到用兩張投影片測試假設、冷開發的基準數字、第一次業務會議怎麼開、為什麼不建議找 design partner，以及用 churn 反推理想客戶。雖然談的是新創，但「賣給一個人而不是一間公司」「建立案例產出流程」對工作室接案開發同樣實用。"
-        },
-        {
-          "title": "Where to draw the line before AI reaches professional users",
-          "url": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Patrick Neeman 長年觀察理賠員、律師、供應鏈規劃師這類專家用戶，認為幾乎每個 B2B 產品都想加聊天框，卻沒人先問「這是給誰的」。專家在軟體裡累積的快捷鍵、存好的檢視、自創的捷徑都是投資，不是沉沒成本，砍掉介面等於叫他們再付一次學費。他提出六個判斷問題，並給出分工原則：例行任務留在介面、罕見任務交給聊天、持續性任務交給背景 agent。行動建議包括：從客服工單找出真正該做的對話功能、讓每個答案落到可調整的畫面、衡量「驗證時間」而非「生成時間」、保留舊路徑並追蹤使用者實際選哪條。做 B2B 案子時可以直接拿來當檢查清單。"
-        },
-        {
-          "title": "Making the Wait Worth It: Three Rules for AI Products",
-          "url": "https://medium.com/design-bootcamp/making-the-wait-worth-it-three-rules-for-ai-products-a8068dc3b89b",
-          "source": "Bootcamp (Medium)",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "金融科技與 SaaS 設計師 Adimchi Oka 指出，AI 產品裡使用者盯最久的介面往往是一個什麼都不說的轉圈圈。他受 Claude Code 不斷變換狀態文字的啟發，做了開源元件 fun-loader，歸納出三條規則：訊息要隨等待時間改變（前幾秒輕鬆、超過 8 秒承認比較久、超過 20 秒道謝致歉）；不要宣稱自己不知道的事，例如付款時別寫「正在驗證收款人」，只描述等待本身；產品若真的知道進度，再換成自己的步驟訊息。小細節，但很適合放進 AI 產品的設計規範裡。"
-        }
-      ],
-      "buzz": "Product 圈這兩天集體對 AI 功能踩煞車：大家不反對 AI，反對的是沒人要、關不掉的 AI 面板。好幾篇文章都把重點拉回使用者是誰、任務是例行還是偶發，以及設計師該負責判斷什麼要留下、什麼要拿掉。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Why do AI platforms want humans to design their branding?",
-          "url": "https://www.creativebloq.com/news/why-do-ai-platforms-want-humans-to-design-their-branding",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Tom May 注意到一個矛盾：最想用 AI 取代設計師的 AI 公司，品牌卻都找人類做。例子包括 How&How 幫 AI 繪圖工具 Ideogram 重塑品牌、Lazarev 做 AI 影片 app Elva、Meta 請字體藝術家 Jessica Hische 畫新 AI 平台 Muse 的 logo。他的解釋是：品牌從來不是讓東西好看，而是讓人相信你，而 AI 公司現在正有信任問題。Hische 接案後在 Threads 被罵，她說 12,500 美元酬勞能撐住兩間小店與員工；作者認為拒絕也擋不住這波，不如收下錢、做出好作品，提醒大家為什麼要找人。對工作室：接 AI 客戶的倫理與定價，值得內部先討論出立場。"
-        },
-        {
-          "title": "Just Eat's AI apocalypse raises a glaring question",
-          "url": "https://www.creativebloq.com/news/just-eats-ai-apocalypse-raises-a-pretty-obvious-question",
-          "source": "Creative Bloq",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "英國外送平台 Just Eat 用文字生圖幫餐廳菜單自動配圖，結果字面理解到荒謬：「jacket potato」變成一件印著馬鈴薯的外套、tiger prawns 變成一碗小老虎、toad in the hole 真的放了蟾蜍、「lighter breakfast」配了打火機。Just Eat 已道歉並移除圖片，Uber Eats 三年前也出過同樣的糗。作者追問更根本的問題：就算 AI 生成得完美，用假的食物照片本身就註定帶來失望與客訴。對品牌的提醒是，自動化圖像省下的成本，可能用信任來付。"
-        },
-        {
-          "title": "Hono’s label branding for Temper cider animates the last rally of the 2008 Wimbledon final",
-          "url": "https://www.itsnicethat.com/articles/studio-hono-temper-branding-project-261026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "維也納工作室 Hono 為網球物件品牌 Temper 與蘋果酒釀造者 Luka Zeichmann 的聯名蘋果酒設計標籤，要在溫布頓首週於英國上市。他們不畫那場近五小時的 2008 年 Nadal 對 Federer 決賽，而是只取最後一分的四秒鐘，切成 60 格，一瓶一格，用綠紫格線呈現。標籤沒有印 60 種，而是在慕尼黑用 Risograph 印一個底稿，再手工加工與編號；網球的位置被打孔挖空，光線穿過時，瓶裡的酒就成了那顆球。排在一起就是一本翻頁動畫。小量聯名品也能用一個好概念做出收藏價值。"
-        },
-        {
-          "title": "Design as a unifying language: Arsh Raziuddin on how her World Cup identity united NYC",
-          "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-arsh-raziuddin-231026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "設計師、插畫家暨創意總監 Arsh Raziuddin 在 Nicer Tuesdays 紐約場回顧自己的職涯：編輯設計與書封設計的背景，如何塑造她做圖像的方式。重點案例是她為 Mamdani 的紐約世界盃活動做的識別，她把所有作品都看成「用設計建立社群與共同點」的工具。這篇是講座摘要，內容不長，但適合想把品牌識別當成凝聚社群工具的人參考。"
-        },
-        {
-          "title": "【追悼・村上龍さん】『カンブリア宮殿』で見つめ続けた、「時代をサバイブする企業」の共通点と「優れた広報」の条件",
-          "url": "https://www.advertimes.com/20261026/article561607/",
-          "source": "宣伝会議 AdverTimes",
-          "lang": "日文",
-          "studio_related": false,
-          "summary": "宣伝会議為追悼作家村上龍，重新刊出他談主持《カンブリア宮殿》（寒武紀宮殿）多年的訪談。他觀察上節目的經營者有共通點：都很謙虛，即使外界看來很成功，本人也不覺得自己成功，總在找下一個生意線索；例如日高屋的神田正會長不搭計程車，自己走遍山手線內外想「這裡開店會不會賺」。節目來賓八成是一般人沒聽過的公司，所以他會徹底讀資料、VTR 看三遍才找得到提問切入點。對做品牌顧問的人來說，這種「先把對方讀透再發問」的功夫，跟我們做品牌訪談是同一件事。"
-        }
-      ],
-      "buzz": "Brand 圈一邊看 Just Eat 用 AI 生菜單圖翻車，一邊討論 AI 公司為什麼反而找人類設計師做品牌，結論很一致：品牌是讓人相信你，AI 圖反而會掉信任。另一頭，手工、限量、把過程留在作品上的包裝案又被拿出來讚賞。"
-    },
-    "highlights": {
-      "summary": [
-        "人的判斷還值多少錢",
-        "品牌靠的是信任不是好看",
-        "幫客戶判斷什麼不該加"
-      ],
-      "product": [
-        "沒人要、關不掉的 AI 面板",
-        "任務是例行還是偶發",
-        "什麼要留下、什麼要拿掉"
-      ],
-      "brand": [
-        "品牌是讓人相信你",
-        "AI 圖反而會掉信任",
-        "把過程留在作品上"
-      ]
-    },
-    "brand_cases": [
-      {
-        "title": "「BtoBブランディングとは、選ばれる存在になること」──エイトブランディングデザイン・西澤明洋が2年間伴走した、ユポ社のリブランディング",
-        "title_zh": "「BtoB 品牌經營，就是成為被選擇的存在」──西澤明洋陪跑 2 年的 YUPO 品牌再造",
-        "url": "https://webdesigning.book.mynavi.jp/article/33079/",
-        "source": "Web Designing（マイナビ）",
-        "lang": "日文",
-        "published": "2026-07",
-        "category": "策略抉擇",
-        "brand_name": "ユポ（YUPO 合成紙）",
-        "consultant": "西澤明洋（エイトブランディングデザイン）",
-        "partial": false,
-        "cover_image": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/07/u_main2.jpg",
-        "story": {
-          "problem": "ユポ（YUPO）是做合成紙的公司，產品用在選票、戶外廣告、標籤，日本市占第一超過 45 年、行銷 80 多國。問題不是業績差，而是「外面看不出它哪裡有困擾」：一般人只知道它是「淋濕也不會壞的紙」「選票用的紙」，公司本身則想從經營策略層級改組織、開新市場。",
-          "approach": "西澤明洋團隊花 2 年陪跑，配合公司前一年新設的「戰略企劃本部」推動跨部門改革。最大的決定是放棄已經做到第一的「合成紙」定位，把自己重新定義成「創意素材」公司，產品線改成按類別重組，網站也重新設計成同時顧到 SEO 與生成式 AI 搜尋（GEO）的資料結構。社長刻意不參加工作坊，讓下一代員工自己吵、自己決定；最後採用了最大膽的不規則 logo，並把原本保密的多層結構技術公開。",
-          "result": "2026 年 4 月公司改名為「株式会社ユポ」，7 月發表新 logo 與新概念「Value Co-Creator」（價值共創者）。工作坊裡原本「繼續當合成紙第一」和「擴大業態挑戰」兩派各半，最後收斂成「我們不只是做東西來賣的公司」。",
-          "takeaway": "接到「看起來沒問題」的穩定企業時，真正的題目往往是組織要不要轉向，而不是 logo 要不要換。讓客戶內部自己做決定（老闆退一步、下一代上場），比顧問給答案更能讓新定位落地；而把概念變成具體行動（像公開技術），才是讓口號可信的關鍵。"
-        },
-        "guide": [
-          {
-            "heading": "前情：一家「不缺什麼」的公司為什麼要改",
-            "body": "這篇出自 Web Designing 的連載「做品牌的網站設計」，由エイトブランディングデザイン（EIGHT BRANDING DESIGN）的西澤明洋談自家案例。主角是ユポ（YUPO），1960 年代日本因擔心森林資源枯竭而發展出合成紙，YUPO 一路做到國內市占第一、80 多國採用，產品用在選票、戶外廣告、各種標籤。2026 年 4 月 1 日，它把公司名從「ユポ・コーポレーション」改成更短的「ユポ」；7 月 1 日在總部辦發表會，公開新 logo 和新概念「Value Co-Creator」。文章想回答的是：一家市占第一的公司，為什麼現在要重做品牌？",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/07/01.jpeg",
-              "caption": "YUPO 的應用範圍：標籤、模內標籤、戶外廣告、植物工廠、吸盤貼，以及「合成紙市場日本市占第一 45 年以上、80 多國採用」"
-            }
-          },
-          {
-            "heading": "重新定義：從「合成紙」到「創意素材」",
-            "body": "這次品牌再造的核心方針，是不再自稱「合成紙廠商」，而是「處理創意素材的企業」。它的強項是從原料設計、生產、二次加工到售後服務一條龍，所以思考方式從「我們賣什麼」轉成「我們能跟客戶一起創造什麼價值」。配合這個方向，原本非常龐雜的產品線，也改成讓客戶能直覺挑選的分類方式。發表會上西澤特別提到，花最多時間的其實是網站全面改版：要讓它成為 B2B 的品牌平台，不只顧傳統 SEO，也重新設計成能應付生成式 AI 搜尋（GEO，生成引擎最佳化）的資料結構。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "現況診斷：「看起來沒困擾」的優良企業",
-            "body": "西澤坦白說，剛接觸時，從外面完全看不出 YUPO 在煩惱什麼，但對方一開始就明確說要「從經營策略層級做品牌再造」。深談之後他才發現，客戶要的不是表面換設計，而是覺得「公司內部需要組織改革」。在顧問進場前約一年，YUPO 已經新設「戰略企劃本部」來統整經營策略；品牌再造就是把這個本部提出的改革案，拉著各部門一起落地。他也點出 B2B 的難處：起點就是「世人幾乎不認識你」。在印刷業界 YUPO 很有名，但外界頂多知道是「淋濕也不怕的紙」「選票用的紙」，更不可能知道它在做創意素材。西澤認為，日本還有很多營收很大、卻因為是 B2B 而沒沒無聞的公司。",
-            "quote_ja": "外部から見ている分には“何に困っているのか”わかりませんでした。",
-            "quote_zh": "從外面看，完全看不出他們「到底在困擾什麼」。",
-            "image": {
-              "url": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/05/eight_MCC.png",
-              "caption": "エイトブランディングデザイン的「MCC」框架：把企業活動分成經營（Management）、內容（Contents）、溝通（Communication）三層來看"
-            }
-          },
-          {
-            "heading": "最大的抉擇：主動放下已經做到第一的定位",
-            "body": "西澤說這次最根本的改變是「定位」。YUPO 在合成紙領域是國內壓倒性第一、全球利基市場的龍頭，但新的經營策略是不停在這裡，而要開發新市場。難的地方在於：網路上搜「合成紙」馬上就跳出 YUPO，這個詞已經是它的知名度資產，連 SEO 上都等於要拿掉一個建立好的關鍵字，他形容這「等同公司重生」。在跟員工開的工作坊裡，意見幾乎對半分：一派主張「繼續穩穩當合成紙第一」，另一派主張「擴大業態去挑戰」。最後結論是「我們不只是做東西來賣的公司」，但西澤說大家直到最後一刻都還在掙扎。",
-            "quote_ja": "これは会社が生まれ変わるのに等しい、大きな決断だったと思います。",
-            "quote_zh": "我認為這是等同公司重生的重大決定。"
-          },
-          {
-            "heading": "理念落地：新 logo，以及刻意不出席的社長",
-            "body": "新 logo 以代表 YUPO 的長方形為中心，周圍長出搖曳、往外擴散的有機形狀，象徵跟客戶、夥伴一起創造價值的「Value Co-Creator」。舊 logo 其實也很好，當年還是員工投票選出來的，所以內部有人主張謹慎。西澤的說服理由是：新訊息如果沒有相稱的新視覺，再好的概念也傳不出去。他提了好幾個方案，最後被選中的是最大膽的一個，在給人穩重印象的素材產業裡，這種不規則的 logo 相當少見。另一個關鍵是社長內藤勝弘刻意不參加工作坊，避免變成由上而下，他的立場是「希望下一代成員自己想、自己決定」，並一再強調讓員工能自主做決策，才是這次品牌再造的重點。",
-            "quote_ja": "新しいメッセージにふさわしい（新たな）ビジュアルを用意しなければ、せっかくコンセプトを新しく発信しても伝わりにくくなってしまいます。",
-            "quote_zh": "如果不準備與新訊息相稱的視覺，好不容易對外發布的新概念也很難傳達出去。",
-            "image": {
-              "url": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/07/YUPO.webp",
-              "caption": "YUPO 新品牌 logo：以長方形為核心，向外擴散的不規則有機造形"
-            }
-          },
-          {
-            "heading": "把口號變成行動：公開原本保密的技術",
-            "body": "西澤認為整件事的本質，是不被「合成紙」框住，成為能被用在各種用途的創意素材，而「Value Co-Creator」就是對「怎麼做到」的回答：社會問題不是一家公司能解決的，要大家一起來。最有象徵性的做法是公開技術。YUPO 的合成紙是多層結構，為了防止競爭對手追上，過去一直對細節保密；但既然要成為跟外部工程師、創作者合作的存在，內部討論後決定把技術開示出來。西澤說這是把概念當成「姿態」而不只是「口號」的好例子。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://webdesigning.book.mynavi.jp/wp-content/uploads/2026/07/upo_n-2096x1180.jpg",
-              "caption": "發表會資料「技術の見える化」：用圖解公開 YUPO 合成紙的多層結構、微孔構造與加工步驟"
-            }
-          },
-          {
-            "heading": "結論：B2B 品牌經營，就是成為被選擇的存在",
-            "body": "西澤對 B2B 品牌的定義，是在眾多合作夥伴和供應商中，建立「遇到問題就想找 YUPO」的地位，顧問的角色則是用設計來支援這件事。他也提醒，經營穩定的公司，通常不管提什麼都會被反對，「維持現狀就好」的聲音一定比較多；YUPO 的難得之處在於員工自己選了「走向不同位置」，再一項項在內部決定要怎麼做到，這些累積才是未來發展的基礎。文章最後預告，新網站的細節會在連載後續介紹。",
-            "quote_ja": "BtoB企業におけるブランディングとは、選ばれる存在になっていくことだと考えています。",
-            "quote_zh": "我認為 B2B 企業的品牌經營，就是逐步成為被選擇的存在。"
           }
         ]
       }
