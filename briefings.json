@@ -1,5 +1,163 @@
 [
   {
+    "date": "2026-11-23",
+    "daily_summary": "今天兩邊講的其實是同一件事：AI 讓「做出東西」變便宜，真正值錢的變成做之前的判斷。Product 這邊，NN/g 實驗證明先整理過的研究讓 AI 做出更好的設計；Brand 這邊，有人點出品牌概念最常死在多家 agency 的交接縫隙，小團隊從策略一路做到落地反而是優勢，對隅室這種規模的工作室是好消息。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": true,
+      "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+      "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+      "summary": "Atlassian 的 AI 與產品工藝負責人 Sherif Mansour 談 AI 時代的 PM：PM 的頭號工作是幫團隊建立「共享大腦」，並把 PM 分成藝術家、科學家、GM 三型。他也解釋為什麼 Atlassian 現在反而比以前更積極招 junior。"
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "Can AI Generate Good Designs from Raw User Data?",
+          "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/",
+          "source": "Nielsen Norman Group",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "NN/g 做了一個實驗：同樣的提示詞和設計系統，一組給 AI 約 100 則原始用戶留言，一組給研究員整理過的發現與建議，各產出 8 版設計（航班改票表單、多步驟結帳流程）再盲評。結果整理過的那組平均多達成 8.4 個百分點的評分項目，改票任務差距更到 11.4 點。例子很具體：原始留言裡有人抱怨里程，但吃原始資料的設計沒有一版提到「取消會不會影響里程」，吃整理版的每一版都有。作者的解釋是：用戶擅長描述問題、不擅長給解法，原始資料又雜又互相矛盾，整理的過程其實就是在替 AI 做取捨判斷。對工作室來說，這是很好的提案論據：研究整理不是可以被 AI 省掉的步驟，而是讓 AI 產出變好的關鍵輸入。"
+        },
+        {
+          "title": "Prototypes have always been the most effective specification—especially with AI",
+          "url": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Patrick Neeman 主張：規格文件本來就是一種「成本產物」，因為以前開發貴、寫字便宜，所以先用文件買確定性；現在一個下午就能做出可點的原型，文件應該從「事前預測」變成「事後紀錄」。他引用 Fred Brooks 1986 年的觀點（客戶看到能跑的版本才知道自己要什麼），以及 UX Tools 調查：1,478 位設計師中 59.1% 半年內用 AI 自己做過工具。他也提醒，當誰都能做原型，研究就不能只是一個階段，要變成每週持續的節奏，並推薦用 RITE 方法邊測邊改。對接案團隊的啟發是：與其先交長篇需求文件，不如先拿原型讓客戶「做給你看」，很多爭論會直接消失。"
+        },
+        {
+          "title": "The attack of the giant AI design slop monster: a survivor's guide",
+          "url": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4",
+          "source": "UX Collective",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "資深 UX 設計師 Tania Ostanina 把她在倫敦 HCI 研討會的演講寫成文章，描述 PM、工程師都開始 vibe coding 之後，設計師面對的「AI 爛設計」：PM 直接把 AI 生的介面拿給高層，工程師把 Figma 丟進 Claude Code 卻沒接設計系統，結果只有設計師看得出問題。她的解法分三層：先建立研究護欄（餵 AI 結構化研究報告而不是原始資料，剛好呼應 NN/g 的實驗）、再建立設計護欄（設計系統、Figma MCP、Code Connect 讓 AI 不亂造元件）、最後顧好資安與權限。態度上她建議別當完美主義者，要挑戰役打、讓 QA 又快又能回應。對工作室來說，「把設計系統和研究整理成 AI 看得懂的護欄」可以變成新的服務項目。"
+        }
+      ],
+      "buzz": "這幾天 Product 圈的共識越來越清楚：AI 讓做原型和介面的成本趨近於零，設計師的價值往前移到「整理研究、定義規則」。NN/g 用實驗證明整理過的研究讓 AI 做得更好，另外兩篇則在講原型取代規格文件、以及用設計系統當 AI 的護欄。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "The biggest risk to a brand idea is what happens between agencies",
+          "url": "https://www.designweek.co.uk/the-biggest-risk-to-a-brand-idea-is-what-happens-between-agencies/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Velvet Badger 共同創辦人 Chris Joyce 用「笑話翻譯好幾手後就不好笑了」比喻品牌：策略、命名、識別、網站、產品各自外包，每家都做得很好，但成品就是不如最初的想法動人，因為流失的是「為什麼要這樣做」的理解，交接文件裝不下。他以自家案例說明：咖啡汽水 Rovello 從策略到包裝網站都由同一團隊圍繞「togetherness」做決定；金融科技 Texture 因為策略階段確立了「嚴謹」，才沒落入加密貨幣產業常見的發光網路視覺；運動投資平台 Keeps 則是品牌和產品策略同時開始，品牌能反過來質疑功能。他的結論是：AI 讓小團隊有能力跨更多領域，關鍵在於誰對概念負責到底。這篇幾乎是在替隅室這種小型、策略加設計一條龍的工作室說話，提案時可以直接借用這個論點。"
+        },
+        {
+          "title": "design/leader: Jen Yuan, Partner at View Source",
+          "url": "https://www.designweek.co.uk/design-leader-jen-yuan-partner-at-view-source/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "View Source 是一間約 25 人、橫跨紐約、巴黎、台北的品牌加數位加工程工作室，合夥人 Jen Yuan 談經營。他最羨慕的作品是 Little Plains 的 agentic brand system，因為它解決了老問題「品牌漂移」：識別一離開工作室就被各團隊各自詮釋、逐漸稀釋，AI 系統可以讓品牌交付後仍保持一致。談領導，他認為工作室長大後，自己的設計能力不再是重點，重點是「設計讓別人做出好作品的環境」，包括招募、規劃、資源分配。他也坦白最常失眠的是「我是不是太保守」：遇到很強的人想馬上找進來，但又擔心半年後案量撐不撐得住。對同樣在思考成長節奏的隅室，這篇很有共鳴。"
+        },
+        {
+          "title": "Wiedemann Lampe creates verbal-led identity for Haringey's 2027 Borough of Culture year",
+          "url": "https://www.designweek.co.uk/wiedemann-lampe-creates-verbal-led-identity-for-haringeys-2027-borough-of-culture-year/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦 Haringey 區要當 2027 年倫敦文化區，Wiedemann Lampe 做了策略和識別。值得看的是過程：他們做了工作坊、利害關係人訪談、公開諮詢和青年議會座談，發現「叛逆」這個在地精神對不同社區意義完全不同，於是不把它當成單一態度，而是重新定義成「包容、放大在地創意的力量」。識別核心是語言系統：以「Proudly Haringey」為主軸，可以替換成 boldly、wildly、kindly、quietly 等詞，也能套上地名或場館名。視覺用 6 套字體混搭、成對的高對比配色，攝影則依五個主題指導。這是「用文字當識別主體」的好範例，適合需要讓很多單位共用、又要各自有個性的地方品牌或社區型案子參考。"
+        }
+      ],
+      "buzz": "Brand 圈這幾天在聊品牌交付之後的事：概念怎麼在多家 agency 交接中不被稀釋、識別怎麼避免「品牌漂移」。另一個方向是語言系統變成識別主角，一句可替換的主張就能讓很多單位共用同一個品牌。"
+    },
+    "highlights": {
+      "summary": [
+        "真正值錢的變成做之前的判斷",
+        "先整理過的研究讓 AI 做出更好的設計",
+        "品牌概念最常死在多家 agency 的交接縫隙"
+      ],
+      "product": [
+        "設計師的價值往前移到「整理研究、定義規則」",
+        "原型取代規格文件"
+      ],
+      "brand": [
+        "概念怎麼在多家 agency 交接中不被稀釋",
+        "語言系統變成識別主角"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "｢商品数を3分の1に減らした｣銀座伊東屋のその後 ｢楽しめる文房具屋｣のためにやってきたこと",
+        "title_zh": "「把商品數砍到三分之一」的銀座伊東屋後來怎麼了：為了做出「逛起來開心的文具店」所做的事",
+        "url": "https://toyokeizai.net/articles/-/773966",
+        "source": "東洋経済オンライン（川島蓉子）",
+        "lang": "日文",
+        "published": "2024-07",
+        "category": "盤點整理",
+        "brand_name": "銀座 伊東屋（1904 年創業的東京銀座文具老店）",
+        "consultant": "伊藤明（伊東屋社長，第四代，主導內部改革）",
+        "partial": true,
+        "cover_image": "https://tk.ismcdn.jp/mwimgs/9/f/1200xm/img_9f7214439eb9016fea0caddb8790514f823688.jpg",
+        "story": {
+          "problem": "伊藤明 1992 年進公司時，銀座店塞滿商品、客人很多，卻感受不到「逛起來的興奮感」。員工多半是「被交代才做」的心態，很難靠這樣的組織開創未來。同時，「東西越多越好」已經不再等於豐富，靠新品微小差異輪轉的大量生產模式也跟時代脫節。",
+          "approach": "改革從銀座本店改建開始。他先花約 2 年訪談員工、客人和往來廠商，反覆討論「伊東屋是什麼」，整理成一本叫『伊東屋らしさ』（伊東屋的樣子）的小冊子，裡面寫好使命、價值和願景。接著用這份冊子決定新店的樓層構成和內容，最大膽的一步是把約 15 萬件店頭庫存砍到大約三分之一。篩選標準是「能不能長久用下去」，同時加強原創商品，並在一樓設飲料吧讓客人邊喝邊逛。",
+          "result": "2015 年改建完成的銀座本店是地下 1 樓到地上 12 樓的細長大樓，每層不大但很舒服，成了品牌的實體象徵。『伊東屋らしさ』在 2024 年秋天推出改訂版，主軸不變、只修細節。",
+          "takeaway": "砍品項之前要先有「篩選標準」，而標準來自一份大家共同訪談、討論出來的品牌文件，不是老闆或顧問的個人品味。品牌手冊改版時「主軸不動、只磨細節」，可以避免員工每次都要重新適應，這點隅室在做品牌手冊和後續維運時可以直接提醒客戶。"
+        },
+        "guide": [
+          {
+            "heading": "前言：120 年老店的大膽改革（付費段落，只讀到導言）",
+            "body": "這篇是時尚與品牌記者川島蓉子的連載「日本企業的強項：『〇〇らしさ』是什麼？」其中一篇，主角是銀座文具老店伊東屋。第一頁是會員限定，公開的只有東洋經済的導言：伊東屋在 120 年歷史的節點上重新追問「伊東屋らしさ」，用精選的商品和舒服的空間提出新價值。以下導讀根據第 2 到 4 頁的公開內容。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "創業精神：把世界上好的文具介紹給大家",
+            "body": "伊東屋 1904 年由初代伊藤勝太郎在銀座三丁目創立，賣的是「和漢洋文房具」，也就是日本、亞洲和歐美的文具都有，初衷是把世界上優秀的文具介紹給更多人。現任社長伊藤明是他的曾孫，形容曾祖父好奇心強、行動力也強，總能從眼前的事物看到新的可能，他認為這股精神一直延續到今天。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "現況診斷：店裡很熱鬧，卻不讓人興奮",
+            "body": "伊藤明在日本讀完大學後，到美國 Art Center College of Design 念工業設計，1992 年進伊東屋。他看到的是商品多到快滿出來、客人也很多的店，可是逛起來沒有那種讓人雀躍的樂趣。員工大多是「照指示做事」的態度，他覺得靠這樣很難開創未來。值得注意的是，這不是業績崩盤的危機，而是「看起來還不錯」的狀態下，經營者自己察覺到品牌失去了靈魂。",
+            "quote_ja": "当時の店は、商品があふれんばかりに詰め込まれていて、お客さまで賑わっているのですが、ワクワクする楽しさが感じられなかったのです",
+            "quote_zh": "當時的店塞滿了商品，客人也很多，卻感受不到那種讓人雀躍的樂趣。"
+          },
+          {
+            "heading": "定義方向：花 2 年訪談，寫成『伊東屋らしさ』",
+            "body": "轉機是銀座本店的改建。他們針對「伊東屋是什麼」這個問題，花了大約 2 年訪談員工、客人和往來廠商，反覆討論後整理成一本名為『伊東屋らしさ』的冊子，內容包含使命、價值和願景。新店的樓層構成和內容，全部依照這份冊子來決定。核心想法是：銀座這個地點的價值，在於讓人在店裡度過的時間和空間有意義、很舒服。在「東西多就是豐富」已經不成立的時代，店面、選品、接待方式都要追求屬於下一個時代的「伊東屋的樣子」。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "盤點整理：15 萬件庫存砍到三分之一",
+            "body": "最驚人的決定，是把原本約 15 萬件的店頭庫存減少到大約三分之一。篩選的重要標準之一是「能不能一直用下去」。伊藤明認為，用大量生產、大量消費的方式不斷推出只有細微差異的新品，已經跟時代脫節；他想傳達的是「把喜歡、有品味的東西長久珍惜地用」的價值觀，壞了也想修好繼續用。他把這種商品形容為「串連時代的東西」，而不是「隨時代改變的東西」。",
+            "quote_ja": "時代で変わっていくものでなく、時代をつないでいくものという価値観を重視したのです",
+            "quote_zh": "我們重視的不是隨時代改變的東西，而是能串連時代的東西。"
+          },
+          {
+            "heading": "理念落地：12 層樓的店、原創商品與飲料吧",
+            "body": "2015 年改建後的伊東屋，是從地下 1 樓到地上 12 樓的細長建築。每層樓不大，卻有種從容的舒適感：窗外進來的光、內裝材質的溫度、陳列架的精密配置，加上選品和展示方式，都是從「人在店裡怎麼度過時間」出發。店員和客人的互動也看得出「以人為中心」的經營。原創商品也變多了，從筆類到手帳、月曆、皮件都有，簡單有質感又帶點明亮愉快的設計感。一樓還有原創飲料吧，客人可以拿著飲料逛整間店。作者認為，有一個能象徵品牌的實體場所，對客人和員工都很有用。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://tk.ismcdn.jp/mwimgs/6/f/520m/img_6fe64e4d89dbb8dcb413538cc0183603913920.jpg",
+              "caption": "伊東屋的原創商品：橘色皮革筆袋和兩支自販自售的自動筆"
+            }
+          },
+          {
+            "heading": "長期成果：使命、手冊改版與「Maison」目標",
+            "body": "伊東屋的使命是「讓創意的時刻更美、更舒服」。伊藤明說，他們想支援的不只是建築師、設計師這類職業，而是所有樂在工作、每天下點工夫的人。『伊東屋らしさ』這本冊子在 2024 年秋天（文章發表當時）要出改訂版，但主軸不變，只修細節。作者特別指出，很多品牌手冊一改版就整個翻新，讓員工無所適從；像伊東屋這樣不動主軸、慢慢打磨，才是鍛鍊品牌的好方法。伊藤明的長期目標是像巴黎那些「Maison」（老字號精品）一樣，從企劃、製造到販售一條龍。作者總結：為眼前的客人做東西、選東西，客人愛用之後累積信任，品牌價值就是這樣一點一滴養出來的。",
+            "quote_ja": "",
+            "quote_zh": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-20",
     "daily_summary": "這兩天 Product 圈有一篇很值得工作室拿去提案用的文章：企業後台不該把所有資料平鋪成表格，要先把「著火」的問題排到最前面，另一篇則提醒，AI 讓做原型變得很快之後，真正稀缺的是知道哪個點子值得做的判斷。Brand 圈則在反省自己：設計讓買東西感覺像歸屬感，Adobe MAX 之後創作者也開始坦白對收入的焦慮。",
     "jenny_wen": {
@@ -1574,211 +1732,6 @@
             "body": "品牌定下來後，熊澤覺得光靠合羽橋，能讓好道具被看見的範圍有限。他的判斷是：既然要做，就直接去最想去的「食的本場」巴黎，在那裡被理解的東西自然會擴散出去，於是 2018 年在巴黎開了店。這個選擇也跟「良理道具」一致：要讓更多人知道真正好的東西，就要主動走出去，而不是在合羽橋等客人上門。",
             "quote_ja": "どうせやるなら一番やりたい食の本場パリに最初から行っちゃおうって。",
             "quote_zh": "反正要做，就一開始直接去最想去的美食重鎮巴黎吧。"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-10-29",
-    "daily_summary": "今天兩邊都在談「回到本質」：Product 圈有兩篇長文同時引用 Figma 調查，58% 設計師把 craft 當成視覺打磨，偏偏這正是 AI 最會做的部分；Brand 圈則是 Design Week 把獎項改成 £95 一口價、7 人工作室 SMLXL 說規模剛好才玩得起來，小工作室的生存方式被認真討論。品牌案例接上今天 Snow Peak 焚火台 30 週年的新聞，看它怎麼靠聽顧客抱怨從谷底翻身。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": true,
-      "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
-      "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
-      "summary": "Claire Vo 做了 How I AI 第一次個人 agent 評比：Grok、Dot、Meta 的 Muse、Claude Duet 四個 agent 跑同樣 9 個真實任務，從用她的口吻回 Slack、修 Sentry bug、在 Figma 做縮圖，到幫家人做報紙、買鞋。重點是她把「工作上信不信得過」和「生活上好不好用」分開評。"
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The AI reckoning in UX was 20 years in the making",
-          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de",
-          "source": "UX Collective（Dan Maccarone）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者認為 UX 求才數比 2022 高峰少了 71%，不能全怪 AI：這是這行 20 年來第三次「爆紅、湧入、收縮」，前兩次是網路泡沫和 bootcamp 熱潮。問題出在業界長期把設計教成「長得好看」，Figma 的 State of the Designer 調查裡有 58% 設計師把 craft 定義成視覺打磨，而 AI 偏偏最會把東西做得看起來完成。對工作室的啟發是：對外說明價值時，要強調判斷力（解對問題、懂使用者），而不是產出的精緻度。"
-        },
-        {
-          "title": "Smaller teams want design leaders who make, again. Here’s how.",
-          "url": "https://uxdesign.cc/smaller-teams-want-design-leaders-who-make-again-heres-how-b8939221bd7b",
-          "source": "UX Collective（Patrick Neeman）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "團隊縮編，設計主管又回到「球員兼教練」：自己要動手做、要會看損益表、要比團隊先摸熟 AI 工具。作者整理數據：Capital One 設計團隊幾年內從約 90 人長到 500 多人，是零利率時代的產物；Google 砍掉 35% 只管不到 3 人的主管；Figma 調查中 59% 工程師用 AI 做核心工作，設計師只有 31%。他主張 craft 要重新定義成「把問題解得漂亮」，在 AI 功能裡則是寫清楚什麼叫好答案、持續做評估（evals）。小工作室本來就是這種模式，這篇剛好可以拿來說服客戶為什麼小團隊更有效率。"
-        },
-        {
-          "title": "The Digital Twin Hype: Can they Really Speak for real Customers?",
-          "url": "https://medium.com/design-bootcamp/the-digital-twin-hype-can-they-really-speak-for-real-customers-6d0143c41823",
-          "source": "Bootcamp（Reetika Gupta）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "研究廠商開始賣「AI 數位分身」，說可以取代訪談真人。作者翻了兩份研究：Columbia 團隊用 500 多題資料做了 1,784 人的分身，結果跟真人答案的相關只有約 0.2，加再多個人資料也只比用人口統計好一點點，而且分身比真人更理性、更單調；Stanford 的研究雖然拿到 85% 的相對準確度，但前提是每人先做 2 小時真人訪談。她的結論是：分身可以拿來發想假設、預演訪綱，但不能取代研究本身，並提出 7 項檢核標準。對有在用 AI 模擬受訪者的工作室來說，這是很好的使用邊界提醒。"
-        },
-        {
-          "title": "What happens between “Cancel” and “Cancellation confirmed”?",
-          "url": "https://medium.com/design-bootcamp/what-happens-between-cancel-and-cancellation-confirmed-7fbc3ad1eeff",
-          "source": "Bootcamp（Eugene Voroniuk）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "拆解 Mobbin、Figma、Cursor 三個訂閱的取消流程，重點不在畫面有幾頁，而是「挽留、問原因、說明後果」放在哪個位置。Mobbin 先問原因再給 8 折、再列出你會失去什麼，最後確認得很清楚，但步驟多到讓人煩；Figma 先講清楚哪些檔案會被鎖、確認取消後才問原因，等於讓回饋不再是離開的條件；Cursor 只有一個確認視窗。作者也提醒，取消原因的選項常被亂點，不要當成真實數據。做訂閱服務的 UX 案子可以直接拿來當參考框架。"
-        },
-        {
-          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
-          "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
-          "source": "Lenny's Newsletter（How I AI，Claire Vo）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "How I AI 第一次個人 agent 評比：Grok、Dot、Meta 的 Muse、Claude Duet 跑同樣 9 個真實任務，包含用她的口吻回 Slack、剪短影音、修 Sentry bug、在 Figma 做節目縮圖、整理信箱待辦，以及做家庭報紙、教小學生物理、買鞋。測試方法本身也值得看：用 Claude 的 computer use 操作沒有 API 的 Dot，再讓 Codex 即時評分。前 5 題偏工作、後 4 題偏生活，她最後想回答的是「工作和生活各該信任哪一個」，最終分數要看節目後段。"
-        }
-      ],
-      "buzz": "UX 圈今天在算舊帳：讓設計師失業的不只是 AI，過去 20 年把設計教成「長得好看」才是根源。另一條線是團隊變小之後，主管得重新動手做、會用工具、看得懂財務。研究這頭則開始質疑 AI 數位分身能不能代替真人訪談。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Why we’ve binned the corporate circus and restarted the Design Week Awards from scratch",
-          "url": "https://www.designweek.co.uk/why-weve-binned-the-corporate-circus-and-restarted-the-design-week-awards-from-scratch/",
-          "source": "Design Week（David Coveney）",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "Design Week 直接打掉重練自家獎項，批評現在的設計獎變成比誰預算多、誰抽得出人力做報獎影片，最後還要花 £2,500 買一桌晚宴。新制從英國西北部開始：報名費一口價 £95（含頒獎晚會門票，得獎獎座不另收費），只要交 200–300 字說明加現有作品連結，報名期只有約兩週，類別砍到 7 個，報名數不夠就不頒二、三名。還規定作品要超過 50% 由當地設計師完成、必須列出所有 freelancer 名字，評審 14 人全部來自外地。對小工作室來說，這代表參獎成本和「幫大公司代工卻沒被看見」的問題，終於有人正面處理。"
-        },
-        {
-          "title": "Why SMLXL’s size is its strength",
-          "url": "https://www.creativereview.co.uk/smlxl-agency-size-fun/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "SMLXL 是在巴塞隆納和紐約各有據點的 7 人工作室，三位創辦人 2008 年在 EINA 設計學校認識，先前一起經營 Pràctica，2024 年收掉後重組，最近拿下 D&AD 年度小型獨立設計公司。他們說上一間公司讓他們學到「最適規模」是多少，以及創作上的滿足感有多重要；現在的目標是讓每個案子都做到很好，心態是「就算不成功，至少要玩得開心」。原文後段需訂閱，這裡只讀到前半，但對思考工作室要不要擴編很有參考價值。"
-        },
-        {
-          "title": "The speed of change, the weight of place",
-          "url": "https://www.designweek.co.uk/the-speed-of-change-the-weight-of-place/",
-          "source": "Design Week（Blair Cooper）",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者提出一個零售品牌的矛盾：想跟上文化的速度，反而需要慢而持久的實體空間。實體店該是品牌的「骨架」，表面刻意少設計、底層多預留（電力、燈軌、模組化陳列），衡量投資報酬的方式是「這個殼能吸收幾次季節更換」；快速的快閃和活動則負責跟上話題。他舉 Rapha Clubhouse 為例，用義式咖啡館的會所概念經營騎車社群，連桌下掛安全帽的鉤子都在邀人留下。英國 2026 第二季網購金額年增 11.7%，實體店不能只是收銀台。適合拿來跟做店面或空間品牌的客戶討論長期規劃。"
-        },
-        {
-          "title": "How Mother Design turned a séance into a new identity for Purple Garden",
-          "url": "https://www.creativeboom.com/work/how-mother-design-turned-a-seance-into-a-new-identity-for-purple-garden/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Mother Design 幫線上通靈占卜平台 Purple Garden 改版，把定位從「一次性占卜」改成「持續的靈性練習」，概念叫 A Living Practice。最有趣的是過程：團隊先參加降靈會、脈輪解讀和自動書寫工作坊，用炭筆在紙上畫出的形狀和質感，直接變成識別系統的基礎，並參考 Hilma af Klint 的創作方式，中間也混用 AI 工具產生意外的視覺。色彩上做了 6 種偏暖的紫，刻意避開同業常用的冷紫；還有 28 個插畫圖案和用聲波紋路做成的動態字。示範了「難以言說的體驗」怎麼透過研究方法轉成視覺。"
-        },
-        {
-          "title": "スノーピーク「焚火台」誕生30周年の統合コミュニケーションを開始　顧客と歩んだ「火を囲む対話」の原点を提示",
-          "url": "https://www.advertimes.com/20261028/article562172/",
-          "source": "AdverTimes（宣伝会議）",
-          "lang": "日文",
-          "studio_related": false,
-          "summary": "Snow Peak 焚火台 1996 年誕生，當年大家習慣直接在地上生火，焚火台讓人不傷地面也能享受營火，進而推動了野營禮儀。30 週年不只出紀念商品（消光灰焚火台、可當地墊也可當柴袋的防火布、用半纏改造的防火外套等），還做了特設網站「焚火台の理由」講產品哲學，11 月 22 日在全國直營營地辦「TAKIBI TIME」讓員工和使用者圍火交流。這是把一個單品的週年，拉高成整個品牌原點的再敘事。延伸閱讀：今天的品牌經營案例就是 Snow Peak 當年怎麼靠圍著營火聊天翻身。"
-        }
-      ],
-      "buzz": "Brand 圈今天聊的都跟「規模」有關：Design Week 重做獎項，反對把人力浪費在報獎；7 人工作室分享規模剛好的好處。另一邊是品牌怎麼兼顧快與慢：實體空間要蓋得久、活動要跑得快，Snow Peak 則用 30 週年把品牌原點重新說一遍。"
-    },
-    "highlights": {
-      "summary": [
-        "58% 設計師把 craft 當成視覺打磨",
-        "小工作室的生存方式被認真討論",
-        "靠聽顧客抱怨從谷底翻身"
-      ],
-      "product": [
-        "把設計教成「長得好看」",
-        "主管得重新動手做",
-        "質疑 AI 數位分身"
-      ],
-      "brand": [
-        "反對把人力浪費在報獎",
-        "實體空間要蓋得久、活動要跑得快"
-      ]
-    },
-    "brand_cases": [
-      {
-        "title": "年20％で顧客増のスノーピークはなぜファンを生み出せるのか。「5年で投資額100億円」が物語るビジョン経営",
-        "title_zh": "顧客每年增加 20% 的 Snow Peak，為什麼養得出粉絲？從「5 年投資 100 億日圓」看願景經營",
-        "url": "https://www.businessinsider.jp/article/235466/",
-        "source": "Business Insider Japan（村上茂久「会計とファイナンスで読むニュース」）",
-        "lang": "日文",
-        "published": "2021-05",
-        "category": "推廣通路",
-        "brand_name": "スノーピーク（Snow Peak，新潟燕三條的露營品牌）",
-        "consultant": "山井太（經營者本人；本文由財務顧問村上茂久分析）",
-        "partial": false,
-        "cover_image": "https://media.loom-app.com/bi/dist/images/2021/05/31/tmb_af_%281%29.045.jpeg?w=1200&h=630",
-        "story": {
-          "problem": "Snow Peak 靠オートキャンプ（開車露營）熱潮，營收從 1986 年約 5 億日圓衝到 1993 年 25 億多。熱潮一退就連續六期衰退，1999 年只剩約 14.5 億。社長山井太甚至懷疑公司還有沒有存在的意義，顧客那邊則抱怨商品太貴、找不到貨齊的店。",
-          "approach": "1998 年開始辦「Snow Peak Way」，讓員工和顧客一起露營，晚上圍著營火聊天（焚火トーク），直接聽使用者評產品。第一次就聽到「太貴」「買不到」兩個核心抱怨，山井太據此斷掉合作多年的批發商來降低流通成本，同時在全國建立直接交易、貨色齊全的專門店網。之後再加上全商品永久保證、把總部搬進 5 萬坪露營場，幾乎不花廣告費，錢都投在店面、營地和總部這些讓人實際體驗的「場」。",
-          "result": "2000 年起營收急速成長，2020 年達 167.6 億日圓、15 期連續增收；點數會員每年增加 20% 以上，山井太本人透過 Snow Peak Way 和約 10 萬名使用者一起露營過。",
-          "takeaway": "品牌診斷不一定要從問卷開始：讓經營者和員工跟顧客「共度一晚」，聽到的抱怨常常直接指向價格、通路這種結構問題，而不只是視覺。隅室接案時，可以建議客戶設計一個固定、可重複的共同體驗場合，取代一次性的訪談。另外，像永久保證這種品牌承諾，可以先幫客戶算出財務成本（Snow Peak 只占營收 0.1%），讓「誠意」變成負擔得起的決策。"
-        },
-        "guide": [
-          {
-            "heading": "開場：為什麼 Snow Peak 的粉絲一直變多",
-            "body": "這是財務顧問村上茂久在 Business Insider Japan「用會計與財務讀新聞」專欄的 Snow Peak 後篇。前篇發現 Snow Peak 幾乎不花廣告費卻 15 期連續增收增益，關鍵在於被稱為「スノーピーカー」（Snow Peaker）的狂熱粉絲。這篇要回答的是：為什麼它養得出粉絲？數字上看得出差距：露營市場本身雖然在成長，但 Snow Peak 的點數會員每年增加 20% 以上，跑得比市場還快。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "從谷底開始：熱潮退去後連續六年衰退",
-            "body": "現任會長山井太 1986 年進入父親經營的 Snow Peak 時，年營收大約 5 億日圓。他自己開發開車露營用品，碰上オートキャンプ熱潮，1993 年營收做到 25 億多，成長 5 倍。但熱潮一退，營收連續六期下滑，1999 年掉到約 14.5 億。當時還是社長的山井太很苦惱，甚至懷疑「Snow Peak 還有存在的意義嗎」。轉機來自一位員工隨口說的一句話：雖然搞不清楚公司存在的意義，但只要看到使用者的臉，就有力氣繼續工作。山井太因此在 1998 年辦了讓顧客和員工一起露營的活動「Snow Peak Way」，目的是把公司的魅力和方向直接講給使用者聽。（附帶一提，這個活動名稱和 1988 年訂的使命宣言同名。）",
-            "quote_ja": "自分たちの存在意義はよくわからないが、それでもユーザーの顔を見ると仕事を頑張れる",
-            "quote_zh": "雖然搞不清楚我們存在的意義，但只要看到使用者的臉，就能努力工作。",
-            "image": {
-              "url": "https://assets.media-platform.com/bi/dist/images/2021/05/26/af_fig_45.001.jpeg",
-              "caption": "Snow Peak 營收變化：1993 年 25.5 億、1999 年跌到 14.5 億（紅框為低迷期），2020 年回升到 167.6 億日圓"
-            }
-          },
-          {
-            "heading": "焚火トーク：把顧客抱怨直接變成通路改革",
-            "body": "Snow Peak Way 最重要的環節是「焚火トーク」：顧客和員工圍著營火聊怎麼玩戶外，同時請顧客評論產品。第一屆就聽到兩個很直接的聲音：「Snow Peak 的東西太貴」「沒有貨齊的店可以買」。山井太做了一個大膽的決定：為了讓商品好買一點，切斷和合作多年的批發商（問屋）的交易，壓低流通成本；為了確保貨色齊全，在全國建立直接交易的專門店網絡。作者認為，正是這種「聽到使用者的聲音，就真的反映到經營上」的累積，讓營收在 2000 年後急速成長。從圖表可以看到，2003 年開出第一家直營店，2011 年蓋好總部，2014、2015 年先後上市。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://assets.media-platform.com/bi/dist/images/2021/05/26/af_fig_45.002.jpeg",
-              "caption": "2000–2020 年 15 期連續增收，標出首家直營店（2003）、總部完工（2011）、上市（2014、2015）、海外據點啟用等里程碑"
-            }
-          },
-          {
-            "heading": "圍著火聊天為什麼有用：共同體驗產生的知識",
-            "body": "作者認為焚火トーク除了收集產品意見，還有一個更重要的效果，可以用野中郁次郎提出的「SECI 模型」解釋。知識分成說不出來的「暗默知」和寫得下來的「形式知」，組織要取得暗默知，關鍵是「共同體驗」：沒有一起經歷過，很難進入別人的思考。經營層、員工、使用者圍著同一堆火聊天，正好就是這種共同體驗。山井太說他透過 Snow Peak Way 已經和約 10 萬名使用者一起露營過，其他員工聽到的顧客聲音更是數不清。對使用者來說，能直接聽到產品怎麼開發、經營者在想什麼，本身就很有吸引力，作者的朋友就是被拉去參加一次後變成粉絲。",
-            "quote_ja": "顧客の生の声をこれほど聴いたことのある企業は、世界中を見回してもそう多くはないはずです。",
-            "quote_zh": "放眼全世界，聽過這麼多顧客真實聲音的企業應該不多。"
-          },
-          {
-            "heading": "永久保證：算得出成本的誠意",
-            "body": "Snow Peak 的商品沒有保證書，不是不保固，而是全部「永久保證」（只限製造瑕疵，材料磨損和自然老化不算）。在很多企業刻意設計換購需求的年代，這種姿態讓使用者覺得很誠實，也是把新客變成鐵粉的原因之一。作者用財報算了這件事的成本：2020 年營收 167 億日圓，當年新提列的產品保證準備金只有 1,621 萬日圓，約 0.1%，等於賣 100 萬日圓只要準備不到 1,000 日圓；以 Snow Peak 約 9% 的營業利益率來看完全吸收得了。從財務角度看，先把品質做好、控制未來維修成本，同時換到顧客忠誠度，是很聰明的投資，但前提是高階商品加上狂熱粉絲。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "不做行銷、不打廣告，但大筆投資「場」",
-            "body": "山井太在書中說 Snow Peak 不做一般說的「行銷」（研究市場和競爭者、想怎麼對付對手），而是聽粉絲的聲音，再對照使命宣言「The Snow Peak Way」決定該做什麼。例如為了實踐「提供親近自然的生活價值」，2011 年把總部從燕三條市區搬到 5 萬坪的土地上：其實是 5 萬坪的露營場裡蓋了 1,600 坪的辦公室，有員工下班直接在門前搭帳篷過夜、隔天從帳篷上班，新人也在這裡做露營研修。廣告費幾乎不花，但近 5 年累積投資近 100 億日圓，主要設備從 2016 年約 20 億增加到 2020 年近 60 億，還計畫投資約 25 億蓋隈研吾設計的溫泉度假設施，把總部腹地從約 16.5 萬平方公尺擴大到約 50 萬平方公尺。原因是山井太認為，要讓更多人享受戶外，「好道具、賣場、營地、指導的人」四樣缺一不可，所以 Snow Peak 不只做產品，也開店、經營營地。",
-            "quote_ja": "",
-            "quote_zh": ""
-          },
-          {
-            "heading": "下一步：從 7% 的露營人口走向所有人",
-            "body": "Snow Peak 的社會使命是「人間性の回復」（找回人性）：現代生活樣樣便利，人卻離自然越來越遠，而「野遊び」（在自然裡玩）是找回人性的方法。日本露營人口大約 7%，公司目標是拉到 20%，但就算達標，還有 80% 的人不露營。所以它開始把事業對象擴大到全部人口：靠溫泉度假設施把非露營者也吸引到總部，年來訪人數預計從約 5–7 萬人增加到約 15 萬人；另外發展服飾、都市戶外（陽台、公園）和「キャンピングオフィス」（在辦公大樓綠地搭帳篷開會、用露營用品當辦公家具）等新事業。2020 年接任社長的山井梨沙說，要把總部打造成「衣食住働遊的聖地」。",
-            "quote_ja": "",
-            "quote_zh": "",
-            "image": {
-              "url": "https://assets.media-platform.com/bi/dist/images/2021/05/26/af_fig_45.010.jpeg",
-              "caption": "Snow Peak 的社會使命圖：文明越進步、人性越低落；Snow Peak 想用「野遊び」連結自然與人，讓人性曲線回升"
-            }
-          },
-          {
-            "heading": "結語：粉絲是支持你價值的人",
-            "body": "作者引用佐藤尚之在《ファンベース》裡的定義：粉絲是「支持企業、品牌、商品重視的價值的人」。スノーピーカー就是支持 Snow Peak 價值的一群人，因為有他們，Snow Peak 才能在疫情期間交出營收和獲利都創新高的成績。回頭看整個故事，起點只是一位員工說「看到使用者的臉就有力氣」，以及一場圍著營火的對話；後來的通路改革、永久保證、總部搬遷和新事業，都是從同一個「聽使用者、對照使命」的習慣長出來的。",
-            "quote_ja": "",
-            "quote_zh": ""
           }
         ]
       }
