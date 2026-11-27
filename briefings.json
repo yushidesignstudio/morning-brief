@@ -1,5 +1,185 @@
 [
   {
+    "date": "2026-11-27",
+    "daily_summary": "這兩天兩邊都在問同一件事：設計師的價值到底在「執行」還是「判斷」。Product 這邊有人主張別再幫產品做「未來防護」，改成可逆的小賭注；也有人提議把「質疑 brief」變成收費的調查階段。Brand 這邊最實用的是一篇設計侵權指南，提醒工作室接到「做得像某某」的 brief 時要先留書面紀錄；Visa 和 Caixa 兩個金融品牌則示範了保住舊資產、只加新語彙的翻新方式。",
+    "jenny_wen": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "lenny": {
+      "has_content": false,
+      "title": "",
+      "url": "",
+      "summary": ""
+    },
+    "product": {
+      "articles": [
+        {
+          "title": "\"How did young designers become so convinced of their own powerlessness?\"",
+          "url": "https://www.dezeen.com/2026/11/26/design-power-change-celine-semaan-opinion/",
+          "source": "Dezeen（Céline Semaan 專欄）",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "Slow Factory 創辦人 Céline Semaan 在紐約 SVA 教課時發現，學生最在意的是保住工作，覺得自己根本改變不了什麼。她認為問題出在設計教育只教「怎麼執行 brief」，沒教「怎麼參與做決定」，而在 AI 能飛快照指令產出的時代，這正是設計師最容易被取代的地方。她舉了一個例子：市政府委託做降溫避難所，設計團隊調查後發現選址離最需要的長者太遠、改用現有社區中心更便宜，這時除了照做或拒接，還有第三條路，就是拿證據在同樣預算內提出替代方案。對工作室最實用的是她的結構性建議：與其靠設計師個人勇氣，不如在合約裡先談好一個「付費的調查階段」，要求客戶在定案前看過證據和替代方案，讓「質疑 brief」成為一項正式、有收費的專業服務。"
+        },
+        {
+          "title": "Future-proofing is dead and AI killed it",
+          "url": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02",
+          "source": "UX Collective（Dan Maccarone）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "作者用法國的馬其諾防線開場：全世界最堅固的牆完全照設計運作，德軍卻直接繞過去。他認為做產品時追求「未來防護」也是同樣的錯，因為現在有三個目標同時在動：技術（Martec 定律：技術指數成長、組織只能緩慢跟上）、使用者（用生成式 AI 研究購物的比例一年內從 41% 跳到 58%）、以及公司自己的組織結構（角色分工本身就是預算和職稱的依據，很難刪）。他的解方是借用 Bezos 的「單向門／雙向門」：大部分決策其實可以撤回，就別用不可逆的重型流程處理；再加上 Taleb 的反脆弱與 David Hoang「把工作當花園而不是工廠」的比喻。對設計師個人的結論是：別囤積單一技能，真正不會過期的是判斷什麼值得做。"
+        },
+        {
+          "title": "Machines are trying to get gut feelings while you're telling me to ignore mine",
+          "url": "https://uxdesign.cc/machines-are-trying-to-get-gut-feelings-while-youre-telling-me-to-ignore-mine-17095e56f22d",
+          "source": "UX Collective（Nicole Alexandra Michaelis）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "斯德哥爾摩的設計總監 Nicole Michaelis 談「直覺」這件被當成次等知識的能力。她整理研究指出，直覺是從經驗累積的模式辨識，是可以練的技能；而 AI 正透過人類回饋訓練、世界模型等方式學「直覺」，但越來越多是機器向機器學，容易走向 Nature 期刊說的「模型崩潰」，最後只剩平均值的平均值。另一個迴圈發生在人身上：我們跟機器對話越多，練習讀懂真人的機會越少。她的建議很直接：主管要把「我覺得這不對勁」當成資料追問背後原因，而不是因為儀表板看起來正常就否決。對設計團隊來說，這篇提醒的是：品味和直覺需要被保護、被練習，不會自己留下來。"
+        }
+      ],
+      "buzz": "Product 圈這兩天的長文都在重新定義設計師的位置：AI 把執行變便宜之後，剩下的價值是判斷力、直覺，以及敢不敢挑戰 brief 本身。比較有意思的是討論開始從「個人要有勇氣」轉到「結構要怎麼改」，例如把前期調查寫進合約、讓決策可以撤回。"
+    },
+    "brand": {
+      "articles": [
+        {
+          "title": "Inspiration or infringement? BYD, the Defender and the lessons for product designers",
+          "url": "https://www.designweek.co.uk/inspiration-or-infringement-byd-the-defender-and-the-lessons-for-product-designers/",
+          "source": "Design Week（Ben Prangell，Asenda Law）",
+          "lang": "EN",
+          "studio_related": true,
+          "summary": "荷蘭法院 11 月 20 日禁止比亞迪的 Ti7 在歐盟販售，因為它太像 Land Rover Defender。智財律師 Ben Prangell 拆解判決：「方盒子」這種類型沒人擁有，但圓潤的肩線、後柱面板、輪拱切角和整體比例這幾個招牌特徵被判幾乎相同，比亞迪改了車燈、水箱罩、保險桿都沒用；而 JLR 早在發表前 17 個月就註冊了設計，所以根本不用證明對方有抄。對工作室最有用的是第五個陷阱「客戶要求的」：客戶丟一張競品說「做類似這樣」，出事時客戶通常會回頭引用合約裡的原創保證條款，帳單最後落到工作室頭上。建議做法：brief 和參考圖都留書面紀錄、客戶硬要仿時用 email 表態、保證條款只限於自己能控制的部分，並確認專業責任險有沒有涵蓋智財糾紛。"
+        },
+        {
+          "title": "Visa global brand refresh by Base Design spotlights progress",
+          "url": "https://www.creativereview.co.uk/visa-global-brand-refresh-base-design/",
+          "source": "Creative Review（Dezeen、It's Nice That 也有報導）",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "Visa 2021 年後第一次大改版，由 Base Design 操刀，但字標完全沒動。他們把 Visa 字標裡帶招牌「翼尖」的 V 單獨切出來當成精簡符號，用在卡面和數位場景；再加一條右端被裁切的色塊作為主視覺裝置，象徵「往前拉」的動勢，並與 Displaay 字體工作室合作從字標延伸出 Visa Sans。最值得學的是分層：核心識別處理日常、延伸版說故事、「拉伸」版用在大型活動，所以社群可以很活潑、對銀行夥伴可以很收斂。他們也點出 Visa 在人們生活中常常只出現一瞬間（感應付款、結帳），所以系統是為這些極短的接觸點設計的。三家媒體同時報導，算是這週品牌圈的焦點。"
+        },
+        {
+          "title": "Brazilian bank Caixa unveils first redesign in 30 years",
+          "url": "https://www.creativereview.co.uk/caixa-bank-redesign-tatil-design/",
+          "source": "Creative Review",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "巴西第四大銀行 Caixa 165 週年，由 Tátil Design 做近 30 年來第一次改版，目標是吸引年輕的數位族群，又不能流失老客戶。Tátil 刻意不模仿數位銀行的美學，而是回頭挖品牌根源，發現 Caixa 一直同時擁抱別人眼中矛盾的東西：社會與商業、需要與想要、個人與集體。於是招牌 X 被重新詮釋成兩股力量交會：藍線代表穩定，橘線代表多元；字標裡兩個 a 改成小寫，增加人味。他們還翻了 Caixa 博物館的館藏，發現銀行過去常委託巴西藝術家創作，於是把這個傳統找回來，建立全國藝術家資料庫來畫新插畫。對工作室的啟發是：客戶的歷史檔案常常藏著現成的品牌語彙。"
+        },
+        {
+          "title": "How Without brought boutique hospitality to a £1bn corporate monolith",
+          "url": "https://www.designweek.co.uk/how-without-brought-boutique-hospitality-to-a-1bn-corporate-monolith/",
+          "source": "Design Week",
+          "lang": "EN",
+          "studio_related": false,
+          "summary": "倫敦西敏一棟 10 億英鎊的辦公開發案 105 Victoria Street，開發商 BGO 沒找傳統不動產行銷公司，而是找了專做旅宿和高端健身俱樂部的品牌公司 Without。他們的判斷是：疫情後的辦公室必須「值得人通勤過來」，所以重點不是講規模，而是講待在裡面的感覺。整個品牌用「會員制」當組織概念，借用私人俱樂部的做法，讓識別延伸到服務、語言和空間；基地前身是陸海軍合作社，於是在制服裡放進卡其色呼應歷史。字標把「105」藏在 Victoria Street 字樣裡，低調到要細看才發現，像精品旅館那樣不在每個接觸點放大 logo。這是「跨產業借語言」的好例子。"
+        }
+      ],
+      "buzz": "Brand 圈這兩天兩個大型金融品牌同時翻新，做法都是不動招牌資產、只加一層新的表現語彙，延續最近「微調而非大改」的風氣。另一條線是空間與實體體驗：辦公大樓借用會員俱樂部的語言，品牌快閃店改成融入既有的市場和社區。最值得工作室收藏的則是一篇設計侵權實務文，講清楚參考和抄襲的界線在哪。"
+    },
+    "highlights": {
+      "summary": [
+        "改成可逆的小賭注",
+        "把「質疑 brief」變成收費的調查階段",
+        "保住舊資產、只加新語彙"
+      ],
+      "product": [
+        "剩下的價值是判斷力、直覺",
+        "把前期調查寫進合約"
+      ],
+      "brand": [
+        "不動招牌資產、只加一層新的表現語彙",
+        "參考和抄襲的界線在哪"
+      ]
+    },
+    "brand_cases": [
+      {
+        "title": "覚悟決めて売る! 老舗石けんメーカーがこだわる“クリーン”なモノづくり",
+        "title_zh": "下定決心自己賣！百年石鹼廠堅持的「乾淨」製造",
+        "url": "https://monoist.itmedia.co.jp/mn/articles/2409/19/news004.html",
+        "source": "MONOist（ITmedia，長島清香）",
+        "lang": "日文",
+        "published": "2024-09",
+        "category": "策略抉擇",
+        "brand_name": "木村石鹸（大阪八尾的百年石鹼廠，SOMALI、12/JU-NI）",
+        "consultant": "木村祥一郎（第四代社長，自家操刀）",
+        "partial": false,
+        "cover_image": "https://image.itmedia.co.jp/mn/articles/2409/19/cover_news004.jpg",
+        "story": {
+          "problem": "木村石鹸是 1924 年創業的大阪老牌石鹼廠，長年幫別人代工（OEM）浴廁、廚房和衣物清潔劑。木村祥一郎 2013 年回家族企業時，營收已經連續 7、8 年持平，而且約 70% 營收只靠 2 家代工客戶。通縮時期客戶要求價格不漲、性能還要升級，原料又一直漲，利潤率越來越差。",
+          "approach": "木村先回頭檢討一個失敗案例：一款價格偏高但對手部溫和的石鹼系廚房清潔劑，品質有自信，透過代工上架卻完全賣不動。他的結論是問題不在產品，而在「賣」：公司從企劃到研發全包，偏偏最後一哩沒有下定決心自己做。於是 2015 年成立自有品牌、自己開拓通路，當年那款賣不動的清潔劑就成了第一個品牌 SOMALI 的主力商品。之後再讓研發人員自己企劃、專攻頭髮困擾的 12/JU-NI，先用 Makuake 群眾募資試水溫。",
+          "result": "自有品牌不但沒有吃掉代工生意，反而讓代工營收一起成長：代工客戶從 2 家分散到 10 多家，自有品牌和代工各佔約 40% 營收，以利潤計算自有品牌已經是主業。年輕人也開始來應徵，連續 7 年招募應屆畢業生。",
+          "takeaway": "給代工型客戶提案時，可以把自有品牌定位成「技術的展示櫥窗」，而不是跟代工對立的新事業，這能大幅降低老闆的心理門檻。另外，客戶倉庫裡「品質好卻賣不動」的商品，常常是最適合拿來當新品牌第一號商品的素材。"
+        },
+        "guide": [
+          {
+            "heading": "一家做了幾十年代工的百年石鹼廠",
+            "body": "木村石鹸位在大阪八尾，大正 13 年（1924 年）創業，2024 年剛滿 100 週年。創業時做的是化妝皂、固體洗衣皂和洗衣粉，戰後轉進家用市場，做浴室、廁所、廚房專用的清潔劑，之後很長一段時間以 OEM 代工為主業。文章一開頭就點出這篇想講的角度：一般說代工廠做自有品牌，劇本都是「為了利潤率脫離代工、代工比重慢慢縮小」，但木村石鹸是兩邊共存、互相拉抬的例子。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://image.itmedia.co.jp/mn/articles/2409/19/tiketani_makuake2409_fig04_w590.jpg",
+              "caption": "木村石鹸為 100 週年新開發的固體皂「木村石鹸の木村石鹸」"
+            }
+          },
+          {
+            "heading": "兩個理由：利潤率崩壞，和「好東西不一定賣得掉」",
+            "body": "木村祥一郎原本在 IT 新創做商品開發和行銷，2013 年回到家族企業，2016 年接任第四代社長。他說決定做自有品牌有兩個理由。第一是利潤率：回來前 7、8 年營收幾乎持平，約 70% 營收集中在 2 家代工客戶。通縮時期很難漲價，客戶卻要求每次都要有新功能、新效果，價格往下、性能往上，原料費又一路漲，只能硬吞。第二個理由更關鍵：他們曾經透過代工推出一款價格稍高、但對手部溫和的石鹼系廚房清潔劑，是自信之作，結果完全賣不動。木村反覆想原因，既然品質沒問題，那就是賣法和通路出了問題。",
+            "quote_ja": "自社で企画から開発まで全部担当していながら、最後の「売る」という部分を覚悟を決めてやっていなかったがゆえに、低利益率に苦しんでいたのです。",
+            "quote_zh": "明明從企劃到研發全都自己來，卻沒有下定決心把最後「賣」這一段也扛起來，所以才一直被低利潤率折磨。"
+          },
+          {
+            "heading": "賣不動的商品，變成第一個品牌的主力",
+            "body": "結論是自己開拓通路、用自有品牌把營收做起來。2015 年他們成立第一個自有品牌 SOMALI（そまり），而當年那款透過代工賣不掉的廚房清潔劑，現在就是 SOMALI 的廚房用洗劑。同一個產品，換了一個願意好好說明它價值的品牌和通路，命運就不一樣了。這段對顧問很有啟發：診斷客戶時，「品質好但賣不好」的商品不是失敗品，常常是新品牌最好的起點。",
+            "quote_ja": "",
+            "quote_zh": ""
+          },
+          {
+            "heading": "意外的結果：代工生意反而變好了",
+            "body": "木村原本預期，既然是因為代工利潤差才做自有品牌，代工應該會慢慢縮小。沒想到隨著自有品牌成長，代工營收也跟著上升。他推測是自有品牌讓公司的技術「被看見」，詢問變多了。過去的代工比較像下游承包，照客戶通路的價格帶做商品；現在則常有客戶是先了解木村石鹸，再來說「一起做新商品吧」。原本依賴 2 家的代工，也分散到 10 多家，經營穩定多了。",
+            "quote_ja": "一番驚いたのは、OEM事業の売り上げが伸びたことです。",
+            "quote_zh": "最讓我驚訝的，是代工事業的營收居然成長了。"
+          },
+          {
+            "heading": "12/JU-NI：讓研發人員自己做品牌",
+            "body": "後來的護髮品牌 12/JU-NI（ジューニ）是公司研發人員親自企劃、專門解決頭髮困擾的品牌。在 Makuake 群眾募資時原本只打算做預購，因為反應熱烈才決定正式上市，現在已是自有品牌裡營收最大的一支。自有品牌和代工的營收比例各約 40%，而且自有品牌利潤率高出許多，以利潤來看，公司主業已經從代工轉向自有品牌。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://image.itmedia.co.jp/mn/articles/2409/19/tiketani_makuake2409_fig02_w590.jpg",
+              "caption": "研發人員企劃的護髮品牌 12/JU-NI 商品"
+            }
+          },
+          {
+            "heading": "看得見的商品，帶來年輕人",
+            "body": "自有品牌的另一個效果是招募。木村說，做幕後代工時，外人看不懂公司在做什麼，只覺得是一間普通的町工廠；現在員工企劃的商品出現在自己的生活裡，形象一下子具體起來。公司已經連續 7 年招募應屆畢業生。這點很適合放進給中小企業的品牌提案裡：品牌不只對消費者有用，也是徵才工具。",
+            "quote_ja": "裏方だとどうしても、何をやっているかよく分からない、ただの町工場にしか見えないのが、",
+            "quote_zh": "做幕後的時候，外人總是看不懂我們在做什麼，看起來就只是一間普通的町工廠。"
+          },
+          {
+            "heading": "名叫「石鹸」卻沒有固體皂：100 週年的補課",
+            "body": "有趣的是，公司叫木村石鹸，產品線裡卻一直沒有固體皂。對他們來說石鹼是粉狀或液體，但一般人想到石鹼就是方塊或圓形的肥皂。為了補上這個落差，他們在 100 週年推出「木村石鹸の木村石鹸」，堅持不靠添加各種成分，只用油脂配方做出特色：以橄欖油和乳油木果脂混合、加椰子油幫助起泡，並捨棄平常的釜焚製法，改用不加熱、靠反應熱慢慢硬化的「枠練りコールド製法」來保留油脂特性。這段可以看成「理念落地」：用一個商品把公司名稱和品牌承諾對齊。",
+            "quote_ja": "",
+            "quote_zh": "",
+            "image": {
+              "url": "https://image.itmedia.co.jp/mn/articles/2409/19/tiketani_makuake2409_fig03_w590.jpg",
+              "caption": "「木村石鹸の木村石鹸」固體皂的成品與包裝"
+            }
+          },
+          {
+            "heading": "下一步：不是無限擴張品牌，而是更好的代工",
+            "body": "談到未來，木村反而說不打算一直擴大自有品牌，而是想多做「像合作夥伴一樣、一起做才有意義」的代工，包括進入自己沒有知識的特定產業領域。公司口號是「くらし、気持ち、ピカピカ」（生活、心情都亮晶晶），意思是不只讓東西變乾淨，使用這些產品本身也要讓人覺得舒服，所以公司自己也必須是乾淨的。整篇的脈絡是：自有品牌不是終點，而是把代工從「承包」升級成「共創」的槓桿。",
+            "quote_ja": "",
+            "quote_zh": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "daily_summary": "今天兩邊剛好在講同一件事：AI 時代作者是誰、品牌靠什麼被認出來。Product 這邊有篇好文拿動畫史拆解「用了 AI 還算不算你的作品」，結論是作者性一直都在決策裡；Brand 這邊 FutureBrand 直接宣告靜態識別系統過時、品牌要設計成會自己判斷的「行為」，而 Byron 的翻新則示範了先做體檢、再收斂菜單和識別的扎實做法。",
     "jenny_wen": {
@@ -1483,192 +1663,6 @@
           {
             "heading": "下一步：連飲食文化一起賣，把人帶回產地",
             "body": "海外營收目前只占幾個百分點，但新工廠即將完工，正準備全面拓展海外。他們的策略是連飲食文化一起賣，因為海外客人會問為什麼在日本、為什麼在山中製造。因此他們仔細說明品牌由來和加賀、山中的歷史，也希望一併推廣山中漆器和九谷燒。具體行動包括與海外代理商規劃產業觀光和工藝產地套裝行程，以多語言、多幣別的跨境電商為主軸，並在舊金山和香港推展。文章把他的海外策略歸納為重視信任勝過效率。"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-10-31",
-    "daily_summary": "今天 Product 圈最值得看的是 NN/g 的提醒：AI 原生開發藍圖只把 UX 當成餵給 AI 的背景資料，卻沒留位置給研究和評估，所以設計師要主動認領判斷權。Brand 這邊，Trustpilot 和 White & Case 兩個大案都在示範同一招：把品牌最核心的東西拆成一套系統，而不只是換一個 logo，接品牌案時很可以拿來當提案參考。",
-    "jenny_wen": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "lenny": {
-      "has_content": false,
-      "title": "",
-      "url": "",
-      "summary": ""
-    },
-    "product": {
-      "articles": [
-        {
-          "title": "The Role of UX in Agentic Software Factories",
-          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "Anthropic、Google、OpenAI 提出的 AI 原生開發流程，把 UX 縮減成提供給 AI 的脈絡，沒有給它明確的階段或審核關卡。作者指出 UX 其實有三項工作：決定什麼值得做、評估做出來的成果、為 AI 提供脈絡，而藍圖只涵蓋最後一項。文中舉例：新功能採用率低，系統監控卻一切正常，真正原因是標籤不清，而上線前也沒找真實使用者測過。實務建議包括設計以使用者需求為核心的 intent.md 範本、明定哪些變更必須由 UX 審查、把放棄率和客服工單納入監控。對工作室來說，這是向客戶說明「AI 時代為什麼還需要設計顧問」的好論據。"
-        },
-        {
-          "title": "Experience Design: Dropping the “User” from “User Experience”",
-          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/",
-          "source": "Nielsen Norman Group",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 代理開始替人操作產品後，「使用者就是人」的假設被打破，NN/g 因此主張用「體驗設計」這個更廣的名稱，但成功標準仍是人有沒有達成目標。範圍分三類：人使用產品、代理使用系統、人與代理協作。問題最常出在交接處，例如代理幫忙訂機票時要求登入航空公司網站，使用者卻因內建瀏覽器無法使用密碼管理工具而卡住。作者建議把人機當成一個整體來測試，並讓人能檢視和撤銷代理的行動。"
-        },
-        {
-          "title": "The people using AI should set its strategy",
-          "url": "https://uxdesign.cc/the-people-using-ai-should-set-its-strategy-473c7f2ebb94",
-          "source": "UX Collective",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "作者提出「評估落差」：批准採購工具的人，和看得出輸出錯在哪的人，往往不是同一個。開場例子是研究員丟 12 份逐字稿給工具，因為親自訪過其中 6 場，一分鐘內就認出某句引述根本沒人說過，談合約的主管卻看不出來。文中引用多份數據，例如 UX Tools 調查有 59.1% 設計師半年內用 AI 自製過工具。結論是策略應該由實際使用者負責，營運團隊負責把選擇變安全的基礎工作；衡量標準也該從座位數改成「有多少結論經得起回查」。"
-        },
-        {
-          "title": "Unearned confidence: when AI makes design look finished",
-          "url": "https://medium.com/design-bootcamp/unearned-confidence-why-ai-speed-is-breaking-the-design-thought-process-aacb93a9e3e9",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "AI 產出的原型看起來很完整，但那份自信不一定是思考換來的。作者比較長期用 Claude Code 和回到 Figma 的感受：直接操作畫面時，每個改動都會引出新問題；和 AI 協作則常要把腦中的決定翻譯成文字，反而像在繳思考稅。文中舉代理更動雲端設定的確認畫面為例，兩個按鈕看起來合理，卻沒回答為什麼此時要批准、被拒絕後怎麼辦、收到請求的人有沒有權限。提醒我們驗收 AI 原型時，要看背後的決定，不是只看畫面。"
-        },
-        {
-          "title": "Building rubrics for AI agents: a starter guide for designers and researchers",
-          "url": "https://medium.com/design-bootcamp/building-rubrics-for-ai-agents-a-starter-guide-for-designers-and-researchers-68227b3bc6b0",
-          "source": "Bootcamp",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "代理的體驗越來越取決於它自己做什麼決定，而評估只能獎勵評分規則明確寫出來的事，所以設計師和研究員應該參與寫規則。作者把 rubric 定義成評分合約：哪些行為算數、可用什麼證據、每種情況怎麼計分，而資訊不足時要單獨標成「無法判斷」。文中用多個情境說明「感覺可以」的陷阱，例如只修一條規則卻悄悄濾掉多數房源，或答案碰巧正確但中間步驟其實失敗。這是設計師可以馬上用的入門框架。"
-        }
-      ],
-      "buzz": "這兩天的討論都圍繞著同一個問題：AI 把開發流程加速後，判斷品質的人站在哪裡。NN/g 指出開發藍圖遺漏了研究與評估，UX Collective 主張工具策略該交給看得出錯誤的實際使用者，Bootcamp 則提醒精緻原型會掩蓋沒想清楚的決定。共同結論是設計師的價值正從畫畫面移向定義什麼叫做好。"
-    },
-    "brand": {
-      "articles": [
-        {
-          "title": "Trustpilot reveals new brand identity by Further",
-          "url": "https://www.designweek.co.uk/trustpilot-reveals-new-brand-identity-by-further/",
-          "source": "Design Week",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "倫敦 Further 把 Trustpilot 用了近 20 年的綠色星星拆成模組：星星的角度變成排列、縮放和動態的結構格線，用來處理桌機版和商家嵌入元件上的評論內容。另外設計「訊號元件」來框出關鍵評論和驗證資訊，攝影改成溫暖、不擺拍的紀實風格，字體是 Trustpilot Sans，新口號是 Take everyone else’s word for it。策略上，品牌要從被動的評分徽章，轉成連結消費者感受與商業洞察的平台。很好的示範：不換掉高辨識資產，而是讓它長成一套系統。"
-        },
-        {
-          "title": "Energy drives Uncommon Creative Studio’s rebrand of White & Case",
-          "url": "https://www.creativereview.co.uk/white-and-case-rebrand-uncommon-creative-studio/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": false,
-          "summary": "這是 White & Case 13 年來第一次品牌重塑，由新領導團隊發起，目的是跳脫法律業的同質化。策略核心是不迴避「複雜」，而把它當成專長，定位成能在高風險情境挺身而出的角色。字標捨棄無襯線體，改為靈感來自圖拉真柱和羅馬碑文的客製字體；還有自製影像工具 Energy Studio 和主色 Catalyst Blue。值得學的是把客戶最難解釋的特質轉成品牌主張。"
-        },
-        {
-          "title": "From wax seals to postal stamps, Aplomb perfume’s packaging has the intimacy of a handwritten letter",
-          "url": "https://www.itsnicethat.com/articles/studio-lotta-nieminen-aplomb-branding-project-291026",
-          "source": "It's Nice That",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "赫爾辛基的 Studio Lotta Nieminen 替香水品牌 Aplomb 定下一個概念：每瓶香水都是寫給某人的信，因為每款都以一位真實的人為靈感。難處在於信件質感溫暖，卻容易變得太手作、不夠高級。團隊原本想用火漆封口，覺得太直白，改把蠟滴造型做在瓶蓋上；每款還有放在凹壓邊框裡的專屬插畫郵票。這是小型工作室處理隱喻的好範例：概念留下來，但表現手法往回收一步。"
-        },
-        {
-          "title": "Why Studio Atipus designed a wine label to look like it's been shot from a speeding train",
-          "url": "https://www.creativeboom.com/work/why-studio-atipus-designed-a-wine-label-to-look-like-its-been-shot-from-a-speeding-train/",
-          "source": "Creative Boom",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "製酒商 Maria Rigol Ordi 以卡瓦氣泡酒聞名，這款 Vinya Llarga 是第一款靜態葡萄酒。Atipus 直接從酒名下手：它在加泰隆尼亞語的意思是「長長的葡萄園」，於是用環繞瓶身的黃綠藍橫向條紋做出火車窗外的動態模糊，到背標才聚焦成綠葉。文字克制地排在上下，再用蠟封帶出手工感。對小品牌包裝案很實用：名字本身常常就是最省力的概念來源。"
-        },
-        {
-          "title": "The Monthly Interview: Kirsten Rutherford",
-          "url": "https://www.creativereview.co.uk/the-monthly-interview-kirsten-rutherford/",
-          "source": "Creative Review",
-          "lang": "EN",
-          "studio_related": true,
-          "summary": "DoorDash 執行創意總監 Kirsten Rutherford 談為什麼離開廣告代理商、進到品牌內部帶創意工作室 Superette：這樣能更早看到商業機會，讓創意直接回應業務問題。她認為內部團隊懂業務，外部夥伴則有距離感和不同視角，關鍵是責任劃清楚，彼此能挑戰又不互斥。對工作室來說，這是了解品牌方怎麼看外部夥伴的好窗口，也提醒我們提案時要帶進內部團隊沒有的視角。"
-        }
-      ],
-      "buzz": "這兩天的大案有個共同方向：不只換標誌，而是把品牌的核心資產變成一套能運作的系統。Trustpilot 把星星拆成格線和動態規則，White & Case 把複雜變成品牌主張。小案則是另一種功夫，Aplomb 和 Vinya Llarga 都從一個簡單概念出發，再靠工藝細節撐起質感。"
-    },
-    "highlights": {
-      "summary": [
-        "卻沒留位置給研究和評估",
-        "把品牌最核心的東西拆成一套系統"
-      ],
-      "product": [
-        "判斷品質的人站在哪裡",
-        "精緻原型會掩蓋沒想清楚的決定",
-        "從畫畫面移向定義什麼叫做好"
-      ],
-      "brand": [
-        "把品牌的核心資產變成一套能運作的系統",
-        "靠工藝細節撐起質感"
-      ]
-    },
-    "brand_cases": [
-      {
-        "title": "「潰れたって聞いたよ」　倒産寸前から年商2.5億円へ、二度の経営危機を乗り越えた「トタンバケツメーカー」",
-        "title_zh": "「聽說你們倒了」：從瀕臨倒閉到年營收 2.5 億日圓，撐過兩次經營危機的鍍鋅鐵桶工廠",
-        "url": "https://www.itmedia.co.jp/business/articles/2606/18/news022.html",
-        "source": "ITmedia ビジネスオンライン",
-        "lang": "日文",
-        "published": "2026-06",
-        "category": "推廣通路",
-        "brand_name": "渡辺金属工業（OBAKETSU／オバケツ，姬路鍍鋅鐵桶工廠）",
-        "consultant": "無外部顧問，由第 4 代社長渡辺政雄親述自家品牌經營",
-        "partial": false,
-        "cover_image": "https://image.itmedia.co.jp/business/articles/2606/18/cover_news022.jpg",
-        "story": {
-          "problem": "1923 年創業的渡辺金属工業，1970 年代因塑膠桶普及，員工從 20 人減少，年營收跌到 500 萬日圓。靠 OBAKETSU 回升到最高 2 億日圓後，2000 年前後又被海外仿品和百元商店類似品打到只剩 5000 萬日圓。更糟的是商品透過批發商流通，目錄還換上批發商的 logo，市場幾乎不知道這個品牌。",
-          "approach": "第 4 代渡辺政雄 2006 年回家業，2007 年用手工搭的攤位第一次參加東京國際禮品展，並聽從前輩建議持續參展。他從來客最常問的「這個桶要裝什麼」和一位女性說想要好看的米桶，看出問題在用途。接著結合 30 年前做過的米桶技術，把「什麼都能裝的桶」改成用途明確的商品。此後每年推新品，並保留全程手工、不借款、能自己做就自己做的經營方式。",
-          "result": "2011 年 Rice Stocker（ライスストッカー）在展會競賽得到準大獎，生協訂單從 100 個增加到 1000 個，累計賣出 70 萬個。現在產品有 80 種，公司 13 人、年營收 2.5 億日圓；2023 年再推新系列 TUB。",
-          "takeaway": "第一，客戶若靠通路代賣，品牌診斷時要先問「終端客戶到底知不知道你」，這家公司的問題不只是產品，更是沒有自己的聲音。第二，傳統材料的老產品，可以從展場和客人最常問的問題找定位，把通用品改成明確用途。第三，老闆自己的話最有力，可以幫他整理成能在展場和官網講的故事。"
-        },
-        "guide": [
-          {
-            "heading": "日本最後的鍍鋅鐵桶專門廠",
-            "body": "故事從 7-Eleven 門口的鐵製傘架說起，做它的是姬路一家 13 人小工廠渡辺金属工業。根據公司說法，它是日本僅存的鍍鋅鐵桶專門廠。這種桶耐用、比外觀看起來輕，但價格高。文章要回答的問題是：一家做夕陽產品的工廠，怎麼兩度差點關門又活下來。"
-          },
-          {
-            "heading": "第一次危機：媽媽看美劇想到的點子",
-            "body": "昭和時期不必推銷也賣得動，1970 年代塑膠桶一普及，需求急遽下滑，原本 20 名員工陸續離開，年營收只剩 500 萬日圓，連人事費都付不出來。父親說出想收掉公司時，母親從美劇裡的垃圾桶得到靈感：如果桶子好看到可以放在家裡，就能當室內雜貨賣。父母花 1 到 2 年試作，1978 年做出 OBAKETSU。命名是在「桶」（バケツ）前加上敬語的「お」，讓實用品多一點親切感。"
-          },
-          {
-            "heading": "直闖東急ハンズ，標籤上的電話成了業務",
-            "body": "1983 年，父親聽說東急ハンズ（生活雜貨連鎖）關西一號店開幕，直接抱著桶子排到收銀台前請店員進貨，採購當場決定上架。意外的是，母親自製的標籤上印了電話，各地雜貨店採購看到後直接打來工廠，店頭商品變成最好的業務員。銷路因此擴及全國，幾年內年營收最高達 2 億日圓。",
-            "image": {
-              "url": "https://image.itmedia.co.jp/business/articles/2606/18/kuma_obaketsu06.jpg",
-              "caption": "OBAKETSU 初期的標籤，左下角小字印著工廠電話"
-            }
-          },
-          {
-            "heading": "第二次危機與最痛的一句話",
-            "body": "2000 年前後，海外仿品和百元商店類似品湧入，年營收掉到高峰的四分之一。渡辺政雄原本在東京的函授教育公司做型錄與設計，2006 年回家業，把東京租屋處當營業所。他對業務和材料都不懂，談生意時常要躲到大樓角落打給父親問意思；跑了幾個月，第一張訂單是 1 個桶、5000 日圓，對方還是已申請重整的公司。2007 年首次參加禮品展時，他才發現真相：批發商把目錄換成自己的 logo，品牌根本沒被市場認識，還有人問是不是中國製。",
-            "quote_ja": "オバケツってまだあったんだ。潰れたって聞いたよ",
-            "quote_zh": "OBAKETSU 還在啊？我聽說你們倒了。"
-          },
-          {
-            "heading": "從「什麼都能裝」到「就是拿來裝米」",
-            "body": "有參展者建議他，要取得採購信任至少連續參展 3 年，他便繼續投入。展場上最常被問的是「這個桶要裝什麼」。在家閒聊時，母親的朋友說想要好看的米桶，而公司約 30 年前做過後來停產的方形米桶，鐵材不透光、能抑制濕氣、耐鏽又可水洗，條件剛好符合。2011 年 Rice Stocker 在展會競賽拿下準大獎，但他原本看好的其實是附面紙盒的款式。得獎通知來時，他正好在和生協採購洽談，訂單當場成立，從 100 個增加到 200 個，幾個月後達 1000 個。後續的蔬菜桶、尿布除臭桶、蚊香桶也延續同一思路，產品線到 2026 年有 80 種。",
-            "quote_ja": "自分たちの言葉で商品の価値を伝えなければ",
-            "quote_zh": "我們必須用自己的話，把商品的價值說出來。",
-            "image": {
-              "url": "https://image.itmedia.co.jp/business/articles/2606/18/kuma_obaketsu09.jpg",
-              "caption": "人氣商品 Rice Stocker（ライスストッカー）米桶"
-            }
-          },
-          {
-            "heading": "不借錢、自己來，還有下一步",
-            "body": "公司創業百年來維持無借款經營。泡沫經濟時期，父親拒絕超出能力的投資，靠賣桶的利潤添購機器；連修機器、抹工廠地板都盡量自己做，因為他們認為整理工具和環境也是製造的一部分。OBAKETSU 由 6 名職人經 20 到 40 道工序手工完成，學會要 5 到 6 年，人手不足因此是眼前最大課題。2023 年百週年時，由渡辺的太太主導推出傘架、托盤等新系列 TUB，公司預期它未來能和 OBAKETSU 各佔一半。",
-            "quote_ja": "自分たちができる範囲内でやる。",
-            "quote_zh": "只做自己能力範圍內的事。",
-            "image": {
-              "url": "https://image.itmedia.co.jp/business/articles/2606/18/kuma_obaketsu16.jpg",
-              "caption": "為百週年開發的新系列 TUB"
-            }
           }
         ]
       }
